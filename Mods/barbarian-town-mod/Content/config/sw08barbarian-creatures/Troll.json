@@ -1,55 +1,61 @@
 {
-	"sw08barbarianTroll":
-	{
-"name" :{"plural" : "Trolls","singular" : "Troll"},
-		"advMapAmount" :
-		{
-			"max" : 10,
-			"min" : 7
+	"sw08barbarianTroll" : {
+		"name" : {
+			"singular" : "Troll",
+			"plural" : "Trolls"
 		},
-
-"upgrades":
-["sw08barbarianWarTroll"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08barbarianfaction",
-		"aiValue" : 585,
-		"attack" : 10,
-
-		"cost" :
-		{
+		"level" : 6,
+		"cost" : {
 			"gold" : 500
 		},
-		"damage" :
-		{
-			"max" : 9,
-			"min" :7
-		},
+		"speed" : 5,
+		"hitPoints" : 45,
+		"shots" : 8,
+		"attack" : 10,
 		"defense" : 5,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
+		},
 		"fightValue" : 551,
-		"graphics" :
-		{
-			"animation" : "sw08barbarian-creatures/battle/c094trol",
-			"map" : "sw08barbarian-creatures/map/avwcycl0",
+		"aiValue" : 585,
+		"advMapAmount" : {
+			"min" : 7,
+			"max" : 10
+		},
+		"growth" : 3,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08barbarianWarTroll"
+		],
+		"abilities" : {
+			"ability1" : {
+				"type" : "SHOOTER"
+			},
+			"ability2" : {
+				"type" : "HP_REGENERATION"
+			},
+			"ability3" : {
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:96",
 			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:96",
-			
+			"map" : "sw08barbarian-creatures/map/avwcycl0",
+			"animation" : "sw08barbarian-creatures/battle/c094trol",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08barbarian-creatures/battle/PCYCLBX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 30,
 					"upperY" : -70,
 					"middleX" : 50,
@@ -58,32 +64,16 @@
 					"lowerY" : -70
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 5
+				"attackClimaxFrame" : 5
 			}
-			
 		},
-
-		"growth" : 3,
-		"hitPoints" : 45,
-		"horde" : 0,
-              	"level" : 6,
-		"shots" :8,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08barbarian/troll/CCYCATTK.wav",
 			"defend" : "sw08barbarian/troll/CCYCDFND.wav",
 			"killed" : "sw08barbarian/troll/CCYCKILL.wav",
 			"move" : "sw08barbarian/troll/CCYCMOVE.wav",
 			"wince" : "sw08barbarian/troll/CCYCWNCE.wav",
-                     	"shoot" : "sw08barbarian/troll/CCYCSHOT.wav"
-		},
-		"speed" : 5,
-		"abilities" :
-		{
-"ability1":{"type" : "SHOOTER"},
-"ability2":
-{"type" : "HP_REGENERATION" },
-"ability3":{"type" : "NO_MELEE_PENALTY"}					
+			"shoot" : "sw08barbarian/troll/CCYCSHOT.wav"
 		}
 	}
 }

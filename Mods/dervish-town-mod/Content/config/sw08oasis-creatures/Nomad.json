@@ -1,53 +1,55 @@
 {
-	"sw08oasisNomad":
-	{
-"name" :{"plural" : "Nomads","singular" : "Nomad"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 12
+	"sw08oasisNomad" : {
+		"name" : {
+			"singular" : "Nomad",
+			"plural" : "Nomads"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "sw08oasisfaction",
-		"aiValue" : 330,
-		"attack" :7,
-
-		"cost" :
-		{
+		"level" : 3,
+		"cost" : {
 			"gold" : 250
 		},
-		"damage" :
-		{
-			"max" : 5,
-			"min" : 2
-		},
+		"speed" : 8,
+		"hitPoints" : 25,
+		"shots" : 0,
+		"attack" : 7,
 		"defense" : 6,
+		"damage" : {
+			"min" : 2,
+			"max" : 5
+		},
 		"fightValue" : 315,
-		"graphics" :
-		{
-			"animation" : "sw08oasis-creatures/battle/c122noma",
-			"map" : "sw08oasis-creatures/map/AVWicee",
+		"aiValue" : 330,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		},
+		"growth" : 6,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			// "ability1" : {
+			// 	"type" : "MOVEMENT",
+			// 	"subtype" : "heroMovementLand",
+			// 	"valueType" : "ADDITIVE_VALUE",
+			// 	"val" : 300
+			// }
+		},
+		"graphics" : {
 			"iconSmall" : "sw08oasis-creatures/cprsmall.def:124",
 			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:124",
-			
+			"map" : "sw08oasis-creatures/map/AVWicee",
+			"animation" : "sw08oasis-creatures/battle/c122noma",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,31 +58,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 12
+				"attackClimaxFrame" : 12
 			}
-			
 		},
-
-		"growth" : 6,
-		"hitPoints" : 25,
-		"horde" : 0,
-              	"level" : 3,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"nomad/WELMATTK.wav",
-"defend" :"nomad/WELMDFND.wav",
-"killed" :"nomad/WELMKILL.wav",
-"move" :"nomad/WELMMOVE.wav",
-"wince" :"nomad/WELMWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" :8,
-		"abilities" :
-		{
-//"ability1":{"type" : "MOVEMENT", "subtype" : "heroMovementLand", "valueType" : "ADDITIVE_VALUE","val" : 300}
-					
+		"sound" : {
+			"attack" : "nomad/WELMATTK.wav",
+			"defend" : "nomad/WELMDFND.wav",
+			"killed" : "nomad/WELMKILL.wav",
+			"move" : "nomad/WELMMOVE.wav",
+			"wince" : "nomad/WELMWNCE.wav",
+			"shoot" : ""
 		}
 	}
 }

@@ -1,53 +1,52 @@
 {
-	"sw08knightVeteranPikeman":
-	{
-"name" :{"plural" : "Veteran Pikemen","singular" : "Veteran Pikeman"},
-		"advMapAmount" :
-		{
-			"max" : 20,
-			"min" : 14
+	"sw08knightVeteranPikeman" : {
+		"name" : {
+			"singular" : "Veteran Pikeman",
+			"plural" : "Veteran Pikemen"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08knight",
-		"aiValue" : 324,
-		"attack" : 6,
-
-		"cost" :
-		{
+		"level" : 3,
+		"cost" : {
 			"gold" : 200
 		},
-		"damage" :
-		{
-			"max" : 4,
-			"min" : 3
-		},
+		"speed" : 6,
+		"hitPoints" : 20,
+		"shots" : 0,
+		"attack" : 6,
 		"defense" : 7,
+		"damage" : {
+			"min" : 3,
+			"max" : 4
+		},
 		"fightValue" : 364,
-		"graphics" :
-		{
-			"animation" : "sw08knight-creatures/battle/c005upik",
-			"map" : "sw08knight-creatures/map/AVWgrix0",
+		"aiValue" : 324,
+		"advMapAmount" : {
+			"min" : 14,
+			"max" : 20
+		},
+		"growth" : 6,
+		"horde" : 3,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "CHARGE_IMMUNITY"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08knight-creatures/cprsmall.def:7",
 			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:7",
-			
+			"map" : "sw08knight-creatures/map/AVWgrix0",
+			"animation" : "sw08knight-creatures/battle/c005upik",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -55,33 +54,9 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 8
+				"frameAngles" : [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
+				"attackClimaxFrame" : 8
 			}
-			
-		},
-
-		"growth" : 6,
-		"hitPoints" : 20,
-		"horde" : 3,
-              	"level" : 3,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08knight/veteran pikeman/rgrfATTK.wav",
-"defend" :"sw08knight/veteran pikeman/rgrfDFND.wav",
-"killed" :"sw08knight/veteran pikeman/rgrfKILL.wav",
-"move" :"sw08knight/veteran pikeman/rgrfMOVE.wav",
-"wince" :"sw08knight/veteran pikeman/rgrfWNCE.wav",
-//"shoot" :"sw08knight/"
-
-},
-		"speed" : 6,
-		"abilities" :
-		{
-
-"ability1":{	"type" : "CHARGE_IMMUNITY"}
-					
 		}
 	}
 }

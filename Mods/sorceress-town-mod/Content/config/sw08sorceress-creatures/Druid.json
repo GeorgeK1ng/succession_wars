@@ -1,54 +1,55 @@
 {
-	"sw08sorceressDruid":
-	{
-"name" :{"plural" : "Druids","singular" : "Druid"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 10
+	"sw08sorceressDruid" : {
+		"name" : {
+			"singular" : "Druid",
+			"plural" : "Druids"
 		},
-"upgrades":
-["sw08sorceressGreaterDruid"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08sorceressfaction",
-		"aiValue" : 422,
-		"attack" : 7,
-
-		"cost" :
-		{
+		"level" : 5,
+		"cost" : {
 			"gold" : 410
 		},
-		"damage" :
-		{
-			"max" : 9,
-			"min" : 7
-		},
+		"speed" : 6,
+		"hitPoints" : 30,
+		"shots" : 8,
+		"attack" : 7,
 		"defense" : 5,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
+		},
 		"fightValue" : 413,
-		"graphics" :
-		{
-			"animation" : "sw08sorceress-creatures/battle/c022drui",
-			"map" : "sw08sorceress-creatures/map/AVWtree0",
+		"aiValue" : 422,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 25
+		},
+		"growth" : 3,
+		"horde" : 2,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08sorceressGreaterDruid"
+		],
+		"abilities" : {
+			"ability1" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:24",
 			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:24",
-			
+			"map" : "sw08sorceress-creatures/map/AVWtree0",
+			"animation" : "sw08sorceress-creatures/battle/c022drui",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08sorceress-creatures/battle/CPRZEAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,30 +58,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 13
+				"attackClimaxFrame" : 13
 			}
-			
 		},
-
-		"growth" : 3,
-		"hitPoints" : 30,
-		"horde" : 2,
-              	"level" : 5,
-		"shots" : 8,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08sorceress/druid/treeATTK.wav",
 			"defend" : "sw08sorceress/druid/treeDFND.wav",
 			"killed" : "sw08sorceress/druid/treeKILL.wav",
 			"move" : "sw08sorceress/druid/treeMOVE.wav",
 			"wince" : "sw08sorceress/druid/treeWNCE.wav",
-                     	"shoot" : "sw08sorceress/druid/treeSHOT.wav"
-		},
-		"speed" : 6,
-		"abilities" :
-		{
-"ability1":
-{"type" : "SHOOTER"}				
+			"shoot" : "sw08sorceress/druid/treeSHOT.wav"
 		}
 	}
 }

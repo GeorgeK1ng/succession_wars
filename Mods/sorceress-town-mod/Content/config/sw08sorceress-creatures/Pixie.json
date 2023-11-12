@@ -1,71 +1,60 @@
 {
-	"sw08sorceressPixie":
-	{
-"name" :{"plural" : "Sprites","singular" : "Sprite"},
-		"advMapAmount" :
-		{
-			"max" : 45,
-			"min" : 25
+	"sw08sorceressPixie" : {
+		"name" : {
+			"singular" : "Sprite",
+			"plural" : "Sprites"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08sorceressfaction",
-		"aiValue" : 36,
-		"attack" : 4,
-
-		"cost" :
-		{
+		"level" : 1,
+		"cost" : {
 			"gold" : 65
 		},
-		"damage" :
-		{
-			"max" : 2,
-			"min" : 1
-		},
+		"speed" : 8,
+		"hitPoints" : 3,
+		"shots" : 0,
+		"attack" : 4,
 		"defense" : 2,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
 		"fightValue" : 45,
-		"graphics" :
-		{
-			"animation" : "sw08sorceress-creatures/battle/c014sprt",
-			"map" : "sw08sorceress-creatures/map/AVWcent0",
-			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:16",
-			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:16",
-			
-			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
-				"walk" : 1,
-				"attack" : 1
-				
+		"aiValue" : 36,
+		"advMapAmount" : {
+			"min" : 25,
+			"max" : 45
+		},
+		"growth" : 12,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "FLYING"
+			},
+			"ability2" : {
+				"type" : "BLOCKS_RETALIATION"
 			}
 		},
-
-		"growth" : 12,
-		"hitPoints" : 3,
-		"horde" : 0,
-              	"level" : 1,
-		"shots" : 0,
-		"sound" :
-		{
+		"graphics" : {
+			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:16",
+			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:16",
+			"map" : "sw08sorceress-creatures/map/AVWcent0",
+			"animation" : "sw08sorceress-creatures/battle/c014sprt",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+			}
+		},
+		"sound" : {
 			"attack" : "sw08sorceress/pixie/CNTRATTK.wav",
 			"defend" : "sw08sorceress/pixie/CNTRDFND.wav",
 			"killed" : "sw08sorceress/pixie/CNTRKILL.wav",
 			"move" : "sw08sorceress/pixie/CNTRMOVE.wav",
 			"wince" : "sw08sorceress/pixie/CNTRWNCE.wav",
-                     	"shoot" : "sw08sorceress/pixie/CNTRSHOT.wav"
-		},
-		"speed" : 8,
-		"abilities" :
-		{
-"ability1":
-{"type" : "FLYING"},
-"ability2":
-{"type" : "BLOCKS_RETALIATION"}	
-					
+			"shoot" : "sw08sorceress/pixie/CNTRSHOT.wav"
 		}
 	}
 }

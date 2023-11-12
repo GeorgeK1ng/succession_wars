@@ -1,54 +1,60 @@
 {
-	"sw08wizardIronGolem":
-	{
-"name" :{"plural" : "Iron Golems","singular" : "Iron Golem"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 10
+	"sw08wizardIronGolem" : {
+		"name" : {
+			"singular" : "Iron Golem",
+			"plural" : "Iron Golems"
 		},
-"upgrades":
-["sw08wizardSteelGolem"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08wizardfaction",
-		"aiValue" : 392,
-		"attack" :5,
-
-		"cost" :
-		{
+		"level" : 4,
+		"cost" : {
 			"gold" : 250
 		},
-		"damage" :
-		{
-			"max" : 6,
-			"min" : 4
-		},
+		"speed" : 3,
+		"hitPoints" : 35,
+		"shots" : 0,
+		"attack" : 5,
 		"defense" : 10,
+		"damage" : {
+			"min" : 4,
+			"max" : 6
+		},
 		"fightValue" : 373,
-		"graphics" :
-		{
-			"animation" : "sw08wizard-creatures/battle/c034golm",
-			"map" : "sw08wizard-creatures/map/AVWmage0",
+		"aiValue" : 392,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 25
+		},
+		"growth" : 5,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08wizardSteelGolem"
+		],
+		"abilities" : {
+			"ability1" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 50,
+				"subtype" : "spellSchool.fire"
+			},
+			"ability2" : {
+				"type" : "NON_LIVING"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08wizard-creatures/cprsmall.def:36",
 			"iconLarge" : "sw08wizard-creatures/TWCRPORT.def:36",
-			
+			"map" : "sw08wizard-creatures/map/AVWmage0",
+			"animation" : "sw08wizard-creatures/battle/c034golm",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08wizard-creatures/battle/Phalf",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,38 +63,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 13
+				"attackClimaxFrame" : 13
 			}
-			
 		},
-
-		"growth" :5,
-		"hitPoints" : 35,
-		"horde" :0,
-              	"level" : 4,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08wizard/iron golem/SGLMATTK.wav",
-"defend" :"sw08wizard/iron golem/SGLMDFND.wav",
-"killed" :"sw08wizard/iron golem/SGLMKILL.wav",
-"move" :"sw08wizard/iron golem/sglmmove.wav",
-"wince" :"sw08wizard/iron golem/SGLMWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" :3,
-		"abilities" :
-		{
-
-"ability1":
-{"type" : "SPELL_DAMAGE_REDUCTION",
-"val" : 50,
-"subtype" : "spellSchool.fire"},
-"ability2":
-{"type" : "NON_LIVING"}
-
-					
+		"sound" : {
+			"attack" : "sw08wizard/iron golem/SGLMATTK.wav",
+			"defend" : "sw08wizard/iron golem/SGLMDFND.wav",
+			"killed" : "sw08wizard/iron golem/SGLMKILL.wav",
+			"move" : "sw08wizard/iron golem/sglmmove.wav",
+			"wince" : "sw08wizard/iron golem/SGLMWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

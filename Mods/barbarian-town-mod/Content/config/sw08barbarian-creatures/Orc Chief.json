@@ -1,53 +1,52 @@
 {
-	"sw08barbarianOrcChief":
-	{
-"name" :{"plural" : "Orc Chiefs","singular" : "Orc Chief"},
-		"advMapAmount" :
-		{
-			"max" : 30,
-			"min" : 15
+	"sw08barbarianOrcChief" : {
+		"name" : {
+			"singular" : "Orc Chief",
+			"plural" : "Orc Chiefs"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08barbarianfaction",
-		"aiValue" : 161,
-		"attack" : 3,
-
-		"cost" :
-		{
+		"level" : 2,
+		"cost" : {
 			"gold" : 170
 		},
-		"damage" :
-		{
-			"max" : 4,
-			"min" : 3
-		},
+		"speed" : 5,
+		"hitPoints" : 15,
+		"shots" : 16,
+		"attack" : 3,
 		"defense" : 4,
+		"damage" : {
+			"min" : 3,
+			"max" : 4
+		},
 		"fightValue" : 170,
-		"graphics" :
-		{
-			"animation" : "sw08barbarian-creatures/battle/c087uorc",
-			"map" : "sw08barbarian-creatures/map/AVWwolx0",
+		"aiValue" : 161,
+		"advMapAmount" : {
+			"min" : 15,
+			"max" : 30
+		},
+		"growth" : 8,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:89",
 			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:89",
-			
+			"map" : "sw08barbarian-creatures/map/AVWwolx0",
+			"animation" : "sw08barbarian-creatures/battle/c087uorc",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08barbarian-creatures/battle/PorchX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 36,
 					"upperY" : -41,
 					"middleX" : 36,
@@ -56,31 +55,16 @@
 					"lowerY" : -41
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 10
+				"attackClimaxFrame" : 10
 			}
-			
 		},
-
-		"growth" : 8,
-		"hitPoints" : 15,
-		"horde" : 0,
-              	"level" : 2,
-		"shots" :16,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08barbarian/orc chief/HGWRATTK.wav",
 			"defend" : "sw08barbarian/orc chief/HGWRDFND.wav",
 			"killed" : "sw08barbarian/orc chief/HGWRKILL.wav",
 			"move" : "sw08barbarian/orc chief/HGWRMOVE.wav",
 			"wince" : "sw08barbarian/orc chief/HGWRWNCE.wav",
-                     	"shoot" : "sw08barbarian/orc chief/HGWRSHOT.wav"
-		},
-		"speed" : 5,
-		"abilities" :
-		{
-	"ability1":
-{"type" : "SHOOTER"}
-					
+			"shoot" : "sw08barbarian/orc chief/HGWRSHOT.wav"
 		}
 	}
 }

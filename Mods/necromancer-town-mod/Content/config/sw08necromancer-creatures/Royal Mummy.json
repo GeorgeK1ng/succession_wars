@@ -1,53 +1,59 @@
 {
-	"sw08necromancerRoyalMummy":
-	{
-"name" :{"plural" : "Royal Mummies","singular" : "Royal Mummy"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 10
+	"sw08necromancerRoyalMummy" : {
+		"name" : {
+			"singular" : "Royal Mummy",
+			"plural" : "Royal Mummies"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08necromancerfaction",
-		"aiValue" : 280,
-		"attack" : 6,
-
-		"cost" :
-		{
+		"level" : 3,
+		"cost" : {
 			"gold" : 245
 		},
-		"damage" :
-		{
-			"max" : 4,
-			"min" : 3
-		},
+		"speed" : 6,
+		"hitPoints" : 30,
+		"shots" : 0,
+		"attack" : 6,
 		"defense" : 6,
+		"damage" : {
+			"min" : 3,
+			"max" : 4
+		},
 		"fightValue" : 273,
-		"graphics" :
-		{
-			"animation" : "sw08necromancer-creatures/battle/c061umum",
-			"map" : "sw08necromancer-creatures/map/AVWwigx0",
+		"aiValue" : 280,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 25
+		},
+		"growth" : 8,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [],
+		"abilities" : {
+			"ability1" : {
+				"type" : "UNDEAD"
+			},
+			"ability2" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 30,
+				"addInfo" : 0
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:63",
 			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:63",
-			
+			"map" : "sw08necromancer-creatures/map/AVWwigx0",
+			"animation" : "sw08necromancer-creatures/battle/c061umum",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08necromancer-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,37 +62,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 10
+				"attackClimaxFrame" : 10
 			}
-			
 		},
-
-		"growth" : 8,
-		"hitPoints" : 30,
-		"horde" : 0,
-              	"level" : 3,
-		"shots" : 0,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08necromancer/royal mummy/WRTHATTK.wav",
 			"defend" : "sw08necromancer/royal mummy/WRTHDFND.wav",
 			"killed" : "sw08necromancer/royal mummy/WRTHKILL.wav",
 			"move" : "sw08necromancer/royal mummy/WRTHMOVE.wav",
-			"wince" : "sw08necromancer/royal mummy/WRTHWNCE.wav",
-      //               	"shoot" : "sw08necromancer/royal mummy/WRTHSHOT.wav"
-		},
-		"speed" : 6,
-		"abilities" :
-		{
-"ability1":{"type" : "UNDEAD"},
-"ability2":
-{
-"type" : "SPELL_AFTER_ATTACK",
-"subtype" : "spell.curse",
-"val" : 30,
-"addInfo" : 0
-}	
-					
+			"wince" : "sw08necromancer/royal mummy/WRTHWNCE.wav"
+			// "shoot" : "sw08necromancer/royal mummy/WRTHSHOT.wav"
 		}
 	}
 }

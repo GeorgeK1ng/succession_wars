@@ -1,53 +1,46 @@
 {
-	"sw08barbarianGoblin":
-	{
-"name" :{"plural" : "Goblins","singular" : "Goblin"},
-		"advMapAmount" :
-		{
-			"max" : 40,
-			"min" : 25
+	"sw08barbarianGoblin" : {
+		"name" : {
+			"singular" : "Goblin",
+			"plural" : "Goblins"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08barbarianfaction",
-		"aiValue" : 35,
-		"attack" : 3,
-
-		"cost" :
-		{
+		"level" : 1,
+		"cost" : {
 			"gold" : 40
 		},
-		"damage" :
-		{
-			"max" : 2,
-			"min" : 1
-		},
+		"speed" : 5,
+		"hitPoints" : 3,
+		"shots" : 0,
+		"attack" : 3,
 		"defense" : 1,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
 		"fightValue" : 43,
-		"graphics" :
-		{
-			"animation" : "sw08barbarian-creatures/battle/c084gobl",
-			"map" : "sw08barbarian-creatures/map/AVWgobl0",
+		"aiValue" : 35,
+		"advMapAmount" : {
+			"min" : 25,
+			"max" : 40
+		},
+		"growth" : 16,
+		"horde" : 6,
+		"hasDoubleWeek" : true,
+		"graphics" : {
 			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:86",
 			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:86",
-			
+			"map" : "sw08barbarian-creatures/map/AVWgobl0",
+			"animation" : "sw08barbarian-creatures/battle/c084gobl",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08barbarian-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,31 +49,17 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 10
+				"attackClimaxFrame" : 10
 			}
-			
 		},
-
-		"growth" : 16,
-		"hitPoints" : 3,
-		"horde" : 6,
-              	"level" : 1,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08barbarian/goblin/GBLNATTK.wav",
-"defend" :"sw08barbarian/goblin/GBLNDFND.wav",
-"killed" :"sw08barbarian/goblin/GBLNKILL.wav",
-"move" :"sw08barbarian/goblin/GBLNMOVE.wav",
-"wince" :"sw08barbarian/goblin/GBLNWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 5,
-		"abilities" :
-		{
-	
-					
+		"abilities" : {},
+		"sound" : {
+			"attack" : "sw08barbarian/goblin/GBLNATTK.wav",
+			"defend" : "sw08barbarian/goblin/GBLNDFND.wav",
+			"killed" : "sw08barbarian/goblin/GBLNKILL.wav",
+			"move" : "sw08barbarian/goblin/GBLNMOVE.wav",
+			"wince" : "sw08barbarian/goblin/GBLNWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

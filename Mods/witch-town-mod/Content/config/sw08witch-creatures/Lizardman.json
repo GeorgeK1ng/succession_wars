@@ -1,54 +1,53 @@
 {
-	"sw08witchLizardman":
-	{
-"name" :{"plural" : "Lizardmen","singular" : "Lizardman"},
-		"advMapAmount" :
-		{
-			"max" : 20,
-			"min" : 10
+	"sw08witchLizardman" : {
+		"name" : {
+			"singular" : "Lizardman",
+			"plural" : "Lizardmen"
 		},
-"upgrades":
-["sw08witchLizardWarrior"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08witch",
-		"aiValue" : 187,
-		"attack" : 4,
-
-		"cost" :
-		{
+		"level" : 3,
+		"cost" : {
 			"gold" : 165
 		},
-		"damage" :
-		{
-			"max" : 4,
-			"min" : 2
-		},
+		"speed" : 4,
+		"hitPoints" : 20,
+		"shots" : 12,
+		"attack" : 4,
 		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
 		"fightValue" : 191,
-		"graphics" :
-		{
-			"animation" : "sw08witch-creatures/battle/c102liza",
-			"map" : "sw08witch-creatures/map/082/AvWLizr",
+		"aiValue" : 187,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"growth" : 7,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : ["sw08witchLizardWarrior"],
+		"abilities" : {
+			"ability1" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08witch-creatures/cprsmall.def:104",
 			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:104",
-			
+			"map" : "sw08witch-creatures/map/082/AvWLizr",
+			"animation" : "sw08witch-creatures/battle/c102liza",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08witch-creatures/battle/PPLIZAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 30,
 					"upperY" : -70,
 					"middleX" : 45,
@@ -57,33 +56,16 @@
 					"lowerY" : -47
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 7
+				"attackClimaxFrame" : 7
 			}
-			
 		},
-
-		"growth" : 7,
-		"hitPoints" : 20,
-		"horde" : 0,
-              	"level" : 3,
-		"shots" : 12,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08witch/lizardman/PLIZATTK.wav",
 			"defend" : "sw08witch/lizardman/PLIZDFND.wav",
 			"killed" : "sw08witch/lizardman/PLIZKILL.wav",
 			"move" : "sw08witch/lizardman/PLIZMOVE.wav",
 			"wince" : "sw08witch/lizardman/PLIZWNCE.wav",
-                     	"shoot" : "sw08witch/lizardman/PLIZSHOT.wav"
-		},
-		"speed" : 4,
-		"abilities" :
-		{
-"ability1":
-{
-"type" : "SHOOTER"
-}	
-					
+			"shoot" : "sw08witch/lizardman/PLIZSHOT.wav"
 		}
 	}
 }

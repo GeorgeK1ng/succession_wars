@@ -1,76 +1,67 @@
 {
-	"sw08sorceressPhoenix":
-	{
-"name" :{"plural" : "Phoenixes","singular" : "Phoenix"},
-		"advMapAmount" :
-		{
-			"max" : 12,
-			"min" : 7
+	"sw08sorceressPhoenix" : {
+		"name" : {
+			"singular" : "Phoenix",
+			"plural" : "Phoenixes"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "swsw08sorceressfaction",
-		"aiValue" : 2862,
-		"attack" :12,
-
-		"cost" :
-		{
+		"level" : 7,
+		"cost" : {
 			"gold" : 2600,
-"mercury" : 1
+			"mercury" : 1
 		},
-		"damage" :
-		{
-			"max" : 50,
-			"min" : 25
-		},
+		"speed" : 15,
+		"hitPoints" : 125,
+		"shots" : 0,
+		"attack" : 12,
 		"defense" : 10,
+		"damage" : {
+			"min" : 25,
+			"max" : 50
+		},
 		"fightValue" : 2399,
-		"graphics" :
-		{
-			"animation" : "sw08sorceress-creatures/battle/c026phnx",
-			"map" : "sw08sorceress-creatures/map/AVWdrag0",
+		"aiValue" : 2862,
+		"advMapAmount" : {
+			"min" : 7,
+			"max" : 12
+		},
+		"growth" : 1,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"ability1" : {
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 1
+			},
+			"ability2" : {
+				"type" : "KING",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"ability3" : {
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:28",
 			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:28",
-			
+			"map" : "sw08sorceress-creatures/map/AVWdrag0",
+			"animation" : "sw08sorceress-creatures/battle/c026phnx",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			}
-			
 		},
-
-		"growth" : 1,
-		"hitPoints" : 125,
-		"horde" : 0,
-              	"level" : 7,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08sorceress/phoenix/GRDRATTK.wav",
-"defend" :"sw08sorceress/phoenix/GRDRDFND.wav",
-"killed" :"sw08sorceress/phoenix/GRDRKILL.wav",
-"move" :"sw08sorceress/phoenix/GRDRMOVE.wav",
-"wince" :"sw08sorceress/phoenix/GRDRWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 15,
-		"abilities" :
-		{
-"ability1":
-{"type" : "LEVEL_SPELL_IMMUNITY",
-"val" : 1},
-"ability2":
-{"type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE"},
-"ability3":
-{"type" : "TWO_HEX_ATTACK_BREATH"}				
+		"sound" : {
+			"attack" : "sw08sorceress/phoenix/GRDRATTK.wav",
+			"defend" : "sw08sorceress/phoenix/GRDRDFND.wav",
+			"killed" : "sw08sorceress/phoenix/GRDRKILL.wav",
+			"move" : "sw08sorceress/phoenix/GRDRMOVE.wav",
+			"wince" : "sw08sorceress/phoenix/GRDRWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

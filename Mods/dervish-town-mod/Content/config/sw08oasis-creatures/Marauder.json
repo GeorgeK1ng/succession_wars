@@ -1,53 +1,55 @@
 {
-	"sw08oasisMarauder":
-	{
-"name" :{"plural" : "Bandits","singular" : "Bandit"},
-		"advMapAmount" :
-		{
-			"max" : 40,
-			"min" : 25
+	"sw08oasisMarauder" : {
+		"name" : {
+			"singular" : "Bandit",
+			"plural" : "Bandits"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08oasisfaction",
-		"aiValue" : 95,
-		"attack" : 6,
-
-		"cost" :
-		{
+		"level" : 1,
+		"cost" : {
 			"gold" : 75
 		},
-		"damage" :
-		{
-			"max" : 3,
-			"min" : 1
-		},
+		"speed" : 7,
+		"hitPoints" : 4,
+		"shots" : 0,
+		"attack" : 6,
 		"defense" : 1,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
 		"fightValue" : 70,
-		"graphics" :
-		{
-			"animation" : "sw08oasis-creatures/battle/c119urog",
-			"map" : "sw08oasis-creatures/map/AVWsprit",
+		"aiValue" : 95,
+		"advMapAmount" : {
+			"min" : 25,
+			"max" : 40
+		},
+		"growth" : 10,
+		"horde" : 5,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"ability2" : {
+				"type" : "MIND_IMMUNITY"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08oasis-creatures/cprsmall.def:121",
 			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:121",
-			
+			"map" : "sw08oasis-creatures/map/AVWsprit",
+			"animation" : "sw08oasis-creatures/battle/c119urog",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,36 +58,15 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 10
+				"attackClimaxFrame" : 10
 			}
-			
 		},
-
-		"growth" : 10,
-		"hitPoints" : 4,
-		"horde" : 5,
-              	"level" : 1,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"marauder/SPRTATTK.wav",
-"defend" :"marauder/SPRTDFND.wav",
-"killed" :"marauder/SPRTKILL.wav",
-"move" :"marauder/SPRTMOVE.wav",
-"wince" :"marauder/SPRTWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 7,
-		"abilities" :
-		{
-"ability1":			{
-				"type" : "BLOCKS_RETALIATION"
-			},
-"ability2":			{
-				"type" : "MIND_IMMUNITY"
-			}		
-					
+		"sound" : {
+			"attack" : "marauder/SPRTATTK.wav",
+			"defend" : "marauder/SPRTDFND.wav",
+			"killed" : "marauder/SPRTKILL.wav",
+			"move" : "marauder/SPRTMOVE.wav",
+			"wince" : "marauder/SPRTWNCE.wav"
 		}
 	}
 }

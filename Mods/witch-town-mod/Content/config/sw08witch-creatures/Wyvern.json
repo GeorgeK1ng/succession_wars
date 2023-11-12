@@ -1,54 +1,69 @@
 {
-	"sw08witchWywern":
-	{
-"name" :{"plural" : "Wywerns","singular" : "Wywern"},
-		"advMapAmount" :
-		{
-			"max" : 8,
-			"min" : 4
+	"sw08witchWywern" : {
+		"name" : {
+			"singular" : "Wywern",
+			"plural" : "Wywerns"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "sw08witch",
-		"aiValue" : 1778,
-		"attack" :11,
-
-		"cost" :
-		{
+		"level" : 7,
+		"cost" : {
 			"gold" : 1100,
 			"sulfur" : 1
 		},
-		"damage" :
-		{
-			"max" : 30,
-			"min" : 15
-		},
+		"speed" : 10,
+		"hitPoints" : 90,
+		"shots" : 0,
+		"attack" : 11,
 		"defense" : 11,
+		"damage" : {
+			"min" : 15,
+			"max" : 30
+		},
 		"fightValue" : 1536,
-		"graphics" :
-		{
-			"animation" : "sw08witch-creatures/battle/c110wyvn",
-			"map" : "sw08witch-creatures/map/082/AvWHydr",
+		"aiValue" : 1778,
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 8
+		},
+		"growth" : 2,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"upgrades" : [],
+		"abilities" : {
+			"ab1" : {
+				"type" : "KING",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"ab2" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"ab3" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"addInfo" : [
+					0,
+					0
+				],
+				"val" : 30
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08witch-creatures/cprsmall.def:112",
 			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:112",
-			
+			"map" : "sw08witch-creatures/map/082/AvWHydr",
+			"animation" : "sw08witch-creatures/battle/c110wyvn",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08witch-creatures/battle/CPRZEAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,36 +72,15 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 8
+				"attackClimaxFrame" : 8
 			}
-			
 		},
-
-		"growth" : 2,
-		"hitPoints" : 90,
-		"horde" : 0,
-              	"level" : 7,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08witch/Wywern/HYDRATTK.wav",
-"defend" :"sw08witch/Wywern/HYDRDFND.wav",
-"killed" :"sw08witch/Wywern/HYDRKILL.wav",
-"move" :"sw08witch/Wywern/HYDRMOVE.wav",
-"wince" :"sw08witch/Wywern/HYDRWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 10,
-		"abilities" :
-		{
-		"ab1":{"type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE"},
-		"ab2":{"type" : "FLYING","subtype" : "movementFlying"},
-		"ab3":{"type" : "SPELL_AFTER_ATTACK",
-	"subtype" : "spell.poison",
-	"addInfo" : [0,0],
-	"val":30}
-					
+		"sound" : {
+			"attack" : "sw08witch/Wywern/HYDRATTK.wav",
+			"defend" : "sw08witch/Wywern/HYDRDFND.wav",
+			"killed" : "sw08witch/Wywern/HYDRKILL.wav",
+			"move" : "sw08witch/Wywern/HYDRMOVE.wav",
+			"wince" : "sw08witch/Wywern/HYDRWNCE.wav"
 		}
 	}
 }

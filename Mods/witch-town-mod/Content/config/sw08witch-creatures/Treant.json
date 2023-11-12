@@ -1,54 +1,55 @@
 {
-	"sw08witchTreeant":
-	{
-"name" :{"plural" : "Treants","singular" : "Treant"},
-		"advMapAmount" :
-		{
-			"max" : 11,
-			"min" : 7
+	"sw08witchTreeant" : {
+		"name" : {
+			"singular" : "Treeant",
+			"plural" : "Treants"
 		},
-
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08witch",
-		"aiValue" : 1274,
-		"attack" :12,
-
-		"cost" :
-		{
+		"level" : 6,
+		"cost" : {
 			"gold" : 850
 		},
-		"damage" :
-		{
-			"max" : 16,
-			"min" : 10
+		"speed" : 4,
+		"hitPoints" : 85,
+		"shots" : 0,
+		"attack" : 12,
+		"defense" : 9,
+		"damage" : {
+			"min" : 10,
+			"max" : 16
 		},
-		"defense" :9,
 		"fightValue" : 1104,
-		"graphics" :
-		{
-			"animation" : "sw08witch-creatures/battle/c108trea",
-			"map" : "sw08witch-creatures/map/AVWwyvr",
+		"aiValue" : 1274,
+		"advMapAmount" : {
+			"min" : 7,
+			"max" : 11
+		},
+		"growth" : 2,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",
+				"val" : 30,
+				"addInfo" : [1, 0]
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08witch-creatures/cprsmall.def:110",
 			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:110",
-			
+			"map" : "sw08witch-creatures/map/AVWwyvr",
+			"animation" : "sw08witch-creatures/battle/c108trea",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08witch-creatures/battle/CPRZEAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,34 +58,15 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 8
+				"attackClimaxFrame" : 8
 			}
-			
 		},
-
-		"growth" : 2,
-		"hitPoints" : 85,
-		"horde" : 0,
-              	"level" : 6,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08witch/tree/TBRDATTK.wav",
-"defend" :"sw08witch/tree/TBRDDFND.wav",
-"killed" :"sw08witch/tree/TBRDKILL.wav",
-"move" :"sw08witch/tree/TBRDMOVE.wav",
-"wince" :"sw08witch/tree/TBRDWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 4,
-		"abilities" :
-		{
-"ability1":{"type" : "SPELL_AFTER_ATTACK",
-"subtype" : "spell.bind",
-"val" : 30,
-"addInfo":[1,0]}
-					
+		"sound" : {
+			"attack" : "sw08witch/tree/TBRDATTK.wav",
+			"defend" : "sw08witch/tree/TBRDDFND.wav",
+			"killed" : "sw08witch/tree/TBRDKILL.wav",
+			"move" : "sw08witch/tree/TBRDMOVE.wav",
+			"wince" : "sw08witch/tree/TBRDWNCE.wav"
 		}
 	}
 }

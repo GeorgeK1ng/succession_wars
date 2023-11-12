@@ -1,54 +1,61 @@
 {
-	"sw08oasisMedusaQueen":
-	{
-"name" :{"plural" : "Medusa Queens","singular" : "Medusa Queen"},
-		"advMapAmount" :
-		{
-			"max" : 18,
-			"min" : 10
+	"sw08oasisMedusaQueen" : {
+		"name" : {
+			"singular" : "Medusa Queen",
+			"plural" : "Medusa Queens"
 		},
-
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "sw08oasisfaction",
-		"aiValue" : 523,
-		"attack" :7,
-
-		"cost" :
-		{
+		"level" : 4,
+		"cost" : {
 			"gold" : 425
 		},
-		"damage" :
-		{
-			"max" : 8,
-			"min" : 5
-		},
+		"speed" : 6,
+		"hitPoints" : 30,
+		"shots" : 8,
+		"attack" : 7,
 		"defense" : 8,
+		"damage" : {
+			"min" : 5,
+			"max" : 8
+		},
 		"fightValue" : 470,
-		"graphics" :
-		{
-			"animation" : "sw08oasis-creatures/battle/c125umed",
-			"map" : "sw08oasis-creatures/map/AVWrog",
+		"aiValue" : 523,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 18
+		},
+		"growth" : 3,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"ability1" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 30,
+				"addInfo" : 2000
+			},
+			"ability2" : {
+				"type" : "SHOOTER"
+			},
+			"ability3" : {
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08oasis-creatures/cprsmall.def:127",
 			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:127",
-			
+			"map" : "sw08oasis-creatures/map/AVWrog",
+			"animation" : "sw08oasis-creatures/battle/c125umed",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 30,
 					"upperY" : -70,
 					"middleX" : 40,
@@ -57,36 +64,16 @@
 					"lowerY" : -30
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 7
+				"attackClimaxFrame" : 7
 			}
-			
 		},
-
-		"growth" : 3,
-		"hitPoints" : 30,
-		"horde" : 0,
-              	"level" : 4,
-		"shots" : 8,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "medusa queen/MEDQATTK.wav",
 			"defend" : "medusa queen/MEDQDFND.wav",
 			"killed" : "medusa queen/MEDQKILL.wav",
 			"move" : "medusa queen/MEDQMOVE.wav",
 			"wince" : "medusa queen/MEDQWNCE.wav",
-                     	"shoot" : "medusa queen/MEDQSHOT.wav"
-		},
-		"speed" :6,
-		"abilities" :
-		{
-"ability1":{"type" : "SPELL_AFTER_ATTACK",
-"subtype" : "spell.stoneGaze",
-"val" : 30,
-"addInfo" : 2000
-},
-"ability2":{"type" : "SHOOTER"},
-"ability3":{"type" : "NO_MELEE_PENALTY"}
-					
+			"shoot" : "medusa queen/MEDQSHOT.wav"
 		}
 	}
 }

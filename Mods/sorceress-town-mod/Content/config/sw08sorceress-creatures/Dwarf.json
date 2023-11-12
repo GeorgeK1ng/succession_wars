@@ -1,72 +1,61 @@
 {
-	"sw08sorceressDwarf":
-	{
-"name" :{"plural" : "Dwarves","singular" : "Dwarf"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 12
+	"sw08sorceressDwarf" : {
+		"name" : {
+			"singular" : "Dwarf",
+			"plural" : "Dwarves"
 		},
-"upgrades":
-["sw08sorceressBattleDwarf"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08sorceressfaction",
-		"aiValue" : 194,
-		"attack" : 6,
-
-		"cost" :
-		{
+		"level" : 2,
+		"cost" : {
 			"gold" : 145
 		},
-		"damage" :
-		{
-			"max" : 4,
-			"min" : 2
-		},
+		"speed" : 3,
+		"hitPoints" : 20,
+		"shots" : 0,
+		"attack" : 6,
 		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
 		"fightValue" : 198,
-		"graphics" :
-		{
-			"animation" : "sw08sorceress-creatures/battle/c016dwrf",
-			"map" : "sw08sorceress-creatures/map/AVWdwrf0",
+		"aiValue" : 194,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		},
+		"growth" : 6,
+		"horde" : 4,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08sorceressBattleDwarf"
+		],
+		"abilities" : {
+			"ability1" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 25
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:18",
 			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:18",
-			
+			"map" : "sw08sorceress-creatures/map/AVWdwrf0",
+			"animation" : "sw08sorceress-creatures/battle/c016dwrf",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			}
-			
 		},
-
-		"growth" : 6,
-		"hitPoints" : 20,
-		"horde" : 4,
-              	"level" : 2,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08sorceress/dwarf/DWRFATTK.wav",
-"defend" :"sw08sorceress/dwarf/DWRFDFND.wav",
-"killed" :"sw08sorceress/dwarf/DWRFKILL.wav",
-"move" :"sw08sorceress/dwarf/DWRFMOVE.wav",
-"wince" :"sw08sorceress/dwarf/DWRFWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 3,
-		"abilities" :
-		{
-"ability1":
-{"type" : "MAGIC_RESISTANCE",
-"val" : 25}				
+		"sound" : {
+			"attack" : "sw08sorceress/dwarf/DWRFATTK.wav",
+			"defend" : "sw08sorceress/dwarf/DWRFDFND.wav",
+			"killed" : "sw08sorceress/dwarf/DWRFKILL.wav",
+			"move" : "sw08sorceress/dwarf/DWRFMOVE.wav",
+			"wince" : "sw08sorceress/dwarf/DWRFWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

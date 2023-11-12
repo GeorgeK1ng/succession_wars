@@ -1,73 +1,63 @@
 {
-	"sw08sorceressUnicorn":
-	{
-"name" :{"plural" : "Unicorns","singular" : "Unicorn"},
-		"advMapAmount" :
-		{
-			"max" : 15,
-			"min" : 8
+	"sw08sorceressUnicorn" : {
+		"name" : {
+			"singular" : "Unicorn",
+			"plural" : "Unicorns"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "swsw08sorceressfaction",
-		"aiValue" : 989,
-		"attack" :10,
-
-		"cost" :
-		{
+		"level" : 6,
+		"cost" : {
 			"gold" : 860
 		},
-		"damage" :
-		{
-			"max" : 20,
-			"min" : 10
-		},
+		"speed" : 7,
+		"hitPoints" : 55,
+		"shots" : 0,
+		"attack" : 10,
 		"defense" : 9,
+		"damage" : {
+			"min" : 10,
+			"max" : 20
+		},
 		"fightValue" : 902,
-		"graphics" :
-		{
-			"animation" : "sw08sorceress-creatures/battle/c024unic",
-			"map" : "sw08sorceress-creatures/map/AVWunic0",
+		"aiValue" : 989,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 15
+		},
+		"growth" : 2,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"ability1" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 20,
+				"addInfo" : [
+					1,
+					0
+				]
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:26",
 			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:26",
-			
+			"map" : "sw08sorceress-creatures/map/AVWunic0",
+			"animation" : "sw08sorceress-creatures/battle/c024unic",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			}
-			
 		},
-
-		"growth" : 2,
-		"hitPoints" : 55,
-		"horde" : 0,
-              	"level" : 6,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08sorceress/unicorn/UNICATTK.wav",
-"defend" :"sw08sorceress/unicorn/UNICDFND.wav",
-"killed" :"sw08sorceress/unicorn/UNICKILL.wav",
-"move" :"sw08sorceress/unicorn/UNICMOVE.wav",
-"wince" :"sw08sorceress/unicorn/UNICWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 7,
-		"abilities" :
-		{
-"ability1":
-{"type" : "SPELL_AFTER_ATTACK",
-"subtype" : "spell.blind",
-"val" : 20,
-"addInfo":[1,0]}				
+		"sound" : {
+			"attack" : "sw08sorceress/unicorn/UNICATTK.wav",
+			"defend" : "sw08sorceress/unicorn/UNICDFND.wav",
+			"killed" : "sw08sorceress/unicorn/UNICKILL.wav",
+			"move" : "sw08sorceress/unicorn/UNICMOVE.wav",
+			"wince" : "sw08sorceress/unicorn/UNICWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

@@ -1,73 +1,61 @@
 {
-	"sw08necromancerDeathKnight":
-	{
-"name" :{"plural" : "Death Knights","singular" : "Death Knight"},
-		"advMapAmount" :
-		{
-			"max" : 12,
-			"min" : 6
+	"sw08necromancerDeathKnight" : {
+		"name" : {
+			"singular" : "Death Knight",
+			"plural" : "Death Knights"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08necromancerfaction",
-		"aiValue" : 692,
-		"attack" : 9,
-
-		"cost" :
-		{
+		"level" : 5,
+		"cost" : {
 			"gold" : 550
 		},
-		"damage" :
-		{
-			"max" : 11,
-			"min" : 7
+		"speed" : 5,
+		"hitPoints" : 50,
+		"shots" : 0,
+		"attack" : 9,
+		"defense" : 8,
+		"damage" : {
+			"min" : 7,
+			"max" : 11
 		},
-		"defense" :8,
 		"fightValue" : 639,
-		"graphics" :
-		{
-			"animation" : "sw08necromancer-creatures/battle/c064dknt",
-			"map" : "sw08necromancer-creatures/map/AVWlich0",
+		"aiValue" : 692,
+		"advMapAmount" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"growth" : 3,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+			},
+			"ability2" : {
+				"type" : "UNDEAD"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:66",
 			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:66",
-			
+			"map" : "sw08necromancer-creatures/map/AVWlich0",
+			"animation" : "sw08necromancer-creatures/battle/c064dknt",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			}
-
-			
 		},
-
-		"growth" : 3,
-		"hitPoints" : 50,
-		"horde" : 0,
-              	"level" : 5,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08necromancer/Death Knight/LICHATTK.wav",
-"defend" :"sw08necromancer/Death Knight/LICHDFND.wav",
-"killed" :"sw08necromancer/Death Knight/LICHKILL.wav",
-"move" :"sw08necromancer/Death Knight/LICHmove.wav",
-"wince" :"sw08necromancer/Death Knight/LICHWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 5,
-		"abilities" :
-		{
-
-"ability1":{"type" : "DOUBLE_DAMAGE_CHANCE","val" : 20},
-"ability2":{"type" : "UNDEAD"}
-					
+		"sound" : {
+			"attack" : "sw08necromancer/Death Knight/LICHATTK.wav",
+			"defend" : "sw08necromancer/Death Knight/LICHDFND.wav",
+			"killed" : "sw08necromancer/Death Knight/LICHKILL.wav",
+			"move" : "sw08necromancer/Death Knight/LICHmove.wav",
+			"wince" : "sw08necromancer/Death Knight/LICHWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

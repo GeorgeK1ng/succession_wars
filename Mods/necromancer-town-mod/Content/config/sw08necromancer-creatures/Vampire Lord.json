@@ -1,53 +1,60 @@
 {
-	"sw08necromancerVampireLord":
-	{
-"name" :{"plural" : "Vampire Lords","singular" : "Vampire Lord"},
-		"advMapAmount" :
-		{
-			"max" : 12,
-			"min" : 8
+	"sw08necromancerVampireLord" : {
+		"name" : {
+			"singular" : "Vampire Lord",
+			"plural" : "Vampire Lords"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08necromancerfaction",
-		"aiValue" : 460,
-		"attack" : 8,
-
-		"cost" :
-		{
+		"level" : 4,
+		"cost" : {
 			"gold" : 620
 		},
-		"damage" :
-		{
-			"max" : 7,
-			"min" : 5
-		},
+		"speed" : 7,
+		"hitPoints" : 40,
+		"shots" : 0,
+		"attack" : 8,
 		"defense" : 6,
+		"damage" : {
+			"min" : 5,
+			"max" : 7
+		},
 		"fightValue" : 437,
-		"graphics" :
-		{
-			"animation" : "sw08necromancer-creatures/battle/c063uvmp",
-			"map" : "sw08necromancer-creatures/map/AVWvamx0",
+		"aiValue" : 460,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"growth" : 3,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [],
+		"abilities" : {
+			"ability1" : {
+				"type" : "UNDEAD"
+			},
+			"ability2" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"ability3" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 100
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:65",
 			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:65",
-			
+			"map" : "sw08necromancer-creatures/map/AVWvamx0",
+			"animation" : "sw08necromancer-creatures/battle/c063uvmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08necromancer-creatures/battle/CPRGOGX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,40 +63,19 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 6
+				"attackClimaxFrame" : 6
 			}
-			
 		},
-
-		"growth" : 3,
-		"hitPoints" : 40,
-		"horde" : 0,
-              	"level" : 4,
-		"shots" : 0,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08necromancer/vampire lord/NOSFATTK.wav",
 			"defend" : "sw08necromancer/vampire lord/NOSFDFND.wav",
 			"killed" : "sw08necromancer/vampire lord/NOSFKILL.wav",
 			"move" : "sw08necromancer/vampire lord/NOSFMOVE.wav",
 			"wince" : "sw08necromancer/vampire lord/NOSFWNCE.wav",
-                     	"shoot" : "sw08necromancer/vampire lord/NOSFSHOT.wav"	
-//sure, vampires shoot? same goes for mummies...
-						//"ext1" : "vampire lord/NOSFEXT1.wav",
-//let's hope this ext works
-						//"ext1" : "vampire lord/NOSFEXT2.wav"
-		},
-		"speed" : 7,
-		"abilities" :
-		{
-"ability1":{"type" : "UNDEAD"},
-"ability2":
-{
-"type" : "BLOCKS_RETALIATION"
-},
-"ability3":
-{"type" : "LIFE_DRAIN","val" : 100}	
-					
+			"shoot" : "sw08necromancer/vampire lord/NOSFSHOT.wav"
+			// "ext1" : "vampire lord/NOSFEXT1.wav",
+			// let's hope this ext works
+			// "ext1" : "vampire lord/NOSFEXT2.wav"
 		}
 	}
 }

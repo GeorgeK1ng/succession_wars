@@ -1,54 +1,55 @@
 {
-	"sw08knightCrossbowman":
-	{
-"name" :{"plural" : "Crossbowmen","singular" : "Crossbowman"},
-		"advMapAmount" :
-		{
-			"max" : 22,
-			"min" : 14
+	"sw08knightCrossbowman" : {
+		"name" : {
+			"singular" : "Crossbowman",
+			"plural" : "Crossbowmen"
 		},
-"upgrades":
-["sw08knightHeavyCrossbowman"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08knight",
-		"aiValue" : 500,
-		"attack" : 6,
-
-		"cost" :
-		{
+		"level" : 4,
+		"cost" : {
 			"gold" : 225
 		},
-		"damage" :
-		{
-			"max" : 8,
-			"min" : 4
-		},
+		"speed" : 4,
+		"hitPoints" : 20,
+		"shots" : 12,
+		"attack" : 6,
 		"defense" : 6,
+		"damage" : {
+			"min" : 4,
+			"max" : 8
+		},
 		"fightValue" : 418,
-		"graphics" :
-		{
-			"animation" : "sw08knight-creatures/battle/c006xbow",
-			"map" : "sw08knight-creatures/map/AVWswrd0",
+		"aiValue" : 500,
+		"advMapAmount" : {
+			"min" : 14,
+			"max" : 22
+		},
+		"growth" : 5,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08knightHeavyCrossbowman"
+		],
+		"abilities" : {
+			"ability1" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08knight-creatures/cprsmall.def:8",
 			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:8",
-			
+			"map" : "sw08knight-creatures/map/AVWswrd0",
+			"animation" : "sw08knight-creatures/battle/c006xbow",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08knight-creatures/battle/Porcx",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 48,
 					"upperY" : -43,
 					"middleX" : 48,
@@ -57,31 +58,16 @@
 					"lowerY" : -43
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 9
+				"attackClimaxFrame" : 9
 			}
-			
 		},
-
-		"growth" : 5,
-		"hitPoints" : 20,
-		"horde" : 0,
-              	"level" : 4,
-		"shots" : 12,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08knight/crossbowman/SWRDATTK.wav",
 			"defend" : "sw08knight/crossbowman/SWRDDFND.wav",
 			"killed" : "sw08knight/crossbowman/SWRDKILL.wav",
 			"move" : "sw08knight/crossbowman/SWRDMOVE.wav",
 			"wince" : "sw08knight/crossbowman/SWRDWNCE.wav",
-                     	"shoot" : "sw08knight/crossbowman/SWRDSHOT.wav"
-		},
-		"speed" : 4,
-		"abilities" :
-		{
-
-"ability1":{	"type" : "SHOOTER"}
-					
+			"shoot" : "sw08knight/crossbowman/SWRDSHOT.wav"
 		}
 	}
 }

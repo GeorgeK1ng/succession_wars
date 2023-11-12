@@ -1,53 +1,56 @@
 {
-	"sw08knightRanger":
-	{
-"name" :{"plural" : "Rangers","singular" : "Ranger"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 18
+	"sw08knightRanger" : {
+		"name" : {
+			"singular" : "Ranger",
+			"plural" : "Rangers"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08knight",
-		"aiValue" : 184,
-		"attack" : 5,
-
-		"cost" :
-		{
+		"level" : 2,
+		"cost" : {
 			"gold" : 150
 		},
-		"damage" :
-		{
-			"max" : 3,
-			"min" : 1
-		},
+		"speed" : 5,
+		"hitPoints" : 10,
+		"shots" : 24,
+		"attack" : 5,
 		"defense" : 3,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
 		"fightValue" : 115,
-		"graphics" :
-		{
-			"animation" : "sw08knight-creatures/battle/c003uarc",
-			"map" : "sw08knight-creatures/map/avwhcrs",
+		"aiValue" : 184,
+		"advMapAmount" : {
+			"min" : 18,
+			"max" : 25
+		},
+		"growth" : 8,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "SHOOTER"
+			},
+			"ability2" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08knight-creatures/cprsmall.def:5",
 			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:5",
-			
+			"map" : "sw08knight-creatures/map/avwhcrs",
+			"animation" : "sw08knight-creatures/battle/c003uarc",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 28,
 					"upperY" : -70,
 					"middleX" : 40,
@@ -56,32 +59,16 @@
 					"lowerY" : -30
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 7
+				"attackClimaxFrame" : 7
 			}
-			
 		},
-
-		"growth" : 8,
-		"hitPoints" : 10,
-		"horde" : 0,
-              	"level" : 2,
-		"shots" : 24,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08knight/ranger/HCRSATTK.wav",
 			"defend" : "sw08knight/ranger/HCRSDFND.wav",
 			"killed" : "sw08knight/ranger/HCRSKILL.wav",
 			"move" : "sw08knight/ranger/HCRSMOVE.wav",
 			"wince" : "sw08knight/ranger/HCRSWNCE.wav",
-                     	"shoot" : "sw08knight/ranger/HCRSSHOT.wav"
-		},
-		"speed" : 5,
-		"abilities" :
-		{
-
-"ability1":{	"type" : "SHOOTER"},
-"ability2":{	"type" : "ADDITIONAL_ATTACK","val" : 1}
-					
+			"shoot" : "sw08knight/ranger/HCRSSHOT.wav"
 		}
 	}
 }

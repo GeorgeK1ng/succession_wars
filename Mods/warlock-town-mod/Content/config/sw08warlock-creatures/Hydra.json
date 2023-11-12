@@ -1,53 +1,56 @@
 {
-	"sw08warlockHydra":
-	{
-"name" :{"plural" : "Hydras","singular" : "Hydra"},
-		"advMapAmount" :
-		{
-			"max" : 10,
-			"min" : 7
+	"sw08warlockHydra" : {
+		"name" : {
+			"singular" : "Hydra",
+			"plural" : "Hydras"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "swsw08warlockfaction",
-		"aiValue" : 1107,
+		"level" : 6,
+		"cost" : {
+			"gold" : 865
+		},
+		"speed" : 3,
+		"hitPoints" : 90,
+		"shots" : 0,
 		"attack" : 8,
-
-		"cost" :
-		{
-			"gold" :865
-		},
-		"damage" :
-		{
-			"max" : 14,
-			"min" : 7
-		},
 		"defense" : 9,
+		"damage" : {
+			"min" : 7,
+			"max" : 14
+		},
 		"fightValue" : 961,
-		"graphics" :
-		{
-			"animation" : "sw08warlock-creatures/battle/c080hydr",
-			"map" : "sw08warlock-creatures/map/AVWmant0",
+		"aiValue" : 1107,
+		"advMapAmount" : {
+			"min" : 7,
+			"max" : 10
+		},
+		"growth" : 2,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"upgrades" : [],
+		"abilities" : {
+			"ability1" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"ability2" : {
+				"type" : "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08warlock-creatures/cprsmall.def:82",
 			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:82",
-			
+			"map" : "sw08warlock-creatures/map/AVWmant0",
+			"animation" : "sw08warlock-creatures/battle/c080hydr",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08warlock-creatures/battle/CPRZEAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,34 +59,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 9
+				"attackClimaxFrame" : 9
 			}
-			
 		},
-
-		"growth" :2,
-		"hitPoints" : 90,
-		"horde" : 0,
-              	"level" : 6,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08warlock/hydra/MANTATTK.wav",
-"defend" :"sw08warlock/hydra/MANTDFND.wav",
-"killed" :"sw08warlock/hydra/MANTKILL.wav",
-"move" :"sw08warlock/hydra/MANTMOVE.wav",
-"wince" :"sw08warlock/hydra/MANTWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 3,
-		"abilities" :
-		{
-"ability1":
-{"type" : "ATTACKS_ALL_ADJACENT"},
-"ability2":
-{"type" : "BLOCKS_RETALIATION"}
-					
+		"sound" : {
+			"attack" : "sw08warlock/hydra/MANTATTK.wav",
+			"defend" : "sw08warlock/hydra/MANTDFND.wav",
+			"killed" : "sw08warlock/hydra/MANTKILL.wav",
+			"move" : "sw08warlock/hydra/MANTMOVE.wav",
+			"wince" : "sw08warlock/hydra/MANTWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

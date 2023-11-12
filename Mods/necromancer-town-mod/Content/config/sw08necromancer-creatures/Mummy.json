@@ -1,54 +1,61 @@
 {
-	"sw08necromancerMummy":
-	{
-"name" :{"plural" : "Mummies","singular" : "Mummy"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 10
+	"sw08necromancerMummy" : {
+		"name" : {
+			"singular" : "Mummy",
+			"plural" : "Mummies"
 		},
-"upgrades":
-["sw08necromancerRoyalMummy"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08necromancerfaction",
-		"aiValue" : 248,
-		"attack" : 6,
-
-		"cost" :
-		{
+		"level" : 3,
+		"cost" : {
 			"gold" : 210
 		},
-		"damage" :
-		{
-			"max" : 4,
-			"min" : 3
-		},
+		"speed" : 5,
+		"hitPoints" : 25,
+		"shots" : 0,
+		"attack" : 6,
 		"defense" : 6,
+		"damage" : {
+			"min" : 3,
+			"max" : 4
+		},
 		"fightValue" : 246,
-		"graphics" :
-		{
-			"animation" : "sw08necromancer-creatures/battle/c060mumm",
-			"map" : "sw08necromancer-creatures/map/AvWWigh",
+		"aiValue" : 248,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 25
+		},
+		"growth" : 6,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08necromancerRoyalMummy"
+		],
+		"abilities" : {
+			"ability1" : {
+				"type" : "UNDEAD"
+			},
+			"ability2" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 20,
+				"addInfo" : 0
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:62",
 			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:62",
-			
+			"map" : "sw08necromancer-creatures/map/AvWWigh",
+			"animation" : "sw08necromancer-creatures/battle/c060mumm",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08necromancer-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,37 +64,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 10
+				"attackClimaxFrame" : 10
 			}
-			
 		},
-
-		"growth" : 6,
-		"hitPoints" : 25,
-		"horde" : 0,
-              	"level" : 3,
-		"shots" : 0,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08necromancer/mummy/WGHTATTK.wav",
 			"defend" : "sw08necromancer/mummy/WGHTDFND.wav",
 			"killed" : "sw08necromancer/mummy/WGHTKILL.wav",
 			"move" : "sw08necromancer/mummy/WGHTMOVE.wav",
 			"wince" : "sw08necromancer/mummy/WGHTWNCE.wav",
-                     	"shoot" : "sw08necromancer/mummy/WGHTATTK.wav"
-		},
-		"speed" : 5,
-		"abilities" :
-		{
-"ability1":{"type" : "UNDEAD"},
-"ability2":
-{
-"type" : "SPELL_AFTER_ATTACK",
-"subtype" : "spell.curse",
-"val" : 20,
-"addInfo" : 0
-}	
-					
+			"shoot" : "sw08necromancer/mummy/WGHTATTK.wav"
 		}
 	}
 }

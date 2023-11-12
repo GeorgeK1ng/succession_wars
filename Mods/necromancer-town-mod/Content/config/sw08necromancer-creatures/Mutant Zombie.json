@@ -1,53 +1,59 @@
 {
-	"sw08necromancerMutantZombie":
-	{
-"name" :{"plural" : "Mutant Zombies","singular" : "Mutant Zombie"},
-		"advMapAmount" :
-		{
-			"max" : 30,
-			"min" : 15
+	"sw08necromancerMutantZombie" : {
+		"name" : {
+			"singular" : "Mutant Zombie",
+			"plural" : "Mutant Zombies"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08necromancerfaction",
-		"aiValue" : 164,
-		"attack" : 5,
-
-		"cost" :
-		{
+		"level" : 2,
+		"cost" : {
 			"gold" : 145
 		},
-		"damage" :
-		{
-			"max" : 3,
-			"min" : 2
-		},
+		"speed" : 5,
+		"hitPoints" : 20,
+		"shots" : 0,
+		"attack" : 5,
 		"defense" : 2,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
 		"fightValue" : 169,
-		"graphics" :
-		{
-			"animation" : "sw08necromancer-creatures/battle/c059uzmb",
-			"map" : "sw08necromancer-creatures/map/AVWzomx0",
+		"aiValue" : 164,
+		"advMapAmount" : {
+			"min" : 15,
+			"max" : 30
+		},
+		"growth" : 9,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [],
+		"abilities" : {
+			"ability1" : {
+				"type" : "UNDEAD"
+			},
+			"ability2" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 20,
+				"addInfo" : 0
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:61",
 			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:61",
-			
+			"map" : "sw08necromancer-creatures/map/AVWzomx0",
+			"animation" : "sw08necromancer-creatures/battle/c059uzmb",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08necromancer-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,38 +62,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 10
+				"attackClimaxFrame" : 10
 			}
-			
 		},
-
-		"growth" : 9,
-		"hitPoints" : 20,
-		"horde" : 0,
-              	"level" : 2,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08necromancer/mutant zombie/ZMBLATTK.wav",
-"defend" :"sw08necromancer/mutant zombie/ZMBLDFND.wav",
-"killed" :"sw08necromancer/mutant zombie/ZMBLKILL.wav",
-"move" :"sw08necromancer/mutant zombie/ZMBLMOVE.wav",
-"wince" :"sw08necromancer/mutant zombie/ZMBLWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 5,
-		"abilities" :
-		{
-"ability1":{"type" : "UNDEAD"},
-"ability2":
-{
-"type" : "SPELL_AFTER_ATTACK",
-"subtype" : "spell.disease",
-"val" : 20,
-"addInfo" : 0
-}	
-					
+		"sound" : {
+			"attack" : "sw08necromancer/mutant zombie/ZMBLATTK.wav",
+			"defend" : "sw08necromancer/mutant zombie/ZMBLDFND.wav",
+			"killed" : "sw08necromancer/mutant zombie/ZMBLKILL.wav",
+			"move" : "sw08necromancer/mutant zombie/ZMBLMOVE.wav",
+			"wince" : "sw08necromancer/mutant zombie/ZMBLWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

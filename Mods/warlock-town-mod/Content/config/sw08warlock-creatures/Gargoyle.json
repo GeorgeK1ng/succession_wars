@@ -1,73 +1,61 @@
 {
-	"sw08warlockGargoyle":
-	{
-"name" :{"plural" : "Gargoyles","singular" : "Gargoyle"},
-		"advMapAmount" :
-		{
-			"max" : 30,
-			"min" : 15
+	"sw08warlockGargoyle" : {
+		"name" : {
+			"singular" : "Gargoyle",
+			"plural" : "Gargoyles"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08warlockfaction",
-		"aiValue" : 147,
+		"level" : 2,
+		"cost" : {
+			"gold" : 160
+		},
+		"speed" : 7,
+		"hitPoints" : 15,
+		"shots" : 0,
 		"attack" : 4,
-
-		"cost" :
-		{
-			"gold" :160
-		},
-		"damage" :
-		{
-			"max" : 3,
-			"min" : 2
-		},
 		"defense" : 7,
+		"damage" : {
+			"min" : 2,
+			"max" : 3
+		},
 		"fightValue" : 153,
-		"graphics" :
-		{
-			"animation" : "sw08warlock-creatures/battle/c072garg",
-			"map" : "sw08warlock-creatures/map/avwharp0",
+		"aiValue" : 147,
+		"advMapAmount" : {
+			"min" : 15,
+			"max" : 30
+		},
+		"growth" : 7,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [],
+		"abilities" : {
+			"ability1" : {
+				"type" : "FLYING"
+			},
+			"ability2" : {
+				"type" : "NON_LIVING"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08warlock-creatures/cprsmall.def:74",
 			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:74",
-			
+			"map" : "sw08warlock-creatures/map/avwharp0",
+			"animation" : "sw08warlock-creatures/battle/c072garg",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			}
-			
 		},
-
-		"growth" :7,
-		"hitPoints" : 15,
-		"horde" : 0,
-              	"level" : 2,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08warlock/gargoyle/OGREATTK.wav",
-"defend" :"sw08warlock/gargoyle/OGREDFND.wav",
-"killed" :"sw08warlock/gargoyle/OGREKILL.wav",
-"move" :"sw08warlock/gargoyle/OGREMOVE.wav",
-"wince" :"sw08warlock/gargoyle/OGREWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 7,
-		"abilities" :
-		{
-		"ability1":
-{"type" : "FLYING"},
-		"ability2":
-{"type" : "NON_LIVING"}
-					
+		"sound" : {
+			"attack" : "sw08warlock/gargoyle/OGREATTK.wav",
+			"defend" : "sw08warlock/gargoyle/OGREDFND.wav",
+			"killed" : "sw08warlock/gargoyle/OGREKILL.wav",
+			"move" : "sw08warlock/gargoyle/OGREMOVE.wav",
+			"wince" : "sw08warlock/gargoyle/OGREWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

@@ -1,54 +1,56 @@
 {
-	"sw08witchMantis":
-	{
-"name" :{"plural" : "Mantises","singular" : "Mantis"},
-		"advMapAmount" :
-		{
-			"max" : 20,
-			"min" : 10
+	"sw08witchMantis" : {
+		"name" : {
+			"singular" : "Mantis",
+			"plural" : "Mantises"
 		},
-
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "sw08witch",
-		"aiValue" : 660,
-		"attack" : 7,
-
-		"cost" :
-		{
+		"level" : 5,
+		"cost" : {
 			"gold" : 540
 		},
-		"damage" :
-		{
-			"max" : 10,
-			"min" : 7
-		},
+		"speed" : 5,
+		"hitPoints" : 50,
+		"shots" : 0,
+		"attack" : 7,
 		"defense" : 9,
+		"damage" : {
+			"min" : 7,
+			"max" : 10
+		},
 		"fightValue" : 608,
-		"graphics" :
-		{
-			"animation" : "sw08witch-creatures/battle/c106mtis",
-			"map" : "sw08witch-creatures/map/AvWgorg",
+		"aiValue" : 660,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"growth" : 3,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"ability1" : {
+				"type" : "FIRST_STRIKE"
+			},
+			"ability2" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08witch-creatures/cprsmall.def:108",
 			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:108",
-			
+			"map" : "sw08witch-creatures/map/AvWgorg",
+			"animation" : "sw08witch-creatures/battle/c106mtis",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08witch-creatures/battle/CPRZEAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,31 +59,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 8
+				"attackClimaxFrame" : 8
 			}
-			
 		},
-
-		"growth" : 3,
-		"hitPoints" : 50,
-		"horde" : 0,
-              	"level" : 5,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08witch/mantis/HHAGATTK.wav",
-"defend" :"sw08witch/mantis/HHAGDFND.wav",
-"killed" :"sw08witch/mantis/HHAGKILL.wav",
-"move" :"sw08witch/mantis/HHAGMOVE.wav",
-"wince" :"sw08witch/mantis/HHAGWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 5,
-		"abilities" :
-		{
-				"ability1":{"type" : "FIRST_STRIKE"},
-				"ability2":{"type" : "FLYING","subtype" : "movementFlying"}			
+		"sound" : {
+			"attack" : "sw08witch/mantis/HHAGATTK.wav",
+			"defend" : "sw08witch/mantis/HHAGDFND.wav",
+			"killed" : "sw08witch/mantis/HHAGKILL.wav",
+			"move" : "sw08witch/mantis/HHAGMOVE.wav",
+			"wince" : "sw08witch/mantis/HHAGWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

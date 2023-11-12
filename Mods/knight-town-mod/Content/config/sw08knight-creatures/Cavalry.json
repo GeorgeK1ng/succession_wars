@@ -1,54 +1,56 @@
 {
-	"sw08knightCavalry":
-	{
-"name" :{"plural" : "Cavalries","singular" : "Cavalry"},
-		"advMapAmount" :
-		{
-			"max" : 18,
-			"min" : 12
+	"sw08knightCavalry" : {
+		"name" : {
+			"singular" : "Cavalry",
+			"plural" : "Cavalries"
 		},
-"upgrades":
-["sw08knightChampion"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "sw08knight",
-		"aiValue" : 1297,
-		"attack" : 10,
-
-		"cost" :
-		{
+		"level" : 6,
+		"cost" : {
 			"gold" : 550
 		},
-		"damage" :
-		{
-			"max" : 12,
-			"min" : 6
-		},
+		"speed" : 8,
+		"hitPoints" : 40,
+		"shots" : 0,
+		"attack" : 10,
 		"defense" : 9,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
 		"fightValue" : 1112,
-		"graphics" :
-		{
-			"animation" : "sw08knight-creatures/battle/c010cvlr",
-			"map" : "sw08knight-creatures/map/avwcvlr0",
+		"aiValue" : 1297,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 18
+		},
+		"growth" : 3,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"upgrades" : [
+			"sw08knightChampion"
+		],
+		"abilities" : {
+			"ability1" : {
+				"type" : "JOUSTING",
+				"val" : 15
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08knight-creatures/cprsmall.def:12",
 			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:12",
-			
+			"map" : "sw08knight-creatures/map/avwcvlr0",
+			"animation" : "sw08knight-creatures/battle/c010cvlr",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,32 +59,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 7
+				"attackClimaxFrame" : 7
 			}
-			
 		},
-
-		"growth" : 3,
-		"hitPoints" : 40,
-		"horde" : 0,
-              	"level" : 6,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08knight/cavalier/CAVAATTK.wav",
-"defend" :"sw08knight/cavalier/CAVADFND.wav",
-"killed" :"sw08knight/cavalier/CAVAKILL.wav",
-"move" :"sw08knight/cavalier/CAVAMOVE.wav",
-"wince" :"sw08knight/cavalier/CAVAWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 8,
-		"abilities" :
-		{
-
-"ability1":{	"type" : "JOUSTING", "val" : 15}
-					
+		"sound" : {
+			"attack" : "sw08knight/cavalier/CAVAATTK.wav",
+			"defend" : "sw08knight/cavalier/CAVADFND.wav",
+			"killed" : "sw08knight/cavalier/CAVAKILL.wav",
+			"move" : "sw08knight/cavalier/CAVAMOVE.wav",
+			"wince" : "sw08knight/cavalier/CAVAWNCE.wav",
+			"shoot" : ""
 		}
 	}
 }

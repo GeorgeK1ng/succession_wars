@@ -1,53 +1,61 @@
 {
-	"sw08necromancerPowerLich":
-	{
-"name" :{"plural" : "Power Liches","singular" : "Power Lich"},
-		"advMapAmount" :
-		{
-			"max" : 10,
-			"min" : 6
+	"sw08necromancerPowerLich" : {
+		"name" : {
+			"singular" : "Power Lich",
+			"plural" : "Power Liches"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08necromancerfaction",
-		"aiValue" : 675,
-		"attack" : 7,
-
-		"cost" :
-		{
+		"level" : 6,
+		"cost" : {
 			"gold" : 550
 		},
-		"damage" :
-		{
-			"max" : 14,
-			"min" : 12
-		},
+		"speed" : 7,
+		"hitPoints" : 55,
+		"shots" : 24,
+		"attack" : 7,
 		"defense" : 13,
+		"damage" : {
+			"min" : 12,
+			"max" : 14
+		},
 		"fightValue" : 640,
-		"graphics" :
-		{
-			"animation" : "sw08necromancer-creatures/battle/c067ulic",
-			"map" : "sw08necromancer-creatures/map/AVWbknx0",
+		"aiValue" : 675,
+		"advMapAmount" : {
+			"min" : 6,
+			"max" : 10
+		},
+		"growth" : 2,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [],
+		"abilities" : {
+			"ability1" : {
+				"type" : "UNDEAD"
+			},
+			"ability2" : {
+				"type" : "SHOOTER"
+			},
+			"ability3" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.deathCloud",
+				"val" : 1
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:69",
 			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:69",
-			
+			"map" : "sw08necromancer-creatures/map/AVWbknx0",
+			"animation" : "sw08necromancer-creatures/battle/c067ulic",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08necromancer-creatures/battle/PLICH",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 42,
 					"upperY" : -83,
 					"middleX" : 43,
@@ -56,38 +64,16 @@
 					"lowerY" : -26
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 5
+				"attackClimaxFrame" : 5
 			}
-			
 		},
-
-		"growth" : 2,
-		"hitPoints" : 55,
-		"horde" : 0,
-              	"level" : 6,
-		"shots" : 24,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08necromancer/power lich/PLCHATTK.wav",
 			"defend" : "sw08necromancer/power lich/PLCHDFND.wav",
 			"killed" : "sw08necromancer/power lich/PLCHKILL.wav",
 			"move" : "sw08necromancer/power lich/PLCHMOVE.wav",
 			"wince" : "sw08necromancer/power lich/PLCHWNCE.wav",
-                     	"shoot" : "sw08necromancer/power lich/PLCHSHOT.wav"
-		},
-		"speed" : 7,
-		"abilities" :
-		{
-"ability1":{"type" : "UNDEAD"},
-"ability2":
-{
-"type" : "SHOOTER"
-},
-"ability3":
-{"type" : "SPELL_LIKE_ATTACK",
-"subtype" : "spell.deathCloud",
-"val" : 1}	
-					
+			"shoot" : "sw08necromancer/power lich/PLCHSHOT.wav"
 		}
 	}
 }

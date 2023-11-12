@@ -1,68 +1,79 @@
 {
-    "sw08neutralEarthMessenger": {
-        "name": {
-            "plural" : "Earth Messengers",
-            "singular" : "Earth Messenger"
-        },
-"advMapAmount" :		{			"max" : 10,
-			"min" : 8		},
-        "hasDoubleWeek": true,
-        "faction" : "sw08neutral",
-        "aiValue" : 775
-,
-        "attack" : 8,
-        "cost": {
-            "gold" : 750
-        },
-        "damage": {
-            "max" : 5,
-            "min" : 2
-        },
-        "defense" : 8,
-        "fightValue" : 775
-,
-        "graphics": {
-            "animation" : "sw08neutral-creatures/battle/c113eear",
-            "map" : "sw08neutral-creatures/map/AVWelme0",
+	"sw08neutralEarthMessenger" : {
+		"name" : {
+			"singular" : "Earth Messenger",
+			"plural" : "Earth Messengers"
+		},
+		"faction" : "sw08neutral",
+		"level" : 6,
+		"cost" : {
+			"gold" : 750
+		},
+		"speed" : 4,
+		"hitPoints" : 50,
+		"shots" : 0,
+		"attack" : 8,
+		"defense" : 8,
+		"damage" : {
+			"min" : 2,
+			"max" : 5
+		},
+		"fightValue" : 775,
+		"aiValue" : 775,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 10
+		},
+		"growth" : 2,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [],
+		"abilities" : {
+			"ability2" : {
+				"type" : "NON_LIVING"
+			},
+			"ability3" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.earth"
+			},
+			"ability4" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"val" : 100,
+				"subtype" : "spellSchool.earth"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08neutral-creatures/cprsmall.def:115",
 			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:115",
-            "timeBetweenFidgets" : 1,
-            "animationTime": {
-                "idle" : 10,
-                "walk" : 1,
-                "attack" : 1
-                
-            }
-        },
-        "growth" : 2,
-        "hitPoints" : 50,
-        "level" : 6,
-        "shots" : 0,
-		"sound" :		
-		{
-		"attack" :"sw08neutral/earth elemental/EglmATTK.wav",
-		"defend" :"sw08neutral/earth elemental/EglmDFND.wav",
-		"killed" :"sw08neutral/earth elemental/EglmKILL.wav",
-		"move" :"sw08neutral/earth elemental/EglmMOVE.wav",
-		"wince" :"sw08neutral/earth elemental/EglmWNCE.wav"
-},
-        "speed" : 4,
-        "abilities": {
-   //         "ability1": {
-  //              "type" : "FLYING"
-  //          },
-            "ability2": {
-                "type" : "NON_LIVING"
-            },
-            "ability3": {
-               "type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "spellSchool.earth"
-            },
-            "ability4": {
-                "type" : "SPELL_DAMAGE_REDUCTION",
-                "val" : 100,
-                "subtype" : "spellSchool.earth"
-            }
-        }
-    }
+			"map" : "sw08neutral-creatures/map/AVWelme0",
+			"animation" : "sw08neutral-creatures/battle/c113eear",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+			},
+			"missile" : {
+				"projectile" : "",
+				"offset" : {
+					"upperX" : 0,
+					"upperY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"lowerX" : 0,
+					"lowerY" : 0
+				},
+				"frameAngles" : [],
+				"attackClimaxFrame" : 0
+			}
+		},
+		"sound" : {
+			"attack" : "sw08neutral/earth elemental/EglmATTK.wav",
+			"defend" : "sw08neutral/earth elemental/EglmDFND.wav",
+			"killed" : "sw08neutral/earth elemental/EglmKILL.wav",
+			"move" : "sw08neutral/earth elemental/EglmMOVE.wav",
+			"wince" : "sw08neutral/earth elemental/EglmWNCE.wav"
+		}
+	}
 }

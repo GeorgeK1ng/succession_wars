@@ -1,53 +1,48 @@
 {
-	"sw08knightMasterSwordsman":
-	{
-"name" :{"plural" : "Master Swordsmen","singular" : "Master Swordsman"},
-		"advMapAmount" :
-		{
-			"max" : 22,
-			"min" : 14
+	"sw08knightMasterSwordsman" : {
+		"name" : {
+			"singular" : "Master Swordsman",
+			"plural" : "Master Swordsmen"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08knight",
-		"aiValue" : 588,
-		"attack" : 7,
-
-		"cost" :
-		{
+		"level" : 5,
+		"cost" : {
 			"gold" : 400
 		},
-		"damage" :
-		{
-			"max" : 8,
-			"min" : 6
-		},
+		"speed" : 7,
+		"hitPoints" : 40,
+		"shots" : 0,
+		"attack" : 7,
 		"defense" : 9,
+		"damage" : {
+			"min" : 6,
+			"max" : 8
+		},
 		"fightValue" : 588,
-		"graphics" :
-		{
-			"animation" : "sw08knight-creatures/battle/c009uswd",
-			"map" : "sw08knight-creatures/map/AvWMonk",
+		"aiValue" : 588,
+		"advMapAmount" : {
+			"min" : 14,
+			"max" : 22
+		},
+		"growth" : 4,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {},
+		"graphics" : {
 			"iconSmall" : "sw08knight-creatures/cprsmall.def:11",
 			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:11",
-			
+			"map" : "sw08knight-creatures/map/AvWMonk",
+			"animation" : "sw08knight-creatures/battle/c009uswd",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,31 +51,15 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 7
+				"attackClimaxFrame" : 7
 			}
-			
 		},
-
-		"growth" : 4,
-		"hitPoints" : 40,
-		"horde" : 0,
-              	"level" : 5,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08knight/master swordsman/ZELTATTK.wav",
-"defend" :"sw08knight/master swordsman/ZELTDFND.wav",
-"killed" :"sw08knight/master swordsman/ZELTKILL.wav",
-"move" :"sw08knight/master swordsman/ZELTMOVE.wav",
-"wince" :"sw08knight/master swordsman/ZELTWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 7,
-		"abilities" :
-		{
-
-					
+		"sound" : {
+			"attack" : "sw08knight/master swordsman/ZELTATTK.wav",
+			"defend" : "sw08knight/master swordsman/ZELTDFND.wav",
+			"killed" : "sw08knight/master swordsman/ZELTKILL.wav",
+			"move" : "sw08knight/master swordsman/ZELTMOVE.wav",
+			"wince" : "sw08knight/master swordsman/ZELTWNCE.wav"
 		}
 	}
 }

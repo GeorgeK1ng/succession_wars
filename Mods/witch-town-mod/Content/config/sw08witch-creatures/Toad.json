@@ -1,53 +1,53 @@
 {
-	"sw08witchToad":
-	{
-"name" :{"plural" : "Toads","singular" : "Toad"},
-		"advMapAmount" :
-		{
-			"max" : 20,
-			"min" : 12
+	"sw08witchToad" : {
+		"name" : {
+			"singular" : "Toad",
+			"plural" : "Toads"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : true,
 		"faction" : "sw08witch",
-		"aiValue" : 421,
-		"attack" : 7,
-
-		"cost" :
-		{
+		"level" : 4,
+		"cost" : {
 			"gold" : 385
 		},
-		"damage" :
-		{
-			"max" : 9,
-			"min" : 3
-		},
+		"speed" : 7,
+		"hitPoints" : 35,
+		"shots" : 0,
+		"attack" : 7,
 		"defense" : 7,
+		"damage" : {
+			"min" : 3,
+			"max" : 9
+		},
 		"fightValue" : 404,
-		"graphics" :
-		{
-			"animation" : "sw08witch-creatures/battle/c104toad",
-			"map" : "sw08witch-creatures/map/082/AvWBasl",
+		"aiValue" : 421,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"growth" : 4,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : true,
+		"abilities" : {
+			"ability1" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08witch-creatures/cprsmall.def:106",
 			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:106",
-			
+			"map" : "sw08witch-creatures/map/082/AvWBasl",
+			"animation" : "sw08witch-creatures/battle/c104toad",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08witch-creatures/battle/CPRZEAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,32 +56,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 8
+				"attackClimaxFrame" : 8
 			}
-			
 		},
-
-		"growth" :4,
-		"hitPoints" : 35,
-		"horde" : 0,
-              	"level" : 4,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08witch/frog/DFLYATTK.wav",
-"defend" :"sw08witch/frog/DFLYDFND.wav",
-"killed" :"sw08witch/frog/DFLYKILL.wav",
-"move" :"sw08witch/frog/DFLYMOVE.wav",
-"wince" :"sw08witch/frog/DFLYWNCE.wav",
-"shoot" :"sw08witch/frog/DFLYSHOT"
-
-},
-		"speed" : 7,
-		"abilities" :
-		{
-		"ability1":{"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "spellSchool.water"}
-					
+		"sound" : {
+			"attack" : "sw08witch/frog/DFLYATTK.wav",
+			"defend" : "sw08witch/frog/DFLYDFND.wav",
+			"killed" : "sw08witch/frog/DFLYKILL.wav",
+			"move" : "sw08witch/frog/DFLYMOVE.wav",
+			"wince" : "sw08witch/frog/DFLYWNCE.wav",
+			"shoot" : "sw08witch/frog/DFLYSHOT"
 		}
 	}
 }

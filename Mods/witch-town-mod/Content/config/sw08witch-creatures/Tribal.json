@@ -1,53 +1,52 @@
 {
-	"sw08witchTribal":
-	{
-"name" :{"plural" : "Tribals","singular" : "Tribal"},
-		"advMapAmount" :
-		{
-			"max" : 40,
-			"min" : 20
+	"sw08witchTribal" : {
+		"name" : {
+			"singular" : "Tribal",
+			"plural" : "Tribals"
 		},
-
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08witch",
-		"aiValue" : 67,
-		"attack" : 2,
-
-		"cost" :
-		{
+		"level" : 1,
+		"cost" : {
 			"gold" : 65
 		},
-		"damage" :
-		{
-			"max" : 3,
-			"min" : 1
-		},
+		"speed" : 4,
+		"hitPoints" : 6,
+		"shots" : 12,
+		"attack" : 2,
 		"defense" : 5,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
 		"fightValue" : 77,
-		"graphics" :
-		{
-			"animation" : "sw08witch-creatures/battle/c098trbl",
-			"map" : "sw08witch-creatures/map/AVWgnll0",
+		"aiValue" : 67,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 40
+		},
+		"growth" : 8,
+		"horde" : 5,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"abilities" : {
+			"ability1" : {
+				"type" : "SHOOTER"
+			}
+		},
+		"graphics" : {
 			"iconSmall" : "sw08witch-creatures/cprsmall.def:100",
 			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:100",
-			
+			"map" : "sw08witch-creatures/map/AVWgnll0",
+			"animation" : "sw08witch-creatures/battle/c098trbl",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08witch-creatures/battle/PPLIZAX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -56,33 +55,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 8
+				"attackClimaxFrame" : 8
 			}
-			
 		},
-
-		"growth" : 8,
-		"hitPoints" : 6,
-		"horde" : 5,
-              	"level" : 1,
-		"shots" : 12,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "sw08witch/tribal/GNOLATTK.wav",
 			"defend" : "sw08witch/tribal/GNOLDFND.wav",
 			"killed" : "sw08witch/tribal/GNOLKILL.wav",
 			"move" : "sw08witch/tribal/GNOLMOVE.wav",
 			"wince" : "sw08witch/tribal/GNOLWNCE.wav",
-                     	"shoot" : "sw08witch/tribal/GNOLATTK.wav"
-		},
-		"speed" : 4,
-		"abilities" :
-		{
-"ability1":
-{
-"type" : "SHOOTER"
-}	
-					
+			"shoot" : "sw08witch/tribal/GNOLATTK.wav"
 		}
 	}
 }

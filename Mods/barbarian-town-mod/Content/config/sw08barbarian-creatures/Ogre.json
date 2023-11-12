@@ -1,55 +1,51 @@
 {
-	"sw08barbarianOgre":
-	{
-"name" :{"plural" : "Ogres","singular" : "Ogre"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 12
+	"sw08barbarianOgre" : {
+		"name" : {
+			"singular" : "Ogre",
+			"plural" : "Ogres"
 		},
-
-"upgrades":
-["sw08barbarianOgreLord"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "swsw08barbarianfaction",
-		"aiValue" : 497,
-		"attack" : 9,
-
-		"cost" :
-		{
+		"level" : 5,
+		"cost" : {
 			"gold" : 315
 		},
-		"damage" :
-		{
-			"max" : 7,
-			"min" :5
-		},
+		"speed" : 3,
+		"hitPoints" : 45,
+		"shots" : 0,
+		"attack" : 9,
 		"defense" : 5,
+		"damage" : {
+			"min" : 5,
+			"max" : 7
+		},
 		"fightValue" : 468,
-		"graphics" :
-		{
-			"animation" : "sw08barbarian-creatures/battle/c092ogre",
-			"map" : "sw08barbarian-creatures/map/AVWroc0",
+		"aiValue" : 497,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		},
+		"growth" : 4,
+		"horde" : 0,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08barbarianOgreLord"
+		],
+		"abilities" : {},
+		"graphics" : {
 			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:94",
 			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:94",
-			
+			"map" : "sw08barbarian-creatures/map/AVWroc0",
+			"animation" : "sw08barbarian-creatures/battle/c092ogre",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08barbarian-creatures/battle/PorchX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -58,31 +54,16 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 12
+				"attackClimaxFrame" : 12
 			}
-			
 		},
-
-		"growth" : 4,
-		"hitPoints" : 45,
-		"horde" : 0,
-              	"level" : 5,
-		"shots" :0,
-		"sound" :
-		{
-"attack" :"sw08barbarian/ogre/GENIATTK.wav",
-"defend" :"sw08barbarian/ogre/GENIDFND.wav",
-"killed" :"sw08barbarian/ogre/GENIKILL.wav",
-"move" :"sw08barbarian/ogre/GENIMOVE.wav",
-"wince" :"sw08barbarian/ogre/GENIWNCE.wav",
-//"shoot" :""
-
-},
-		"speed" : 3,
-		"abilities" :
-		{
-
-					
+		"sound" : {
+			"attack" : "sw08barbarian/ogre/GENIATTK.wav",
+			"defend" : "sw08barbarian/ogre/GENIDFND.wav",
+			"killed" : "sw08barbarian/ogre/GENIKILL.wav",
+			"move" : "sw08barbarian/ogre/GENIMOVE.wav",
+			"wince" : "sw08barbarian/ogre/GENIWNCE.wav"
+			//"shoot" :""
 		}
 	}
 }

@@ -1,54 +1,50 @@
 {
-	"sw08knightPikeman":
-	{
-"name" :{"plural" : "Pikemen","singular" : "Pikeman"},
-		"advMapAmount" :
-		{
-			"max" : 25,
-			"min" : 15
+	"sw08knightPikeman" : {
+		"name" : {
+			"singular" : "Pikeman",
+			"plural" : "Pikemen"
 		},
-"upgrades":
-["sw08knightVeteranPikeman"],
-
-	"hasDoubleWeek": true, 
-            "doubleWide" : false,
 		"faction" : "sw08knight",
-		"aiValue" : 250,
-		"attack" : 5,
-
-		"cost" :
-		{
+		"level" : 3,
+		"cost" : {
 			"gold" : 150
 		},
-		"damage" :
-		{
-			"max" : 4,
-			"min" : 3
-		},
+		"speed" : 5,
+		"hitPoints" : 15,
+		"shots" : 0,
+		"attack" : 5,
 		"defense" : 6,
+		"damage" : {
+			"min" : 3,
+			"max" : 4
+		},
 		"fightValue" : 324,
-		"graphics" :
-		{
-			"animation" : "sw08knight-creatures/battle/c004pike",
-			"map" : "sw08knight-creatures/map/avwgrif",
+		"aiValue" : 250,
+		"advMapAmount" : {
+			"min" : 15,
+			"max" : 25
+		},
+		"growth" : 6,
+		"horde" : 3,
+		"hasDoubleWeek" : true,
+		"doubleWide" : false,
+		"upgrades" : [
+			"sw08knightVeteranPikeman"
+		],
+		"graphics" : {
 			"iconSmall" : "sw08knight-creatures/cprsmall.def:6",
 			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:6",
-			
+			"map" : "sw08knight-creatures/map/avwgrif",
+			"animation" : "sw08knight-creatures/battle/c004pike",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-"idle" : 10,
-
+			"animationTime" : {
+				"idle" : 10,
 				"walk" : 1,
 				"attack" : 1
-				
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-                               
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -57,32 +53,20 @@
 					"lowerY" : -14
 				},
 				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-"attackClimaxFrame" : 8
+				"attackClimaxFrame" : 8
 			}
-			
 		},
-
-		"growth" : 6,
-		"hitPoints" : 15,
-		"horde" : 3,
-              	"level" : 3,
-		"shots" : 0,
-		"sound" :
-		{
-"attack" :"sw08knight/pikeman/grifATTK.wav",
-"defend" :"sw08knight/pikeman/grifDFND.wav",
-"killed" :"sw08knight/pikeman/grifKILL.wav",
-"move" :"sw08knight/pikeman/grifMOVE.wav",
-"wince" :"sw08knight/pikeman/grifWNCE",
-//"shoot" :""
-
-},
-		"speed" : 5,
-		"abilities" :
-		{
-
-"ability1":{	"type" : "CHARGE_IMMUNITY"}
-					
+		"sound" : {
+			"attack" : "sw08knight/pikeman/grifATTK.wav",
+			"defend" : "sw08knight/pikeman/grifDFND.wav",
+			"killed" : "sw08knight/pikeman/grifKILL.wav",
+			"move" : "sw08knight/pikeman/grifMOVE.wav",
+			"wince" : "sw08knight/pikeman/grifWNCE"
+		},
+		"abilities" : {
+			"ability1" : {
+				"type" : "CHARGE_IMMUNITY"
+			}
 		}
 	}
 }
