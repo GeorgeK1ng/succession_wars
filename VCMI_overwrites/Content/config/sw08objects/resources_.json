@@ -1,0 +1,55 @@
+{
+	"core:resource": {
+		"types": {
+			"gold": {
+				"templates": {
+					"res" : {
+						"animation" : "sw08objects/resources/SWRES03"
+					 }
+				}
+			},
+			"wood": {
+				"templates": {
+					"res" : {
+						"animation" : "sw08objects/resources/SWRES08"
+					}
+				}
+			},
+			"ore": {
+				"templates": {
+					"res" : {
+						"animation" : "sw08objects/resources/SWRES05"
+					 }
+				}
+			},
+			"crystal": {
+				"templates": {
+					"res" : {
+						"animation" : "sw08objects/resources/SWRES01"
+					}
+				}
+			},
+			"gems": {
+				"templates": {
+					"res" : {
+						"animation" : "sw08objects/resources/SWRES02"
+					}
+				}
+			},
+			"mercury": {
+				"templates": {
+					"res" : {
+						"animation" : "sw08objects/resources/SWRES04"
+					}
+				}
+			},
+			"sulfur": {
+				"templates": {
+					"res" : {
+						"animation" : "sw08objects/resources/SWRES07"
+					}
+				}
+			}
+		}
+	}
+}

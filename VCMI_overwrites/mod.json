@@ -1,0 +1,17 @@
+{
+	"name" : "SW - VCMI Overwrites",
+	"description" : "SW - Some SoD objects cannot be disabled in VCMI so they need to be overriden.",
+	"modType" : "Expansion",
+	"author" : "Noname",
+	"contact" : "none",
+	"version" : "0.0.2",
+	"changelog" :
+	{
+		"0.0.2"   : [ "Added mines sprites directly in Sprites Root" ],
+		"0.0.1"   : [ "resource images on adventure map overriden" ]
+	},
+	"objects" :
+	[
+		"config/sw08objects/resources_.json"
+	]
+}

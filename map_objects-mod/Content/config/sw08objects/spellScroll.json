@@ -1,0 +1,15 @@
+{
+	"core:spellScroll": {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"normal" : {
+						"visitableFrom" : [ "+++", "+-+", "+++" ],
+						"mask" : [ "VA" ],
+						"animation" : "sw08objects/spellScroll/AVA0001"
+					}
+				}
+			}
+		}
+	}
+}

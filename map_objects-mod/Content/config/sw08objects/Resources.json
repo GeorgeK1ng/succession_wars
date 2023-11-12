@@ -9,18 +9,16 @@
 				},
 				"templates": {
 					"sw08_AVTwood1": {
-						"animation" : "sw08objects_mines/SWRES08",
+						"animation" : "sw08objects/resources/SWRES09",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
-						"allowedTerrains": ["snow","snow"]
+						"allowedTerrains": [ "snow" ]
 					},
 					"sw08_AVTwood0": {
-						"animation" : "sw08objects_mines/SWRES09",
+						"animation" : "sw08objects/resources/SWRES08",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
-						"allowedTerrains": ["grass", "dirt", "rough", "swamp", "lava", "sand", "subterra",
-							"hmm2desert"
-						]
+						"allowedTerrains": [ "grass", "dirt", "rough", "swamp", "lava", "sand", "subterra", "hmm2desert" ]
 					}
 				}
 			},
@@ -32,7 +30,7 @@
 				},
 				"templates": {
 					"sw08_AVTmerc0": {
-						"animation" : "sw08objects_mines/SWRES04",
+						"animation" : "sw08objects/resources/SWRES04",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
 						"allowedTerrains": [
@@ -57,7 +55,7 @@
 				},
 				"templates": {
 					"sw08_AVTore0": {
-						"animation" : "sw08objects_mines/SWRES05",
+						"animation" : "sw08objects/resources/SWRES05",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
 						"allowedTerrains": [
@@ -82,7 +80,7 @@
 				},
 				"templates": {
 					"sw08_AVTsulf0": {
-						"animation" : "sw08objects_mines/SWRES07",
+						"animation" : "sw08objects/resources/SWRES07",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
 
@@ -107,9 +105,8 @@
 					"rarity" : 300
 				},
 				"templates": {
-
 					"sw08_AVTcrys0": {
-						"animation" : "sw08objects_mines/SWRES01",
+						"animation" : "sw08objects/resources/SWRES01",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
 
@@ -136,7 +133,7 @@
 				},
 				"templates": {
 					"sw08_AVTgems0": {
-						"animation" : "sw08objects_mines/SWRES02",
+						"animation" : "sw08objects/resources/SWRES02",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
 
@@ -149,7 +146,7 @@
 							"lava",
 							"swamp",
 							"snow",
-							"hmm2desert" 
+							"hmm2desert"
 						]
 					}
 
@@ -163,7 +160,7 @@
 				},
 				"templates": {
 					"sw08_AVTgold0": {
-						"animation" : "sw08objects_mines/SWRES03",
+						"animation" : "sw08objects/resources/SWRES03",
 						"visitableFrom": ["+++", "+++", "+++"],
 						"mask": ["VA"],
 
@@ -176,7 +173,7 @@
 							"lava",
 							"swamp",
 							"snow",
-							"hmm2desert" 
+							"hmm2desert"
 						]
 					}
 
