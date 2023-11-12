@@ -4,14 +4,20 @@
 	"modType" : "Expansion",
 	"author" : "Noname",
 	"contact" : "none",
-	"version" : "0.0.2",
+	"version" : "0.0.4",
 	"changelog" :
 	{
+		"0.0.4"   : [ "Added Jebus Cross Template" ],
+		"0.0.3"   : [ "Added gem sprites directly in Sprites Root" ],
 		"0.0.2"   : [ "Added mines sprites directly in Sprites Root" ],
 		"0.0.1"   : [ "resource images on adventure map overriden" ]
 	},
 	"objects" :
 	[
 		"config/sw08objects/resources_.json"
+	],
+	"templates" :
+	[
+		"config/sw08templates/08SWJebusCross.json"
 	]
 }
