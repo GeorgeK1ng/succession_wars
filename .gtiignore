@@ -1,0 +1,7 @@
+# Ignore the following file extensions
+*.def
+*.bmp
+*.zip
+*.png
+*.txt
+*.wav
