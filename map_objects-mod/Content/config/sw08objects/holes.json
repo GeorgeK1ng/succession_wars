@@ -1,0 +1,105 @@
+{
+	"core:hole": {
+
+		"types": {
+			"object": {
+				"name" : "Hole",
+
+				"templates": {
+
+					"AVLhlds0": {
+						"animation" : "sw08objects/hole/AVLhlds0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"AVLhlsn0": {
+						"animation" : "sw08objects/hole/AVLhlsn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"avlhold0": {
+						"animation" : "sw08objects/hole/avlhold0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"avlholg0": {
+						"animation" : "sw08objects/hole/avlholg0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avlholl0": {
+						"animation" : "sw08objects/hole/avlholl0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"avlholr0": {
+						"animation" : "sw08objects/hole/avlholr0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"avlhols0": {
+						"animation" : "sw08objects/hole/avlhols0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"avlholu0": {
+						"animation" : "sw08objects/hole/avlholu0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"avlholx0": {
+						"animation" : "sw08objects/hole/avlholx0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					}
+
+
+				}
+			}
+			
+		
+
+					
+					
+					
+					
+		}
+
+	}
+}

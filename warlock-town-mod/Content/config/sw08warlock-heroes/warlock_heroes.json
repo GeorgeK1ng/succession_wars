@@ -1,0 +1,1974 @@
+{
+	"swsw08warlockWar01" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Amicus",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Learning",
+				"tooltip" : "Receives a 5% per level bonus to Learning skill percentage.",
+				"name" : "Learning"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:80",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:80",
+			"large" : "sw08warlock-heroes/port/HPL080OV",
+			"small" : "sw08warlock-heroes/port/HPS080OV"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty": 
+		
+		
+			{ 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "HERO_EXPERIENCE_GAIN_PERCENT",   "valueType" : "ADDITIVE_VALUE",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+	
+		"swsw08warlockWar02" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Crodo",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Intellect",
+				"tooltip" : "Receives a 5% per level bonus to Intellect skill percentage.",
+				"name" : "Intellect"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:81",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:81",
+			"large" : "sw08warlock-heroes/port/HPL081OV",
+			"small" : "sw08warlock-heroes/port/HPS081OV"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty":  
+		
+		
+			{ 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "MANA_PER_KNOWLEDGE",
+						 "targetSourceType" : "SECONDARY_SKILL" , 
+						 "valueType" : "PERCENT_TO_TARGET_TYPE",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+	
+		
+		"swsw08warlockWar03" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Kastore",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Lightning Bolt",
+				"tooltip" : "Casts Lightning Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Lightning Bolt"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:82",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:82",
+			"large" : "sw08warlock-heroes/port/HPL082OV",
+			"small" : "sw08warlock-heroes/port/HPS082OV"
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty":  
+		
+
+			{	 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "SPECIAL_SPELL_LEV",
+						"subtype" : "spell.lightningBolt",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+	
+			"swsw08warlockWar04" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Falagar",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Sorcery",
+				"tooltip" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:83",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:83",
+			"large" : "sw08warlock-heroes/port/HPL083OV",
+			"small" : "sw08warlock-heroes/port/HPS083OV"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty":  
+		
+		
+			{ 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "SPELL_DAMAGE",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+			"swsw08warlockWar05" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Verchoffin",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Hydras",
+				"tooltip" : "Increases the Attack and Defense skill of any Hydras for each level attained after 6th level.",
+				"name" : "Hydras"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:84",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:84",
+			"large" : "sw08warlock-heroes/port/HPL084OV",
+			"small" : "sw08warlock-heroes/port/HPS084OV"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockHydra", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockHydra", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+	},
+	
+				"swsw08warlockWar06" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Agar",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Beholders",
+				"tooltip" : "Increases the Attack and Defense skill of any Beholders for each level attained after 4th level.",
+				"name" : "Beholders"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:85",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:85",
+			"large" : "sw08warlock-heroes/port/HPL085OV",
+			"small" : "sw08warlock-heroes/port/HPS085OV"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockBeholder", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockBeholder", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+	},
+	
+	
+	
+					"swsw08warlockWar07" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Wrathmont",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Griffins",
+				"tooltip" : "Increases the Attack and Defense skill of any Griffins for each level attained after 3rd level.",
+				"name" : "Griffins"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:86",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:86",
+			"large" : "sw08warlock-heroes/port/HPL086OV",
+			"small" : "sw08warlock-heroes/port/HPS086OV"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockGriffin", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockGriffin", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+	},
+	
+	
+		
+					"swsw08warlockWar08" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Quentin",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Fear",
+				"tooltip" : "Receives a level-dependent chance to freeze an enemy stack in combat. (Inactive for v0.8 beta)",
+				"name" : "Fear"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:87",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:87",
+			"large" : "sw08warlock-heroes/port/HPL087OV",
+			"small" : "sw08warlock-heroes/port/HPS087OV"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "FEAR"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+	
+						"swsw08warlockWar09" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Wiggo",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Centaurs",
+				"tooltip" : "Increases the Attack and Defense skill of any Centaurs for each level attained after 1st level.",
+				"name" : "Centaurs"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:88",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:88",
+			"large" : "sw08warlock-heroes/port/HPL088WL",
+			"small" : "sw08warlock-heroes/port/HPS088WL"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockCentaur", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockCentaur", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+	},
+	
+	
+	
+	
+						"swsw08warlockWar10" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Zoltan",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Minotaurs and Minotaur Kings",
+				"tooltip" : "Increases the Attack and Defense skill of any Minotaurs or Minotaur Kings for each level attained after 5th level.",
+				"name" : "Minotaurs and Minotaur Kings"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:89",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:89",
+			"large" : "sw08warlock-heroes/port/HPL089WL",
+			"small" : "sw08warlock-heroes/port/HPS089WL"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockMinotaur", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockMinotaur", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+	},
+	
+	
+	
+						"swsw08warlockWar11" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Vesper",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Fireball",
+				"tooltip" : "Casts Fireball with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Fireball"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:90",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:90",
+			"large" : "sw08warlock-heroes/port/HPL090WL",
+			"small" : "sw08warlock-heroes/port/HPS090WL"
+		},
+		"spellbook" :
+		[
+			"fireball"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.fireball"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+						"swsw08warlockWar12" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Mojo",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Gargoyles",
+				"tooltip" : "Increases the Attack and Defense skill of any Gargoyles for each level attained after 2nd level. (Inactive for v0.8 beta)",
+				"name" : "Gargoyles"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:91",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:91",
+			"large" : "sw08warlock-heroes/port/HPL091WL",
+			"small" : "sw08warlock-heroes/port/HPS091WL"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockGargoyle", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockGargoyle", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+	},
+	
+	
+"swsw08warlockWar13" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Barok",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Magic Resistance",
+				"tooltip" : "Receives a 5% per level bonus to Magic Resistance skill percentage.",
+				"name" : "Magic Resistance"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:92",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:92",
+			"large" : "sw08warlock-heroes/port/HPL092WL",
+			"small" : "sw08warlock-heroes/port/HPS092WL"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+ 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "MAGIC_RESISTANCE",
+"updater" : "TIMES_HERO_LEVEL",
+"val" : 5
+					
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+"swsw08warlockWar14" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Arie",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Armorer",
+				"tooltip" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:93",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:93",
+			"large" : "sw08warlock-heroes/port/HPL093WL",
+			"small" : "sw08warlock-heroes/port/HPS093WL"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" :  "damageTypeAll", "targetSourceType" : "SECONDARY_SKILL" ,
+"updater" : "TIMES_HERO_LEVEL",
+"val" : 5 
+					
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+"swsw08warlockWar15" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Gharik",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Curse",
+				"tooltip" : "Casts Curse with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Curse"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:94",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:94",
+			"large" : "sw08warlock-heroes/port/HPL094WL",
+			"small" : "sw08warlock-heroes/port/HPS094WL"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.curse"
+					
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+	
+	
+"swsw08warlockWar16" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Alamar",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Resurrection",
+				"tooltip" : "Casts Resurrection with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Resurrection"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:93",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:93",
+			"large" : "sw08warlock-heroes/port/HPL095WL",
+			"small" : "sw08warlock-heroes/port/HPS095WL"
+		},
+		"spellbook" :
+		[
+			"resurrection"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.resurrection"
+					
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+	
+"swsw08warlockWar17" :
+	{
+	"female":false,
+	"special":true,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Archibald",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Armageddon",
+				"tooltip" : "Casts Armageddon with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Armageddon"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:147",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:147",
+			"large" : "sw08warlock-heroes/port/HPL132WL",
+			"small" : "sw08warlock-heroes/port/HPS132WL"
+		},
+		"spellbook" :
+		[
+			"armageddon"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.armageddon"
+					
+					}
+				}
+			}
+		
+	},
+	
+	
+			"swsw08warlockWar18New" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Amadeys",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Intellect",
+				"tooltip" : "Receives a 5% per level bonus to Intellect skill percentage.",
+				"name" : "Intellect"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:81",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:81",
+			"large" : "sw08warlock-heroes/port/new/sw010L",
+			"small" : "sw08warlock-heroes/port/new/sw010S"
+		},
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty":  
+		
+		
+			{ 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "MANA_PER_KNOWLEDGE",
+						 "targetSourceType" : "SECONDARY_SKILL" , 
+						 "valueType" : "PERCENT_TO_TARGET_TYPE",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+	
+			"swsw08warlockWar19New" :
+	{
+	"female":true,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Adaliya",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Sorcery",
+				"tooltip" : "Receives a 6% per level bonus to Sorcery skill percentage.",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:83",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:83",
+			"large" : "sw08warlock-heroes/port/new/sw011L",
+			"small" : "sw08warlock-heroes/port/new/sw011S"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty":  
+		
+		
+			{ 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "SPELL_DAMAGE",
+						"val" : 6,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+						"swsw08warlockWar20New" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Deliran",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Fireball",
+				"tooltip" : "Casts Fireball with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Fireball"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:90",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:90",
+			"large" : "sw08warlock-heroes/port/new/sw012L",
+			"small" : "sw08warlock-heroes/port/new/sw012S"
+		},
+		"spellbook" :
+		[
+			"fireball"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.fireball"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+		
+		"swsw08warlockWar21New" :
+	{
+	"female":false,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Sarkosian",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Lightning Bolt",
+				"tooltip" : "Casts Lightning Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Lightning Bolt"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:82",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:82",
+			"large" : "sw08warlock-heroes/port/new/sw013L",
+			"small" : "sw08warlock-heroes/port/new/sw013S"
+		},
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty":  
+		
+
+			{	 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "SPECIAL_SPELL_LEV",
+						"subtype" : "spell.lightningBolt",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+	
+	"swsw08warlockWar22New" :
+	{
+	"female":true,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Xian",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Learning",
+				"tooltip" : "Receives a 5% per level bonus to Learning skill percentage.",
+				"name" : "Learning"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:80",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:80",
+			"large" : "sw08warlock-heroes/port/new/xian10_L",
+			"small" : "sw08warlock-heroes/port/new/xian10_S"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		
+		"specialty": 
+		
+		
+			{ 
+				"bonuses":
+				{
+									
+ "ability1" : {
+						"type" : "HERO_EXPERIENCE_GAIN_PERCENT",   "valueType" : "ADDITIVE_VALUE",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+						"swsw08warlockWar23New" :
+	{
+	"female":true,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Faljarena",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Gargoyles",
+				"tooltip" : "Increases the Attack and Defense skill of any Gargoyles for each level attained after 2nd level. (Inactive for v0.8 beta)",
+				"name" : "Gargoyles"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:91",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:91",
+			"large" : "sw08warlock-heroes/port/new/drow01L",
+			"small" : "sw08warlock-heroes/port/new/drow01S"
+		},
+		"spellbook" :
+		[
+			"slow"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "earthMagic"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockGargoyle", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08warlockGargoyle", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+	},
+	
+	
+	
+"swsw08warlockWar24New" :
+	{
+	"female":true,
+		"class" : "swsw08warlock",
+		"texts" :
+		{
+			"name" : "Evilla",
+			"biography" : "The past of this person is covered in shroud.",
+			"specialty" :
+			{
+				"description" : "Curse",
+				"tooltip" : "Casts Curse with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Curse"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08warlock-heroes/UN32.def:94",
+			"specialtyLarge" : "sw08warlock-heroes/UN44.def:94",
+			"large" : "sw08warlock-heroes/port/new/evilla10L",
+			"small" : "sw08warlock-heroes/port/new/evilla10S"
+		},
+		"spellbook" :
+		[
+			"curse"
+		],
+		
+		"army" :
+		[
+			{
+				"creature" : "sw08warlockCentaur",
+				"max" : 9,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGargoyle",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "sw08warlockGriffin",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.curse"
+					
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+}

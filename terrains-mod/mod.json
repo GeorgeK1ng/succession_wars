@@ -1,0 +1,35 @@
+{
+    "name" : "SW - Terrains",
+    "description" : "Terrains",
+    "version" : "0.0.1",
+    "author" : "Noname",
+    "contact" : "none",
+    "modType" : "Objects",
+    "depends": [
+   
+    ],
+	"battlefields":
+	[
+"config/hmm2_08/battlefields.json"
+	],
+	"terrains":
+	[
+"config/hmm2_08/terrains.json"
+	],
+	"rivers":
+	[
+"config/hmm2_08/rivers.json"
+	],
+	"roads":
+	[
+"config/hmm2_08/roads.json"
+	],
+	"obstacles":
+	[
+"config/hmm2_08/obstacles.json"
+	],
+		"objects":
+		[
+		 "config/h2_boats08/boat.json"			
+		]
+}

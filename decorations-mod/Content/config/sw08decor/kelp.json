@@ -1,0 +1,40 @@
+{
+		"core:kelp": {
+
+		"types": {
+			"sw08kelp": {
+				"name" : "Kelp",
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 50
+				},
+				"templates": {
+
+					"AVLklp10": {
+						"animation" : "sw08decor/kelp/AVLklp10",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVLklp20": {
+						"animation" : "sw08decor/kelp/AVLklp20",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					}
+
+
+
+				}
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+    "swsw08necromancerfaction": {
+        "town": {
+            "structures" :
+			{
+				
+"extanim":{ "animation" : "sw08necromancer/town-screen/buildings/TBNCEXT2", "x" : 670,  "y" : 340 ,"z" : 1},
+				"mageGuild1":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCMAGE", "x" : 700, "y" : 76, "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONMAG1.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNMAG1.bmp" },
+				
+"mageGuild2":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCMAG2", "x" : 702, "y" : 63,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONMAG2.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNMAG2.bmp" },
+				
+"mageGuild3":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCMAG3", "x" : 702, "y" : 43,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONMAG3.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNMAG3.bmp" },
+				
+"mageGuild4":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCMAG4", "x" : 702, "y" : 38,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONMAG4.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNMAG4.bmp" },
+				
+"mageGuild5":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCMAG5", "x" : 702, "y" : 23,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONMAG5.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNMAG5.bmp" },
+			
+//"x" : 170, "y" : 310,
+	
+"tavern":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCTVRN", 
+"x" : 170,   "y" : 310,"z":-2,
+ "border" : "sw08necromancer/town-screen/buildings-border/TONTAV.bmp",   "area" : "sw08necromancer/town-screen/buildings-area/TZNTAV.bmp"  },
+				
+"shipyard":{   "animation" : "sw08necromancer/town-screen/buildings/tbncdock", "x" : 653, "y" : 338,  "z" : 2, "border" : "sw08necromancer/town-screen/buildings-border/tonshpna.bmp", "area" : "sw08necromancer/town-screen/buildings-area/tznshpna.bmp" },
+				
+"fort":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCCSTL", "x" : 410, "y" : 16,"z":-3,  "border" : "sw08necromancer/town-screen/buildings-border/TONCAS1.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNCAS1.bmp" },
+				
+"citadel":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCCAS2", "x" : 380, "y" : 16, "z":-3, "border" : "sw08necromancer/town-screen/buildings-border/TONCAS2.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNCAS2.bmp" },
+				
+"castle":{   "animation" : "sw08necromancer/town-screen/buildings/TBNCCAS3", "x" : 380,  "y" :16, "z":-3, "border" : "sw08necromancer/town-screen/buildings-border/TONCAS3.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNCAS3.bmp" },
+				
+"villageHall":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCHALL", "x" : 384, "y" : 130,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONHAL1.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNHAL1.bmp" },
+				
+"townHall":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCHAL2", "x" : 370, "y" : 130,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONHAL2.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNHAL2.bmp" },
+				
+"cityHall":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCHAL3", "x" : 305, "y" : 131,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONHAL3.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNHAL3.bmp" },
+				
+"capitol":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCHAL4", "x" : 309, "y" : 114,  "z" : -1, "border" : "sw08necromancer/town-screen/buildings-border/TONHAL4.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNHAL4.bmp" },
+				
+"marketplace":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCMARK", "x" : 470, "y" : 310, "z" : 2,  "border" : "sw08necromancer/town-screen/buildings-border/TONMRK1.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNMRK1.bmp" },
+				
+"resourceSilo":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCSILO", "x" : 407, "y" : 298, "z" : 2,  "border" : "sw08necromancer/town-screen/buildings-border/TONMRK2.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNMRK2.bmp" },
+				
+"blacksmith":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCBLAK", "x" : 660, "y" : 219, "z" : 4,  "border" : "sw08necromancer/town-screen/buildings-border/TONSMITA.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNSMITA.bmp" },
+				
+"special1":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCSPEC", "x" : 0,  "y" : 0,   "z" : -9, "border" : "sw08necromancer/town-screen/buildings-border/TONSHRDA.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNSHRDA.bmp" },
+				
+"horde1":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCHRD1", "x" : 262,  "y" : 226, "z" : 4, "border" : "sw08necromancer/town-screen/buildings-border/TONSKE1H.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNSKE1H.bmp", "hidden" : true },
+				
+"horde1Upgr":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCHRD2", "x" : 262,  "y" : 226, "z" : 4, "border" : "sw08necromancer/town-screen/buildings-border/TONSKE2H.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNSKE2H.bmp", "hidden" : true},
+				
+"ship":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCBOAT", "x" : 653, "y" : 300,  "z" : 2, "border" : "sw08necromancer/town-screen/buildings-border/TONshpBa.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TzNshpBa.bmp", "hidden" : true },
+				
+"special2":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCEXT0", "x" : 121, "y" : 60,  "z" : -2, "border" : "sw08necromancer/town-screen/buildings-border/TONNECRA.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNNECRA.bmp" },
+				
+"special3":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCEXT1", "x" : 50, "y" : 320, "z" : 4,  "border" : "sw08necromancer/town-screen/buildings-border/TONSKELT.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNSKELT.bmp" },
+				
+//"grail":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCHOLY", "x" : 324, "y" : 196,  "border" : "sw08necromancer/town-screen/buildings-border/TONHOLYA.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNHOLYA.bmp" },
+				
+"extraTownHall":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCEXT3", "x" : 0,   "y" : 251 },
+				
+"extraCityHall":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCEXT4", "x" : 321, "y" : 255 },
+				
+"extraCapitol":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCEXT5", "x" : 475, "y" : 257 },
+				
+"dwellingLvl1":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCDW_0", "x" :425,  "y" : 226, "z" : 4, "border" : "sw08necromancer/town-screen/buildings-border/TONSKEL1.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNSKEL1.bmp" },
+				
+"dwellingLvl2":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCDW_1", "x" : 147, "y" : 146, "border" : "sw08necromancer/town-screen/buildings-border/TONZOMB1.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNZOMB1.bmp" },
+				
+"dwellingLvl3":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCDW_2", "x" : 150,   "y" : 37, "z" : 2, "border" : "sw08necromancer/town-screen/buildings-border/TONWIGH1.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNWIGH1.bmp" },
+				
+"dwellingLvl4":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCDW_3", "x" : 0, "y" : 133, "z" : 2, "border" : "sw08necromancer/town-screen/buildings-border/TONVAM1.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNVAM1.bmp" },
+				
+"dwellingLvl5":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCDW_4", "x" : 539, "y" : 83, "z" : 3, "border" : "sw08necromancer/town-screen/buildings-border/TONLICH1.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNLICH1.bmp" },
+				
+"dwellingLvl6":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCDW_5", "x" : 620,   "y" : 111,  "border" : "sw08necromancer/town-screen/buildings-border/TONBKN1.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNBKN1.bmp" },
+				
+"dwellingLvl7":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCDW_6", "x" : 506, "y" : 159,  "border" : "sw08necromancer/town-screen/buildings-border/TONBON1.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNBON1.bmp" },
+				
+
+				
+"dwellingUpLvl2":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCUP_1", "x" : 147, "y" : 146, "border" : "sw08necromancer/town-screen/buildings-border/TONZOMB2.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNZOMB2.bmp" },
+				
+"dwellingUpLvl3":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCUP_2", "x" : 150,   "y" : 37, "z" : 2, "border" : "sw08necromancer/town-screen/buildings-border/TONWIGH2.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNWIGH2.bmp" },
+				
+
+				
+"dwellingUpLvl5":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCUP_4", "x" : 539, "y" : 81, "z" : 3, "border" : "sw08necromancer/town-screen/buildings-border/TONLICH2.bmp", "area" : "sw08necromancer/town-screen/buildings-area/TZNLICH2.bmp" },
+				
+"dwellingUpLvl6":{  "animation" : "sw08necromancer/town-screen/buildings/TBNCUP_5", "x" : 620,   "y" : 10,  "border" : "sw08necromancer/town-screen/buildings-border/TONBKN2.bmp",  "area" : "sw08necromancer/town-screen/buildings-area/TZNBKN2.bmp" }
+
+
+			}
+        }
+    }
+}

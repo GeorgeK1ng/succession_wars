@@ -1,0 +1,49 @@
+{
+	"name" : "SW - Sorceress town",
+	"description" : "Sorceress town",
+"version" : "0.0.1",
+"author" : "author",
+"contact" : "none",
+"modType" : "Town",
+	"depends" :
+	[
+	"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	],
+	"factions" :
+	[
+		"config/sw08sorceress/buildings.json",
+		"config/sw08sorceress/faction.json",
+		"config/sw08sorceress/siege.json",
+		"config/sw08sorceress/spells.json",
+		"config/sw08sorceress/structures.json",
+		"config/sw08sorceress/puzzle.json",
+		"config/sw08sorceress/texts.json"
+	],
+	"heroClasses" :
+	[
+		"config/sw08sorceress-heroes/sorceress.json"
+	],
+	"heroes" :
+	[
+		"config/sw08sorceress-heroes/sorceress_heroes.json"
+	],
+"creatures" :
+	[
+"config/sw08sorceress-creatures/Battle Dwarf.json",
+"config/sw08sorceress-creatures/Druid.json",
+"config/sw08sorceress-creatures/Dwarf.json",
+"config/sw08sorceress-creatures/Elf.json",
+"config/sw08sorceress-creatures/Grand Elf.json",
+"config/sw08sorceress-creatures/Greater Druid.json",
+"config/sw08sorceress-creatures/Phoenix.json",
+"config/sw08sorceress-creatures/Pixie.json",
+
+"config/sw08sorceress-creatures/Unicorn.json",
+"config/sw08sorceress-creatures/Satyr.json"
+	],
+	"objects":
+	[
+		"config/sw08sorceress/dwellings.json",
+		"config/sw08sorceress/banks.json"		
+	]
+}

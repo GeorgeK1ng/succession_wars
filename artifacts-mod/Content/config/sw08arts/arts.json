@@ -1,0 +1,4855 @@
+{
+	"sw08hmm2_0000":
+	{
+		"type": ["HERO"],
+		"slot" : "SPELLBOOK",
+		"class": "MINOR",
+		"value": 2000,
+	
+		"text":
+		{
+			"name": "1st Level Spells Book",
+			"description": "Gives the hero all spells of 1st level.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:0",
+			"map": "sw08arts/AVA0000"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELLS_OF_LEVEL",
+				"subtype":"spellLevel1",
+				"val": 0
+			}
+		]
+	},
+
+	"sw08hmm2_0001":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value": 1000,
+	
+		"text":
+		{
+			"name": "Spell Scroll",
+			"description": "This scroll contains the Bless spell which is added into your spell book for as long as you carry the scroll.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:1",
+			"map": "sw08arts/AVA0001"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype": "spell.bless",
+				"val": 0
+			}
+		]
+	},
+	
+	
+	"sw08hmm2_0002":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 36000,
+	
+		"text":
+		{
+			"name": "Ultimate Grail of Life",
+			"description": "Ultimate Grail of Life gives full regeneration to your armies.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:1",
+			"map": "sw08arts/AVA0001"
+		},
+		"bonuses":
+		[
+			{
+				"type": "HP_REGENERATION", "val" : 100000, "valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},	
+	
+	
+
+
+
+	"sw08hmm2_0007":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "TREASURE",
+		"value": 3000,
+	
+		"text":
+		{
+			"name": "Giant Flail of Dominion",
+			"description": "The Giant Flail of Dominion increases your attack skill by 1.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:8",
+			"map": "sw08arts/AVA0008"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 1
+			}
+		]
+	},
+	"sw08hmm2_0008":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MINOR",
+		"value": 4000,
+	
+		"text":
+		{
+			"name": "Thunder Mace of Dominion",
+			"description": "The Thunder Mace of Dominion increases your attack skill by 2.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:7",
+			"map": "sw08arts/AVA0007"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 2
+			}
+		]
+	},
+	"sw08hmm2_0009":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MINOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Power Axe of Dominion",
+			"description": "The Power Axe of Dominion increases your attack skill by 3.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:9",
+			"map": "sw08arts/AVA0009"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 3
+			}
+		]
+	},
+	"sw08hmm2_0010":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Dragon Sword of Dominion",
+			"description": "The Dragon Sword of Dominion increases your attack skill by 4.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:11",
+			"map": "sw08arts/AVA0011"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 4
+			}
+		]
+	},
+
+	"sw08hmm2_0011":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value":6000,
+	
+		"text":
+		{
+			"name": "Gold Sword of Anduran",
+			"description": "The Gold Sword of Anduran increases your attack skill by 5.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:13",
+			"map": "sw08arts/AVA0013"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 5
+			}
+		]
+	},
+
+
+	"sw08hmm2_0012":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Ultimate Sword of Dominion",
+			"description": "The Ultimate Sword of Dominion increases your attack skill by 12.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:94",
+			"map": "sw08arts/AVA0094"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 12
+			}
+		]
+	},
+	"sw08hmm2_0013":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Defender Helm of Protection",
+			"description": "The Defender Helm of Protection increases your defense skill by 1.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:16",
+			"map": "sw08arts/AVA0016"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 1
+			}
+		]
+	},
+	"sw08hmm2_0014":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "MINOR",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Armored Gauntlets of Protection",
+			"description": "The Armored Gauntlets of Protection increases your defense skill by 2.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:14",
+			"map": "sw08arts/AVA0014"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 2
+			}
+		]
+	},
+
+
+	"sw08hmm2_0015":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MINOR",
+		"value":4000,
+	
+		"text":
+		{
+			"name": "Stealth Shield of Protection",
+			"description": "The Stealth Shield of Protection increases your defense skill by 3.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:17",
+			"map": "sw08arts/AVA0017"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 3
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0016":
+	{
+		"type": ["HERO"],
+		"slot" : "TORSO",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Divine Breastplate of Protection",
+			"description": "The Divine Breastplate of Protection increases your defense skill by 4.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:19",
+			"map": "sw08arts/AVA0019"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 4
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0017":
+	{
+		"type": ["HERO"],
+		"slot" : "TORSO",
+		"class": "MAJOR",
+		"value":6000,
+	
+		"text":
+		{
+			"name": "Breastplate of Anduran",
+			"description": "The Breastplate of Anduran increases your defense skill by 5.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:26",
+			"map": "sw08arts/AVA0026"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 5
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0018":
+	{
+		"type": ["HERO"],
+		"slot" : "SHOULDERS",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Ultimate Cloak of Protection",
+			"description": "The Ultimate Cloack of Protection increases your defense skill by 12.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:72",
+			"map": "sw08arts/AVA0072"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":12
+			}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0019":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":1000,
+	
+		"text":
+		{
+			"name": "Minor Scroll of Knowledge",
+			"description": "The Minor Scroll of Knowledge increases your knowledge skill by 1.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:27",
+			"map": "sw08arts/AVA0027"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0020":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Major Scroll of Knowledge",
+			"description": "The Major Scroll of Knowledge increases your knowledge skill by 2.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:28",
+			"map": "sw08arts/AVA0028"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":2
+			}
+		]
+	},
+
+
+	"sw08hmm2_0021":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":4000,
+	
+		"text":
+		{
+			"name": "Superior Scroll of Knowledge",
+			"description": "The Superior Scroll of Knowledge increases your knowledge skill by 3.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:29",
+			"map": "sw08arts/AVA0029"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":3
+			}
+		]
+	},
+
+
+	"sw08hmm2_0022":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Foremost Scroll of Knowledge",
+			"description": "The Foremost Scroll of Knowledge increases your knowledge skill by 4.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:30",
+			"map": "sw08arts/AVA0030"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":4
+			}
+		]
+	},
+
+	"sw08hmm2_0023":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MAJOR",
+		"value":6000,
+	
+		"text":
+		{
+			"name": "Forgoten Helmet of Anduran",
+			"description": "The Forgoten Helmet of Anduran increases your knowledge skill by 5.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:32",
+			"map": "sw08arts/AVA0032"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":5
+			}
+		]
+	},
+
+	"sw08hmm2_0024":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Ultimate Book of Knowledge",
+			"description": "The Ultimate Book of Knowledge increases your knowledge by 12.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:165",
+			"map": "sw08arts/AVA0165"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":12
+			}
+		]
+	},
+
+	"sw08hmm2_0025":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "TREASURE",
+		"value":1000,
+	
+		"text":
+		{
+			"name": "Caster's Bracelet of Magic",
+			"description": "The Caster's Bracelet of Magic increases your spell power by 1.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:22",
+			"map": "sw08arts/AVA0022"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":1
+			}
+		]
+	},
+
+
+	"sw08hmm2_0026":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "MINOR",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Mage's Ring of Power",
+			"description": "The Mage's Ring of Power increases your spell power by 2.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:21",
+			"map": "sw08arts/AVA0021"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":2
+			}
+		]
+	},
+
+
+	"sw08hmm2_0027":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "MINOR",
+		"value":4000,
+	
+		"text":
+		{
+			"name": "Witch's Broach of Magic",
+			"description": "The Witch's Broach of Magic increases your spell power by 3.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:23",
+			"map": "sw08arts/AVA0023"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":3
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0028":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Arcane Necklace of Magic",
+			"description": "The Arcane Necklace of Magic increases your spell power by 4.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:24",
+			"map": "sw08arts/AVA0024"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":4
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0029":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value":6000,
+	
+		"text":
+		{
+			"name": "Staff of Wizardry",
+			"description": "The Staff of Wizardry increases your spell power by 5.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:25",
+			"map": "sw08arts/AVA0025"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":5
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0030":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Ultimate Wand of Magic",
+			"description": "The Ultimate Wand of Magic increases your spell power by 12.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:164",
+			"map": "sw08arts/AVA0164"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":12
+			}
+		]
+	},
+
+
+//	"sw08hmm2_0031":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "HEAD",
+//		"class": "MINOR",
+//		"value":4000,
+	
+//		"text":
+//		{
+//			"name": "Skull Cap",
+//			"description": "The Skull Cap increases your Attack, Defense by 1 each.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:33",
+//			"map": "sw08arts/AVA0033"
+//		},
+//		"bonuses":
+//		[
+
+//			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.defence",
+//				"val":2
+//			},
+//			{
+	///			"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.attack",
+//				"val":2
+//			}
+//		]
+//	},
+
+
+
+	"sw08hmm2_0032":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Legendary Scepter",
+			"description": "The Legendary Scepter increases your Attack, Defense, Spell Power and Knowledge by 2 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:37",
+			"map": "sw08arts/AVA0037"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":2
+			}
+		]
+	},
+
+
+	"sw08hmm2_0033":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "RELIC",
+		"value":12000,
+	
+		"text":
+		{
+			"name": "Celestial Shield",
+			"description": "The Celestial Shield increases your Attack, Defense, Spell Power and Knowledge by 3 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:20",
+			"map": "sw08arts/AVA0020"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":3
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":3
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":3
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":3
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0034":
+	{
+		"type": ["HERO"],
+		"slot" : "FEET",
+		"class": "RELIC",
+		"value":16000,
+	
+		"text":
+		{
+			"name": "Lion's Boots of Courage",
+			"description": "The Lion's Boots of Courage increases your Attack, Defense, Spell Power and Knowledge by 4 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:58",
+			"map": "sw08arts/AVA0058"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":4
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":4
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":4
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":4
+			}
+		]
+	},
+
+
+	"sw08hmm2_0035":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value":20000,
+	
+		"text":
+		{
+			"name": "Holy Hammer",
+			"description": "The Holy Hammer increases your Attack, Defense, Spell Power and Knowledge by 5 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:12",
+			"map": "sw08arts/AVA0012"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":5
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":5
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":5
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":5
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0036":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Ultimate Crown",
+			"description": "The Ultimate Crown increases each of your basic skills by 6 points.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:166",
+			"map": "sw08arts/AVA0166"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":6
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":6
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":6
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":6
+			}
+		]
+	},
+
+	"swUltCrown":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Ultimate Crown",
+			"description": "The Ultimate Crown increases each of your basic skills by 6 points.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:98",
+			"map": "sw08arts/AVA0098"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":6
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":6
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":6
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":6
+			}
+		]
+	},
+
+	"sw08hmm2_0037":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Spiked Helm",
+			"description": "The Spiked Helm increases your Attack and Defense skills by 1 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:33",
+			"map": "sw08arts/AVA0033"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":1
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0038":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MINOR",
+		"value":4000,
+	
+		"text":
+		{
+			"name": "Spiked Shield",
+			"description": "The Spiked Shield increases your Attack and Defense skills by 2 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:34",
+			"map": "sw08arts/AVA0034"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val":2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val":2
+			}
+		]
+	},
+
+
+
+//	"sw08hmm2_0039":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RING",
+//		"class": "MAJOR",
+//		"value":6000,
+	
+//		"text":
+//		{
+//			"name": "Spiked Gloves",
+//			"description": "The Spiked Gloves increases your Attack and Defense skills by 3 each.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:39",
+//			"map": "sw08arts/AVA0039"
+//		},
+//	//	"bonuses":
+//		[
+//			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.defence",
+//				"val":3
+//			},
+//			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.attack",
+//				"val":3
+	//		}
+//		]
+//	},
+
+
+//	"sw08hmm2_0040":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "TORSO",
+//		"class": "RELIC",
+//		"value":8000,
+	
+//		"text":
+//		{
+//			"name": "Spiked Plate",
+//			"description": "The Spiked Plate increases your Attack and Defense skills by 4 each.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:40",
+//			"map": "sw08arts/AVA0040"
+//		},
+//		"bonuses":
+//		[
+//			{
+//			"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.defence",
+//				"val":4
+//			},
+//			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.attack",
+//			"val":4
+//			}
+//		]
+//	},
+
+
+	"sw08hmm2_0041":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "White Pearl",
+			"description": "The White Pearl increases your Spell Power and Knowledge by 1 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:35",
+			"map": "sw08arts/AVA0035"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":1
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":1
+			}
+		]
+	},
+
+
+	"sw08hmm2_0042":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":4000,
+	
+		"text":
+		{
+			"name": "Black Pearl",
+			"description": "The Black Pearl increases your Spell Power and Knowledge by 2 each.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:36",
+			"map": "sw08arts/AVA0036"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val":2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val":2
+			}
+		]
+	},
+
+
+//	"sw08hmm2_0043":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "MAJOR",
+//		"value":6000,
+	
+//		"text":
+//		{
+//			"name": "Blue Pearl",
+//			"description": "The Blue Pearl increases your Spell Power and Knowledge by 3 each.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:43",
+//			"map": "sw08arts/AVA0043"
+//		},
+//		"bonuses":
+//		[
+//			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.spellpower",
+//				"val":3
+//			},
+//			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.knowledge",
+//				"val":3
+//			}
+//		]
+//	},
+
+
+
+//	"sw08hmm2_0044":
+//	{
+//		"type": ["HERO"],
+	//	"slot" : "MISC",
+//		"class": "RELIC",
+//		"value":8000,
+//	
+//		"text":
+//		{
+//			"name": "Red Pearl",
+//			"description": "The Red Pearl increases your Spell Power and Knowledge by 4 each.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:44",
+//			"map": "sw08arts/AVA0044"
+//		},
+//		"bonuses":
+//		[
+//			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.spellpower",
+//				"val":4
+//			},
+///			{
+//				"type": "PRIMARY_SKILL",
+//				"subtype": "primarySkill.knowledge",
+//				"val":4
+//			}
+//		]
+//	},
+
+
+
+
+//	"sw08hmm2_0045":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RING",
+//		"class": "MINOR",
+//		"value":2000,
+	
+//		"text":
+//		{
+//			"name": "Gnome's Ring of Ruby",
+//			"description": "The Gnome's Ring of Ruby increases your luck and morale.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:45",
+//			"map": "sw08arts/AVA0045"
+//		},
+//		"bonuses":
+//		[
+//			{
+//				"type": "MORALE",
+//				"val":1
+//			},
+//			{
+//				"type": "LUCK",
+//				"val":1
+//			}
+//		]
+//	},
+
+
+
+
+	"sw08hmm2_0046":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Four-Leaf Clover",
+			"description": "The Four-Leaf Clover increases your luck in combat.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:46",
+			"map": "sw08arts/AVA0046"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "LUCK",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0047":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Gambler's Lucky Coin",
+			"description": "The Gambler's Lucky Coin increases your luck in combat.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:47",
+			"map": "sw08arts/AVA0047"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "LUCK",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0048":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Lucky Rabbit's Foot",
+			"description": "The Lucky Rabbit's Foot increases your luck in combat.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:48",
+			"map": "sw08arts/AVA0048"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "LUCK",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0049":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Medal of Courage",
+			"description": "The Medal of Courage increases your morale.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:49",
+			"map": "sw08arts/AVA0049"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MORALE",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0050":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Medal of Valor",
+			"description": "The Medal of Valor increases your morale.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:50",
+			"map": "sw08arts/AVA0050"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MORALE",
+				"val":1
+			}
+		]
+	},
+
+
+	"sw08hmm2_0051":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Medal of Honor",
+			"description": "The Medal of Honor increases your morale.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:51",
+			"map": "sw08arts/AVA0051"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MORALE",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0052":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":1000,
+	
+		"text":
+		{
+			"name": "Telescope",
+			"description": "The Telescope increases the ammount of terrain your hero reveals when adventuring by 1 extra square.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:52",
+			"map": "sw08arts/AVA0052"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SIGHT_RADIUS",
+				"val":1
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0053":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":1000,
+	
+		"text":
+		{
+			"name": "Talisman of the Seer",
+			"description": "The Talisman of the Seer increases the ammount of terrain your hero reveals when adventuring by 1 extra square.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:53",
+			"map": "sw08arts/AVA0053"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SIGHT_RADIUS",
+				"val":1
+			}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0054":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Spade of Necromancy",
+			"description": "The Spade of Necromancy increases your Necromancy skill by 5%.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:55",
+			"map": "sw08arts/AVA0055"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "UNDEAD_RAISE_PERCENTAGE",
+
+				"val": 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+
+
+
+
+//	"sw08hmm2_0055":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "TORSO",
+//		"class": "MINOR",
+//		"value":4000,
+	
+//		"text":
+//		{
+//			"name": "Lich's Robe",
+//			"description": "The Lich's Robe increases your Necromancy skill by 10%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:55",
+//			"map": "sw08arts/AVA0055"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "UNDEAD_RAISE_PERCENTAGE",
+//				 
+//				"val": 10,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+
+//	"sw08hmm2_0056":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "FEET",
+//		"class": "MAJOR",
+//		"value":6000,
+	
+//		"text":
+//		{
+//			"name": "Bloody Boots",
+//			"description": "The Bloody Boots increases your Necromancy skill by 15%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:56",
+//			"map": "sw08arts/AVA0056"
+//		},
+//		"bonuses":
+//		[
+		
+//			{
+//				"type": "UNDEAD_RAISE_PERCENTAGE",
+//				 
+//				"val": 15,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+	//	]
+//	},
+
+
+
+
+//	"sw08hmm2_0057":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "NECK",
+//		"class": "MAJOR",
+//		"value":2000,
+	
+//		"text":
+//		{
+//			"name": "Amulet of Interference",
+//			"description": "The Amulet of Interference increases your Magic Resistance by 5%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:57",
+//			"map": "sw08arts/AVA0057"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "MAGIC_RESISTANCE",
+//				 ,
+//				"val": 5,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+//	"sw08hmm2_0058":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RIGHT_HAND",
+//		"class": "MAJOR",
+//		"value":4000,
+	
+//		"text":
+//		{
+//			"name": "Spear of Counterpoise",
+	//		"description": "The Spear of Counterpoise increases your Magic Resistance by 10%.",
+		//	"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:58",
+//			"map": "sw08arts/AVA0058"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "MAGIC_RESISTANCE",
+//				 ,
+//				"val": 10,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+//	"sw08hmm2_0059":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "RELIC",
+//		"value":6000,
+	
+//		"text":
+//		{
+//			"name": "Magic Bag of Polarity",
+//			"description": "The Magic Bag of Polarity increases your Magic Resistance by 15%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:59",
+//			"map": "sw08arts/AVA0059"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "MAGIC_RESISTANCE",
+//				 ,
+//				"val": 15,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+
+//	"sw08hmm2_0060":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RIGHT_HAND",
+//		"class": "TREASURE",
+//		"value":2000,
+	
+//		"text":
+//		{
+//			"name": "Elven Royal Crossbow",
+//			"description": "The Elven Royal Crossbow increases your Archery skill by 5%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:60",
+//			"map": "sw08arts/AVA0060"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "PERCENTAGE_DAMAGE_BOOST",
+//				"subtype":  "damageTypeRanged", "valueType" : "ADDITIVE_VALUE" ,
+//				"val": 5,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+
+//	"sw08hmm2_0061":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RIGHT_HAND",
+//		"class": "MAJOR",
+//		"value":4000,
+	
+//		"text":
+//		{
+//			"name": "Hunter's Bow",
+//			"description": "The Hunter's Bow increases your Archery skill by 10%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:61",
+//			"map": "sw08arts/AVA0061"
+//		},
+//		"bonuses":
+//		[
+		
+//			{
+//				"type": "PERCENTAGE_DAMAGE_BOOST",
+//				"subtype":  "damageTypeRanged", "valueType" : "ADDITIVE_VALUE" ,
+//				"val":10,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+//	"sw08hmm2_0062":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "MAJOR",
+//		"value":6000,
+	
+//		"text":
+//		{
+//			"name": "Bowstring of the Unicorn's Mane",
+//			"description": "The Bowstring of the Unicorn's Mane increases your Archery skill by 15%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:62",
+//			"map": "sw08arts/AVA0062"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "PERCENTAGE_DAMAGE_BOOST",
+//				"subtype":  "damageTypeRanged", "valueType" : "ADDITIVE_VALUE" ,
+//				"val":15,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+//	"sw08hmm2_0063":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "NECK",
+//		"class": "TREASURE",
+//		"value":1000,
+//	
+//		"text":
+//		{
+//			"name": "Eye of Feline",
+//			"description": "The Eye of Feline increases your eagle eye skill by 5%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:63",
+//			"map": "sw08arts/AVA0063"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "LEARN_BATTLE_SPELL_CHANCE",
+//				 "valueType" : "ADDITIVE_VALUE" ,
+//				"val":5,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+//	"sw08hmm2_0064":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RING",
+//		"class": "TREASURE",
+//		"value":2000,
+//	
+//		"text":
+//		{
+//			"name": "Watchman's Gloves",
+//			"description": "The Watchman's Gloves increase your eagle eye skill by 10%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:64",
+//			"map": "sw08arts/AVA0064"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "LEARN_BATTLE_SPELL_CHANCE",
+//				 "valueType" : "ADDITIVE_VALUE" ,
+//				"val":10,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+	//	]
+//	},
+
+
+
+//	"sw08hmm2_0065":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "MINOR",
+//		"value":3000,
+	
+//		"text":
+//		{
+//			"name": "Soul in Amethyst",
+//			"description": "The Soul in Amethyst increases your eagle eye skill by 15%.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:65",
+//			"map": "sw08arts/AVA0065"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "LEARN_BATTLE_SPELL_CHANCE",
+//				 "valueType" : "ADDITIVE_VALUE" ,
+//				"val":15,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+	"sw08hmm2_0066":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Statesman's Quil",
+			"description": "The Statesman's Quill reduces the cost of surrender to 20% of the total cost of troops you have in your army.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:67",
+			"map": "sw08arts/AVA0067"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SURRENDER_DISCOUNT",
+				
+				"val":80
+			}
+		]
+	},
+
+
+
+//	"sw08hmm2_0067":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RING",
+//		"class": "MAJOR",
+//		"value":5000,
+//	
+//		"text":
+//		{
+//			"name": "Diplomat's Fine Curl",
+//			"description": "The Diplomat's Fine Curl reduces the cost of surrender to 10% of the total cost of troops you have in your army.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:67",
+//			"map": "sw08arts/AVA0067"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "SURRENDER_DISCOUNT",
+//				
+//				"val":10
+//			}
+//		]
+//	},
+
+
+
+//	"sw08hmm2_0068":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "LEFT_HAND",
+//		"class": "MAJOR",
+//		"value":5000,
+//	
+//		"text":
+//		{
+//			"name": "Minister's Shield of Peace",
+//			"description": "The Minister's Shield of Peace reduces the cost of surrender to 10% of the total cost of troops you have in your army.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:68",
+//			"map": "sw08arts/AVA0068"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "SURRENDER_DISCOUNT",
+//				
+//				"val":10
+//			}
+//		]
+//	},
+
+
+
+//	"sw08hmm2_0069":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RING",
+//		"class": "MAJOR",
+//		"value":5000,
+//	
+//		"text":
+//		{
+//			"name": "Ring of the Wayfarer",
+//			"description": "When placed on the finger, this ring increases the combat speed of all your units by +1.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:69",
+//			"map": "sw08arts/AVA0069"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "STACKS_SPEED",
+//				
+//				"val":1
+//			}
+	//	]
+//	},
+
+
+
+	"sw08hmm2_0070":
+	{
+		"type": ["HERO"],
+		"slot" : "FEET",
+		"class": "MINOR",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Nomad's Boots of Mobility",
+			"description": "The Nomad's Boots of Mobility increases your movement on land.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:70",
+			"map": "sw08arts/AVA0070"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MOVEMENT", "subtype" : "heroMovementLand", "valueType" : "ADDITIVE_VALUE",
+				
+				"val":10 
+			}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0071":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":10000,
+	
+		"text":
+		{
+			"name": "Sailor's Astrolabe of Mobility",
+			"description": "The Sailor's Astrolabe of Mobility increases your movement on sea.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:71",
+			"map": "sw08arts/AVA0071"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MOVEMENT", "subtype" :  "heroMovementSea", "valueType" : "ADDITIVE_VALUE",
+				
+				"val":20 
+			}
+		]
+	},
+
+
+
+//	"sw08hmm2_0072":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "SHOULDERS",
+//		"class": "RELIC",
+//		"value":20000,
+//	
+//		"text":
+//		{
+//			"name": "Angel Wings",
+//			"description": "The Angel Wings allow you to fly.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:72",
+//			"map": "sw08arts/AVA0072"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{//
+//				"type": "FLYING_MOVEMENT",
+//				
+ 
+//			}
+//		]
+//	},
+
+
+
+
+//	"sw08hmm2_0073":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "HEAD",
+//		"class": "TREASURE",
+//		"value":500,
+//	
+//		"text":
+//		{
+//			"name": "Helm of Mana",
+//			"description": "The Helm of Mana returns 1 extra spell points per turn to your hero.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:73",
+//			"map": "sw08arts/AVA0073"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "MANA_REGENERATION",
+//				
+//				"val":1
+//			}
+//		]
+//	},
+
+
+	"sw08hmm2_0074":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Power Ring",
+			"description": "The Power Ring returns 2 extra spell points per turn to your hero.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:74",
+			"map": "sw08arts/AVA0074"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MANA_REGENERATION",
+				
+				"val":2
+			}
+		]
+	},
+
+
+//	"sw08hmm2_0075":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "TREASURE",
+//		"value":1500,
+//	
+//		"text":
+//		{
+//			"name": "Spellscroll of Prophecies",
+//			"description": "The Power Ring returns 3 extra spell points per turn to your hero.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:75",
+//			"map": "sw08arts/AVA0075"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "MANA_REGENERATION",
+//				
+//				"val":3
+//			}
+//		]
+//	},
+
+
+//	"sw08hmm2_0076":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "TREASURE",
+//		"value":500,
+//	
+//		"text":
+//		{
+//			"name": "Collar of the Magician",
+//			"description": "The Collar of the Magician extends the duration of all your spells by 1 turns.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:76",
+//			"map": "sw08arts/AVA0076"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "SPELL_DURATION",
+//				
+//				"val":1,
+//"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+	"sw08hmm2_0077":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":1000,
+	
+		"text":
+		{
+			"name": "Enchanted Hourglass",
+			"description": "The Enchanted Hourglass extends the duration of all your spells by 2 turns.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:85",
+			"map": "sw08arts/AVA0085"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_DURATION",
+				
+				"val":2,
+"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+
+
+//	"sw08hmm2_0078":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "SHOULDERS",
+//		"class": "TREASURE",
+//		"value":1500,
+//	
+//		"text":
+//		{
+//			"name": "Sorcerer's Robe of Conjuring",
+//			"description": "The Sorcerer's Robe of Conjuring extends the duration of all your spells by 3 turns.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:78",
+//			"map": "sw08arts/AVA0078"
+//		},
+//		"bonuses":
+	//	[
+//		
+//			{
+//				"type": "SPELL_DURATION",
+//				
+//				"val":3,
+//"valueType" : "ADDITIVE_VALUE"
+//			}
+//		]
+//	},
+
+
+
+
+	"sw08hmm2_0079":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":6000,
+	
+		"text":
+		{
+			"name": "Lightning Rod",
+			"description": "The Lightning Rod causes your air spells to do 50% more damage to enemy troops.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:79",
+			"map": "sw08arts/AVA0079"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_DAMAGE",
+"subtype" : "spellSchool.air"  
+,
+				
+				"val":50,
+"valueType" : "PERCENT_TO_BASE"
+			}
+		]
+	},
+
+
+
+
+//	"sw08hmm2_0080":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "MAJOR",
+//		"value":6000,
+	
+//		"text":
+//		{
+//			"name": "Sphere of Earth",
+//			"description": "The Sphere of Earth causes your earth spells to do 50% more damage to enemy troops.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:80",
+//			"map": "sw08arts/AVA0080"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "SPELL_DAMAGE",
+//"subtype" : "spellSchool.earth",
+//				
+//				"val":50,
+//"valueType" : "PERCENT_TO_BASE"
+//			}
+//		]
+//	},
+
+
+
+	"sw08hmm2_0081":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":6000,
+	
+		"text":
+		{
+			"name": "Everhot Lava Rock",
+			"description": "The Everhot Lava Rock causes your fire spells to do 50% more damage to enemy troops.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:81",
+			"map": "sw08arts/AVA0081"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_DAMAGE",
+"subtype" : "spellSchool.fire"  
+,
+				
+				"val":50,
+"valueType" : "PERCENT_TO_BASE"
+			}
+		]
+	},
+
+
+	"sw08hmm2_0082":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":6000,
+	
+		"text":
+		{
+			"name": "Evercold Icicle",
+			"description": "The Evercold Icicle causes your water spells to do 50% more damage to enemy troops.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:82",
+			"map": "sw08arts/AVA0082"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_DAMAGE",
+"subtype" : "spellSchool.water",
+				
+				"val":50,
+"valueType" : "PERCENT_TO_BASE"
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0083":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Sphere of Negation",
+			"description": "The Sphere of Negation disables all level 3 or higher spells for both sides, in combat.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:80",
+			"map": "sw08arts/AVA0080"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "LEVEL_SPELL_IMMUNITY",
+				
+				"val":3
+			}
+		]
+	},
+
+
+	"sw08hmm2_0084":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Arm of the Martyr",
+			"description": "The Arm of the Martyr disables all morale bonus for both sides, in combat.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:40",
+			"map": "sw08arts/AVA0040"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "NO_MORALE"		}
+		]
+	},
+
+
+
+	"sw08hmm2_0085":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Masthead",
+			"description": "The Masthead gives +1 luck and +1 morale on sea.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:45",
+			"map": "sw08arts/AVA0045"
+		},
+		"bonuses":
+		[
+			{
+				"type": "LUCK",
+				"val":1,
+				
+"limiters" : [ {
+	"type" : "CREATURE_TERRAIN_LIMITER",
+	"parameters" : ["water"]
+} ]
+			},		
+			{
+				"type": "MORALE",
+				"val":1,
+				
+"limiters" : [ {
+	"type" : "CREATURE_TERRAIN_LIMITER",
+	"parameters" : ["water"]
+} ]
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0086":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":20000,
+	
+		"text":
+		{
+			"name": "Heart of Fire",
+			"description": "The Heart of Fire provides to you all spells in the school of Fire Magic. It must be equipped for the spells to be available.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:57",
+			"map": "sw08arts/AVA0057"
+		},
+		"bonuses":
+		[
+		
+		{
+        "subtype" : "spellSchool.fire",
+        "type" : "SPELLS_OF_SCHOOL"
+}
+		]
+	},
+
+
+	"sw08hmm2_0087":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":20000,
+	
+		"text":
+		{
+			"name": "Heart of Water",
+			"description": "The Heart of Water provides to you all spells in the school of Water Magic. It must be equipped for the spells to be available.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:56",
+			"map": "sw08arts/AVA0056"
+		},
+		"bonuses":
+		[
+		{
+        "subtype" : "spellSchool.water",
+        "type" : "SPELLS_OF_SCHOOL"
+}
+		]
+	},
+
+	"sw08hmm2_0087A1":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":20000,
+	
+		"text":
+		{
+			"name": "Heart of Earth",
+			"description": "The Heart of Earth provides to you all spells in the school of Earth Magic. It must be equipped for the spells to be available.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:86",
+			"map": "sw08arts/AVA0086"
+		},
+		"bonuses":
+		[
+{
+        "subtype" : "spellSchool.earth",
+        "type" : "SPELLS_OF_SCHOOL"
+}
+		]
+	},
+
+	"sw08hmm2_0087A2":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":20000,
+	
+		"text":
+		{
+			"name": "Heart of Air",
+			"description": "The Heart of Air provides to you all spells in the school of Air Magic. It must be equipped for the spells to be available.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:87",
+			"map": "sw08arts/AVA0087"
+		},
+		"bonuses":
+		[
+		
+{
+        "subtype" : "spellSchool.air",
+        "type" : "SPELLS_OF_SCHOOL"
+}
+		]
+	},
+
+
+
+
+
+//	"sw08hmm2_0090":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "FEET",
+//		"class": "RELIC",
+//		"value":20000,
+	
+//		"text":
+//		{
+//			"name": "Boots of Levitation",
+//			"description": "The Boots of Levitation allows to you to walk across water.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:90",
+//			"map": "sw08arts/AVA0090"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "WATER_WALKING",
+ //		}
+//		]
+//	},
+
+
+
+
+//Not finished
+	"sw08hmm2_0091":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Golden Bow",
+			"description": "The Golden Bow eliminates 50% penalty for your troops shooting past obstacles.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:91",
+			"map": "sw08arts/AVA0091"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "NO_DISTANCE_PENALTY"
+}
+		]
+	},
+
+
+//not finished
+	"sw08hmm2_0092":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MINOR",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Wand of Negation",
+			"description": "The Wand of Negation makes all your troops inmune to dispel magic spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:92",
+			"map": "sw08arts/AVA0092"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.dispel"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.curse"
+}
+		]
+	},
+
+
+
+
+
+	"sw08hmm2_0093":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "RELIC",
+		"value":15000,
+	
+		"text":
+		{
+			"name": "Broach of Vulnerability",
+			"description": "The Broach of Vulnerability negates the natural magic resistance of all creatures on the battlefield.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:99",
+			"map": "sw08arts/AVA0099"
+		},
+		"bonuses":
+		[
+		
+			{
+"type":"NEGATE_ALL_NATURAL_IMMUNITIES",
+"subtype" :"immunityBattleWide"
+
+}
+		]
+	},
+
+
+
+//	"sw08hmm2_0094":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RING",
+//		"class": "TREASURE",
+//		"value":5000,
+//	
+//		"text":
+//		{
+//			"name": "Ring of Vitality",
+//			"description": "The Ring of Vitality increases the health of all your units.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:94",
+//			"map": "sw08arts/AVA0094"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//"type":"STACK_HEALTH",
+//"val":1
+//
+//}
+//		]
+//	},
+
+
+
+//	"sw08hmm2_0095":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "RING",
+//		"class": "TREASURE",
+//		"value":5000,
+//	
+//		"text":
+//		{
+//			"name": "Ring of Life",
+//			"description": "The Ring of Life increases the health of all your units.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:95",
+//			"map": "sw08arts/AVA0095"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//"type":"STACK_HEALTH",
+//"val":1
+//
+//}
+//		]
+//	},
+
+
+//	"sw08hmm2_0096":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "TREASURE",
+//		"value":5000,
+//	
+//		"text":
+//		{
+//			"name": "Vial of Blood",
+//			"description": "The Vial of Blood increases the health of all your units.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:96",
+//			"map": "sw08arts/AVA0096"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//"type":"STACK_HEALTH",
+//"val":1
+//
+//}
+//		]
+//	},
+
+
+
+
+//	"sw08hmm2_0097":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "NECK",
+//		"class": "TREASURE",
+//		"value":5000,
+	
+//		"text":
+//		{
+//			"name": "Necklace of Swiftness",
+//			"description": "Worn about the neck, this necklace increases the combat speed of all your units by +1.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:97",
+//			"map": "sw08arts/AVA0097"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//"type":"STACKS_SPEED",
+//"val":1
+//
+//}
+//		]
+//	},
+
+
+
+
+	"sw08hmm2_0098":
+	{
+		"type": ["HERO"],
+		"slot" : "FEET",
+		"class": "MINOR",
+		"value":3000,
+		"text":
+		{
+			"name": "Traveler's Boots of Mobility",
+			"description": "The Traveler's Boots of Mobility increases your movement on land.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:69",
+			"map": "sw08arts/AVA0069"
+		},
+		"bonuses":
+		[
+		
+			{
+"type":"MOVEMENT", "subtype" : "heroMovementLand", "valueType" : "ADDITIVE_VALUE",
+				"val":300
+
+}
+		]
+	},
+
+
+
+
+//	"sw08hmm2_0099":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "SHOULDERS",
+//		"class": "MAJOR",
+//		"value":10000,
+//	
+//		"text":
+//		{
+//			"name": "Cape of Velocity",
+//			"description": "Worn about the shoulders, this cape increases the combat speed of all y//our units by +2.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:99",
+//			"map": "sw08arts/AVA0099"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//"type":"STACKS_SPEED",
+//"val":2
+///
+//}
+//		]
+//	},
+
+
+
+	"sw08hmm2_0100":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "TREASURE",
+		"value":1000,
+	
+		"text":
+		{
+			"name": "Serenity Pendant",
+			"description": "The Serenity Pendant makes all your troops inmune to Berserk spell.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:100",
+			"map": "sw08arts/AVA0100"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.berserk"
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0101":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Seeing-eye Pendant",
+			"description": "The Seeing-eye Pendant makes all your troops inmune to blindness spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:101",
+			"map": "sw08arts/AVA0101"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.blind"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.stoneGaze"
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0102":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "TREASURE",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Holy Pendant",
+			"description": "The Holy Pendant Pendant makes all your troops inmune to Curse spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:102",
+			"map": "sw08arts/AVA0102"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.curse"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.weakness"
+},
+	{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.slow"
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0103":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "TREASURE",
+		"value":2500,
+	
+		"text":
+		{
+			"name": "Pendant of Life",
+			"description": "The Pendant of life makes all your troops inmune to death spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:103",
+			"map": "sw08arts/AVA0103"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.deathRipple"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.deathCloud"
+},
+	{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.deathStare"
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0104":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "TREASURE",
+		"value":2500,
+	
+		"text":
+		{
+			"name": "Pendant of Death",
+			"description": "The Pendant of death makes all your troops inmune to holy spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:104",
+			"map": "sw08arts/AVA0104"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.destroyUndead"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.prayer"
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0105":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "TREASURE",
+		"value":1000,
+	
+		"text":
+		{
+			"name": "Pendant of Free Will",
+			"description": "The Pendant of free will makes all your troops inmune to hypnotize spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:105",
+			"map": "sw08arts/AVA0105"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.hypnotize"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.forgetfulness"
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0106":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Lightning Helm",
+			"description": "The Lightning Helm makes your units immune to the lightning spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:106",
+			"map": "sw08arts/AVA0106"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.chainLightning"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.lightningBolt"
+},
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.thunderbolt"
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0107":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Pendant of Moving",
+			"description": "The Pendant of Total Recall makes all your troops immune to Paralyze.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:107",
+			"map": "sw08arts/AVA0107"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_IMMUNITY",
+"subtype":"spell.paralyze"
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0108":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":7000,
+	
+		"text":
+		{
+			"name": "Fizbin of Misfortune",
+			"description": "The Fizbin of Misfortune lowers morale by -2.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:41",
+			"map": "sw08arts/AVA0041"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MORALE",
+"val":-2
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0109":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Endless Pouch of Crystal",
+			"description": "The Endless Pouch of Crystal provides 1 unit of crystal per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:109",
+			"map": "sw08arts/AVA0109"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.crystal",
+"val":1
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0110":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Endless Pouch of Gems",
+			"description": "The Endless Pouch of Gems provides 1 unit of gem per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:110",
+			"map": "sw08arts/AVA0110"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.gems",
+"val":1
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0111":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Endless Vial of Mercury",
+			"description": "The Endless Vial of Mercury provides 1 unit of mercury per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:111",
+			"map": "sw08arts/AVA0111"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.mercury",
+"val":1
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0112":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Endless Cart of Ore",
+			"description": "The Endless Cart of Ore provides 1 unit of ore per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:112",
+			"map": "sw08arts/AVA0112"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.ore",
+"val":1
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0113":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Endless Pouch of Sulfur",
+			"description": "The Endless Pouch of Sulfur provides 1 unit of Sulfur per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:113",
+			"map": "sw08arts/AVA0113"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.sulfur",
+"val":1
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0114":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Endless Cord of Wood",
+			"description": "The Endless Cord of Wood provides 1 unit of wood per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:114",
+			"map": "sw08arts/AVA0114"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.wood",
+"val":1
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0115":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":10000,
+	
+		"text":
+		{
+			"name": "Endless Sack of Gold",
+			"description": "The Endless Sack of Gold provides you with 1000 gold per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:115",
+			"map": "sw08arts/AVA0115"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.gold",
+"val":1000
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0116":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":7500,
+	
+		"text":
+		{
+			"name": "Endless Bag of Gold",
+			"description": "The Endless Bag of Gold provides you with 750 gold per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:116",
+			"map": "sw08arts/AVA0116"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.gold",
+"val":750
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0117":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Endless Purse of Gold",
+			"description": "The Endless Purse of Gold provides you with 500 gold per day.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:117",
+			"map": "sw08arts/AVA0117"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.gold",
+"val":500
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0123":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Compass of Traveller",
+			"description": "The Compass of Traveller increases your movement on sea and land.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:123",
+			"map": "sw08arts/AVA0123"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "MOVEMENT", "subtype" : "heroMovementLand",
+				"val":500
+}
+		]
+	},
+
+
+	"sw08hmm2_0124":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Wizard's Hat",
+			"description": "The Wizard's Hat allows you to cast all 5th level spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:124",
+			"map": "sw08arts/AVA0124"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELLS_OF_LEVEL",
+"subtype":"spellLevel5",
+"val":0
+}
+		]
+	},
+
+	"sw08hmm2_0125":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Shackles of War",
+			"description": "The Shackles of War prevents any try of retreat or surrender for you and your opponent.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:125",
+			"map": "sw08arts/AVA0125"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type" : "BATTLE_NO_FLEEING",
+				"propagator": "BATTLE_WIDE"
+			}
+		]
+	},
+
+
+
+	"sw08hmm2_0126":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":20000,
+	
+		"text":
+		{
+			"name": "Sphere of Inhibition",
+			"description": "The Sphere of Inhibition disables all spell casting for both sides, in combat.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:126",
+			"map": "sw08arts/AVA0126"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "CHANGES_SPELL_COST_FOR_ALLY",
+"val":9999
+},
+			{
+				"type": "CHANGES_SPELL_COST_FOR_ENEMY",
+"val":9999
+}
+		]
+	},
+
+
+
+//	"sw08hmm2_0146":
+//	{
+//		"type": ["HERO"],
+//		"slot" : "MISC",
+//		"class": "MINOR",
+//		"value":2000,
+	
+//		"text":
+//		{
+//			"name": "Medal of Distinction",
+//			"description": "The Medal of Distinction increases your morale.",
+//			"event": "You found something useful."
+//		},
+//		"graphics":
+//		{
+//			"image": "sw08arts/ARTIFACT.def:146",
+//			"map": "sw08arts/AVA0146"
+//		},
+//		"bonuses":
+//		[
+//		
+//			{
+//				"type": "MORALE",
+//"val":1
+//}
+//		]
+//	},
+
+
+	"sw08hmm2_0147":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Golden Horseshoe",
+			"description": "The Golden Horseshoe increases your luck in combat.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:44",
+			"map": "sw08arts/AVA0044"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "LUCK",
+"val":1
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0148":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "MAJOR",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Symbol of Life",
+			"description": "The AnKh doubles the efectiveness of all your resurrect and animated spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:64",
+			"map": "sw08arts/AVA0064"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+"subtype":"spell.resurrection",
+"val":100
+},
+{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+"subtype":"spell.animateDead",
+"val":100
+}
+		]
+	},
+
+
+
+
+	"sw08hmm2_0149":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Gold Watch",
+			"description": "The Gold Watch doubles the efectiveness of your hypnotize spells.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:63",
+			"map": "sw08arts/AVA0063"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+"subtype":"spell.hypnotize",
+"val":100
+}
+		]
+	},
+
+
+
+	"sw08hmm2_0150":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":90000,
+	
+		"text":
+		{
+			"name": "Golden Goose",
+			"description": "The Golden Goose brings in an income of 10000 gold per turn.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:167",
+			"map": "sw08arts/AVA0167"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"subtype":"resource.gold",
+"val":10000
+}
+		]
+	},
+	
+	
+
+
+	
+	
+	
+	"sw08hmm2_UltShield":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "RELIC",
+		"value":32000,
+	
+		"text":
+		{
+			"name": "Ultimate Shield of Dominion",
+			"description": "The Ultimate Shield of Dominion increases your defence skill by 13.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:163",
+			"map": "sw08arts/AVA0163"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 13
+			}
+		]
+	},	
+	
+	"sw08hmm2_UltSpear":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value":30000,
+	
+		"text":
+		{
+			"name": "Ultimate Spear of Dominion",
+			"description": "The Ultimate Spear of Dominion increases your attack skill by 11 and gives charge immunity.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:93",
+			"map": "sw08arts/AVA0093"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 11
+			},
+			{
+			"type":"CHARGE_IMMUNITY"
+			}
+		]
+	},		
+	
+	
+	"sw08hmm2_Hammer":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MINOR",
+		"value":7000,
+	
+		"text":
+		{
+			"name": "Knight Hammer",
+			"description": "The Knight increases your attack skill by 4.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:10",
+			"map": "sw08arts/AVA0010"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 4
+			},
+			{
+			"type":"CHARGE_IMMUNITY"
+			}
+		]
+	},		
+	
+	
+	
+	"sw08hmm2_ShieldRound":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MINOR",
+		"value":5000,
+	
+		"text":
+		{
+			"name": "Seafarer Shield",
+			"description": "The Seafarer Shield increases your defence skill by 3 and increases morale by +1 on sea.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:10",
+			"map": "sw08arts/AVA0010"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 3
+			},
+			{
+			"type":"MORALE",
+			"val":1,
+			"limiters" : [ {
+	"type" : "CREATURE_TERRAIN_LIMITER",
+	"parameters" : ["water"]
+} ]
+			}
+		]
+	},		
+	
+	
+	
+	"sw08hmm2_ShieldSiege":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MINOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Siege Shield",
+			"description": "The Siege Shield increases your defence skill by 6.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:18",
+			"map": "sw08arts/AVA0018"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 6
+			}
+		]
+	},		
+		
+	
+		"sw08hmm2_UltCrownOfMagi":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "RELIC",
+		"value":34000,
+	
+		"text":
+		{
+			"name": "Ultimate Crown of Lich",
+			"description": "The Ultimate Crown of Lich increases your spell power skill by 13 and gives Animate Dead spell with +100% effectiveness.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:31",
+			"map": "sw08arts/AVA0031"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val": 13
+			},
+			{
+			"type":"SPELL",
+			"subtype":"spell.animateDead",
+			"val":3
+			
+			},
+			{
+			"type":"SPECIAL_SPELL_LEV",
+			"subtype":"spell.animateDead",
+			"val":100
+			
+			}
+		]
+	},	
+	
+			"sw08hmm2_Swordbreaker":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MINOR",
+		"value":7000,
+	
+		"text":
+		{
+			"name": "Swordbreaker",
+			"description": "The Swordbreaker increases your attack skill by +1 and defence skill by +4.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:31",
+			"map": "sw08arts/AVA0031"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 1
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 4
+			},
+		]
+	},	
+	
+		"sw08hmm2_CursedHorseshoe":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":2000,
+	
+		"text":
+		{
+			"name": "Cursed Horseshoe",
+			"description": "The Cursed Horseshoe decreases your luck in combat by -2.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:42",
+			"map": "sw08arts/AVA0042"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "LUCK",
+"val":-2
+}
+		]
+	},
+	
+			"sw08hmm2_TerribleMask":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Terrible Mask",
+			"description": "The Terrible Mask dissallows neutral armies to join.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:54",
+			"map": "sw08arts/AVA0054"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "WANDERING_CREATURES_JOIN_BONUS",
+"val":-200,
+  "valueType" : "ADDITIVE_VALUE" 
+
+}
+		]
+	},
+	
+	
+	
+	
+				"sw08hmm2_IceCoat":
+	{
+		"type": ["HERO"],
+		"slot" : "SHOULDERS",
+		"class": "MAJOR",
+		"value":16000,
+	
+		"text":
+		{
+			"name": "Ice Cloak",
+			"description": "The Ice Cloak decreases damage of water spells by 50%.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:59",
+			"map": "sw08arts/AVA0059"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_DAMAGE",
+"subtype" : "spellSchool.water",
+"val":-50,
+"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+
+}
+		]
+	},
+	
+	
+		
+	
+				"sw08hmm2_FireCoat":
+	{
+		"type": ["HERO"],
+		"slot" : "SHOULDERS",
+		"class": "MAJOR",
+		"value":16000,
+	
+		"text":
+		{
+			"name": "Fire Cloak",
+			"description": "The Fire Cloak decreases damage of fire spells by 50%.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:60",
+			"map": "sw08arts/AVA0060"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL_DAMAGE",
+"subtype" : "spellSchool.fire"  
+,
+"val":-50,
+"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+
+}
+		]
+	},
+	
+	
+		
+				"sw08hmm2_SiegeArbalet":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":7000,
+	
+		"text":
+		{
+			"name": "Ballista",
+			"description": "The Ballista gives ballista +1 attack.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:61",
+			"map": "sw08arts/AVA0061"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "ADDITIONAL_ATTACK",
+"val":1,
+"limiters": [ {
+	"type":"CREATURE_TYPE_LIMITER",
+	"parameters": [ "ballista", true ]
+} ],
+
+}
+		]
+	},
+	
+	
+					"sw08hmm2_TaxNote":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Tax Note",
+			"description": "The Tax Note takes -250 gold each day as a payment.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:62",
+			"map": "sw08arts/AVA0062"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "GENERATE_RESOURCE",
+"val":-250,
+"subtype":"resource.gold"
+}
+		]
+	},
+	
+						"sw08hmm2_ElementalRing":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "MAJOR",
+		"value":9000,
+	
+		"text":
+		{
+			"name": "Elemental Ring",
+			"description": "Increases effectiveness of elemental summoning spells by 50%.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:65",
+			"map": "sw08arts/AVA0065"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":50,
+"subtype":"spell.airElemental"
+},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":50,
+"subtype":"spell.waterElemental"
+},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":50,
+"subtype":"spell.fireElemental"
+},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":50,
+"subtype":"spell.earthElemental"
+}
+		]
+	},
+	
+	
+	
+	
+	
+							"sw08hmm2_ElementalBook":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value":16000,
+	
+		"text":
+		{
+			"name": "Elemental Book",
+			"description": "Elemental Book increases effectiveness of elemental summoning spells by 50%.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:66",
+			"map": "sw08arts/AVA0066"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":100,
+"subtype":"spell.airElemental"
+},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":100,
+"subtype":"spell.waterElemental"
+},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":100,
+"subtype":"spell.fireElemental"
+},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+"val":100,
+"subtype":"spell.earthElemental"
+}
+		]
+	},
+	
+	
+	
+	
+					"sw08hmm2_BadEye":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Evil Eye",
+			"description": "The Evil Eye maxes Curse spell.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:75",
+			"map": "sw08arts/AVA0075"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+					"subtype":"spell.curse"
+			}
+		]
+	},
+	
+	
+		
+	
+	
+	
+					"sw08hmm2_SnakeRing":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Snake Ring",
+			"description": "The Snake Ring maxes Bless spell.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:76",
+			"map": "sw08arts/AVA0076"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+					"subtype":"spell.bless"
+			}
+		]
+	},
+		
+	
+	
+					"sw08hmm2_Cape":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Cape",
+			"description": "The Cape maxes Hypnotize spell.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:108",
+			"map": "sw08arts/AVA0108"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+					"subtype":"spell.hypnotize"
+			}
+		]
+	},		
+	
+	
+	
+					"sw08hmm2_IronSphere":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "TREASURE",
+		"value":3000,
+	
+		"text":
+		{
+			"name": "Snake Ring",
+			"description": "The Snake Ring maxes Bless spell.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:76",
+			"map": "sw08arts/AVA0076"
+		},
+		"bonuses":
+		[
+		
+			{
+				"type": "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+					"subtype":"spell.bless"
+			}
+		]
+	},
+	
+	
+	
+	
+	
+		"sw08hmm2_UltArmor":
+	{
+		"type": ["HERO"],
+		"slot" : "TORSO",
+		"class": "RELIC",
+		"value":32000,
+	
+		"text":
+		{
+			"name": "Ultimate Armor of Dominion",
+			"description": "The Ultimate Armor of Dominion increases your defence skill by 13.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:88",
+			"map": "sw08arts/AVA0088"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 13
+			}
+		]
+	},	
+	
+	
+		
+	
+		"sw08hmm2_legsOfLegion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Legs of Legion",
+			"description": "The Legs of Legion increases growth of level 1 creatures by 5. Hero must be present in town at first day of week.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:118",
+			"map": "sw08arts/AVA0118"
+		},
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel1",
+				"val" : 5,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},	
+	
+	
+			"sw08hmm2_loinsOfLegion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Loins of Legion",
+			"description": "The Loins of Legion increases growth of level 2 creatures by 4. Hero must be present in town at first day of week.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:119",
+			"map": "sw08arts/AVA0119"
+		},
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel2",
+				"val" :4,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},	
+	
+	
+			"sw08hmm2_torsoOfLegion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Torso of Legion",
+			"description": "The Torso of Legion increases growth of level 3 creatures by 3. Hero must be present in town at first day of week.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:119",
+			"map": "sw08arts/AVA0119"
+		},
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel3",
+				"val" :3,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},	
+	
+		
+	
+	
+						"sw08hmm2_armsOfLegion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Arms of Legion",
+			"description": "The Hands of Legion increases growth of level 4 creatures by 2. Hero must be present in town at first day of week.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:121",
+			"map": "sw08arts/AVA0121"
+		},
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel4",
+				"val" :2,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},	
+	
+							"sw08hmm2_headOfLegion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value":8000,
+	
+		"text":
+		{
+			"name": "Head of Legion",
+			"description": "The Head of Legion increases growth of level 5 creatures by 1. Hero must be present in town at first day of week.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:122",
+			"map": "sw08arts/AVA0122"
+		},
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel5",
+				"val" :1,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},	
+	
+		
+								"sw08hmm2_statueOfLegion":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":25000,
+		"components":
+		[
+			"sw08hmm2_legsOfLegion",
+			"sw08hmm2_loinsOfLegion",
+			"sw08hmm2_torsoOfLegion",
+			"sw08hmm2_armsOfLegion",
+			"sw08hmm2_headOfLegion"
+		],	
+		"text":
+		{
+			"name": "Statue of Legion",
+			"description": "The Statue of Legion increases growth by 50% in all towns player has.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:133",
+			"map": "sw08arts/AVA0134"
+		},
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel5",
+				"val" :1,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},	
+	
+								"sw08hmm2_Ava0128":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value":35000,
+
+		"text":
+		{
+			"name": "Brainteaser of Ancients",
+			"description": "Brainteaser of Ancients increases knowledge by 10.",
+			"event": "You found something useful."
+		},
+		"graphics":
+		{
+			"image": "sw08arts/ARTIFACT.def:128",
+			"map": "sw08arts/AVA0128"
+		},
+		"bonuses" : [
+			{
+				"type" : "CREATURE_GROWTH",
+				"subtype" : "creatureLevel5",
+				"val" :1,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		]
+	},	
+	
+}

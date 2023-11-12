@@ -1,0 +1,39 @@
+{	"sw08warlockGriffin":	{"name" :{"plural" : "Griffins","singular" : "Griffin"},
+		"advMapAmount" :		{			"max" : 25,
+			"min" : 12		},
+			
+	"hasDoubleWeek": true,            
+	"doubleWide" : true,
+		"faction" : "swsw08warlockfaction",
+		"aiValue" : 214,
+		"attack" : 6,
+		"cost" :		{			"gold" :225		},
+		"damage" :		{			"max" : 4,
+			"min" : 3		},
+		"defense" : 6,
+		"fightValue" : 217,
+		"graphics" :		{			"animation" : "sw08warlock-creatures/battle/c074grif",
+			"map" : "sw08warlock-creatures/map/AvWbehl0",
+			"iconSmall" : "sw08warlock-creatures/cprsmall.def:76",
+			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:76",
+						"timeBetweenFidgets" : 1,
+			"animationTime" :			{
+"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+							}
+					},
+		"growth" :6,
+		"hitPoints" : 20,
+		"horde" : 0,              	"level" : 3,
+		"shots" : 0,
+		"sound" :		{
+		"attack" :"sw08warlock/griffin/BHDRATTK",
+		"defend" :"sw08warlock/griffin/BHDRDFND",
+		"killed" :"sw08warlock/griffin/BHDRKILL",
+		"move" :"sw08warlock/griffin/BHDRMOVE",
+		"wince" :"sw08warlock/griffin/BHDRWNCE",
+		//"shoot" :""
+},
+		"speed" : 6,
+		"abilities" :		{		"ability1":{"type" : "FLYING"},"ability2":{"type" : "ADDITIONAL_RETALIATION","val" : 1}							}	} }

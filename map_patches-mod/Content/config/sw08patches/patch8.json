@@ -1,0 +1,78 @@
+{
+	"core:magicPlains" : {
+		"types" : {
+
+
+
+
+			"sw08patch8" : {
+				"name" : "Magic Plains",
+				"battleground" : "sw08_hmm2_magic_plains",
+				"templates" : {
+
+				"avxcf0" : {
+						"animation" : "sw08patches/patch8/avxcf0",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"avxcf1" : {
+						"animation" : "sw08patches/patch8/avxcf1",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+
+				"avxcf2" : {
+						"animation" : "sw08Patches/patch8/avxcf2",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"avxcf3" : {
+						"animation" : "sw08Patches/patch8/avxcf3",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
+						"allowedTerrains":["grass"]
+					},
+				"avxcf4" : {
+						"animation" : "sw08Patches/patch8/avxcf4",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
+						"allowedTerrains":["grass"]
+					},
+				"avxcf5" : {
+						"animation" : "sw08Patches/patch8/avxcf5",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"avxcf6" : {
+						"animation" : "sw08Patches/patch8/avxcf6",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"avxcf7" : {
+						"animation" : "sw08Patches/patch8/avxcf7",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
+						"allowedTerrains":["grass"]
+					}
+
+
+					}
+
+				}
+
+
+
+
+
+}
+
+
+
+
+}
+}

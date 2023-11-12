@@ -1,0 +1,186 @@
+{
+	"core:obelisk": {
+
+
+
+		"types": {
+//"name" : "Obelisk",
+			"obelisk": {
+			//	"index" :57,
+				"name" : "Obelisk",
+				"aiValue" : 350,
+				"rmg": {
+					"mapLimit" : 48,
+					"value" : 3500,
+					"rarity" : 200
+				},
+			//	"handler" : "obelisk",
+
+
+
+				"templates": {
+
+					"AVXobla": {
+						"animation" : "sw08objects_mines/SWOBEL01", //"sw08objects/obelisk/AVXobla",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"subterra", "dirt" 
+						]
+					},
+					"AvXOblB": {
+						"animation" : "sw08objects_mines/SWOBEL02", //"sw08objects/obelisk/AvXOblB",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"grass"
+						]
+					},
+					"AvXOblG": {
+						"animation" : "sw08objects_mines/SWOBEL03", //"sw08objects/obelisk/AvXOblG",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"dirt"
+						]
+					},
+					"AvXOblK": {
+						"animation" : "sw08objects_mines/SWOBEL04", //"sw08objects/obelisk/AvXOblK",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+						 "rough"
+						]
+					},
+					"AvXOblO": {
+						"animation" : "sw08objects_mines/SWOBEL05", //"sw08objects/obelisk/AvXOblO",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"hmm2desert"
+						]
+					},
+					"AvXOblP": {
+						"animation" : "sw08objects_mines/SWOBEL06", //"sw08objects/obelisk/AvXOblP",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"snow"
+						]
+					},
+					"AvXOblq": {
+						"animation" : "sw08objects_mines/SWOBEL07", //"sw08objects/obelisk/AvXOblq",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"grass", "dirt", "sand", "rough", "swamp", "subterra","hmm2desert"
+						]
+					},
+					"AVXoblr": {
+						"animation" : "sw08objects_mines/SWOBEL08", //"sw08objects/obelisk/AVXoblr",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"grass", "dirt", "sand", "rough", "swamp", "subterra","hmm2desert"
+						]
+					},
+					"AvXObls": {
+						"animation" : "sw08objects_mines/SWOBEL09", //"sw08objects/obelisk/AvXObls",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"grass", "dirt", "sand", "rough", "swamp", "subterra","hmm2desert"
+						]
+					},
+					"AvXOblt": {
+						"animation" : "sw08objects_mines/SWOBEL10", //"sw08objects/obelisk/AvXOblt",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"grass", "dirt", "sand", "rough", "swamp", "subterra","hmm2desert"
+						]
+					},
+					"AvXOblu": {
+						"animation" : "sw08objects_mines/SWOBEL11", //"sw08objects/obelisk/AvXOblu",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"grass", "dirt", "sand", "rough", "swamp", "subterra","hmm2desert"
+						]
+					},
+
+
+					"AvXOblW": {
+						"animation" : "sw08objects_mines/SWOBEL12", //"sw08objects/obelisk/AvXOblW",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VVV", "VAV"],
+
+						"allowedTerrains": [
+
+							"grass"
+						]
+					},
+					"AvXOblx": {
+						"animation" : "sw08objects_mines/SWOBEL13", //"sw08objects/obelisk/AvXOblx",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+"hmm2desert"
+						]
+					},
+				
+					"AvXOblY": {
+						"animation" : "sw08objects_mines/SWOBEL14", //"sw08objects/obelisk/AvXOblY",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+
+							"lava"
+						]
+					},
+					"AvXOblz": {
+						"animation" : "sw08objects_mines/SWOBEL15", //"sw08objects/obelisk/AvXOblz",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VA"],
+
+						"allowedTerrains": [
+
+							"hmm2desert"
+						]
+					}					
+
+				
+				}
+			}
+
+
+		}
+
+
+
+	}
+}

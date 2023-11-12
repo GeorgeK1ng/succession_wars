@@ -1,0 +1,54 @@
+{
+"name" : "SW - Necromancer town",
+"description" : "Necromancer town",
+"version" : "0.0.1",
+"author" : "AUTHOR",
+"contact" : "none",
+"modType" : "Town",
+	"depends" :
+	[
+	 "vcmi" ,"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	],
+"factions" :
+[
+"config/sw08necromancer/buildings.json",
+"config/sw08necromancer/faction.json",
+"config/sw08necromancer/siege.json",
+"config/sw08necromancer/spells.json",
+"config/sw08necromancer/structures.json",
+"config/sw08necromancer/puzzle.json",
+"config/sw08necromancer/texts.json"
+	],
+	"heroClasses" :
+	[
+	"config/sw08necromancer-heroes/Necromancer.json"
+	
+//	"config/sw08necromancer-heroes/texts-classes.json" (should delete for simplification, used for translations)
+	],                                            //but we don't plan anything for translating
+	"heroes" :
+	[
+	"config/sw08necromancer-heroes/necromancer_heroes.json"
+
+
+	],
+"creatures" :
+	[
+"config/sw08necromancer-creatures/Bone Dragon.json",
+"config/sw08necromancer-creatures/Lich.json",
+"config/sw08necromancer-creatures/Mummy.json",
+"config/sw08necromancer-creatures/Mutant Zombie.json",
+"config/sw08necromancer-creatures/Power Lich.json",
+"config/sw08necromancer-creatures/Royal Mummy.json",
+"config/sw08necromancer-creatures/Skeleton.json",
+"config/sw08necromancer-creatures/Vampire Lord.json",
+"config/sw08necromancer-creatures/Vampire.json",
+"config/sw08necromancer-creatures/Zombie.json",
+"config/sw08necromancer-creatures/Death Knight.json",
+
+	],
+	"objects":
+	[
+	"config/sw08necromancer/dwellings.json",
+		"config/sw08necromancer/banks.json"
+	]
+}

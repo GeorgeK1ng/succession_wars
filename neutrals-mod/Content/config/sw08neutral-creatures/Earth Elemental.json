@@ -1,0 +1,43 @@
+{	"sw08neutralEarthElemental":	{"name" :{"plural" : "Earth Elementals","singular" : "Earth Elemental"},
+		"advMapAmount": {
+			"max" : 25,
+			"min" : 13
+		},
+	"hasDoubleWeek": true,             "doubleWide" : false,
+		"faction" : "sw08neutral",
+		"aiValue" : 330,
+		"attack" : 8,
+		"cost" :		{			"gold" : 500		},
+		"damage" :		{			"max" : 5,
+			"min" : 4		},
+		"defense" : 8,
+		"fightValue" : 415,
+		"graphics" :		{			          
+		"animation" : "sw08neutral-creatures/battle/ZM165GD",
+            "map" : "sw08neutral-creatures/map/AVWelme0",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:115",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:115",
+						"timeBetweenFidgets" : 1,
+			"animationTime" :			{
+"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+							}
+					},
+		"growth" : 8,
+		"hitPoints" : 50,
+		"horde" : 0,              	"level" : 3,
+		"shots" : 0,
+		"sound" :		
+		{
+		"attack" :"sw08neutral/earth elemental/EglmATTK.wav",
+		"defend" :"sw08neutral/earth elemental/EglmDFND.wav",
+		"killed" :"sw08neutral/earth elemental/EglmKILL.wav",
+		"move" :"sw08neutral/earth elemental/EglmMOVE.wav",
+		"wince" :"sw08neutral/earth elemental/EglmWNCE.wav"
+},
+		"speed" : 4,
+		"abilities" :		{
+			"ability1":{"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.earth"},
+				"ability2":{"type" : "NON_LIVING"}								}	} }

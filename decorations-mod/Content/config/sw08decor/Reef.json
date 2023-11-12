@@ -1,0 +1,153 @@
+{
+	"core:reef": {
+
+		"types": {
+			"sw08reefs": {
+				"name" : "Reefs",
+				"rmg": {
+					"zoneLimit" : 6,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"AVLrk2w0": {
+						"animation" : "sw08decor/reef/AVLrk2w0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["V", "B"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVLrk3w0": {
+						"animation" : "sw08decor/reef/AVLrk3w0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVLrk4w0": {
+						"animation" : "sw08decor/reef/AVLrk4w0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"ZReef1": {
+						"animation" : "sw08decor/reef/ZReef1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"ZReef2": {
+						"animation" : "sw08decor/reef/ZReef2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"ZReef3": {
+						"animation" : "sw08decor/reef/ZReef3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"ZReef4": {
+						"animation" : "sw08decor/reef/ZReef4",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"ZReef5": {
+						"animation" : "sw08decor/reef/ZReef5",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"ZWVolc1": {
+						"animation" : "sw08decor/reef/ZWVolc1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"Zreef2": {
+						"animation" : "sw08decor/reef/082/Zreef2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"Zreef3": {
+						"animation" : "sw08decor/reef/082/Zreef3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"Zreef4": {
+						"animation" : "sw08decor/reef/082/Zreef4",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+
+
+			},
+			
+			
+			"sw08reefs2": {
+				"name" : "Sea King Corpse",
+				"rmg": {
+					"zoneLimit" : 6,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"zreef6": {
+						"animation" : "sw08decor/reef/zreef6",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVV", "VBBBV", "BBBBB"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					}			
+			
+			
+			
+			
+		}
+	}
+}
+} }

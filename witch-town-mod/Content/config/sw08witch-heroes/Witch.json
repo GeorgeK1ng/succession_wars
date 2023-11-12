@@ -1,0 +1,88 @@
+{
+	"sw08Witch" : 
+	{
+				"defaultTavern" : 3,
+"affinity" : "magic",
+"commander" : "sw08witchLizardWarrior",
+	
+		"name" : "Witch",
+				"mapObject" : { "templates" : { "default" : { "animation" : "sw08witch-heroes/AH14_" } } },
+		"animation" :
+		{
+			"battle" : 
+			{
+				"female" : "sw08witch-heroes/CH015",
+				"male"   : "sw08witch-heroes/CH015"
+			}
+		},
+		"faction" : "sw08witch",
+		"primarySkills" :      
+		{
+			"attack"     : 0,
+			"defence"    : 2,
+			"spellpower" : 2,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 30,
+			"spellpower" : 30,
+			"knowledge"  : 20
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 10,
+			"defence"    : 30,
+			"spellpower" : 30,
+			"knowledge"  : 30
+		},
+		"secondarySkills" :      
+		{						
+			"archery"      : 4,
+			"ballistics"   : 4,
+			"diplomacy"    : 4,
+			"eagleEye"     : 4,
+			"estates"      : 1,
+			"leadership"   : 2,
+			"logistics"    : 4,
+			"luck"         : 1,
+			"mysticism"    : 5,
+			"navigation"   : 3,
+			"necromancy"   : 0,
+			"pathfinding"  : 8,
+			"scouting"     : 5,
+			"wisdom"       : 8,
+			"fireMagic"    : 3,
+			"airMagic"     : 5,
+			"waterMagic"   : 8,
+			"earthMagic"   : 4,
+			"scholar"      : 4,
+			"tactics"      : 2,
+			"artillery"    : 2,
+			"learning"     : 4,
+			"offence"      : 2,
+			"armorer"      : 6,
+			"intelligence" : 4,
+			"sorcery"      : 8,
+			"resistance"   : 6,
+			"firstAid"     : 5
+		},
+		"tavern" :
+		{
+			"castle"     : 5,//2,
+			"rampart"    : 5,//6,
+			"tower"      : 5,//6,
+			"inferno"    : 5,//6,
+			"necropolis" : 5,//5,
+			"dungeon"    : 5,//5,
+			"stronghold" : 5,//6,
+			"fortress"   : 7,//6,
+			"conflux"    : 5,//5
+	
+		}
+	}
+	
+	
+	
+}

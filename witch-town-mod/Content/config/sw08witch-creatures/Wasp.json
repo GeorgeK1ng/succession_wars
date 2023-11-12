@@ -1,0 +1,89 @@
+{
+	"sw08witchWasp":
+	{
+"name" :{"plural" : "Wasps","singular" : "Wasp"},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 15
+		},
+
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" :false,
+		"faction" : "sw08witch",
+		"aiValue" : 120,
+		"attack" : 4,
+
+		"cost" :
+		{
+			"gold" : 145
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 2,
+		"fightValue" : 133,
+		"graphics" :
+		{
+			"animation" : "sw08witch-creatures/battle/c100wasp",
+			"map" : "sw08witch-creatures/map/AvWdfly",
+			"iconSmall" : "sw08witch-creatures/cprsmall.def:102",
+			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:102",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08witch-creatures/battle/cprgtix",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 13
+			}
+			
+		},
+
+		"growth" : 8,
+		"hitPoints" : 10,
+		"horde" : 0,
+              	"level" : 2,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08witch/wasp/PLIZATTK.wav",
+"defend" :"sw08witch/wasp/PLIZDFND.wav",
+"killed" :"sw08witch/wasp/PLIZKILL.wav",
+"move" :"sw08witch/wasp/PLIZMOVE.wav",
+"wince" :"sw08witch/wasp/PLIZWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 8,
+		"abilities" :
+		{
+"ability1":
+{
+"type" : "FLYING","subtype" : "movementFlying"}
+					
+		}
+	}
+}

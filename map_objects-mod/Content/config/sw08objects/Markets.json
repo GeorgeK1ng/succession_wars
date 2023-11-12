@@ -1,0 +1,55 @@
+{
+	"core:tradingPost": {
+
+		"types": {
+			"sw08objectsTradingPost": {
+				"aiValue" : 100,
+				
+			"name": "Trading Post",
+			"modes" : ["resource-resource", "resource-player"],
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"avxpost0": {
+						"animation" : "sw08objects/market/avxpost0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBA"],
+				"allowedTerrains":["grass","sand","swamp","rough",
+							"hmm2desert"]
+
+					},
+					"AVXpsSn": {
+						"animation" : "sw08objects/market/AVXpsSn",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBA"],
+				"allowedTerrains":["snow"]
+
+					},
+					
+					"AVXpstr0": {
+						"animation" : "sw08objects/market/AVXpstr0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBA"],
+				"allowedTerrains":["dirt","lava"]
+
+					}					
+					
+					
+					
+
+					
+				}
+			}
+
+
+
+		}
+	}
+
+
+
+}

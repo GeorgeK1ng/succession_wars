@@ -1,0 +1,45 @@
+{
+	"core:idolOfFortune": {
+
+		"types": {
+			"sw08objectsidolOfFortune01": {
+				"name" : "Idol of Fortune",
+				"aiValue" : 100,
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"AVSidol0": {
+						"animation" : "sw08objects/idolOfFortune/AVSidol0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+					
+					
+					
+				}
+			}			
+			
+			
+
+		}
+	}
+
+
+
+}

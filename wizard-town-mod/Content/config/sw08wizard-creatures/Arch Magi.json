@@ -1,0 +1,94 @@
+{
+	"sw08wizardArchMagi":
+	{
+"name" :{"plural" : "Arch Magi","singular" : "Arch Magi"},
+		"advMapAmount" :
+		{
+			"max" : 11,
+			"min" : 7
+		},
+
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08wizardfaction",
+		"aiValue" : 789,
+		"attack" :12,
+
+		"cost" :
+		{
+			"gold" : 965
+		},
+		"damage" :
+		{
+			"max" : 13,
+			"min" : 11
+		},
+		"defense" : 8,
+		"fightValue" : 736,
+		"graphics" :
+		{
+			"animation" : "sw08wizard-creatures/battle/c039umag",
+			"map" : "sw08wizard-creatures/map/AVWnagx0",
+			"iconSmall" : "sw08wizard-creatures/cprsmall.def:41",
+			"iconLarge" : "sw08wizard-creatures/TWCRPORT.def:41",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08wizard-creatures/battle/PMAGEX",
+                               
+				"offset" :
+				{
+					"upperX" : 27,
+					"upperY" : -85,
+					"middleX" : 37,
+					"middleY" : -46,
+					"lowerX" : 20,
+					"lowerY" : -25
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 5
+			}
+			
+		},
+
+		"growth" :2,
+		"hitPoints" : 45,
+		"horde" :0,
+              	"level" : 6,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack" : "sw08wizard/archmage/NGRDATTK.wav",
+			"defend" : "sw08wizard/archmage/NGRDDFND.wav",
+			"killed" : "sw08wizard/archmage/NGRDKILL.wav",
+			"move" : "sw08wizard/archmage/NGRDmove.wav",
+			"wince" : "sw08wizard/archmage/NGRDWNCE.wav",
+                     	"shoot" : "sw08wizard/archmage/NGRDSHOT.wav"
+		},
+		"speed" :8,
+		"abilities" :
+		{
+
+"ability2":
+{"type" : "SHOOTER"},
+"ability3":
+{"type" : "NO_MELEE_PENALTY"},
+"ability4":{"type" : "SPELL_AFTER_ATTACK",
+"subtype" : "spell.dispel",
+"val" : 15,
+"addInfo" : 0}
+					
+		}
+	}
+}

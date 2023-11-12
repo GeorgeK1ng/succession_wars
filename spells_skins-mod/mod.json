@@ -1,0 +1,16 @@
+{
+    "name" : "SW - Spell Icons",
+    "description" : "Spell Icons",
+    "version" : "0.0.1",
+    "author" : "Noname",
+    "contact" : "none",
+    "modType" : "Graphical",
+    "depends": [
+   
+    ],
+
+	"objects":
+	[
+	        
+	]
+}

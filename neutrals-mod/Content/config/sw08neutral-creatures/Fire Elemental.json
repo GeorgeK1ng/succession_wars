@@ -1,0 +1,76 @@
+{
+	"sw08neutralFireElemental":
+	{
+"name" :{"plural" : "Fire Elementals","singular" : "Fire Elemental"},
+		"advMapAmount": {
+			"max" : 25,
+			"min" : 13
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "sw08neutral",
+		"aiValue" : 345,
+		"attack" : 8,
+
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 345,
+		"graphics" :
+		{
+		"animation" : "sw08neutral-creatures/battle/c114efir",
+			"map" : "sw08neutral-creatures/map/AVWelmf0",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:116",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:116",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			}
+			
+		},
+
+		"growth" : 8,
+		"hitPoints" : 40,
+		"horde" : 0,
+              	"level" : 3,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08neutral/fire elemental/FglmATTK.wav",
+"defend" :"sw08neutral/fire elemental/FglmDFND.wav",
+"killed" :"sw08neutral/fire elemental/FglmKILL.wav",
+"move" :"sw08neutral/fire elemental/FglmMOVE.wav",
+"wince" :"sw08neutral/fire elemental/FglmWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 6,
+		"abilities" :
+		{
+"ability1":
+{
+"type" : "SPELL_SCHOOL_IMMUNITY", "subtype" : "spellSchool.fire"
+},
+"ability2":
+{
+"type" : "NON_LIVING"
+}	
+					
+		}
+	}
+}

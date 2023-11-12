@@ -1,0 +1,69 @@
+{
+	"sw08neutralAirElemental": {
+		"name": {
+			"plural" : "Air Elementals",
+			"singular" : "Air Elemental"
+		},
+		"advMapAmount": {
+			"max" : 25,
+			"min" : 13
+		},
+
+
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"faction" : "sw08neutral",
+		"aiValue" : 356,
+		"attack" : 7,
+
+		"cost": {
+			"gold" : 500
+		},
+		"damage": {
+			"max" : 8,
+			"min" : 2
+		},
+		"defense" : 7,
+		"fightValue" : 324,
+		"graphics": {
+		"animation" : "sw08neutral-creatures/battle/c112eair",
+            "map" : "sw08neutral-creatures/map/AVWelme0",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:114",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:114",
+
+			"timeBetweenFidgets" : 1,
+			"animationTime": {
+				"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+			}
+
+		},
+
+		"growth" : 8,
+		"hitPoints" : 35,
+		"horde" : 0,
+		"level" : 3,
+		"shots" : 0,
+		"sound": {
+			"attack" : "sw08neutral/air elemental/AELMATTK.wav",
+			"defend" : "sw08neutral/air elemental/AELMDFND.wav",
+			"killed" : "sw08neutral/air elemental/AELMKILL.wav",
+			"move" : "sw08neutral/air elemental/AELMMOVE.wav",
+			"wince" : "sw08neutral/air elemental/AELMWNCE.wav",
+			"shoot" : "sw08neutral/air elemental/AELMSHOT.wav"
+		},
+		"speed" : 7,
+		"abilities": {
+			"ability1": {
+				                "type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.air" 
+			},
+			"ability2": {
+				"type" : "NON_LIVING"
+			}
+
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"core:pandoraBox": {
+
+		"types": {
+			"sw08_pandoraBox01": {
+				"name" : "Pandora Box",
+	
+				"rmg": {
+					"zoneLimit" : 3,
+					"value" : 100,
+					"rarity" : 60
+				},
+				"templates": {
+
+					"OBJ6361": {
+						"animation" : "sw08objects/pandoraBox/AVA0128",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+"dirt","swamp","grass","rough",
+						"snow","subterra","sand","hmm2desert"
+						]
+					}					
+					
+					
+					
+				}
+			}
+
+		}
+	}
+
+
+
+}

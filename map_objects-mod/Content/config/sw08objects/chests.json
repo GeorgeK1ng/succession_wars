@@ -1,0 +1,65 @@
+{
+	"core:treasureChest": {
+		"types": {
+		
+			"sw08objectsnewChest01": {
+				"name" : "Chest",
+				"aiValue" : 1500,
+				"rmg": {
+					"value" : 1500,
+					"rarity" : 1000
+				},
+				"templates": {
+					"AVTchst0": {
+						"animation" : "sw08objects/chests/AVTchst0",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+	
+					
+
+				}
+			}
+		}
+	},
+	
+	
+		"core:seaChest": {
+		"types": {
+
+			"sw08objectsSeaChest01": {
+				"name" : "Sea Chest",
+				"aiValue" : 1500,
+				"rmg": {
+					"value" : 1500,
+					"rarity" : 1000
+				},
+		"templates": {
+					"AVXccht0": {
+						"animation" : "sw08objects/chests/AVXccht0",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"water" 
+						]
+					}	
+					
+
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"core:fountainOfFortune": {
+
+		"types": {
+			"sw08objectsfortune01": {
+				"name" : "Fontain of Fortune",
+				"aiValue" : 100,
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 60
+				},
+				"templates": {
+
+					"avsfntn0": {
+						"animation" : "sw08objects/fountainOfFortune/avsfntn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": [ "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp" ,
+							"hmm2desert"
+						]
+					},
+					"ZFntnG01": {
+						"animation" : "sw08objects/fountainOfFortune/ZFntnG01",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": [ "VA"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			}
+
+		}
+	}
+
+
+
+}

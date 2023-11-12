@@ -1,0 +1,78 @@
+{
+	"sw08barbarianOgreLord": {
+		"name": {
+			"plural" : "Ogre Lords",
+			"singular" : "Ogre Lord"
+		},
+		"advMapAmount": {
+			"max" : 20,
+			"min" : 10
+		},
+
+
+
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"faction" : "swsw08barbarianfaction",
+		"aiValue" : 686,
+		"attack" : 9,
+
+		"cost": {
+			"gold" : 485
+		},
+		"damage": {
+			"max" : 8,
+			"min" : 6
+		},
+		"defense" : 5,
+		"fightValue" : 623,
+		"graphics": {
+			"animation" : "sw08barbarian-creatures/battle/c093uogr",
+			"map" : "sw08barbarian-creatures/map/AVWrocx0",
+			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:95",
+			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:95",
+
+			"timeBetweenFidgets" : 1,
+			"animationTime": {
+				"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+			},
+			"missile": {
+				"projectile" : "sw08barbarian-creatures/battle/PorchX",
+
+				"offset": {
+					"upperX" : 41,
+					"upperY": -92,
+					"middleX" : 58,
+					"middleY": -79,
+					"lowerX" : 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 12
+			}
+
+		},
+
+		"growth" : 4,
+		"hitPoints" : 65,
+		"horde" : 0,
+		"level" : 5,
+		"shots" : 0,
+		"sound": {
+			"attack" : "sw08barbarian/ogre lord/CALFATTK.wav",
+			"defend" : "sw08barbarian/ogre lord/CALFDFND.wav",
+			"killed" : "sw08barbarian/ogre lord/CALFKILL.wav",
+			"move" : "sw08barbarian/ogre lord/CALFMOVE.wav",
+			"wince" : "sw08barbarian/ogre lord/CALFWNCE.wav",
+			"shoot" : "sw08barbarian/ogre lord/CALFSHOT.wav"
+		},
+		"speed" : 5,
+		"abilities": {
+
+
+		}
+	}
+}

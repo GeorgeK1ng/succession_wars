@@ -1,0 +1,184 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"sw08necromancerLevel1" : {
+				"name" : "Excavation",
+				"creatures" : [[ "sw08necromancerSkeleton" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08necromancerSkeleton" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGskel0",
+						"mask" : ["VV", "AB" ]
+					},
+										"default2" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGskel1",
+						"mask" : ["BBA" ],
+						"allowedTerrains":["sand"]
+					}
+				}
+			},
+
+			"sw08necromancerLevel1A" : {
+				"name" : "Cemetery",
+				"creatures" : [[ "sw08necromancerSkeleton" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08necromancerSkeleton" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGskel2",
+						"mask" : ["VA" ]
+					}
+				}
+			},
+	
+			
+			
+			
+			
+
+			"sw08necromancerLevel2" : {
+				"name" : "Graveyard",
+				"creatures" : [[ "sw08necromancerZombie" ]],
+//				"guards" : [
+//					{ "amount" : 30, "type" : "sw08necromancerZombie" }
+//				],
+				"templates" : {
+					"def1" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGzomb2",
+						"mask" : [ "VBA" ],
+						"allowedTerrains":["snow"]
+					},
+										"def2" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGzomb1",
+						"mask" : [ "VBA" ]
+					}
+				}
+			},	
+
+
+			"sw08necromancerLevel2Upg" : {
+				"name" : "Upg. Graveyard",
+				"creatures" : [[ "sw08necromancerMutantZombie" ]],
+//				"guards" : [
+//					{ "amount" : 30, "type" : "sw08necromancerMutantZombie" }
+//				],
+				"templates" : {
+					"def1" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGzomb0",
+						"mask" : [ "VVV","VAB" ]
+					}
+				}
+			},				
+			
+			"sw08necromancerLevel3" : {
+				"name" : "Upg. Pyramid",
+				"creatures" : [[ "sw08necromancerRoyalMummy" ]],
+//				"guards" : [
+//					{ "amount" : 22, "type" : "sw08necromancerRoyalMummy" }
+//				],
+				"templates" : {
+					"default" : {	
+						"animation" : "sw08necromancer/Adventure-Map/AVGwght0",
+						"mask" : ["VVVV","VVBA" ]
+					}
+				}
+			},
+			
+						"sw08necromancerLevel3D" : {
+				"name" : "Pyramid",
+				"creatures" : [[ "sw08necromancerMummy" ]],
+//				"guards" : [
+//					{ "amount" : 22, "type" : "sw08necromancerMummy" }
+//				],
+				"templates" : {
+					"PALM048" : {	
+						"animation" : "sw08necromancer/Adventure-Map/AVGmumy",
+						"mask" : ["VVV","VVV","VBA" ]
+					}
+				}
+			},
+			"sw08necromancerLevel4D" : {
+				"name" : "Hall of Darkness",
+				"creatures" : [[ "sw08necromancerDeathKnight" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08necromancerDeathKnight" }
+				],
+				"templates" : {
+					"PALM091" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGvamp0",
+						"mask" : ["VVVV","VVVV","VVBA" ]
+					}
+				}
+			},			
+
+
+						"sw08necromancerLevel5D" : {
+				"name" : "Mansion",
+				"creatures" : [[ "sw08necromancerVampire" ]],
+				"guards" : [
+					{ "amount" : 12, "type" : "sw08necromancerVampire" }
+				],
+				"templates" : {
+					"PALM225" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGlich0",
+						"mask" : [ "VVV","VBA" ]
+					}
+				}
+			},
+
+			
+			"sw08necromancerLevel6D" : {
+				"name" : "Mausoleum",
+				"creatures" : [[ "sw08necromancerLich" ]],
+				"guards" : [
+					{ "amount" : 6, "type" : "sw08necromancerLich" }
+				],
+				"templates" : {
+					"PALM173" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGbkni0",
+						"mask" : [ "VVV","VBA"]
+					}					
+					
+					
+				}
+			},
+			
+
+			
+			
+			"sw08necromancerLevel7" : {
+				"name" : "Dragon Laboratory",
+				"creatures" : [[ "sw08necromancerBoneDragon" ]],
+				"guards" : [
+					{ "amount" : 3, "type" : "sw08necromancerBoneDragon" }
+				],
+				"templates" : {
+					"def1" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGbone0",
+						"mask" : [ "VVV","VVV","VBA" ]
+					},
+										"def2" : {
+						"animation" : "sw08necromancer/Adventure-Map/AVGbone2",
+						"mask" : [ "VVVV","VVVV","VBBA" ]
+					}
+				}
+			}	
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}

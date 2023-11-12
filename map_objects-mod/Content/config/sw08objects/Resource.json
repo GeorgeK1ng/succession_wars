@@ -1,0 +1,187 @@
+{
+	"core:resource": {
+		"types": {
+			"wood": {
+				//"index" : 0,
+				"rmg": {
+					"value" : 1400,
+					"rarity" : 300
+				},
+				"templates": {
+					"sw08_AVTwood1": {
+						"animation" : "sw08objects_mines/SWRES08",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+						"allowedTerrains": ["snow","snow"]
+					},
+					"sw08_AVTwood0": {
+						"animation" : "sw08objects_mines/SWRES09",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+						"allowedTerrains": ["grass", "dirt", "rough", "swamp", "lava", "sand", "subterra",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"mercury": {
+				//"index" : 1,
+				"rmg": {
+					"value" : 2000,
+					"rarity" : 300
+				},
+				"templates": {
+					"sw08_AVTmerc0": {
+						"animation" : "sw08objects_mines/SWRES04",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+					}
+				}
+			},
+			"ore": {
+				//"index" : 2,
+				"rmg": {
+					"value" : 1400,
+					"rarity" : 300
+				},
+				"templates": {
+					"sw08_AVTore0": {
+						"animation" : "sw08objects_mines/SWRES05",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+					}
+				}
+			},
+			"sulfur": {
+				//"index" : 3,
+				"rmg": {
+					"value" : 2000,
+					"rarity" : 300
+				},
+				"templates": {
+					"sw08_AVTsulf0": {
+						"animation" : "sw08objects_mines/SWRES07",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+					}
+				}
+			},
+			"crystal": {
+				//"index" : 4,
+				"rmg": {
+					"value" : 2000,
+					"rarity" : 300
+				},
+				"templates": {
+
+					"sw08_AVTcrys0": {
+						"animation" : "sw08objects_mines/SWRES01",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+					}
+
+				}
+			},
+			"gems": {
+				//"index" : 5,
+				"rmg": {
+					"value" : 2000,
+					"rarity" : 300
+				},
+				"templates": {
+					"sw08_AVTgems0": {
+						"animation" : "sw08objects_mines/SWRES02",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+					}
+
+				}
+			},
+			"gold": {
+				//"index" : 6,
+				"rmg": {
+					"value" : 750,
+					"rarity" : 300
+				},
+				"templates": {
+					"sw08_AVTgold0": {
+						"animation" : "sw08objects_mines/SWRES03",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+					}
+
+				}
+			}
+		}
+	}
+}

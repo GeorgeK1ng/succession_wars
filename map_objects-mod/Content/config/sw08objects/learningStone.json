@@ -1,0 +1,54 @@
+{
+	"core:learningStone": {
+
+		"types": {
+			"sw08objectslearningStone01": {
+				"name" : "Learning Stone",
+				"aiValue" : 1500,
+				"rmg": {
+					"value" : 1500,
+					"rarity" : 200
+				},
+				"templates": {
+
+					"avsgzbo20": {
+						"animation" : "sw08objects/learningStone/avsgzbo20",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					},
+					"zobj046": {
+						"animation" : "sw08objects/learningStone/zobj046",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+
+				}
+
+			}
+		}
+	}
+}

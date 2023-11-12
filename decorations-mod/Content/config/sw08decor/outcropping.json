@@ -1,0 +1,176 @@
+{
+	"core:outcropping": {
+
+		"types": {
+			"sw08outcropping": {
+				"name" : "Outcropping",
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"AVLo1sn0": {
+						"animation" : "sw08decor/outcropping/AVLo1sn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVLo2sn0": {
+						"animation" : "sw08decor/outcropping/AVLo2sn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+						"AVLo3sn0": {
+						"animation" : "sw08decor/outcropping/AVLo3sn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+						"AVLo4sn0": {
+						"animation" : "sw08decor/outcropping/AVLo4sn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+						"AVLoc1d0": {
+						"animation" : "sw08decor/outcropping/AVLoc1d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+						"AVLoc1g0": {
+						"animation" : "sw08decor/outcropping/AVLoc1g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+						"AVLoc1u0": {
+						"animation" : "sw08decor/outcropping/AVLoc1u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+						"AVLoc2d0": {
+						"animation" : "sw08decor/outcropping/AVLoc2d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+						"AVLoc2g0": {
+						"animation" : "sw08decor/outcropping/AVLoc2g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+						"AVLoc2u0": {
+						"animation" : "sw08decor/outcropping/AVLoc2u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+						"AVLoc3d0": {
+						"animation" : "sw08decor/outcropping/AVLoc3d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+						"AVLoc3g0": {
+						"animation" : "sw08decor/outcropping/AVLoc3g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+						"AVLoc3u0": {
+						"animation" : "sw08decor/outcropping/AVLoc3u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},					
+						"AVLoc4G0": {
+						"animation" : "sw08decor/outcropping/AVLoc4G0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},	
+						"AVLoc4R0": {
+						"animation" : "sw08decor/outcropping/AVLoc4R0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},					
+						"AVLoc4u0": {
+						"animation" : "sw08decor/outcropping/AVLoc4u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},					
+						"newAVLoc2g0": {
+						"animation" : "sw08decor/outcropping/082/AVLoc2g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					}	
+				 
+				}
+
+
+			}
+			
+			
+		}
+	}
+}

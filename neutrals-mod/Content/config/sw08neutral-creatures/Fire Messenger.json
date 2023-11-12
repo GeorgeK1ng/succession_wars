@@ -1,0 +1,62 @@
+{
+    "sw08neutralFireMessenger": {
+        "name": {
+            "plural" : "Fire Messengers",
+            "singular" : "Fire Messenger"
+        },
+"advMapAmount" :		{			"max" : 10,
+			"min" : 8		},
+        "hasDoubleWeek": true,
+        "faction" : "sw08neutral",
+        "aiValue" : 775
+,
+        "attack" : 8,
+        "cost": {
+            "gold" : 750
+        },
+        "damage": {
+            "max" : 6,
+            "min" : 4
+        },
+        "defense" : 6,
+        "fightValue" : 775
+,
+        "graphics": {
+		"animation" : "sw08neutral-creatures/battle/ZM164GD",
+			"map" : "sw08neutral-creatures/map/AVWelmf0",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:116",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:116",
+            "timeBetweenFidgets" : 1,
+            "animationTime": {
+                "idle" : 10,
+                "walk" : 1,
+                "attack" : 1
+                
+            }
+        },
+        "growth" : 2,
+        "hitPoints" : 40,
+        "level" : 6,
+        "shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08neutral/fire elemental/FglmATTK.wav",
+"defend" :"sw08neutral/fire elemental/FglmDFND.wav",
+"killed" :"sw08neutral/fire elemental/FglmKILL.wav",
+"move" :"sw08neutral/fire elemental/FglmMOVE.wav",
+"wince" :"sw08neutral/fire elemental/FglmWNCE.wav",
+//"shoot" :""
+
+},
+        "speed" : 6,
+        "abilities": {
+   //         "ability1": {
+     //           "type" : "FLYING"
+     //       },
+            "ability2": {
+                "type" : "NON_LIVING"
+            },
+            "ability3": { "subtype" : "spellSchool.fire", "type" : "SPELL_DAMAGE_REDUCTION",  "val" : 100 } 
+        }
+    }
+}

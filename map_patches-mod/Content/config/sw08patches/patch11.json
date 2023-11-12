@@ -1,0 +1,77 @@
+{
+	"core:holyGround" : {
+		"types" : {
+
+
+
+
+			"sw08patch11" : {
+				"name" : "Holy Ground",
+				"battleground" : "sw08_hmm2_holy_ground",
+				"templates" : {
+				"AVXcr0" : {
+						"animation" : "sw08Patches/patch11/AVXcr0",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"AVXcr1" : {
+						"animation" : "sw08patches/patch11/AVXcr1",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+
+				"AVXcr2" : {
+						"animation" : "sw08Patches/patch11/AVXcr2",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"AVXcr3" : {
+						"animation" : "sw08Patches/patch11/AVXcr3",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
+						"allowedTerrains":["grass"]
+					},
+				"AVXcr4" : {
+						"animation" : "sw08Patches/patch11/AVXcr4",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
+						"allowedTerrains":["grass"]
+					},
+				"AVXcr5" : {
+						"animation" : "sw08Patches/patch11/AVXcr5",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"AVXcr7" : {
+						"animation" : "sw08Patches/patch11/AVXcr7",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"allowedTerrains":["grass"]
+					},
+				"AVXcr6" : {
+						"animation" : "sw08Patches/patch11/AVXcr6",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"allowedTerrains":["grass"]
+					}
+
+
+					}
+
+				}
+
+
+
+
+
+}
+
+
+
+
+}
+}

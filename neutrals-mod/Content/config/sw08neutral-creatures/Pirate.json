@@ -1,0 +1,43 @@
+{	"sw08neutralPirate":	
+{
+"name" :{"plural" : "Pirates","singular" : "Pirate"},
+		"advMapAmount" :		{			"max" : 27,
+			"min" : 4		},
+			
+	"hasDoubleWeek": true,             "doubleWide" : false,
+		"faction" : "sw08neutral",
+		"aiValue" : 517,
+		"attack" :7,
+		"cost" :		{			"gold" : 300		},
+		"damage" :		{			"max" : 5,
+			"min" : 4		},
+		"defense" : 5,
+		"fightValue" : 690,
+		"graphics" :		{			"animation" : "sw08neutral-creatures/battle/c138pira",
+			"map" : "sw08neutral-creatures/map/AVWhalf",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:140",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:140",
+						"timeBetweenFidgets" : 1,
+			"animationTime" :			{
+"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+							}
+					},
+		"growth" : 6,
+		"hitPoints" : 26,
+		"horde" : 6,              	"level" : 4,
+		"shots" : 0,
+		"sound" :		
+		{
+		"attack" :"sw08neutral/pirate/HALFATTK.wav",
+		"defend" :"sw08neutral/pirate/HALFDFND.wav",
+		"killed" :"sw08neutral/pirate/HALFKILL.wav",
+		"move" :"sw08neutral/pirate/HALFMOVE.wav",
+		"wince" :"sw08neutral/pirate/HALFWNCE.wav",
+		//"shoot" :""
+},
+		"speed" :6,
+		"abilities" :		{"ability1":{"type" : "MOVEMENT", "subtype" :  "heroMovementSea", "valueType" : "ADDITIVE_VALUE","val" : 200,"propagator" : "HERO"
+}
+		}	} }

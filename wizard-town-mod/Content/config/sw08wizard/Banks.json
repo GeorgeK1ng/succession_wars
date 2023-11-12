@@ -1,0 +1,62 @@
+{
+	"core:dragonUtopia": {
+		"types": {
+
+			"sw08wizardWizardSanctum": {
+				"handler" : "bank",
+				"name" : "Wizard Sanctum",
+				"templates": {
+					"base": {
+						"animation" : "sw08wizard/adventure-map/banks/sanctum/zobj007",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV","VVVV","VVVV", "VVAB"],
+						"allowedTerrains":["rough"]
+					}
+				},
+				"rmg": {
+					"value" : 1600,
+					"rarity" : 70
+				},
+				"levels": [ {
+						"chance" : 100,
+						"guards": [ {
+							"amount" : 4,
+							"type" : "sw08wizardMagi"
+						}, {
+							"amount" :  4,
+							"type" : "sw08wizardMagi"
+						}, {
+							"amount" :  4,
+							"type" : "sw08wizardMagi"
+						}, {
+							"amount" : 4,
+							"type" : "sw08wizardMagi"
+						}, {
+							"amount" :  15,
+							"type" : "sw08wizardGnome"
+						}, {
+							"amount" :  15,
+							"type" : "sw08wizardGnome"
+						} ],
+						"combat_value" : 1400,
+						"reward": {
+							"resources": {
+								"gold" : 8000,
+								"mercury" : 8
+							},
+							"value" : 5000
+						
+					}
+                  }
+				]
+			}
+
+
+
+
+		}
+	}
+
+
+
+}

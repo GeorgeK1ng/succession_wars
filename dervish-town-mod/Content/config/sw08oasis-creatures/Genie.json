@@ -1,0 +1,95 @@
+{
+	"sw08oasisGenie":
+	{
+"name" :{"plural" : "Genies","singular" : "Genie"},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 5
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "sw08oasisfaction",
+		"aiValue" : 2700,
+		"attack" :12,
+
+		"cost" :
+		{
+			"gold" : 1200,
+			"gems" : 1
+		},
+		"damage" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"defense" : 9,
+		"fightValue" : 2200,
+		"graphics" :
+		{
+			"animation" : "sw08oasis-creatures/battle/c130geni",
+			"map" : "sw08oasis-creatures/map/AVWfbird",
+			"iconSmall" : "sw08oasis-creatures/cprsmall.def:132",
+			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:132",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 12
+			}
+			
+		},
+
+		"growth" : 2,
+		"hitPoints" : 90,
+		"horde" : 0,
+              	"level" : 7,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"genie/PHOEATTK",
+"defend" :"genie/PHOEDFND",
+"killed" :"genie/PHOEKILL",
+"move" :"genie/PHOEMOVE",
+"wince" :"genie/PHOEWNCE",
+"shoot" :"genie/PHOEATTK"
+
+},
+		"speed" :12,
+		"abilities" :
+		{
+"ability1":{"type" : "MAGIC_RESISTANCE",
+"val" : 40},
+"ability2":{"type" : "FLYING"},
+"ability3":{"type" : "DESTRUCTION",
+"addInfo" : 20,
+"val" : 50,
+"subtype" : "destructionKillPercentage"
+},
+"king":{"type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE"}
+					
+		}
+	}
+}

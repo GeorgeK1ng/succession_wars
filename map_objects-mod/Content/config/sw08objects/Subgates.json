@@ -1,0 +1,76 @@
+{
+	"core:subterraneanGate": {
+	
+		//"handler" : "subterraneanGate",
+		"types": {
+
+
+
+			"object": {
+			//	"index" : 0,
+				"name" : "Subterranean Gate",
+				"templates": {
+
+
+					"sw08_AVTcave": {
+						"animation" : "sw08objects_mines/SWSUB01", //"sw08objects/subgates/AVTcave",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "VVVV", "VBAB"],
+						"allowedTerrains":[							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" ]
+
+					},
+
+					"sw08_AVSskul0": {
+						"animation" : "sw08objects_mines/SWSUB02", //"sw08objects/subgates/AVSskul0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VVV", "VBAB"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+
+					},
+					"sw08_zcrbvm18": {
+						"animation" : "sw08objects_mines/SWSUB03", //"sw08objects/subgates/zcrbvm18",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VAB"],
+						"allowedTerrains":[
+						//"grass","dirt","lava","swamp"
+													"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert" 
+						]
+
+					}
+
+
+
+				}
+			}
+
+		}
+	}
+
+}

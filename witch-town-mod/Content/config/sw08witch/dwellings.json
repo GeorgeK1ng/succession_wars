@@ -1,0 +1,117 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"sw08witchLevel1" : {
+				"name" : "Straw Hut",
+				"creatures" : [[ "sw08witchTribal" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08witchTribal" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08witch/adventure-map/AVGGNLL0",
+						"mask" : ["VVV", "VAB" ]
+					}
+				}
+			},
+			
+		
+			
+			
+			"sw08witchLevel3" : {
+				"name" : "Lizard Den",
+				"creatures" : [[ "sw08witchLizardman" ]],
+//				"guards" : [
+//					{ "amount" : 30, "type" : "sw08witchLizardman" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08witch/adventure-map/AVGLZRD0",
+						"mask" : ["VVV","VBA"]
+					}
+				}
+			},
+			
+			
+
+			"sw08witchLevel2" : {
+				"name" : "Hive",
+				"creatures" : [[ "sw08witchWasp" ]],
+//				"guards" : [
+//					{ "amount" : 22, "type" : "sw08witchWasp" }
+//				],
+				"templates" : {
+					"default" : {	
+						"animation" : "sw08witch/adventure-map/AVGdfly0",
+						"mask" : [ "VVV","VBA" ]
+					}
+				}
+			},
+			"sw08witchLevel4" : {
+				"name" : "Lily Pond",
+				"creatures" : [[ "sw08witchToad" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08witchToad" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08witch/adventure-map/AVGbasl0",
+						"mask" : ["BBB","BBA" ]
+					}
+				}
+			},
+
+			
+			"sw08witchLevel5" : {
+				"name" : "Cocoon",
+				"creatures" : [[ "sw08witchMantis" ]],
+				"guards" : [
+					{ "amount" : 12, "type" : "sw08witchMantis" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08witch/adventure-map/AVGgorg0",
+						"mask" : ["VVV", "VBA"]
+					}
+				}
+			},
+			"sw08witchLevel6" : {
+				"name" : "Thicket",
+				"creatures" : [[ "sw08witchTreeant" ]],
+				"guards" : [
+					{ "amount" : 6, "type" : "sw08witchTreeant" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08witch/adventure-map/AVGwyvn0",
+						"mask" : ["VVV","VBA" ]
+					}					
+					
+				}
+			},
+			
+		
+			
+
+			"sw08witchLevel7" : {
+				"name" : "Aerie",
+				"creatures" : [[ "sw08witchWywern" ]],
+				"guards" : [
+					{ "amount" : 3, "type" : "sw08witchWywern" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08witch/adventure-map/AVGhydr0",
+						"mask" : [ "VVV","VBA" ]
+					},
+										"default2" : {
+						"animation" : "sw08witch/adventure-map/AVGhyds0",
+						"mask" : [ "VVV","VBA" ]
+					}
+				}
+			}	
+	}
+
+
+}
+}

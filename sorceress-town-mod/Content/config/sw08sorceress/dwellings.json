@@ -1,0 +1,207 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+
+
+			"sw08sorceressLevel1" : {
+				"name" : "Treehouse",
+				"creatures" : [[ "sw08sorceressPixie" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08sorceressPixie" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/avgcent1",
+						"mask" : ["VV", "VA" ]
+					}
+				}
+			},			
+	
+			"sw08sorceressLevel1New" : {
+				"name" : "Treehouse",
+				"creatures" : [[ "sw08sorceressPixie" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08sorceressPixie" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/082/avgcent1",
+						"mask" : ["VV", "VA" ]
+					}
+				}
+			},	
+	
+			"sw08sorceressLevel1A" : {
+				"name" : "Tree Village",
+				"creatures" : [[ "sw08sorceressPixie" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08sorceressPixie" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/avgcent0",
+						"mask" : ["VVVV", "VVBA" ]
+					}
+				}
+			},	
+
+			
+			"sw08sorceressLevel2" : {
+				"name" : "Cottage",
+				"creatures" : [[ "sw08sorceressDwarf" ]],
+//				"guards" : [
+//					{ "amount" : 30, "type" : "sw08sorceressDwarf" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/AVGbuld3",
+						"mask" : [ "VA" ]
+					},
+										"default2" : {
+						"animation" : "sw08sorceress/adventure-map/AVGdwrb1",
+						"mask" : [ "VVV","VVA" ]
+					},
+										"default3" : {
+						"animation" : "sw08sorceress/adventure-map/AVGdwrb2",
+						"mask" : [ "VA" ]
+					}
+				}
+			},
+			
+						"sw08sorceressLevel2Upg" : {
+				"name" : "Upg. Cottage",
+				"creatures" : [[ "sw08sorceressBattleDwarf" ]],
+//				"guards" : [
+//					{ "amount" : 30, "type" : "sw08sorceressBattleDwarf" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/AVGdwrf0",
+						"mask" : [ "VVV", "VBA" ]
+					}
+				}
+			},
+			
+			
+			"sw08sorceressLevel3" : {
+				"name" : "Elven House",
+				"creatures" : [[ "sw08sorceressElf" ]],
+//				"guards" : [
+//					{ "amount" : 22, "type" : "sw08sorceressElf" }
+//				],
+				"templates" : {
+					"default" : {	
+						"animation" : "sw08sorceress/adventure-map/AVGelfb",
+						"mask" : ["VVV","VBA" ]
+					}					
+				}
+			},
+			
+			"sw08sorceressLevel3Upg" : {
+				"name" : "Upg. Elven House",
+				"creatures" : [[ "sw08sorceressGrandElf" ]],
+//				"guards" : [
+//					{ "amount" : 22, "type" : "sw08sorceressGrandElf" }
+//				],
+				"templates" : {
+					"default" : {	
+						"animation" : "sw08sorceress/adventure-map/AVGelf0",
+						"mask" : ["VVV","VBA" ]
+					}					
+				}
+			},			
+			
+			
+			"sw08sorceressLevel4" : {
+				"name" : "Wooden House",
+				"creatures" : [[ "sw08sorceressSatyr" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08sorceressSatyr" }
+				],
+				"templates" : {
+									"default" : {
+						"animation" : "sw08sorceress/adventure-map/AVGpega0",
+						"mask" : ["VVV", "VAB" ]
+					}					
+				}
+			},
+			
+			
+						"sw08sorceressLevel4A" : {
+				"name" : "Satyr House",
+				"creatures" : [[ "sw08sorceressSatyr" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08sorceressSatyr" }
+				],
+				"templates" : {
+									"default" : {
+						"animation" : "sw08sorceress/adventure-map/AVGpega1",
+						"mask" : ["VVV", "VAB" ]
+					}					
+				}
+			},
+			
+
+		
+			
+			
+			"sw08sorceressLevel5" : {
+				"name" : "Upg. Stonehenge",
+				"creatures" : [[ "sw08sorceressGreaterDruid" ]],
+				"guards" : [
+					{ "amount" : 12, "type" : "sw08sorceressGreaterDruid" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/AVGtree0",
+						"mask" : [ "VVV","VBA" ]
+					},		
+					"default2" : {
+						"animation" : "sw08sorceress/adventure-map/AVGtree1",
+						"mask" : [ "VA" ]
+					}						
+				}
+			},
+
+			
+			"sw08sorceressLevel6" : {
+				"name" : "Fenced Meadow",
+				"creatures" : [[ "sw08sorceressUnicorn" ]],
+				"guards" : [
+					{ "amount" : 6, "type" : "sw08sorceressUnicorn" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/AVGUNIC0",
+						"mask" : [ "VVV","VAB"]
+					},
+										"default2" : {
+						"animation" : "sw08sorceress/adventure-map/AVG3UNI",
+						"mask" : [ "VAB"]
+					}
+				}
+			},
+			"sw08sorceressLevel7D" : {
+				"name" : "Red Tower",
+				"creatures" : [[ "sw08sorceressPhoenix" ]],
+				"guards" : [
+					{ "amount" : 3, "type" : "sw08sorceressPhoenix" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08sorceress/adventure-map/AVGgdrb0",
+						"mask" : ["VVV","VVV", "VVA" ]
+					},
+					
+										"PALM100" : {
+						"animation" : "sw08sorceress/adventure-map/AVGgdrg0",
+						"mask" : ["VVVV","VVVV", "VVAB" ]
+					}
+				}
+			}
+			
+	}
+
+
+}
+}

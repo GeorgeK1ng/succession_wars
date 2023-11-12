@@ -1,0 +1,251 @@
+{
+	"core:monolithOneWayEntrance": {
+
+		"types": {
+			"sw08objectsmonolithEnterA": {
+				//"index" : 502,
+				"name" : "Monolith One Way Entrance",
+
+				"templates": {
+
+					"AVXMN1B0": {
+						"animation" : "sw08objects/monolithOneWayEntrance/AVXMN1B0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw08objectsmonolithEnterB": {
+				//"index" : 503,
+				"name" : "Monolith One Way Entrance",
+
+				"templates": {
+
+					"AVXMN1R0": {
+						"animation" : "sw08objects/monolithOneWayEntrance/AVXMN1R0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw08objectsmonolithEnterC": {
+				//"index" : 504,
+				"name" : "Monolith One Way Entrance",
+
+				"templates": {
+
+					"AVXMN1Y0": {
+						"animation" : "sw08objects/monolithOneWayEntrance/AVXMN1Y0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+
+			"sw08objectsmonolithEnterD": {
+				//"index" : 505,
+				"name" : "Monolith One Way Entrance",
+
+				"templates": {
+
+					"AVXmn4i0": {
+						"animation" : "sw08objects/monolithOneWayEntrance/AVXmn4i0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+
+
+
+		}
+	},
+	"core:monolithOneWayExit": {
+
+		"types": {
+
+
+			"sw08objectsmonolithExitA": {
+			//"index" : 502,
+				"name" : "Monolith One Way Exit",
+
+				"templates": {
+
+					"AVXmn4o0": {
+						"animation" : "sw08objects/monolithOneWayExit/AVXmn4o0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw08objectsmonolithExitB": {
+			//"index" : 503,
+				"name" : "Monolith One Way Exit",
+
+				"templates": {
+
+					"AVXmx1b0": {
+						"animation" : "sw08objects/monolithOneWayExit/AVXmx1b0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+
+			"sw08objectsmonolithExitC": {
+			//"index" : 504,
+				"name" : "Monolith One Way Exit",
+
+				"templates": {
+
+					"AVXmx1r0": {
+						"animation" : "sw08objects/monolithOneWayExit/AVXmx1r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw08objectsmonolithExitD": {
+			//"index" : 505,
+				"name" : "Monolith One Way Exit",
+
+				"templates": {
+
+					"AVXmx1y0": {
+						"animation" : "sw08objects/monolithOneWayExit/AVXmx1y0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		}
+	}
+}

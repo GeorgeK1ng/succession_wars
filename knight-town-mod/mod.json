@@ -1,0 +1,55 @@
+{
+"name" : "SW - Knight town",
+"description" : "Knight town",
+"version" : "0.0.1",
+"author" : "Noname",
+"contact" : "none",
+"modType" : "Town",
+	"depends" :
+	[
+	 "vcmi" ,"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	],
+"factions" :
+[
+"config/sw08knight/buildings.json",
+"config/sw08knight/faction.json",
+"config/sw08knight/siege.json",
+"config/sw08knight/spells.json",
+"config/sw08knight/structures.json",
+"config/sw08knight/puzzle.json",
+"config/sw08knight/texts.json"
+	],
+	"heroClasses" :
+	[
+		"config/sw08knight-heroes/Knight.json"
+	],
+	"heroes" :
+	[
+		"config/sw08knight-heroes/Knight_heroes.json"
+	],
+	"creatures" :
+	[
+"config/sw08knight-creatures/Archer.json",
+
+"config/sw08knight-creatures/Cavalry.json",
+"config/sw08knight-creatures/Champion.json",
+
+"config/sw08knight-creatures/Crossbowman.json",
+"config/sw08knight-creatures/Crusader.json",
+"config/sw08knight-creatures/Heavy Crossbowman.json",
+"config/sw08knight-creatures/Master Swordsman.json",
+"config/sw08knight-creatures/Paladin.json",
+"config/sw08knight-creatures/Peasant.json",
+"config/sw08knight-creatures/Pikeman.json",
+"config/sw08knight-creatures/Ranger.json",
+"config/sw08knight-creatures/Swordsman.json",
+"config/sw08knight-creatures/Veteran Pikeman.json",
+
+	],
+	"objects":
+	[
+	"config/sw08knight/dwellings.json",
+	"config/sw08knight/banks.json"	
+	
+	]
+}

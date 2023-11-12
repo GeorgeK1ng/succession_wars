@@ -1,0 +1,137 @@
+{
+	"core:lucidPools" : {
+		"types" : {
+
+
+
+
+			"sw08patch4" : {
+				"name" : "Reefs",
+
+				"templates" : {
+
+				"AVLref10" : {
+						"animation" : "sw08patches/patch4/AVLref10",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV" ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref10b" : {
+						"animation" : "sw08patches/patch4/AVLref10b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VVV", "VVV","VVV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref1b" : {
+						"animation" : "sw08patches/patch4/AVLref1b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VVV", "VVV","VVV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref20" : {
+						"animation" : "sw08patches/patch4/AVLref20",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VVV", "VVV","VVV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref20b" : {
+						"animation" : "sw08patches/patch4/AVLref20b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VVV", "VVV","VVV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref2b" : {
+						"animation" : "sw08patches/patch4/AVLref2b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VVV", "VVV","VVV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref30" : {
+						"animation" : "sw08patches/patch4/AVLref30",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV", "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref30b" : {
+						"animation" : "sw08patches/patch4/AVLref30b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV", "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref3b" : {
+						"animation" : "sw08patches/patch4/AVLref3b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV", "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref40" : {
+						"animation" : "sw08patches/patch4/AVLref40",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV", "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref40b" : {
+						"animation" : "sw08patches/patch4/AVLref40b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV", "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref4b" : {
+						"animation" : "sw08patches/patch4/AVLref4b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV", "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref50" : {
+						"animation" : "sw08patches/patch4/AVLref50",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref50b" : {
+						"animation" : "sw08patches/patch4/AVLref50b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref5b" : {
+						"animation" : "sw08patches/patch4/AVLref5b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "VV"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref60" : {
+						"animation" : "sw08patches/patch4/AVLref60",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "V","V"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref60b" : {
+						"animation" : "sw08patches/patch4/AVLref60b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "V","V"  ],
+						"allowedTerrains":["water"]
+					},
+				"AVLref6b" : {
+						"animation" : "sw08patches/patch4/AVLref6b",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [  "V" ,"V" ],
+						"allowedTerrains":["water"]
+					}
+
+
+					}
+
+				}
+
+
+
+
+
+}
+
+
+
+
+}
+}

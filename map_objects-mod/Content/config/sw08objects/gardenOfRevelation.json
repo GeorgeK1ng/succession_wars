@@ -1,0 +1,59 @@
+{
+	"core:gardenOfRevelation": {
+
+		"types": {
+			"sw08objectsgardenOfRevelation01": {
+				"name" : "Gazebo of Throught",
+				"aiValue" : 1500,
+				"rmg": {
+					"zoneLimit" : 4,
+					"value" : 1500,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"AVSgzb1": {
+						"animation" : "sw08objects/gardenOfRevelation/AVSgzb1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass", "dirt", "rough", "sand", "swamp",
+							"hmm2desert"
+						]
+					},
+					
+					"avsgzbo0": {
+						"animation" : "sw08objects/gardenOfRevelation/avsgzbo0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VA"],
+
+						"allowedTerrains": [
+							"grass" 
+						]
+					},					
+					
+					"Z358O1": {
+						"animation" : "sw08objects/gardenOfRevelation/Z358O1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+
+
+				}
+			}
+
+
+
+
+
+		}
+	}
+
+
+
+}

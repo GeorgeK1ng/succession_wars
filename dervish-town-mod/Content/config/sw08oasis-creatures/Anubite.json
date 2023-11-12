@@ -1,0 +1,53 @@
+{	"sw08oasisAnubite":	{"name" :{"plural" : "Anubites","singular" : "Anubite"},
+		"advMapAmount" :		{			"max" : 10,
+			"min" : 7		},
+			
+	"hasDoubleWeek": true, 
+	"doubleWide" : false,
+		"faction" : "sw08oasisfaction",
+		"aiValue" : 1169,
+		"attack" :10,
+		"cost" :		{			"gold" : 850		},
+		"damage" :		{			"max" : 16,
+			"min" : 12		},
+		"defense" : 10,
+		"fightValue" : 1231,
+		"graphics" :		
+		{			"animation" : "sw08oasis-creatures/battle/c128anub",
+			"map" : "sw08oasis-creatures/map/AVWnrg",
+			"iconSmall" : "sw08oasis-creatures/cprsmall.def:116",
+			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:116",
+						"timeBetweenFidgets" : 1,
+			"animationTime" :			{
+"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+							},
+			"missile" :			{				
+			"projectile" : "sw08oasis-creatures/battle/PLCBOWX",                               				"offset" :				{					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 12			}
+					},
+		"growth" : 2,
+		"hitPoints" : 70,
+		"horde" : 0,              	"level" : 6,
+		"shots" : 0,
+		"sound" :		
+		{
+		"attack" :"Anubite/ANUBattk.wav",
+		"defend" :"Anubite/ANUBdfnd.wav",
+		"killed" :"Anubite/ANUBkill.wav",
+		"move" :"Anubite/ANUBmove.wav",
+		"wince" :"Anubite/ANUBwnce.wav",
+		//"shoot" :"Anubite/"
+},
+		"speed" :6,
+		"abilities" :		{
+		"ability3":{"type" : "MIND_IMMUNITY"},
+		"abilit4":{"type" : "NON_LIVING"}						
+		}	} }

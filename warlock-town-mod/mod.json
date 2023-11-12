@@ -1,0 +1,50 @@
+{
+"name" : "SW - Warlock Town",
+"description" : "Warlock Town",
+"version" : "0.0.1",
+"author" : "Untitled",
+"contact" : "none",
+"modType" : "Town",
+	"depends" :
+	[
+	"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	],
+"factions" :
+[
+"config/sw08warlock/buildings.json",
+"config/sw08warlock/faction.json",
+"config/sw08warlock/siege.json",
+"config/sw08warlock/spells.json",
+"config/sw08warlock/structures.json",
+"config/sw08warlock/puzzle.json",
+"config/sw08warlock/texts.json"
+	],
+	"creatures" :
+	[
+"config/sw08warlock-creatures/Black Dragon.json",
+"config/sw08warlock-creatures/Centaur.json",
+"config/sw08warlock-creatures/Gargoyle.json",
+"config/sw08warlock-creatures/Green Dragon.json",
+"config/sw08warlock-creatures/Griffin.json",
+"config/sw08warlock-creatures/Hydra.json",
+"config/sw08warlock-creatures/Minotaur King.json",
+"config/sw08warlock-creatures/Minotaur.json",
+"config/sw08warlock-creatures/Red Dragon.json",
+"config/sw08warlock-creatures/Beholder.json",
+
+	],
+"heroClasses" :
+	[
+		"config/sw08warlock-heroes/warlock.json"
+	],
+	"heroes" :
+	[
+		"config/sw08warlock-heroes/warlock_heroes.json"
+		
+    ],
+	"objects":
+	[
+	"config/sw08warlock/dwellings.json",
+		"config/sw08warlock/banks.json"
+	]
+}

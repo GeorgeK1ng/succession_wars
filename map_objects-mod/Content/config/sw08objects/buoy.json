@@ -1,0 +1,32 @@
+{
+	"core:buoy": {
+
+		"types": {
+			"sw08objectsbuoy01": {
+				"name" : "Buoy",
+				"aiValue" : 100,
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 60
+				},
+				"templates": {
+
+					"AVSbuoy0": {
+						"animation" : "sw08objects/buoy/AVSbuoy0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VA"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+			}
+
+		}
+	}
+
+
+
+}

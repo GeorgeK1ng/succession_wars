@@ -1,0 +1,87 @@
+{
+	"sw08barbarianWolf":
+	{
+"name" :{"plural" : "Wolves","singular" : "Wolf"},
+		"advMapAmount" :
+		{
+			"max" : 35,
+			"min" : 20
+		},
+
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "swsw08barbarianfaction",
+		"aiValue" : 210,
+		"attack" : 6,
+
+		"cost" :
+		{
+			"gold" : 235
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 2,
+		"fightValue" : 217,
+		"graphics" :
+		{
+			"animation" : "sw08barbarian-creatures/battle/c088wolf",
+			"map" : "sw08barbarian-creatures/map/AVWorc0",
+			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:90",
+			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:90",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08barbarian-creatures/battle/PorchX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 12
+			}
+			
+		},
+
+		"growth" : 6,
+		"hitPoints" : 20,
+		"horde" : 0,
+              	"level" : 3,
+		"shots" :0,
+		"sound" :
+		{
+"attack" :"sw08barbarian/wolf/OORCATTK.wav",
+"defend" :"sw08barbarian/wolf/OORCDFND.wav",
+"killed" :"sw08barbarian/wolf/OORCKILL.wav",
+"move" :"sw08barbarian/wolf/OORCMOVE.wav",
+"wince" :"sw08barbarian/wolf/OORCWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 8,
+		"abilities" :
+		{
+"ability1":{"type" : "ADDITIONAL_ATTACK","val" : 1}
+					
+		}
+	}
+}

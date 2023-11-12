@@ -1,0 +1,38 @@
+{
+	"core:oceanBottle": {
+
+		"types": {
+			"sw08objectsoceanBottleCustom": {
+				"name" : "Ocean Bottle",
+				"aiValue" : 0,
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 200,
+					"rarity" : 70
+				},
+				"templates": {
+
+					"AVXbttl0": {
+						"animation" : "sw08objects/oceanBottle/AVXbttl0",
+						"visitableFrom": ["+++", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"water"
+						]
+					}
+
+
+				}
+			}
+
+
+
+
+
+		}
+	}
+
+
+
+}

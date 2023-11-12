@@ -1,0 +1,84 @@
+{
+	"sw08neutralballista": {
+		"name" : {
+			"plural" : "Ballistas",
+			"singular" : "Ballista"
+		},
+		"faction" : "sw08neutral",
+		"level" : 0,
+		"cost" : {
+			"gold" : 1000
+		},
+		"speed" : 0,
+		"hitPoints" : 250,
+		"attack" : 10,
+		"defense" : 10,
+		"damage" : {
+			"max" : 0,
+			"min" : 0
+		},
+		"shots" : 24,
+		"doubleWide" : true,
+		"growth" : 0,
+		"horde" : 0,
+		"aiValue" : 600,
+		"fightValue" : 650,
+		"advMapAmount" : {
+			"max" : 0,
+			"min" : 0
+		},
+		"abilities" : {
+			"SHOOTING_ARMY" : {
+				"type" : "SHOOTER"
+			},
+			"SIEGE_WEAPON" : {
+				"type" : "SIEGE_WEAPON"
+			}
+		},
+		
+		"graphics" : {
+			"animation" : "sw08neutral-creatures/battle/c146ball.def",
+			"map" : "sw08neutral-creatures/arts/AVA0004.def",			
+			"iconSmall" : "sw08neutral-creatures/CPRSMALL.def:148",
+			"iconLarge" : "sw08neutral-creatures/TwCrPort.def:148",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"walk" : 1,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "sw08neutral-creatures/battle/SMBALX.DEF",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 53,
+					"lowerY" : -36,
+					"middleX" : 101,
+					"middleY" : -75,
+					"upperX" : 57,
+					"upperY" : -104
+				}
+			}
+		},
+		"sound" : {
+			"killed" : "sw08neutral/ballista/BALLKILL.wav",
+			"shoot" : "sw08neutral/ballista/BALLSHOT.wav",
+			"wince" : "sw08neutral/ballista/BALLWNCE.wav"
+		},
+		"special" : true
+	}
+}

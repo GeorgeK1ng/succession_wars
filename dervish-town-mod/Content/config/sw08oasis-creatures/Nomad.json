@@ -1,0 +1,86 @@
+{
+	"sw08oasisNomad":
+	{
+"name" :{"plural" : "Nomads","singular" : "Nomad"},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "sw08oasisfaction",
+		"aiValue" : 330,
+		"attack" :7,
+
+		"cost" :
+		{
+			"gold" : 250
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 315,
+		"graphics" :
+		{
+			"animation" : "sw08oasis-creatures/battle/c122noma",
+			"map" : "sw08oasis-creatures/map/AVWicee",
+			"iconSmall" : "sw08oasis-creatures/cprsmall.def:124",
+			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:124",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 12
+			}
+			
+		},
+
+		"growth" : 6,
+		"hitPoints" : 25,
+		"horde" : 0,
+              	"level" : 3,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"nomad/WELMATTK.wav",
+"defend" :"nomad/WELMDFND.wav",
+"killed" :"nomad/WELMKILL.wav",
+"move" :"nomad/WELMMOVE.wav",
+"wince" :"nomad/WELMWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" :8,
+		"abilities" :
+		{
+//"ability1":{"type" : "MOVEMENT", "subtype" : "heroMovementLand", "valueType" : "ADDITIVE_VALUE","val" : 300}
+					
+		}
+	}
+}

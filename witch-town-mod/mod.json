@@ -1,0 +1,51 @@
+{
+	"name" : "SW - Witch Town",
+	"description" : "Witch Town",
+"version" : "0.0.1",
+"author" : "author",
+"contact" : "none",
+"modType" : "Town",
+	"depends" :
+	[
+"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	],
+	"factions" :
+	[
+		"config/sw08witch/buildings.json",
+		"config/sw08witch/faction.json",
+		"config/sw08witch/siege.json",
+		"config/sw08witch/spells.json",
+		"config/sw08witch/structures.json",
+		"config/sw08witch/puzzle.json",
+		"config/sw08witch/texts.json"
+	],
+"heroClasses" :
+	[
+"config/sw08witch-heroes/Witch.json"	
+	],
+	"heroes" :
+	[
+"config/sw08witch-heroes/witch_heroes.json"
+	],
+"creatures" :
+	[
+"config/sw08witch-creatures/Lizard Warrior.json",
+"config/sw08witch-creatures/Lizardman.json",
+"config/sw08witch-creatures/Mantis.json",
+"config/sw08witch-creatures/Toad.json",
+"config/sw08witch-creatures/Treant.json",
+"config/sw08witch-creatures/Tribal.json",
+"config/sw08witch-creatures/Wasp.json",
+"config/sw08witch-creatures/Wyvern.json"
+
+
+
+
+
+	],
+	"objects":
+	[
+	"config/sw08witch/dwellings.json",
+	"config/sw08witch/banks.json"	
+	]
+}

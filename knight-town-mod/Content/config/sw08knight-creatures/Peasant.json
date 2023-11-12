@@ -1,0 +1,86 @@
+{
+	"sw08knightPeasant":
+	{
+"name" :{"plural" : "Peasants","singular" : "Peasant"},
+		"advMapAmount" :
+		{
+			"max" : 99,
+			"min" : 60
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "sw08knight",
+		"aiValue" : 16,
+		"attack" : 1,
+
+		"cost" :
+		{
+			"gold" : 22
+		},
+		"damage" :
+		{
+			"max" : 1,
+			"min" : 1
+		},
+		"defense" : 1,
+		"fightValue" : 20,
+		"graphics" :
+		{
+			"animation" : "sw08knight-creatures/battle/c000psnt",
+			"map" : "sw08knight-creatures/map/avwpike",
+			"iconSmall" : "sw08knight-creatures/cprsmall.def:2",
+			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:2",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 10
+			}
+			
+		},
+
+		"growth" : 20,
+		"hitPoints" : 2,
+		"horde" : 0,
+              	"level" : 1,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08knight/peasant/pikeATTK.wav",
+"defend" :"sw08knight/peasant/pikeDFND.wav",
+"killed" :"sw08knight/peasant/pikeKILL.wav",
+"move" :"sw08knight/peasant/pikeMOVE.wav",
+"wince" :"sw08knight/peasant/pikeWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" :4,
+		"abilities" :
+		{
+	
+					
+		}
+	}
+}

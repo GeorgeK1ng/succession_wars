@@ -1,0 +1,41 @@
+{	"sw08neutralWaterElemental":	{"name" :{"plural" : "Water Elementals","singular" : "Water Elemental"},
+		"advMapAmount": {
+			"max" : 25,
+			"min" : 13
+		},
+	"hasDoubleWeek": true,             "doubleWide" : false,
+		"faction" : "sw08neutral",
+		"aiValue" : 315,
+		"attack" : 6,
+		"cost" :		{			"gold" : 500		},
+		"damage" :		{			"max" : 7,
+			"min" : 3		},
+		"defense" : 8,
+		"fightValue" : 315,
+		"graphics" :		{			"animation" : "sw08neutral-creatures/battle/c115ewat",
+			"map" : "sw08neutral-creatures/map/AVWelmw0",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:117",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:117",
+						"timeBetweenFidgets" : 1,
+			"animationTime" :			{
+"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+							}
+					},
+		"growth" : 8,
+		"hitPoints" : 45,
+		"horde" : 0,              	"level" : 3,
+		"shots" : 0,
+		"sound" :		{
+"attack" :"sw08neutral/water elemental/WglmATTK.wav",
+"defend" :"sw08neutral/water elemental/WglmDFND.wav",
+"killed" :"sw08neutral/water elemental/WglmKILL.wav",
+"move" :"sw08neutral/water elemental/WglmMOVE.wav",
+"wince" :"sw08neutral/water elemental/WglmWNCE.wav",//"shoot" :""
+},
+		"speed" : 5,
+		"abilities" :		{"ability1":{"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"},
+		"ability2":{"type" : "NON_LIVING"}	
+		}	} }

@@ -1,0 +1,87 @@
+{
+	"sw08wizardBoar":
+	{
+"name" :{"plural" : "Boars","singular" : "Boar"},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 15
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "swsw08wizardfaction",
+		"aiValue" : 141,
+		"attack" :5,
+
+		"cost" :
+		{
+			"gold" : 150
+		},
+		"damage" :
+		{
+			"max" :3,
+			"min" : 2
+		},
+		"defense" : 4,
+		"fightValue" : 148,
+		"graphics" :
+		{
+			"animation" : "sw08wizard-creatures/battle/c030boar",
+			"map" : "sw08wizard-creatures/map/AVWgarg0",
+			"iconSmall" : "sw08wizard-creatures/cprsmall.def:32",
+			"iconLarge" : "sw08wizard-creatures/TWCRPORT.def:32",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08wizard-creatures/battle/Phalf",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 13
+			}
+			
+		},
+
+		"growth" :7,
+		"hitPoints" : 15,
+		"horde" :4,
+              	"level" : 2,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08wizard/boar/SGRGATTK.wav",
+"defend" :"sw08wizard/boar/SGRGDFND.wav",
+"killed" :"sw08wizard/boar/SGRGKILL.wav",
+"move" :"sw08wizard/boar/SGRGMOVE.wav",
+"wince" :"sw08wizard/boar/SGRGWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" :8,
+		"abilities" :
+		{
+
+
+					
+		}
+	}
+}

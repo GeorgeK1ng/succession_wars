@@ -1,0 +1,16 @@
+{
+    "name" : "SW - Sounds",
+    "description" : "Sounds",
+    "version" : "0.0.1",
+    "author" : "Noname",
+    "contact" : "none",
+    "modType" : "Sounds",
+    "depends": [
+   
+    ],
+
+	"objects":
+	[
+	        
+	]
+}

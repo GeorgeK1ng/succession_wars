@@ -1,0 +1,42 @@
+{
+	"core:shrineOfMagicLevel3": {
+
+		"types": {
+			"sw08objectsshrineOfMagicLevel3_01": {
+				"name" : "Shrine of Magic Level 3",
+				"aiValue" : 3000,
+				"rmg": {
+
+					"value" : 500,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"avxl3sh0": {
+						"animation" : "sw08objects/shrineOfMagicLevel3/avxl3sh0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": [ "VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+
+
+				}
+			}
+
+		}
+	}
+
+
+
+}

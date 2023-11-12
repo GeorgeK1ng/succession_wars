@@ -1,0 +1,560 @@
+{
+	"core:creatureBank": {
+		"types": {
+
+
+
+			"sw08DemonCave": {
+				"handler" : "bank",
+				"name" : "Demon Cave",
+				"aiValue" : 4000,
+				"templates": {
+					"AVscave0": {
+						"animation" : "sw08neutral/adventure-map/banks/cave/AVscave0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "BAB"],
+						"allowedTerrains": ["dirt"]
+					},
+					
+										"AVXbnk76": {
+						"animation" : "sw08neutral/adventure-map/banks/cave/AVXbnk76",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBA"],
+						"allowedTerrains": ["sand"]
+					},
+					
+										"AVXbnk78": {
+						"animation" : "sw08neutral/adventure-map/banks/cave/AVXbnk78",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBA"],
+						"allowedTerrains": ["lava"]
+					},
+					
+										"AVXbnk80": {
+						"animation" : "sw08neutral/adventure-map/banks/cave/AVXbnk80",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VBA"],
+						"allowedTerrains": ["sand"]
+					}
+					
+					
+				},
+				"rmg": {
+					"value" : 800,
+					"rarity" : 80
+				},
+				"levels": [
+				{
+						"chance" : 5,
+						"guards": [ {
+							"amount" : 2,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralAirElemental"
+						} ],
+						"combat_value" : 400,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 3,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralAirElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 5,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralAirElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralAirElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 3500
+							},
+							"value" : 1500
+						}
+						
+					},
+
+
+				{
+						"chance" : 5,
+						"guards": [ {
+							"amount" : 2,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralEarthElemental"
+						} ],
+						"combat_value" : 400,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 3,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralEarthElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 5,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralEarthElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralEarthElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 3500
+							},
+							"value" : 1500
+						}
+						
+					},
+
+
+
+				{
+						"chance" : 5,
+						"guards": [ {
+							"amount" : 2,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralFireElemental"
+						} ],
+						"combat_value" : 400,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 3,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralFireElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 5,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralFireElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralFireElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 3500
+							},
+							"value" : 1500
+						}
+						
+					},
+
+
+
+
+
+				{
+						"chance" : 5,
+						"guards": [ {
+							"amount" : 2,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralWaterElemental"
+						} ],
+						"combat_value" : 400,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 3,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralWaterElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 2500
+							},
+							"value" : 1000
+						}
+						
+					},
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 5,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralWaterElemental"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralWaterElemental"
+						} ],
+						"combat_value" : 500,
+						"reward": {
+							"resources": {
+								"gold" : 3500
+							},
+							"value" : 1500
+						}
+						
+					},
+
+
+
+
+
+
+
+
+
+
+
+
+				]
+			}
+
+
+
+
+
+		}
+	},
+
+
+	"core:shipwreck": {
+		"types": {
+
+			"sw08ShipwreckGhosts": {
+				"handler" : "bank",
+				"name" : "Shipwreck",
+				"templates": {
+					"avawre10": {
+						"animation" : "sw08neutral/adventure-map/banks/Shipwreck/AVAdlic0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV","VBB", "VAB"],
+						"allowedTerrains": ["water"]
+					},
+					"avadlic1": {
+						"animation" : "sw08neutral/adventure-map/banks/Shipwreck/avadlic1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "BBBV","ABBV"],
+						"allowedTerrains": ["water"]
+					},
+					"avadlic2": {
+						"animation" : "sw08neutral/adventure-map/banks/Shipwreck/avadlic2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVV", "BBBV","ABBV"],
+						"allowedTerrains": ["water"]
+					}							
+				},
+				"rmg": {
+					"value" : 800,
+					"rarity" : 100
+				},
+				"levels": [ {
+						"chance" : 30,
+						"guards": [ {
+							"amount" : 2,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 2,
+							"type" : "sw08neutralGhost"
+						} ],
+						"combat_value" : 400,
+						"reward": {
+							"resources": {
+								"gold" : 1000
+							},
+							"value" : 600
+						}
+					},
+				{
+						"chance" : 30,
+						"guards": [ {
+							"amount" : 3,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 3,
+							"type" : "sw08neutralGhost"
+						} ],
+						"combat_value" : 550,
+						"reward": {
+							"resources": {
+								"gold" : 2000
+							},
+							"value" : 800
+						}
+					},	
+				{
+						"chance" : 10,
+						"guards": [ {
+							"amount" : 5,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 5,
+							"type" : "sw08neutralGhost"
+						} ],
+						"combat_value" : 650,
+						"reward": {
+							"resources": {
+								"gold" : 5000
+							},
+							"value" : 2000
+						}
+					},						
+					{
+						"chance" : 30,
+						"guards": [ {
+							"amount" : 10,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 10,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 10,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 10,
+							"type" : "sw08neutralGhost"
+						}, {
+							"amount" : 10,
+							"type" : "sw08neutralGhost"
+						} ],
+						"combat_value" : 900,
+						"reward": {
+							"resources": {
+								"gold" : 2000
+							},
+							"value" : 1500,
+						"artifacts": [ {
+							"class" : "MINOR"
+						} ]
+						}
+					},					
+					
+					
+
+				]
+			}
+
+
+
+
+
+
+
+
+
+
+		}
+	}
+	
+	
+}

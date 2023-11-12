@@ -1,0 +1,83 @@
+{
+	"sw08wizardHalfling":
+	{
+"name" :{"plural" : "Halflings","singular" : "Halfling"},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08wizardfaction",
+		"aiValue" : 40,
+		"attack" :2,
+
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 1,
+		"fightValue" : 49,
+		"graphics" :
+		{
+			"animation" : "sw08wizard-creatures/battle/c028hlfg",
+			"map" : "sw08wizard-creatures/map/AVWgrem0",
+			"iconSmall" : "sw08wizard-creatures/cprsmall.def:30",
+			"iconLarge" : "sw08wizard-creatures/TWCRPORT.def:30",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08wizard-creatures/battle/Phalf",
+                               
+				"offset" :
+				{
+					"upperX" : 0,
+					"upperY" : -39,
+					"middleX" : 41,
+					"middleY" : -27,
+					"lowerX" : 25,
+					"lowerY" : -30
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 11
+			}
+			
+		},
+
+		"growth" : 12,
+		"hitPoints" :3,
+		"horde" : 0,
+              	"level" : 1,
+		"shots" : 12,
+		"sound" :		{			"attack" : "sw08wizard/elder halfling/MGRMATTK.wav",
+			"defend" : "sw08wizard/elder halfling/MGRMDFND.wav",
+			"killed" : "sw08wizard/elder halfling/MGRMKILL.wav",
+			"move" : "sw08wizard/elder halfling/MGRMMOVE.wav",
+			"wince" : "sw08wizard/elder halfling/MGRMWNCE.wav",                     	
+			"shoot" : "sw08wizard/elder halfling/MGRMSHOT.wav"		},
+		"speed" :4,
+		"abilities" :
+		{
+
+"ability3":{"type" : "SHOOTER"}
+					
+		}
+	}
+}

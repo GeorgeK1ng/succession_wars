@@ -1,0 +1,77 @@
+{
+	"sw08barbarianCyclop":
+	{
+"name" :{"plural" : "Cyclops","singular" : "Cyclop"},
+		"advMapAmount" :
+		{
+			"max" : 7,
+			"min" : 5
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08barbarianfaction",
+		"aiValue" : 1689,
+		"attack" : 12,
+
+		"cost" :
+		{
+			"gold" : 950,
+"crystal" : 1
+		},
+		"damage" :
+		{
+			"max" : 28,
+			"min" :14
+		},
+		"defense" : 9,
+		"fightValue" : 1466,
+		"graphics" :
+		{
+			"animation" : "sw08barbarian-creatures/battle/c096cycl",
+			"map" : "sw08barbarian-creatures/map/avwbhmt0",
+			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:98",
+			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:98",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			}
+			
+		},
+
+		"growth" : 2,
+		"hitPoints" : 90,
+		"horde" : 0,
+              	"level" : 7,
+		"shots" :0,
+		"sound" :
+		{
+"attack" :"sw08barbarian/cyclops/YBMHATTK.wav",
+"defend" :"sw08barbarian/cyclops/YBMHDFND.wav",
+"killed" :"sw08barbarian/cyclops/YBMHKILL.wav",
+"move" :"sw08barbarian/cyclops/YBMHMOVE.wav",
+"wince" :"sw08barbarian/cyclops/YBMHWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 7,
+		"abilities" :
+		{
+"ability1":{"type" : "TWO_HEX_ATTACK_BREATH"},
+"ability2":
+{"type" : "SPELL_AFTER_ATTACK",
+"subtype" : "spell.paralyze",
+"val" : 20,
+"addInfo" : 0},
+"king":{"type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE"}
+					
+		}
+	}
+}

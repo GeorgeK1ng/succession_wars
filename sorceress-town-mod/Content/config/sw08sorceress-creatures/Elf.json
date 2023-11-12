@@ -1,0 +1,88 @@
+{
+	"sw08sorceressElf":
+	{
+"name" :{"plural" : "Elves","singular" : "Elf"},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 15
+		},
+"upgrades":
+["sw08sorceressGrandElf"],
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08sorceressfaction",
+		"aiValue" : 136,
+		"attack" : 4,
+
+		"cost" :
+		{
+			"gold" : 215
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 143,
+		"graphics" :
+		{
+			"animation" : "sw08sorceress-creatures/battle/c018elf",
+			"map" : "sw08sorceress-creatures/map/AVWelfw0",
+			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:20",
+			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:20",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08sorceress-creatures/battle/PELFX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 8
+			}
+			
+		},
+
+		"growth" : 6,
+		"hitPoints" : 15,
+		"horde" : 0,
+              	"level" : 3,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack" : "sw08sorceress/wood elf/WELFATTK.wav",
+			"defend" : "sw08sorceress/wood elf/WELFDFND.wav",
+			"killed" : "sw08sorceress/wood elf/WELFKILL.wav",
+			"move" : "sw08sorceress/wood elf/WELFMOVE.wav",
+			"wince" : "sw08sorceress/wood elf/WELFWNCE.wav",
+                     	"shoot" : "sw08sorceress/wood elf/WELFSHOT.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+"ability1":
+{"type" : "SHOOTER"},
+"ability2":
+{"type" : "ADDITIONAL_ATTACK"}				
+		}
+	}
+}

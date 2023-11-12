@@ -1,0 +1,41 @@
+{
+	"core:oasis": {
+
+		"types": {
+			"sw08objectsoasis1new": {
+				"name" : "Oasis",
+				"aiValue" : 100,
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 60
+				},
+				"templates": {
+
+					"AVXosis0": {
+						"animation" : "sw08objects/oasis/AVXosis0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "BAB"],
+
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+										"AVXosis1": {
+						"animation" : "sw08objects/oasis/AVXosis1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "BAB"],
+
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					}
+				}
+			}
+
+		}
+	}
+
+
+
+}

@@ -1,0 +1,89 @@
+{
+	"sw08oasisRogue":
+	{
+"name" :{"plural" : "Rogues","singular" : "Rogue"},
+		"advMapAmount" :
+		{
+			"max" : 45,
+			"min" : 25
+		},
+"upgrades":
+["sw08oasisMarauder"],
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "sw08oasisfaction",
+		"aiValue" : 70,
+		"attack" : 5,
+
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 1,
+		"fightValue" : 50,
+		"graphics" :
+		{
+			"animation" : "sw08oasis-creatures/battle/c118rogu",
+			"map" : "sw08oasis-creatures/map/AVWpixie",
+			"iconSmall" : "sw08oasis-creatures/cprsmall.def:120",
+			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:120",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 10
+			}
+			
+		},
+
+		"growth" : 10,
+		"hitPoints" : 4,
+		"horde" : 5,
+              	"level" : 1,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"rogue/PIXIATTK.wav",
+"defend" :"rogue/PIXIDFND.wav",
+"killed" :"rogue/PIXIKILL.wav",
+"move" :"rogue/PIXIMOVE.wav",
+"wince" :"rogue/PIXIWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 6,
+		"abilities" :
+		{
+"ability1":			{
+				"type" : "BLOCKS_RETALIATION"
+			}		
+					
+		}
+	}
+}

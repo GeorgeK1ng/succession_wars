@@ -1,0 +1,439 @@
+{
+    "swsw08barbarianfaction": {
+        "town": {
+ 			"buildings" :
+			{
+"mageGuild1":
+                {
+                    "id" : 0,
+                    "cost": {
+                        "wood" : 5,
+                        "ore" : 5,
+                        "gold" : 2000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+                },
+"mageGuild2":
+                {
+                    "id" : 1,
+                    "upgrades" : "mageGuild1",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 4,
+                        "ore" : 5,
+                        "sulfur" : 4,
+                        "crystal" : 4,
+                        "gems" : 4,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+                },
+"mageGuild3":                {
+                    "id" : 2,
+                    "upgrades" : "mageGuild2",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 6,
+                        "ore" : 5,
+                        "sulfur" : 6,
+                        "crystal" : 6,
+                        "gems" : 6,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+                },
+"mageGuild4":                {
+                    "id" : 3,
+                    "upgrades" : "mageGuild3",
+							"requires":["allOf" , ["mageGuild4"]],
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 8,
+                        "ore" : 5,
+                        "sulfur" : 8,
+                        "crystal" : 8,
+                        "gems" : 8,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+                },
+"mageGuild5":                {
+                    "id" : 4,
+                    "upgrades" : "mageGuild4",
+							"requires":["allOf" , ["mageGuild5"]],
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 10,
+                        "ore" : 5,
+                        "sulfur" : 10,
+                        "crystal" : 10,
+                        "gems" : 10,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5"
+                },
+"tavern":                {
+                    "id" : 5,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 500
+                    },
+					"name" : "Tavern",
+					"description" : "The Tavern provides hiring of heroes."
+                },
+"shipyard":{ "id" : 6,
+		"requires":["allOf" , ["shipyard"]],
+                    "cost": {
+                        "wood" : 20,
+                  
+                        "gold" : 2000
+                    },
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships."
+},
+
+"ship":{ "id" : 20, "upgrades" : "shipyard",
+		"requires":["allOf" , ["shipyard"]],
+					"name" : "Ship",
+					"description" : "Ship" ,
+                    "cost": {
+                        "wood" : 10,
+                  
+                        "gold" : 1000
+                    } 
+},
+
+
+
+
+
+"fort":                {
+                    "id" : 7,
+                    "cost": {
+                        "wood" : 20,
+                        "ore" : 20,
+                        "gold" : 5000
+                    },
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls."
+                },
+"citadel":                {
+                    "id" : 8,
+                    "upgrades" : "fort",
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 2500
+                    },
+"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+                },
+"castle":                {
+                    "id" : 9,
+                    "upgrades" : "citadel",
+                    "cost": {
+                        "wood" : 10,
+                        "ore" : 10,
+                        "gold" : 5000
+                    },
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+                },
+"villageHall":                {
+                    "id" : 10,
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 500
+                    },
+					"produce": {
+					    "gold" : 500
+					},
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+                },
+"townHall":                {
+                    "id" : 11,
+                    "upgrades" : "villageHall",
+                    "requires": ["allOf" , ["tavern"]],
+                    "cost": {
+                        "gold" : 2500
+                    },
+					"produce": {
+					    "gold" : 1000
+					},
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+                },
+"cityHall":                {
+                    "id" : 12,
+                    "upgrades" : "townHall",
+                    "requires": ["allOf" , ["mageGuild1"] , ["marketplace"] , ["blacksmith"]],
+                    "cost": {
+                        "gold" : 5000
+                    },
+					"produce": {
+					    "gold" : 2000
+					},
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+                },
+"capitol":                {
+                    "id" : 13,
+                    "upgrades" : "cityHall",
+                    "requires": ["allOf" , ["castle"]],
+                    "cost": {
+                        "gold" : 10000
+                    },
+					"produce": {
+					    "gold" : 4000
+					},
+"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day."
+                },
+"marketplace":                {
+                    "id" : 14,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 500
+                    },
+"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+                },
+"resourceSilo":                {
+                    "id" : 15,
+                    "requires": ["allOf" , ["marketplace"]],
+                    "cost": {
+                        "ore" : 5,
+"wood" : 5,
+                        "gold" : 5000
+                    },
+					"produce": {
+					    "ore" : 1,
+						"wood" : 1
+					},
+"description" : "The Resourse Deposites provide you with an additional +1 wood and +1 ore each day.",
+					"name" : "Resourse Silo"
+                },
+"blacksmith":                {
+                    "id" : 16,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 1000
+                    },
+"description" : "The Blacksmith provides your armies with Ammo Carts.",
+					"name" : "Blacksmith"
+                },
+"special1":                 {
+                    "id" : 17,
+                    "requires": ["allOf" , ["fort"]],
+                    "cost": {
+                        "wood" : 5,
+"ore" : 5,
+                        "gold" : 2000
+                    },
+"description" : "The Emergency Room allows a garnizon hero to flee from defending against a siege.",
+					"name" : "Emergency Room",
+					"type" : "escapeTunnel"
+                },
+"horde1":                {
+                    "id" : 18,
+                    "upgrades" : "dwellingLvl1",
+                    "cost": {
+                        "gold" : 1000
+                    },
+"description" : "Garbage Heap increases weekly production of Goblins by 8 per week.",
+					"name" : "Garbage Heap"
+                },
+//"horde1Upgr":                {
+ //                   "id" : 19,
+  //                  "upgrades" : "dwellingUpLvl1",
+  //                  "requires": ["allOf" , ["horde1"]],
+   //                 "mode" : "auto",
+   //                 "cost": {
+    //                    "gold" : 1000
+    //                },
+//"description" : "Garbage Heap increases weekly production of Regal Goblins by 8 per week.",
+	//				"name" : "Garbage Heap"
+     //           },
+"special2":                {
+                    "id" : 21,
+                    "requires": ["allOf" , ["marketplace"]],
+                    "cost": {
+                    
+                        "gold" : 1000
+                    },
+"description" : "The Freelancer's Guild allows to trade creatures for resources.",
+					"name" : "Freelancer's Guild",
+					"type" : "freelancersGuild"
+                },
+"special3":                {
+                    "id" : 22,
+                    "requires": ["allOf" , ["blacksmith"]],
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 1000
+                    },
+"description" : "This Blacksmith upgrade provides your armies with Ballistas.",
+					"name" : "Ballista's Workshop",
+					"type" : "ballistaYard"
+                },
+"special4":                 {
+                    "id" : 23,
+                    "requires": ["allOf" , ["fort"]],
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 1000
+                    },
+"description" : "The Coliseum increases the Attack skill of any visiting hero by +1.",
+					"name" : "Coliseum",
+					"type" : "attackVisitingBonus"
+                },               
+//"grail":{
+//                    "id" : 26,
+ //                   "mode" : "grail",
+//					"produce": {
+//					    "gold" : 5000
+//					},
+//"description" : "Warlords Monument increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+//					"name" : "Warlords Monument"
+//                },
+ "extraTownHall":               {
+                    "id" : 27, "name" : "Extra Town Hall", "description" : "Extra town hall appearance",
+                    "requires": ["allOf" , ["dwellingUpLvl6"]],
+                    "mode" : "auto"
+                },
+ "extraCityHall":               {
+                    "id" : 28, "name" : "Extra City Hall", "description" : "Extra city hall appearance",
+                    "requires": ["allOf" , ["cityHall"] , ["extraCityHall"]],
+                 //   "mode" : "auto",
+                    "cost": {
+                        "gold" : 1000
+                    }
+                },
+"extraCapitol":                {
+                    "id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance",
+                    "requires": ["allOf" , ["capitol"] , ["extraCapitol"]],
+                 //   "mode" : "auto",
+                    "cost": {
+                        "gold" : 1000
+                    }
+                },
+ "dwellingLvl1":               {
+                    "id" : 30,
+                    "requires": ["allOf" , ["fort"]],
+                    "cost": {
+                        "gold" : 300
+                    },
+"description" : "Hut allows to recruit Goblins.",
+					"name" : "Hut"
+                },
+ "dwellingLvl2":               {
+                    "id" : 31,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 800,
+                        "wood" : 5
+                    },
+	"description" : "The Stick Hut allows to recruit Orcs.",
+					"name" : "Stick Hut"
+                },
+ "dwellingLvl3":               {
+                    "id" : 32,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 1000
+                    },
+"description" : "The Den allows to recruit Wolves.",
+					"name" : "Den"
+                },
+  "dwellingLvl4":              {
+                    "id" : 33,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 2000,
+                        "gems" : 5,
+ "wood" : 5
+                    },
+"description" : "The Nest allows to recruit Harpies.",
+					"name" : "Nest"
+                },
+ "dwellingLvl5":               {
+                    "id" : 34,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 2000,
+                        "wood" : 10,
+"ore" : 10
+                    },
+"description" : "Adobe allows to recruit Ogres.",
+					"name" : "Adobe"
+                },
+  "dwellingLvl6":              {
+                    "id" : 35,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 4000,
+                        
+                        "ore" : 20
+                    },
+"description" : "Bridge allows to recruit Trolls.",
+					"name" : "Bridge"
+                },
+  "dwellingLvl7":              {
+                    "id" : 36,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 6000,
+                      
+  "ore" : 15,
+                        "crystal" : 15
+                    },
+"description" : "The Pyramid allow to recruit Cyclops.",
+					"name" : "Pyramid"
+                },
+
+  "dwellingUpLvl2":              {
+                    "id" : 38,
+                    "upgrades" : "dwellingLvl2",
+                 //   "requires":["allOf" , ["dwellingUpLvl1"]],
+                    "cost": {
+                        "gold" : 1200,
+                        "wood" : 5
+                    },
+"description" : "Upg. Stick Hut allows to recruit Orc Chiefs.",
+					"name" : "Upg. Stick Hut"
+                },
+
+
+
+
+    "dwellingUpLvl5":            {
+                    "id" : 41,
+                    "upgrades" : "dwellingLvl5",
+                    "cost": {
+                        "gold" : 2500,
+                        "wood" : 5,
+"ore" : 5
+                    },
+"description" : "Upg. Adobe allows to recruit Ogre Lords.",
+					"name" : "Upg. Adobe"
+                },
+     "dwellingUpLvl6":           {
+                    "id" : 42,
+                    "upgrades" : "dwellingLvl6",
+                    "cost": {
+                        "gold" : 2000,
+                        
+                        "ore" : 10
+                    },
+"description" : "Upg. Bridge allows to recruit War Trolls.",
+					"name" : "Upg. Bridge"
+                }
+            }
+        }
+    }
+}

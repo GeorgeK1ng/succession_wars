@@ -1,0 +1,86 @@
+{
+	"sw08necromancerSkeleton":
+	{
+"name" :{"plural" : "Skeletons","singular" : "Skeleton"},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08necromancerfaction",
+		"aiValue" : 57,
+		"attack" : 4,
+
+		"cost" :
+		{
+			"gold" : 65
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 69,
+		"graphics" :
+		{
+			"animation" : "sw08necromancer-creatures/battle/c056skel",
+			"map" : "sw08necromancer-creatures/map/AVWskel0",
+			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:58",
+			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:58",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08necromancer-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 10
+			}
+			
+		},
+
+		"growth" : 10,
+		"hitPoints" : 4,
+		"horde" : 5,
+              	"level" : 1,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08necromancer/skeleton/SKELATTK.wav",
+"defend" :"sw08necromancer/skeleton/SKELDFND.wav",
+"killed" :"sw08necromancer/skeleton/SKELKILL.wav",
+"move" :"sw08necromancer/skeleton/SKELMOVE.wav",
+"wince" :"sw08necromancer/skeleton/SKELWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 5,
+		"abilities" :
+		{
+"ability1":{"type" : "UNDEAD"}	
+					
+		}
+	}
+}

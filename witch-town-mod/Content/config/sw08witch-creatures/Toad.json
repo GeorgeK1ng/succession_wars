@@ -1,0 +1,87 @@
+{
+	"sw08witchToad":
+	{
+"name" :{"plural" : "Toads","singular" : "Toad"},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "sw08witch",
+		"aiValue" : 421,
+		"attack" : 7,
+
+		"cost" :
+		{
+			"gold" : 385
+		},
+		"damage" :
+		{
+			"max" : 9,
+			"min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 404,
+		"graphics" :
+		{
+			"animation" : "sw08witch-creatures/battle/c104toad",
+			"map" : "sw08witch-creatures/map/082/AvWBasl",
+			"iconSmall" : "sw08witch-creatures/cprsmall.def:106",
+			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:106",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08witch-creatures/battle/CPRZEAX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 8
+			}
+			
+		},
+
+		"growth" :4,
+		"hitPoints" : 35,
+		"horde" : 0,
+              	"level" : 4,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08witch/frog/DFLYATTK.wav",
+"defend" :"sw08witch/frog/DFLYDFND.wav",
+"killed" :"sw08witch/frog/DFLYKILL.wav",
+"move" :"sw08witch/frog/DFLYMOVE.wav",
+"wince" :"sw08witch/frog/DFLYWNCE.wav",
+"shoot" :"sw08witch/frog/DFLYSHOT"
+
+},
+		"speed" : 7,
+		"abilities" :
+		{
+		"ability1":{"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"}
+					
+		}
+	}
+}

@@ -1,0 +1,1229 @@
+{
+    "sw08witchWar01": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Charon",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Mysticism",
+                "tooltip" : "Receives a level-dependent bonus to mana regeneration.",
+                "name" : "Mysticism"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:112",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:112",
+            "large" : "sw08witch-heroes/port/HPL112BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS112BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+		"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+        "specialty": 
+		
+            { 
+                "bonuses": {
+                    
+ "ability1" : {
+                        "type" : "MANA_REGENERATION",
+                        "val" : 1,
+"updater" : "TIMES_HERO_LEVEL"
+                    }
+                }
+            }
+        
+    },
+ 
+ 
+   "sw08witchWar02": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Zaia",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Tribals",
+                "tooltip" : "Increases the Attack and Defense skills of any Tribals for each level attained after 1st level.",
+                "name" : "Tribals"
+            }
+        },
+				"spellbook":
+		[
+		"weakness"
+		],
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:113",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:113",
+            "large" : "sw08witch-heroes/port/HPL113BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS113BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            }
+        ],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchTribal", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchTribal", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+    },
+ 
+   "sw08witchWar03": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Sati",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "+ 350 Gold",
+                "tooltip" : "Increases kingdom's income by 350 gold per day.",
+                "name" : "+ 350 Gold"
+            }
+        },
+				"spellbook":
+		[
+		"weakness"
+		],
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:114",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:114",
+            "large" : "sw08witch-heroes/port/HPL114BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS114BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "GENERATE_RESOURCE",
+						"subtype" : "resource.gold",
+						"val" : 350
+					}
+				}
+			}
+		
+    },
+	
+	
+	
+	
+	  "sw08witchWar04": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Lilith",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Animate Dead",
+                "tooltip" : "Casts Animate Dead with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+                "name" : "Animate Dead"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:115",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:115",
+            "large" : "sw08witch-heroes/port/HPL115BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS115BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"animateDead"
+		],
+        "skills": [
+            {
+                "level" : "basic",
+                "skill" : "mysticism"
+            },
+			
+			            {
+                "level" : "basic",
+                "skill" : "necromancy"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.animateDead"
+					}
+				}
+			}
+		
+    },
+	
+		  "sw08witchWar05": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Wenin",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Wasps",
+                "tooltip" : "Increases the Attack and Defense skills of any Wasps for each level attained after 2nd level.",
+                "name" : "Wasps"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:116",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:116",
+            "large" : "sw08witch-heroes/port/HPL116BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS116BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchWasp", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchWasp", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+    },
+	
+			  "sw08witchWar06": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Ester",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Ice Bolt",
+                "tooltip" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+                "name" : "Ice Bolt"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:117",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:117",
+            "large" : "sw08witch-heroes/port/HPL117BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS117BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"iceBolt"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.iceBolt"
+					}
+				}
+			}
+		
+    },
+	
+			  "sw08witchWar07": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Cmok",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Intellect",
+                "tooltip" : "Receives a 5% per level bonus to Intellect skill percentage.",
+                "name" : "Intellect"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:118",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:118",
+            "large" : "sw08witch-heroes/port/HPL118BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS118BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+ 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "MANA_PER_KNOWLEDGE",
+ "valueType" : "PERCENT_TO_TARGET_TYPE", "targetSourceType" : "SECONDARY_SKILL" ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+    },
+	
+	
+ 			  "sw08witchWar08": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Nya",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Lizardmen and Lizardmen Warriors",
+                "tooltip" : "Increases the Attack and Defense skills of any Lizardmen or Lizardmen Warriors for each level attained after 3rd level.",
+                "name" : "Lizardmen and Lizardmen Warriors"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:119",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:119",
+            "large" : "sw08witch-heroes/port/HPL119BS.bmp",
+            "small" : "sw08witch-heroes/port/HPS119BS.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchLizardman", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchLizardman", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+    },
+	
+ 			  "sw08witchWar09": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Alice",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Toads",
+                "tooltip" : "Increases the Attack and Defense skills of any Toads for each level attained after 4th level.",
+                "name" : "Toads"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:120",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:120",
+            "large" : "sw08witch-heroes/port/082/HPL120WH.bmp",
+            "small" : "sw08witch-heroes/port/082/HPS120WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchToad",
+                "max" : 3,
+                "min" : 2
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				  
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchToad", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchToad", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+    },
+	
+	
+	
+				  "sw08witchWar10": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Budur",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Sorcery",
+                "tooltip" : "Receives a 5% per level bonus to Sorcery skill.",
+                "name" : "Sorcery"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:121",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:121",
+            "large" : "sw08witch-heroes/port/HPL121WH.bmp",
+            "small" : "sw08witch-heroes/port/HPS121WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+ 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL_DAMAGE",
+						"subtype" :  "spellSchool.any", "valueType":"PERCENT_TO_BASE"  ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+    },
+	
+	
+	
+	
+	
+				  "sw08witchWar11": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Grizzelle",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Mantisses",
+                "tooltip" : "Increases the Attack and Defense skills of any Mantisses for each level attained after 5th level.",
+                "name" : "Mantisses"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:122",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:122",
+            "large" : "sw08witch-heroes/port/HPL122WH.bmp",
+            "small" : "sw08witch-heroes/port/HPS122WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchMantis", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchMantis", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+    },
+	
+				  "sw08witchWar12": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Kaya",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Treants",
+                "tooltip" : "Increases the Attack and Defense skills of any Treants for each level attained after 6th level.",
+                "name" : "Treants"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:123",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:123",
+            "large" : "sw08witch-heroes/port/HPL123WH.bmp",
+            "small" : "sw08witch-heroes/port/HPS123WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchTreeant", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchTreeant", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+    },
+	
+	
+					  "sw08witchWar13": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Libelle",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Disrupting Ray",
+                "tooltip" : "Casts Disrupting Ray with increased effect.",
+                "name" : "Disrupting Ray"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:124",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:124",
+            "large" : "sw08witch-heroes/port/HPL124WH.bmp",
+            "small" : "sw08witch-heroes/port/HPS124WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"disruptingRay"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.disruptingRay"
+					}
+				}
+			}
+		
+    },
+	
+						  "sw08witchWar14": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Zanthia",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "+ 1 Mercury",
+                "tooltip" : "Increases kingdom's Mercury production by 1 per day.",
+                "name" : "+ 1 Mercury"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:125",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:125",
+            "large" : "sw08witch-heroes/port/HPL125WH.bmp",
+            "small" : "sw08witch-heroes/port/HPS125WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"disruptingRay"
+		],
+        "skills": [
+            {
+                "level" : "advanced",
+                "skill" : "mysticism"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "GENERATE_RESOURCE",
+						"subtype" : "resource.mercury",
+						"val" : 1
+					}
+				}
+			}
+		
+    },
+	
+	
+							  "sw08witchWar15": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Dorika",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Armorer",
+                "tooltip" : "Receives a 5% per level bonus to Armorer skill percentage.",
+                "name" : "Armorer"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:125",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:125",
+            "large" : "sw08witch-heroes/port/HPL125WH.bmp",
+            "small" : "sw08witch-heroes/port/HPS125WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "basic",
+                "skill" : "mysticism"
+            },
+			            {
+                "level" : "basic",
+                "skill" : "armorer"
+            }
+        ],
+		"specialty": 
+		
+			{
+		 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" :  "damageTypeAll", "targetSourceType" : "SECONDARY_SKILL" ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+    },
+	
+	
+		
+							  "sw08witchWar16": {
+        "female": true,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Malis",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Eagle Eye",
+                "tooltip" : "Receives a 5% per level bonus to Eagle Eye skill percentage.",
+                "name" : "Eagle Eye"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:125",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:125",
+            "large" : "sw08witch-heroes/port/HPL125WH.bmp",
+            "small" : "sw08witch-heroes/port/HPS125WH.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchWasp",
+                "max" : 5,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "basic",
+                "skill" : "mysticism"
+            },
+			            {
+                "level" : "basic",
+                "skill" : "eagleEye"
+            }
+        ],
+		"specialty": 
+		
+			{
+	 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "LEARN_BATTLE_SPELL_CHANCE",  "valueType" : "ADDITIVE_VALUE" ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+				}
+			}
+		
+    },
+	
+	
+	
+ 			  "sw08witchWar17New": {
+        "female": false,
+        "class" : "sw08Witch",
+        "texts": {
+            "name" : "Xsissis",
+            "biography" : "no bio yet",
+            "specialty": {
+                "description" : "Lizardmen and Lizardmen Warriors",
+                "tooltip" : "Increases the Attack and Defense skills of any Lizardmen or Lizardmen Warriors for each level attained after 3rd level.",
+                "name" : "Lizardmen and Lizardmen Warriors"
+            }
+        },
+        "images": {
+            "specialtySmall" : "sw08witch-heroes/UN32.def:119",
+            "specialtyLarge" : "sw08witch-heroes/UN44.def:119",
+            "large" : "sw08witch-heroes/port/new/liz01L.bmp",
+            "small" : "sw08witch-heroes/port/new/liz01S.bmp"
+        },
+        "army": [
+            {
+                "creature" : "sw08witchTribal",
+                "max" : 16,
+                "min" : 8
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            },
+            {
+                "creature" : "sw08witchLizardman",
+                "max" : 4,
+                "min" : 3
+            }
+        ],
+				"spellbook":
+		[
+		"weakness"
+		],
+        "skills": [
+            {
+                "level" : "basic",
+                "skill" : "archery"
+            },
+			            {
+                "level" : "basic",
+                "skill" : "pathfinding"
+            }
+        ],
+		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					"abilityAttackSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchLizardman", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					},
+					"abilityDefenseSkill" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : 1,
+						"limiters":
+						[
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sw08witchLizardman", true]
+							}
+						],
+"updater" : "TIMES_HERO_LEVEL"
+					} 
+}
+			}
+		
+    },
+	
+	
+}

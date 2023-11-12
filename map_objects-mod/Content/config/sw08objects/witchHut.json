@@ -1,0 +1,78 @@
+{
+	"witchHut-sw08objects-01" : {
+		"name" : "Witch Hut",
+		"handler" : "configurable",
+		"types": {
+			"sw08objects-objectswitchHut01": {
+				"name" : "Witch Hut",
+			"sounds" : {
+				"visit" : ["GAZEBO"]
+			},
+			"aiValue" : 1500,
+				"rmg" : {
+					"zoneLimit"	: 3,
+					"value"		: 1500,
+					"rarity"	: 80
+				},
+				"compatibilityIdentifiers" : [ "object" ],
+				
+				"visitMode" : "limiter",
+				"visitedTooltip" : "(Already learned)",
+				"description" : "(Learn a secondary skill)",
+				"showScoutedPreview" : true,
+
+				"variables" : {
+					"secondarySkill" : {
+						"gainedSkill" : { // Note: this variable name is used by engine for H3M loading and by AI
+							"noneOf" : [
+								"leadership",
+								"necromancy"
+							]
+						}
+					}
+				},
+				"visitLimiter" : {
+					"secondary" : {
+						"@gainedSkill" : 1
+					}
+				},
+				"rewards" : [
+					{
+						"limiter" : {
+							"canLearnSkills" : true,
+							"noneOf" : [
+								{
+									"secondary" : {
+										"@gainedSkill" : 1
+									}
+								}
+							]
+						},
+						"description" : "(Not visited)",
+						"secondary" : {
+							"@gainedSkill" : 1
+						},
+						"message" : "{Witch's Hut}\n\nAn ancient witch living in a strange hut welcomes you, teaching you %s for her own inscrutable purposes."
+					}
+				],
+				"onVisitedMessage" : "{Witch's Hut}\n\nYou approach the strange hut and observe a witch inside studying an ancient tome on %s.  As you approach, she turns and speaks.  \"You already know that which I would teach you. I can help you no further.\"",  
+				"onEmptyMessage" : "{Witch's Hut}\n\nYou approach the strange hut and observe a witch inside studying an ancient tome on %s.  As you approach, she turns and focuses her one glass eye on you.  \"HA!\" she screeches, \"I would not presume to try to teach new tricks to someone so clearly as wise as you.\"  You leave, but can't quite shake the feeling that you have just been insulted.",
+				"templates": {
+
+					"AVSwtch0": {
+						"animation" : "sw08objects/witchHut/AVSwtch0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVV", "VVV", "VVA"],
+						"allowedTerrains":["dirt","swamp","grass","rough","snow","subterra","sand","hmm2desert"]
+					}
+
+					
+				}
+			}
+
+		}
+	}
+
+
+
+}

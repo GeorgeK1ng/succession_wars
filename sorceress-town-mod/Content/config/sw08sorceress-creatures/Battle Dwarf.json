@@ -1,0 +1,71 @@
+{
+	"sw08sorceressBattleDwarf":
+	{
+"name" :{"plural" : "Battle Dwarves","singular" : "Battle Dwarf"},
+		"advMapAmount" :
+		{
+			"max" : 22,
+			"min" : 10
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08sorceressfaction",
+		"aiValue" : 198,
+		"attack" : 6,
+
+		"cost" :
+		{
+			"gold" : 1775
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 201,
+		"graphics" :
+		{
+			"animation" : "sw08sorceress-creatures/battle/c017udwf",
+			"map" : "sw08sorceress-creatures/map/AVWdwrx0",
+			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:19",
+			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:19",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			}
+			
+		},
+
+		"growth" : 6,
+		"hitPoints" : 20,
+		"horde" : 4,
+              	"level" : 2,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08sorceress/battle dwarf/bdRFATTK.wav",
+"defend" :"sw08sorceress/battle dwarf/BDRFDFND.wav",
+"killed" :"sw08sorceress/battle dwarf/bdRFKILL.wav",
+"move" :"sw08sorceress/battle dwarf/BDRFMOVE.wav",
+"wince" :"sw08sorceress/battle dwarf/BDRFWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 5,
+		"abilities" :
+		{
+"ability1":
+{"type" : "MAGIC_RESISTANCE",
+"val" : 35}				
+		}
+	}
+}

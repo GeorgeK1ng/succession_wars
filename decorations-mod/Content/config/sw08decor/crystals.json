@@ -1,0 +1,60 @@
+{
+	"core:rock": {
+
+		"types": {
+			"sw08decorRock01": {
+				"name" : "Crystals",
+				"rmg": {
+					//"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"zcbon000": {
+						"animation" : "sw08decor/crystals/zcbon000",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"zcbon001": {
+						"animation" : "sw08decor/crystals/zcbon001",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},				
+					"zcbon002": {
+						"animation" : "sw08decor/crystals/zcbon002",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					},					
+					"zcbon003": {
+						"animation" : "sw08decor/crystals/zcbon003",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","VB"],
+
+						"allowedTerrains": [
+							"subterra"
+						]
+					}					
+
+				}
+			}
+
+
+
+		}
+
+
+	}
+}

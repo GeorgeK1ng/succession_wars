@@ -1,0 +1,45 @@
+{
+	"core:shrineOfMagicLevel2": {
+
+		"types": {
+			"sw08objectsshrineOfMagicLevel2": {
+			"name" : "Shrine of Magic Level 2",
+			"aiValue" : 2000,
+				"rmg": {
+
+					"value" : 500,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"avxl2sh0": {
+						"animation" : "sw08objects/shrineOfMagicLevel2/avxl2sh0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+
+
+
+
+
+				}
+			}
+
+		}
+	}
+
+
+
+}

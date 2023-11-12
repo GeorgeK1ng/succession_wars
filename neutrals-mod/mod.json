@@ -1,0 +1,37 @@
+{
+    "name" : "SW - Neutrals",
+    "description" : "Neutrals",
+    "version" : "0.0.1",
+    "author" : "Noname",
+    "contact" : "none",
+    "modType" : "Town",
+    "depends": [
+   "succession_wars-mod.terrains-mod"
+    ],
+    "factions": [
+        "config/sw08neutral/faction.json"
+    ],
+    "heroClasses": [
+        
+    ],
+    "heroes": [
+        
+    ],
+    "creatures": [
+"config/sw08neutral-creatures/Air Elemental.json",
+"config/sw08neutral-creatures/Air Messenger.json",
+"config/sw08neutral-creatures/Earth Elemental.json",
+"config/sw08neutral-creatures/Earth Messenger.json",
+"config/sw08neutral-creatures/Fire Elemental.json",
+"config/sw08neutral-creatures/Fire Messenger.json",
+"config/sw08neutral-creatures/Water Elemental.json",
+"config/sw08neutral-creatures/Water Messenger.json",
+"config/sw08neutral-creatures/Pirate.json",
+"config/sw08neutral-creatures/Ghost.json"
+    ],
+	"objects":
+	[
+	        "config/sw08neutral/dwellings.json",
+				        "config/sw08neutral/banks.json"
+	]
+}

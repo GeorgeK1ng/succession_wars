@@ -1,0 +1,199 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"sw08knightLevel1" : {
+				"name" : "Thatched Hut",
+				"creatures" : [[ "sw08knightPeasant" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08knightPeasant" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGpeas",
+						"mask" : ["VVV", "VVA" ]
+					},
+					"default2" : {
+						"animation" : "sw08knight/Adventure-Map/AVGpike1",
+						"mask" : ["VVV", "VVA" ]
+					},
+					"default3" : {
+						"animation" : "sw08knight/Adventure-Map/AVGpike2",
+						"mask" : ["VV", "VA" ]
+					},
+					"default4" : {
+						"animation" : "sw08knight/Adventure-Map/AVGpike0",
+						"mask" : ["VVV", "VBA" ]
+					}
+					
+				}
+			},
+			
+
+ 		
+			
+			"sw08knightLevel2" : {
+				"name" : "Ranger House",
+				"creatures" : [[ "sw08knightArcher" ]],
+//				"guards" : [
+//					{ "amount" : 30, "type" : "sw08knightArcher" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGcros2",
+						"mask" : [ "VVV", "VVA" ]
+					},
+										"default2" : {
+						"animation" : "sw08knight/Adventure-Map/AVGcros1",
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains":["snow"]
+					}
+				}
+			},
+			"sw08knightLevel3" : {
+				"name" : "Blacksmith",
+				"creatures" : [[ "sw08knightPikeman" ]],
+//				"guards" : [
+//					{ "amount" : 22, "type" : "sw08knightPikeman" }
+//				],
+				"templates" : {
+					"default" : {	
+
+						"animation" : "sw08knight/Adventure-Map/AVGgrff0",
+						"mask" : [ "VVV", "VBA" ]						
+					}
+						
+					
+				}
+			},
+			"sw08knightLevel4B" : {
+				"name" : "Upg. Training Grounds",
+				"creatures" : [[ "sw08knightHeavyCrossbowman" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08knightHeavyCrossbowman" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGswor0",
+						"mask" : ["VVV","VAB" ]
+					}
+				}
+			},
+			
+						"sw08knightLevel4Upg" : {
+				"name" : "Upg. Training Grounds",
+				"creatures" : [[ "sw08knightHeavyCrossbowman" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08knightHeavyCrossbowman" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGswor0",
+						"mask" : ["VVV","VBA" ]
+					}
+				}
+			},
+						"sw08knightLevel4A" : {
+				"name" : "Training Grounds",
+				"creatures" : [[ "sw08knightCrossbowman" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08knightCrossbowman" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGcros0",
+						"mask" : ["VVV","VBA" ]
+					},
+										"default1" : {
+						"animation" : "sw08knight/Adventure-Map/AVGcros01",
+						"mask" : ["VVV","VBA" ]
+					}
+				}
+			},			
+			
+			"sw08knightLevel5" : {
+				"name" : "Armory",
+				"creatures" : [[ "sw08knightSwordsman" ]],
+				"guards" : [
+					{ "amount" : 12, "type" : "sw08knightSwordsman" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGmonk0",
+						"mask" : ["VVV","VBA" ]
+					}
+				}
+			},
+			"sw08knightLevel6" : {
+				"name" : "Jousting Area",
+				"creatures" : [[ "sw08knightCavalry" ]],
+				"guards" : [
+					{ "amount" : 6, "type" : "sw08knightCavalry" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/avgcava",
+						"mask" : [ "AB"]
+					}
+				}
+			},
+			
+			"sw08knightLevel6UP" : {
+				"name" : "Upg. Jousting Area",
+				"creatures" : [[ "sw08knightChampion" ]],
+				"guards" : [
+					{ "amount" : 6, "type" : "sw08knightChampion" }
+				],
+				"templates" : {
+
+										"default2" : {
+						"animation" : "sw08knight/Adventure-Map/AVGcavl0",
+						"mask" : [ "VVV","VBA"]
+					}
+				}
+			},			
+
+			
+			"sw08knightLevel7" : {
+				"name" : "Cathedral",
+				"creatures" : [[ "sw08knightPaladin" ]],
+				"guards" : [
+					{ "amount" : 3, "type" : "sw08knightPaladin" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGangl0",
+						"mask" : [ "VVVV","VBA" ]
+					}
+				}
+			},
+
+			
+			"sw08knightLevel7Alt" : {
+				"name" : "Tamplier Castle",
+				"creatures" : [[ "sw08knightPaladin" ]],
+				"guards" : [
+					{ "amount" : 5, "type" : "sw08knightPaladin" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08knight/Adventure-Map/AVGrdrb0",
+						"mask" : [ "VVVV","VVVV","VVBA" ]
+					}
+				}
+			}
+
+
+
+
+			
+	}
+
+
+}
+
+
+
+
+
+
+}

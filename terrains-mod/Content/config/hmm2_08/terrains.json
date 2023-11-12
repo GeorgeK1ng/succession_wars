@@ -1,0 +1,206 @@
+{
+ 
+
+
+	"core:dirt" :
+	{
+		////"originalTerrainId" : 0,
+		"text" : "Dirt",
+		"moveCost" : 100,
+		"minimapUnblocked" : [ 82, 56, 8 ],
+		"minimapBlocked"   : [ 57, 40, 8 ],
+		"music" : "hmm2/Heroes of Might and Magic II OST - 17 - Terrain - Dirt.mp3",
+		"tiles" : "hmm2/DIRTTL",
+		//"tiles" : "hmm2/GRASTL_dirt",
+		//"shortIdentifier" : "jt",
+		"river" : "hmm2waterRiver",
+		"battleFields" : ["sw08_hmm2_dirt_birches", "sw08_hmm2_dirt_birches082", "sw08_hmm2_dirt_hills", "sw08_hmm2_dirt_pines"],
+		"terrainViewPatterns" : "dirt",
+		 "transitionRequired" : true,
+		"type":["SURFACE"],
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse20",  "horseSound" : "horse00",    //"horseSoundId" : 0
+	},
+	 "core:sand" :
+	 {
+		////"originalTerrainId" : 1,
+		 "text" : "Sand",
+		 "moveCost" : 150,
+		 "minimapUnblocked" : [ 222, 207, 140 ],
+		 "minimapBlocked"   : [ 165, 158, 107 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 13 - Terrain - Desert.mp3",
+		 "tiles" : "hmm2/SANDTL",
+		// "shortIdentifier" : "ja",
+		 "river" : "hmm2waterRiver",
+		 "battleFields" : ["sw08_hmm2_sand_mesas","sw08_hmm2_sand_mesas082"],
+		 "transitionRequired" : true,
+		 "terrainViewPatterns" : "sand",
+		 "type":["SURFACE"],
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse21",  "horseSound" : "horse01",    //"horseSoundId" : 1
+	 },
+	 "core:grass" :
+	 {
+		////"originalTerrainId" : 2,
+		 "text" : "Grass",
+		 "moveCost" : 100,
+		 "minimapUnblocked" : [ 0, 65, 0 ],
+		 "minimapBlocked"   : [ 0, 48, 0 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 18 - Terrain - Grass.mp3",
+		 "tiles" : "hmm2/GRASTL",
+		 //"shortIdentifier" : "jr",
+		"river" : "hmm2waterRiver",
+		 "battleFields" : ["sw08_hmm2_grass_hills", "sw08_hmm2_grass_pines"],
+		 "terrainViewPatterns" : "normal",
+		 "type":["SURFACE"],
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse22",  "horseSound" : "horse02",    //"horseSoundId" : 2
+	 },
+	 "core:snow" :
+	 {
+		////"originalTerrainId" : 3,
+		 "text" : "Snow",
+		 "moveCost" : 150,
+		 "minimapUnblocked" : [ 181, 199, 198 ],
+		 "minimapBlocked"   : [ 140, 158, 156 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 14 - Terrain - Snow.mp3",
+		 "tiles" : "hmm2/SNOWTL",
+		 //"shortIdentifier" : "jn",
+		"river" : "hmm2iceRiver",
+		 "battleFields" : ["sw08_hmm2_snow_mountains", "sw08_hmm2_snow_trees"],
+		 "terrainViewPatterns" : "normal",
+		 "type":["SURFACE"],
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse23",  "horseSound" : "horse03",    //"horseSoundId" : 3
+	 },
+	 "core:swamp" :
+	 {
+		////"originalTerrainId" : 4,
+		 "text" : "Swamp",
+		 "moveCost" : 175,
+		 "minimapUnblocked" : [ 74, 134, 107 ],
+		 "minimapBlocked"   : [ 33,  89,  66 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 15 - Terrain - Swamp.mp3",
+		 "tiles" : "hmm2/SWMPTL",
+		 //"shortIdentifier" : "jz",
+		"river" : "hmm2waterRiver",
+		 "battleFields" : ["sw08_hmm2_swamp_trees"],
+		 "terrainViewPatterns" : "normal",
+		 "type":["SURFACE"],
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse24",  "horseSound" : "horse04",    //"horseSoundId" : 4
+	 },
+	 "core:rough" :
+	 {
+		////"originalTerrainId" : 5,
+		 "text" : "Rough",
+		 "moveCost" : 125,
+		 "minimapUnblocked" : [ 164, 88, 16 ],
+		 "minimapBlocked"   : [  128,  60, 4 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 12 - Terrain - Wasteland.mp3",
+		 "tiles" : "hmm2/subbtl",
+		 //"shortIdentifier" : "jg",
+		"river" : "hmm2mudRiver",
+		 "battleFields" : ["sw08_hmm2_rough"],
+		 "terrainViewPatterns" : "normal",
+		 "type":["SURFACE"],
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse25",  "horseSound" : "horse05",    //"horseSoundId" : 5
+	 },
+
+	 "hmm2desert" :
+	 {
+		////"originalTerrainId" : 6,
+		 "text" : "Desert",
+		 "moveCost" : 170,
+		 "minimapUnblocked" : [ 200, 160, 24 ],
+		 "minimapBlocked"   : [  148,  100, 12 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 13 - Terrain - Desert.mp3",
+		 "tiles" : "hmm2/rougtl",
+		  "type":["SURFACE"],
+		 "shortIdentifier" : "jd",
+		"river" : "hmm2waterRiver",
+		 "battleFields" : ["sw08_hmm2_desert","sw08_hmm2_desert082"],
+		 "terrainViewPatterns" : "normal",
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse21",  "horseSound" : "horse01",    //"horseSoundId" : 6
+		
+	 },
+
+	 "core:lava" :
+	 {
+		////"originalTerrainId" : 7,
+		 "text" : "Lava",
+		 "moveCost" : 100,
+		 "minimapUnblocked" : [ 74, 73, 74 ],
+		 "minimapBlocked"   : [ 41, 40, 41 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 11 - Terrain - Lava.mp3",
+		 "tiles" : "hmm2/LAVATL",
+		 //"shortIdentifier" : "jv",
+		"river" : "hmm2lavaRiver",
+		 "battleFields" : ["sw08_hmm2_lava","sw08_hmm2_lava2"],
+		 "terrainViewPatterns" : "normal",
+		 "type":["SURFACE"],
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse27",  "horseSound" : "horse07",    //"horseSoundId" : 7
+	 },
+	 "core:water" :
+	 {
+		////"originalTerrainId" : 8,
+		 "text" : "Water",
+		 "moveCost" : 100,
+		 "minimapUnblocked" : [ 8, 81, 148 ],
+		 "minimapBlocked"   : [ 8, 81, 148 ],
+		 "music" : "hmm2/Heroes of Might and Magic II OST - 16 - Terrain - Ocean.mp3",
+		 "tiles" : "hmm2/WATRTL",
+		 "type":["WATER"],
+		 //"shortIdentifier" : "jw",
+		 "battleFields" : ["sw08_hmm2_ship"],
+		 "transitionRequired" : true,
+		 "terrainViewPatterns" : "water",
+		"rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse08",  "horseSound" : "horse08",        
+		  		"paletteAnimation" : [
+			{ "start" : 16, "length" : 5 },
+			{ "start" : 22, "length" : 4 }
+		]
+	 },
+	 
+	 "core:subterra" :
+	 {
+		////"originalTerrainId" : 6,
+		 "text" : "Subterra",
+		 "moveCost" : 100,
+		 "minimapUnblocked" : [ 132, 48, 0 ],
+		 "minimapBlocked"   : [  90,  8, 0 ],
+		 "music" : "Underground.mp3",
+		 //"tiles" : "hmm2/sandtl",
+		 "tiles" : "hmm2/std/subbtl",
+		 "type":["SUB"],
+		 //"shortIdentifier" : "jb",
+		"river" : "hmm2waterRiver",
+		 "battleFields" : ["sw08_hmm2_subterranean"],
+		 //"terrainViewPatterns" : "sand",
+		 "terrainViewPatterns" : "normal",
+		 "rockTerrain" : "rock",
+		 "horseSoundPenalty" : "horse26",  "horseSound" : "horse06",    //"horseSoundId" : 6
+		
+	 },	 
+	 
+	 "core:rock" :
+	 {
+		////"originalTerrainId" : 0,
+		 "text" : "Rock",
+		 "moveCost" : -1,
+		 "minimapUnblocked" : [ 0, 0, 0 ],
+		 "minimapBlocked"   : [ 0, 0, 0 ],
+		 "music" : "Underground.mp3",   
+		 "tiles" : "hmm2/ROCKTL",
+		 "type":["ROCK"],
+		 //"shortIdentifier" : "jc",
+		 "battleFields" : ["sw08_hmm2_rocklands"],
+		 "transitionRequired" : true,
+		 "terrainViewPatterns" : "rock",
+		 "horseSoundPenalty" : "silent1second",  "horseSound" : "silent1second"
+	 }
+}

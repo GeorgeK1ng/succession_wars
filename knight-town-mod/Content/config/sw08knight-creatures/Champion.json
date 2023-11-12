@@ -1,0 +1,87 @@
+{
+	"sw08knightChampion":
+	{
+"name" :{"plural" : "Champions","singular" : "Champion"},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "sw08knight",
+		"aiValue" : 1400,
+		"attack" : 10,
+
+		"cost" :
+		{
+			"gold" : 625
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 6
+		},
+		"defense" : 9,
+		"fightValue" : 1200,
+		"graphics" :
+		{
+			"animation" : "sw08knight-creatures/battle/c011ucvl",
+			"map" : "sw08knight-creatures/map/avwcvlx0",
+			"iconSmall" : "sw08knight-creatures/cprsmall.def:13",
+			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:13",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 7
+			}
+			
+		},
+
+		"growth" : 3,
+		"hitPoints" : 50,
+		"horde" : 0,
+              	"level" : 6,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08knight/champion/CHMPATTK.wav",
+"defend" :"sw08knight/champion/CHMPDFND.wav",
+"killed" :"sw08knight/champion/CHMPKILL.wav",
+"move" :"sw08knight/champion/CHMPMOVE.wav",
+"wince" :"sw08knight/champion/CHMPWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 9,
+		"abilities" :
+		{
+
+"ability1":{	"type" : "JOUSTING", "val" : 25}
+					
+		}
+	}
+}

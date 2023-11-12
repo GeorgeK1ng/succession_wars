@@ -1,0 +1,134 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+	
+			"sw08neutralDwellingAir" : {
+				"name" : "Air Altar",
+				"creatures" : [[ "sw08neutralAirElemental"]],
+				"guards" :[
+					{ "amount" : 24, "type" : "sw08neutralAirElemental" }
+					],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08neutral/adventure-map/AVGair0",
+						"mask" : ["VVVV","VBAB"],
+						"allowedTerrains":["grass","dirt","sand","rough","lava",
+						"swamp","subterra","hmm2desert"]
+					}
+				}
+			},				
+			
+			"sw08neutralDwellingEarth" : {
+				"name" : "Earth Altar",
+				"creatures" : [[ "sw08neutralEarthElemental"]],
+				"guards" :[
+					{ "amount" : 24, "type" : "sw08neutralEarthElemental" }
+					],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08neutral/adventure-map/AVGerth0",
+						"mask" : ["VVVV","VBAB"],
+						"allowedTerrains":["grass","dirt","sand","rough","lava",
+						"swamp","subterra","hmm2desert"]
+					}
+				}
+			},				
+			
+				
+			"sw08neutralDwellingFire" : {
+				"name" : "Fire Altar",
+				"creatures" : [[ "sw08neutralFireElemental"]],
+				"guards" :[
+					{ "amount" : 24, "type" : "sw08neutralFireElemental" }
+					],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08neutral/adventure-map/AVGfire0",
+						"mask" : ["VVVV","VBAB"],
+						"allowedTerrains":["grass","dirt","sand","rough","lava",
+						"swamp","subterra","hmm2desert"]
+					}
+				}
+			},				
+					
+			
+				
+			"sw08neutralDwellingWater" : {
+				"name" : "Water Altar",
+				"creatures" : [[ "sw08neutralWaterElemental"]],
+				"guards" :[
+					{ "amount" : 24, "type" : "sw08neutralWaterElemental" }
+					],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08neutral/adventure-map/AVMsavu0",
+						"mask" : ["VVVV","VBAB"],
+						"allowedTerrains":["grass","dirt","sand","rough","lava",
+						"swamp","subterra","hmm2desert"]
+					}
+				}
+			},				
+					
+					
+				
+			"sw08neutralDwellingGhost" : {
+				"name" : "Crypt",
+				"creatures" : [[ "sw08neutralGhost"]],
+				"guards" :[
+					{ "amount" : 24, "type" : "sw08neutralGhost" }
+					],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08neutral/adventure-map/AVGghst0",
+						"mask" : ["VVV","VBA"],
+						"visitableFrom": ["---", "+++", "+++"],
+						"allowedTerrains":["grass","dirt","sand","rough","lava",
+						"swamp","subterra","hmm2desert"]
+					},
+										"default2" : {
+						"animation" : "sw08neutral/adventure-map/AVGfirb1",
+						"mask" : ["VVV","VBA"],
+						"visitableFrom": ["---", "+++", "+++"],
+						"allowedTerrains":["grass","dirt","sand","rough","lava",
+						"swamp","subterra","hmm2desert"]
+					}
+				}
+			},				
+							
+					
+				
+			"sw08neutralDwellingPirate" : {
+				"name" : "Pirate Fort",
+				"creatures" : [[ "sw08neutralPirate"]],
+				"guards" :[
+					{ "amount" : 24, "type" : "sw08neutralPirate" }
+					],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08neutral/adventure-map/AVGhalf",
+						"mask" : ["VVV","VBA"],
+						"visitableFrom": ["---", "+++", "+++"],
+						"allowedTerrains":["grass","dirt","sand","swamp"]
+					}
+				}
+			}				
+							
+						
+			
+			}
+			
+			
+			}
+			
+			
+	
+
+
+			
+			
+			
+			
+
+	
+
+}

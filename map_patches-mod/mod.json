@@ -1,0 +1,49 @@
+{
+	"name" : "SW - Map Patches",
+	
+"description" : "SW - Map Patches",
+	
+"version" : "0.0.1",
+"author" : "Noname",
+"contact" : "none",
+"modType" : "Graphical",
+"depends" :
+	[
+	"succession_wars-mod.terrains-mod"
+	],
+"objects":
+		[
+
+"config/sw08patches/patch1.json",
+"config/sw08patches/patch2.json",
+"config/sw08patches/patch3.json",
+"config/sw08patches/patch4.json",
+"config/sw08patches/patch5.json",
+"config/sw08patches/patch6.json",
+"config/sw08patches/patch7.json",
+"config/sw08patches/patch8.json",
+"config/sw08patches/patch9.json",
+"config/sw08patches/patch10.json",
+"config/sw08patches/patch11.json",
+"config/sw08patches/patch12.json",
+"config/sw08patches/patch13.json",
+"config/sw08patches/patch14.json",
+"config/sw08patches/patch15.json",
+"config/sw08patches/patch16.json",
+"config/sw08patches/patch17.json",
+"config/sw08patches/patch18.json",
+"config/sw08patches/patch19.json",
+"config/sw08patches/patch20.json",
+"config/sw08patches/patch21.json",
+"config/sw08patches/patch22.json",
+"config/sw08patches/patch23.json",
+"config/sw08patches/patch24.json",
+"config/sw08patches/patch25.json",
+"config/sw08patches/patch26.json",
+"config/sw08patches/patch27.json",
+"config/sw08patches/patch28.json",
+
+
+
+		]
+}

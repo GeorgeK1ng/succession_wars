@@ -1,0 +1,417 @@
+{
+    "swsw08wizardfaction": {
+        "town": {
+			"buildings" :
+			{
+"mageGuild1":
+                {
+                    "id" : 0,
+                    "cost": {
+                        "wood" : 5,
+                        "ore" : 5,
+                        "gold" : 2000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+                },
+"mageGuild2":
+                {
+                    "id" : 1,
+                    "upgrades" : "mageGuild1",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 4,
+                        "ore" : 5,
+                        "sulfur" : 4,
+                        "crystal" : 4,
+                        "gems" : 4,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+                },
+"mageGuild3":                {
+                    "id" : 2,
+                    "upgrades" : "mageGuild2",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 6,
+                        "ore" : 5,
+                        "sulfur" : 6,
+                        "crystal" : 6,
+                        "gems" : 6,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+                },
+"mageGuild4":                {
+                    "id" : 3,
+                    "upgrades" : "mageGuild3",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 8,
+                        "ore" : 5,
+                        "sulfur" : 8,
+                        "crystal" : 8,
+                        "gems" : 8,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+                },
+"mageGuild5":                {
+                    "id" : 4,
+                    "upgrades" : "mageGuild4",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 10,
+                        "ore" : 5,
+                        "sulfur" : 10,
+                        "crystal" : 10,
+                        "gems" : 10,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5"
+                },
+"tavern":                {
+                    "id" : 5,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 500
+                    },
+					"name" : "Tavern",
+					"description" : "The Tavern provides hiring of heroes."
+                },
+"shipyard":{ "id" : 6,
+                    "cost": {
+                        "wood" : 20,
+                  
+                        "gold" : 5000
+                    },
+							"requires":["allOf" , ["shipyard"]],
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships."
+},
+"fort":                {
+                    "id" : 7,
+                    "cost": {
+                        "wood" : 20,
+                        "ore" : 20,
+                        "gold" : 5000
+                    },
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls."
+                },
+"citadel":                {
+                    "id" : 8,
+                    "upgrades" : "fort",
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 2500
+                    },
+"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+                },
+"castle":                {
+                    "id" : 9,
+                    "upgrades" : "citadel",
+                    "cost": {
+                        "wood" : 10,
+                        "ore" : 10,
+                        "gold" : 5000
+                    },
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+                },
+"villageHall":                {
+                    "id" : 10,
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 500
+                    },
+					"produce": {
+					    "gold" : 500
+					},
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+                },
+"townHall":                {
+                    "id" : 11,
+                    "upgrades" : "villageHall",
+                    "requires": ["allOf" , ["tavern"]],
+                    "cost": {
+                        "gold" : 2500
+                    },
+					"produce": {
+					    "gold" : 1000
+					},
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+                },
+"cityHall":                {
+                    "id" : 12,
+                    "upgrades" : "townHall",
+                    "requires": ["allOf" , ["mageGuild1"] , ["marketplace"] , ["blacksmith"]],
+                    "cost": {
+                        "gold" : 5000
+                    },
+					"produce": {
+					    "gold" : 2000
+					},
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+                },
+"capitol":                {
+                    "id" : 13,
+                    "upgrades" : "cityHall",
+                    "requires": ["allOf" , ["castle"]],
+                    "cost": {
+                        "gold" : 10000
+                    },
+					"produce": {
+					    "gold" : 4000
+					},
+"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day."
+                },
+"marketplace":                {
+                    "id" : 14,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 500
+                    },
+"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+                },
+"resourceSilo":                {
+                    "id" : 15,
+                    "requires": ["allOf" , ["marketplace"]],
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 5000
+                    },
+					"produce": {
+					    "gems" : 1
+					},
+"description" : "The Gem Mine provides you with an additional +1 gems each day.",
+					"name" : "Gem Mine"
+                },
+"blacksmith":                {
+                    "id" : 16,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 1000
+                    },
+"description" : "The Blacksmith provides your armies with war machines.",
+					"name" : "Blacksmith"
+                },
+"special1":                {
+                    "id" : 17,
+					                    "cost": {
+                       
+                        "gold" : 10000
+                    },
+                    "requires": ["allOf" , ["marketplace"]],
+					"description" : "For a nominal fee you can purchase artefacts from Artifact Merchants.",
+					"name" : "Artifact Merchants",
+					"type" : "artifactMerchant"
+                },
+ "horde1":               {
+                    "id" : 18,
+                    "upgrades" : "dwellingLvl2",
+                    "cost": {
+                        "gold" : 1000
+                    },
+"description" : "Orchard increases weekly production of Halflings by 8 per week.",
+					"name" : "Orchard"
+                },
+"horde1Upgr":                {
+                    "id" : 19,
+                    //"upgrades" : "dwellingUpLvl2",
+                    "requires": ["allOf" , ["horde1"], ["horde1Upgr"]],
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 1000
+                    },
+"description" : "Orchard increases weekly production of War Boars by 4 per week.",
+					"name" : "Orchard"
+                },
+				
+"ship":                {
+                    "id" : 20,
+                    "upgrades" : "shipyard",
+					"name" : "Ship",
+					"description" : "Ship"
+                },				
+				
+ "special2":               {
+                    "id" : 21,
+                    "requires": ["allOf" , ["fort"]],
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 1000
+                    },
+"description" : "Lookout Tower extends a visible distance around your city.",
+					"name" : "Lookout Tower",
+					"type" : "lookoutTower",
+					"height" : "average"
+                },
+"special3":                {
+                    "id" : 22,
+                    "requires": ["allOf" , ["mageGuild1"]],
+                    "cost": {
+                        "ore" : 5,
+"wood" : 5,
+"gems" : 2,
+"crystal" : 2,
+"mercury" : 2,
+"sulfur" : 2,
+                        "gold" : 1500
+                    },
+"description" : "Library provides mage guild with additional spells.",
+					"name" : "Library",
+					"type" : "library"
+                },
+ "special4":                {
+                    "id" : 23,
+                    "requires": ["allOf" , ["mageGuild1"]],
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 1000
+                    },
+"description" : "The Statue of the Founder increases the Knowledge skill of any visiting hero by +1.",
+					"name" : "Statue of the Founder",
+					"type" : "knowledgeVisitingBonus"
+                },              
+//"grail": {
+ //                   "id" : 26,
+ //                   "mode" : "grail",
+//					"produce": {
+//					    "gold" : 5000
+//					},
+//"description" : "Skyship increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+//					"name" : "Skyship"
+ //               },
+ "dwellingLvl1":               {
+                    "id" : 30,
+                    "requires": ["allOf" , ["fort"]],
+                    "cost": {
+                        "gold" : 400
+                     
+                        
+                    },
+"description" : "The Habitat produces Halflings.",
+					"name" : "Habitat"
+                },
+"dwellingLvl2":                {
+                    "id" : 31,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 800
+                    },
+"description" : "The Pen produces Boars.",
+					"name" : "Pen"
+                },
+ "dwellingLvl3":               {
+                    "id" : 32,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 1500,
+                        "wood" : 5
+                    },
+"description" : "The Mushroom House produces Gnomes.",
+					"name" : "Mushroom House"
+                },
+"dwellingLvl4":                {
+                    "id" : 33,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 1500,
+                        "wood" : 5,
+						"ore" : 5
+                    },
+"description" : "The Foundry produces Iron Golems.",
+					"name" : "Foundry"
+                },
+  "dwellingLvl5":              {
+                    "id" : 34,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 3000,
+                        "wood" : 5
+                    },
+"description" : "The Cliff Nest produces Rocs.",
+					"name" : "Cliff Nest"
+                },
+"dwellingLvl6":                {
+                    "id" : 35,
+                    "requires": ["allOf" , ["dwellingLvl1"] , ["mageGuild1"]],
+                    "cost": {
+                        "gold" : 3000,
+                        "wood" : 5,
+                        "ore" : 5,
+						"gems" : 2,
+						"sulfur" : 2,
+						"crystal" : 2,
+						"mercury" : 2
+						
+                    },
+"description" : "The Ivory Tower produces Magi.",
+					"name" : "Ivory Tower"
+                },
+ "dwellingLvl7":               {
+                    "id" : 36,
+                    "requires": ["allOf" , ["dwellingLvl1"] , ["mageGuild1"]],
+                    "cost": {
+                        "gold" : 7500,
+                        "wood" : 5,
+                           "ore" : 5,
+                        "gems" : 10
+                    },
+"description" : "The Cloud Castle produces Giants.",
+					"name" : "Cloud Castle"
+                },
+
+
+"dwellingUpLvl4":                {
+                    "id" : 40,
+                    "upgrades" : "dwellingLvl4",
+                    "cost": {
+                        "gold" : 1500,
+                        "mercury" : 2
+                    },
+	"description" : "The Upg. Foundry produces Steel Golems.",
+					"name" : "Upg. Foundry"
+                },
+
+
+
+ "dwellingUpLvl6":               {
+                    "id" : 42,
+                    "upgrades" : "dwellingLvl6",
+                    "cost": {
+                        "gold" : 3000,
+                        "wood" : 5,
+                        "ore" : 5
+                    },
+"description" : "The Upg. Ivory Tower produces Arch Magi.",
+					"name" : "Upg. Ivory Tower"
+                },
+"dwellingUpLvl7":                {
+                    "id" : 43,
+                    "upgrades" : "dwellingLvl7",
+                    "cost": {
+                        "gold" : 16500,
+                        "gems" : 20,
+"ore" : 5,
+"wood" : 5
+                    },
+"description" : "The Upg. Cloud Castle produces Titans.",
+					"name" : "Upg. Cloud Castle"
+}
+            }
+        }
+    }
+}

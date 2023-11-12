@@ -1,0 +1,138 @@
+{
+	"core:log": {
+
+		"types": {
+			"sw08decorlogs": {
+				"name" : "Log",
+				"rmg": {
+					"zoneLimit" : 7,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"avldlog": {
+						"animation" : "sw08decor/log/avldlog",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"dirt", "swamp"
+						]
+					}
+
+
+				}
+
+			},
+			
+			"sw08decorstomps": {
+				"name" : "Stomps",
+				"rmg": {
+					"zoneLimit" : 7,
+					"value" : 100,
+					"rarity" : 100
+				},
+				"templates": {
+
+					"AVLp1sn0": {
+						"animation" : "sw08decor/log/AVLp1sn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVLp2sn0": {
+						"animation" : "sw08decor/log/AVLp2sn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVLsh4g0": {
+						"animation" : "sw08decor/log/AVLsh4g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"grass","dirt","swamp"
+						]
+					},
+					
+					"AVLsh4g01": {
+						"animation" : "sw08decor/log/AVLsh4g01",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"grass" 
+						]
+					},					
+					
+					"avlstm1": {
+						"animation" : "sw08decor/log/avlstm1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"grass","dirt","swamp"
+						]
+					},
+					"avlstm2": {
+						"animation" : "sw08decor/log/avlstm2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"grass","dirt","swamp"
+						]
+					},
+					"avlstm3": {
+						"animation" : "sw08decor/log/avlstm3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVSwdec4": {
+						"animation" : "sw08decor/log/AVSwdec4",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVSwdec5": {
+						"animation" : "sw08decor/log/AVSwdec5",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+
+
+				}
+
+			}			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+		}
+	}
+}

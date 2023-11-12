@@ -1,0 +1,75 @@
+{
+	"sw08sorceressSatyr":
+	{
+"name" :{"plural" : "Satyrs","singular" : "Satyr"},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 12
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08sorceressfaction",
+		"aiValue" : 433,
+		"attack" :8,
+
+		"cost" :
+		{
+			"gold" : 385
+		},
+		"damage" :
+		{
+			"max" : 9,
+			"min" : 6
+		},
+		"defense" : 7,
+		"fightValue" : 422,
+		"graphics" :
+		{
+			"animation" : "sw08sorceress-creatures/battle/c020styr",
+			"map" : "sw08sorceress-creatures/map/AVWSatyr",
+			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:22",
+			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:22",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			}
+			
+		},
+
+		"growth" : 4,
+		"hitPoints" : 30,
+		"horde" : 0,
+              	"level" : 4,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08sorceress/satyr/PEGAATTK.wav",
+"defend" :"sw08sorceress/satyr/PEGADFND.wav",
+"killed" :"sw08sorceress/satyr/PEGAKILL.wav",
+"move" :"sw08sorceress/satyr/PEGAMOVE",
+"wince" :"sw08sorceress/satyr/PEGAWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 6,
+		"abilities" :
+		{
+"ability1":
+{"type" : "SPELLCASTER",
+"subtype" : "spell.mirth",
+"val" : 1,
+"addInfo" : 100},
+"ability2":{"type" : "CREATURE_SPELL_POWER","val" : 200},
+"ability3":{"type" : "CASTS","val" : 3}				
+		}
+	}
+}

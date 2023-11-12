@@ -1,0 +1,77 @@
+{
+	"core:evilFog" : {
+		"types" : {
+
+
+
+
+			"sw08patch12" : {
+				"name" : "Evil Fog",
+				"battleground" : "sw08_hmm2_evil_fog",
+				"templates" : {
+				"AVXef0" : {
+						"animation" : "sw08Patches/patch12/AVXef0",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"allowedTerrains":["lava","dirt"]
+					},
+				"AVXef1" : {
+						"animation" : "sw08patches/patch12/AVXef1",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
+						"allowedTerrains":["lava","dirt"]
+					},
+
+				"AVXef2" : {
+						"animation" : "sw08Patches/patch12/AVXef2",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"allowedTerrains":["lava","dirt"]
+					},
+				"AVXef3" : {
+						"animation" : "sw08Patches/patch12/AVXef3",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
+						"allowedTerrains":["lava","dirt"]
+					},
+				"AVXef4" : {
+						"animation" : "sw08Patches/patch12/AVXef4",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
+						"allowedTerrains":["lava","dirt"]
+					},
+				"AVXef5" : {
+						"animation" : "sw08Patches/patch12/AVXef5",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVV", "VVV","VVV" ],
+						"allowedTerrains":["lava","dirt"]
+					},
+				"AVXef7" : {
+						"animation" : "sw08Patches/patch12/AVXef7",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"allowedTerrains":["lava","dirt"]
+					},
+				"AVXef6" : {
+						"animation" : "sw08Patches/patch12/AVXef6",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVV", "VVVVV" ],
+						"allowedTerrains":["lava","dirt"]
+					}
+
+
+					}
+
+				}
+
+
+
+
+
+}
+
+
+
+
+}
+}

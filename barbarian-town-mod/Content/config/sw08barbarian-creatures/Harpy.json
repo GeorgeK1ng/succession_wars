@@ -1,0 +1,90 @@
+{
+	"sw08barbarianHarpy":
+	{
+"name" :{"plural" : "Harpies","singular" : "Harpy"},
+		"advMapAmount" :
+		{
+			"max" : 26,
+			"min" : 14
+		},
+
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08barbarianfaction",
+		"aiValue" : 245,
+		"attack" : 6,
+
+		"cost" :
+		{
+			"gold" : 255
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" :4
+		},
+		"defense" : 4,
+		"fightValue" : 251,
+		"graphics" :
+		{
+			"animation" : "sw08barbarian-creatures/battle/c090harp",
+			"map" : "sw08barbarian-creatures/map/AVWogre0",
+			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:92",
+			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:92",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08barbarian-creatures/battle/PorchX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 12
+			}
+			
+		},
+
+		"growth" : 5,
+		"hitPoints" : 20,
+		"horde" : 0,
+              	"level" : 4,
+		"shots" :0,
+		"sound" :
+		{
+"attack" :"sw08barbarian/harpy/HARPATTK.wav",
+"defend" :"sw08barbarian/harpy/HARPDFND.wav",
+"killed" :"sw08barbarian/harpy/HARPKILL.wav",
+"move" :"sw08barbarian/harpy/HARPMOVE.wav",
+"wince" :"sw08barbarian/harpy/HARPWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 7,
+		"abilities" :
+		{
+"ability1":
+{
+"type" : "RETURN_AFTER_STRIKE"
+}
+					
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"sw08knightCrusader":
+	{
+"name" :{"plural" : "Crusaders","singular" : "Crusader"},
+		"advMapAmount" :
+		{
+			"max" : 14,
+			"min" : 10
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "sw08knight",
+		"aiValue" : 2776,
+		"attack" : 12,
+
+		"cost" :
+		{
+			"gold" : 1400
+		},
+		"damage" :
+		{
+			"max" : 24,
+			"min" : 12
+		},
+		"defense" :12,
+		"fightValue" : 2033,
+		"graphics" :
+		{
+			"animation" : "sw08knight-creatures/battle/c013upld",
+			"map" : "sw08knight-creatures/map/avwarch",
+			"iconSmall" : "sw08knight-creatures/cprsmall.def:15",
+			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:15",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 7
+			}
+			
+		},
+
+		"growth" : 2,
+		"hitPoints" : 90,
+		"horde" : 0,
+              	"level" : 7,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08knight/crusader/AAGLATTK.wav",
+"defend" :"sw08knight/crusader/AAGLDFND.wav",
+"killed" :"sw08knight/crusader/AAGLKILL.wav",
+"move" :"sw08knight/crusader/AAGLMOVE.wav",
+"wince" :"sw08knight/crusader/AAGLWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 8,
+		"abilities" :
+		{
+
+"ability1":{"type" : "ADDITIONAL_ATTACK","val" : 1},
+"ability2":{"type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE"}
+					
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"sw08witch" :
+	{
+		"name" : "Witch",
+		"town" :
+		{
+			"names" :
+			[
+				"Marshank",
+"Deadfall",
+"Coolmire",
+"Backwater",
+"Marshchoke",
+"Lostmoor",
+"Silt",
+"Deadwood",
+"Edgewater",
+"Stillbog",
+"Drakenmoor",
+"Hermit Cove",
+"Mosswood",
+"Marshwall",
+"Mossden",
+"Mudshire"
+			]
+		}
+	}
+}

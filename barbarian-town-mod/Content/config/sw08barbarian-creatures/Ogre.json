@@ -1,0 +1,88 @@
+{
+	"sw08barbarianOgre":
+	{
+"name" :{"plural" : "Ogres","singular" : "Ogre"},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+
+"upgrades":
+["sw08barbarianOgreLord"],
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08barbarianfaction",
+		"aiValue" : 497,
+		"attack" : 9,
+
+		"cost" :
+		{
+			"gold" : 315
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" :5
+		},
+		"defense" : 5,
+		"fightValue" : 468,
+		"graphics" :
+		{
+			"animation" : "sw08barbarian-creatures/battle/c092ogre",
+			"map" : "sw08barbarian-creatures/map/AVWroc0",
+			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:94",
+			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:94",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08barbarian-creatures/battle/PorchX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 12
+			}
+			
+		},
+
+		"growth" : 4,
+		"hitPoints" : 45,
+		"horde" : 0,
+              	"level" : 5,
+		"shots" :0,
+		"sound" :
+		{
+"attack" :"sw08barbarian/ogre/GENIATTK.wav",
+"defend" :"sw08barbarian/ogre/GENIDFND.wav",
+"killed" :"sw08barbarian/ogre/GENIKILL.wav",
+"move" :"sw08barbarian/ogre/GENIMOVE.wav",
+"wince" :"sw08barbarian/ogre/GENIWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 3,
+		"abilities" :
+		{
+
+					
+		}
+	}
+}

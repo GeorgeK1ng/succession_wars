@@ -1,0 +1,68 @@
+{
+    "sw08neutralAirMessenger": {
+        "name": {
+            "plural" : "Air Messengers",
+            "singular" : "Air Messenger"
+        },
+"advMapAmount" :		{			"max" : 10,
+			"min" : 8		},
+        "hasDoubleWeek": true,
+        "faction" : "sw08neutral",
+        "aiValue" : 775
+,
+        "attack" : 7,
+        "cost": {
+            "gold" : 750
+        },
+        "damage": {
+            "max" : 8,
+            "min" : 2
+        },
+        "defense" : 7,
+        "fightValue" : 775
+,
+        "graphics": {
+            "animation" : "sw08neutral-creatures/battle/ZM166GD",
+            "map" : "sw08neutral-creatures/map/AVWelma0",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:114",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:114",
+            "timeBetweenFidgets" : 1,
+            "animationTime": {
+                "idle" : 10,
+                "walk" : 1,
+                "attack" : 1
+                
+            }
+        },
+        "growth" : 2,
+        "hitPoints" : 35,
+        "level" : 6,
+        "shots" : 0,
+        "sound": {
+			"attack" : "sw08neutral/air elemental/AELMATTK.wav",
+			"defend" : "sw08neutral/air elemental/AELMDFND.wav",
+			"killed" : "sw08neutral/air elemental/AELMKILL.wav",
+			"move" : "sw08neutral/air elemental/AELMMOVE.wav",
+			"wince" : "sw08neutral/air elemental/AELMWNCE.wav",
+			"shoot" : "sw08neutral/air elemental/AELMSHOT.wav"
+        },
+        "speed" : 7,
+        "abilities": {
+   //         "ability1": {
+  //              "type" : "FLYING"
+     //       },
+            "ability2": {
+                "type" : "NON_LIVING"
+            },
+            "ability3": {
+                               "type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.air" 
+            },
+            "ability4": {
+                "type" : "SPELL_DAMAGE_REDUCTION",
+                "val" : 100,
+                "subtype" : "spellSchool.any"
+            }
+        }
+    }
+}

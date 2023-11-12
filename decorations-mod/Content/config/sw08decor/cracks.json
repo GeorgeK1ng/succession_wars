@@ -1,0 +1,570 @@
+{
+	"core:canyon": {
+
+		"types": {
+			"sw08cracks": {
+				"name" : "Cracks",
+				"rmg": {
+					"zoneLimit" : 3,
+					"value" : 100,
+					"rarity" : 50
+				},
+				"templates": {
+
+					"avclt3d0": {
+						"animation" : "sw08decor/cracks/avclt3d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"AVLb2f0": {
+						"animation" : "sw08decor/cracks/AVLb2f0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB","VBBB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"AVLb3f0": {
+						"animation" : "sw08decor/cracks/AVLb3f0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB","BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"zdec0013": {
+						"animation" : "sw08decor/cracks/zdec0013",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					
+						"AVLb4f0": {
+						"animation" : "sw08decor/cracks/AVLb4f0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB","VBBB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},				
+						"avlc10l0": {
+						"animation" : "sw08decor/cracks/avlc10l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},						
+						"avlc11l0": {
+						"animation" : "sw08decor/cracks/avlc11l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},							
+							"avlc12l0": {
+						"animation" : "sw08decor/cracks/avlc12l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},					
+							"avlc13l0": {
+						"animation" : "sw08decor/cracks/avlc13l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},							
+					
+							"avlc14l0": {
+						"animation" : "sw08decor/cracks/avlc14l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},						
+					
+							"avlct1d0": {
+						"animation" : "sw08decor/cracks/avlct1d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},						
+					
+							"AVLct1g0": {
+						"animation" : "sw08decor/cracks/AVLct1g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB","BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},						
+							"AVLct1l0": {
+						"animation" : "sw08decor/cracks/AVLct1l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB","BBBB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},					
+							"AVLct1r0": {
+						"animation" : "sw08decor/cracks/AVLct1r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB","BBB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},							
+							"AVLct1u0": {
+						"animation" : "sw08decor/cracks/AVLct1u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB","BBV"],
+
+						"allowedTerrains": [
+							"rough" 
+						]
+					},						
+							"avlct2d0": {
+						"animation" : "sw08decor/cracks/avlct2d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},							
+					
+							"AVLct2g0": {
+						"animation" : "sw08decor/cracks/AVLct2g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB","VVBB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},							
+							"AVLct2l0": {
+						"animation" : "sw08decor/cracks/AVLct2l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB","BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},					
+							"AVLct2r0": {
+						"animation" : "sw08decor/cracks/AVLct2r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB","BB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},						
+							"AVLct2u0": {
+						"animation" : "sw08decor/cracks/AVLct2u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"rough" 
+						]
+					},						
+							"avlct3d0": {
+						"animation" : "sw08decor/cracks/avlct3d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},							
+							"avlct3g0": {
+						"animation" : "sw08decor/cracks/avlct3g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBV","BBB","BBV"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},					
+					
+							"avlct3l0": {
+						"animation" : "sw08decor/cracks/avlct3l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},					
+					
+								"avlct3r0": {
+						"animation" : "sw08decor/cracks/avlct3r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},					
+					
+								"avlct3u0": {
+						"animation" : "sw08decor/cracks/avlct3u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB","BB"],
+
+						"allowedTerrains": [
+							"rough" 
+						]
+					},					
+					
+					
+								"avlct4d0": {
+						"animation" : "sw08decor/cracks/avlct4d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},							
+			
+					
+							"avlct4l0": {
+						"animation" : "sw08decor/cracks/avlct4l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},					
+					
+								"avlct4r0": {
+						"animation" : "sw08decor/cracks/avlct4r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},					
+					
+								"avlct4u0": {
+						"animation" : "sw08decor/cracks/avlct4u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBV","BBBB","VVBB"],
+
+						"allowedTerrains": [
+							"rough" 
+						]
+					},					
+					
+								"avlct5d0": {
+						"animation" : "sw08decor/cracks/avlct5d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},						
+							"avlct5l0": {
+						"animation" : "sw08decor/cracks/avlct5l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B","B"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},					
+					
+								"avlct5r0": {
+						"animation" : "sw08decor/cracks/avlct5r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},							
+					
+							"avlct6l0": {
+						"animation" : "sw08decor/cracks/avlct6l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B","B"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},						
+								"avlct6r0": {
+						"animation" : "sw08decor/cracks/avlct6r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},					
+							"avlct7l0": {
+						"animation" : "sw08decor/cracks/avlct7l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B","B"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},						
+								"avlct7r0": {
+						"animation" : "sw08decor/cracks/avlct7r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},						
+							"avlct8l0": {
+						"animation" : "sw08decor/cracks/avlct8l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["B","B"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},						
+								"avlct8r0": {
+						"animation" : "sw08decor/cracks/avlct8r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},						
+							"avlct9l0": {
+						"animation" : "sw08decor/cracks/avlct9l0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},						
+								"avlct9r0": {
+						"animation" : "sw08decor/cracks/avlct9r0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB","BB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					}						
+					
+,						
+								"newAVLct1g0": {
+						"animation" : "sw08decor/cracks/082/AVLct1g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VB","BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},						
+								"newAVLct1u0": {
+						"animation" : "sw08decor/cracks/082/AVLct1u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VBB","BBV"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},						
+								"newavlct2d0": {
+						"animation" : "sw08decor/cracks/082/avlct2d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},						
+								"newAVLct2u0": {
+						"animation" : "sw08decor/cracks/082/AVLct2u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},						
+								"newavlct3d0": {
+						"animation" : "sw08decor/cracks/082/avlct3d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},						
+								"newAVLct3u0": {
+						"animation" : "sw08decor/cracks/082/AVLct3u0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BV","BB","BV"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					}						
+					
+				}
+			},
+			
+			
+						"sw08canyon": {
+				"name" : "Crater",
+				"rmg": {
+					"zoneLimit" : 3,
+					"value" : 100,
+					"rarity" : 50
+				},
+				"templates": {
+
+					"AVLb1f0": {
+						"animation" : "sw08decor/crater/AVLb1f0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					
+					"AVLctds0": {
+						"animation" : "sw08decor/crater/AVLctds0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},					
+						"avlctrd0": {
+						"animation" : "sw08decor/crater/avlctrd0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},				
+						"AVLctrg0": {
+						"animation" : "sw08decor/crater/AVLctrg0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},						
+						"AVLctrl0": {
+						"animation" : "sw08decor/crater/AVLctrl0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"lava"
+						]
+					},						
+						"AVLctrr0": {
+						"animation" : "sw08decor/crater/AVLctrr0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					},						
+						"AVLctrs0": {
+						"animation" : "sw08decor/crater/AVLctrs0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"swamp"
+						]
+					},					
+						"AVLctsn0": {
+						"animation" : "sw08decor/crater/AVLctsn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"sand"
+						]
+					},						
+						"AVLglly0": {
+						"animation" : "sw08decor/crater/AVLglly0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},						
+						"AVLspit0": {
+						"animation" : "sw08decor/crater/AVLspit0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"sand"
+						]
+					},						
+						"avlctrd01": {
+						"animation" : "sw08decor/crater/avlctrd01",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					}							
+					
+					
+					
+					
+				} }
+
+
+		}
+	}
+}

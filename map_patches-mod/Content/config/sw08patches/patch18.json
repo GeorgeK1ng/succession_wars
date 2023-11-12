@@ -1,0 +1,35 @@
+{
+	"core:magicPlains" : {
+		"types" : {
+
+
+
+
+			"sw08patch18" : {
+				"name" : "Holy Ground",
+				"battleground" : "sw08_hmm2_holy_ground",
+				"templates" : {
+
+				"AVXplns0" : {
+						"animation" : "sw08patches/patch18/AVXplns0",
+					"visitableFrom" : [ "+++", "+++", "+++" ], 						
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
+						"allowedTerrains":["grass"]
+					}
+
+
+					}
+
+				}
+
+
+
+
+
+}
+
+
+
+
+}
+}

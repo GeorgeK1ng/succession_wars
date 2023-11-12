@@ -1,0 +1,45 @@
+{	"sw08neutralWaterMessenger":	{"name" :{"plural" : "Water Messengers","singular" : "Water Messenger"},
+		"advMapAmount" :		{			"max" : 10,
+			"min" : 8		},
+	"hasDoubleWeek": true,
+		"faction" : "sw08neutral",
+		"aiValue" : 775
+,
+		"attack" : 6,
+		"cost" :		{			"gold" : 750		},
+		"damage" :		{			"max" : 7,
+			"min" : 3		},
+		"defense" : 8,
+		"fightValue" : 775
+,
+		"graphics" :		{			
+		"animation" : "sw08neutral-creatures/battle/ZM167GD",
+			"map" : "sw08neutral-creatures/map/AVWelmw0",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:117",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:117",
+			
+						"timeBetweenFidgets" : 1,
+			"animationTime" :			{
+                "idle" : 10,
+                "walk" : 1,
+                "attack" : 1
+                			}		},
+		"growth" : 2,
+		"hitPoints" : 45,
+		"level" : 6,
+		"shots" : 0,
+		"sound" :		{//"attack" : "",
+//"defend" : "",
+//"killed" : "",
+//"move" : "",
+//"wince" : "",
+//"shoot" :""
+},
+		"speed" :5,
+		"abilities":{
+		//"ability1":{"type" : "FLYING"},
+		"ability2":{"type" : "NON_LIVING"},
+		"ability3":{"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"},
+		"ability4":{"type" : "SPELL_DAMAGE_REDUCTION","val" : 100,"subtype" : "spellSchool.water"}
+		}	} }

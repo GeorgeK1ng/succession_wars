@@ -1,0 +1,96 @@
+{
+	"sw08warlockGreenDragon":
+	{
+"name" :{"plural" : "Green Dragons","singular" : "Green Dragon"},
+		"advMapAmount" :
+		{
+			"max" : 7,
+			"min" : 4
+		},
+"upgrades":
+["sw08warlockRedDragon"],
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "swsw08warlockfaction",
+		"aiValue" : 4062,
+		"attack" : 12,
+
+		"cost" :
+		{
+			"gold" :3000,
+"sulfur" : 1
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 25
+		},
+		"defense" : 12,
+		"fightValue" : 3231,
+		"graphics" :
+		{
+			"animation" : "sw08warlock-creatures/battle/c081drg1",
+			"map" : "sw08warlock-creatures/map/AVWmanx0",
+			"iconSmall" : "sw08warlock-creatures/cprsmall.def:83",
+			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:83",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08warlock-creatures/battle/CPRZEAX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 9
+			}
+			
+		},
+
+		"growth" :1,
+		"hitPoints" : 200,
+		"horde" : 0,
+              	"level" : 7,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08warlock/green dragon/GHDRATTK",
+"defend" :"sw08warlock/green dragon/GHDRDFND",
+"killed" :"sw08warlock/green dragon/GHDRKILL",
+"move" :"sw08warlock/green dragon/GHDRMOVE",
+"wince" :"sw08warlock/green dragon/GHDRWNCE",
+"shoot" :"sw08warlock/green dragon/GHDRATTK"
+
+},
+		"speed" : 10,
+		"abilities" :
+		{
+"ability1":
+{"type" : "TWO_HEX_ATTACK_BREATH"},
+"ability2":
+{"type" : "DRAGON_NATURE"},
+"ability3":
+{"type" : "KING", "val" : 1, "valueType" : "ADDITIVE_VALUE"},
+"ability4":{"type" : "FLYING"},
+"ability5":
+{"type" : "LEVEL_SPELL_IMMUNITY",
+"val" : 3}					
+		}
+	}
+}

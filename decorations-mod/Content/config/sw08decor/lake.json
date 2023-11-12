@@ -1,0 +1,202 @@
+{
+	"core:lake": {
+
+		"types": {
+			"sw08lake01": {
+				"name" : "Lake",
+				"rmg": {
+					"zoneLimit" : 1,
+					"value" : 100,
+					"rarity" : 50
+				},
+				"templates": {
+
+					"AVEwwhl0": {
+						"animation" : "sw08decor/lake/AVEwwhl0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBVV", "BBBBV", "BBBBB"],
+
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"AVEwwsn0": {
+						"animation" : "sw08decor/lake/AVEwwsn0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB", "BBB", "BBB"],
+
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"AVLflk10": {
+						"animation" : "sw08decor/lake/AVLflk10",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBBV", "VBBBB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					
+					"newAVLflk10": {
+						"animation" : "sw08decor/lake/082/AVLflk10",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBBV", "VBBBB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},					
+					
+					"AVLflk20": {
+						"animation" : "sw08decor/lake/AVLflk20",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVLflk30": {
+						"animation" : "sw08decor/lake/AVLflk30",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+
+					"avllk1d0": {
+						"animation" : "sw08decor/lake/avllk1d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB","BBBB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"avllk1g0": {
+						"animation" : "sw08decor/lake/avllk1g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VVVVV","BBBBB","BBBBB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avllk1s0": {
+						"animation" : "sw08decor/lake/avllk1s0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VBBV","BBBV","BBBV"],
+
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"avllk2d0": {
+						"animation" : "sw08decor/lake/avllk2d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},					
+					"avllk2g0": {
+						"animation" : "sw08decor/lake/avllk2g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB","BBBB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},						
+					"avllk2s0": {
+						"animation" : "sw08decor/lake/avllk2s0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBB","BBBB"],
+
+						"allowedTerrains": [
+							"swamp"
+						]
+					},					
+					"avllk3d0": {
+						"animation" : "sw08decor/lake/avllk3d0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VBBBBBBBB","VBBBBBBBV"],
+
+						"allowedTerrains": [
+							"dirt"
+						]
+					},						
+						"avllk3g0": {
+						"animation" : "sw08decor/lake/avllk3g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},					
+					"avllk3s0": {
+						"animation" : "sw08decor/lake/avllk3s0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BBBBBBV","BBBBBBB","BBBBBBB"],
+
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+						"avllk4g0": {
+						"animation" : "sw08decor/lake/avllk4g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV","BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},					
+						"avllk5g0": {
+						"animation" : "sw08decor/lake/avllk5g0",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["BB"],
+
+						"allowedTerrains": [
+							"grass"
+						]
+					},						
+					
+					
+							"AVLllk20": {
+						"animation" : "sw08decor/lake/AVLllk20",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VBBBVV","BBBBBB","VBBBBV"],
+
+						"allowedTerrains": [
+							"rough"
+						]
+					}					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				}
+			}
+
+
+
+
+		}
+	}
+}

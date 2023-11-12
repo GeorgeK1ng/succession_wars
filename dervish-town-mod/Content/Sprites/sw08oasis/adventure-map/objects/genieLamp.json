@@ -1,0 +1,397 @@
+{
+	"configurableObjectEggOfTheDragon": {
+		"name" : "Dragon Egg",
+		"handler" : "configurable",
+		"base": {
+			"sounds": {
+				"visit": ["CHEST"],
+				"removal": ["PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07"]
+			}
+		},
+
+		"types": {
+				"eggsDragonEgg01": {
+				"name" : "Dragon Egg",
+				"rmg": {
+					"value" : 2000,
+					"rarity" : 100
+				},
+				
+				
+				"rewards": [
+					{
+						"appearChance": {
+							"dice" : 1,
+
+							"min" : 0,
+							"max" : 30
+						},
+
+					"creatures" : [
+						{
+							"type" : "redDragon",
+							"upgradeChance" : 30,
+							"amount" : 1
+						}
+					],
+						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance" : 100,
+						"removeObject" : true
+					},
+					{
+						"appearChance": {
+							"dice" : 1,
+
+							"min" : 30,
+							"max" : 60
+						},
+
+					"creatures" : [
+						{
+							"type" : "greenDragon",
+							"upgradeChance" : 30,
+							"amount" : 1
+						}
+					],
+						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance" : 100,
+						"removeObject" : true
+					},
+ 				
+ 					{
+						"appearChance": {
+							"dice" : 1,
+
+							"min" : 60,
+							"max" :  70
+						},
+
+					"creatures" : [
+						{
+							"type" : "rustDragon",
+							 "upgradeChance" : 30,
+							"amount" : 1
+						}
+					],
+					"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance" : 100,
+						"removeObject" : true
+					},
+ 					{
+						"appearChance": {
+							"dice" : 1,
+
+							"min" : 70,
+							"max" :  90
+						},
+
+					"creatures" : [
+						{
+							"type" : "fairieDragon",
+							 "upgradeChance" : 30,
+							"amount" : 1
+						}
+					],
+						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance" : 100,
+						"removeObject" : true
+					},					
+ 					{
+						"appearChance": {
+							"dice" : 1,
+
+							"min" : 90,
+							"max" :  100
+						},
+
+					"creatures" : [
+						{
+							"type" : "azureDragon",
+							 "upgradeChance" : 30,
+							"amount" : 1
+						}
+					],
+						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance" : 100,
+						"removeObject" : true
+					},
+				],
+				"blockedVisitable" : true,
+		 
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+ 
+				
+				"templates": {
+
+					"FALME001": {
+						"animation" : "newconf-objects/egg/FALME001",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"sand", "rough", "dirt", "swamp", "subterra", "grass"
+						]
+					},
+					"FALME002": {
+						"animation" : "newconf-objects/egg/FALME002",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"sand", "rough", "dirt", "swamp", "subterra", "grass"
+						]
+					},
+					"FALME003": {
+						"animation" : "newconf-objects/egg/FALME003",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"sand", "rough", "dirt", "swamp", "subterra", "grass", "lava"
+						]
+					},
+					"FALME004": {
+						"animation" : "newconf-objects/egg/FALME004",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"sand", "rough", "dirt", "swamp", "subterra", "grass", "lava"
+						]
+					},
+					"FALME005": {
+						"animation" : "newconf-objects/egg/FALME005",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"sand", "rough", "dirt", "swamp", "subterra", "grass"
+						]
+					},
+					"FALME006": {
+						"animation" : "newconf-objects/egg/FALME006",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"sand", "rough", "dirt", "swamp", "subterra", "grass"
+						]
+					},
+					"FALME007": {
+						"animation" : "newconf-objects/egg/FALME007",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"sand", "rough", "dirt", "swamp", "subterra"
+						]
+					},
+ 
+					"CrDrgEgg": {
+						"animation" : "newconf-objects/egg/CrDrgEgg",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DiDrgEgg": {
+						"animation" : "newconf-objects/egg/DiDrgEgg",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DragEgg1": {
+						"animation" : "newconf-objects/egg/DragEgg1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DragEgg2": {
+						"animation" : "newconf-objects/egg/DragEgg2",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DragEgg3": {
+						"animation" : "newconf-objects/egg/DragEgg3",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DragEgg4": {
+						"animation" : "newconf-objects/egg/DragEgg4",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DragEgg5": {
+						"animation" : "newconf-objects/egg/DragEgg5",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DragEgg6": {
+						"animation" : "newconf-objects/egg/DragEgg6",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DragEgg7": {
+						"animation" : "newconf-objects/egg/DragEgg7",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					}
+ 
+
+
+
+
+				}
+
+
+			},
+			
+				"eggsCrystalDragonEgg01": {
+				"name" : "Crystal Dragon Egg",
+				"rmg": {
+					"value" : 2500,
+					"rarity" : 100
+				},
+				
+			"rewards": [
+					{
+ 
+
+					"creatures" : [
+						{
+							"type" : "crystalDragon",
+							"upgradeChance" : 30,
+							"amount" : 1
+						}
+					],
+						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance" : 100,
+						"removeObject" : true
+					} 
+ 
+				],
+				"blockedVisitable" : true,
+		 
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+ 				
+				
+				
+				"templates": {
+ 
+					"CrDrgEgg": {
+						"animation" : "newconf-objects/egg/CrDrgEgg",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					},
+					"DiDrgEgg": {
+						"animation" : "newconf-objects/egg/DiDrgEgg",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VV", "VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					}
+	 
+
+
+
+				}
+
+
+			},
+			
+							"eggsWyvernDragonEgg01": {
+				"name" : "Wyvern Dragon Egg",
+				"rmg": {
+					"value" : 700,
+					"rarity" : 100
+				},
+				
+								
+			"rewards": [
+					{
+ 
+
+					"creatures" : [
+						{
+							"type" : "wyvern",
+							"upgradeChance" : 30,
+							"amount" : 1
+						}
+					],
+						"message" : "You have found a wyvern egg. You put it in a warm place and after a few hours wyvern hatches from it, recognizing you as her parent.",
+						"selectChance" : 100,
+						"removeObject" : true
+					} 
+ 
+				],
+				"blockedVisitable" : true,
+		 
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+ 				
+				
+				"templates": {
+ 
+					"WyvEgg1": {
+						"animation" : "newconf-objects/egg/WyvEgg1",
+						"visitableFrom": ["---", "+++", "+++"],
+						"mask": ["VA"],
+
+						"allowedTerrains": [
+							"dirt", "rough", "swamp", "subterra"
+						]
+					}
+	 
+
+
+
+				}
+
+
+			}
+
+		}
+	}
+
+
+}

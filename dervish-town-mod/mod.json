@@ -1,0 +1,54 @@
+{
+	"name" : "SW Beta 0.81 - Gypsy Town",
+	"description" : "Gypsy Town",
+	
+"version" : "0.0.1",
+"author" : "author",
+"contact" : "none",
+"modType" : "Town",
+	"depends" :
+	[
+	"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	],
+"factions" :
+	[
+		"config/sw08oasis/buildings.json",
+		"config/sw08oasis/faction.json",
+		"config/sw08oasis/siege.json",
+		"config/sw08oasis/spells.json",
+		"config/sw08oasis/structures.json",
+		"config/sw08oasis/puzzle.json",
+		"config/sw08oasis/texts.json"
+	],
+
+	"creatures" :
+	[
+"config/sw08oasis-creatures/Acolyte.json",
+"config/sw08oasis-creatures/Anubite.json",
+"config/sw08oasis-creatures/Genie.json",
+"config/sw08oasis-creatures/Manticore.json",
+"config/sw08oasis-creatures/Marauder.json",
+"config/sw08oasis-creatures/Medusa Queen.json",
+"config/sw08oasis-creatures/Medusa.json",
+"config/sw08oasis-creatures/Nomad.json",
+"config/sw08oasis-creatures/Rogue.json",
+
+
+
+
+	],
+"heroClasses" :
+	[
+	"config/sw08oasis-heroes/dervish.json"
+	],
+	"heroes" :
+	[	   
+"config/sw08oasis-heroes/dervish_heroes.json"
+	],
+	"objects":
+	[
+	"config/sw08oasis/dwellings.json",
+	"config/sw08oasis/banks.json",
+	"config/sw08oasis/genieLamp.json",
+	]
+}

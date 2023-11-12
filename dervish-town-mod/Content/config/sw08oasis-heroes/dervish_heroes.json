@@ -1,0 +1,1280 @@
+{
+	"sw08oasisDerwish01" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Joseph",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Maxed Fireball",
+				"tooltip" : "Casts Fireball with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Maxed Fireball"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:128",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:128",
+			"large" : "sw08oasis-heroes/port/HPL000PL",
+			"small" : "sw08oasis-heroes/port/HPS000PL"
+		},
+		"spellbook":["fireball"],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty": //+350 gold
+		
+			{
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.fireball"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+		"sw08oasisDerwish02" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Elderian",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Maxed Haste",
+				"tooltip" : "Casts Haste with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Maxed Haste"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:129",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:129",
+			"large" : "sw08oasis-heroes/port/HPL001PL",
+			"small" : "sw08oasis-heroes/port/HPS001PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty": //+350 gold
+		
+			{
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.haste"
+					}
+				}
+			}
+		
+	},
+	
+			"sw08oasisDerwish03" :
+	{
+		"female" : true,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Cyrca",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Medusas or Medusa Queens",
+				"tooltip" : "Increases the Attack and Defense skills of any Medusas or Medusa Queens for each level attained after 4th level.",
+				"name" : "Medusas or Medusa Queens"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:130",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:130",
+			"large" : "sw08oasis-heroes/port/HPL002PL",
+			"small" : "sw08oasis-heroes/port/HPS002PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisMedusa",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "sw08oasisMedusa"
+			}
+		
+	},
+	
+	
+			"sw08oasisDerwish04" :
+	{
+		"female" : true,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Martine",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Rogues or Bandits",
+				"tooltip" : "Increases the Attack and Defense skills of any Rogues or Bandits for each level attained after 1st level.",
+				"name" : "Rogues or Bandits"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:131",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:131",
+			"large" : "sw08oasis-heroes/port/HPL003PL",
+			"small" : "sw08oasis-heroes/port/HPS003PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "sw08oasisRogue"
+			}
+		
+	},
+	
+			"sw08oasisDerwish05" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Jarkonas",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Nomads",
+				"tooltip" : "Increases the Attack and Defense skills of any Nomads for each level attained after 3rd level.",
+				"name" : "Nomads"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:132",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:132",
+			"large" : "sw08oasis-heroes/port/HPL004PL",
+			"small" : "sw08oasis-heroes/port/HPS004PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			},
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "sw08oasisNomad"
+			}
+		
+	},
+	
+	
+			"sw08oasisDerwish06" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Ibn Fadlan",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Mana regeneration",
+				"tooltip" : "Receives a level-dependent bonus to mana regeneration.",
+				"name" : "ana regeneration"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:133",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:133",
+			"large" : "sw08oasis-heroes/port/HPL005PL",
+			"small" : "sw08oasis-heroes/port/HPS005PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "MANA_REGENERATION",
+						"val" : 1,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+		
+			"sw08oasisDerwish07" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Ivan",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Magic Resistance",
+				"tooltip" : "Receives a 5% per level bonus to Magic Resistance skill percentage.",
+				"name" : "Magic Resistance"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:134",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:134",
+			"large" : "sw08oasis-heroes/port/HPL006PL",
+			"small" : "sw08oasis-heroes/port/HPS006PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+		 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "MAGIC_RESISTANCE",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+				"sw08oasisDerwish08" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Cagan",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Sorcery",
+				"tooltip" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:135",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:135",
+			"large" : "sw08oasis-heroes/port/HPL007PL",
+			"small" : "sw08oasis-heroes/port/HPS007PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL_DAMAGE",
+						"subtype" :  "spellSchool.any", "valueType":"PERCENT_TO_BASE"  ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+					"sw08oasisDerwish08A" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Logrim",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Sorcery",
+				"tooltip" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"name" : "Sorcery"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:135",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:135",
+			"large" : "sw08oasis-heroes/port/082/HPL007PL",
+			"small" : "sw08oasis-heroes/port/082/HPS007PL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+				 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL_DAMAGE",
+						"subtype" :  "spellSchool.any", "valueType":"PERCENT_TO_BASE"  ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+					"sw08oasisDerwish09" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Marcus",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Intelligence",
+				"tooltip" : "Receives a 5% per level bonus to Intelligence skill percentage.",
+				"name" : "Intelligence"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:136",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:136",
+			"large" : "sw08oasis-heroes/port/HPL000EL",
+			"small" : "sw08oasis-heroes/port/HPS000EL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "MANA_PER_KNOWLEDGE",
+ "valueType" : "PERCENT_TO_TARGET_TYPE", "targetSourceType" : "SECONDARY_SKILL" ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+						"sw08oasisDerwish10" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Xerx",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Anubites",
+				"tooltip" : "Increases the Attack and Defense skills of any Anubites for each level attained after 6th level.",
+				"name" : "Anubites"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:137",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:137",
+			"large" : "sw08oasis-heroes/port/HPL001EL",
+			"small" : "sw08oasis-heroes/port/HPS001EL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "sw08oasisAnubite"
+				 
+			}
+		
+	},
+	
+"sw08oasisDerwish11" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Sulman",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Acolytes",
+				"tooltip" : "Increases the Attack and Defense skills of any Acolytes for each level attained after 2nd level.",
+				"name" : "Acolytes"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:138",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:138",
+			"large" : "sw08oasis-heroes/port/HPL002EL",
+			"small" : "sw08oasis-heroes/port/HPS002EL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "sw08oasisAcolyte"
+			}
+		
+	},
+	
+	"sw08oasisDerwish12" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Thane",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Ballista",
+				"tooltip" : "Increases the Attack and Defense skills of any Ballista for each level attained after 4th level.",
+				"name" : "Ballista"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:139",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:139",
+			"large" : "sw08oasis-heroes/port/HPL003EL",
+			"small" : "sw08oasis-heroes/port/HPS003EL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "ballista"
+			}
+		
+	},
+	
+	
+	
+		"sw08oasisDerwish13" :
+	{
+		"female" : true,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Dahlia",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Manticores",
+				"tooltip" : "Increases the Attack and Defense skills of any Manticores for each level attained after 5th level.",
+				"name" : "Manticores"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:140",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:140",
+			"large" : "sw08oasis-heroes/port/HPL004EL",
+			"small" : "sw08oasis-heroes/port/HPS004EL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "sw08oasisManticore"
+				 
+			}
+		
+	},
+	
+			"sw08oasisDerwish14" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Tumur",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Offense",
+				"tooltip" : "Receives a 5% per level bonus to Offense skill percentage.",
+				"name" : "Offense"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:141",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:141",
+			"large" : "sw08oasis-heroes/port/HPL005EL",
+			"small" : "sw08oasis-heroes/port/HPS005EL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" :  "damageTypeMelee", "valueType" : "ADDITIVE_VALUE" ,
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+			"sw08oasisDerwish15" :
+	{
+		"female" : true,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Ethania",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Cure",
+				"tooltip" : "Casts Cure with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units).",
+				"name" : "Cure"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:142",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:142",
+			"large" : "sw08oasis-heroes/port/HPL006EL",
+			"small" : "sw08oasis-heroes/port/HPS006EL"
+		},
+		"spellbook":["cure"],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		
+		"specialty": //+350 gold
+		
+			{
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "SPELL", "val" : 3, "valueType" : "INDEPENDENT_MAX",
+						"subtype" : "spell.cure"
+					}
+				}
+			}
+		
+	},
+	
+	
+	
+				"sw08oasisDerwish16" :
+	{
+		"female" : true,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Draconia",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Estates",
+				"tooltip" : "Receives a 5% per level bonus to Estates skill percentage.",
+				"name" : "Estates"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:143",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:143",
+			"large" : "sw08oasis-heroes/port/HPL007EL",
+			"small" : "sw08oasis-heroes/port/HPS007EL"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "GENERATE_RESOURCE", "subtype" : "resource.gold", "valueType" : "PERCENT_TO_ALL",
+						"val" : 5,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+	
+				"sw08oasisDerwish17New" :
+	{
+		"female" : true,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Hatshesup",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Intelligence",
+				"tooltip" : "Receives a 6% per level bonus to Intelligence skill percentage.",
+				"name" : "Intelligence"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:136",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:136",
+			"large" : "sw08oasis-heroes/port/new/seer10L",
+			"small" : "sw08oasis-heroes/port/new/seer10S"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisAcolyte",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+	 		"specialty": 
+		
+			{
+			 
+				"bonuses":
+				{
+					
+ "ability1" : {
+						"type" : "MANA_PER_KNOWLEDGE",
+ "valueType" : "PERCENT_TO_TARGET_TYPE", "targetSourceType" : "SECONDARY_SKILL" ,
+						"val" : 6,
+"updater" : "TIMES_HERO_LEVEL"
+					}
+
+				}
+			}
+		
+	},
+	
+	
+				"sw08oasisDerwish18New" :
+	{
+		"female" : false,
+		"class" : "swsw08oasis",
+		"texts" :
+		{
+			"name" : "Akbar",
+			"biography" : "no bio yet",
+			"specialty" :
+			{
+				"description" : "Nomads",
+				"tooltip" : "Increases the Attack and Defense skills of any Nomads for each level attained after 3rd level.",
+				"name" : "Nomads"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "sw08oasis-heroes/UN32.def:132",
+			"specialtyLarge" : "sw08oasis-heroes/UN44.def:132",
+			"large" : "sw08oasis-heroes/port/new/Nomad01L",
+			"small" : "sw08oasis-heroes/port/new/Nomad01S"
+		},
+		"spellbook":[],
+		"army" :
+		[
+			{
+				"creature" : "sw08oasisRogue",
+				"max" : 16,
+				"min" : 8
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			},
+			{
+				"creature" : "sw08oasisNomad",
+				"max" : 3,
+				"min" : 2
+			},
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			}
+		],
+		
+		"specialty": 
+		
+			{
+				"creature" : "sw08oasisNomad"
+			}
+		
+	},
+	
+}

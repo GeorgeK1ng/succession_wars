@@ -1,0 +1,89 @@
+{
+	"sw08warlockHydra":
+	{
+"name" :{"plural" : "Hydras","singular" : "Hydra"},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 7
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "swsw08warlockfaction",
+		"aiValue" : 1107,
+		"attack" : 8,
+
+		"cost" :
+		{
+			"gold" :865
+		},
+		"damage" :
+		{
+			"max" : 14,
+			"min" : 7
+		},
+		"defense" : 9,
+		"fightValue" : 961,
+		"graphics" :
+		{
+			"animation" : "sw08warlock-creatures/battle/c080hydr",
+			"map" : "sw08warlock-creatures/map/AVWmant0",
+			"iconSmall" : "sw08warlock-creatures/cprsmall.def:82",
+			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:82",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08warlock-creatures/battle/CPRZEAX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 9
+			}
+			
+		},
+
+		"growth" :2,
+		"hitPoints" : 90,
+		"horde" : 0,
+              	"level" : 6,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08warlock/hydra/MANTATTK.wav",
+"defend" :"sw08warlock/hydra/MANTDFND.wav",
+"killed" :"sw08warlock/hydra/MANTKILL.wav",
+"move" :"sw08warlock/hydra/MANTMOVE.wav",
+"wince" :"sw08warlock/hydra/MANTWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" : 3,
+		"abilities" :
+		{
+"ability1":
+{"type" : "ATTACKS_ALL_ADJACENT"},
+"ability2":
+{"type" : "BLOCKS_RETALIATION"}
+					
+		}
+	}
+}

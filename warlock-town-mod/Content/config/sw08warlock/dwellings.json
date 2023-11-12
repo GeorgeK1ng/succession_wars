@@ -1,0 +1,132 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"sw08warlockLevel1" : {
+				"name" : "Centaur Cave",
+				"creatures" : [[ "sw08warlockCentaur" ]],
+//				"guards" : [
+//					{ "amount" : 50, "type" : "sw08warlockCentaur" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGtrog0",
+						"mask" : ["VBA" ],
+						"allowedTerrains":["dirt","sand","swamp","rough","grass","lava","subterra"]
+					},
+					"defaultS" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGtrog1",
+						"mask" : ["AB" ],
+						"allowedTerrains":["snow"]
+					},
+					"defaultS2" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGboar",
+						"mask" : ["BA" ],
+						"allowedTerrains":["snow"]
+					}							
+				}
+			},
+			"sw08warlockLevel2" : {
+				"name" : "Crypt",
+				"creatures" : [[ "sw08warlockGargoyle" ]],
+//				"guards" : [
+//					{ "amount" : 30, "type" : "sw08warlockGargoyle" }
+//				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGharp0",
+						"mask" : ["VVV","VBA"]
+					},
+										"default2" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGharp1",
+						"mask" : ["VV","VA"]
+					}
+				}
+			},
+			"sw08warlockLevel3" : {
+				"name" : "Nest",
+				"creatures" : [[ "sw08warlockGriffin" ]],
+//				"guards" : [
+//					{ "amount" : 22, "type" : "sw08warlockGriffin" }
+//				],
+				"templates" : {
+					"default" : {	
+						"animation" : "sw08warlock/Adventure-Map/AVGbhld0",
+						"mask" : [ "VVV","VBA" ]
+					},
+										"default2" : {	
+						"animation" : "sw08warlock/Adventure-Map/AVGbhld1",
+						"mask" : [ "VV","VA" ]
+					}
+				}
+			},
+			"sw08warlockLevel4" : {
+				"name" : "Dungeon",
+				"creatures" : [[ "sw08warlockBeholder" ]],
+				"guards" : [
+					{ "amount" : 16, "type" : "sw08warlockBeholder" }
+				],
+				"templates" : {
+					"PALM157" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGmdsa0",
+						"mask" : ["VVV","VBA" ]
+					}
+				}
+			},
+			"sw08warlockLevel5" : {
+				"name" : "Maze",
+				"creatures" : [[ "sw08warlockMinotaur" ]],
+				"guards" : [
+					{ "amount" : 12, "type" : "sw08warlockMinotaur" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08warlock/Adventure-Map/avgminb",
+						"mask" : [ "VVV","VBA"]
+					}
+				}
+			},
+			"sw08warlockLevel6" : {
+				"name" : "Swamp",
+				"creatures" : [[ "sw08warlockHydra" ]],
+				"guards" : [
+					{ "amount" : 6, "type" : "sw08warlockHydra" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGmant0",
+						"mask" : ["VVV","VBA" ]
+					}
+				}
+			},
+			"sw08warlockLevel7L1" : {
+				"name" : "Black Tower",
+				"creatures" : [[ "sw08warlockGreenDragon" ]],
+				"guards" : [
+					{ "amount" : 3, "type" : "sw08warlockGreenDragon" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08warlock/Adventure-Map/AVGrdrg0",
+						"mask" : [ "VVV","VVV","VBA" ]
+					}
+				}
+			},
+			"sw08warlockLevel7L3" : {
+				"name" : "Adv. Black Tower",
+				"creatures" : [[ "sw08warlockBlackDragon" ]],
+				"guards" : [
+					{ "amount" : 3, "type" : "sw08warlockBlackDragon" }
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "sw08warlock/Adventure-Map/avcprmd0",
+						"mask" : [ "VVVV","VVVV","VBBA" ]
+					}
+				}
+			}
+			
+	}
+
+
+}
+}

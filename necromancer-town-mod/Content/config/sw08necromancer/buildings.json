@@ -1,0 +1,429 @@
+{
+    "swsw08necromancerfaction": {
+        "town": {
+          "buildings": {
+
+"mageGuild1":
+                {
+                    "id" : 0,
+                    "cost": {
+                        "wood" : 5,
+                        "ore" : 5,
+                        "gold" : 2000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1"
+                },
+"mageGuild2":
+                {
+                    "id" : 1,
+                    "upgrades" : "mageGuild1",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 4,
+                        "ore" : 5,
+                        "sulfur" : 4,
+                        "crystal" : 4,
+                        "gems" : 4,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2"
+                },
+"mageGuild3":                {
+                    "id" : 2,
+                    "upgrades" : "mageGuild2",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 6,
+                        "ore" : 5,
+                        "sulfur" : 6,
+                        "crystal" : 6,
+                        "gems" : 6,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3"
+                },
+"mageGuild4":                {
+                    "id" : 3,
+                    "upgrades" : "mageGuild3",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 8,
+                        "ore" : 5,
+                        "sulfur" : 8,
+                        "crystal" : 8,
+                        "gems" : 8,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4"
+                },
+"mageGuild5":                {
+                    "id" : 4,
+                    "upgrades" : "mageGuild4",
+                    "cost": {
+                        "wood" : 5,
+                        "mercury" : 10,
+                        "ore" : 5,
+                        "sulfur" : 10,
+                        "crystal" : 10,
+                        "gems" : 10,
+                        "gold" : 1000
+                    },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5"
+                },
+"tavern":                {
+                    "id" : 5,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 500
+                    },
+					"name" : "Tavern",
+					"description" : "The Tavern provides hiring of heroes."
+                },
+"shipyard":{ "id" : 6,
+                    "cost": {
+                        "wood" : 15,
+                  
+                        "gold" : 2000
+                    },
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships."
+},
+"fort":                {
+                    "id" : 7,
+                    "cost": {
+                        "wood" : 20,
+                        "ore" : 20,
+                        "gold" : 5000
+                    },
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls."
+                },
+"citadel":                {
+                    "id" : 8,
+                    "upgrades" : "fort",
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 2500
+                    },
+"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+                },
+"castle":                {
+                    "id" : 9,
+                    "upgrades" : "citadel",
+                    "cost": {
+                        "wood" : 10,
+                        "ore" : 10,
+                        "gold" : 5000
+                    },
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+                },
+"villageHall":                {
+                    "id" : 10,
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 500
+                    },
+					"produce": {
+					    "gold" : 500
+					},
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+                },
+"townHall":                {
+                    "id" : 11,
+                    "upgrades" : "villageHall",
+                    "requires": ["allOf" , ["tavern"]],
+                    "cost": {
+                        "gold" : 2500
+                    },
+					"produce": {
+					    "gold" : 1000
+					},
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+                },
+"cityHall":                {
+                    "id" : 12,
+                    "upgrades" : "townHall",
+                    "requires": ["allOf" , ["mageGuild1"] , ["marketplace"] , ["blacksmith"]],
+                    "cost": {
+                        "gold" : 5000
+                    },
+					"produce": {
+					    "gold" : 2000
+					},
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+                },
+"capitol":                {
+                    "id" : 13,
+                    "upgrades" : "cityHall",
+                    "requires": ["allOf" , ["castle"]],
+                    "cost": {
+                        "gold" : 10000
+                    },
+					"produce": {
+					    "gold" : 4000
+					},
+"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day."
+                },
+"marketplace":                {
+                    "id" : 14,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 500
+                    },
+"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+                },
+"resourceSilo":                {
+                    "id" : 15,
+                    "requires": ["allOf" , ["marketplace"]],
+                    "cost": {
+                        "ore" : 5,
+                        "gold" : 5000
+                    },
+					"produce": {
+					    "ore" : 1,
+						"wood" : 1
+					},
+"description" : "The Resourse Silo provides you with an additional +1 ore and +1 wood each day.",
+					"name" : "Resourse Silo"
+                },
+"blacksmith":                {
+                    "id" : 16,
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 1000
+                    },
+"description" : "The Blacksmith provides your armies with First Aid Tents.",
+					"name" : "Blacksmith"
+                },
+"special1":                {
+                    "id" : 17,
+                    "requires": ["allOf" , ["fort"]],
+    "cost": {
+                        "gold" : 1000
+                    },
+"description" : "Storm covers your city with a permanent shroud to all other players.",
+					"name" : "Storm",
+					"bonuses":[ {"type" : "DARKNESS", "val" : 12} ]
+                },
+"horde1":                {
+                    "id" : 18,
+                    
+"requires":["allOf" , ["dwellingLvl4"]],
+                    "cost": {
+                        "gold" : 1000
+                    },
+	"description" : "Skull Pile increases weekly production of Skeletons by 6 per week.",
+					"name" : "Skull Pile"
+                },
+"horde1Upgr":                {
+                    "id" : 19,
+          
+                    "requires": ["allOf" , ["horde1"] , ["dwellingUpLvl4"]],
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 1000
+                    },
+	"description" : "Skull Pile increases weekly production of Skeleton Warriors by 6 per week.",
+					"name" : "Skull Pile"
+                },
+"ship":{ "id" : 20, "upgrades" : "shipyard" ,
+					"name" : "Ship",
+					"description" : "Ship" },
+"special2":                {
+                    "id" : 21,
+                    "requires": ["allOf" , ["mageGuild1"]],
+                    "cost": {
+                     
+                        "gold" : 1000
+                    },
+	"description" : "Shrine increases Necromancy skill of all heroes you control (with necromancy skill) by 10%.",
+					"name" : "Shrine",
+"bonuses": [ { "type" : "UNDEAD_RAISE_PERCENTAGE",  "val" : 10, "propagator" : "PLAYER_PROPAGATOR" } ]
+                },
+"special3":                {
+                    "id" : 22,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        
+                        "gold" : 1000
+                    },
+"description" : "Boneyard allows you to convert any creature to Skeleton.",
+					"name" : "Boneyard",
+					"type" : "creatureTransformer"
+                
+                },              
+
+//"grail": {
+ //                   "id" : 26,
+  //                  "mode" : "grail",
+//					"produce": {
+//					    "gold" : 5000
+//					},
+//"description" : "Soul Stone increases weekly creature generation by 50 percent, adds //5000 gold per day (undetermined).",
+//					"name" : "Soul Stone"
+ //               },
+"extraTownHall":                {
+                    "id" : 27, "name" : "Extra Town Hall", "description" : "Extra town hall appearance",
+                    "requires": ["allOf" , ["townHall"] , ["extraTownHall"]],
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 1000
+                    }
+                },
+"extraCityHall":                {
+                    "id" : 28, "name" : "Extra City Hall", "description" : "Extra city hall appearance",
+                    "requires": ["allOf" , ["cityHall"] , ["extraCityHall"]],
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 1000
+                    }
+                },
+"extraCapitol":                {
+                    "id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance",
+                    "requires": ["allOf" , ["capitol"] , ["extraCapitol"]],
+                    "mode" : "auto",
+                    "cost": {
+                        "gold" : 1000
+                    }
+                },
+ "dwellingLvl1":               {
+                    "id" : 30,
+                    "requires": ["allOf" , ["fort"]],
+                    "cost": {
+                        "gold" : 400
+                    },
+"description" : "The Excavation produces Skeletons.",
+					"name" : "Excavation"
+                },
+ "dwellingLvl2":               {
+                    "id" : 31,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 1000
+                    },
+	"description" : "The Graveyard produces Zombies.",
+					"name" : "Graveyard"
+                },
+ "dwellingLvl3":                 {
+                    "id" : 32,
+                    "requires": ["allOf" , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 1500,
+                        "ore" : 10
+                    },
+	"description" : "The Pyramid produces Mummies.",
+					"name" : "Pyramid"
+                },
+ "dwellingLvl4":                 {
+                    "id" : 33,
+                    "requires": ["allOf" , ["fort"] , ["dwellingLvl2"] , ["dwellingLvl1"]],
+                    "cost": {
+                        "gold" : 2000,
+                        "ore" : 5,
+"mercury" : 5
+                    },
+"description" : "The Mansion produces Vampires.",
+					"name" : "Mansion"
+                },
+ "dwellingLvl5":                 {
+                    "id" : 34,
+                    "requires": ["allOf" , ["dwellingLvl1"] , ["dwellingLvl2"] , ["dwellingLvl3"] , ["dwellingLvl4"] , ["blacksmith"]],
+                    "cost": {
+                        "gold" : 3000,
+                        "wood" : 10
+                    },
+"description" : "The Dark Tower produces Death Knights.",
+					"name" : "Dark Tower"
+                },
+ "dwellingLvl6":                 {
+                    "id" : 35,
+                    "requires": ["allOf" , ["dwellingLvl1"] , ["dwellingLvl2"] , ["dwellingLvl3"] , ["fort"] , ["mageGuild1"]],
+                    "cost": {
+                        "gold" : 3000,
+                        "sulfur" : 5,
+                        "ore" : 5,
+						"wood" : 5
+                    },
+"description" : "The Mausoleum produces Liches.",
+					"name" : "Mausoleum"
+                },
+ "dwellingLvl7":                 {
+                    "id" : 36,
+                    "requires": ["allOf" , ["dwellingLvl1"] , ["dwellingLvl2"] , ["dwellingLvl3"] , ["dwellingLvl4"] , ["dwellingLvl5"] , ["dwellingLvl6"] , ["blacksmith"]],
+                    "cost": {
+                        "gold" : 10000,
+                        "wood" : 10,
+"ore" : 10,
+                        "crystal" : 5,
+"gems" : 5,
+"sulfur" : 5,
+"mercury" : 5
+                    },
+	"description" : "The Laboratory produces Bone Dragons.",
+					"name" : "Laboratory"
+                },
+
+ "dwellingUpLvl2":                 {
+                    "id" : 38,
+                    "upgrades" : "dwellingLvl2",
+                    "cost": {
+                        "gold" : 1000
+                    },
+"description" : "The Upg. Graveyard produces Mutant Zombies.",
+					"name" : "Upg. Graveyard"
+                },
+ "dwellingUpLvl3":                 {
+                    "id" : 39,
+                    "upgrades" : "dwellingLvl3",
+                    "cost": {
+                        "gold" : 1500,
+                        "wood" : 5,
+"ore" : 5
+                    },
+"description" : "The Upg. Pyramid produces Royal Mummies.",
+					"name" : "Upg. Pyramid"
+                },
+ "dwellingUpLvl4":                 {
+                    "id" : 40,
+                    "upgrades" : "dwellingLvl4",
+                  "requires":["allOf" , ["special3"]],
+                    "cost": {
+                        "wood" : 5,
+                        "gold" : 3000,
+                        "gems" : 15,
+						"crystal" : 15
+                    },
+"description" : "The Upg. Mansion produces Vampire Lords.",
+					"name" : "Upg. Mansion"
+                },
+
+
+  "dwellingUpLvl6":                {
+                    "id" : 42,
+                    "upgrades" : "dwellingLvl6",
+"requires":["allOf" , ["mageGuild2"]],
+                    "cost": {
+                        "gold" : 2500,
+              
+                        "sulfur" : 5
+                    },
+"description" : "The Upg. Mausuleum produces Power Liches.",
+					"name" : "Upg. Mausoleum"
+                }
+ 
+            }
+        }
+    }
+}

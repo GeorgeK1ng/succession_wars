@@ -1,0 +1,48 @@
+{	"sw08neutralGhost":	{"name" :{"plural" : "Ghosts","singular" : "Ghost"},
+		"advMapAmount" :		{			"max" : 27,
+			"min" : 4		},
+			
+	"hasDoubleWeek": true,             "doubleWide" : false,
+		"faction" : "sw08neutral",
+		"aiValue" : 150,
+		"attack" :7,
+		"cost" :		{			"gold" : 300		},
+		"damage" :		{			"max" : 7,
+			"min" : 4		},
+		"defense" : 8,
+		"fightValue" : 1000,
+		"graphics" :		{			"animation" : "sw08neutral-creatures/battle/c159ghst",
+			"map" : "sw08neutral-creatures/map/z358o8",
+			"iconSmall" : "sw08neutral-creatures/cprsmall.def:161",
+			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:161",
+						"timeBetweenFidgets" : 1,
+			"animationTime" :			{
+"idle" : 10,
+				"walk" : 1,
+				"attack" : 1
+							}
+					},
+		"growth" : 5,
+		"hitPoints" : 20,
+		"horde" : 0,              	"level" : 4,
+		"shots" : 0,
+		"sound" :		
+		{
+		"attack" :"sw08neutral/ghost/FELMATTK.wav",
+		"defend" :"sw08neutral/ghost/FELMDFND.wav",
+		"killed" :"sw08neutral/ghost/FELMKILL.wav",
+		"move" :"sw08neutral/ghost/FELMMOVE.wav",
+		"wince" :"sw08neutral/ghost/FELMWNCE.wav",
+		//"shoot" :""
+},
+		"speed" :7,
+		"abilities" :		{"ability1":{"type" : "FLYING"},
+		"ability2":{"type" : "SOUL_STEAL",
+		"subtype" : "soulStealPermanent"
+		},
+		"ability3":{"type" : "UNDEAD"},
+"ability4":{"type" : "MORE_DAMAGE_FROM_SPELL",
+"subtype" : "spell.destroyUndead",
+"val" : 50
+}
+		}	} }

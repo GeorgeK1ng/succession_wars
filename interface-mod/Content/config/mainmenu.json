@@ -1,0 +1,69 @@
+{
+	//images used in game selection screen
+	"game-select" : ["ZPIC1000", "ZPIC1001"],
+
+	"loading" : {
+	"background" : [
+	"ZPIC106"
+	],
+		"x": 395, "y": 548, "size": 18, "amount": 20, "name": "loadprog"
+	},
+
+	//Main menu window, consists of several sub-menus aka items
+	"window":
+	{
+		"background" : "ZPIC1005",
+		//"scalable" : true, //background will be scaled to screen size
+		"video" :    {"x" : 0, "y" : 0, "name" : "ACREDIT.SMK" },//Floating WoG logo. Disabled due to different position in various versions of H3.
+		//"images" : [],//Optioal, contains any additional images in the same format as video
+		"items" : 
+		[
+			{
+				"name" : "main",
+				"buttons":
+				[
+					{"x" : 596, "y" : 220,  "name" : "ZMENUNG", "shortcut" : "mainMenuNew", "help" : 3, "command" : "to new"},
+					{"x" : 237, "y" : 224, "name" : "ZMENULG", "shortcut" : "mainMenuLoad", "help" : 4, "command" : "to load"},
+					{"x" : 503, "y" : 139, "name" : "ZMENUHS", "shortcut" : "mainMenuScores", "help" : 5, "command" : "highscores"},
+					{"x" : 373, "y" : 167,"name" : "ZMENUCR", "shortcut" : "mainMenuCredits",  "help" : 6, "command" : "to credits"},
+					{"x" : 0, "y" : 531, "name" : "ZMENUQT", "shortcut" : "mainMenuQuit",  "help" : 7, "command" : "exit"}
+				]
+			},
+			{
+				"name" : "new",
+				"buttons":
+				[
+					{"x" : 600, "y" : 60,   "name" : "ZTSINGL", "shortcut" : "mainMenuSingleplayer", "help" : 10, "command" : "start single"},
+					{"x" : 600, "y" : 160, "name" : "ZTMULTI", "shortcut" : "mainMenuMultiplayer", "help" : 12, "command" : "start multi"},
+					{"x" : 600, "y" : 260, "name" : "ZTCAMPN", "shortcut" : "mainMenuCredits",  "help" : 11, "command" : "to campaign"},
+					{"x" : 600, "y" : 360, "name" : "ZTTUTOR", "shortcut" : "mainMenuTutorial", "help" : 13, "command" : "start tutorial"},
+					{"x" : 600, "y" : 460, "name" : "ZTBACK",  "shortcut" : "mainMenuQuit",  "help" : 14, "command" : "to main"}
+				],
+				"images": [ {"x" : 545, "y" : 20, "name" : "ZNEWGAM"} ]
+			},
+			{
+				"name" : "load",
+				"buttons":
+				[
+					{"x" : 600, "y" : 60,   "name" : "ZTSINGL", "shortcut" : "mainMenuSingleplayer", "help" : 10, "command" : "load single"},
+					{"x" : 600, "y" : 160, "name" : "ZTMULTI", "shortcut" : "mainMenuMultiplayer", "help" : 12, "command" : "load multi"},
+					{"x" : 600, "y" : 260, "name" : "ZTCAMPN", "shortcut" : "mainMenuCredits",  "help" : 11, "command" : "load campaign"},
+					{"x" : 600, "y" : 360, "name" : "ZTTUTOR", "shortcut" : "mainMenuTutorial", "help" : 13, "command" : "load tutorial"},
+					{"x" : 600, "y" : 460, "name" : "ZTBACK",  "shortcut" : "mainMenuQuit",  "help" : 14, "command" : "to main"}
+				],
+				"images": [ {"x" : 545, "y" : 20, "name" : "ZLOADGAM"} ]
+			},
+			{
+				"name" : "campaign",
+				"buttons":
+				[
+				//	{"x" : 535, "y" : 4,   "name" : "ZSSSOD", "shortcut" : "mainMenuCampaignSod", "command" : "campaigns sod"},
+				//	{"x" : 494, "y" : 117, "name" : "ZSSROE", "shortcut" : "mainMenuCampaignRoe", "command" : "campaigns roe"},
+				//	{"x" : 486, "y" : 241, "name" : "ZSSARM", "shortcut" : "mainMenuCampaignAb",  "command" : "campaigns ab"},
+					{"x" : 550, "y" : 358, "name" : "ZSSCUS", "shortcut" : "mainMenuCredits",  "command" : "start campaign"},
+					{"x" : 582, "y" : 464, "name" : "ZTBACK", "shortcut" : "mainMenuQuit",  "command" : "to new"}
+				]
+			}
+		]
+	}
+}

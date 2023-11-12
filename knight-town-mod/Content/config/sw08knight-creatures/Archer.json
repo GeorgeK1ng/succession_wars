@@ -1,0 +1,87 @@
+{
+	"sw08knightArcher":
+	{
+"name" :{"plural" : "Archers","singular" : "Archer"},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 18
+		},
+"upgrades":
+["sw08knightRanger"],
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "sw08knight",
+		"aiValue" : 126,
+		"attack" : 5,
+
+		"cost" :
+		{
+			"gold" : 100
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 3,
+		"fightValue" : 115,
+		"graphics" :
+		{
+			"animation" : "sw08knight-creatures/battle/c002arch",
+			"map" : "sw08knight-creatures/map/AVWLCRS",
+			"iconSmall" : "sw08knight-creatures/cprsmall.def:4",
+			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:4",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 28,
+					"upperY" : -70,
+					"middleX" : 40,
+					"middleY" : -55,
+					"lowerX" : 33,
+					"lowerY" : -30
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 7
+			}
+			
+		},
+
+		"growth" : 8,
+		"hitPoints" : 10,
+		"horde" : 0,
+              	"level" : 2,
+		"shots" : 12,
+		"sound" :
+		{
+			"attack" : "sw08knight/archer/LCRSATTK.wav",
+			"defend" : "sw08knight/archer/LCRSDFND.wav",
+			"killed" : "sw08knight/archer/LCRSKILL.wav",
+			"move" : "sw08knight/archer/LCRSMOVE.wav",
+			"wince" : "sw08knight/archer/LCRSWNCE.wav",
+                     	"shoot" : "sw08knight/archer/LCRSSHOT.wav"
+		},
+		"speed" : 3,
+		"abilities" :
+		{
+
+"ability1":{	"type" : "SHOOTER"}
+					
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+"name" : "SW - Barbarian Town",
+"description" : "Barbarian Town",
+"version" : "0.0.1",
+"author" : "author",
+"contact" : "none",
+"modType" : "Town",
+	"depends" :
+	[
+	"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	],
+"factions" :
+[
+"config/sw08barbarian/buildings.json",
+"config/sw08barbarian/faction.json",
+"config/sw08barbarian/siege.json",
+"config/sw08barbarian/spells.json",
+"config/sw08barbarian/structures.json",
+"config/sw08barbarian/puzzle.json",
+"config/sw08barbarian/texts.json"
+	],
+	"heroClasses" :
+	[
+	"config/sw08barbarian-heroes/Barbarian.json"
+	
+	],
+	"heroes" :
+	[
+	"config/sw08barbarian-heroes/Barbarian_heroes.json",
+
+	],
+"creatures" :
+	[
+"config/sw08barbarian-creatures/Cyclop.json",
+"config/sw08barbarian-creatures/Goblin.json",
+"config/sw08barbarian-creatures/Harpy.json",
+"config/sw08barbarian-creatures/Ogre Lord.json",
+"config/sw08barbarian-creatures/Ogre.json",
+"config/sw08barbarian-creatures/Orc Chief.json",
+"config/sw08barbarian-creatures/Orc.json",
+"config/sw08barbarian-creatures/Troll.json",
+"config/sw08barbarian-creatures/War Troll.json",
+"config/sw08barbarian-creatures/Wolf.json",
+	],
+	"objects":
+	[
+"config/sw08barbarian/banks.json",	
+"config/sw08barbarian/dwellings.json"	
+	]
+}

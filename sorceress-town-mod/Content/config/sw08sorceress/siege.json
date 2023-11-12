@@ -1,0 +1,60 @@
+{
+	"swsw08sorceressfaction" :
+	{
+		"town" :
+		{
+"siege" :
+			{
+		
+		"towerIconSmall" : "sw08sorceress/siege_new/TOWERIS",
+				"towerIconLarge" : "sw08sorceress/siege_new/TOWERIB",
+				"shooter" : "sw08sorceressElf",
+
+				"imagePrefix" : "sw08sorceress/siege_new/SgRm",
+						"gate" :
+				{
+					"arch" : { "x" : 460, "y" : 220 },
+					"gate" : { "x" : 403, "y" : 271 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 410, "y" : 97 },
+					"moat" : { "x" : 410, "y" : 77 }
+				},
+								"static" :
+				{
+					"background" : { "x" : 608, "y" : 46 },
+					"bottom" : { "x" : 510, "y" : 364 },
+					"top" : { "x" : 492, "y" : 103 }
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 594, "y" : 511 },
+						"creature" : { "x" : 371, "y" : 303 },
+						"tower" : { "x" : 594, "y" : 511 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 727, "y" : 189 },
+						"creature" : { "x" : 530, "y" : -26 },
+						"tower" : { "x" : 724, "y" : 189 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 566, "y" : 31 },
+						"creature" : { "x" : 341, "y" : -178 },
+						"tower" : { "x" : 565, "y" : 31 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 549, "y" : 451 },
+					"bottomMid" : { "x" : 469, "y" : 309 },
+					"upper" : { "x" : 530, "y" : 57 },
+					"upperMid" : { "x" : 469, "y" : 186 }			
+			
+	}	}
+	} }
+}

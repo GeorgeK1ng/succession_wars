@@ -1,0 +1,93 @@
+{
+	"sw08wizardSteelGolem":
+	{
+"name" :{"plural" : "Steel Golems","singular" : "Steel Golem"},
+		"advMapAmount" :
+		{
+			"max" : 22,
+			"min" : 10
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : false,
+		"faction" : "swsw08wizardfaction",
+		"aiValue" : 444,
+		"attack" :7,
+
+		"cost" :
+		{
+			"gold" : 325
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 4
+		},
+		"defense" : 10,
+		"fightValue" : 417,
+		"graphics" :
+		{
+			"animation" : "sw08wizard-creatures/battle/c035ugol",
+			"map" : "sw08wizard-creatures/map/AVWmagx0",
+			"iconSmall" : "sw08wizard-creatures/cprsmall.def:37",
+			"iconLarge" : "sw08wizard-creatures/TWCRPORT.def:37",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08wizard-creatures/battle/Phalf",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 13
+			}
+			
+		},
+
+		"growth" :5,
+		"hitPoints" : 40,
+		"horde" :0,
+              	"level" : 4,
+		"shots" : 0,
+		"sound" :
+		{
+"attack" :"sw08wizard/steel golem/IGLMATTK.wav",
+"defend" :"sw08wizard/steel golem/IGLMDFND.wav",
+"killed" :"sw08wizard/steel golem/IGLMKILL.wav",
+"move" :"sw08wizard/steel golem/iglmmove.wav",
+"wince" :"sw08wizard/steel golem/IGLMWNCE.wav",
+//"shoot" :""
+
+},
+		"speed" :4,
+		"abilities" :
+		{
+
+"ability1":
+{"type" : "SPELL_DAMAGE_REDUCTION",
+"val" : 75,
+"subtype" : "spellSchool.fire"},
+"ability2":
+{"type" : "NON_LIVING"}
+
+					
+		}
+	}
+}

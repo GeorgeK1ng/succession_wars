@@ -1,0 +1,82 @@
+{
+	"sw08oasisMedusa": {
+		"name": {
+			"plural" : "Medusas",
+			"singular" : "Medusa"
+		},
+		"advMapAmount": {
+			"max" : 20,
+			"min" : 12
+		},
+		"upgrades": ["sw08oasisMedusaQueen"],
+
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"faction" : "sw08oasisfaction",
+		"aiValue" : 417,
+		"attack" : 6,
+
+		"cost": {
+			"gold" : 300
+		},
+		"damage": {
+			"max" : 8,
+			"min" : 5
+		},
+		"defense" : 7,
+		"fightValue" : 417,
+		"graphics": {
+			"animation" : "sw08oasis-creatures/battle/c124medu",
+			"map" : "sw08oasis-creatures/map/AVWstorm",
+			"iconSmall" : "sw08oasis-creatures/cprsmall.def:126",
+			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:126",
+
+			"timeBetweenFidgets" : 1,
+			"animationTime": {
+				"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+			},
+			"missile": {
+				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
+
+				"offset": {
+					"upperX" : 41,
+					"upperY": -92,
+					"middleX" : 58,
+					"middleY": -79,
+					"lowerX" : 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame" : 12
+			}
+
+		},
+
+		"growth" : 4,
+		"hitPoints" : 30,
+		"horde" : 0,
+		"level" : 6,
+		"shots" : 0,
+		"sound": {
+			"attack" : "medusa/MEDUATTK.wav",
+			"defend" : "medusa/MEDUDFND.wav",
+			"killed" : "medusa/MEDUKILL.wav",
+			"move" : "medusa/MEDUMOVE.wav",
+			"wince" : "medusa/MEDUWNCE.wav",
+			"shoot" : "medusa/MEDUSHOT.wav"
+		},
+		"speed" : 5,
+		"abilities": {
+			"ability1": {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 30,
+				"addInfo" : 2000
+			}
+
+		}
+	}
+}

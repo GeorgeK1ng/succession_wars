@@ -1,0 +1,63 @@
+{
+	"sw08neutralfirstAidTent": {
+		"name" : {
+			"plural" : "First Aid Tents",
+			"singular" : "First Aid Tent"
+		},
+		"faction" : "sw08neutral",
+		"level" : 0,
+		"cost" : {
+			"gold" : 750
+		},
+		"speed" : 0,
+		"hitPoints" : 75,
+		"attack" : 0,
+		"defense" : 0,
+		"damage" : {
+			"max" : 0,
+			"min" : 0
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"horde" : 0,
+		"aiValue" : 300,
+		"fightValue" : 10,
+		"advMapAmount" : {
+			"max" : 0,
+			"min" : 0
+		},
+		"abilities" : {
+			"SIEGE_WEAPON" : {
+				"type" : "SIEGE_WEAPON"
+			},
+			"heals" : {
+				"type" : "HEALER" ,
+				"subtype" : "spell.firstAid"
+			},
+			"power" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.firstAid",
+				"val" : 10,
+				"valueType" : "BASE_NUMBER"
+			},
+		},
+		
+		"graphics" : {
+			"animation" : "sw08neutral-creatures/battle/c147tent.def",
+			"map" : "sw08neutral-creatures/arts/AVA0006",
+			"iconSmall" : "sw08neutral-creatures/CPRSMALL.def:149",
+			"iconLarge" : "sw08neutral-creatures/TwCrPort.def:149",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"attack" : 1,
+				"walk" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"killed" : "sw08neutral/Tent/FAIDKILL.wav",
+			"wince" : "sw08neutral/Tent/FAIDWNCE.wav"
+		},
+		"special" : true
+	}
+}

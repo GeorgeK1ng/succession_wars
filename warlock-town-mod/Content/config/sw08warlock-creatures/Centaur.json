@@ -1,0 +1,86 @@
+{
+	"sw08warlockCentaur":
+	{
+"name" :{"plural" : "Centaurs","singular" : "Centaur"},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+
+
+	"hasDoubleWeek": true, 
+            "doubleWide" : true,
+		"faction" : "swsw08warlockfaction",
+		"aiValue" : 48,
+		"attack" : 3,
+
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 1,
+		"fightValue" : 57,
+		"graphics" :
+		{
+			"animation" : "sw08warlock-creatures/battle/c070cent",
+			"map" : "sw08warlock-creatures/map/AVWtrog0",
+			"iconSmall" : "sw08warlock-creatures/cprsmall.def:72",
+			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:72",
+			
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+"idle" : 10,
+
+				"walk" : 1,
+				"attack" : 1
+				
+			},
+			"missile" :
+			{
+				"projectile" : "sw08warlock-creatures/battle/PLCBOWX",
+                               
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+"attackClimaxFrame" : 8
+			}
+			
+		},
+
+		"growth" : 10,
+		"hitPoints" : 5,
+		"horde" : 5,
+              	"level" : 1,
+		"shots" : 8,
+		"sound" :
+		{
+			"attack" : "sw08warlock/centaur/TROGATTK.wav",
+			"defend" : "sw08warlock/centaur/TROGDFND.wav",
+			"killed" : "sw08warlock/centaur/TROGKILL.wav",
+			"move" : "sw08warlock/centaur/TROGMOVE.wav",
+			"wince" : "sw08warlock/centaur/TROGWNCE.wav",
+                     	"shoot" : "sw08warlock/centaur/TROGSHOT.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+	"ability1":
+{"type" : "SHOOTER"}
+					
+		}
+	}
+}
