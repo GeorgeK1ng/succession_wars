@@ -1,0 +1,19 @@
+{
+	"name" : "SW",
+	"description" : "Work-in-progress SW",
+	"modType" : "Expansion",
+	"author" : "many",
+	"contact" : "",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "0.0.1",
+	"downloadSize" : 1,
+	"depends" :
+	[
+		"ban-mod"
+	],
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	}
+}
