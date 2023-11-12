@@ -9,7 +9,7 @@
 "modType" : "Graphical",
 "depends" :
 	[
-		  "succession_wars-mod.terrains-mod"
+		  "succession_wars.terrains-mod"
 	],
 "objects":
 		[

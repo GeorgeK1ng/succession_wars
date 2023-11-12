@@ -6,7 +6,7 @@
     "contact" : "none",
     "modType" : "Creatures",
     "depends": [
-    "succession_wars-mod.terrains-mod"
+    "succession_wars.terrains-mod"
     ],
     "factions": [
         "config/sw08neutral-creatures/faction.json"

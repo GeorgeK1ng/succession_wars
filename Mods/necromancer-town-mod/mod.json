@@ -7,7 +7,7 @@
 "modType" : "Town",
 	"depends" :
 	[
-	 "vcmi" ,"succession_wars-mod.warmachines-mod", "succession_wars-mod.terrains-mod"
+	 "vcmi" ,"succession_wars.warmachines-mod", "succession_wars.terrains-mod"
 	],
 "factions" :
 [
