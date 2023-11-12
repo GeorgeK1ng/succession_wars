@@ -1,14 +1,12 @@
 {
 	"name" : "SW - H2 artifacts",
 	"description" : "SW - Artifacts from Heroes of Might & Magic 2",
-	
-	
-"version" : "0.0.1",
-"author" : "Noname",
-"contact" : "none",
-"modType" : "Artifacts",
-"artifacts" :
+	"modType" : "Artifacts",
+	"author" : "Noname",
+	"contact" : "none",
+	"version" : "0.0.1",
+	"artifacts" :
 	[
-		"config/sw08arts/arts.json"
-			]
+		"config/sw08arts/artifacts.json"
+	]
 }
