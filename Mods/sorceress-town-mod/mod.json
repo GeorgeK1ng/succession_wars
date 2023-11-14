@@ -1,15 +1,16 @@
 {
-	"name" : "SW - Sorceress town",
-	"description" : "Sorceress town",
-"version" : "0.0.1",
-"author" : "author",
-"contact" : "none",
-"modType" : "Town",
-	"depends" :
+	"name": "SW - Sorceress town",
+	"description": "Sorceress town",
+	"modType": "Town",
+	"author": "author",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
 	[
-	"succession_wars.warmachines-mod", "succession_wars.terrains-mod"
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
 	],
-	"factions" :
+	"factions":
 	[
 		"config/sw08sorceress/buildings.json",
 		"config/sw08sorceress/faction.json",
@@ -19,11 +20,11 @@
 		"config/sw08sorceress/puzzle.json",
 		"config/sw08sorceress/texts.json"
 	],
-	"heroClasses" :
+	"heroClasses":
 	[
 		"config/sw08sorceress-heroes/sorceress.json"
 	],
-	"heroes" :
+	"heroes":
 	[
 		"config/sw08sorceress-heroes/Ariel.json",
 		"config/sw08sorceress-heroes/Arisa.json",
@@ -49,23 +50,22 @@
 		"config/sw08sorceress-heroes/Troyan.json",
 		"config/sw08sorceress-heroes/Vatawna.json"
 	],
-"creatures" :
+	"creatures":
 	[
-"config/sw08sorceress-creatures/Battle Dwarf.json",
-"config/sw08sorceress-creatures/Druid.json",
-"config/sw08sorceress-creatures/Dwarf.json",
-"config/sw08sorceress-creatures/Elf.json",
-"config/sw08sorceress-creatures/Grand Elf.json",
-"config/sw08sorceress-creatures/Greater Druid.json",
-"config/sw08sorceress-creatures/Phoenix.json",
-"config/sw08sorceress-creatures/Pixie.json",
-
-"config/sw08sorceress-creatures/Unicorn.json",
-"config/sw08sorceress-creatures/Satyr.json"
+		"config/sw08sorceress-creatures/Battle Dwarf.json",
+		"config/sw08sorceress-creatures/Druid.json",
+		"config/sw08sorceress-creatures/Dwarf.json",
+		"config/sw08sorceress-creatures/Elf.json",
+		"config/sw08sorceress-creatures/Grand Elf.json",
+		"config/sw08sorceress-creatures/Greater Druid.json",
+		"config/sw08sorceress-creatures/Phoenix.json",
+		"config/sw08sorceress-creatures/Pixie.json",
+		"config/sw08sorceress-creatures/Unicorn.json",
+		"config/sw08sorceress-creatures/Satyr.json"
 	],
 	"objects":
 	[
 		"config/sw08sorceress/dwellings.json",
-		"config/sw08sorceress/banks.json"		
+		"config/sw08sorceress/banks.json"
 	]
 }

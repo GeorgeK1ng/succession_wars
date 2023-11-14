@@ -1,43 +1,43 @@
 {
-"name" : "SW - Warlock Town",
-"description" : "Warlock Town",
-"version" : "0.0.1",
-"author" : "Untitled",
-"contact" : "none",
-"modType" : "Town",
-	"depends" :
+	"name": "SW - Warlock Town",
+	"description": "Warlock Town",
+	"modType": "Town",
+	"author": "Untitled",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
 	[
-	"succession_wars.warmachines-mod", "succession_wars.terrains-mod"
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
 	],
-"factions" :
-[
-"config/sw08warlock/buildings.json",
-"config/sw08warlock/faction.json",
-"config/sw08warlock/siege.json",
-"config/sw08warlock/spells.json",
-"config/sw08warlock/structures.json",
-"config/sw08warlock/puzzle.json",
-"config/sw08warlock/texts.json"
-	],
-	"creatures" :
+	"factions":
 	[
-"config/sw08warlock-creatures/Black Dragon.json",
-"config/sw08warlock-creatures/Centaur.json",
-"config/sw08warlock-creatures/Gargoyle.json",
-"config/sw08warlock-creatures/Green Dragon.json",
-"config/sw08warlock-creatures/Griffin.json",
-"config/sw08warlock-creatures/Hydra.json",
-"config/sw08warlock-creatures/Minotaur King.json",
-"config/sw08warlock-creatures/Minotaur.json",
-"config/sw08warlock-creatures/Red Dragon.json",
-"config/sw08warlock-creatures/Beholder.json"
-
+		"config/sw08warlock/buildings.json",
+		"config/sw08warlock/faction.json",
+		"config/sw08warlock/siege.json",
+		"config/sw08warlock/spells.json",
+		"config/sw08warlock/structures.json",
+		"config/sw08warlock/puzzle.json",
+		"config/sw08warlock/texts.json"
 	],
-"heroClasses" :
+	"creatures":
+	[
+		"config/sw08warlock-creatures/Black Dragon.json",
+		"config/sw08warlock-creatures/Centaur.json",
+		"config/sw08warlock-creatures/Gargoyle.json",
+		"config/sw08warlock-creatures/Green Dragon.json",
+		"config/sw08warlock-creatures/Griffin.json",
+		"config/sw08warlock-creatures/Hydra.json",
+		"config/sw08warlock-creatures/Minotaur King.json",
+		"config/sw08warlock-creatures/Minotaur.json",
+		"config/sw08warlock-creatures/Red Dragon.json",
+		"config/sw08warlock-creatures/Beholder.json"
+	],
+	"heroClasses":
 	[
 		"config/sw08warlock-heroes/warlock.json"
 	],
-	"heroes" :
+	"heroes":
 	[
 		"config/sw08warlock-heroes/Adaliya.json",
 		"config/sw08warlock-heroes/Agar.json",
@@ -65,10 +65,10 @@
 		"config/sw08warlock-heroes/Wrathmont.json",
 		"config/sw08warlock-heroes/Xian.json",
 		"config/sw08warlock-heroes/Zoltan.json"
-    ],
+	],
 	"objects":
 	[
-	"config/sw08warlock/dwellings.json",
+		"config/sw08warlock/dwellings.json",
 		"config/sw08warlock/banks.json"
 	]
 }

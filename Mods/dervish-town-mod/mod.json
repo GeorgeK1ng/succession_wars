@@ -1,16 +1,16 @@
 {
-	"name" : "SW Beta 0.81 - Gypsy Town",
-	"description" : "Gypsy Town",
-	
-"version" : "0.0.1",
-"author" : "author",
-"contact" : "none",
-"modType" : "Town",
-	"depends" :
+	"name": "SW Beta 0.81 - Gypsy Town",
+	"description": "Gypsy Town",
+	"modType": "Town",
+	"author": "author",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
 	[
-	"succession_wars.warmachines-mod", "succession_wars.terrains-mod"
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
 	],
-"factions" :
+	"factions":
 	[
 		"config/sw08oasis/buildings.json",
 		"config/sw08oasis/faction.json",
@@ -20,28 +20,23 @@
 		"config/sw08oasis/puzzle.json",
 		"config/sw08oasis/texts.json"
 	],
-
-	"creatures" :
+	"creatures":
 	[
-"config/sw08oasis-creatures/Acolyte.json",
-"config/sw08oasis-creatures/Anubite.json",
-"config/sw08oasis-creatures/Genie.json",
-"config/sw08oasis-creatures/Manticore.json",
-"config/sw08oasis-creatures/Marauder.json",
-"config/sw08oasis-creatures/Medusa Queen.json",
-"config/sw08oasis-creatures/Medusa.json",
-"config/sw08oasis-creatures/Nomad.json",
-"config/sw08oasis-creatures/Rogue.json"
-
-
-
-
+		"config/sw08oasis-creatures/Acolyte.json",
+		"config/sw08oasis-creatures/Anubite.json",
+		"config/sw08oasis-creatures/Genie.json",
+		"config/sw08oasis-creatures/Manticore.json",
+		"config/sw08oasis-creatures/Marauder.json",
+		"config/sw08oasis-creatures/Medusa Queen.json",
+		"config/sw08oasis-creatures/Medusa.json",
+		"config/sw08oasis-creatures/Nomad.json",
+		"config/sw08oasis-creatures/Rogue.json"
 	],
-"heroClasses" :
+	"heroClasses":
 	[
-	"config/sw08oasis-heroes/dervish.json"
+		"config/sw08oasis-heroes/dervish.json"
 	],
-	"heroes" :
+	"heroes":
 	[
 		"config/sw08oasis-heroes/Akbar.json",
 		"config/sw08oasis-heroes/Cagan.json",
@@ -67,8 +62,8 @@
 	],
 	"objects":
 	[
-	"config/sw08oasis/dwellings.json",
-	"config/sw08oasis/banks.json",
-	"config/sw08oasis/genieLamp.json"
+		"config/sw08oasis/dwellings.json",
+		"config/sw08oasis/banks.json",
+		"config/sw08oasis/genieLamp.json"
 	]
 }
