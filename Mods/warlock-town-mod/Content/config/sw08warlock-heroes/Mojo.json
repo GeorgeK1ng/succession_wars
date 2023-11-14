@@ -1,0 +1,85 @@
+{
+	"sw08Mojo": {
+		"female": false,
+		"class": "swsw08warlock",
+		"texts": {
+			"name": "Mojo",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Gargoyles",
+				"description": "Gargoyles",
+				"tooltip": "Increases the Attack and Defense skill of any Gargoyles for each level attained after 2nd level. (Inactive for v0.8 beta)"
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08warlock-heroes/UN32.def:91",
+			"specialtyLarge": "sw08warlock-heroes/UN44.def:91",
+			"large": "sw08warlock-heroes/port/HPL091WL",
+			"small": "sw08warlock-heroes/port/HPS091WL"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "sw08warlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "sw08warlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "sw08warlockGargoyle",
+				"min": 6,
+				"max": 8
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08warlockGargoyle",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08warlockGargoyle",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

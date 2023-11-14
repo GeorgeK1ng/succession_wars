@@ -1,0 +1,80 @@
+{
+	"sw08Gallavant": {
+		"female": false,
+		"class": "sw08knight",
+		"texts": {
+			"name": "Gallavant",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Crossbowmen and Marksmen",
+				"description": "Crossbowmen and Marksmen",
+				"tooltip": "Increases the Attack and Defense skills of any Crossbowmen or Marksmen for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08knight-heroes/UN32.def:14",
+			"specialtyLarge": "sw08knight-heroes/UN44.def:14",
+			"large": "sw08knight-heroes/port/HPL014CL",
+			"small": "sw08knight-heroes/port/HPS014CL"
+		},
+		"army": [
+			{
+				"creature": "sw08knightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "sw08knightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "sw08knightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "logistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08knightCrossbowman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08knightCrossbowman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"sw08Wiggo": {
+		"female": false,
+		"class": "swsw08warlock",
+		"texts": {
+			"name": "Wiggo",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Centaurs",
+				"description": "Centaurs",
+				"tooltip": "Increases the Attack and Defense skill of any Centaurs for each level attained after 1st level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08warlock-heroes/UN32.def:88",
+			"specialtyLarge": "sw08warlock-heroes/UN44.def:88",
+			"large": "sw08warlock-heroes/port/HPL088WL",
+			"small": "sw08warlock-heroes/port/HPS088WL"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "sw08warlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "sw08warlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "sw08warlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08warlockCentaur",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08warlockCentaur",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

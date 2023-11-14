@@ -1,0 +1,85 @@
+{
+	"sw08Darlana": {
+		"class": "swsw08necromancer",
+		"female": true,
+		"texts": {
+			"name": "Darlana",
+			"biography": "NO_TEXT",
+			"specialty": {
+				"name": "Mummies",
+				"description": "Mummies",
+				"tooltip": "Increases the Attack and Defense skill of any Mummies or Royal Mummies for each level attained after 3rd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08necromancer-heroes/UN32.def:68",
+			"specialtyLarge": "sw08necromancer-heroes/UN44.def:68",
+			"large": "sw08necromancer-heroes/port/HPL068DK.bmp",
+			"small": "sw08necromancer-heroes/port/HPS068DK.bmp"
+		},
+		"spellbook": [
+			"haste"
+		],
+		"army": [
+			{
+				"creature": "sw08necromancerSkeleton",
+				"min": 22,
+				"max": 30
+			},
+			{
+				"creature": "sw08necromancerZombie",
+				"min": 12,
+				"max": 18
+			},
+			{
+				"creature": "sw08necromancerMummy",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08necromancerMummy",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08necromancerMummy",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

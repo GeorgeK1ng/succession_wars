@@ -1,0 +1,61 @@
+{
+	"sw08Sarkosian": {
+		"female": false,
+		"class": "swsw08warlock",
+		"texts": {
+			"name": "Sarkosian",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Lightning Bolt",
+				"description": "Lightning Bolt",
+				"tooltip": "Casts Lightning Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08warlock-heroes/UN32.def:82",
+			"specialtyLarge": "sw08warlock-heroes/UN44.def:82",
+			"large": "sw08warlock-heroes/port/new/sw013L",
+			"small": "sw08warlock-heroes/port/new/sw013S"
+		},
+		"spellbook": [
+			"lightningBolt"
+		],
+		"army": [
+			{
+				"creature": "sw08warlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "sw08warlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "sw08warlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "airMagic",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPECIAL_SPELL_LEV",
+					"subtype": "spell.lightningBolt",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -27,9 +27,27 @@
 	],                                            //but we don't plan anything for translating
 	"heroes" :
 	[
-	"config/sw08necromancer-heroes/necromancer_heroes.json"
-
-
+	"config/sw08necromancer-heroes/Archelaus.json",
+	"config/sw08necromancer-heroes/BrotherBrax.json",
+	"config/sw08necromancer-heroes/Celia.json",
+	"config/sw08necromancer-heroes/Charity.json",
+	"config/sw08necromancer-heroes/Darlana.json",
+	"config/sw08necromancer-heroes/fileStems.json",
+	"config/sw08necromancer-heroes/Gavrius.json",
+	"config/sw08necromancer-heroes/Gridian.json",
+	"config/sw08necromancer-heroes/LordCorlagon.json",
+	"config/sw08necromancer-heroes/LordPalmer.json",
+	"config/sw08necromancer-heroes/Macbeth.json",
+	"config/sw08necromancer-heroes/Mephista.json",
+	"config/sw08necromancer-heroes/Necromancer.json",
+	"config/sw08necromancer-heroes/Nimbus.json",
+	"config/sw08necromancer-heroes/Ranloo.json",
+	"config/sw08necromancer-heroes/Rialdo.json",
+	"config/sw08necromancer-heroes/Roxana.json",
+	"config/sw08necromancer-heroes/Sandro.json",
+	"config/sw08necromancer-heroes/Volodar.json",
+	"config/sw08necromancer-heroes/Zam.json",
+	"config/sw08necromancer-heroes/Zom.json"
 	],
 "creatures" :
 	[
@@ -43,7 +61,7 @@
 "config/sw08necromancer-creatures/Vampire Lord.json",
 "config/sw08necromancer-creatures/Vampire.json",
 "config/sw08necromancer-creatures/Zombie.json",
-"config/sw08necromancer-creatures/Death Knight.json",
+"config/sw08necromancer-creatures/Death Knight.json"
 
 	],
 	"objects":

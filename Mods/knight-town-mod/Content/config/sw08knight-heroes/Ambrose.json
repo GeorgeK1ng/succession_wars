@@ -1,0 +1,80 @@
+{
+	"sw08Ambrose": {
+		"female": false,
+		"class": "sw08knight",
+		"texts": {
+			"name": "Ambrose",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Pikemen and Veteran Pikemen",
+				"description": "Pikemen and Veteran Pikemen",
+				"tooltip": "Increases the Attack and Defense skills of any Pikemen or Veteran Pikemen for each level attained after 3rd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08knight-heroes/UN32.def:8",
+			"specialtyLarge": "sw08knight-heroes/UN44.def:8",
+			"large": "sw08knight-heroes/port/HPL008CL",
+			"small": "sw08knight-heroes/port/HPS008CL"
+		},
+		"army": [
+			{
+				"creature": "sw08knightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "sw08knightPikeman",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "sw08knightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08knightPikeman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08knightPikeman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

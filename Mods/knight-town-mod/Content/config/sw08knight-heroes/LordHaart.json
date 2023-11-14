@@ -1,0 +1,59 @@
+{
+	"sw08LordHaart": {
+		"female": false,
+		"class": "sw08knight",
+		"texts": {
+			"name": "Lord Haart",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Estates",
+				"description": "Estates",
+				"tooltip": "Receives a 5% per level bonus to Estates skill."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08knight-heroes/UN32.def:6",
+			"specialtyLarge": "sw08knight-heroes/UN44.def:6",
+			"large": "sw08knight-heroes/port/HPL006KN",
+			"small": "sw08knight-heroes/port/HPS006KN"
+		},
+		"army": [
+			{
+				"creature": "sw08knightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "sw08knightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "sw08knightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "estates",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gold",
+					"valueType": "PERCENT_TO_ALL",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

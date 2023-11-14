@@ -1,0 +1,85 @@
+{
+	"sw08Xsissis": {
+		"female": false,
+		"class": "sw08Witch",
+		"texts": {
+			"name": "Xsissis",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Lizardmen and Lizardmen Warriors",
+				"description": "Lizardmen and Lizardmen Warriors",
+				"tooltip": "Increases the Attack and Defense skills of any Lizardmen or Lizardmen Warriors for each level attained after 3rd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08witch-heroes/UN32.def:119",
+			"specialtyLarge": "sw08witch-heroes/UN44.def:119",
+			"large": "sw08witch-heroes/port/new/liz01L.bmp",
+			"small": "sw08witch-heroes/port/new/liz01S.bmp"
+		},
+		"army": [
+			{
+				"creature": "sw08witchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "sw08witchLizardman",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "sw08witchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "archery",
+				"level": "basic"
+			},
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08witchLizardman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08witchLizardman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

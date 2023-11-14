@@ -1,0 +1,57 @@
+{
+	"sw08Myra": {
+		"class": "swsw08wizard",
+		"female": true,
+		"texts": {
+			"name": "Myra",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Ice Bolt",
+				"description": "Ice Bolt",
+				"tooltip": "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08wizard-heroes/UN32.def:38",
+			"specialtyLarge": "sw08wizard-heroes/UN44.def:38",
+			"large": "sw08wizard-heroes/port/HPL038AL",
+			"small": "sw08wizard-heroes/port/HPS038AL"
+		},
+		"spellbook": [
+			"iceBolt"
+		],
+		"army": [
+			{
+				"creature": "sw08wizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "sw08wizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08wizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.iceBolt"
+				}
+			}
+		}
+	}
+}

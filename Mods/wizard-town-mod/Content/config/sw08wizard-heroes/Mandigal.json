@@ -1,0 +1,55 @@
+{
+	"sw08Mandigal": {
+		"class": "swsw08wizard",
+		"female": false,
+		"texts": {
+			"name": "Mandigal",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Scouting",
+				"description": "Scouting",
+				"tooltip": "Receives an additional square of vision for each level, in addition to the effect of Scouting skill."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08wizard-heroes/UN32.def:32",
+			"specialtyLarge": "sw08wizard-heroes/UN44.def:32",
+			"large": "sw08wizard-heroes/port/HPL032AL",
+			"small": "sw08wizard-heroes/port/HPS032AL"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "sw08wizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "sw08wizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08wizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SIGHT_RADIUS",
+					"val": 3
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"sw08Dimitri": {
+		"female": false,
+		"class": "sw08knight",
+		"texts": {
+			"name": "Dimitri",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Ballistics",
+				"description": "Ballistics",
+				"tooltip": "Increases the amount of Catapult shots once per 5 experience levels."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08knight-heroes/UN32.def:1",
+			"specialtyLarge": "sw08knight-heroes/UN44.def:1",
+			"large": "sw08knight-heroes/port/HPL001KN",
+			"small": "sw08knight-heroes/port/HPS001KN"
+		},
+		"army": [
+			{
+				"creature": "sw08knightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "sw08knightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "sw08knightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "ballistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SHOTS",
+					"val": 1,
+					"updater": {
+						"parameters": [
+							4
+						],
+						"type": "GROWS_WITH_LEVEL"
+					},
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"catapult",
+								true
+							]
+						}
+					]
+				}
+			}
+		}
+	}
+}

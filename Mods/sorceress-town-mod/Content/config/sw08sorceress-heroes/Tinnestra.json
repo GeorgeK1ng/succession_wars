@@ -1,0 +1,85 @@
+{
+	"sw08Tinnestra": {
+		"class": "sw08sorceress",
+		"female": true,
+		"texts": {
+			"name": "Tinnestra",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Unicorns",
+				"description": "Unicorns",
+				"tooltip": "Increases the Attack and Defense skills of any Unicorns for each level attained after 6th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08sorceress-heroes/UN32.def:28",
+			"specialtyLarge": "sw08sorceress-heroes/UN44.def:28",
+			"large": "sw08sorceress-heroes/port/HPL028DR",
+			"small": "sw08sorceress-heroes/port/HPS028DR"
+		},
+		"spellbook": [
+			"magicArrow"
+		],
+		"army": [
+			{
+				"creature": "sw08sorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "sw08sorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08sorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "luck",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08sorceressUnicorn",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08sorceressUnicorn",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"sw08Antoine": {
+		"class": "swsw08barbarian",
+		"female": false,
+		"texts": {
+			"name": "Antoine",
+			"biography": "no bios",
+			"specialty": {
+				"name": "+ 1 Gem",
+				"description": "+ 1 Gem",
+				"tooltip": "Increases kingdom's Gem production by 1 per day."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08barbarian-heroes/UN32.def:105",
+			"specialtyLarge": "sw08barbarian-heroes/UN44.def:105",
+			"large": "sw08barbarian-heroes/port/HPL105BM.bmp",
+			"small": "sw08barbarian-heroes/port/HPS105BM.bmp"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "sw08barbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "sw08barbarianOrc",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "sw08barbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gems",
+					"val": 1
+				}
+			}
+		}
+	}
+}

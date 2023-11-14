@@ -1,0 +1,52 @@
+{
+	"sw08Martine": {
+		"female": true,
+		"class": "swsw08oasis",
+		"texts": {
+			"name": "Martine",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Rogues or Bandits",
+				"description": "Rogues or Bandits",
+				"tooltip": "Increases the Attack and Defense skills of any Rogues or Bandits for each level attained after 1st level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08oasis-heroes/UN32.def:131",
+			"specialtyLarge": "sw08oasis-heroes/UN44.def:131",
+			"large": "sw08oasis-heroes/port/HPL003PL",
+			"small": "sw08oasis-heroes/port/HPS003PL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "sw08oasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "sw08oasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "sw08oasisRogue",
+				"min": 8,
+				"max": 16
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "sw08oasisRogue"
+		}
+	}
+}

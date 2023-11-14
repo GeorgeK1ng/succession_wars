@@ -26,8 +26,29 @@
 	],
 	"heroes" :
 	[
-	"config/sw08barbarian-heroes/Barbarian_heroes.json",
-
+	"config/sw08barbarian-heroes/Agafest.json",
+	"config/sw08barbarian-heroes/Antoine.json",
+	"config/sw08barbarian-heroes/Atlas.json",
+	"config/sw08barbarian-heroes/Barbarian.json",
+	"config/sw08barbarian-heroes/Brun.json",
+	"config/sw08barbarian-heroes/CragHack.json",
+	"config/sw08barbarian-heroes/Ergon.json",
+	"config/sw08barbarian-heroes/fileStems.json",
+	"config/sw08barbarian-heroes/Finbros.json",
+	"config/sw08barbarian-heroes/Fineous.json",
+	"config/sw08barbarian-heroes/Ildy.json",
+	"config/sw08barbarian-heroes/Jaclyn.json",
+	"config/sw08barbarian-heroes/Jezebel.json",
+	"config/sw08barbarian-heroes/Jojosh.json",
+	"config/sw08barbarian-heroes/Madrax.json",
+	"config/sw08barbarian-heroes/Moham.json",
+	"config/sw08barbarian-heroes/Sonnie.json",
+	"config/sw08barbarian-heroes/Thornson.json",
+	"config/sw08barbarian-heroes/Thundax.json",
+	"config/sw08barbarian-heroes/Tsabu.json",
+	"config/sw08barbarian-heroes/Wallas.json",
+	"config/sw08barbarian-heroes/Xandor.json",
+	"config/sw08barbarian-heroes/Yog.json"
 	],
 "creatures" :
 	[
@@ -40,7 +61,7 @@
 "config/sw08barbarian-creatures/Orc.json",
 "config/sw08barbarian-creatures/Troll.json",
 "config/sw08barbarian-creatures/War Troll.json",
-"config/sw08barbarian-creatures/Wolf.json",
+"config/sw08barbarian-creatures/Wolf.json"
 	],
 	"objects":
 	[

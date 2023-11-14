@@ -1,0 +1,61 @@
+{
+	"sw08Amicus": {
+		"female": false,
+		"class": "swsw08warlock",
+		"texts": {
+			"name": "Amicus",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Learning",
+				"description": "Learning",
+				"tooltip": "Receives a 5% per level bonus to Learning skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08warlock-heroes/UN32.def:80",
+			"specialtyLarge": "sw08warlock-heroes/UN44.def:80",
+			"large": "sw08warlock-heroes/port/HPL080OV",
+			"small": "sw08warlock-heroes/port/HPS080OV"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "sw08warlockCentaur",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "sw08warlockGargoyle",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08warlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "HERO_EXPERIENCE_GAIN_PERCENT",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

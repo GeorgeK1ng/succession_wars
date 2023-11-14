@@ -1,0 +1,62 @@
+{
+	"sw08Solmyr": {
+		"class": "swsw08wizard",
+		"female": false,
+		"texts": {
+			"name": "Solmyr",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Intelligence",
+				"description": "Intelligence",
+				"tooltip": "Receives a 5% per level bonus to Intelligence skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08wizard-heroes/UN32.def:46",
+			"specialtyLarge": "sw08wizard-heroes/UN44.def:46",
+			"large": "sw08wizard-heroes/port/082/HPL046WZ",
+			"small": "sw08wizard-heroes/port/082/HPS046WZ"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "sw08wizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "sw08wizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08wizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MANA_PER_KNOWLEDGE",
+					"valueType": "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

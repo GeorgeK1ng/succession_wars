@@ -1,0 +1,57 @@
+{
+	"sw08Ester": {
+		"female": true,
+		"class": "sw08Witch",
+		"texts": {
+			"name": "Ester",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Ice Bolt",
+				"description": "Ice Bolt",
+				"tooltip": "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08witch-heroes/UN32.def:117",
+			"specialtyLarge": "sw08witch-heroes/UN44.def:117",
+			"large": "sw08witch-heroes/port/HPL117BS.bmp",
+			"small": "sw08witch-heroes/port/HPS117BS.bmp"
+		},
+		"army": [
+			{
+				"creature": "sw08witchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "sw08witchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08witchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"iceBolt"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.iceBolt"
+				}
+			}
+		}
+	}
+}

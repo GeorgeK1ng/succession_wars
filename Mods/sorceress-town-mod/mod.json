@@ -25,7 +25,29 @@
 	],
 	"heroes" :
 	[
-		"config/sw08sorceress-heroes/sorceress_heroes.json"
+		"config/sw08sorceress-heroes/Ariel.json",
+		"config/sw08sorceress-heroes/Arisa.json",
+		"config/sw08sorceress-heroes/Astra.json",
+		"config/sw08sorceress-heroes/Carlawn.json",
+		"config/sw08sorceress-heroes/Dina.json",
+		"config/sw08sorceress-heroes/Dorothy.json",
+		"config/sw08sorceress-heroes/fileStems.json",
+		"config/sw08sorceress-heroes/Gem.json",
+		"config/sw08sorceress-heroes/Ildar.json",
+		"config/sw08sorceress-heroes/Jennifer.json",
+		"config/sw08sorceress-heroes/Kasmetra.json",
+		"config/sw08sorceress-heroes/Luna.json",
+		"config/sw08sorceress-heroes/Margery.json",
+		"config/sw08sorceress-heroes/Mirinda.json",
+		"config/sw08sorceress-heroes/Natasha.json",
+		"config/sw08sorceress-heroes/Ptolemeya.json",
+		"config/sw08sorceress-heroes/Rebecca.json",
+		"config/sw08sorceress-heroes/Serena.json",
+		"config/sw08sorceress-heroes/Soraya.json",
+		"config/sw08sorceress-heroes/Sorceress.json",
+		"config/sw08sorceress-heroes/Tinnestra.json",
+		"config/sw08sorceress-heroes/Troyan.json",
+		"config/sw08sorceress-heroes/Vatawna.json"
 	],
 "creatures" :
 	[

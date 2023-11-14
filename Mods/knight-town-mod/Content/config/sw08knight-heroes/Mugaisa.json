@@ -1,0 +1,59 @@
+{
+	"sw08Mugaisa": {
+		"female": true,
+		"class": "sw08knight",
+		"texts": {
+			"name": "Mugaisa",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Armorer",
+				"description": "Armorer",
+				"tooltip": "Receives a 5% per level bonus to Armorer skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08knight-heroes/UN32.def:4",
+			"specialtyLarge": "sw08knight-heroes/UN44.def:4",
+			"large": "sw08knight-heroes/port/HPL004KN",
+			"small": "sw08knight-heroes/port/HPS004KN"
+		},
+		"army": [
+			{
+				"creature": "sw08knightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "sw08knightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "sw08knightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERAL_DAMAGE_REDUCTION",
+					"subtype": "damageTypeAll",
+					"targetSourceType": "SECONDARY_SKILL",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -25,7 +25,26 @@
 	],
 	"heroes" :
 	[
-		"config/sw08knight-heroes/Knight_heroes.json"
+		"config/sw08knight-heroes/Ambrose.json",
+		"config/sw08knight-heroes/Arturius.json",
+		"config/sw08knight-heroes/Christian.json",
+		"config/sw08knight-heroes/Crytus.json",
+		"config/sw08knight-heroes/Dimitri.json",
+		"config/sw08knight-heroes/Ector.json",
+		"config/sw08knight-heroes/fileStems.json",
+		"config/sw08knight-heroes/Gallavant.json",
+		"config/sw08knight-heroes/Gwenneth.json",
+		"config/sw08knight-heroes/Knight.json",
+		"config/sw08knight-heroes/LordAlberon.json",
+		"config/sw08knight-heroes/LordDaimond.json",
+		"config/sw08knight-heroes/LordHaart.json",
+		"config/sw08knight-heroes/LordKilburn.json",
+		"config/sw08knight-heroes/Maximus.json",
+		"config/sw08knight-heroes/Mugaisa.json",
+		"config/sw08knight-heroes/Roland.json",
+		"config/sw08knight-heroes/Ruby.json",
+		"config/sw08knight-heroes/SirGallant.json",
+		"config/sw08knight-heroes/Tyro.json"
 	],
 	"creatures" :
 	[
@@ -43,13 +62,13 @@
 "config/sw08knight-creatures/Pikeman.json",
 "config/sw08knight-creatures/Ranger.json",
 "config/sw08knight-creatures/Swordsman.json",
-"config/sw08knight-creatures/Veteran Pikeman.json",
+"config/sw08knight-creatures/Veteran Pikeman.json"
 
 	],
 	"objects":
 	[
 	"config/sw08knight/dwellings.json",
-	"config/sw08knight/banks.json"	
+	"config/sw08knight/banks.json"
 	
 	]
 }

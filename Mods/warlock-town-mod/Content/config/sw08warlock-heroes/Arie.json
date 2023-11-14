@@ -1,0 +1,62 @@
+{
+	"sw08Arie": {
+		"female": false,
+		"class": "swsw08warlock",
+		"texts": {
+			"name": "Arie",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Armorer",
+				"description": "Armorer",
+				"tooltip": "Receives a 5% per level bonus to Armorer skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08warlock-heroes/UN32.def:93",
+			"specialtyLarge": "sw08warlock-heroes/UN44.def:93",
+			"large": "sw08warlock-heroes/port/HPL093WL",
+			"small": "sw08warlock-heroes/port/HPS093WL"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "sw08warlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "sw08warlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "sw08warlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERAL_DAMAGE_REDUCTION",
+					"subtype": "damageTypeAll",
+					"targetSourceType": "SECONDARY_SKILL",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 5
+				}
+			}
+		}
+	}
+}

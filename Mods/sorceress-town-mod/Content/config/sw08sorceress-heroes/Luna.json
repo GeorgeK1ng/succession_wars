@@ -1,0 +1,61 @@
+{
+	"sw08Luna": {
+		"class": "sw08sorceress",
+		"female": true,
+		"texts": {
+			"name": "Luna",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Bless",
+				"description": "Bless",
+				"tooltip": "Casts Bless with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08sorceress-heroes/UN32.def:23",
+			"specialtyLarge": "sw08sorceress-heroes/UN44.def:23",
+			"large": "sw08sorceress-heroes/port/HPL023RN",
+			"small": "sw08sorceress-heroes/port/HPS023RN"
+		},
+		"spellbook": [
+			"bless"
+		],
+		"army": [
+			{
+				"creature": "sw08sorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "sw08sorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08sorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "airMagic",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.bless"
+				}
+			}
+		}
+	}
+}

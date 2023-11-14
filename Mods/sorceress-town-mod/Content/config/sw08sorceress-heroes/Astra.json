@@ -1,0 +1,61 @@
+{
+	"sw08Astra": {
+		"class": "sw08sorceress",
+		"female": true,
+		"texts": {
+			"name": "Astra",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Frost Ring",
+				"description": "Frost Ring",
+				"tooltip": "Casts Cold Ring with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08sorceress-heroes/UN32.def:16",
+			"specialtyLarge": "sw08sorceress-heroes/UN44.def:16",
+			"large": "sw08sorceress-heroes/port/HPL016RN",
+			"small": "sw08sorceress-heroes/port/HPS016RN"
+		},
+		"spellbook": [
+			"frostRing"
+		],
+		"army": [
+			{
+				"creature": "sw08sorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "sw08sorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08sorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "navigation",
+				"level": "basic"
+			},
+			{
+				"skill": "waterMagic",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.frostRing"
+				}
+			}
+		}
+	}
+}

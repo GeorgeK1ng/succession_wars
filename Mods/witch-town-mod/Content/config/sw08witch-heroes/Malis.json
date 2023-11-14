@@ -1,0 +1,61 @@
+{
+	"sw08Malis": {
+		"female": true,
+		"class": "sw08Witch",
+		"texts": {
+			"name": "Malis",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Eagle Eye",
+				"description": "Eagle Eye",
+				"tooltip": "Receives a 5% per level bonus to Eagle Eye skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08witch-heroes/UN32.def:125",
+			"specialtyLarge": "sw08witch-heroes/UN44.def:125",
+			"large": "sw08witch-heroes/port/HPL125WH.bmp",
+			"small": "sw08witch-heroes/port/HPS125WH.bmp"
+		},
+		"army": [
+			{
+				"creature": "sw08witchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "sw08witchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08witchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			},
+			{
+				"skill": "eagleEye",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "LEARN_BATTLE_SPELL_CHANCE",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

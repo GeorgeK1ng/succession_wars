@@ -1,0 +1,85 @@
+{
+	"sw08Gurwillin": {
+		"class": "swsw08wizard",
+		"female": false,
+		"texts": {
+			"name": "Gurwillin",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Halflings",
+				"description": "Halflings",
+				"tooltip": "Increases the Attack and Defense skill of any Halflings for each level attained after 1st level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08wizard-heroes/UN32.def:44",
+			"specialtyLarge": "sw08wizard-heroes/UN44.def:44",
+			"large": "sw08wizard-heroes/port/HPL044WZ",
+			"small": "sw08wizard-heroes/port/HPS044WZ"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "sw08wizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "sw08wizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08wizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08wizardHalfling",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"sw08wizardHalfling",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

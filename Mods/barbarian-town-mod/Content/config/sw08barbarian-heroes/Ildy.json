@@ -1,0 +1,48 @@
+{
+	"sw08Ildy": {
+		"class": "swsw08barbarian",
+		"female": false,
+		"texts": {
+			"name": "Ildy",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Goblins",
+				"description": "Goblins",
+				"tooltip": "Increases the Attack and Defense skill of any Goblins for each level attained after 1st level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08barbarian-heroes/UN32.def:106",
+			"specialtyLarge": "sw08barbarian-heroes/UN44.def:106",
+			"large": "sw08barbarian-heroes/port/HPL106BM.bmp",
+			"small": "sw08barbarian-heroes/port/HPS106BM.bmp"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "sw08barbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "sw08barbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "sw08barbarianGoblin",
+				"min": 14,
+				"max": 22
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"creature": "sw08barbarianGoblin"
+		}
+	}
+}

@@ -25,7 +25,28 @@
 	],
 	"heroes" :
 	[
-"config/sw08wizard-heroes/wizard_heroes.json"
+"config/sw08wizard-heroes/Arina.json",
+"config/sw08wizard-heroes/Astral.json",
+"config/sw08wizard-heroes/Brissa.json",
+"config/sw08wizard-heroes/Dawn.json",
+"config/sw08wizard-heroes/fileStems.json",
+"config/sw08wizard-heroes/Flint.json",
+"config/sw08wizard-heroes/Gurwillin.json",
+"config/sw08wizard-heroes/Halon.json",
+"config/sw08wizard-heroes/Kalindra.json",
+"config/sw08wizard-heroes/Klavis.json",
+"config/sw08wizard-heroes/Lloyd.json",
+"config/sw08wizard-heroes/Mandigal.json",
+"config/sw08wizard-heroes/Myra.json",
+"config/sw08wizard-heroes/Myrini.json",
+"config/sw08wizard-heroes/Rendalf.json",
+"config/sw08wizard-heroes/Sarakin.json",
+"config/sw08wizard-heroes/Segwen.json",
+"config/sw08wizard-heroes/Skoran.json",
+"config/sw08wizard-heroes/Solmyr.json",
+"config/sw08wizard-heroes/Tolich.json",
+"config/sw08wizard-heroes/Wilfrey.json",
+"config/sw08wizard-heroes/Wizard.json"
 	],
 	"creatures" :
 	[

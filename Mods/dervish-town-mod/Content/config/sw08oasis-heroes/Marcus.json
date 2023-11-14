@@ -1,0 +1,60 @@
+{
+	"sw08Marcus": {
+		"female": false,
+		"class": "swsw08oasis",
+		"texts": {
+			"name": "Marcus",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Intelligence",
+				"description": "Intelligence",
+				"tooltip": "Receives a 5% per level bonus to Intelligence skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08oasis-heroes/UN32.def:136",
+			"specialtyLarge": "sw08oasis-heroes/UN44.def:136",
+			"large": "sw08oasis-heroes/port/HPL000EL",
+			"small": "sw08oasis-heroes/port/HPS000EL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "sw08oasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "sw08oasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "sw08oasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MANA_PER_KNOWLEDGE",
+					"valueType": "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

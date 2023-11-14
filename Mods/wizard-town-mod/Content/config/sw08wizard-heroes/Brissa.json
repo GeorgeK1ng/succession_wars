@@ -1,0 +1,61 @@
+{
+	"sw08Brissa": {
+		"class": "swsw08wizard",
+		"female": true,
+		"texts": {
+			"name": "Brissa",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Eagle Eye",
+				"description": "Eagle Eye",
+				"tooltip": "Receives a 5% per level bonus to Eagle Eye skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08wizard-heroes/UN32.def:41",
+			"specialtyLarge": "sw08wizard-heroes/UN44.def:41",
+			"large": "sw08wizard-heroes/port/HPL041WZ",
+			"small": "sw08wizard-heroes/port/HPS041WZ"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "sw08wizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "sw08wizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "sw08wizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "eagleEye",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "LEARN_BATTLE_SPELL_CHANCE",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"sw08Ranloo": {
+		"class": "swsw08necromancer",
+		"female": false,
+		"texts": {
+			"name": "Ranloo",
+			"biography": "NO_TEXT",
+			"specialty": {
+				"name": "Ballista",
+				"description": "Ballista",
+				"tooltip": "Increases the Attack and Defense skill of any Ballista for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "sw08necromancer-heroes/UN32.def:67",
+			"specialtyLarge": "sw08necromancer-heroes/UN44.def:67",
+			"large": "sw08necromancer-heroes/port/HPL067DK.bmp",
+			"small": "sw08necromancer-heroes/port/HPS067DK.bmp"
+		},
+		"spellbook": [
+			"haste"
+		],
+		"army": [
+			{
+				"creature": "sw08necromancerSkeleton",
+				"min": 22,
+				"max": 30
+			},
+			{
+				"creature": "sw08necromancerZombie",
+				"min": 12,
+				"max": 18
+			},
+			{
+				"creature": "sw08necromancerMummy",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "ballistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"ballista",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"ballista",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

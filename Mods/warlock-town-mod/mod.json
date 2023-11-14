@@ -30,7 +30,7 @@
 "config/sw08warlock-creatures/Minotaur King.json",
 "config/sw08warlock-creatures/Minotaur.json",
 "config/sw08warlock-creatures/Red Dragon.json",
-"config/sw08warlock-creatures/Beholder.json",
+"config/sw08warlock-creatures/Beholder.json"
 
 	],
 "heroClasses" :
@@ -39,8 +39,32 @@
 	],
 	"heroes" :
 	[
-		"config/sw08warlock-heroes/warlock_heroes.json"
-		
+		"config/sw08warlock-heroes/Adaliya.json",
+		"config/sw08warlock-heroes/Agar.json",
+		"config/sw08warlock-heroes/Alamar.json",
+		"config/sw08warlock-heroes/Amadeys.json",
+		"config/sw08warlock-heroes/Amicus.json",
+		"config/sw08warlock-heroes/Archibald.json",
+		"config/sw08warlock-heroes/Arie.json",
+		"config/sw08warlock-heroes/Barok.json",
+		"config/sw08warlock-heroes/Crodo.json",
+		"config/sw08warlock-heroes/Deliran.json",
+		"config/sw08warlock-heroes/Evilla.json",
+		"config/sw08warlock-heroes/Falagar.json",
+		"config/sw08warlock-heroes/Faljarena.json",
+		"config/sw08warlock-heroes/fileStems.json",
+		"config/sw08warlock-heroes/Gharik.json",
+		"config/sw08warlock-heroes/Kastore.json",
+		"config/sw08warlock-heroes/Mojo.json",
+		"config/sw08warlock-heroes/Quentin.json",
+		"config/sw08warlock-heroes/Sarkosian.json",
+		"config/sw08warlock-heroes/Verchoffin.json",
+		"config/sw08warlock-heroes/Vesper.json",
+		"config/sw08warlock-heroes/Warlock.json",
+		"config/sw08warlock-heroes/Wiggo.json",
+		"config/sw08warlock-heroes/Wrathmont.json",
+		"config/sw08warlock-heroes/Xian.json",
+		"config/sw08warlock-heroes/Zoltan.json"
     ],
 	"objects":
 	[
