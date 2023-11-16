@@ -1,0 +1,26 @@
+{
+  "swArmoredGauntletsOfProtection": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "RING",
+    "class": "MINOR",
+    "value": 3000,
+    "text": {
+      "name": "Armored Gauntlets of Protection",
+      "description": "The Armored Gauntlets of Protection increases your defense skill by 2.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "PRIMARY_SKILL",
+        "subtype": "primarySkill.defence",
+        "val": 2
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:14",
+      "map": "sw08arts/AVA0014"
+    }
+  }
+}

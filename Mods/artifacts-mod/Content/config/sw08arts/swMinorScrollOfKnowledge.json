@@ -1,0 +1,26 @@
+{
+  "swMinorScrollOfKnowledge": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "MISC",
+    "class": "TREASURE",
+    "value": 1000,
+    "text": {
+      "name": "Minor Scroll of Knowledge",
+      "description": "The Minor Scroll of Knowledge increases your knowledge skill by 1.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "PRIMARY_SKILL",
+        "subtype": "primarySkill.knowledge",
+        "val": 1
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:27",
+      "map": "sw08arts/AVA0027"
+    }
+  }
+}

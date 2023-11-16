@@ -1,0 +1,26 @@
+{
+  "swCompassOfTraveller": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "MISC",
+    "class": "MINOR",
+    "value": 5000,
+    "text": {
+      "name": "Compass of Traveller",
+      "description": "The Compass of Traveller increases your movement on sea and land.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "MOVEMENT",
+        "subtype": "heroMovementLand",
+        "val": 500
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:123",
+      "map": "sw08arts/AVA0123"
+    }
+  }
+}

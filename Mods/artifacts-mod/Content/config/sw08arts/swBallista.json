@@ -1,0 +1,34 @@
+{
+  "swBallista": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "MISC",
+    "class": "MINOR",
+    "value": 7000,
+    "text": {
+      "name": "Ballista",
+      "description": "The Ballista gives ballista +1 attack.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "ADDITIONAL_ATTACK",
+        "val": 1,
+        "limiters": [
+          {
+            "type": "CREATURE_TYPE_LIMITER",
+            "parameters": [
+              "ballista",
+              true
+            ]
+          }
+        ]
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:61",
+      "map": "sw08arts/AVA0061"
+    }
+  }
+}

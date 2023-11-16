@@ -1,0 +1,26 @@
+{
+  "sw1StLevelSpellsBook": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "SPELLBOOK",
+    "class": "MINOR",
+    "value": 2000,
+    "text": {
+      "name": "1st Level Spells Book",
+      "description": "Gives the hero all spells of 1st level.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "SPELLS_OF_LEVEL",
+        "subtype": "spellLevel1",
+        "val": 0
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:0",
+      "map": "sw08arts/AVA0000"
+    }
+  }
+}

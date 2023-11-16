@@ -1,0 +1,26 @@
+{
+  "swEndlessVialOfMercury": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "MISC",
+    "class": "MAJOR",
+    "value": 5000,
+    "text": {
+      "name": "Endless Vial of Mercury",
+      "description": "The Endless Vial of Mercury provides 1 unit of mercury per day.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "GENERATE_RESOURCE",
+        "subtype": "resource.mercury",
+        "val": 1
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:111",
+      "map": "sw08arts/AVA0111"
+    }
+  }
+}

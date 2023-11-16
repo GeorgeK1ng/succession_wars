@@ -1,0 +1,31 @@
+{
+  "swFireCloak": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "SHOULDERS",
+    "class": "MAJOR",
+    "value": 16000,
+    "text": {
+      "name": "Fire Cloak",
+      "description": "The Fire Cloak decreases damage of fire spells by 50%.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "SPELL_DAMAGE",
+        "subtype": "spellSchool.fire",
+        "val": -50,
+        "propagator": "BATTLE_WIDE",
+        "propagationUpdater": "BONUS_OWNER_UPDATER",
+        "limiters": [
+          "OPPOSITE_SIDE"
+        ]
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:60",
+      "map": "sw08arts/AVA0060"
+    }
+  }
+}

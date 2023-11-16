@@ -1,0 +1,26 @@
+{
+  "sw_BloodyBoots": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "FEET",
+    "class": "MAJOR",
+    "value": 6000,
+    "text": {
+      "name": "_Bloody Boots",
+      "description": "The Bloody Boots increases your Necromancy skill by 15%.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "UNDEAD_RAISE_PERCENTAGE",
+        "val": 15,
+        "valueType": "ADDITIVE_VALUE"
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:56",
+      "map": "sw08arts/AVA0056"
+    }
+  }
+}

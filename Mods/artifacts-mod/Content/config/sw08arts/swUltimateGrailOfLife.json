@@ -1,0 +1,26 @@
+{
+  "swUltimateGrailOfLife": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "MISC",
+    "class": "RELIC",
+    "value": 36000,
+    "text": {
+      "name": "Ultimate Grail of Life",
+      "description": "Ultimate Grail of Life gives full regeneration to your armies.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "HP_REGENERATION",
+        "val": 100000,
+        "valueType": "ADDITIVE_VALUE"
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:1",
+      "map": "sw08arts/AVA0001"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "swWizardsHat": {
+    "type": [
+      "HERO"
+    ],
+    "slot": "HEAD",
+    "class": "RELIC",
+    "value": 30000,
+    "text": {
+      "name": "Wizard's Hat",
+      "description": "The Wizard's Hat allows you to cast all 5th level spells.",
+      "event": "You found something useful."
+    },
+    "bonuses": [
+      {
+        "type": "SPELLS_OF_LEVEL",
+        "subtype": "spellLevel5",
+        "val": 0
+      }
+    ],
+    "graphics": {
+      "image": "sw08arts/ARTIFACT.def:124",
+      "map": "sw08arts/AVA0124"
+    }
+  }
+}
