@@ -1,26 +1,26 @@
 {
-  "sw_MagicBagOfPolarity": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "RELIC",
-    "value": 6000,
-    "text": {
-      "name": "_Magic Bag of Polarity",
-      "description": "The Magic Bag of Polarity increases your Magic Resistance by 15%.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "MAGIC_RESISTANCE",
-        "val": 15,
-        "valueType": "ADDITIVE_VALUE"
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:59",
-      "map": "sw08arts/AVA0059"
-    }
-  }
+	"sw_MagicBagOfPolarity": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "RELIC",
+		"value": 6000,
+		"text": {
+			"name": "_Magic Bag of Polarity",
+			"description": "The Magic Bag of Polarity increases your Magic Resistance by 15%.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "MAGIC_RESISTANCE",
+				"val": 15,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:59",
+			"map": "sw08arts/AVA0059"
+		}
+	}
 }

@@ -1,25 +1,25 @@
 {
-  "swTelescope": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "TREASURE",
-    "value": 1000,
-    "text": {
-      "name": "Telescope",
-      "description": "The Telescope increases the ammount of terrain your hero reveals when adventuring by 1 extra square.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "SIGHT_RADIUS",
-        "val": 1
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:52",
-      "map": "sw08arts/AVA0052"
-    }
-  }
+	"swTelescope": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "TREASURE",
+		"value": 1000,
+		"text": {
+			"name": "Telescope",
+			"description": "The Telescope increases the ammount of terrain your hero reveals when adventuring by 1 extra square.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SIGHT_RADIUS",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:52",
+			"map": "sw08arts/AVA0052"
+		}
+	}
 }

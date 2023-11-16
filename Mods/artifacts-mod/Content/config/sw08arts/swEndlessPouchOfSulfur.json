@@ -1,26 +1,26 @@
 {
-  "swEndlessPouchOfSulfur": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "MAJOR",
-    "value": 5000,
-    "text": {
-      "name": "Endless Pouch of Sulfur",
-      "description": "The Endless Pouch of Sulfur provides 1 unit of Sulfur per day.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "GENERATE_RESOURCE",
-        "subtype": "resource.sulfur",
-        "val": 1
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:113",
-      "map": "sw08arts/AVA0113"
-    }
-  }
+	"swEndlessPouchOfSulfur": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 5000,
+		"text": {
+			"name": "Endless Pouch of Sulfur",
+			"description": "The Endless Pouch of Sulfur provides 1 unit of Sulfur per day.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.sulfur",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:113",
+			"map": "sw08arts/AVA0113"
+		}
+	}
 }

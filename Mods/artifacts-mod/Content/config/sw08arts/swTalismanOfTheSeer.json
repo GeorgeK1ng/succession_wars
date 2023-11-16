@@ -1,25 +1,25 @@
 {
-  "swTalismanOfTheSeer": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "TREASURE",
-    "value": 1000,
-    "text": {
-      "name": "Talisman of the Seer",
-      "description": "The Talisman of the Seer increases the ammount of terrain your hero reveals when adventuring by 1 extra square.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "SIGHT_RADIUS",
-        "val": 1
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:53",
-      "map": "sw08arts/AVA0053"
-    }
-  }
+	"swTalismanOfTheSeer": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "TREASURE",
+		"value": 1000,
+		"text": {
+			"name": "Talisman of the Seer",
+			"description": "The Talisman of the Seer increases the ammount of terrain your hero reveals when adventuring by 1 extra square.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SIGHT_RADIUS",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:53",
+			"map": "sw08arts/AVA0053"
+		}
+	}
 }

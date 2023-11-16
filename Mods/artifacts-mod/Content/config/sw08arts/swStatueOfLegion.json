@@ -1,34 +1,34 @@
 {
-  "swStatueOfLegion": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "RELIC",
-    "value": 25000,
-    "components": [
-      "sw08hmm2_legsOfLegion",
-      "sw08hmm2_loinsOfLegion",
-      "sw08hmm2_torsoOfLegion",
-      "sw08hmm2_armsOfLegion",
-      "sw08hmm2_headOfLegion"
-    ],
-    "text": {
-      "name": "Statue of Legion",
-      "description": "The Statue of Legion increases growth by 50% in all towns player has.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "CREATURE_GROWTH",
-        "subtype": "creatureLevel5",
-        "val": 1,
-        "propagator": "VISITED_TOWN_AND_VISITOR"
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:133",
-      "map": "sw08arts/AVA0134"
-    }
-  }
+	"swStatueOfLegion": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "RELIC",
+		"value": 25000,
+		"components": [
+			"sw08hmm2_legsOfLegion",
+			"sw08hmm2_loinsOfLegion",
+			"sw08hmm2_torsoOfLegion",
+			"sw08hmm2_armsOfLegion",
+			"sw08hmm2_headOfLegion"
+		],
+		"text": {
+			"name": "Statue of Legion",
+			"description": "The Statue of Legion increases growth by 50% in all towns player has.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "CREATURE_GROWTH",
+				"subtype": "creatureLevel5",
+				"val": 1,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:133",
+			"map": "sw08arts/AVA0134"
+		}
+	}
 }

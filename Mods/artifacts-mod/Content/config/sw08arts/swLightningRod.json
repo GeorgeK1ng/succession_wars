@@ -1,27 +1,27 @@
 {
-  "swLightningRod": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "MAJOR",
-    "value": 6000,
-    "text": {
-      "name": "Lightning Rod",
-      "description": "The Lightning Rod causes your air spells to do 50% more damage to enemy troops.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "SPELL_DAMAGE",
-        "subtype": "spellSchool.air",
-        "val": 50,
-        "valueType": "PERCENT_TO_BASE"
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:79",
-      "map": "sw08arts/AVA0079"
-    }
-  }
+	"swLightningRod": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 6000,
+		"text": {
+			"name": "Lightning Rod",
+			"description": "The Lightning Rod causes your air spells to do 50% more damage to enemy troops.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPELL_DAMAGE",
+				"subtype": "spellSchool.air",
+				"val": 50,
+				"valueType": "PERCENT_TO_BASE"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:79",
+			"map": "sw08arts/AVA0079"
+		}
+	}
 }

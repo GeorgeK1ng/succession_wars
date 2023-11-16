@@ -1,26 +1,26 @@
 {
-  "swUltimateBookOfKnowledge": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "RELIC",
-    "value": 30000,
-    "text": {
-      "name": "Ultimate Book of Knowledge",
-      "description": "The Ultimate Book of Knowledge increases your knowledge by 12.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "PRIMARY_SKILL",
-        "subtype": "primarySkill.knowledge",
-        "val": 12
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:165",
-      "map": "sw08arts/AVA0165"
-    }
-  }
+	"swUltimateBookOfKnowledge": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "RELIC",
+		"value": 30000,
+		"text": {
+			"name": "Ultimate Book of Knowledge",
+			"description": "The Ultimate Book of Knowledge increases your knowledge by 12.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val": 12
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:165",
+			"map": "sw08arts/AVA0165"
+		}
+	}
 }

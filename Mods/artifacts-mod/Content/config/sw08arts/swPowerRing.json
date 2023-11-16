@@ -1,25 +1,25 @@
 {
-  "swPowerRing": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "RING",
-    "class": "TREASURE",
-    "value": 2000,
-    "text": {
-      "name": "Power Ring",
-      "description": "The Power Ring returns 2 extra spell points per turn to your hero.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "MANA_REGENERATION",
-        "val": 2
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:74",
-      "map": "sw08arts/AVA0074"
-    }
-  }
+	"swPowerRing": {
+		"type": [
+			"HERO"
+		],
+		"slot": "RING",
+		"class": "TREASURE",
+		"value": 2000,
+		"text": {
+			"name": "Power Ring",
+			"description": "The Power Ring returns 2 extra spell points per turn to your hero.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "MANA_REGENERATION",
+				"val": 2
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:74",
+			"map": "sw08arts/AVA0074"
+		}
+	}
 }

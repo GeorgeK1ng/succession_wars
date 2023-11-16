@@ -1,26 +1,26 @@
 {
-  "sw_SoulInAmethyst": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "MINOR",
-    "value": 3000,
-    "text": {
-      "name": "_Soul in Amethyst",
-      "description": "The Soul in Amethyst increases your eagle eye skill by 15%.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "LEARN_BATTLE_SPELL_CHANCE",
-        "valueType": "ADDITIVE_VALUE",
-        "val": 15
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:65",
-      "map": "sw08arts/AVA0065"
-    }
-  }
+	"sw_SoulInAmethyst": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "MINOR",
+		"value": 3000,
+		"text": {
+			"name": "_Soul in Amethyst",
+			"description": "The Soul in Amethyst increases your eagle eye skill by 15%.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "LEARN_BATTLE_SPELL_CHANCE",
+				"valueType": "ADDITIVE_VALUE",
+				"val": 15
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:65",
+			"map": "sw08arts/AVA0065"
+		}
+	}
 }

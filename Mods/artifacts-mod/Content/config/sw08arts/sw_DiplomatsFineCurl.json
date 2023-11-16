@@ -1,25 +1,25 @@
 {
-  "sw_DiplomatsFineCurl": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "RING",
-    "class": "MAJOR",
-    "value": 5000,
-    "text": {
-      "name": "_Diplomat's Fine Curl",
-      "description": "The Diplomat's Fine Curl reduces the cost of surrender to 10% of the total cost of troops you have in your army.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "SURRENDER_DISCOUNT",
-        "val": 10
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:67",
-      "map": "sw08arts/AVA0067"
-    }
-  }
+	"sw_DiplomatsFineCurl": {
+		"type": [
+			"HERO"
+		],
+		"slot": "RING",
+		"class": "MAJOR",
+		"value": 5000,
+		"text": {
+			"name": "_Diplomat's Fine Curl",
+			"description": "The Diplomat's Fine Curl reduces the cost of surrender to 10% of the total cost of troops you have in your army.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SURRENDER_DISCOUNT",
+				"val": 10
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:67",
+			"map": "sw08arts/AVA0067"
+		}
+	}
 }

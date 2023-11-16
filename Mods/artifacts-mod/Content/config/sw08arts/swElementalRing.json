@@ -1,41 +1,41 @@
 {
-  "swElementalRing": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "RING",
-    "class": "MAJOR",
-    "value": 9000,
-    "text": {
-      "name": "Elemental Ring",
-      "description": "Increases effectiveness of elemental summoning spells by 50%.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "SPECIAL_SPELL_LEV",
-        "val": 50,
-        "subtype": "spell.airElemental"
-      },
-      {
-        "type": "SPECIAL_SPELL_LEV",
-        "val": 50,
-        "subtype": "spell.waterElemental"
-      },
-      {
-        "type": "SPECIAL_SPELL_LEV",
-        "val": 50,
-        "subtype": "spell.fireElemental"
-      },
-      {
-        "type": "SPECIAL_SPELL_LEV",
-        "val": 50,
-        "subtype": "spell.earthElemental"
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:65",
-      "map": "sw08arts/AVA0065"
-    }
-  }
+	"swElementalRing": {
+		"type": [
+			"HERO"
+		],
+		"slot": "RING",
+		"class": "MAJOR",
+		"value": 9000,
+		"text": {
+			"name": "Elemental Ring",
+			"description": "Increases effectiveness of elemental summoning spells by 50%.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 50,
+				"subtype": "spell.airElemental"
+			},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 50,
+				"subtype": "spell.waterElemental"
+			},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 50,
+				"subtype": "spell.fireElemental"
+			},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 50,
+				"subtype": "spell.earthElemental"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:65",
+			"map": "sw08arts/AVA0065"
+		}
+	}
 }

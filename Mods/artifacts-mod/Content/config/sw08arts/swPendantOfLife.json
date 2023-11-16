@@ -1,33 +1,33 @@
 {
-  "swPendantOfLife": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "NECK",
-    "class": "TREASURE",
-    "value": 2500,
-    "text": {
-      "name": "Pendant of Life",
-      "description": "The Pendant of life makes all your troops inmune to death spells.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "SPELL_IMMUNITY",
-        "subtype": "spell.deathRipple"
-      },
-      {
-        "type": "SPELL_IMMUNITY",
-        "subtype": "spell.deathCloud"
-      },
-      {
-        "type": "SPELL_IMMUNITY",
-        "subtype": "spell.deathStare"
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:103",
-      "map": "sw08arts/AVA0103"
-    }
-  }
+	"swPendantOfLife": {
+		"type": [
+			"HERO"
+		],
+		"slot": "NECK",
+		"class": "TREASURE",
+		"value": 2500,
+		"text": {
+			"name": "Pendant of Life",
+			"description": "The Pendant of life makes all your troops inmune to death spells.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.deathRipple"
+			},
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.deathCloud"
+			},
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.deathStare"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:103",
+			"map": "sw08arts/AVA0103"
+		}
+	}
 }

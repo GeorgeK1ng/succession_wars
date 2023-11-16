@@ -1,26 +1,26 @@
 {
-  "swDragonSwordOfDominion": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "RIGHT_HAND",
-    "class": "MAJOR",
-    "value": 5000,
-    "text": {
-      "name": "Dragon Sword of Dominion",
-      "description": "The Dragon Sword of Dominion increases your attack skill by 4.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "PRIMARY_SKILL",
-        "subtype": "primarySkill.attack",
-        "val": 4
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:11",
-      "map": "sw08arts/AVA0011"
-    }
-  }
+	"swDragonSwordOfDominion": {
+		"type": [
+			"HERO"
+		],
+		"slot": "RIGHT_HAND",
+		"class": "MAJOR",
+		"value": 5000,
+		"text": {
+			"name": "Dragon Sword of Dominion",
+			"description": "The Dragon Sword of Dominion increases your attack skill by 4.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 4
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:11",
+			"map": "sw08arts/AVA0011"
+		}
+	}
 }

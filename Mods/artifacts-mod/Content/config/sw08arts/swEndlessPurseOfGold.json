@@ -1,26 +1,26 @@
 {
-  "swEndlessPurseOfGold": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "MAJOR",
-    "value": 5000,
-    "text": {
-      "name": "Endless Purse of Gold",
-      "description": "The Endless Purse of Gold provides you with 500 gold per day.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "GENERATE_RESOURCE",
-        "subtype": "resource.gold",
-        "val": 500
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:117",
-      "map": "sw08arts/AVA0117"
-    }
-  }
+	"swEndlessPurseOfGold": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 5000,
+		"text": {
+			"name": "Endless Purse of Gold",
+			"description": "The Endless Purse of Gold provides you with 500 gold per day.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 500
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:117",
+			"map": "sw08arts/AVA0117"
+		}
+	}
 }

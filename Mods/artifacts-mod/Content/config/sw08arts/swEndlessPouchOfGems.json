@@ -1,26 +1,26 @@
 {
-  "swEndlessPouchOfGems": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "MAJOR",
-    "value": 5000,
-    "text": {
-      "name": "Endless Pouch of Gems",
-      "description": "The Endless Pouch of Gems provides 1 unit of gem per day.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "GENERATE_RESOURCE",
-        "subtype": "resource.gems",
-        "val": 1
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:110",
-      "map": "sw08arts/AVA0110"
-    }
-  }
+	"swEndlessPouchOfGems": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 5000,
+		"text": {
+			"name": "Endless Pouch of Gems",
+			"description": "The Endless Pouch of Gems provides 1 unit of gem per day.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gems",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:110",
+			"map": "sw08arts/AVA0110"
+		}
+	}
 }

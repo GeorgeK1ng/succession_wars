@@ -1,26 +1,26 @@
 {
-  "swEndlessSackOfGold": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "MISC",
-    "class": "RELIC",
-    "value": 10000,
-    "text": {
-      "name": "Endless Sack of Gold",
-      "description": "The Endless Sack of Gold provides you with 1000 gold per day.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "GENERATE_RESOURCE",
-        "subtype": "resource.gold",
-        "val": 1000
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:115",
-      "map": "sw08arts/AVA0115"
-    }
-  }
+	"swEndlessSackOfGold": {
+		"type": [
+			"HERO"
+		],
+		"slot": "MISC",
+		"class": "RELIC",
+		"value": 10000,
+		"text": {
+			"name": "Endless Sack of Gold",
+			"description": "The Endless Sack of Gold provides you with 1000 gold per day.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 1000
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:115",
+			"map": "sw08arts/AVA0115"
+		}
+	}
 }

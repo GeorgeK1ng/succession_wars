@@ -1,26 +1,26 @@
 {
-  "swDefenderHelmOfProtection": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "HEAD",
-    "class": "TREASURE",
-    "value": 2000,
-    "text": {
-      "name": "Defender Helm of Protection",
-      "description": "The Defender Helm of Protection increases your defense skill by 1.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "PRIMARY_SKILL",
-        "subtype": "primarySkill.defence",
-        "val": 1
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:16",
-      "map": "sw08arts/AVA0016"
-    }
-  }
+	"swDefenderHelmOfProtection": {
+		"type": [
+			"HERO"
+		],
+		"slot": "HEAD",
+		"class": "TREASURE",
+		"value": 2000,
+		"text": {
+			"name": "Defender Helm of Protection",
+			"description": "The Defender Helm of Protection increases your defense skill by 1.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:16",
+			"map": "sw08arts/AVA0016"
+		}
+	}
 }

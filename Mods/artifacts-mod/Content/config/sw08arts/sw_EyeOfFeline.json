@@ -1,26 +1,26 @@
 {
-  "sw_EyeOfFeline": {
-    "type": [
-      "HERO"
-    ],
-    "slot": "NECK",
-    "class": "TREASURE",
-    "value": 1000,
-    "text": {
-      "name": "_Eye of Feline",
-      "description": "The Eye of Feline increases your eagle eye skill by 5%.",
-      "event": "You found something useful."
-    },
-    "bonuses": [
-      {
-        "type": "LEARN_BATTLE_SPELL_CHANCE",
-        "valueType": "ADDITIVE_VALUE",
-        "val": 5
-      }
-    ],
-    "graphics": {
-      "image": "sw08arts/ARTIFACT.def:63",
-      "map": "sw08arts/AVA0063"
-    }
-  }
+	"sw_EyeOfFeline": {
+		"type": [
+			"HERO"
+		],
+		"slot": "NECK",
+		"class": "TREASURE",
+		"value": 1000,
+		"text": {
+			"name": "_Eye of Feline",
+			"description": "The Eye of Feline increases your eagle eye skill by 5%.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "LEARN_BATTLE_SPELL_CHANCE",
+				"valueType": "ADDITIVE_VALUE",
+				"val": 5
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:63",
+			"map": "sw08arts/AVA0063"
+		}
+	}
 }
