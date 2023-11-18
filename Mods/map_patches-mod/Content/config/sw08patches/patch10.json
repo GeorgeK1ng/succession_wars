@@ -1,73 +1,132 @@
 {
-	"core:swampFoliage" : {
-		"types" : {
-
-
-
-
-			"sw08patch10" : {
-				"name" : "Swamp Foliage",
-				"battleground" : "sw08_hmm2_swamp_trees",
-				"templates" : {
-
-				"AVXcH0" : {
-						"animation" : "sw08patches/patch10/AVXcH0",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["swamp"]
+	"core:swampFoliage": {
+		"types": {
+			"sw08patch10": {
+				"name": "Swamp Foliage",
+				"battleground": "sw08_hmm2_swamp_trees",
+				"templates": {
+					"AVXcH0": {
+						"animation": "sw08patches/patch10/AVXcH0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					},
-
-
-				"AVXcH2" : {
-						"animation" : "sw08Patches/patch10/AVXcH2",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["swamp"]
+					"AVXcH2": {
+						"animation": "sw08Patches/patch10/AVXcH2",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					},
-				"AVXcH3" : {
-						"animation" : "sw08Patches/patch10/AVXcH3",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
-						"allowedTerrains":["swamp"]
+					"AVXcH3": {
+						"animation": "sw08Patches/patch10/AVXcH3",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					},
-				"AVXcH4" : {
-						"animation" : "sw08Patches/patch10/AVXcH4",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
-						"allowedTerrains":["swamp"]
+					"AVXcH4": {
+						"animation": "sw08Patches/patch10/AVXcH4",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					},
-				"AVXcH5" : {
-						"animation" : "sw08Patches/patch10/AVXcH5",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV" ],
-						"allowedTerrains":["swamp"]
+					"AVXcH5": {
+						"animation": "sw08Patches/patch10/AVXcH5",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					},
-				"AVXcH7" : {
-						"animation" : "sw08Patches/patch10/AVXcH7",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVV", "VVVVV" ],
-						"allowedTerrains":["swamp"]
+					"AVXcH7": {
+						"animation": "sw08Patches/patch10/AVXcH7",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					},
-				"AVXcH6" : {
-						"animation" : "sw08Patches/patch10/AVXcH6",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
-						"allowedTerrains":["swamp"]
+					"AVXcH6": {
+						"animation": "sw08Patches/patch10/AVXcH6",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					}
-
-
-					}
-
 				}
-
-
-
-
-
-}
-
-
-
-
-}
+			}
+		}
+	}
 }

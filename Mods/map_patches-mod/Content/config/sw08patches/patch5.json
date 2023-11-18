@@ -1,78 +1,151 @@
 {
-	"core:rocklands" : {
-		"types" : {
-
-
-
-
-			"sw08patch5" : {
-				"name" : "Rock Lands",
-				"battleground" : "sw08_hmm2_rocklands",
-				"templates" : {
-
-				"AVmautr0" : {
-						"animation" : "sw08patches/patch5/AVmautr0",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["rough"]
+	"core:rocklands": {
+		"types": {
+			"sw08patch5": {
+				"name": "Rock Lands",
+				"battleground": "sw08_hmm2_rocklands",
+				"templates": {
+					"AVmautr0": {
+						"animation": "sw08patches/patch5/AVmautr0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
-				"AVmautr1" : {
-						"animation" : "sw08patches/patch5/AVmautr1",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
-						"allowedTerrains":["rough"]
+					"AVmautr1": {
+						"animation": "sw08patches/patch5/AVmautr1",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
-
-				"AVmautr2" : {
-						"animation" : "sw08Patches/patch5/AVmautr2",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["rough"]
+					"AVmautr2": {
+						"animation": "sw08Patches/patch5/AVmautr2",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
-				"AVmautr3" : {
-						"animation" : "sw08Patches/patch5/AVmautr3",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
-						"allowedTerrains":["rough"]
+					"AVmautr3": {
+						"animation": "sw08Patches/patch5/AVmautr3",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
-				"AVmautr4" : {
-						"animation" : "sw08Patches/patch5/AVmautr4",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
-						"allowedTerrains":["rough"]
+					"AVmautr4": {
+						"animation": "sw08Patches/patch5/AVmautr4",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
-				"AVmautr5" : {
-						"animation" : "sw08Patches/patch5/AVmautr5",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV" ],
-						"allowedTerrains":["rough"]
+					"AVmautr5": {
+						"animation": "sw08Patches/patch5/AVmautr5",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
-				"AVmautr6" : {
-						"animation" : "sw08Patches/patch5/AVmautr6",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVV", "VVVVV" ],
-						"allowedTerrains":["rough"]
+					"AVmautr6": {
+						"animation": "sw08Patches/patch5/AVmautr6",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
-				"AVmautr7" : {
-						"animation" : "sw08Patches/patch5/AVmautr7",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
-						"allowedTerrains":["rough"]
+					"AVmautr7": {
+						"animation": "sw08Patches/patch5/AVmautr7",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					}
-
-
-					}
-
 				}
-
-
-
-
-
-}
-
-
-
-
-}
+			}
+		}
+	}
 }

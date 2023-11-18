@@ -1,78 +1,150 @@
 {
-	"core:cursedGround" : {
-		"types" : {
-
-
-
-
-			"sw08patch20" : {
-				"name" : "Frozen Water",
-
-				"templates" : {
-
-				"AVysnds0" : {
-						"animation" : "sw08patches/patch20/AVysnds0",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["snow"]
+	"core:cursedGround": {
+		"types": {
+			"sw08patch20": {
+				"name": "Frozen Water",
+				"templates": {
+					"AVysnds0": {
+						"animation": "sw08patches/patch20/AVysnds0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
-				"AVysnds10" : {
-						"animation" : "sw08patches/patch20/AVysnds10",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
-						"allowedTerrains":["snow"]
+					"AVysnds10": {
+						"animation": "sw08patches/patch20/AVysnds10",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
-
-				"AVysnds20" : {
-						"animation" : "sw08Patches/patch20/AVysnds20",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["snow"]
+					"AVysnds20": {
+						"animation": "sw08Patches/patch20/AVysnds20",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
-				"AVysnds30" : {
-						"animation" : "sw08Patches/patch20/AVysnds30",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
-						"allowedTerrains":["snow"]
+					"AVysnds30": {
+						"animation": "sw08Patches/patch20/AVysnds30",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
-				"AVysnds40" : {
-						"animation" : "sw08Patches/patch20/AVysnds40",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
-						"allowedTerrains":["snow"]
+					"AVysnds40": {
+						"animation": "sw08Patches/patch20/AVysnds40",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
-				"AVysnds50" : {
-						"animation" : "sw08Patches/patch20/AVysnds50",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV" ],
-						"allowedTerrains":["snow"]
+					"AVysnds50": {
+						"animation": "sw08Patches/patch20/AVysnds50",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
-				"AVysnds60" : {
-						"animation" : "sw08Patches/patch20/AVysnds60",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVV", "VVVVV" ],
-						"allowedTerrains":["snow"]
+					"AVysnds60": {
+						"animation": "sw08Patches/patch20/AVysnds60",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
-				"AVysnds70" : {
-						"animation" : "sw08Patches/patch20/AVysnds70",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
-						"allowedTerrains":["snow"]
+					"AVysnds70": {
+						"animation": "sw08Patches/patch20/AVysnds70",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					}
-
-
-					}
-
 				}
-
-
-
-
-
-}
-
-
-
-
-}
+			}
+		}
+	}
 }

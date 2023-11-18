@@ -1,41 +1,47 @@
 {
-	"core:cursedGround" : {
-		"types" : {
-
-
-
-
-			"sw08patch27" : {
-				"name" : "Cursed Ground",
-				"battleground" : "sw08_hmm2_cursed_ground",
-				"templates" : {
-
-				"avccstrz0" : {
-						"animation" : "sw08patches/patch28/avccstrz0",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["dirt","rough"]
+	"core:cursedGround": {
+		"types": {
+			"sw08patch27": {
+				"name": "Cursed Ground",
+				"battleground": "sw08_hmm2_cursed_ground",
+				"templates": {
+					"avccstrz0": {
+						"animation": "sw08patches/patch28/avccstrz0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"rough"
+						]
 					},
-				"avccstrz01" : {
-						"animation" : "sw08patches/patch28/avccstrz01",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV" ],
-						"allowedTerrains":["dirt","rough"]
+					"avccstrz01": {
+						"animation": "sw08patches/patch28/avccstrz01",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"rough"
+						]
 					}
-
-
-					}
-
 				}
-
-
-
-
-
-}
-
-
-
-
-}
+			}
+		}
+	}
 }

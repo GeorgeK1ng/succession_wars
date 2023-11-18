@@ -1,84 +1,168 @@
 {
-	"core:rocklands" : {
-		"types" : {
-
-
-
-
-			"sw08patch23" : {
-				"name" : "Sands",
-				"battleground" : "sw08_hmm2_sand_shore",
-				"templates" : {
-
-				"AVZsam0" : {
-						"animation" : "sw08patches/patch23/AVZsam0",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["grass"]
+	"core:rocklands": {
+		"types": {
+			"sw08patch23": {
+				"name": "Sands",
+				"battleground": "sw08_hmm2_sand_shore",
+				"templates": {
+					"AVZsam0": {
+						"animation": "sw08patches/patch23/AVZsam0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AVZsam10" : {
-						"animation" : "sw08patches/patch23/AVZsam10",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
-						"allowedTerrains":["grass"]
+					"AVZsam10": {
+						"animation": "sw08patches/patch23/AVZsam10",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-
-				"AVZsam20" : {
-						"animation" : "sw08Patches/patch23/AVZsam20",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["grass"]
+					"AVZsam20": {
+						"animation": "sw08Patches/patch23/AVZsam20",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AVZsam30" : {
-						"animation" : "sw08Patches/patch23/AVZsam30",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
-						"allowedTerrains":["grass"]
+					"AVZsam30": {
+						"animation": "sw08Patches/patch23/AVZsam30",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AVZsam40" : {
-						"animation" : "sw08Patches/patch23/AVZsam40",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
-						"allowedTerrains":["grass"]
+					"AVZsam40": {
+						"animation": "sw08Patches/patch23/AVZsam40",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AVZsam50" : {
-						"animation" : "sw08Patches/patch23/AVZsam50",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV" ],
-						"allowedTerrains":["grass"]
+					"AVZsam50": {
+						"animation": "sw08Patches/patch23/AVZsam50",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AVZsam60" : {
-						"animation" : "sw08Patches/patch23/AVZsam60",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVV", "VVVVV" ],
-						"allowedTerrains":["grass"]
+					"AVZsam60": {
+						"animation": "sw08Patches/patch23/AVZsam60",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AVZsam70" : {
-						"animation" : "sw08Patches/patch23/AVZsam70",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VV", "VV","VV", "VV","VV"  ],
-						"allowedTerrains":["grass"]
+					"AVZsam70": {
+						"animation": "sw08Patches/patch23/AVZsam70",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AVZsawl0" : {
-						"animation" : "sw08Patches/patch23/AVZsawl0",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV","VVVVVV"  ],
-						"allowedTerrains":["grass"]
+					"AVZsawl0": {
+						"animation": "sw08Patches/patch23/AVZsawl0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					}
-
-
-					}
-
 				}
-
-
-
-
-
-}
-
-
-
-
-}
+			}
+		}
+	}
 }

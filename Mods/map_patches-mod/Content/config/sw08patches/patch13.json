@@ -1,77 +1,151 @@
 {
-	"core:fieryFields" : {
-		"types" : {
-
-
-
-
-			"sw08patch13" : {
-				"name" : "Fiery Fields",
-				"battleground" : "sw08_hmm2_fiery_fields",
-				"templates" : {
-				"AVXff0" : {
-						"animation" : "sw08Patches/patch13/AVXff0",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["lava"]
+	"core:fieryFields": {
+		"types": {
+			"sw08patch13": {
+				"name": "Fiery Fields",
+				"battleground": "sw08_hmm2_fiery_fields",
+				"templates": {
+					"AVXff0": {
+						"animation": "sw08Patches/patch13/AVXff0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					},
-				"AVXff1" : {
-						"animation" : "sw08patches/patch13/AVXff1",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ],
-						"allowedTerrains":["lava"]
+					"AVXff1": {
+						"animation": "sw08patches/patch13/AVXff1",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					},
-
-				"AVXff2" : {
-						"animation" : "sw08Patches/patch13/AVXff2",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["lava"]
+					"AVXff2": {
+						"animation": "sw08Patches/patch13/AVXff2",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					},
-				"AVXff3" : {
-						"animation" : "sw08Patches/patch13/AVXff3",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"],
-						"allowedTerrains":["lava"]
+					"AVXff3": {
+						"animation": "sw08Patches/patch13/AVXff3",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					},
-				"AVXff4" : {
-						"animation" : "sw08Patches/patch13/AVXff4",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"],
-						"allowedTerrains":["lava"]
+					"AVXff4": {
+						"animation": "sw08Patches/patch13/AVXff4",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					},
-				"AVXff5" : {
-						"animation" : "sw08Patches/patch13/AVXff5",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV" ],
-						"allowedTerrains":["lava"]
+					"AVXff5": {
+						"animation": "sw08Patches/patch13/AVXff5",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					},
-				"AVXff7" : {
-						"animation" : "sw08Patches/patch13/AVXff7",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VV","VV", "VV","VV","VV" ],
-						"allowedTerrains":["lava"]
+					"AVXff7": {
+						"animation": "sw08Patches/patch13/AVXff7",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					},
-				"AVXff6" : {
-						"animation" : "sw08Patches/patch13/AVXff6",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVV", "VVVVV" ],
-						"allowedTerrains":["lava"]
+					"AVXff6": {
+						"animation": "sw08Patches/patch13/AVXff6",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
 					}
-
-
-					}
-
 				}
-
-
-
-
-
-}
-
-
-
-
-}
+			}
+		}
+	}
 }

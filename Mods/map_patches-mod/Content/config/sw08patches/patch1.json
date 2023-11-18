@@ -1,41 +1,45 @@
 {
-	"core:swampFoliage" : {
-		"types" : {
-
-
-
-
-			"sw08Patch1" : {
-				"name" : "Flower Bed",
-
-				"templates" : {
-
-				"AvArtif" : {
-						"animation" : "sw08patches/patch1/AvArtif",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ],
-						"allowedTerrains":["grass"]
+	"core:swampFoliage": {
+		"types": {
+			"sw08Patch1": {
+				"name": "Flower Bed",
+				"templates": {
+					"AvArtif": {
+						"animation": "sw08patches/patch1/AvArtif",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					},
-				"AvArtif01" : {
-						"animation" : "sw08patches/patch1/AvArtif01",
-					"visitableFrom" : [ "+++", "+++", "+++" ], 						
-						"mask" : [ "VVV", "VVV","VVV", "VVV" ],
-						"allowedTerrains":["grass"]
+					"AvArtif01": {
+						"animation": "sw08patches/patch1/AvArtif01",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
 					}
-
-
-					}
-
 				}
-
-
-
-
-
-}
-
-
-
-
-}
+			}
+		}
+	}
 }
