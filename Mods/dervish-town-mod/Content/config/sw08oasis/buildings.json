@@ -5,9 +5,9 @@
 				"mageGuild1": {
 					"id": 0,
 					"cost": {
+						"gold": 2000,
 						"wood": 5,
-						"ore": 5,
-						"gold": 2000
+						"ore": 5
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name": "Mage Guild Level 1"
@@ -16,13 +16,13 @@
 					"id": 1,
 					"upgrades": "mageGuild1",
 					"cost": {
+						"gold": 1000,
 						"wood": 5,
-						"mercury": 4,
 						"ore": 5,
+						"mercury": 4,
 						"sulfur": 4,
 						"crystal": 4,
-						"gems": 4,
-						"gold": 1000
+						"gems": 4
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name": "Mage Guild Level 2"
@@ -31,13 +31,13 @@
 					"id": 2,
 					"upgrades": "mageGuild2",
 					"cost": {
+						"gold": 1000,
 						"wood": 5,
-						"mercury": 6,
 						"ore": 5,
+						"mercury": 6,
 						"sulfur": 6,
 						"crystal": 6,
-						"gems": 6,
-						"gold": 1000
+						"gems": 6
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name": "Mage Guild Level 3"
@@ -46,13 +46,13 @@
 					"id": 3,
 					"upgrades": "mageGuild3",
 					"cost": {
+						"gold": 1000,
 						"wood": 5,
-						"mercury": 8,
 						"ore": 5,
+						"mercury": 8,
 						"sulfur": 8,
 						"crystal": 8,
-						"gems": 8,
-						"gold": 1000
+						"gems": 8
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name": "Mage Guild Level 4"
@@ -61,13 +61,13 @@
 					"id": 4,
 					"upgrades": "mageGuild4",
 					"cost": {
+						"gold": 1000,
 						"wood": 5,
-						"mercury": 10,
 						"ore": 5,
+						"mercury": 10,
 						"sulfur": 10,
 						"crystal": 10,
-						"gems": 10,
-						"gold": 1000
+						"gems": 10
 					},
 					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name": "Mage Guild Level 5"
@@ -75,8 +75,8 @@
 				"tavern": {
 					"id": 5,
 					"cost": {
-						"wood": 5,
-						"gold": 500
+						"gold": 500,
+						"wood": 5
 					},
 					"name": "Tavern",
 					"description": "The Tavern provides hiring of heroes."
@@ -84,8 +84,8 @@
 				"shipyard": {
 					"id": 6,
 					"cost": {
-						"wood": 20,
-						"gold": 2000
+						"gold": 2000,
+						"wood": 20
 					},
 					"name": "Shipyard",
 					"description": "The Shipyard allows you to purchase ships."
@@ -93,9 +93,9 @@
 				"fort": {
 					"id": 7,
 					"cost": {
+						"gold": 5000,
 						"wood": 20,
-						"ore": 20,
-						"gold": 5000
+						"ore": 20
 					},
 					"name": "Fort",
 					"description": "The Fort provides your town with defensive walls."
@@ -104,8 +104,8 @@
 					"id": 8,
 					"upgrades": "fort",
 					"cost": {
-						"ore": 5,
-						"gold": 2500
+						"gold": 2500,
+						"ore": 5
 					},
 					"name": "Citadel",
 					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
@@ -114,9 +114,9 @@
 					"id": 9,
 					"upgrades": "citadel",
 					"cost": {
+						"gold": 5000,
 						"wood": 10,
-						"ore": 10,
-						"gold": 5000
+						"ore": 10
 					},
 					"name": "Castle",
 					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
@@ -196,8 +196,8 @@
 				"marketplace": {
 					"id": 14,
 					"cost": {
-						"wood": 5,
-						"gold": 500
+						"gold": 500,
+						"wood": 5
 					},
 					"name": "Marketplace",
 					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
@@ -211,8 +211,8 @@
 						]
 					],
 					"cost": {
-						"ore": 5,
-						"gold": 5000
+						"gold": 5000,
+						"ore": 5
 					},
 					"produce": {
 						"gems": 1
@@ -223,8 +223,8 @@
 				"blacksmith": {
 					"id": 16,
 					"cost": {
-						"wood": 5,
-						"gold": 1000
+						"gold": 1000,
+						"wood": 5
 					},
 					"description": "The Blacksmith provides your armies with war machines.",
 					"name": "Blacksmith"
@@ -272,8 +272,8 @@
 				"ship": {
 					"id": 20,
 					"cost": {
-						"wood": 10,
-						"gold": 2000
+						"gold": 2000,
+						"wood": 10
 					},
 					"name": "Ship",
 					"description": "Ship",
@@ -397,8 +397,8 @@
 				},
 				"dwellingLvl4": {
 					"cost": {
-						"ore": 10,
-						"gold": 2000
+						"gold": 2000,
+						"ore": 10
 					},
 					"requires": [
 						"allOf",
@@ -412,8 +412,8 @@
 				},
 				"dwellingLvl5": {
 					"cost": {
-						"wood": 10,
 						"gold": 2500,
+						"wood": 10,
 						"ore": 10
 					},
 					"requires": [
@@ -446,8 +446,8 @@
 				},
 				"dwellingLvl7": {
 					"cost": {
-						"gems": 15,
 						"gold": 6000,
+						"gems": 15,
 						"ore": 5,
 						"wood": 5
 					},
