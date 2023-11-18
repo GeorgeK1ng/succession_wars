@@ -1,34 +1,32 @@
 {
 	"core:wateringHole": {
-
 		"types": {
 			"sw08objectswaterhole01": {
-				"name" : "Watering Place",
-				"aiValue" : 500,
+				"name": "Watering Place",
+				"aiValue": 500,
 				"rmg": {
-					"zoneLimit" : 2,
-					"value" : 500,
-					"rarity" : 50
+					"zoneLimit": 2,
+					"value": 500,
+					"rarity": 50
 				},
 				"templates": {
-
 					"AVXwtrh0": {
-						"animation" : "sw08objects/wateringHole/AVXwtrh0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "BBAB"],
-
+						"animation": "sw08objects/wateringHole/AVXwtrh0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBAB"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
 					}
-
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

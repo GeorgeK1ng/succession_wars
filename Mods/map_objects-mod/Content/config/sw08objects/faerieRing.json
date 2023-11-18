@@ -1,49 +1,57 @@
 {
 	"core:faerieRing": {
-
 		"types": {
 			"sw08objectsfaerieRing101": {
-				"name" : "Faerie Ring",
-				"aiValue" : 100,
+				"name": "Faerie Ring",
+				"aiValue": 100,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 100
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 100
 				},
 				"templates": {
-
 					"AVBring0": {
-						"animation" : "sw08objects/faerieRing/AVBring0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VAB"],
-
+						"animation": "sw08objects/faerieRing/AVBring0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
 						"allowedTerrains": [
-
 							"grass"
 						]
 					},
 					"avsring0": {
-						"animation" : "sw08objects/faerieRing/avsring0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VAB"],
-
+						"animation": "sw08objects/faerieRing/avsring0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
 						"allowedTerrains": [
-
 							"dirt"
 						]
 					},
 					"AVSRING1": {
-						"animation" : "sw08objects/faerieRing/AVSRING1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VAB"],
-
+						"animation": "sw08objects/faerieRing/AVSRING1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
 						"allowedTerrains": [
-
 							"grass"
 						]
-					}					
-
-
+					}
 				}
 			}
 		}

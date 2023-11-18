@@ -1,22 +1,26 @@
 {
 	"core:sanctuary": {
-
 		"types": {
 			"sw08objectssanctuary": {
-				"name" : "Sanctuary",
-				"aiValue" : 100,
+				"name": "Sanctuary",
+				"aiValue": 100,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 50
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 50
 				},
 				"templates": {
-
 					"AVXsanc0": {
-						"animation" : "sw08objects/sanctuary/AVXsanc0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAB"],
-
+						"animation": "sw08objects/sanctuary/AVXsanc0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -31,11 +35,6 @@
 					}
 				}
 			}
-
-
-
 		}
 	}
-
-
 }

@@ -1,22 +1,25 @@
 {
 	"core:mercenaryCamp": {
-
 		"types": {
 			"sw08objectsmercenaryCamp01": {
-				"name" : "Mercenary Camp",
-				"aiValue" : 1500,
+				"name": "Mercenary Camp",
+				"aiValue": 1500,
 				"rmg": {
-					"zoneLimit" : 3,
-					"value" : 100,
-					"rarity" : 120
+					"zoneLimit": 3,
+					"value": 100,
+					"rarity": 120
 				},
 				"templates": {
-
 					"avsmerc0": {
-						"animation" : "sw08objects/mercenaryCamp/avsmerc0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BAB"],
-
+						"animation": "sw08objects/mercenaryCamp/avsmerc0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -29,17 +32,8 @@
 							"hmm2desert"
 						]
 					}
-
-
-
-
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

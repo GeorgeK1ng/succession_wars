@@ -1,80 +1,90 @@
 {
 	"core:marlettoTower": {
-
 		"types": {
 			"sw08objectsmarlettoTower": {
-				"name" : "Fort",
-				"aiValue" : 1500,
+				"name": "Fort",
+				"aiValue": 1500,
 				"rmg": {
-					"value" : 1500,
-					"rarity" : 100,
-					"zoneLimit" : 3
+					"value": 1500,
+					"rarity": 100,
+					"zoneLimit": 3
 				},
 				"templates": {
 					"avsmarg": {
-						"animation" : "sw08objects/marlettoTower/avsmarg",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBA"],
-
+						"animation": "sw08objects/marlettoTower/avsmarg",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBA"
+						],
 						"allowedTerrains": [
-							 "grass"
+							"grass"
 						]
 					},
 					"avsmarl": {
-						"animation" : "sw08objects/marlettoTower/avsmarl",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV","VVBB", "VVBA"]
+						"animation": "sw08objects/marlettoTower/avsmarl",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVBA"
+						]
 					},
 					"avsmars": {
-						"animation" : "sw08objects/marlettoTower/avsmars",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "BBA"],
-
+						"animation": "sw08objects/marlettoTower/avsmars",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BBA"
+						],
 						"allowedTerrains": [
-							 "swamp"
+							"swamp"
 						]
 					},
 					"avsmarw": {
-						"animation" : "sw08objects/marlettoTower/avsmarw",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBA"],
-
+						"animation": "sw08objects/marlettoTower/avsmarw",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBA"
+						],
 						"allowedTerrains": [
-							 "rough"
+							"rough"
 						]
 					},
 					"AVXMAPU0": {
-						"animation" : "sw08objects/marlettoTower/AVXMAPU0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "BBA"],
-
+						"animation": "sw08objects/marlettoTower/AVXMAPU0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BBA"
+						],
 						"allowedTerrains": [
-							 "rough"
+							"rough"
 						]
 					}
-
-
 				}
 			}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		}
 	}
-
-
-
 }

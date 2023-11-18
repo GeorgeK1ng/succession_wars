@@ -1,52 +1,64 @@
 {
-
 	"core:windmill": {
 		"types": {
 			"sw08objectswindmill": {
-				"name" : "Windmill",
-				"aiValue" : 1500,
+				"name": "Windmill",
+				"aiValue": 1500,
 				"rmg": {
-					"value" : 1500,
-					"rarity" : 80
+					"value": 1500,
+					"rarity": 80
 				},
 				"templates": {
-
 					"AVMwmsn0": {
-						"animation" : "sw08objects/windmill/AVMwmsn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVVV", "VVAB"],
-
+						"animation": "sw08objects/windmill/AVMwmsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
 					},
-
 					"avmwndd0": {
-						"animation" : "sw08objects/windmill/avmwndd0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVVV", "VVAB"],
-
+						"animation": "sw08objects/windmill/avmwndd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
 					},
-
 					"BVMwndd0": {
-						"animation" : "sw08objects/windmill/BVMwndd0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVVV", "VVAB"],
-
+						"animation": "sw08objects/windmill/BVMwndd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					}
-					
-
 				}
 			}
-
 		}
 	}
-
-
 }

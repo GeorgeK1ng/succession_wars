@@ -1,42 +1,36 @@
 {
 	"core:libraryOfEnlightenment": {
-
 		"types": {
 			"sw08objectslibraryOfEnlightenment01": {
-				"name" : "Library of Enlightment",
-				"aiValue" : 12000,
+				"name": "Library of Enlightment",
+				"aiValue": 12000,
 				"rmg": {
-					"value" : 12000,
-					"rarity" : 20,
-					"zoneLimit" : 1
+					"value": 12000,
+					"rarity": 20,
+					"zoneLimit": 1
 				},
 				"templates": {
-
 					"avslibr0": {
-						"animation" : "sw08objects/libraryOfEnlightenment/avslibr0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVV", "VVVVV", "VBBAB"],
-
+						"animation": "sw08objects/libraryOfEnlightenment/avslibr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV",
+							"VBBAB"
+						],
 						"allowedTerrains": [
-							"grass", "dirt", "sand",
+							"grass",
+							"dirt",
+							"sand",
 							"hmm2desert"
 						]
 					}
-
-
 				}
 			}
-
-
-
-
-
-
-
-
 		}
 	}
-
-
-
 }

@@ -1,38 +1,45 @@
 {
 	"coverOfDarkness-sw08objects-01": {
-		"handler" : "configurable",
-		"name" : "Cover of Darkness",
+		"handler": "configurable",
+		"name": "Cover of Darkness",
 		"types": {
 			"sw08objects-objectscoverOfDarkness01": {
-				"name" : "Cover of Darkness",
-			"sounds" : {
-				"visit" : ["LIGHTHOUSE"]
-			},
-			"aiValue" : 100,
- 
-				
-				"compatibilityIdentifiers" : [ "object" ],
-				"visitMode" : "unlimited",
-				"rewards" : [
+				"name": "Cover of Darkness",
+				"sounds": {
+					"visit": [
+						"LIGHTHOUSE"
+					]
+				},
+				"aiValue": 100,
+				"compatibilityIdentifiers": [
+					"object"
+				],
+				"visitMode": "unlimited",
+				"rewards": [
 					{
-						"message" : "{Cover of Darkness}\n\nYou touch the Cover of Darkness, and the land around you is covered in a haze which only your eyes can penetrate.",
-						"revealTiles" : {
-							"radius" : 20,
-							"surface" : 1,
-							"subterra" : 1,
-							"water" : 1,
-							"rock" : -1,
-							"hide" : true
+						"message": "{Cover of Darkness}\n\nYou touch the Cover of Darkness, and the land around you is covered in a haze which only your eyes can penetrate.",
+						"revealTiles": {
+							"radius": 20,
+							"surface": 1,
+							"subterra": 1,
+							"water": 1,
+							"rock": -1,
+							"hide": true
 						}
 					}
 				],
 				"templates": {
-
 					"AVXcovr0": {
-						"animation" : "sw08objects/coverOfDarkness/AVXcovr0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVAV"],
-
+						"animation": "sw08objects/coverOfDarkness/AVXcovr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVAV"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -47,10 +54,6 @@
 					}
 				}
 			}
-
 		}
 	}
-
-
-
 }

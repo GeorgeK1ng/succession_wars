@@ -1,82 +1,114 @@
 {
 	"core:seerHut": {
-
 		"types": {
 			"sw08objectsSeerHuts": {
-				"name" : "Seer Hut",
+				"name": "Seer Hut",
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 2000,
-					"rarity" : 100
+					"zoneLimit": 1,
+					"value": 2000,
+					"rarity": 100
 				},
 				"templates": {
-
 					"avxseeb0": {
-						"animation" : "sw08objects/seerHut/avxseeb0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAV"],
-
+						"animation": "sw08objects/seerHut/avxseeb0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
 						"allowedTerrains": [
-						"grass","dirt"
+							"grass",
+							"dirt"
 						]
 					},
-
 					"avxseer0": {
-						"animation" : "sw08objects/seerHut/avxseer0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAV"],
-
+						"animation": "sw08objects/seerHut/avxseer0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
 						"allowedTerrains": [
-							"rough",  "sand", "swamp"
+							"rough",
+							"sand",
+							"swamp"
 						]
 					},
 					"avxseer1": {
-						"animation" : "sw08objects/seerHut/avxseer1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAV"],
-
+						"animation": "sw08objects/seerHut/avxseer1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
 						"allowedTerrains": [
-							"subterra","sand","rough"
+							"subterra",
+							"sand",
+							"rough"
 						]
 					},
 					"avxseey0": {
-						"animation" : "sw08objects/seerHut/avxseey0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAV"],
-
+						"animation": "sw08objects/seerHut/avxseey0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
 						"allowedTerrains": [
-							 "subterra", "swamp"
+							"subterra",
+							"swamp"
 						]
 					},
 					"Zseer001": {
-						"animation" : "sw08objects/seerHut/Zseer001",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "VA"],
-
+						"animation": "sw08objects/seerHut/Zseer001",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
 						"allowedTerrains": [
-							"grass","swamp"
-
+							"grass",
+							"swamp"
 						]
 					},
-
 					"avsgrdn0": {
-						"animation" : "sw08objects/seerHut/avsgrdn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/seerHut/avsgrdn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"sand",
 							"hmm2desert"
-
 						]
 					}
-
-
-
-
 				}
 			}
 		}
-
 	}
 }

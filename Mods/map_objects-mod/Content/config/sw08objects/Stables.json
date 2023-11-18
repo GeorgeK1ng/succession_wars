@@ -1,22 +1,26 @@
 {
 	"core:stables": {
-
 		"types": {
 			"sw08objectsstables01": {
-				"name" : "Stables",
-				"aiValue" : 200,
+				"name": "Stables",
+				"aiValue": 200,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 200,
-					"rarity" : 40
+					"zoneLimit": 1,
+					"value": 200,
+					"rarity": 40
 				},
 				"templates": {
-
 					"avxstbl0": {
-						"animation" : "sw08objects/stables/avxstbl0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAB"],
-
+						"animation": "sw08objects/stables/avxstbl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
 						"allowedTerrains": [
 							"dirt",
 							"grass",
@@ -29,24 +33,22 @@
 						]
 					},
 					"AVZstbl0": {
-						"animation" : "sw08objects/stables/AVZstbl0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAB"],
-
+						"animation": "sw08objects/stables/AVZstbl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
 					}
 				}
 			}
-
-
-
-
-
 		}
 	}
-
-
-
 }

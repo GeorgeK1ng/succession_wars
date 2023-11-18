@@ -1,18 +1,21 @@
 {
 	"core:keymasterTent": {
-
 		"types": {
 			"sw08objects_lblue": {
-			//	"index" : 0,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 0,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"AVXkey00": {
-						"animation" : "sw08objects/keymasterTent/AVXkey00",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey00",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -28,16 +31,20 @@
 				}
 			},
 			"sw08objects_green": {
-			//	"index" : 1,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 1,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"AVXkey10": {
-						"animation" : "sw08objects/keymasterTent/AVXkey10",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -51,20 +58,22 @@
 						]
 					}
 				}
-
-
 			},
 			"sw08objects_red": {
-			//	"index" : 2,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 2,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"FALF0146": {
-						"animation" : "sw08objects/keymasterTent/AVXkey20",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -78,20 +87,22 @@
 						]
 					}
 				}
-
-
 			},
 			"sw08objects_dblue": {
-			//	"index" : 3,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 3,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"FALF0147": {
-						"animation" : "sw08objects/keymasterTent/AVXkey30",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -105,20 +116,22 @@
 						]
 					}
 				}
-
-
 			},
 			"sw08objects_brown": {
-			//	"index" : 4,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 4,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"FALF0148": {
-						"animation" : "sw08objects/keymasterTent/AVXkey40",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey40",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -132,20 +145,22 @@
 						]
 					}
 				}
-
-
 			},
 			"sw08objects_purple": {
-			//	"index" : 5,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 5,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"FALF0149": {
-						"animation" : "sw08objects/keymasterTent/AVXkey50",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey50",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -158,21 +173,23 @@
 							"hmm2desert"
 						]
 					}
-
 				}
-
 			},
 			"sw08objects_white": {
-			//	"index" : 6,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 6,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"FALF0150": {
-						"animation" : "sw08objects/keymasterTent/AVXkey60",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey60",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -186,19 +203,22 @@
 						]
 					}
 				}
-
 			},
 			"sw08objects_black": {
-			//	"index" : 7,
-				"name" : "Keymaster Tent",
-						
+				//	"index" : 7,
+				"name": "Keymaster Tent",
 				"templates": {
-
 					"FALF0151": {
-						"animation" : "sw08objects/keymasterTent/AVXkey70",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-
+						"animation": "sw08objects/keymasterTent/AVXkey70",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -213,7 +233,6 @@
 					}
 				}
 			}
-
 			//			"none" :  { 
 			//			"index" : 8 ,
 			//				"templates" : {
@@ -223,10 +242,6 @@
 			//					"mask" : [ "VV","VA"]
 			//					}			
 			//			} }
-
-
-
-
 		}
 	}
 }

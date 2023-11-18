@@ -1,23 +1,26 @@
 {
 	"core:refugeeCamp": {
-
 		"types": {
 			"sw08objectsrefugeeCamp01": {
-
-				"name" : "Refugee Camp",
-				"aiValue" : 2000,
+				"name": "Refugee Camp",
+				"aiValue": 2000,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 60
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
 				},
 				"templates": {
-
 					"refugeeeB04": {
-						"animation" : "sw08objects/refugeeCamp/avgrefg0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VBA"],
-
+						"animation": "sw08objects/refugeeCamp/avgrefg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -30,15 +33,8 @@
 							"hmm2desert"
 						]
 					}
-
-
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

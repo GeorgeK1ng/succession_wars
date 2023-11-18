@@ -1,27 +1,38 @@
 {
 	"swShrineOfMagicLevel1": {
-		"name" : "Shrine of Magic Incantation",
-		"handler" : "configurable",
-		"base" : {
-			"sounds" : {
-				"ambient" : ["LOOPSHRIN"],
-				"visit" : ["TEMPLE"]
+		"name": "Shrine of Magic Incantation",
+		"handler": "configurable",
+		"base": {
+			"sounds": {
+				"ambient": [
+					"LOOPSHRIN"
+				],
+				"visit": [
+					"TEMPLE"
+				]
 			}
 		},
-		"types" : {
-			"sw08objectsshrineOfMagicLevel1" : {
-				"aiValue" : 500,
-				"rmg" : {
-					"value"		: 500,
-					"rarity"	: 100
+		"types": {
+			"sw08objectsshrineOfMagicLevel1": {
+				"aiValue": 500,
+				"rmg": {
+					"value": 500,
+					"rarity": 100
 				},
-				"compatibilityIdentifiers" : [ "object" ],
+				"compatibilityIdentifiers": [
+					"object"
+				],
 				"templates": {
 					"avxl1sh0": {
-						"animation" : "sw08objects/shrineOfMagicLevel1/avxl1sh0",
-						"visitableFrom": [ "---", "+++", "+++" ],
-						"mask": [ "VA" ],
-
+						"animation": "sw08objects/shrineOfMagicLevel1/avxl1sh0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -35,52 +46,65 @@
 						]
 					}
 				},
-				
-				"visitMode" : "limiter",
-				"visitedTooltip" : 354,
-				"description" : "@core.xtrainfo.19",
-				"showScoutedPreview" : true,
-
-				"variables" : {
-					"spell" : {
-						"gainedSpell" : { // Note: this variable name is used by engine for H3M loading
+				"visitMode": "limiter",
+				"visitedTooltip": 354,
+				"description": "@core.xtrainfo.19",
+				"showScoutedPreview": true,
+				"variables": {
+					"spell": {
+						"gainedSpell": { // Note: this variable name is used by engine for H3M loading
 							"level": 1
 						}
 					}
 				},
-				"visitLimiter" : {
-					"spells" : [
+				"visitLimiter": {
+					"spells": [
 						"@gainedSpell"
 					]
 				},
-				"rewards" : [
+				"rewards": [
 					{
-						"limiter" : {
-							"canLearnSpells" : [
+						"limiter": {
+							"canLearnSpells": [
 								"@gainedSpell"
 							]
 						},
-						"spells" : [
+						"spells": [
 							"@gainedSpell"
 						],
-						"description" : "@core.genrltxt.355",
-						"message" : [ 127, "%s." ] // You learn new spell
+						"description": "@core.genrltxt.355",
+						"message": [
+							127,
+							"%s."
+						] // You learn new spell
 					}
 				],
-				"onVisitedMessage" : [ 127, "%s.", 174 ], // You already known this spell
-				"onEmpty" : [
+				"onVisitedMessage": [
+					127,
+					"%s.",
+					174
+				], // You already known this spell
+				"onEmpty": [
 					{
-						"limiter" : {
-							"artifacts" : [
+						"limiter": {
+							"artifacts": [
 								{
-									"type" : "spellBook"
+									"type": "spellBook"
 								}
 							]
 						},
-						"message" : [ 127, "%s.", 130 ] // No Wisdom
+						"message": [
+							127,
+							"%s.",
+							130
+						] // No Wisdom
 					},
 					{
-						"message" : [ 127, "%s.", 131 ] // No spellbook
+						"message": [
+							127,
+							"%s.",
+							131
+						] // No spellbook
 					}
 				]
 			}

@@ -1,100 +1,119 @@
 {
 	"scholar-sw08objects-01": {
-	"name" : "Scholar",
-		"handler" : "configurable",
+		"name": "Scholar",
+		"handler": "configurable",
 		"types": {
 			"sw08objects-objects2scholarAnchoret": {
-
-
-"sounds" : {
-				"visit" : ["GAZEBO"],
-				"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
-			},
-			"name" : "Scholar",
-			"aiValue" : 1500,
-				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 100
+				"sounds": {
+					"visit": [
+						"GAZEBO"
+					],
+					"removal": [
+						"PICKUP01",
+						"PICKUP02",
+						"PICKUP03",
+						"PICKUP04",
+						"PICKUP05",
+						"PICKUP06",
+						"PICKUP07"
+					]
 				},
-				"compatibilityIdentifiers" : [ "object" ],
-				
-				"visitMode" : "unlimited",
-				"blockedVisitable" : true,
-				
-				"variables" : {
-					"spell" : {
-						"gainedSpell" : { // Note: this variable name is used by engine for H3M loading
+				"name": "Scholar",
+				"aiValue": 1500,
+				"rmg": {
+					"value": 1500,
+					"rarity": 100
+				},
+				"compatibilityIdentifiers": [
+					"object"
+				],
+				"visitMode": "unlimited",
+				"blockedVisitable": true,
+				"variables": {
+					"spell": {
+						"gainedSpell": { // Note: this variable name is used by engine for H3M loading
 						}
 					},
-					"secondarySkill" : {
-						"gainedSkill" : { // Note: this variable name is used by engine for H3M loading
+					"secondarySkill": {
+						"gainedSkill": { // Note: this variable name is used by engine for H3M loading
 						}
 					},
-					"primarySkill" : {
-						"gainedStat" : { // Note: this variable name is used by engine for H3M loading
+					"primarySkill": {
+						"gainedStat": { // Note: this variable name is used by engine for H3M loading
 						}
 					}
 				},
-				"selectMode" : "selectFirst",
-				"rewards" : [
+				"selectMode": "selectFirst",
+				"rewards": [
 					{
-						"appearChance" : { "min" : 0, "max" : 33 },
-						"message" : "As you ride into a clearing, you notice a scholar.  He agrees to teach you some of what he knows before setting off.",
-						"limiter" : {
-							"canLearnSpells" : [
+						"appearChance": {
+							"min": 0,
+							"max": 33
+						},
+						"message": "As you ride into a clearing, you notice a scholar.  He agrees to teach you some of what he knows before setting off.",
+						"limiter": {
+							"canLearnSpells": [
 								"@gainedSpell"
 							]
 						},
-						"spells" : [
+						"spells": [
 							"@gainedSpell"
 						],
-						"removeObject" : true
+						"removeObject": true
 					},
 					{
-						"appearChance" : { "min" : 33, "max" : 66 },
-						"message" : "As you ride into a clearing, you notice a scholar.  He agrees to teach you some of what he knows before setting off.",
-						"limiter" : {
+						"appearChance": {
+							"min": 33,
+							"max": 66
+						},
+						"message": "As you ride into a clearing, you notice a scholar.  He agrees to teach you some of what he knows before setting off.",
+						"limiter": {
 							// Hero does not have this skill at expert
-							"noneOf" : [
-									{
-									"secondary" : {
-										"@gainedSkill" : 3
+							"noneOf": [
+								{
+									"secondary": {
+										"@gainedSkill": 3
 									}
 								}
 							],
 							// And have either free skill slot or this skill
-							"anyOf" : [
+							"anyOf": [
 								{
-									"canLearnSkills" : true
+									"canLearnSkills": true
 								},
 								{
-									"secondary" : {
-										"@gainedSkill" : 1
+									"secondary": {
+										"@gainedSkill": 1
 									}
 								}
 							]
 						},
-						"secondary" : {
-							"@gainedSkill" : 1
+						"secondary": {
+							"@gainedSkill": 1
 						},
-						"removeObject" : true
+						"removeObject": true
 					},
 					{
 						// Always present - fallback if hero can't learn secondary / spell
-						"message" : "As you ride into a clearing, you notice a scholar.  He agrees to teach you some of what he knows before setting off.",
-						"primary" : {
-							"@gainedStat" : 1
+						"message": "As you ride into a clearing, you notice a scholar.  He agrees to teach you some of what he knows before setting off.",
+						"primary": {
+							"@gainedStat": 1
 						},
-						"removeObject" : true
+						"removeObject": true
 					}
 				],
 				"templates": {
-
 					"AVXschl0": {
-						"animation" : "sw08objects/scholar/AVXschl0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "VA"],
-
+						"animation": "sw08objects/scholar/AVXschl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -107,11 +126,7 @@
 							"hmm2desert"
 						]
 					}
-
-
-
 				}
-
 			}
 		}
 	}

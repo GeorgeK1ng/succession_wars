@@ -1,58 +1,72 @@
 {
 	"observatorysw08objectsObservatory01": {
-		 "name" : "Observatory",
-		"handler" : "configurable",
+		"name": "Observatory",
+		"handler": "configurable",
 		"types": {
 			"sw08objects-objectsobservation01": {
 				"name": "Observatory",
-			"sounds" : {
-				"visit" : ["LIGHTHOUSE"]
-			},
-							"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 750,
-					"rarity"	: 100
+				"sounds": {
+					"visit": [
+						"LIGHTHOUSE"
+					]
 				},
-				"aiValue" : 750,
-				"compatibilityIdentifiers" : [ "object" ],
-				"visitMode" : "unlimited",
-				"rewards" : [
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 750,
+					"rarity": 100
+				},
+				"aiValue": 750,
+				"compatibilityIdentifiers": [
+					"object"
+				],
+				"visitMode": "unlimited",
+				"rewards": [
 					{
-						"message" : "{Observatory}\n\nFrom the top of the observatory you are able to see surroundings.",
-						"revealTiles" : {
-							"radius" : 20,
-							"surface" : 1,
-							"subterra" : 1,
-							"water" : 1,
-							"rock" : -1
+						"message": "{Observatory}\n\nFrom the top of the observatory you are able to see surroundings.",
+						"revealTiles": {
+							"radius": 20,
+							"surface": 1,
+							"subterra": 1,
+							"water": 1,
+							"rock": -1
 						}
 					}
 				],
 				"templates": {
-
 					"AvXRedW": {
-						"animation" : "sw08objects/observatory/AvXRedW",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVA"],
-						"allowedTerrains":["grass","dirt","swamp"]
+						"animation": "sw08objects/observatory/AvXRedW",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"swamp"
+						]
 					},
-										"avxreds0": {
-						"animation" : "sw08objects/observatory/avxreds0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "VA"],
-						"allowedTerrains":["snow"]
+					"avxreds0": {
+						"animation": "sw08objects/observatory/avxreds0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					}
 				}
 			}
-
-	
-
-
-
-
 		}
 	}
-
-
-
 }

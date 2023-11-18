@@ -1,47 +1,59 @@
 {
-	"cartographerSW08New" : {
-		"name" : "Cartographer",
-		
+	"cartographerSW08New": {
+		"name": "Cartographer",
 		"handler": "configurable",
- 
 		"types": {
 			"sw08objectscartographer01": {
-				"name" : "Cartographer",
-			"sounds" : {
-				"visit" : ["LIGHTHOUSE"]
-			},
-			"aiValue": 10000,
-				"rmg" : {
-					"zoneLimit" : 1,
-					"value" : 10000,
-					"rarity" : 2
+				"name": "Cartographer",
+				"sounds": {
+					"visit": [
+						"LIGHTHOUSE"
+					]
 				},
-				"compatibilityIdentifiers" : [ "land" ],
-				"visitMode" : "unlimited",
-				"canRefuse" : true,
-				"rewards" : [
+				"aiValue": 10000,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 10000,
+					"rarity": 2
+				},
+				"compatibilityIdentifiers": [
+					"land"
+				],
+				"visitMode": "unlimited",
+				"canRefuse": true,
+				"rewards": [
 					{
-						"limiter" : { "resources" : { "gold" : 1000 } },
-						"message" : "You find a cartographer who sells maps of the land for 1000 gold.  Would you like to buy a map?",
-						"resources" : {
-							"gold" : -1000
+						"limiter": {
+							"resources": {
+								"gold": 1000
+							}
 						},
-						"revealTiles" : {
-							"surface" : 1,
-							"water" : -1,
-							"rock" : -1
+						"message": "You find a cartographer who sells maps of the land for 1000 gold.  Would you like to buy a map?",
+						"resources": {
+							"gold": -1000
+						},
+						"revealTiles": {
+							"surface": 1,
+							"water": -1,
+							"rock": -1
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 1000 gold, which you don't seem to have.  Please stop wasting my time.",
-				"onVisitedMessage" : "You've already seen all my maps laddy, now run along.",
+				"onEmptyMessage": "My maps cost 1000 gold, which you don't seem to have.  Please stop wasting my time.",
+				"onVisitedMessage": "You've already seen all my maps laddy, now run along.",
 				"templates": {
-
 					"AVXmaps0": {
-						"animation" : "sw08objects/cartographer/AVXmaps0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVV", "VAB"],
-
+						"animation": "sw08objects/cartographer/AVXmaps0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -53,53 +65,58 @@
 							"snow",
 							"hmm2desert"
 						]
-					},
-			}},
-						"sw08objectscartographer02": {
-	 
-"name" : "Cartographer",
-				"aiValue" : 5000,
-				"rmg" : {
-					"zoneLimit" : 1,
-					"value" : 5000,
-					"rarity" : 20
+					}
+				}
+			},
+			"sw08objectscartographer02": {
+				"name": "Cartographer",
+				"aiValue": 5000,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 5000,
+					"rarity": 20
 				},
-				"compatibilityIdentifiers" : [ "water" ],
-				"visitMode" : "unlimited",
-				"canRefuse" : true,
-				"rewards" : [
+				"compatibilityIdentifiers": [
+					"water"
+				],
+				"visitMode": "unlimited",
+				"canRefuse": true,
+				"rewards": [
 					{
-						"limiter" : { "resources" : { "gold" : 1000 } },
-						"message" : "You find an old fisherman who has the most detailed maps of the seas that you have ever seen.  Would you like to purchase a set of maps for 1000 gold?",
-						"resources" : {
-							"gold" : -1000
+						"limiter": {
+							"resources": {
+								"gold": 1000
+							}
 						},
-						"revealTiles" : {
-							"water" : 1
+						"message": "You find an old fisherman who has the most detailed maps of the seas that you have ever seen.  Would you like to purchase a set of maps for 1000 gold?",
+						"resources": {
+							"gold": -1000
+						},
+						"revealTiles": {
+							"water": 1
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 1000 gold, which you don't seem to have.  Please stop wasting my time.",
-				"onVisitedMessage" : "You've already seen all my maps laddy, now sail away.",
+				"onEmptyMessage": "My maps cost 1000 gold, which you don't seem to have.  Please stop wasting my time.",
+				"onVisitedMessage": "You've already seen all my maps laddy, now sail away.",
 				"templates": {
-
-
 					"AVXmapw0": {
-						"animation" : "sw08objects/cartographer/AVXmapw0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAB"],
-
+						"animation": "sw08objects/cartographer/AVXmapw0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
 						"allowedTerrains": [
 							"water"
 						]
 					}
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

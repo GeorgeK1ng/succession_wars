@@ -1,56 +1,73 @@
 {
 	"core:waterWheel": {
-
 		"types": {
 			"sw08objectswaterWheel01": {
-				"name" : "Water Wheel",
-				"aiValue" : 750,
+				"name": "Water Wheel",
+				"aiValue": 750,
 				"rmg": {
-					"zoneLimit" : 5,
-					"value" : 1000,
-					"rarity" : 90
+					"zoneLimit": 5,
+					"value": 1000,
+					"rarity": 90
 				},
-				"handler" : "bank",
+				"handler": "bank",
 				"templates": {
-
 					"AVMwwhl0": {
-						"animation" : "sw08objects/waterWheel/AVMwwhl0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB", "VBBA"],
-
+						"animation": "sw08objects/waterWheel/AVMwwhl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VBBA"
+						],
 						"allowedTerrains": [
 							"grass",
-							"dirt", "swamp", "rough", "lava", "sand", "subterra",
+							"dirt",
+							"swamp",
+							"rough",
+							"lava",
+							"sand",
+							"subterra",
 							"hmm2desert"
-
 						]
 					},
 					"AVMwwsn0": {
-						"animation" : "sw08objects/waterWheel/AVMwwsn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB", "VBBA"],
-
+						"animation": "sw08objects/waterWheel/AVMwwsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VBBA"
+						],
 						"allowedTerrains": [
 							"snow"
-
 						]
 					},
 					"AVYwelg0": {
-						"animation" : "sw08objects/waterWheel/AVYwelg0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB", "VBBA"],
-
+						"animation": "sw08objects/waterWheel/AVYwelg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VBBA"
+						],
 						"allowedTerrains": [
 							"snow"
-
 						]
 					}
-
 				}
 			}
-
-
-
 		}
 	}
 }

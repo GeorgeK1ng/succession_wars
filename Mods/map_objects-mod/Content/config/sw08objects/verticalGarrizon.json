@@ -1,45 +1,64 @@
 {
 	"core:garrisonVertical": {
-
 		"types": {
 			"sw08objectsverticalGarrizon01": {
-				"name" : "Garrizon",
+				"name": "Garrizon",
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 1000,
-					"rarity" : 80
+					"zoneLimit": 1,
+					"value": 1000,
+					"rarity": 80
 				},
 				"templates": {
-
 					"AVCvgr": {
-						"animation" : "sw08objects/verticalGarrizon/AVCvgr",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV","VV", "VB", "VA", "VB"],
-
+						"animation": "sw08objects/verticalGarrizon/AVCvgr",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VB",
+							"VA",
+							"VB"
+						],
 						"allowedTerrains": [
-
-							"grass", "dirt", "swamp", "lava", "rough", "sand", "hmm2desert"
+							"grass",
+							"dirt",
+							"swamp",
+							"lava",
+							"rough",
+							"sand",
+							"hmm2desert"
 						]
 					},
 					"zgarn002": {
-						"animation" : "sw08objects/verticalGarrizon/zgarn002",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV","VV", "VB", "VA", "VB"],
-
+						"animation": "sw08objects/verticalGarrizon/zgarn002",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VB",
+							"VA",
+							"VB"
+						],
 						"allowedTerrains": [
-
-							"grass", "dirt", "swamp", "lava", "rough", "sand","snow"
+							"grass",
+							"dirt",
+							"swamp",
+							"lava",
+							"rough",
+							"sand",
+							"snow"
 						]
 					}
-
-
 				}
 			}
-
-
 		}
 	}
-
-
-
 }

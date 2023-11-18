@@ -1,22 +1,26 @@
 {
 	"core:schoolOfWar": {
-
 		"types": {
 			"sw08objectsschoolOfWar01": {
-				"name" : "School of War",
-				"aiValue" : 1000,
+				"name": "School of War",
+				"aiValue": 1000,
 				"rmg": {
-					"value" : 1000,
-					"rarity" : 50
-
+					"value": 1000,
+					"rarity": 50
 				},
 				"templates": {
-
 					"AVSwar20": {
-						"animation" : "sw08objects/schoolOfWar/AVSwar20",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVVV", "VBAB"],
-
+						"animation": "sw08objects/schoolOfWar/AVSwar20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -30,10 +34,17 @@
 						]
 					},
 					"AVSwar30": {
-						"animation" : "sw08objects/schoolOfWar/AVSwar30",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVV", "VVBBB", "VBABV"],
-
+						"animation": "sw08objects/schoolOfWar/AVSwar30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBBB",
+							"VBABV"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -47,10 +58,16 @@
 						]
 					},
 					"avxfgld": {
-						"animation" : "sw08objects/schoolOfWar/avxfgld",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBAB"],
-
+						"animation": "sw08objects/schoolOfWar/avxfgld",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -63,10 +80,7 @@
 							"hmm2desert"
 						]
 					}
-
-
 				}
-
 			}
 		}
 	}

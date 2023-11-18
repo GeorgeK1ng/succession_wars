@@ -1,22 +1,27 @@
 {
 	"core:university": {
-
 		"types": {
 			"sw08objectsuniversity01": {
-				"name" : "University",
-				"aiValue" : 2500,
+				"name": "University",
+				"aiValue": 2500,
 				"rmg": {
-					"value" : 2500,
-					"rarity" : 20,
-					"zoneLimit" : 1
+					"value": 2500,
+					"rarity": 20,
+					"zoneLimit": 1
 				},
 				"templates": {
-
 					"AVSuniv0": {
-						"animation" : "sw08objects/university/AVSuniv0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVV", "VBBBB", "VBBAB"],
-
+						"animation": "sw08objects/university/AVSuniv0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBB",
+							"VBBAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -30,10 +35,17 @@
 						]
 					},
 					"AVSuniv1": {
-						"animation" : "sw08objects/university/AVSuniv1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VVBBBB", "VVBBAB"],
-
+						"animation": "sw08objects/university/AVSuniv1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVBBBB",
+							"VVBBAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -47,10 +59,17 @@
 						]
 					},
 					"AVSuniv2": {
-						"animation" : "sw08objects/university/AVSuniv2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VVBBBB", "VVBBAB"],
-
+						"animation": "sw08objects/university/AVSuniv2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVBBBB",
+							"VVBBAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -63,19 +82,8 @@
 							"hmm2desert"
 						]
 					}
-
-
-
 				}
 			}
-
-
-
-
-
 		}
 	}
-
-
-
 }

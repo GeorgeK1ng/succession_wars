@@ -1,140 +1,193 @@
 {
 	"core:mine": {
-
 		"types": {
 			"abandoned": {
-			"name" : "Abandoned Mine",
-			"aiValue" : 3500,
+				"name": "Abandoned Mine",
+				"aiValue": 3500,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 60
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
 				},
 				"templates": {
-
 					"AvMAbMG": {
-						"animation" : "sw08objects/abandonedMine/AvMAbMG",
-						"visitableFrom": ["---", "+++","+++"],
-						"mask": ["VVVV", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AvMAbMG",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"grass"
 						]
 					},
 					"avxabnd0": {
-						"animation" : "sw08objects/abandonedMine/avxabnd0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBB", "VVBAB"],
-
+						"animation": "sw08objects/abandonedMine/avxabnd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
 						"allowedTerrains": [
-
 							"dirt"
 						]
 					},
-					"avxabnd1": {     //ghosts
-						"animation" : "sw08objects/abandonedMine/avxabnd1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVV","VVBBB", "VVBAB"],
-
+					"avxabnd1": { //ghosts
+						"animation": "sw08objects/abandonedMine/avxabnd1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBBB",
+							"VVBAB"
+						],
 						"allowedTerrains": [
-
 							"dirt"
 						]
 					},
-
 					"AVXamDs": {
-						"animation" : "sw08objects/abandonedMine/AVXamDs",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AVXamDs",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"sand"
 						]
 					},
-
-
 					"AVXamGr": {
-						"animation" : "sw08objects/abandonedMine/AVXamGr",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AVXamGr",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"grass"
 						]
 					},
-
 					"AVXamlv": {
-						"animation" : "sw08objects/abandonedMine/AVXamlv",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AVXamlv",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"lava"
 						]
 					},
-
 					"AVXamRo": {
-						"animation" : "sw08objects/abandonedMine/AVXamRo",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AVXamRo",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"hmm2desert"
 						]
 					},
 					"AVXamSn": {
-						"animation" : "sw08objects/abandonedMine/AVXamSn",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AVXamSn",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"snow"
 						]
 					},
-
 					"AVXamSu": {
-						"animation" : "sw08objects/abandonedMine/AVXamSu",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AVXamSu",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"rough"
 						]
 					},
 					"AVXamSw": {
-						"animation" : "sw08objects/abandonedMine/AVXamSw",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/AVXamSw",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"swamp"
 						]
 					},
 					"newavxabnd0": {
-						"animation" : "sw08objects/abandonedMine/082/avxabnd0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBB", "VVBAB"],
-
+						"animation": "sw08objects/abandonedMine/082/avxabnd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
 						"allowedTerrains": [
-
 							"dirt"
 						]
 					},
 					"newAVXamGr": {
-						"animation" : "sw08objects/abandonedMine/082/AVXamGr",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBAB"],
-
+						"animation": "sw08objects/abandonedMine/082/AVXamGr",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
 						"allowedTerrains": [
-
 							"grass"
 						]
 					}

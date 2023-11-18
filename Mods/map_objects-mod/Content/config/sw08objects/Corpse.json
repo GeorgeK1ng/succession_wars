@@ -1,60 +1,81 @@
 {
 	"core:corpse": {
-
 		"types": {
-
 			"sw08objectscorpse_OBJ3810": {
-				"name" : "Skeleton",
-				"aiValue" : 500,
+				"name": "Skeleton",
+				"aiValue": 500,
 				"rmg": {
-					"value" : 500,
-					"rarity" : 70
+					"value": 500,
+					"rarity": 70
 				},
 				"templates": {
 					"AVXskds01": {
-						"animation" : "sw08objects/skeleton/AVXskds01",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/skeleton/AVXskds01",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
-							"rough","swamp","dirt","lava","grass"
+							"rough",
+							"swamp",
+							"dirt",
+							"lava",
+							"grass"
 						]
 					},
 					"AVXskds0": {
-						"animation" : "sw08objects/skeleton/AVXskds0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["A"],
-
+						"animation": "sw08objects/skeleton/AVXskds0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"A"
+						],
 						"allowedTerrains": [
-							"rough","swamp","dirt","lava","grass"
+							"rough",
+							"swamp",
+							"dirt",
+							"lava",
+							"grass"
 						]
 					},
 					"AVzskdr0": {
-						"animation" : "sw08objects/skeleton/AVzskdr0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["AB"],
-
+						"animation": "sw08objects/skeleton/AVzskdr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"AB"
+						],
 						"allowedTerrains": [
-							"subterra","sand"
+							"subterra",
+							"sand"
 						]
 					},
 					"AVzskds0": {
-						"animation" : "sw08objects/skeleton/AVzskds0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["AB"],
-
+						"animation": "sw08objects/skeleton/AVzskds0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"AB"
+						],
 						"allowedTerrains": [
 							"hmm2desert"
 						]
-					},
- 		
-
+					}
 				}
-
-
 			}
 		}
 	}
-
-
 }

@@ -1,22 +1,26 @@
 {
 	"core:temple": {
-
 		"types": {
 			"sw08objectstemple01": {
-				"name" : "Temple",
-				"aiValue" : 100,
+				"name": "Temple",
+				"aiValue": 100,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 100
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 100
 				},
 				"templates": {
-
 					"avstmpl0": {
-						"animation" : "sw08objects/temple/avstmpl0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAB"],
-
+						"animation": "sw08objects/temple/avstmpl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -29,17 +33,8 @@
 							"hmm2desert"
 						]
 					}
-
 				}
 			}
-
-
-
-
-
 		}
 	}
-
-
-
 }

@@ -1,42 +1,39 @@
 {
-
-
-	"core:whirlpool" : {
+	"core:whirlpool": {
 		//"index" :111,
-	//	"handler" : "whirlpool",
-	//	"base" : {
-	//		"sounds" : {
-	//			"ambient" : ["LOOPWHIRL"],
-	//			"visit" : ["DANGER"]
-	//		}
-	//	},
-	
-	"types": {
+		//	"handler" : "whirlpool",
+		//	"base" : {
+		//		"sounds" : {
+		//			"ambient" : ["LOOPWHIRL"],
+		//			"visit" : ["DANGER"]
+		//		}
+		//	},
+		"types": {
 			"sw08objectsWhirlpool01": {
-
-				"name" : "Whirlpool",
+				"name": "Whirlpool",
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 60
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
 				},
 				"templates": {
-
 					"AVXwhrl0": {
-						"animation" : "sw08objects/whirlpool/AVXwhrl0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VAV"],
-
+						"animation": "sw08objects/whirlpool/AVXwhrl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
 						"allowedTerrains": [
 							"water"
 						]
 					}
-
-
-
 				}
 			}
 		}
 	}
-
 }

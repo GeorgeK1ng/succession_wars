@@ -1,23 +1,29 @@
 {
 	"core:blackMarket": {
-
 		"types": {
 			"sw08objectsblackMarket01": {
-				"name" : "Black Market",
-				"aiValue" : 8000,
+				"name": "Black Market",
+				"aiValue": 8000,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 60
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
 				},
-				"modes" : ["resource-artifact"],
+				"modes": [
+					"resource-artifact"
+				],
 				"templates": {
-
 					"AVXmktb0": {
-						"animation" : "sw08objects/blackMarket/AVXmktb0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "AB"],
-
+						"animation": "sw08objects/blackMarket/AVXmktb0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -30,17 +36,8 @@
 							"hmm2desert"
 						]
 					}
-
-
-
-
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

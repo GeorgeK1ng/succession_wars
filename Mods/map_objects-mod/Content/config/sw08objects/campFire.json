@@ -1,17 +1,16 @@
 {
 	"core:campfire": {
-
 		"types": {
 			"sw08_CampFire01": {
-"name" : "Camp Fire",
-"aiValue" : 2000,
+				"name": "Camp Fire",
+				"aiValue": 2000,
 				"rmg": {
-					"value" : 2000,
-					"rarity" : 500
+					"value": 2000,
+					"rarity": 500
 				},
 				"templates": {
 					"adcfra": {
-						"animation" : "sw08objects/campFire/adcfra",
+						"animation": "sw08objects/campFire/adcfra",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -21,12 +20,17 @@
 							"VA"
 						],
 						"allowedTerrains": [
-							"grass","swamp","lava","subterra","rough","sand","dirt"
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
 						]
 					},
-
 					"AVXcfds0": {
-						"animation" : "sw08objects/campFire/AVXcfds0",
+						"animation": "sw08objects/campFire/AVXcfds0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -36,11 +40,17 @@
 							"A"
 						],
 						"allowedTerrains": [
-							"grass","swamp","lava","subterra","rough","sand","dirt"
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
 						]
 					},
 					"AVXcflv0": {
-						"animation" : "sw08objects/campFire/AVXcflv0",
+						"animation": "sw08objects/campFire/AVXcflv0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -50,11 +60,17 @@
 							"A"
 						],
 						"allowedTerrains": [
-							"grass","swamp","lava","subterra","rough","sand","dirt"
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
 						]
 					},
 					"AVXcflv01": {
-						"animation" : "sw08objects/campFire/AVXcflv01",
+						"animation": "sw08objects/campFire/AVXcflv01",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -64,11 +80,17 @@
 							"VA"
 						],
 						"allowedTerrains": [
-							"grass","swamp","lava","subterra","rough","sand","dirt"
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
 						]
 					},
 					"AVXcfsn0": {
-						"animation" : "sw08objects/campFire/AVXcfsn0",
+						"animation": "sw08objects/campFire/AVXcfsn0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -80,9 +102,9 @@
 						"allowedTerrains": [
 							"snow"
 						]
-					},					
-						"AVYcfdr0": {
-						"animation" : "sw08objects/campFire/AVYcfdr0",
+					},
+					"AVYcfdr0": {
+						"animation": "sw08objects/campFire/AVYcfdr0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -94,9 +116,9 @@
 						"allowedTerrains": [
 							"subterra"
 						]
-					},					
-							"AVYcfds0": {
-						"animation" : "sw08objects/campFire/AVYcfds0",
+					},
+					"AVYcfds0": {
+						"animation": "sw08objects/campFire/AVYcfds0",
 						"visitableFrom": [
 							"+++",
 							"+++",
@@ -106,13 +128,9 @@
 							"VA"
 						],
 						"allowedTerrains": [
-							 
-							"hmm2desert" 
+							"hmm2desert"
 						]
-					}					
-					
-					
-					
+					}
 				}
 			}
 		}

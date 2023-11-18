@@ -4,35 +4,64 @@
 			"wood": {
 				//"index" : 0,
 				"rmg": {
-					"value" : 1400,
-					"rarity" : 300
+					"value": 1400,
+					"rarity": 300
 				},
 				"templates": {
 					"sw08_AVTwood1": {
-						"animation" : "sw08objects/resources/SWRES09",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-						"allowedTerrains": [ "snow" ]
+						"animation": "sw08objects/resources/SWRES09",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					},
 					"sw08_AVTwood0": {
-						"animation" : "sw08objects/resources/SWRES08",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-						"allowedTerrains": [ "grass", "dirt", "rough", "swamp", "lava", "sand", "subterra", "hmm2desert" ]
+						"animation": "sw08objects/resources/SWRES08",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"swamp",
+							"lava",
+							"sand",
+							"subterra",
+							"hmm2desert"
+						]
 					}
 				}
 			},
 			"mercury": {
 				//"index" : 1,
 				"rmg": {
-					"value" : 2000,
-					"rarity" : 300
+					"value": 2000,
+					"rarity": 300
 				},
 				"templates": {
 					"sw08_AVTmerc0": {
-						"animation" : "sw08objects/resources/SWRES04",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
+						"animation": "sw08objects/resources/SWRES04",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -42,7 +71,7 @@
 							"lava",
 							"swamp",
 							"snow",
-							"hmm2desert" 
+							"hmm2desert"
 						]
 					}
 				}
@@ -50,14 +79,20 @@
 			"ore": {
 				//"index" : 2,
 				"rmg": {
-					"value" : 1400,
-					"rarity" : 300
+					"value": 1400,
+					"rarity": 300
 				},
 				"templates": {
 					"sw08_AVTore0": {
-						"animation" : "sw08objects/resources/SWRES05",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
+						"animation": "sw08objects/resources/SWRES05",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -67,7 +102,7 @@
 							"lava",
 							"swamp",
 							"snow",
-							"hmm2desert" 
+							"hmm2desert"
 						]
 					}
 				}
@@ -75,15 +110,20 @@
 			"sulfur": {
 				//"index" : 3,
 				"rmg": {
-					"value" : 2000,
-					"rarity" : 300
+					"value": 2000,
+					"rarity": 300
 				},
 				"templates": {
 					"sw08_AVTsulf0": {
-						"animation" : "sw08objects/resources/SWRES07",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/resources/SWRES07",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -93,7 +133,7 @@
 							"lava",
 							"swamp",
 							"snow",
-							"hmm2desert" 
+							"hmm2desert"
 						]
 					}
 				}
@@ -101,15 +141,20 @@
 			"crystal": {
 				//"index" : 4,
 				"rmg": {
-					"value" : 2000,
-					"rarity" : 300
+					"value": 2000,
+					"rarity": 300
 				},
 				"templates": {
 					"sw08_AVTcrys0": {
-						"animation" : "sw08objects/resources/SWRES01",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/resources/SWRES01",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -119,24 +164,28 @@
 							"lava",
 							"swamp",
 							"snow",
-							"hmm2desert" 
+							"hmm2desert"
 						]
 					}
-
 				}
 			},
 			"gems": {
 				//"index" : 5,
 				"rmg": {
-					"value" : 2000,
-					"rarity" : 300
+					"value": 2000,
+					"rarity": 300
 				},
 				"templates": {
 					"sw08_AVTgems0": {
-						"animation" : "sw08objects/resources/SWRES02",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/resources/SWRES02",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -149,21 +198,25 @@
 							"hmm2desert"
 						]
 					}
-
 				}
 			},
 			"gold": {
 				//"index" : 6,
 				"rmg": {
-					"value" : 750,
-					"rarity" : 300
+					"value": 750,
+					"rarity": 300
 				},
 				"templates": {
 					"sw08_AVTgold0": {
-						"animation" : "sw08objects/resources/SWRES03",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/resources/SWRES03",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -176,7 +229,6 @@
 							"hmm2desert"
 						]
 					}
-
 				}
 			}
 		}

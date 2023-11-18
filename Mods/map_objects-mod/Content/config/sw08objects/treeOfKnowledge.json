@@ -1,52 +1,66 @@
 {
 	"core:treeOfKnowledge": {
-
 		"types": {
 			"sw08objectstreeOfKnowledge01": {
-				"name" : "Tree of Knowledge",
-				"aiValue" : 2500,
+				"name": "Tree of Knowledge",
+				"aiValue": 2500,
 				"rmg": {
-					"mapLimit" : 100,
-					"value" : 2500,
-					"rarity" : 50
+					"mapLimit": 100,
+					"value": 2500,
+					"rarity": 50
 				},
 				"templates": {
-
 					"AVXTREK0": {
-						"animation" : "sw08objects/treeOfKnowledge/AVXTREK0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVV", "VVA"],
-
+						"animation": "sw08objects/treeOfKnowledge/AVXTREK0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVA"
+						],
 						"allowedTerrains": [
-							"grass","dirt"
+							"grass",
+							"dirt"
 						]
 					},
 					"AVXTREl0": {
-						"animation" : "sw08objects/treeOfKnowledge/AVXTREl0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVVV", "VVVA"],
-
+						"animation": "sw08objects/treeOfKnowledge/AVXTREl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVVA"
+						],
 						"allowedTerrains": [
-
 							"swamp"
 						]
 					},
 					"z358o6": {
-						"animation" : "sw08objects/treeOfKnowledge/z358o6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVVV", "VVVA"],
-
+						"animation": "sw08objects/treeOfKnowledge/z358o6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVVA"
+						],
 						"allowedTerrains": [
-
 							"swamp"
 						]
 					}
 				}
 			}
-
 		}
 	}
-
-
-
 }

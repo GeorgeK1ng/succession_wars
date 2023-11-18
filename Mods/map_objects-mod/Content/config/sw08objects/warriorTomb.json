@@ -1,21 +1,24 @@
 {
 	"core:warriorTomb": {
-
 		"types": {
 			"sw08objectswarriorTomb01": {
-				"name" : "Warrior Tomb",
-				"aiValue" : 6000,
+				"name": "Warrior Tomb",
+				"aiValue": 6000,
 				"rmg": {
-					"value" : 6000,
-					"rarity" : 30
+					"value": 6000,
+					"rarity": 30
 				},
 				"templates": {
-
 					"AVXtomb0": {
-						"animation" : "sw08objects/warriorTomb/AVXtomb0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VAB"],
-
+						"animation": "sw08objects/warriorTomb/AVXtomb0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -29,10 +32,15 @@
 						]
 					},
 					"AVXtomb1": {
-						"animation" : "sw08objects/warriorTomb/AVXtomb1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/warriorTomb/AVXtomb1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -44,14 +52,8 @@
 							"snow"
 						]
 					}
-
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

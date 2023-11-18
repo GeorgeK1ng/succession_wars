@@ -1,68 +1,79 @@
 {
 	"core:denOfThieves": {
-
 		"types": {
 			"sw08objectsdenOfThieves01": {
-				"name" : "Oracle",
-				"aiValue" : 100,
+				"name": "Oracle",
+				"aiValue": 100,
 				"rmg": {
-					"value" : 100,
-					"rarity" : 100,
-					"zoneLimit" : 1
+					"value": 100,
+					"rarity": 100,
+					"zoneLimit": 1
 				},
 				"templates": {
-
 					"AVXdend0": {
-						"animation" : "sw08objects/denOfThieves/AVXdend0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVV", "VBA"],
-
+						"animation": "sw08objects/denOfThieves/AVXdend0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
 						"allowedTerrains": [
-
 							"grass"
 						]
 					},
 					"AVXdene0": {
-						"animation" : "sw08objects/denOfThieves/AVXdene0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVV", "VBA"],
-
+						"animation": "sw08objects/denOfThieves/AVXdene0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
 						"allowedTerrains": [
-
 							"swamp"
 						]
 					},
-
 					"AvXDenT": {
-						"animation" : "sw08objects/denOfThieves/AvXDenT",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "BA"],
-
+						"animation": "sw08objects/denOfThieves/AvXDenT",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BA"
+						],
 						"allowedTerrains": [
-
 							"dirt"
 						]
-					},					
-					
+					},
 					"zdent001": {
-						"animation" : "sw08objects/denOfThieves/zdent001",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "BA"],
-
+						"animation": "sw08objects/denOfThieves/zdent001",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BA"
+						],
 						"allowedTerrains": [
-
-							 "rough" 
+							"rough"
 						]
-					}						
-											
+					}
 				}
 			}
-
-
-
 		}
 	}
-
-
-
 }

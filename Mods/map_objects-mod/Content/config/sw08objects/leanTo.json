@@ -1,35 +1,30 @@
 {
 	"core:leanTo": {
-
 		"types": {
 			"sw08objectsleanTo": {
-				"name" : "Resource Depot",
-				"aiValue" : 500,
+				"name": "Resource Depot",
+				"aiValue": 500,
 				"rmg": {
-					"value" : 500,
-					"rarity" : 100
+					"value": 500,
+					"rarity": 100
 				},
 				"templates": {
-
 					"AVMlean0": {
-						"animation" : "sw08objects/leanTo/AVMlean0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/leanTo/AVMlean0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
 					}
-
-
-
-					
 				}
 			}
-
 		}
 	}
-
-
-
 }

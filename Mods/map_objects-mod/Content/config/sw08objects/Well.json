@@ -1,71 +1,113 @@
-{	"magicWell-sw08objects-01": {
-
-		 "name" : "Magic Well",
-		"handler" : "configurable",
-	
-	"types": {
+{
+	"magicWell-sw08objects-01": {
+		"name": "Magic Well",
+		"handler": "configurable",
+		"types": {
 			"sw08objects-objectsWells": {
-
-				"name" : "Magic Well",
-			"sounds" : {
-				"visit" : ["FAERIE"]
-			},
-			"aiValue" : 250,
-				"rmg" : {
-					"zoneLimit" : 1,
-					"value"		: 250,
-					"rarity"	: 100
+				"name": "Magic Well",
+				"sounds": {
+					"visit": [
+						"FAERIE"
+					]
 				},
-				"compatibilityIdentifiers" : [ "object" ],
-	 
-				"onEmptyMessage" : "{Magic Well}\n\nA drink at the well is supposed to restore your spell points, but you are already at maximum.",
-				"onVisitedMessage" : "{Magic Well}\n\nA second drink at the well in one day will not help you.",
-				"description" : "(Restore spell points once per day)",
-				"visitMode" : "bonus",
-				"selectMode" : "selectFirst",
-				"rewards" : [
+				"aiValue": 250,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 250,
+					"rarity": 100
+				},
+				"compatibilityIdentifiers": [
+					"object"
+				],
+				"onEmptyMessage": "{Magic Well}\n\nA drink at the well is supposed to restore your spell points, but you are already at maximum.",
+				"onVisitedMessage": "{Magic Well}\n\nA second drink at the well in one day will not help you.",
+				"description": "(Restore spell points once per day)",
+				"visitMode": "bonus",
+				"selectMode": "selectFirst",
+				"rewards": [
 					{
-						"limiter" : {
-							"noneOf" : [ { "manaPercentage" : 100 } ]
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 100
+								}
+							]
 						},
-						"bonuses" : [ { "type" : "NONE", "duration" : "ONE_DAY"} ],
-						"message" : "{Magic Well}\n\nA drink from the well has restored your spell points to maximum.",
-						"manaPercentage" : 100
+						"bonuses": [
+							{
+								"type": "NONE",
+								"duration": "ONE_DAY"
+							}
+						],
+						"message": "{Magic Well}\n\nA drink from the well has restored your spell points to maximum.",
+						"manaPercentage": 100
 					}
 				],
 				"templates": {
 					"avxwelg0": {
-						"animation" : "sw08objects/well/avxwelg0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-						"allowedTerrains": ["rough"]
+						"animation": "sw08objects/well/avxwelg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
 					},
 					"AVXwelr0": {
-						"animation" : "sw08objects/well/AVXwelr0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV","VA"],
-						"allowedTerrains": ["subterra","sand", "lava","dirt","grass"]
-					},					
+						"animation": "sw08objects/well/AVXwelr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"subterra",
+							"sand",
+							"lava",
+							"dirt",
+							"grass"
+						]
+					},
 					"avxwels": {
-						"animation" : "sw08objects/well/avxwels",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-						"allowedTerrains": ["swamp"]
+						"animation": "sw08objects/well/avxwels",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
 					},
 					"AVXwlsn0": {
-						"animation" : "sw08objects/well/AVXwlsn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV","VA"],
-						"allowedTerrains": ["snow"]
+						"animation": "sw08objects/well/AVXwlsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					}
-
-
-
 				}
 			}
-
-
 		}
-
 	}
 }

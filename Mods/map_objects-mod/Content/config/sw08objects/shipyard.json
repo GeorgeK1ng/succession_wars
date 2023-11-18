@@ -1,23 +1,28 @@
 {
 	"core:shipyard": {
-
 		"types": {
 			"sw08objectsShipyard": {
-				"name" : "Shipyard",
-				"aiValue" : 1000,
+				"name": "Shipyard",
+				"aiValue": 1000,
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 70
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 70
 				},
-				"boat" : "heroes2Boat_sw08",
+				"boat": "heroes2Boat_sw08",
 				"templates": {
-
 					"AVXshyd0": {
-						"animation" : "sw08objects/shipyard/AVXshyd0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VVVV", "VABB"],
-
+						"animation": "sw08objects/shipyard/AVXshyd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VABB"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -30,16 +35,8 @@
 							"hmm2desert"
 						]
 					}
-										
-					
 				}
 			}
-
-
-
 		}
 	}
-
-
-
 }

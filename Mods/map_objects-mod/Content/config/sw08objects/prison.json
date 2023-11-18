@@ -1,22 +1,26 @@
 {
 	"core:prison": {
-
 		"types": {
 			"prison": {
-				"name" : "Prison",
-				"aiValue" : 5000,
+				"name": "Prison",
+				"aiValue": 5000,
 				"rmg": {
-					"zoneLimit" : 2,
-					"value" : 100,
-					"rarity" : 60
+					"zoneLimit": 2,
+					"value": 100,
+					"rarity": 60
 				},
 				"templates": {
-
 					"sw08_AVXprsn0": {
-						"animation" : "sw08objects/prison/AVXprsn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "VA"],
-
+						"animation": "sw08objects/prison/AVXprsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -29,13 +33,8 @@
 							"hmm2desert"
 						]
 					}
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

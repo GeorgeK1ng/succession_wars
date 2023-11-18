@@ -1,40 +1,53 @@
 {
 	"core:wagon": {
-
 		"types": {
 			"sw08objectswagon01": {
-				"name" : "Wagon",
-				"aiValue" : 500,
+				"name": "Wagon",
+				"aiValue": 500,
 				"rmg": {
-					"zoneLimit" : 10,
-					"value" : 500,
-					"rarity" : 50
+					"zoneLimit": 10,
+					"value": 500,
+					"rarity": 50
 				},
 				"templates": {
-
 					"AVTwagn0": {
-						"animation" : "sw08objects/wagon/AVTwagn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/wagon/AVTwagn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
 					},
 					"AVTwagn1": {
-						"animation" : "sw08objects/wagon/AVTwagn1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/wagon/AVTwagn1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"sand"
 						]
 					},
 					"AVTwagn2": {
-						"animation" : "sw08objects/wagon/AVTwagn2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/wagon/AVTwagn2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -46,13 +59,8 @@
 							"snow"
 						]
 					}
-
 				}
 			}
-
 		}
 	}
-
-
-
 }

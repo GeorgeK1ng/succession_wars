@@ -1,22 +1,24 @@
 {
-
 	"core:mysticalGarden": {
-		
 		"types": {
 			"sw08objectsgarden": {
-				"name" : "Mystical Garden",
-				"aiValue" : 500,
+				"name": "Mystical Garden",
+				"aiValue": 500,
 				"rmg": {
-					"value" : 500,
-					"rarity" : 50
+					"value": 500,
+					"rarity": 50
 				},
 				"templates": {
-
 					"avtmyst0": {
-						"animation" : "sw08objects/mysticalGarden/avtmyst0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/mysticalGarden/avtmyst0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -33,5 +35,4 @@
 			}
 		}
 	}
-
 }

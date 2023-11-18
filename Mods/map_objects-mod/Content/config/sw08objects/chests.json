@@ -1,20 +1,24 @@
 {
 	"core:treasureChest": {
 		"types": {
-		
 			"sw08objectsnewChest01": {
-				"name" : "Chest",
-				"aiValue" : 1500,
+				"name": "Chest",
+				"aiValue": 1500,
 				"rmg": {
-					"value" : 1500,
-					"rarity" : 1000
+					"value": 1500,
+					"rarity": 1000
 				},
 				"templates": {
 					"AVTchst0": {
-						"animation" : "sw08objects/chests/AVTchst0",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/chests/AVTchst0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
 							"grass",
 							"dirt",
@@ -27,37 +31,34 @@
 							"hmm2desert"
 						]
 					}
-	
-					
-
 				}
 			}
 		}
 	},
-	
-	
-		"core:seaChest": {
+	"core:seaChest": {
 		"types": {
-
 			"sw08objectsSeaChest01": {
-				"name" : "Sea Chest",
-				"aiValue" : 1500,
+				"name": "Sea Chest",
+				"aiValue": 1500,
 				"rmg": {
-					"value" : 1500,
-					"rarity" : 1000
+					"value": 1500,
+					"rarity": 1000
 				},
-		"templates": {
+				"templates": {
 					"AVXccht0": {
-						"animation" : "sw08objects/chests/AVXccht0",
-						"visitableFrom": ["+++", "+++", "+++"],
-						"mask": ["VA"],
-
+						"animation": "sw08objects/chests/AVXccht0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
-							"water" 
+							"water"
 						]
-					}	
-					
-
+					}
 				}
 			}
 		}
