@@ -1,10 +1,7 @@
 {
-	"sw08witch" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"sw08witch" :{
+		"town" :{
+			"siege" :{
 				"towerIconSmall" : "sw08witch/siege_new/TOWERIS",
 				"towerIconLarge" : "sw08witch/siege_new/TOWERIB",
 				"shooter" :"sw08witchLizardman",

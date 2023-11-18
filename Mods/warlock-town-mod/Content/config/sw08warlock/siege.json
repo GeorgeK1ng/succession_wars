@@ -1,10 +1,7 @@
 {
-	"swsw08warlockfaction" :
-	{
-		"town" :
-		{
-"siege" :
-			{
+	"swsw08warlockfaction" :{
+		"town" :{
+			"siege" :{
 				"towerIconSmall" : "sw08warlock/siege/TOWERIS",
 				"towerIconLarge" : "sw08warlock/siege/TOWERIB",
 				"shooter" : "sw08warlockCentaur",
@@ -53,6 +50,7 @@
 					"upper" : { "x" : 523, "y" : 56 },
 					"upperMid" : { "x" : 477, "y" : 180 }
 				}
+			}
+		}
 	}
-	} }
 }

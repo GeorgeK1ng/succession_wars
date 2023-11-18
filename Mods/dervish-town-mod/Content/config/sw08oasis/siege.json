@@ -1,10 +1,7 @@
 {
-	"sw08oasisfaction" :
-	{
-		"town" :
-		{
-			"siege" :
-			{
+	"sw08oasisfaction" :{
+		"town" :{
+			"siege" :{
 				"towerIconSmall" : "sw08oasis/siege_barb/TOWERIS",
 				"towerIconLarge" : "sw08oasis/siege_barb/TOWERIB",
 				"shooter" : "sw08oasisAcolyte",

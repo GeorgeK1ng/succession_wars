@@ -1,15 +1,10 @@
 {
-	"swsw08wizardfaction" :
-	{
-		"town" :
-		{
-"siege" :
-			{
-		
-		"towerIconSmall" : "sw08wizard/siege/TOWERIS",
+	"swsw08wizardfaction" :{
+		"town" :{
+			"siege" :{
+				"towerIconSmall" : "sw08wizard/siege/TOWERIS",
 				"towerIconLarge" : "sw08wizard/siege/TOWERIB",
 				"shooter" : "sw08wizardMagi",
-
 				"imagePrefix" : "sw08wizard/siege/SgTw",
 				"gate" :
 				{
@@ -55,8 +50,8 @@
 					"bottomMid" : { "x" : 475, "y" : 298 },
 					"upper" : { "x" : 547, "y" : 66 },
 					"upperMid" : { "x" : 488, "y" : 190 }
+				}
+			}
+		}
 	}
-
-	}
-	} }
 }

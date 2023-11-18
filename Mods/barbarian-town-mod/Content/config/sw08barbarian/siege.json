@@ -1,10 +1,7 @@
 {
-	"swsw08barbarianfaction" :
-	{
-		"town" :
-		{
-"siege" :
-			{
+	"swsw08barbarianfaction" :{
+		"town" :{
+			"siege" :{
 				"towerIconSmall" : "sw08barbarian/siege/TOWERIS",
 				"towerIconLarge" : "sw08barbarian/siege/TOWERIB",
 				"shooter" : "sw08barbarianOrcChief",
@@ -52,9 +49,8 @@
 					"bottomMid" : { "x" : 483, "y" : 304 },
 					"upper" : { "x" : 534, "y" : 69 },
 					"upperMid" : { "x" : 476, "y" : 189 }
-
-			
-			
-	}	}
-	} }
+				}
+			}
+		}
+	}
 }

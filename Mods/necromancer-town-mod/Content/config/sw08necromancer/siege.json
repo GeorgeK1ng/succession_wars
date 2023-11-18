@@ -1,10 +1,7 @@
 {
-	"swsw08necromancerfaction" :
-	{
-		"town" :
-		{
-"siege" :
-			{
+	"swsw08necromancerfaction" :{
+		"town" :{
+			"siege" :{
 				"towerIconSmall" : "sw08necromancer/siege/TOWERIS",
 				"towerIconLarge" : "sw08necromancer/siege/TOWERIB",
 				"shooter" : "sw08necromancerLich",
@@ -52,8 +49,8 @@
 					"bottomMid" : { "x" : 478, "y" : 323 },
 					"upper" : { "x" : 543, "y" : 66 },
 					"upperMid" : { "x" : 487, "y" : 164 }
-			
-			
-	}	}
-	} }
+				}
+			}
+		}
+	}
 }

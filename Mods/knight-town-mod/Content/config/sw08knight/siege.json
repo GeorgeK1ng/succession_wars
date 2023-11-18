@@ -1,15 +1,10 @@
 {
-	"sw08knight" :
-	{
-		"town" :
-		{
-"siege" :
-			{
-		
-		"towerIconSmall" : "sw08knight/siege_new/TOWERIS",
+	"sw08knight" :{
+		"town" :{
+			"siege" :{
+				"towerIconSmall" : "sw08knight/siege_new/TOWERIS",
 				"towerIconLarge" : "sw08knight/siege_new/TOWERIB",
 				"shooter" : "sw08knightArcher",
-
 				"imagePrefix" : "sw08knight/siege_new/SgCs",
 				"gate" :
 				{
@@ -55,6 +50,7 @@
 					"upper" : { "x" : 524, "y" : 32 },
 					"upperMid" : { "x" : 495, "y" : 188 }
 				}
-				}
-	} }
+			}
+		}
+	}
 }
