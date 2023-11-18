@@ -1,39 +1,45 @@
 {
 	"core:mushrooms": {
-
 		"types": {
 			"sw08mushroooms": {
-				"name" : "Mushrooms",
+				"name": "Mushrooms",
 				"rmg": {
-					"zoneLimit" : 13,
-					"value" : 100,
-					"rarity" : 100
+					"zoneLimit": 13,
+					"value": 100,
+					"rarity": 100
 				},
 				"templates": {
-
 					"AVLXgr02": {
-						"animation" : "sw08decor/mushrooms/AVLXgr02",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/mushrooms/AVLXgr02",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-						"subterra", "swamp"
+							"subterra",
+							"swamp"
 						]
 					},
-
 					"ZH4Obj02": {
-						"animation" : "sw08decor/mushrooms/ZH4Obj02",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBA"],
-
+						"animation": "sw08decor/mushrooms/ZH4Obj02",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBA"
+						],
 						"allowedTerrains": [
-						"subterra", "swamp"
+							"subterra",
+							"swamp"
 						]
 					}
-
-
 				}
-
 			}
 		}
 	}

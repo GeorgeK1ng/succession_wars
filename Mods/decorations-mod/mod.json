@@ -1,45 +1,33 @@
 {
-	"name" : "SW - Decorations For Map",
-	
-"description" : "SW - Decorations For Map",
-	
-"version" : "0.0.1",
-"author" : "Noname",
-"contact" : "none",
-"modType" : "Graphical",
-"depends" :
+	"name": "SW - Decorations For Map",
+	"description": "SW - Decorations For Map",
+	"modType": "Graphical",
+	"author": "Noname",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
 	[
 		"succession_wars.terrains-mod"
 	],
-"objects":
-		[
-
-"config/sw08decor/cracks.json",
-"config/sw08decor/dunes.json",
-"config/sw08decor/flowers.json",
- 
-"config/sw08decor/kelp.json",
-"config/sw08decor/lake.json",
-"config/sw08decor/Lava.json",
-"config/sw08decor/Log.json",
-"config/sw08decor/Mountains.json",
-"config/sw08decor/Mushrooms.json",
-"config/sw08decor/outcropping.json",
-"config/sw08decor/Reef.json",
-"config/sw08decor/Rock.json",
-"config/sw08decor/Skull.json",
-"config/sw08decor/swamp.json",
-"config/sw08decor/trees.json",
-"config/sw08decor/vegetation.json",
-"config/sw08decor/volcanos.json",
-"config/sw08decor/crystals.json"
-
-
-
-
-
-
-
-
-		]
+	"objects":
+	[
+		"config/sw08decor/cracks.json",
+		"config/sw08decor/dunes.json",
+		"config/sw08decor/flowers.json",
+		"config/sw08decor/kelp.json",
+		"config/sw08decor/lake.json",
+		"config/sw08decor/Lava.json",
+		"config/sw08decor/Log.json",
+		"config/sw08decor/Mountains.json",
+		"config/sw08decor/Mushrooms.json",
+		"config/sw08decor/outcropping.json",
+		"config/sw08decor/Reef.json",
+		"config/sw08decor/Rock.json",
+		"config/sw08decor/Skull.json",
+		"config/sw08decor/swamp.json",
+		"config/sw08decor/trees.json",
+		"config/sw08decor/vegetation.json",
+		"config/sw08decor/volcanos.json",
+		"config/sw08decor/crystals.json"
+	]
 }

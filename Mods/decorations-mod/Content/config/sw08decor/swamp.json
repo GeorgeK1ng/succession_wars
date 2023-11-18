@@ -1,93 +1,116 @@
 {
 	"core:lake": {
-
 		"types": {
 			"sw08swamp01": {
-				"name" : "Swamp Lake",
+				"name": "Swamp Lake",
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 50
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 50
 				},
 				"templates": {
-
 					"AVLman10": {
-						"animation" : "sw08decor/swamp/AVLman10",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BBB"],
-
+						"animation": "sw08decor/swamp/AVLman10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
 					},
 					"AVLman20": {
-						"animation" : "sw08decor/swamp/AVLman20",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BB"],
-
+						"animation": "sw08decor/swamp/AVLman20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					},				
+					},
 					"AVLman30": {
-						"animation" : "sw08decor/swamp/AVLman30",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BBB"],
-
+						"animation": "sw08decor/swamp/AVLman30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					},						
+					},
 					"AVLman40": {
-						"animation" : "sw08decor/swamp/AVLman40",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BBB"],
-
+						"animation": "sw08decor/swamp/AVLman40",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					},					
+					},
 					"AVLman50": {
-						"animation" : "sw08decor/swamp/AVLman50",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BB"],
-
+						"animation": "sw08decor/swamp/AVLman50",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					},						
-					
+					},
 					"AVLman55": {
-						"animation" : "sw08decor/swamp/AVLman55",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBB","BBBBB"],
-
+						"animation": "sw08decor/swamp/AVLman55",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"BBBBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					},							
+					},
 					"AVLmoss0": {
-						"animation" : "sw08decor/swamp/AVLmoss0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBB","BBBBB"],
-
+						"animation": "sw08decor/swamp/AVLmoss0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"BBBBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					}						
-					
-					
-					
-					
-					
-					
-					
+					}
 				}
 			}
-
-
-
-
 		}
 	}
 }

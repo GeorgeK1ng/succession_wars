@@ -1,132 +1,194 @@
 {
 	"core:lake": {
-
 		"types": {
 			"sw08lava01": {
-				"name" : "lava",
+				"name": "lava",
 				"rmg": {
-					"zoneLimit" : 1,
-					"value" : 100,
-					"rarity" : 50
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 50
 				},
 				"templates": {
-
 					"AVLlau10": {
-						"animation" : "sw08decor/lava/AVLlau10",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "BB"],
-
+						"animation": "sw08decor/lava/AVLlau10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLlau100": {
-						"animation" : "sw08decor/lava/AVLlau100",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["B"],
-
+						"animation": "sw08decor/lava/AVLlau100",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"B"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},			
+					},
 					"AVLlau110": {
-						"animation" : "sw08decor/lava/AVLlau110",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BBB","BBB"],
-
+						"animation": "sw08decor/lava/AVLlau110",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB",
+							"BBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},								
+					},
 					"AVLlau120": {
-						"animation" : "sw08decor/lava/AVLlau120",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BB"],
-
+						"animation": "sw08decor/lava/AVLlau120",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},					
+					},
 					"AVLlau20": {
-						"animation" : "sw08decor/lava/AVLlau20",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBB","BBB"],
-
+						"animation": "sw08decor/lava/AVLlau20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB",
+							"BBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},						
+					},
 					"AVLlau30": {
-						"animation" : "sw08decor/lava/AVLlau30",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BBBBBV","VBBBV"],
-
+						"animation": "sw08decor/lava/AVLlau30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBBBBV",
+							"VBBBV"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},						"AVLlau40": {
-						"animation" : "sw08decor/lava/AVLlau40",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BBB","BBB"],
-
+					},
+					"AVLlau40": {
+						"animation": "sw08decor/lava/AVLlau40",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB",
+							"BBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},						"AVLlau50": {
-						"animation" : "sw08decor/lava/AVLlau50",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BB","BB"],
-
+					},
+					"AVLlau50": {
+						"animation": "sw08decor/lava/AVLlau50",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BB",
+							"BB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},						"AVLlau60": {
-						"animation" : "sw08decor/lava/AVLlau60",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB","BB"],
-
+					},
+					"AVLlau60": {
+						"animation": "sw08decor/lava/AVLlau60",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB",
+							"BB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},					
-	"AVLlau70": {
-						"animation" : "sw08decor/lava/AVLlau70",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BV","BB"],
-
+					},
+					"AVLlau70": {
+						"animation": "sw08decor/lava/AVLlau70",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BV",
+							"BB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},					
-	"AVLlau80": {
-						"animation" : "sw08decor/lava/AVLlau80",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBB","BB"],
-
+					},
+					"AVLlau80": {
+						"animation": "sw08decor/lava/AVLlau80",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB",
+							"BB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},						
-	"AVLlau90": {
-						"animation" : "sw08decor/lava/AVLlau90",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["BBV","VBB"],
-
+					},
+					"AVLlau90": {
+						"animation": "sw08decor/lava/AVLlau90",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBV",
+							"VBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					}					
-					
-					
-					
-					
-					
+					}
 				}
 			}
-
-
-
-
 		}
 	}
 }

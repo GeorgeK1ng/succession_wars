@@ -1,848 +1,1318 @@
 {
 	"core:mountain": {
-
 		"types": {
 			"sw08MountainsDirt": {
-				"name" : "Mountains",
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLMTDR1": {
-						"animation" : "sw08decor/mountains/AVLMTDR1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBBVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLMTDR1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBBVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
 					},
 					"AVLMTDR2": {
-						"animation" : "sw08decor/mountains/AVLMTDR2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVBBB", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLMTDR2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVBBB",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
 					},
 					"AVLMTDR3": {
-						"animation" : "sw08decor/mountains/AVLMTDR3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLMTDR3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
 					},
 					"AVLMTDR4": {
-						"animation" : "sw08decor/mountains/AVLMTDR4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLMTDR4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
-					},					
+					},
 					"AVLMTDR5": {
-						"animation" : "sw08decor/mountains/AVLMTDR5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLMTDR5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
-					},					
+					},
 					"AVLMTDR6": {
-						"animation" : "sw08decor/mountains/AVLMTDR6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLMTDR6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
-					},						
+					},
 					"AVLMTDR7": {
-						"animation" : "sw08decor/mountains/AVLMTDR7",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBBVV", "VBBBBB","VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLMTDR7",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBBVV",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
-					},						
+					},
 					"AVLMTDR8": {
-						"animation" : "sw08decor/mountains/AVLMTDR8",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVBBB", "VBBBBB","VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLMTDR8",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"dirt"
 						]
-					}						
+					}
 				}
 			},
-			
-			
-						"sw08MountainsSand": {
-				"name" : "Mountains",
+			"sw08MountainsSand": {
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtds1": {
-						"animation" : "sw08decor/mountains/AVLmtds1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtds1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"sand"
 						]
 					},
 					"AVLmtds2": {
-						"animation" : "sw08decor/mountains/AVLmtds2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtds2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"sand"
 						]
 					},
 					"AVLmtds3": {
-						"animation" : "sw08decor/mountains/AVLmtds3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBV", "VVBBB", "VVVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtds3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBV",
+							"VVBBB",
+							"VVVBB"
+						],
 						"allowedTerrains": [
 							"sand"
 						]
 					},
 					"AVLmtds4": {
-						"animation" : "sw08decor/mountains/AVLmtds4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtds4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"sand"
 						]
-					},					
+					},
 					"AVLmtds5": {
-						"animation" : "sw08decor/mountains/AVLmtds5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtds5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"sand"
 						]
-					},					
+					},
 					"AVLmtds6": {
-						"animation" : "sw08decor/mountains/AVLmtds6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtds6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"sand"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-			
-								"sw08MountainsGrass": {
-				"name" : "Mountains",
+			"sw08MountainsGrass": {
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtgn0": {
-						"animation" : "sw08decor/mountains/AVLmtgn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBBB", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtgn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgn1": {
-						"animation" : "sw08decor/mountains/AVLmtgn1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBBVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtgn1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBBVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgn2": {
-						"animation" : "sw08decor/mountains/AVLmtgn2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtgn2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgn3": {
-						"animation" : "sw08decor/mountains/AVLmtgn3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtgn3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					},					
+					},
 					"AVLmtgn4": {
-						"animation" : "sw08decor/mountains/AVLmtgn4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtgn4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					},					
+					},
 					"AVLmtgn5": {
-						"animation" : "sw08decor/mountains/AVLmtgn5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtgn5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-		
-								"sw08MountainsGrass082": {
-				"name" : "Mountains",
+			"sw08MountainsGrass082": {
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtgn0": {
-						"animation" : "sw08decor/mountains/082/AVLmtgn0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBBB", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/082/AVLmtgn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgn1": {
-						"animation" : "sw08decor/mountains/082/AVLmtgn1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBBVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/082/AVLmtgn1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBBVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgn2": {
-						"animation" : "sw08decor/mountains/082/AVLmtgn2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/082/AVLmtgn2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgn3": {
-						"animation" : "sw08decor/mountains/082/AVLmtgn3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/082/AVLmtgn3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					},					
+					},
 					"AVLmtgn4": {
-						"animation" : "sw08decor/mountains/082/AVLmtgn4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/082/AVLmtgn4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					},					
+					},
 					"AVLmtgn5": {
-						"animation" : "sw08decor/mountains/082/AVLmtgn5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/082/AVLmtgn5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-								
-										"sw08MountainsGrass2": {
-				"name" : "Mountains",
+			"sw08MountainsGrass2": {
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtgr1": {
-						"animation" : "sw08decor/mountains/AVLmtgr1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtgr1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgr2": {
-						"animation" : "sw08decor/mountains/AVLmtgr2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtgr2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgr3": {
-						"animation" : "sw08decor/mountains/AVLmtgr3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtgr3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
 					},
 					"AVLmtgr4": {
-						"animation" : "sw08decor/mountains/AVLmtgr4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtgr4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					},					
+					},
 					"AVLmtgr5": {
-						"animation" : "sw08decor/mountains/AVLmtgr5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtgr5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					},					
+					},
 					"AVLmtgr6": {
-						"animation" : "sw08decor/mountains/AVLmtgr6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtgr6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"grass"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-				
-				
-											"sw08MountainsRoughSand": {
-				"name" : "Mountains",
+			"sw08MountainsRoughSand": {
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"avlmtrf1": {
-						"animation" : "sw08decor/mountains/avlmtrf1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/avlmtrf1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"hmm2desert"
 						]
 					},
 					"avlmtrf2": {
-						"animation" : "sw08decor/mountains/avlmtrf2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/avlmtrf2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
-						"hmm2desert"
+							"hmm2desert"
 						]
 					},
 					"avlmtrf3": {
-						"animation" : "sw08decor/mountains/avlmtrf3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBBV", "VVBBB", "VVVBB"],
-
+						"animation": "sw08decor/mountains/avlmtrf3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBV",
+							"VVBBB",
+							"VVVBB"
+						],
 						"allowedTerrains": [
 							"hmm2desert"
 						]
 					},
 					"avlmtrf4": {
-						"animation" : "sw08decor/mountains/avlmtrf4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/avlmtrf4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"hmm2desert"
 						]
-					},					
+					},
 					"avlmtrf5": {
-						"animation" : "sw08decor/mountains/avlmtrf5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/avlmtrf5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"hmm2desert"
 						]
-					},					
+					},
 					"avlmtrf6": {
-						"animation" : "sw08decor/mountains/avlmtrf6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/avlmtrf6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"hmm2desert"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-			
-			
-			
-						
-											"sw08MountainsSubterra": {
-				"name" : "Stalagmites",
+			"sw08MountainsSubterra": {
+				"name": "Stalagmites",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtsb0": {
-						"animation" : "sw08decor/mountains/AVLmtsb0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtsb0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
 					},
 					"AVLmtsb1": {
-						"animation" : "sw08decor/mountains/AVLmtsb1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsb1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
 					},
 					"AVLmtsb2": {
-						"animation" : "sw08decor/mountains/AVLmtsb2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB","VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtsb2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
 					},
 					"AVLmtsb3": {
-						"animation" : "sw08decor/mountains/AVLmtsb3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsb3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
-					},					
+					},
 					"AVLmtsb4": {
-						"animation" : "sw08decor/mountains/AVLmtsb4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtsb4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
-					},					
+					},
 					"AVLmtsb5": {
-						"animation" : "sw08decor/mountains/AVLmtsb5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsb5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
-					},						
+					},
 					"AVLmtsb6": {
-						"animation" : "sw08decor/mountains/AVLmtsb6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBB", "BBV"],
-
+						"animation": "sw08decor/mountains/AVLmtsb6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB",
+							"BBV"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
-					},	
-
+					},
 					"AVLmtsb7": {
-						"animation" : "sw08decor/mountains/AVLmtsb7",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBVV","VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsb7",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBVV",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
-					},	
+					},
 					"AVLmtsb8": {
-						"animation" : "sw08decor/mountains/AVLmtsb8",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VVVVBBB","VVBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtsb8",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVBBB",
+							"VVBBBVV"
+						],
 						"allowedTerrains": [
 							"rough"
 						]
-					}	
-
-
-
-					
+					}
 				}
 			},
-			
-							
 			"sw08MountainsSnow": {
-				"name" : "Mountains",
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtsn1": {
-						"animation" : "sw08decor/mountains/AVLmtsn1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVVV", "VVBBBBB", "VVBBBBB", "VVVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsn1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBBBB",
+							"VVVVBBB"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
 					},
 					"AVLmtsn2": {
-						"animation" : "sw08decor/mountains/AVLmtsn2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VVBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtsn2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
 					},
 					"AVLmtsn3": {
-						"animation" : "sw08decor/mountains/AVLmtsn3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsn3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
 					},
 					"AVLmtsn4": {
-						"animation" : "sw08decor/mountains/AVLmtsn4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtsn4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
-					},					
+					},
 					"AVLmtsn5": {
-						"animation" : "sw08decor/mountains/AVLmtsn5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsn5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
-					},					
+					},
 					"AVLmtsn6": {
-						"animation" : "sw08decor/mountains/AVLmtsn6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtsn6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"snow"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-									
 			"sw08MountainsSwamp": {
-				"name" : "Mountains",
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtsw1": {
-						"animation" : "sw08decor/mountains/AVLmtsw1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsw1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
 					},
 					"AVLmtsw2": {
-						"animation" : "sw08decor/mountains/AVLmtsw2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtsw2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
 					},
 					"AVLmtsw3": {
-						"animation" : "sw08decor/mountains/AVLmtsw3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsw3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
 					},
 					"AVLmtsw4": {
-						"animation" : "sw08decor/mountains/AVLmtsw4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtsw4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					},					
+					},
 					"AVLmtsw5": {
-						"animation" : "sw08decor/mountains/AVLmtsw5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtsw5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					},					
+					},
 					"AVLmtsw6": {
-						"animation" : "sw08decor/mountains/AVLmtsw6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtsw6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"swamp"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-			
-											
 			"sw08MountainsLava": {
-				"name" : "Mountains",
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVLmtvo1": {
-						"animation" : "sw08decor/mountains/AVLmtvo1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVLmtvo1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLmtvo2": {
-						"animation" : "sw08decor/mountains/AVLmtvo2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVLmtvo2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLmtvo3": {
-						"animation" : "sw08decor/mountains/AVLmtvo3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtvo3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLmtvo4": {
-						"animation" : "sw08decor/mountains/AVLmtvo4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtvo4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},					
+					},
 					"AVLmtvo5": {
-						"animation" : "sw08decor/mountains/AVLmtvo5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVLmtvo5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					},					
+					},
 					"AVLmtvo6": {
-						"animation" : "sw08decor/mountains/AVLmtvo6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVLmtvo6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
-					}						
-					
+					}
 				}
 			},
-			
-			
-					
-											
 			"sw08MountainsSubterraNext": {
-				"name" : "Mountains",
+				"name": "Mountains",
 				"rmg": {
-					"zoneLimit" : 15,
-					"value" : 100,
-					"rarity" : 150
+					"zoneLimit": 15,
+					"value": 100,
+					"rarity": 150
 				},
 				"templates": {
-
 					"AVmund0": {
-						"animation" : "sw08decor/mountains/AVmund0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVVV","VVVVVVV","VVVVVVV", "VVBBBBB", "VVVVBBB"],
-
+						"animation": "sw08decor/mountains/AVmund0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVVVBBB"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
 					},
 					"AVmund1": {
-						"animation" : "sw08decor/mountains/AVmund1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV", "VBBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVmund1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
 					},
 					"AVMwelg0": {
-						"animation" : "sw08decor/mountains/AVMwelg0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV","VVBBBB", "VBBBBB", "VBBBVV"],
-
+						"animation": "sw08decor/mountains/AVMwelg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
 					},
 					"AVMwelg1": {
-						"animation" : "sw08decor/mountains/AVMwelg1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV","VBBBBB", "VBBBBB", "VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVMwelg1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
-					},					
+					},
 					"AVMwelg2": {
-						"animation" : "sw08decor/mountains/AVMwelg2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV","VVBB", "VBBV"],
-
+						"animation": "sw08decor/mountains/AVMwelg2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
-					},					
+					},
 					"AVMwelg3": {
-						"animation" : "sw08decor/mountains/AVMwelg3",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV","VBBB", "VVBB"],
-
+						"animation": "sw08decor/mountains/AVMwelg3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
-					},						
+					},
 					"AVMwelg4": {
-						"animation" : "sw08decor/mountains/AVMwelg4",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVBB","VBBV"],
-
+						"animation": "sw08decor/mountains/AVMwelg4",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBBV"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
-					},	
+					},
 					"AVMwelg5": {
-						"animation" : "sw08decor/mountains/AVMwelg5",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VBBV","VVBB"],
-
+						"animation": "sw08decor/mountains/AVMwelg5",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"VVBB"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
-					},	
+					},
 					"AVMwelg6": {
-						"animation" : "sw08decor/mountains/AVMwelg6",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV","VBBBVV","VVVBBB"],
-
+						"animation": "sw08decor/mountains/AVMwelg6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VBBBVV",
+							"VVVBBB"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
-					},	
+					},
 					"AVMwelg7": {
-						"animation" : "sw08decor/mountains/AVMwelg7",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVVV","VVVVBBB","VVBBBVV"],
-
+						"animation": "sw08decor/mountains/AVMwelg7",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVV",
+							"VVVVBBB",
+							"VVBBBVV"
+						],
 						"allowedTerrains": [
 							"subterra"
 						]
-					}	
-
-
-
-
-					
+					}
 				}
 			}
-			
-			
-	} }}
+		}
+	}
+}

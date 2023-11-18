@@ -1,92 +1,142 @@
 {
 	"core:volcano": {
-
 		"types": {
 			"sw08volcanos": {
-				"name" : "Volcano",
+				"name": "Volcano",
 				"rmg": {
-					"zoneLimit" : 6,
-					"value" : 100,
-					"rarity" : 100
+					"zoneLimit": 6,
+					"value": 100,
+					"rarity": 100
 				},
 				"templates": {
-
 					"AVEring0": {
-						"animation" : "sw08decor/vulcanos/AVEring0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVV","VVVVVV", "VVBBBV", "BBBBBB"],
-
+						"animation": "sw08decor/vulcanos/AVEring0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVBBBV",
+							"BBBBBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLvol10": {
-						"animation" : "sw08decor/vulcanos/AVLvol10",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVV", "VBBB"],
-
+						"animation": "sw08decor/vulcanos/AVLvol10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLvol20": {
-						"animation" : "sw08decor/vulcanos/AVLvol20",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VV", "VB"],
-
+						"animation": "sw08decor/vulcanos/AVLvol20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLvol30": {
-						"animation" : "sw08decor/vulcanos/AVLvol30",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVBBBV"],
-
+						"animation": "sw08decor/vulcanos/AVLvol30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVBBBV"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLvol40": {
-						"animation" : "sw08decor/vulcanos/AVLvol40",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VBB"],
-
+						"animation": "sw08decor/vulcanos/AVLvol40",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"AVLvol50": {
-						"animation" : "sw08decor/vulcanos/AVLvol50",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVV", "VVVVV", "VVBBB"],
-
+						"animation": "sw08decor/vulcanos/AVLvol50",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV",
+							"VVBBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"zdec0008": {
-						"animation" : "sw08decor/vulcanos/zdec0008",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VVB"],
-
+						"animation": "sw08decor/vulcanos/zdec0008",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					},
 					"ZDec0015": {
-						"animation" : "sw08decor/vulcanos/ZDec0015",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVVVV","VVVVV", "VVBBB"],
-
+						"animation": "sw08decor/vulcanos/ZDec0015",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV",
+							"VVBBB"
+						],
 						"allowedTerrains": [
 							"lava"
 						]
 					}
-
 				}
-
-
 			}
 		}
 	}

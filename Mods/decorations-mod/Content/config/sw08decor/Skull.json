@@ -1,124 +1,159 @@
 {
 	"core:skull": {
-
 		"types": {
 			"sw08skull": {
-				"name" : "Remains",
+				"name": "Remains",
 				"rmg": {
-					"zoneLimit" : 5,
-					"value" : 100,
-					"rarity" : 100
+					"zoneLimit": 5,
+					"value": 100,
+					"rarity": 100
 				},
 				"templates": {
-
 					"AVLskul0": {
-						"animation" : "sw08decor/skull/AVLskul0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/skull/AVLskul0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-							"sand", "dirt", "rough", "lava", "subterra", "swamp"
+							"sand",
+							"dirt",
+							"rough",
+							"lava",
+							"subterra",
+							"swamp"
 						]
 					},
 					"AVLskul10": {
-						"animation" : "sw08decor/skull/AVLskul10",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/skull/AVLskul10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-							"sand", "dirt", "rough", "lava", "subterra", "swamp"
+							"sand",
+							"dirt",
+							"rough",
+							"lava",
+							"subterra",
+							"swamp"
 						]
 					},
 					"avlxds10": {
-						"animation" : "sw08decor/skull/avlxds10",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/skull/avlxds10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-							"sand", "dirt", "rough", "lava", "subterra", "swamp"
+							"sand",
+							"dirt",
+							"rough",
+							"lava",
+							"subterra",
+							"swamp"
 						]
 					}
-
 				}
-
-
 			},
-			
-				"sw08stog": {
-				"name" : "Stomp",
+			"sw08stog": {
+				"name": "Stomp",
 				"rmg": {
-					"zoneLimit" : 5,
-					"value" : 100,
-					"rarity" : 100
+					"zoneLimit": 5,
+					"value": 100,
+					"rarity": 100
 				},
 				"templates": {
-
 					"AVLskul0": {
-						"animation" : "sw08decor/stog/AVLsh5g0",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/stog/AVLsh5g0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-							"sand", "dirt"
+							"sand",
+							"dirt"
 						]
 					}
-
 				}
-
-
-			},		
-			
-					"sw08stuff": {
-				"name" : "Stuff",
+			},
+			"sw08stuff": {
+				"name": "Stuff",
 				"rmg": {
-					"zoneLimit" : 5,
-					"value" : 100,
-					"rarity" : 100
+					"zoneLimit": 5,
+					"value": 100,
+					"rarity": 100
 				},
-				"templates":{
-				
-
+				"templates": {
 					"AVLxgr03": {
-						"animation" : "sw08decor/stuff/AVLxgr03",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/stuff/AVLxgr03",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-							"sand", "dirt", "swamp","grass"
+							"sand",
+							"dirt",
+							"swamp",
+							"grass"
 						]
 					},
-
 					"AVSWdec1": {
-						"animation" : "sw08decor/stuff/AVSWdec1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/stuff/AVSWdec1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-							"sand", "dirt", "swamp","grass"
+							"sand",
+							"dirt",
+							"swamp",
+							"grass"
 						]
 					},
-
-
 					"AVSWdec2": {
-						"animation" : "sw08decor/stuff/AVSWdec2",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VB"],
-
+						"animation": "sw08decor/stuff/AVSWdec2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VB"
+						],
 						"allowedTerrains": [
-							"sand", "dirt", "swamp","grass"
+							"sand",
+							"dirt",
+							"swamp",
+							"grass"
 						]
 					}
-
-
 				}
-
-
-			}		
-			
-			
-					
-			
-			
+			}
 		}
 	}
 }
