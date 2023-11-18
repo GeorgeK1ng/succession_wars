@@ -1,386 +1,492 @@
 {
-    "sw08oasisfaction": {
-        "town": {
-			"buildings" :
-			{
-"mageGuild1":
-                {
-                    "id" : 0,
-                    "cost": {
-                        "wood" : 5,
-                        "ore" : 5,
-                        "gold" : 2000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
-                },
-"mageGuild2":
-                {
-                    "id" : 1,
-                    "upgrades" : "mageGuild1",
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 4,
-                        "ore" : 5,
-                        "sulfur" : 4,
-                        "crystal" : 4,
-                        "gems" : 4,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
-                },
-"mageGuild3":                {
-                    "id" : 2,
-                    "upgrades" : "mageGuild2",
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 6,
-                        "ore" : 5,
-                        "sulfur" : 6,
-                        "crystal" : 6,
-                        "gems" : 6,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
-                },
-"mageGuild4":                {
-                    "id" : 3,
-                    "upgrades" : "mageGuild3",
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 8,
-                        "ore" : 5,
-                        "sulfur" : 8,
-                        "crystal" : 8,
-                        "gems" : 8,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4"
-                },
-"mageGuild5":                {
-                    "id" : 4,
-                    "upgrades" : "mageGuild4",
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 10,
-                        "ore" : 5,
-                        "sulfur" : 10,
-                        "crystal" : 10,
-                        "gems" : 10,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5"
-                },
-"tavern":                {
-                    "id" : 5,
-                    "cost": {
-                        "wood" : 5,
-                        "gold" : 500
-                    },
-					"name" : "Tavern",
-					"description" : "The Tavern provides hiring of heroes."
-                },
-"shipyard":{ "id" : 6,
-                    "cost": {
-                        "wood" : 20,
-                  
-                        "gold" : 2000
-                    },
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships."
-},
-"fort":                {
-                    "id" : 7,
-                    "cost": {
-                        "wood" : 20,
-                        "ore" : 20,
-                        "gold" : 5000
-                    },
-					"name" : "Fort",
-					"description" : "The Fort provides your town with defensive walls."
-                },
-"citadel":                {
-                    "id" : 8,
-                    "upgrades" : "fort",
-                    "cost": {
-                        "ore" : 5,
-                        "gold" : 2500
-                    },
-"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
-                },
-"castle":                {
-                    "id" : 9,
-                    "upgrades" : "citadel",
-                    "cost": {
-                        "wood" : 10,
-                        "ore" : 10,
-                        "gold" : 5000
-                    },
-					"name" : "Castle",
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
-                },
-"villageHall":                {
-                    "id" : 10,
-                    "mode" : "auto",
-                    "cost": {
-                        "gold" : 500
-                    },
-					"produce": {
-					    "gold" : 500
+	"sw08oasisfaction": {
+		"town": {
+			"buildings": {
+				"mageGuild1": {
+					"id": 0,
+					"cost": {
+						"wood": 5,
+						"ore": 5,
+						"gold": 2000
 					},
-					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
-                },
-"townHall":                {
-                    "id" : 11,
-                    "upgrades" : "villageHall",
-                    "requires": ["allOf" , ["tavern"]],
-                    "cost": {
-                        "gold" : 2500
-                    },
-					"produce": {
-					    "gold" : 1000
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 1"
+				},
+				"mageGuild2": {
+					"id": 1,
+					"upgrades": "mageGuild1",
+					"cost": {
+						"wood": 5,
+						"mercury": 4,
+						"ore": 5,
+						"sulfur": 4,
+						"crystal": 4,
+						"gems": 4,
+						"gold": 1000
 					},
-					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
-                },
-"cityHall":                {
-                    "id" : 12,
-                    "upgrades" : "townHall",
-                    "requires": ["allOf" , ["mageGuild1"] , ["marketplace"] , ["blacksmith"]],
-                    "cost": {
-                        "gold" : 5000
-                    },
-					"produce": {
-					    "gold" : 2000
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 2"
+				},
+				"mageGuild3": {
+					"id": 2,
+					"upgrades": "mageGuild2",
+					"cost": {
+						"wood": 5,
+						"mercury": 6,
+						"ore": 5,
+						"sulfur": 6,
+						"crystal": 6,
+						"gems": 6,
+						"gold": 1000
 					},
-					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
-                },
-"capitol":                {
-                    "id" : 13,
-                    "upgrades" : "cityHall",
-                    "requires": ["allOf" , ["castle"]],
-                    "cost": {
-                        "gold" : 10000
-                    },
-					"produce": {
-					    "gold" : 4000
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 3"
+				},
+				"mageGuild4": {
+					"id": 3,
+					"upgrades": "mageGuild3",
+					"cost": {
+						"wood": 5,
+						"mercury": 8,
+						"ore": 5,
+						"sulfur": 8,
+						"crystal": 8,
+						"gems": 8,
+						"gold": 1000
 					},
-"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day."
-                },
-"marketplace":                {
-                    "id" : 14,
-                    "cost": {
-                        "wood" : 5,
-                        "gold" : 500
-                    },
-"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
-                },
-"resourceSilo":                {
-                    "id" : 15,
-                    "requires": ["allOf" , ["marketplace"]],
-                    "cost": {
-                        "ore" : 5,
-                        "gold" : 5000
-                    },
-					"produce": {
-					    "gems" : 1
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 4"
+				},
+				"mageGuild5": {
+					"id": 4,
+					"upgrades": "mageGuild4",
+					"cost": {
+						"wood": 5,
+						"mercury": 10,
+						"ore": 5,
+						"sulfur": 10,
+						"crystal": 10,
+						"gems": 10,
+						"gold": 1000
 					},
-"description" : "The Gem Pond provides you with an additional +1 gems each day.",
-					"name" : "Gem Pond"
-                },
-"blacksmith":                {
-                    "id" : 16,
-                    "cost": {
-                        "wood" : 5,
-                        "gold" : 1000
-                    },
-"description" : "The Blacksmith provides your armies with war machines.",
-					"name" : "Blacksmith"
-                },
- "special1":               {
-                    "cost": {
-                  
-                        "gold" : 10000
-                    },
-                    "requires": ["allOf" , ["marketplace"]],
-                    "id" : 17,
-"description" : "For a nominal fee, you can purchase artefacts from the Artifact Merchants.",
-					"name" : "Artifact Merchants",
-					"type" : "artifactMerchant"
-                },
- "horde1":                  {
-                    "cost": {
-                        "gold" : 1000
-                    },
-                    "id" : 18,
-                    "upgrades" : "dwellingLvl1",
-"description" : "Wagon Camp increases weekly production of Rogues by 8 per week.",
-					"name" : "Wagon Camp"
-                },
- "horde1Upgr":                  {
-                    "cost": {
-                        "gold" : 1000
-                    },
-                    "id" : 19,
-                    "upgrades" : "dwellingUpLvl1",
-                    "requires": ["allOf" , ["horde1"]],
-                    "mode" : "auto",
-"description" : "Wagon Camp increases weekly production of Bandits by 8 per week.",
-					"name" : "Wagon Camp"
-                },
-  "ship":                 {
-                    "id" : 20,
-                    "cost": {
-                        "wood" : 10,
-                        "gold" : 2000
-                    },
-					"name" : "Ship",
-					"description" : "Ship",
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 5"
+				},
+				"tavern": {
+					"id": 5,
+					"cost": {
+						"wood": 5,
+						"gold": 500
+					},
+					"name": "Tavern",
+					"description": "The Tavern provides hiring of heroes."
+				},
+				"shipyard": {
+					"id": 6,
+					"cost": {
+						"wood": 20,
+						"gold": 2000
+					},
+					"name": "Shipyard",
+					"description": "The Shipyard allows you to purchase ships."
+				},
+				"fort": {
+					"id": 7,
+					"cost": {
+						"wood": 20,
+						"ore": 20,
+						"gold": 5000
+					},
+					"name": "Fort",
+					"description": "The Fort provides your town with defensive walls."
+				},
+				"citadel": {
+					"id": 8,
+					"upgrades": "fort",
+					"cost": {
+						"ore": 5,
+						"gold": 2500
+					},
+					"name": "Citadel",
+					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+				},
+				"castle": {
+					"id": 9,
+					"upgrades": "citadel",
+					"cost": {
+						"wood": 10,
+						"ore": 10,
+						"gold": 5000
+					},
+					"name": "Castle",
+					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+				},
+				"villageHall": {
+					"id": 10,
+					"mode": "auto",
+					"cost": {
+						"gold": 500
+					},
+					"produce": {
+						"gold": 500
+					},
+					"name": "Village Hall",
+					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+				},
+				"townHall": {
+					"id": 11,
+					"upgrades": "villageHall",
+					"requires": [
+						"allOf",
+						[
+							"tavern"
+						]
+					],
+					"cost": {
+						"gold": 2500
+					},
+					"produce": {
+						"gold": 1000
+					},
+					"name": "Town Hall",
+					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+				},
+				"cityHall": {
+					"id": 12,
+					"upgrades": "townHall",
+					"requires": [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"marketplace"
+						],
+						[
+							"blacksmith"
+						]
+					],
+					"cost": {
+						"gold": 5000
+					},
+					"produce": {
+						"gold": 2000
+					},
+					"name": "City Hall",
+					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+				},
+				"capitol": {
+					"id": 13,
+					"upgrades": "cityHall",
+					"requires": [
+						"allOf",
+						[
+							"castle"
+						]
+					],
+					"cost": {
+						"gold": 10000
+					},
+					"produce": {
+						"gold": 4000
+					},
+					"name": "Capitol",
+					"description": "The Capitol earns your kingdom 4000 gold per day."
+				},
+				"marketplace": {
+					"id": 14,
+					"cost": {
+						"wood": 5,
+						"gold": 500
+					},
+					"name": "Marketplace",
+					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+				},
+				"resourceSilo": {
+					"id": 15,
+					"requires": [
+						"allOf",
+						[
+							"marketplace"
+						]
+					],
+					"cost": {
+						"ore": 5,
+						"gold": 5000
+					},
+					"produce": {
+						"gems": 1
+					},
+					"description": "The Gem Pond provides you with an additional +1 gems each day.",
+					"name": "Gem Pond"
+				},
+				"blacksmith": {
+					"id": 16,
+					"cost": {
+						"wood": 5,
+						"gold": 1000
+					},
+					"description": "The Blacksmith provides your armies with war machines.",
+					"name": "Blacksmith"
+				},
+				"special1": {
+					"cost": {
+						"gold": 10000
+					},
+					"requires": [
+						"allOf",
+						[
+							"marketplace"
+						]
+					],
+					"id": 17,
+					"description": "For a nominal fee, you can purchase artefacts from the Artifact Merchants.",
+					"name": "Artifact Merchants",
+					"type": "artifactMerchant"
+				},
+				"horde1": {
+					"cost": {
+						"gold": 1000
+					},
+					"id": 18,
+					"upgrades": "dwellingLvl1",
+					"description": "Wagon Camp increases weekly production of Rogues by 8 per week.",
+					"name": "Wagon Camp"
+				},
+				"horde1Upgr": {
+					"cost": {
+						"gold": 1000
+					},
+					"id": 19,
+					"upgrades": "dwellingUpLvl1",
+					"requires": [
+						"allOf",
+						[
+							"horde1"
+						]
+					],
+					"mode": "auto",
+					"description": "Wagon Camp increases weekly production of Bandits by 8 per week.",
+					"name": "Wagon Camp"
+				},
+				"ship": {
+					"id": 20,
+					"cost": {
+						"wood": 10,
+						"gold": 2000
+					},
+					"name": "Ship",
+					"description": "Ship",
 					"upgrades": "shipyard"
-                },
-//  "special2":                 {
- //                   "id" : 21,
-//                    "cost": {
-//                        "wood" : 10,
-//                        "gold" : 2000
-//                    },
- //                   "requires": ["allOf" , ["mageGuild1"]],
-//"description" : "At the foot of the Sphinx you can pay to learn any, or all, of the four schools of magic, for fee 2000 gold each.",
-//					"name" : "Sphinx"
- //               },
- "grail":                  {
-                    "id" : 26,
-                    "mode" : "grail",
+				},
+				//  "special2":                 {
+				//                   "id" : 21,
+				//                    "cost": {
+				//                        "wood" : 10,
+				//                        "gold" : 2000
+				//                    },
+				//                   "requires": ["allOf" , ["mageGuild1"]],
+				//"description" : "At the foot of the Sphinx you can pay to learn any, or all, of the four schools of magic, for fee 2000 gold each.",
+				//					"name" : "Sphinx"
+				//               },
+				"grail": {
+					"id": 26,
+					"mode": "grail",
 					"produce": {
-					    "gold" : 5000
+						"gold": 5000
 					},
-"description" : "Magic Shining increases weekly creature generation by 50 percent, adds 5000 gold per day and increases Spell Damage of allied heroes by 25%.",
-					"name" : "Magic Shining",
-"bonuses": [ { "type" : "SPELL_DAMAGE",  "val" : 25, "propagator" : "PLAYER_PROPAGATOR" } ]
-                },
-  "extraTownHall":                 {
-                    "id" : 27, "name" : "Extra Town Hall", "description" : "Extra town hall appearance",
-                    "requires": ["allOf" , ["townHall"] , ["extraTownHall"]],
-                    "mode" : "auto"
-                },
-  "extraCityHall":                 {
-                    "id" : 28, "name" : "Extra City Hall", "description" : "Extra city hall appearance",
-                    "requires": ["allOf" , ["cityHall"] , ["extraCityHall"]],
-                    "mode" : "auto"
-                },
- "extraCapitol":                  {
-                    "id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance",
-                    "requires": ["allOf" , ["capitol"] , ["extraCapitol"]],
-                    "mode" : "auto"
-                },
- "dwellingLvl1":                  {
-                    "cost": {
-                        "gold" : 400,
-						"wood" : 5
-                    },
-                    "requires": ["allOf" , ["fort"]],
-                    "id" : 30,
-"description" : "The Wagon Camp produces Rogues.",
-					"name" : "Wagon Camp"
-                },
- "dwellingLvl2":                  {
-                    "cost": {
-                        "gold" : 1000,
-                        "wood" : 5,
-						"ore" : 5
-                    },
-                    "requires": ["allOf" , ["dwellingLvl1"]],
-                    "id" : 31,
-"description" : "The Temple produces Acolytes.",
-					"name" : "Temple"
-                },
-   "dwellingLvl3":                {
-                    "cost": {
-                        "gold" : 1500
-                    },
-                    "requires": ["allOf" , ["dwellingLvl1"]],
-                    "id" : 32,
-"description" : "The Desert Tent produces Nomads.",
-					"name" : "Desert Tent"
-                },
- "dwellingLvl4":                  {
-                    "cost": {
-                        "ore" : 10,
-                        "gold" : 2000
-                    },
-                    "requires": ["allOf" , ["dwellingLvl2"]],
-                    "id" : 33,
-"description" : "The Chapel produces Medusas.",
-					"name" : "Chapel"
-                },
-  "dwellingLvl5":                 {
-                    "cost": {
-                        "wood" : 10,
-                        "gold" : 2500,
-                        "ore" : 10
-                    },
-                      "requires": ["allOf" , ["dwellingLvl1"]],           
-                    "id" : 34,
-"description" : "The Pit produces Manticores.",
-					"name" : "Pit"
-                },
- "dwellingLvl6":                  {
-                    "cost": {
-                        "gold" : 3000,
-                        "ore" : 10
-                    },
-                    "requires": ["allOf" , ["dwellingLvl1"] , ["mageGuild2"]],
-                    "id" : 35,
-"description" : "The Ancient Tomb produces Anubites.",
-					"name" : "Ancient Tomb"
-                },
-  "dwellingLvl7":                 {
-                    "cost": {
-                        "gems" : 15,
-                        "gold" : 6000,
-                        "ore" : 5,
-"wood" : 5
-                    },
-                    "requires": ["allOf" , ["dwellingLvl1"]],
-                    "id" : 36,
-"description" : "The Altar of Wishes produces Genies.",
-					"name" : "Altar of Wishes"
-                },
-  "dwellingUpLvl1":                 {
-                    "cost": {
-                        "gold" : 1000
-                    },
-                    "id" : 37,
-                    "upgrades" : "dwellingLvl1",
-	"description" : "Upg. Wagon Camp produces Bandits.",
-					"name" : "Upg. Wagon Camp"
-                },
-
-
-  "dwellingUpLvl4":                 {
-                    "cost": {
-                     
-                        "gold" : 1500,
-                        "mercury" : 10
-                    },
-                    "id" : 40,
-                    "requires": ["allOf" , ["dwellingLvl4"]],
-                    "upgrades" : "dwellingLvl4",
-	"description" : "Upg. Chapel produces Medusa Queens.",
-					"name" : "Upg. Chapel"
-                }
-
-
-            }
-        }
-    }
+					"description": "Magic Shining increases weekly creature generation by 50 percent, adds 5000 gold per day and increases Spell Damage of allied heroes by 25%.",
+					"name": "Magic Shining",
+					"bonuses": [
+						{
+							"type": "SPELL_DAMAGE",
+							"val": 25,
+							"propagator": "PLAYER_PROPAGATOR"
+						}
+					]
+				},
+				"extraTownHall": {
+					"id": 27,
+					"name": "Extra Town Hall",
+					"description": "Extra town hall appearance",
+					"requires": [
+						"allOf",
+						[
+							"townHall"
+						],
+						[
+							"extraTownHall"
+						]
+					],
+					"mode": "auto"
+				},
+				"extraCityHall": {
+					"id": 28,
+					"name": "Extra City Hall",
+					"description": "Extra city hall appearance",
+					"requires": [
+						"allOf",
+						[
+							"cityHall"
+						],
+						[
+							"extraCityHall"
+						]
+					],
+					"mode": "auto"
+				},
+				"extraCapitol": {
+					"id": 29,
+					"name": "Extra Capitol",
+					"description": "Extra capitol appearance",
+					"requires": [
+						"allOf",
+						[
+							"capitol"
+						],
+						[
+							"extraCapitol"
+						]
+					],
+					"mode": "auto"
+				},
+				"dwellingLvl1": {
+					"cost": {
+						"gold": 400,
+						"wood": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"id": 30,
+					"description": "The Wagon Camp produces Rogues.",
+					"name": "Wagon Camp"
+				},
+				"dwellingLvl2": {
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl1"
+						]
+					],
+					"id": 31,
+					"description": "The Temple produces Acolytes.",
+					"name": "Temple"
+				},
+				"dwellingLvl3": {
+					"cost": {
+						"gold": 1500
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl1"
+						]
+					],
+					"id": 32,
+					"description": "The Desert Tent produces Nomads.",
+					"name": "Desert Tent"
+				},
+				"dwellingLvl4": {
+					"cost": {
+						"ore": 10,
+						"gold": 2000
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl2"
+						]
+					],
+					"id": 33,
+					"description": "The Chapel produces Medusas.",
+					"name": "Chapel"
+				},
+				"dwellingLvl5": {
+					"cost": {
+						"wood": 10,
+						"gold": 2500,
+						"ore": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl1"
+						]
+					],
+					"id": 34,
+					"description": "The Pit produces Manticores.",
+					"name": "Pit"
+				},
+				"dwellingLvl6": {
+					"cost": {
+						"gold": 3000,
+						"ore": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"mageGuild2"
+						]
+					],
+					"id": 35,
+					"description": "The Ancient Tomb produces Anubites.",
+					"name": "Ancient Tomb"
+				},
+				"dwellingLvl7": {
+					"cost": {
+						"gems": 15,
+						"gold": 6000,
+						"ore": 5,
+						"wood": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl1"
+						]
+					],
+					"id": 36,
+					"description": "The Altar of Wishes produces Genies.",
+					"name": "Altar of Wishes"
+				},
+				"dwellingUpLvl1": {
+					"cost": {
+						"gold": 1000
+					},
+					"id": 37,
+					"upgrades": "dwellingLvl1",
+					"description": "Upg. Wagon Camp produces Bandits.",
+					"name": "Upg. Wagon Camp"
+				},
+				"dwellingUpLvl4": {
+					"cost": {
+						"gold": 1500,
+						"mercury": 10
+					},
+					"id": 40,
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl4"
+						]
+					],
+					"upgrades": "dwellingLvl4",
+					"description": "Upg. Chapel produces Medusa Queens.",
+					"name": "Upg. Chapel"
+				}
+			}
+		}
+	}
 }

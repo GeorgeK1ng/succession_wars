@@ -1,401 +1,516 @@
 {
-	"sw08witch" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-"mageGuild1":
-                {
-                    "id" : 0,
-                    "cost": {
-                        "wood" : 5,
-                        "ore" : 5,
-                        "gold" : 2000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 1"
-                },
-"mageGuild2":
-                {
-                    "id" : 1,
-                    "upgrades" : "mageGuild1",
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 4,
-                        "ore" : 5,
-                        "sulfur" : 4,
-                        "crystal" : 4,
-                        "gems" : 4,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 2"
-                },
-"mageGuild3":                {
-                    "id" : 2,
-                    "upgrades" : "mageGuild2",
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 6,
-                        "ore" : 5,
-                        "sulfur" : 6,
-                        "crystal" : 6,
-                        "gems" : 6,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 3"
-                },
-"mageGuild4":                {
-                    "id" : 3,
-                    "upgrades" : "mageGuild3",
-							"requires":["allOf" , ["mageGuild4"]],
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 8,
-                        "ore" : 5,
-                        "sulfur" : 8,
-                        "crystal" : 8,
-                        "gems" : 8,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 4"
-                },
-"mageGuild5":                {
-                    "id" : 4,
-                    "upgrades" : "mageGuild4",
-							"requires":["allOf" , ["mageGuild5"]],
-                    "cost": {
-                        "wood" : 5,
-                        "mercury" : 10,
-                        "ore" : 5,
-                        "sulfur" : 10,
-                        "crystal" : 10,
-                        "gems" : 10,
-                        "gold" : 1000
-                    },
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name" : "Mage Guild Level 5"
-                },
-"tavern":                {
-                    "id" : 5,
-                    "cost": {
-                        "wood" : 5,
-                        "gold" : 500
-                    },
-					"name" : "Tavern",
-					"description" : "The Tavern provides hiring of heroes."
-                },
-"shipyard":{ "id" : 6,
-                    "cost": {
-                        "wood" : 20,
-                  
-                        "gold" : 2000
-                    },
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships."
-},
-"fort":                {
-                    "id" : 7,
-                    "cost": {
-                        "wood" : 20,
-                        "ore" : 20,
-                        "gold" : 5000
-                    },
-					"name" : "Fort",
-					"description" : "The Fort provides your town with defensive walls."
-                },
-"citadel":                {
-                    "id" : 8,
-                    "upgrades" : "fort",
-                    "cost": {
-                        "ore" : 5,
-                        "gold" : 2500
-                    },
-"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
-                },
-"castle":                {
-                    "id" : 9,
-                    "upgrades" : "citadel",
-                    "cost": {
-                        "wood" : 10,
-                        "ore" : 10,
-                        "gold" : 5000
-                    },
-					"name" : "Castle",
-					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
-                },
-"villageHall":                {
-                    "id" : 10,
-                    "mode" : "auto",
-                    "cost": {
-                        "gold" : 500
-                    },
+	"sw08witch": {
+		"town": {
+			"buildings": {
+				"mageGuild1": {
+					"id": 0,
+					"cost": {
+						"wood": 5,
+						"ore": 5,
+						"gold": 2000
+					},
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 1"
+				},
+				"mageGuild2": {
+					"id": 1,
+					"upgrades": "mageGuild1",
+					"cost": {
+						"wood": 5,
+						"mercury": 4,
+						"ore": 5,
+						"sulfur": 4,
+						"crystal": 4,
+						"gems": 4,
+						"gold": 1000
+					},
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 2"
+				},
+				"mageGuild3": {
+					"id": 2,
+					"upgrades": "mageGuild2",
+					"cost": {
+						"wood": 5,
+						"mercury": 6,
+						"ore": 5,
+						"sulfur": 6,
+						"crystal": 6,
+						"gems": 6,
+						"gold": 1000
+					},
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 3"
+				},
+				"mageGuild4": {
+					"id": 3,
+					"upgrades": "mageGuild3",
+					"requires": [
+						"allOf",
+						[
+							"mageGuild4"
+						]
+					],
+					"cost": {
+						"wood": 5,
+						"mercury": 8,
+						"ore": 5,
+						"sulfur": 8,
+						"crystal": 8,
+						"gems": 8,
+						"gold": 1000
+					},
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 4"
+				},
+				"mageGuild5": {
+					"id": 4,
+					"upgrades": "mageGuild4",
+					"requires": [
+						"allOf",
+						[
+							"mageGuild5"
+						]
+					],
+					"cost": {
+						"wood": 5,
+						"mercury": 10,
+						"ore": 5,
+						"sulfur": 10,
+						"crystal": 10,
+						"gems": 10,
+						"gold": 1000
+					},
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name": "Mage Guild Level 5"
+				},
+				"tavern": {
+					"id": 5,
+					"cost": {
+						"wood": 5,
+						"gold": 500
+					},
+					"name": "Tavern",
+					"description": "The Tavern provides hiring of heroes."
+				},
+				"shipyard": {
+					"id": 6,
+					"cost": {
+						"wood": 20,
+						"gold": 2000
+					},
+					"name": "Shipyard",
+					"description": "The Shipyard allows you to purchase ships."
+				},
+				"fort": {
+					"id": 7,
+					"cost": {
+						"wood": 20,
+						"ore": 20,
+						"gold": 5000
+					},
+					"name": "Fort",
+					"description": "The Fort provides your town with defensive walls."
+				},
+				"citadel": {
+					"id": 8,
+					"upgrades": "fort",
+					"cost": {
+						"ore": 5,
+						"gold": 2500
+					},
+					"name": "Citadel",
+					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+				},
+				"castle": {
+					"id": 9,
+					"upgrades": "citadel",
+					"cost": {
+						"wood": 10,
+						"ore": 10,
+						"gold": 5000
+					},
+					"name": "Castle",
+					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+				},
+				"villageHall": {
+					"id": 10,
+					"mode": "auto",
+					"cost": {
+						"gold": 500
+					},
 					"produce": {
-					    "gold" : 500
+						"gold": 500
 					},
-					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
-                },
-"townHall":                {
-                    "id" : 11,
-                    "upgrades" : "villageHall",
-                    "requires": ["allOf" , ["tavern"]],
-                    "cost": {
-                        "gold" : 2500
-                    },
+					"name": "Village Hall",
+					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+				},
+				"townHall": {
+					"id": 11,
+					"upgrades": "villageHall",
+					"requires": [
+						"allOf",
+						[
+							"tavern"
+						]
+					],
+					"cost": {
+						"gold": 2500
+					},
 					"produce": {
-					    "gold" : 1000
+						"gold": 1000
 					},
-					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
-                },
-"cityHall":                {
-                    "id" : 12,
-                    "upgrades" : "townHall",
-                    "requires": ["allOf" , ["mageGuild1"] , ["marketplace"] , ["blacksmith"]],
-                    "cost": {
-                        "gold" : 5000
-                    },
+					"name": "Town Hall",
+					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+				},
+				"cityHall": {
+					"id": 12,
+					"upgrades": "townHall",
+					"requires": [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"marketplace"
+						],
+						[
+							"blacksmith"
+						]
+					],
+					"cost": {
+						"gold": 5000
+					},
 					"produce": {
-					    "gold" : 2000
+						"gold": 2000
 					},
-					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
-                },
-"capitol":                {
-                    "id" : 13,
-                    "upgrades" : "cityHall",
-                    "requires": ["allOf" , ["castle"]],
-                    "cost": {
-                        "gold" : 10000
-                    },
+					"name": "City Hall",
+					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+				},
+				"capitol": {
+					"id": 13,
+					"upgrades": "cityHall",
+					"requires": [
+						"allOf",
+						[
+							"castle"
+						]
+					],
+					"cost": {
+						"gold": 10000
+					},
 					"produce": {
-					    "gold" : 4000
+						"gold": 4000
 					},
-"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day."
-                },
-"marketplace":                {
-                    "id" : 14,
-                    "cost": {
-                        "wood" : 5,
-                        "gold" : 500
-                    },
-"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
-                },
-"resourceSilo":                {
-                    "id" : 15,
-                    "requires": ["allOf" , ["marketplace"]],
-                    "cost": {
-                        "ore" : 5,
-                        "gold" : 5000
-                    },
+					"name": "Capitol",
+					"description": "The Capitol earns your kingdom 4000 gold per day."
+				},
+				"marketplace": {
+					"id": 14,
+					"cost": {
+						"wood": 5,
+						"gold": 500
+					},
+					"name": "Marketplace",
+					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+				},
+				"resourceSilo": {
+					"id": 15,
+					"requires": [
+						"allOf",
+						[
+							"marketplace"
+						]
+					],
+					"cost": {
+						"ore": 5,
+						"gold": 5000
+					},
 					"produce": {
-					    "sulfur" : 1
+						"sulfur": 1
 					},
-"description" : "The Resourse Silo provides you with an additional +1 gems each day.",
-					"name" : "Resourse Silo"
-                },
-"blacksmith":                {
-                    "id" : 16,
-                    "cost": {
-                        "wood" : 5,
-                        "gold" : 1000
-                    },
-"description" : "The Blacksmith provides your armies with war machines.",
-					"name" : "Blacksmith"
-                },
-"horde1":				{
-					"cost" : {
-						"gold" : 1000
-					},
-					"id" : 18,
-				//	"upgrades" : "dwellingLvl1",
-					"requires" :[ "dwellingLvl1"],
-"description" : "Captain's Quaters increase weekly production of Tribals by 8 per week.",
-					"name" : "Captain's Quaters"
+					"description": "The Resourse Silo provides you with an additional +1 gems each day.",
+					"name": "Resourse Silo"
 				},
-//"horde1Upgr":				{
-//					"cost" : {
-//						"gold" : 1000
-//					},
-//					"id" : 19,
-//					"upgrades" : "dwellingUpLvl1",
-//					"requires" : ["allOf" , ["horde1"]],
-//					"mode" : "auto",
-//"description" : "Captain's Quaters increase weekly production of Gnom Leaders by 8 per week.",
-//					"name" : "Captain's Quaters"
-//				},
-"ship":				{
-					"id" : 20,
-"upgrades" : "shipyard",
-					"cost" : {
-						"gold" : 2000,
-"wood" : 10
+				"blacksmith": {
+					"id": 16,
+					"cost": {
+						"wood": 5,
+						"gold": 1000
 					},
-					"name" : "Ship",
-					"description" : "Ship"
+					"description": "The Blacksmith provides your armies with war machines.",
+					"name": "Blacksmith"
 				},
-"special1":				{
-					"cost" : {
-						"gold" : 1000
+				"horde1": {
+					"cost": {
+						"gold": 1000
 					},
-					"requires" : ["allOf" , ["townHall"] , ["special2"]],
-					"id" : 17,
-"description" : "Cage Of Warlords increases defence skill of visiting hero by +1.",
-					"name" : "Cage Of Warlords",
-					"type" : "defenceVisitingBonus"
+					"id": 18,
+					//	"upgrades" : "dwellingLvl1",
+					"requires": [
+						"dwellingLvl1"
+					],
+					"description": "Captain's Quaters increase weekly production of Tribals by 8 per week.",
+					"name": "Captain's Quaters"
 				},
-"special2":				{
-					"cost" : {
-					//	"gems" : 5,
-						"gold" : 1000
+				//"horde1Upgr":				{
+				//					"cost" : {
+				//						"gold" : 1000
+				//					},
+				//					"id" : 19,
+				//					"upgrades" : "dwellingUpLvl1",
+				//					"requires" : ["allOf" , ["horde1"]],
+				//					"mode" : "auto",
+				//"description" : "Captain's Quaters increase weekly production of Gnom Leaders by 8 per week.",
+				//					"name" : "Captain's Quaters"
+				//				},
+				"ship": {
+					"id": 20,
+					"upgrades": "shipyard",
+					"cost": {
+						"gold": 2000,
+						"wood": 10
 					},
-					"requires" : ["allOf" , ["fort"]],
-					"id" : 21,
-	"description" : "Glyphs of Fear adds +2 to defence skill of garnizon hero during siege.",
-					"name" : "Glyphs of Fear",
-					"type" : "defenseGarrisonBonus"
+					"name": "Ship",
+					"description": "Ship"
 				},
-"special3":				{
-					"cost" : {
-					//	"gems" : 5,
-						"gold" : 1000
+				"special1": {
+					"cost": {
+						"gold": 1000
 					},
-					"requires" : ["allOf" , ["special2"]],
-					"id" : 22,
-"description" : "Blood Obelisk increases the Attack skill of defending hero by +2.",
-					"name" : "Blood Obelisk",
-					"type" : "attackGarrisonBonus"
+					"requires": [
+						"allOf",
+						[
+							"townHall"
+						],
+						[
+							"special2"
+						]
+					],
+					"id": 17,
+					"description": "Cage Of Warlords increases defence skill of visiting hero by +1.",
+					"name": "Cage Of Warlords",
+					"type": "defenceVisitingBonus"
 				},
-//"grail":				{
-//					"id" : 26,
-//					"mode" : "grail",
-//					"produce": {
-//					    "gold" : 5000
-//					},
-//	"description" : "Death Flower increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
-//					"name" : "Death Flower"
-//				},
-"extraTownHall":				{
-					"cost" : {
-						"gems" : 5,
-						"gold" : 1000
+				"special2": {
+					"cost": {
+						//	"gems" : 5,
+						"gold": 1000
 					},
-					"requires" : ["allOf" , ["townHall"] , ["extraTownHall"]],"mode" : "auto",
-					"id" : 27, "name" : "Extra Town Hall", "description" : "Extra town hall appearance"
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"id": 21,
+					"description": "Glyphs of Fear adds +2 to defence skill of garnizon hero during siege.",
+					"name": "Glyphs of Fear",
+					"type": "defenseGarrisonBonus"
 				},
-"extraCityHall":				{
-					"cost" : {
-						"gems" : 5,
-						"gold" : 1000
+				"special3": {
+					"cost": {
+						//	"gems" : 5,
+						"gold": 1000
 					},
-					"requires" : ["allOf" , ["cityHall"] , ["extraCityHall"]],"mode" : "auto",
-					"id" : 28, "name" : "Extra City Hall", "description" : "Extra city hall appearance"
+					"requires": [
+						"allOf",
+						[
+							"special2"
+						]
+					],
+					"id": 22,
+					"description": "Blood Obelisk increases the Attack skill of defending hero by +2.",
+					"name": "Blood Obelisk",
+					"type": "attackGarrisonBonus"
 				},
-//"extraCapitol":				{
-//					"cost" : {
-//						"gems" : 5,
-//						"gold" : 1000
-//					},
-//							"requires":["allOf" , ["extraCapitol"]],
-//					"id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance"
-//				},
-"dwellingLvl1":				{
-					"cost" : {
-						"gold" : 400,
-						"wood" : 10
+				//"grail":				{
+				//					"id" : 26,
+				//					"mode" : "grail",
+				//					"produce": {
+				//					    "gold" : 5000
+				//					},
+				//	"description" : "Death Flower increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+				//					"name" : "Death Flower"
+				//				},
+				"extraTownHall": {
+					"cost": {
+						"gems": 5,
+						"gold": 1000
 					},
-					"requires" : ["allOf" , ["fort"]],
-					"id" : 30,
-"description" : "The Straw Hut produces Tribals.",
-					"name" : "Straw Hut"
+					"requires": [
+						"allOf",
+						[
+							"townHall"
+						],
+						[
+							"extraTownHall"
+						]
+					],
+					"mode": "auto",
+					"id": 27,
+					"name": "Extra Town Hall",
+					"description": "Extra town hall appearance"
 				},
-"dwellingLvl2":				{
-					"cost" : {
-						"gold" : 1000,
-"wood" : 5
+				"extraCityHall": {
+					"cost": {
+						"gems": 5,
+						"gold": 1000
 					},
-					"requires" : ["allOf" , ["fort"]],
-					"id" : 31,
-	"description" : "The Hive produces Wasps.",
-					"name" : "Hive"
+					"requires": [
+						"allOf",
+						[
+							"cityHall"
+						],
+						[
+							"extraCityHall"
+						]
+					],
+					"mode": "auto",
+					"id": 28,
+					"name": "Extra City Hall",
+					"description": "Extra city hall appearance"
 				},
-"dwellingLvl3":				{
-					"cost" : {
-						"gold" : 1000,
-"sulfur" : 2,
-						"mercury" : 2
+				//"extraCapitol":				{
+				//					"cost" : {
+				//						"gems" : 5,
+				//						"gold" : 1000
+				//					},
+				//							"requires":["allOf" , ["extraCapitol"]],
+				//					"id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance"
+				//				},
+				"dwellingLvl1": {
+					"cost": {
+						"gold": 400,
+						"wood": 10
 					},
-					
-					"id" : 32,
-	"description" : "The Lizard Den produces Lizardmen.",
-					"name" : "Lizard Den"
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"id": 30,
+					"description": "The Straw Hut produces Tribals.",
+					"name": "Straw Hut"
 				},
-"dwellingLvl4":				{
-					"cost" : {
-						"wood" : 5,
-						"gold" : 2000,
-						"ore" : 5
+				"dwellingLvl2": {
+					"cost": {
+						"gold": 1000,
+						"wood": 5
 					},
-					"requires" : ["allOf" , ["fort"] , ["dwellingLvl1"]],
-					"id" : 33,
-"description" : "The Lily Pond produces Toads.",
-					"name" : "Lily Pond"
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"id": 31,
+					"description": "The Hive produces Wasps.",
+					"name": "Hive"
 				},
-"dwellingLvl5":				{
-					"cost" : {
-						"gold" : 2500,
-						"wood" : 5,
-"ore" : 5,
-"mercury" : 5
+				"dwellingLvl3": {
+					"cost": {
+						"gold": 1000,
+						"sulfur": 2,
+						"mercury": 2
 					},
-					"requires" : ["allOf" , ["fort"] , ["dwellingLvl1"]],
-					"id" : 34,
-	"description" : "The Cocoon produces Mantises.",
-					"name" : "Cocoon"
+					"id": 32,
+					"description": "The Lizard Den produces Lizardmen.",
+					"name": "Lizard Den"
 				},
-"dwellingLvl6":				{
-					"cost" : {
-						"gold" : 3500,
-						"wood" : 5,
-						"ore" : 10					},
-					"requires" : ["allOf" , ["fort"] , ["dwellingLvl1"] , ["mageGuild1"]],
-					"id" : 35,
-"description" : "The Thicket produces Treants.",
-					"name" : "Thicket"
-				},
-"dwellingLvl7":				{
-					"cost" : {
-						"ore" : 10,
-						"gold" : 8000,
-						"wood" : 10,
-						"crystal" : 5
+				"dwellingLvl4": {
+					"cost": {
+						"wood": 5,
+						"gold": 2000,
+						"ore": 5
 					},
-					"requires" : ["allOf" , ["fort"] , ["dwellingLvl1"]],
-					"id" : 36,
-	"description" : "The Aerie produces Wyverns.",
-					"name" : "Aerie"
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl1"
+						]
+					],
+					"id": 33,
+					"description": "The Lily Pond produces Toads.",
+					"name": "Lily Pond"
 				},
-
-
-"dwellingUpLvl3":				{
-					"cost" : {
-						"gold" : 1000,
-						"mercury" : 2,
-						"sulfur" : 2
+				"dwellingLvl5": {
+					"cost": {
+						"gold": 2500,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 5
 					},
-					"id" : 39,
-					"upgrades" : "dwellingLvl3",
-"description" : "The Upg. Lizard Den produces Lizardman Warriors.",
-					"name" : "Upg. Lizard Den"
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl1"
+						]
+					],
+					"id": 34,
+					"description": "The Cocoon produces Mantises.",
+					"name": "Cocoon"
+				},
+				"dwellingLvl6": {
+					"cost": {
+						"gold": 3500,
+						"wood": 5,
+						"ore": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl1"
+						],
+						[
+							"mageGuild1"
+						]
+					],
+					"id": 35,
+					"description": "The Thicket produces Treants.",
+					"name": "Thicket"
+				},
+				"dwellingLvl7": {
+					"cost": {
+						"ore": 10,
+						"gold": 8000,
+						"wood": 10,
+						"crystal": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"dwellingLvl1"
+						]
+					],
+					"id": 36,
+					"description": "The Aerie produces Wyverns.",
+					"name": "Aerie"
+				},
+				"dwellingUpLvl3": {
+					"cost": {
+						"gold": 1000,
+						"mercury": 2,
+						"sulfur": 2
+					},
+					"id": 39,
+					"upgrades": "dwellingLvl3",
+					"description": "The Upg. Lizard Den produces Lizardman Warriors.",
+					"name": "Upg. Lizard Den"
 				}
-
 			}
 		}
 	}
