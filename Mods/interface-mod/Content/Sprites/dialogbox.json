@@ -11,7 +11,6 @@
 		{ "frame" : 7, "file" : "dialogbox/DiBoxB.png"},
 		{ "frame" : 8, "file" : "dialogbox/DiBoxRL.png"},
 		{ "frame" : 9, "file" : "dialogbox/DiBoxRR.png"},
-		{ "frame" : 10, "file" : "dialogbox/DiBoxRB.png"} 
- 
+		{ "frame" : 10, "file" : "dialogbox/DiBoxRB.png"}
 	]
-	}
+}

@@ -1,16 +1,8 @@
 {
-    "name" : "SW - Interface",
-    "description" : "Interface",
-    "version" : "0.0.1",
-    "author" : "Noname",
-    "contact" : "none",
-    "modType" : "Interface",
-    "depends": [
-   
-    ],
-
-	"objects":
-	[
-	        
-	]
+	"name": "SW - Interface",
+	"description": "Interface",
+	"modType": "Interface",
+	"author": "Noname",
+	"contact": "none",
+	"version": "0.0.1"
 }
