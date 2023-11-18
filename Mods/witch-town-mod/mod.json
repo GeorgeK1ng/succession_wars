@@ -1,15 +1,16 @@
 {
-	"name" : "SW - Witch Town",
-	"description" : "Witch Town",
-"version" : "0.0.1",
-"author" : "author",
-"contact" : "none",
-"modType" : "Town",
-	"depends" :
+	"name": "SW - Witch Town",
+	"description": "Witch Town",
+	"modType": "Town",
+	"author": "author",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
 	[
-"succession_wars.warmachines-mod", "succession_wars.terrains-mod"
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
 	],
-	"factions" :
+	"factions":
 	[
 		"config/sw08witch/buildings.json",
 		"config/sw08witch/faction.json",
@@ -19,33 +20,28 @@
 		"config/sw08witch/puzzle.json",
 		"config/sw08witch/texts.json"
 	],
-"heroClasses" :
+	"heroClasses":
 	[
-"config/sw08witch-heroes/Witch.json"	
+		"config/sw08witch-heroClasses/witch.json"
 	],
-	"heroes" :
+	"heroes":
 	[
-"config/sw08witch-heroes/witch_heroes.json"
+		"config/sw08witch-heroes/witch_heroes.json"
 	],
-"creatures" :
+	"creatures":
 	[
-"config/sw08witch-creatures/Lizard Warrior.json",
-"config/sw08witch-creatures/Lizardman.json",
-"config/sw08witch-creatures/Mantis.json",
-"config/sw08witch-creatures/Toad.json",
-"config/sw08witch-creatures/Treant.json",
-"config/sw08witch-creatures/Tribal.json",
-"config/sw08witch-creatures/Wasp.json",
-"config/sw08witch-creatures/Wyvern.json"
-
-
-
-
-
+		"config/sw08witch-creatures/Lizard Warrior.json",
+		"config/sw08witch-creatures/Lizardman.json",
+		"config/sw08witch-creatures/Mantis.json",
+		"config/sw08witch-creatures/Toad.json",
+		"config/sw08witch-creatures/Treant.json",
+		"config/sw08witch-creatures/Tribal.json",
+		"config/sw08witch-creatures/Wasp.json",
+		"config/sw08witch-creatures/Wyvern.json"
 	],
 	"objects":
 	[
-	"config/sw08witch/dwellings.json",
-	"config/sw08witch/banks.json"	
+		"config/sw08witch/dwellings.json",
+		"config/sw08witch/banks.json"
 	]
 }

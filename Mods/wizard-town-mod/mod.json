@@ -22,7 +22,7 @@
 	],
 	"heroClasses":
 	[
-		"config/sw08wizard-heroes/Wizard.json"
+		"config/sw08wizard-heroClasses/wizard.json"
 	],
 	"heroes":
 	[

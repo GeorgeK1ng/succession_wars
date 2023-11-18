@@ -22,7 +22,7 @@
 	],
 	"heroClasses":
 	[
-		"config/sw08barbarian-heroes/Barbarian.json"
+		"config/sw08barbarian-heroClasses/barbarian.json"
 	],
 	"heroes":
 	[

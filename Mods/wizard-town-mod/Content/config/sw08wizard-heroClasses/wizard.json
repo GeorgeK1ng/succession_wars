@@ -1,0 +1,82 @@
+{
+	"swsw08wizard": {
+		"name": "Wizard",
+		"faction": "swsw08wizardfaction",
+		"affinity": "magic",
+		"commander": "sw08wizardArchMagi",
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "sw08wizard-heroClasses/AH05_"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"female": "sw08wizard-heroClasses/CH04",
+				"male": "sw08wizard-heroClasses/CH05"
+			}
+		},
+		"primarySkills": {
+			"attack": 0,
+			"defence": 1,
+			"spellpower": 2,
+			"knowledge": 2
+		},
+		"lowLevelChance": {
+			"attack": 10,
+			"defence": 10,
+			"spellpower": 40,
+			"knowledge": 40
+		},
+		"highLevelChance": {
+			"attack": 20,
+			"defence": 20,
+			"spellpower": 30,
+			"knowledge": 30
+		},
+		"secondarySkills": {
+			"archery": 1,
+			"ballistics": 3,
+			"diplomacy": 2,
+			"eagleEye": 3,
+			"estates": 2,
+			"leadership": 2,
+			"logistics": 2,
+			"luck": 2,
+			"mysticism": 4,
+			"navigation": 2,
+			"necromancy": 0,
+			"pathfinding": 2,
+			"scouting": 2,
+			"wisdom": 5,
+			"fireMagic": 3,
+			"airMagic": 2,
+			"waterMagic": 2,
+			"earthMagic": 3,
+			"scholar": 1,
+			"tactics": 8,
+			"artillery": 8,
+			"learning": 8,
+			"offence": 9,
+			"armorer": 5,
+			"intelligence": 1,
+			"sorcery": 1,
+			"resistance": 2,
+			"firstAid": 1
+		},
+		"defaultTavern": 3,
+		"tavern": {
+			"castle": 5,
+			"rampart": 5,
+			"tower": 6,
+			"inferno": 5,
+			"necropolis": 5,
+			"dungeon": 5,
+			"stronghold": 5,
+			"fortress": 5,
+			"conflux": 5,
+			"swsw08wizardfaction": 8
+		}
+	}
+}
