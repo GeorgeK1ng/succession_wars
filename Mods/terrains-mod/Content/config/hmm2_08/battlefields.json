@@ -1,221 +1,284 @@
 {
-	"sw08_hmm2_sand_shore": { "graphics" : "HMM2/CMBKBCH.BMP" },
-	"sw08_hmm2_sand_mesas": { "graphics" : "HMM2/CMBKDES.BMP" },
-	"sw08_hmm2_sand_mesas082": { "graphics" : "HMM2/082/CMBKDES.BMP" },
-	"sw08_hmm2_dirt_birches": { "graphics" : "HMM2/CMBKDRTR.BMP" },
-	"sw08_hmm2_dirt_birches082": { "graphics" : "HMM2/082/CMBKDRTR.BMP" },
-	"sw08_hmm2_dirt_hills": { "graphics" : "HMM2/CMBKDRMT.BMP" },
-	"sw08_hmm2_dirt_pines": { "graphics" : "HMM2/CMBKDRDD.BMP" },
-	"sw08_hmm2_grass_hills": { "graphics" : "HMM2/CMBKGRMT.BMP" },
-	"sw08_hmm2_grass_pines": { "graphics" : "HMM2/CMBKGRTR.BMP" },
-	"sw08_hmm2_lava":  { "graphics" :"HMM2/CMBKLAVA.BMP" },
-	"sw08_hmm2_lava2":  { "graphics" :"HMM2/new/CmBkDrMt.BMP" },
+	"sw08_hmm2_sand_shore": {
+		"graphics": "HMM2/CMBKBCH.BMP"
+	},
+	"sw08_hmm2_sand_mesas": {
+		"graphics": "HMM2/CMBKDES.BMP"
+	},
+	"sw08_hmm2_sand_mesas082": {
+		"graphics": "HMM2/082/CMBKDES.BMP"
+	},
+	"sw08_hmm2_dirt_birches": {
+		"graphics": "HMM2/CMBKDRTR.BMP"
+	},
+	"sw08_hmm2_dirt_birches082": {
+		"graphics": "HMM2/082/CMBKDRTR.BMP"
+	},
+	"sw08_hmm2_dirt_hills": {
+		"graphics": "HMM2/CMBKDRMT.BMP"
+	},
+	"sw08_hmm2_dirt_pines": {
+		"graphics": "HMM2/CMBKDRDD.BMP"
+	},
+	"sw08_hmm2_grass_hills": {
+		"graphics": "HMM2/CMBKGRMT.BMP"
+	},
+	"sw08_hmm2_grass_pines": {
+		"graphics": "HMM2/CMBKGRTR.BMP"
+	},
+	"sw08_hmm2_lava": {
+		"graphics": "HMM2/CMBKLAVA.BMP"
+	},
+	"sw08_hmm2_lava2": {
+		"graphics": "HMM2/new/CmBkDrMt.BMP"
+	},
 	"sw08_hmm2_magic_plains": {
-		"graphics" : "HMM2/CMBKMAG.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKMAG.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "spellSchool.any",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype": "spellSchool.any",
+				"val": 3,
+				"valueType": "BASE_NUMBER"
 			}
 		]
 	},
-	"sw08_hmm2_snow_mountains": { "graphics" : "HMM2/CMBKSNMT.BMP" },
-	"sw08_hmm2_snow_trees": { "graphics" : "HMM2/CMBKSNTR.BMP" },
-	"sw08_hmm2_rough": { "graphics" : "HMM2/CMBKSUB.BMP", "isSpecial" : true },
-	"sw08_hmm2_swamp_trees": { "graphics" : "HMM2/CMBKSWMP.BMP" },
+	"sw08_hmm2_snow_mountains": {
+		"graphics": "HMM2/CMBKSNMT.BMP"
+	},
+	"sw08_hmm2_snow_trees": {
+		"graphics": "HMM2/CMBKSNTR.BMP"
+	},
+	"sw08_hmm2_rough": {
+		"graphics": "HMM2/CMBKSUB.BMP",
+		"isSpecial": true
+	},
+	"sw08_hmm2_swamp_trees": {
+		"graphics": "HMM2/CMBKSWMP.BMP"
+	},
 	"sw08_hmm2_fiery_fields": {
-		"graphics" : "HMM2/CMBKFF.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKFF.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "spellSchool.fire",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype": "spellSchool.fire",
+				"val": 3,
+				"valueType": "BASE_NUMBER"
 			}
 		]
 	},
 	"sw08_hmm2_rocklands": {
-		"graphics" : "HMM2/CMBKRK.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKRK.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "spellSchool.earth",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype": "spellSchool.earth",
+				"val": 3,
+				"valueType": "BASE_NUMBER"
 			}
 		]
 	},
 	"sw08_hmm2_magic_clouds": {
-		"graphics" : "HMM2/cmbkef",   //to fix: CMBKMC.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/cmbkef", //to fix: CMBKMC.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "spellSchool.air",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype": "spellSchool.air",
+				"val": 3,
+				"valueType": "BASE_NUMBER"
 			}
 		]
 	},
 	"sw08_hmm2_lucid_pools": {
-		"graphics" : "HMM2/CMBKLP.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKLP.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MAGIC_SCHOOL_SKILL",
-				"subtype" : "spellSchool.water",
-				"val" : 3,
-				"valueType" : "BASE_NUMBER"
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype": "spellSchool.water",
+				"val": 3,
+				"valueType": "BASE_NUMBER"
 			}
 		]
 	},
 	"sw08_hmm2_holy_ground": {
-		"graphics" : "HMM2/CMBKHG.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKHG.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER",
-				"description" : "Creatures of good town alignment on Holly Ground",
-				"limiters": [ { "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : ["good"] } ]
+				"type": "MORALE",
+				"val": 1,
+				"valueType": "BASE_NUMBER",
+				"description": "Creatures of good town alignment on Holly Ground",
+				"limiters": [
+					{
+						"type": "CREATURE_ALIGNMENT_LIMITER",
+						"parameters": [
+							"good"
+						]
+					}
+				]
 			},
 			{
-				"type" : "MORALE",
-				"val" : -1,
-				"valueType" : "BASE_NUMBER",
-				"description" : "Creatures of evil town alignment on Holly Ground",
-				"limiters": [ { "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : ["evil"] } ]
+				"type": "MORALE",
+				"val": -1,
+				"valueType": "BASE_NUMBER",
+				"description": "Creatures of evil town alignment on Holly Ground",
+				"limiters": [
+					{
+						"type": "CREATURE_ALIGNMENT_LIMITER",
+						"parameters": [
+							"evil"
+						]
+					}
+				]
 			}
 		]
 	},
 	"sw08_hmm2_clover_field": {
-		"graphics" : "HMM2/CMBKCF.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKCF.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "LUCK",
-				"val" : 2,
-				"valueType" : "BASE_NUMBER",
-				"description" : "Creatures of neutral town alignment on Clover Field",
-				"limiters": [ { "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : ["neutral"] } ]
+				"type": "LUCK",
+				"val": 2,
+				"valueType": "BASE_NUMBER",
+				"description": "Creatures of neutral town alignment on Clover Field",
+				"limiters": [
+					{
+						"type": "CREATURE_ALIGNMENT_LIMITER",
+						"parameters": [
+							"neutral"
+						]
+					}
+				]
 			}
 		]
 	},
 	"sw08_hmm2_evil_fog": {
-		"graphics" : "HMM2/CMBKEF.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKEF.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MORALE",
-				"val" : -1,
-				"valueType" : "BASE_NUMBER",
-				"description" : "Creatures of good town alignment on Evil Fog",
-				"limiters": [ { "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : ["good"] } ]
+				"type": "MORALE",
+				"val": -1,
+				"valueType": "BASE_NUMBER",
+				"description": "Creatures of good town alignment on Evil Fog",
+				"limiters": [
+					{
+						"type": "CREATURE_ALIGNMENT_LIMITER",
+						"parameters": [
+							"good"
+						]
+					}
+				]
 			},
 			{
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER",
-				"description" : "Creatures of evil town alignment on Evil Fog",
-				"limiters": [ { "type" : "CREATURE_ALIGNMENT_LIMITER", "parameters" : ["evil"] } ]
+				"type": "MORALE",
+				"val": 1,
+				"valueType": "BASE_NUMBER",
+				"description": "Creatures of evil town alignment on Evil Fog",
+				"limiters": [
+					{
+						"type": "CREATURE_ALIGNMENT_LIMITER",
+						"parameters": [
+							"evil"
+						]
+					}
+				]
 			}
 		]
 	},
 	"sw08_hmm2_favorable_winds": {
-		"graphics" : "HMM2/CmBkDeck.BMP",
-		"isSpecial" : true
+		"graphics": "HMM2/CmBkDeck.BMP",
+		"isSpecial": true
 	},
 	"sw08_hmm2_cursed_ground": {
-		"graphics" : "HMM2/CMBKCUR.BMP",
-		"isSpecial" : true,
+		"graphics": "HMM2/CMBKCUR.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MORALE",
-				 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MIN",
-				"description" : "Creatures on Cursed Ground"
+				"type": "MORALE",
+				"val": 0,
+				"valueType": "INDEPENDENT_MIN",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "MORALE",
-				 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MAX",
-				"description" : "Creatures on Cursed Ground"
+				"type": "MORALE",
+				"val": 0,
+				"valueType": "INDEPENDENT_MAX",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "LUCK",
-			 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MAX",
-				"description" : "Creatures on Cursed Ground"
+				"type": "LUCK",
+				"val": 0,
+				"valueType": "INDEPENDENT_MAX",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "LUCK",
-			 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MIN",
-				"description" : "Creatures on Cursed Ground"
+				"type": "LUCK",
+				"val": 0,
+				"valueType": "INDEPENDENT_MIN",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "BLOCK_MAGIC_ABOVE",
-			 
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MIN"
+				"type": "BLOCK_MAGIC_ABOVE",
+				"val": 1,
+				"valueType": "INDEPENDENT_MIN"
 			}
 		]
 	},
-		"sw08_hmm2_cursed_ground2": {
-		"graphics" : "HMM2/new/CmBkDrDd.BMP",
-		"isSpecial" : true,
+	"sw08_hmm2_cursed_ground2": {
+		"graphics": "HMM2/new/CmBkDrDd.BMP",
+		"isSpecial": true,
 		"bonuses": [
 			{
-				"type" : "MORALE",
-				 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MIN",
-				"description" : "Creatures on Cursed Ground"
+				"type": "MORALE",
+				"val": 0,
+				"valueType": "INDEPENDENT_MIN",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "MORALE",
-				 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MAX",
-				"description" : "Creatures on Cursed Ground"
+				"type": "MORALE",
+				"val": 0,
+				"valueType": "INDEPENDENT_MAX",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "LUCK",
-			 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MAX",
-				"description" : "Creatures on Cursed Ground"
+				"type": "LUCK",
+				"val": 0,
+				"valueType": "INDEPENDENT_MAX",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "LUCK",
-			 
-				"val" : 0,
-				"valueType" : "INDEPENDENT_MIN",
-				"description" : "Creatures on Cursed Ground"
+				"type": "LUCK",
+				"val": 0,
+				"valueType": "INDEPENDENT_MIN",
+				"description": "Creatures on Cursed Ground"
 			},
 			{
-				"type" : "BLOCK_MAGIC_ABOVE",
-			 
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MIN"
+				"type": "BLOCK_MAGIC_ABOVE",
+				"val": 1,
+				"valueType": "INDEPENDENT_MIN"
 			}
 		]
 	},
-	"sw08_hmm2_subterranean": { "graphics" : "HMM2/CMBKSUB1.BMP",
-		"isSpecial" : true },
-	"sw08_hmm2_desert": { "graphics" : "HMM2/CMBKRGH.BMP", "isSpecial" : true },
-	"sw08_hmm2_desert082": { "graphics" : "HMM2/082/CMBKRGH.BMP",
-		"isSpecial" : true },
+	"sw08_hmm2_subterranean": {
+		"graphics": "HMM2/CMBKSUB1.BMP",
+		"isSpecial": true
+	},
+	"sw08_hmm2_desert": {
+		"graphics": "HMM2/CMBKRGH.BMP",
+		"isSpecial": true
+	},
+	"sw08_hmm2_desert082": {
+		"graphics": "HMM2/082/CMBKRGH.BMP",
+		"isSpecial": true
+	},
 	"sw08_hmm2_ship_to_ship": 
 	{
 		"graphics" : "HMM2/CMBKBOAT.BMP",

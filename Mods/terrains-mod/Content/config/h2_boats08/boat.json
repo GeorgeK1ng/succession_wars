@@ -1,27 +1,40 @@
 {
-	"core:boat" : {
-		"types" : {
-			"heroes2Boat_sw08" : { 
-			"name" : "Boat",
-			"rmg" : { "mapLimit" : 64 },
-                "layer" : "sail",
-                "actualAnimation" : "h2_boats08/Hmm2Boat",
-          //"overlayAnimation" : "h2_boats08/Hmm2Boat",
-         "onboardAssaultAllowed" : true,
-           "onboardVisitAllowed" : true,
-              "flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
-"templates":
-			  {
-					"boat00" : {
-						"animation" : "h2_boats08/Hmm2Boat",
-						"mask" : [ "VVV", "VAV" ]
-						, "allowedTerrains" : [ "water", "water" ]   //for support 
+	"core:boat": {
+		"types": {
+			"heroes2Boat_sw08": {
+				"name": "Boat",
+				"rmg": {
+					"mapLimit": 64
+				},
+				"layer": "sail",
+				"actualAnimation": "h2_boats08/Hmm2Boat",
+				//"overlayAnimation" : "h2_boats08/Hmm2Boat",
+				"onboardAssaultAllowed": true,
+				"onboardVisitAllowed": true,
+				"flagAnimations": [
+					"ABF01L",
+					"ABF01G",
+					"ABF01R",
+					"ABF01D",
+					"ABF01B",
+					"ABF01P",
+					"ABF01W",
+					"ABF01K"
+				],
+				"templates": {
+					"boat00": {
+						"animation": "h2_boats08/Hmm2Boat",
+						"mask": [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains": [
+							"water",
+							"water"
+						] //for support 
 					}
-			  
-			}}
-			 
-		}		
+				}
+			}
+		}
 	}
-
-
 }

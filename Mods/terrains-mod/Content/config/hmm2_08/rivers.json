@@ -1,46 +1,52 @@
 {
-    "hmm2waterRiver":
-    {
-  //      "originalRiverId" : 1,
-        "shortIdentifier" : "qs", //must be 2 characters
-        "tilesFilename" : "hmm2rr/clrrvr",
-        "delta" : "hmm2rr/clrdelt",
-		"text" : "River",        
-		  		"paletteAnimation" : [
-			{ "start" : 72, "length" : 4 } 
+	"hmm2waterRiver": {
+		//      "originalRiverId" : 1,
+		"shortIdentifier": "qs", //must be 2 characters
+		"tilesFilename": "hmm2rr/clrrvr",
+		"delta": "hmm2rr/clrdelt",
+		"text": "River",
+		"paletteAnimation": [
+			{
+				"start": 72,
+				"length": 4
+			}
 		]
-    },
-    "hmm2iceRiver":
-    {
-  //      "originalRiverId" : 2,
-        "shortIdentifier" : "qi",
-        "tilesFilename" : "hmm2rr/icyrvr",
-        "delta" : "hmm2rr/icedelt",
-        
-		"text" : "Ice River"
-    },
-    "hmm2mudRiver":
-    {
-     // "originalRiverId" : 3,
-       "shortIdentifier" : "qm",
-      "tilesFilename" : "hmm2rr/mudrvr",
-       "delta" : "hmm2rr/muddelt",
-	   "text" : "Mud River",        
-		  		"paletteAnimation" : [
-			{ "start" : 26, "length" : 4 } 
+	},
+	"hmm2iceRiver": {
+		//      "originalRiverId" : 2,
+		"shortIdentifier": "qi",
+		"tilesFilename": "hmm2rr/icyrvr",
+		"delta": "hmm2rr/icedelt",
+		"text": "Ice River"
+	},
+	"hmm2mudRiver": {
+		// "originalRiverId" : 3,
+		"shortIdentifier": "qm",
+		"tilesFilename": "hmm2rr/mudrvr",
+		"delta": "hmm2rr/muddelt",
+		"text": "Mud River",
+		"paletteAnimation": [
+			{
+				"start": 26,
+				"length": 4
+			}
 		]
-	   
-    },
-    "hmm2lavaRiver":
-    {
-  //      "originalRiverId" : 4,
-        "shortIdentifier" : "ql",
-        "tilesFilename" : "hmm2rr/lavrvr",
-        "delta" : "hmm2rr/lavdelt",
-		"text" : "Lava River",        
-		  		"paletteAnimation" : [
-			{ "start" : 215, "length" : 3 } ,
-			{ "start" : 232, "length" : 3 } 
+	},
+	"hmm2lavaRiver": {
+		//      "originalRiverId" : 4,
+		"shortIdentifier": "ql",
+		"tilesFilename": "hmm2rr/lavrvr",
+		"delta": "hmm2rr/lavdelt",
+		"text": "Lava River",
+		"paletteAnimation": [
+			{
+				"start": 215,
+				"length": 3
+			},
+			{
+				"start": 232,
+				"length": 3
+			}
 		]
-    }
+	}
 }
