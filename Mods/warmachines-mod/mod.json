@@ -1,34 +1,31 @@
 {
-    "name" : "SW - Warmachines",
-    "description" : "Warmachines",
-    "version" : "0.0.1",
-    "author" : "Noname",
-    "contact" : "none",
-    "modType" : "Creatures",
-    "depends": [
-    "succession_wars.terrains-mod"
-    ],
-    "factions": [
-        "config/sw08neutral-creatures/faction.json"
-    ],
-    "heroClasses": [
-        
-    ],
-    "heroes": [
-        
-    ],
-    "creatures": [
-"config/sw08neutral-creatures/ammoCart.json",
-"config/sw08neutral-creatures/ballista.json",
-"config/sw08neutral-creatures/catapult.json",
-"config/sw08neutral-creatures/firstAidTent.json"
-    ],
+	"name": "SW - Warmachines",
+	"description": "Warmachines",
+	"modType": "Creatures",
+	"author": "Noname",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
+	[
+		"succession_wars.terrains-mod"
+	],
+	"factions":
+	[
+		"config/sw08neutral-creatures/faction.json"
+	],
+	"creatures":
+	[
+		"config/sw08neutral-creatures/ammoCart.json",
+		"config/sw08neutral-creatures/ballista.json",
+		"config/sw08neutral-creatures/catapult.json",
+		"config/sw08neutral-creatures/firstAidTent.json"
+	],
 	"objects":
 	[
-	        "config/sw08neutral-creatures/dwellings.json"
+		"config/sw08neutral-creatures/dwellings.json"
 	],
 	"artifacts":
 	[
-	"config/sw08neutral-arts/artifacts.json"
+		"config/sw08neutral-arts/artifacts.json"
 	]
 }
