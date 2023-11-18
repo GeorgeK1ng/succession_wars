@@ -1,62 +1,69 @@
 {
 	"core:dragonUtopia": {
 		"types": {
-
 			"sw08DwarvenBarrow": {
-				"handler" : "bank",
-				"name" : "Dwarven Barrow",
+				"handler": "bank",
+				"name": "Dwarven Barrow",
 				"templates": {
 					"base": {
-						"animation" : "sw08sorceress/adventure-map/banks/dwarvenBarrow/avxbnk10",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VVV", "VBA"],
-						"allowedTerrains": ["dirt","grass","rough","subterra"]
+						"animation": "sw08sorceress/adventure-map/banks/dwarvenBarrow/avxbnk10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"grass",
+							"rough",
+							"subterra"
+						]
 					}
 				},
 				"rmg": {
-					"value" : 100,
-					"rarity" : 110
+					"value": 100,
+					"rarity": 110
 				},
-				"levels": [ {
-						"chance" : 100,
-						"guards": [ {
-							"amount" : 17,
-							"type" : "sw08sorceressBattleDwarf"
-						}, {
-							"amount" : 17,
-							"type" : "sw08sorceressBattleDwarf"
-						}, {
-							"amount" : 16,
-							"type" : "sw08sorceressDwarf"
-						}, {
-							"amount" : 16,
-							"type" : "sw08sorceressDwarf"
-						}, {
-							"amount" : 17,
-							"type" : "sw08sorceressBattleDwarf"
-						} ],
-						"combat_value" : 600,
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "sw08sorceressBattleDwarf",
+								"amount": 17
+							},
+							{
+								"type": "sw08sorceressBattleDwarf",
+								"amount": 17
+							},
+							{
+								"type": "sw08sorceressDwarf",
+								"amount": 16
+							},
+							{
+								"type": "sw08sorceressDwarf",
+								"amount": 16
+							},
+							{
+								"type": "sw08sorceressBattleDwarf",
+								"amount": 17
+							}
+						],
+						"combat_value": 600,
 						"reward": {
 							"resources": {
-								"gold" : 1000,
-								"gems" : 5
+								"gold": 1000,
+								"gems": 5
 							},
-							"value" : 1000
-
+							"value": 1000
 						}
 					}
-
 				]
 			}
-
-
-
-
-
-
 		}
 	}
-
-
-
 }
