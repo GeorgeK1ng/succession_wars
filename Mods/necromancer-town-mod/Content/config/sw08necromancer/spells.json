@@ -1,9 +1,7 @@
 {
-	"swsw08necromancerfaction" :
-	{
-		"town" :
-		{
-			"guildSpells" :
+	"swsw08necromancerfaction": {
+		"town": {
+			"guildSpells":
 			{
 				"bless"          : 2,
 				"bloodlust"      : 5,

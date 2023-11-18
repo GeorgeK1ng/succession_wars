@@ -1,9 +1,7 @@
 {
-	"swsw08barbarianfaction" :
-	{
-		"town" :
-		{
-			"guildSpells" :
+	"swsw08barbarianfaction": {
+		"town": {
+			"guildSpells":
 			{
 				"bless"          : 2,
 				"bloodlust"      : 5,
@@ -60,7 +58,6 @@
 				"sorrow"         : 5,
 				"townPortal"     : 15,
 				"waterWalk"      : 5,
-
 				"airElemental"   : 4,
 				"dimensionDoor"  : 15,
 				"earthElemental" : 10,

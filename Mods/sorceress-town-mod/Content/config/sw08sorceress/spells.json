@@ -1,8 +1,6 @@
 {
-	"swsw08sorceressfaction" :
-	{
-		"town" :
-		{
+	"swsw08sorceressfaction": {
+		"town": {
 			"guildSpells" :
 			{
 				"bless"          : 2,
@@ -60,7 +58,6 @@
 				"sorrow"         : 5,
 				"townPortal"     : 15,
 				"waterWalk"      : 5,
-
 				"airElemental"   : 4,
 				"dimensionDoor"  : 15,
 				"earthElemental" : 10,

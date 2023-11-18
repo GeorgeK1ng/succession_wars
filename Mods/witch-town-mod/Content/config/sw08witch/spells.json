@@ -1,8 +1,6 @@
 {
-	"sw08witch" :
-	{
-		"town" :
-		{
+	"sw08witch": {
+		"town": {
 			"guildSpells" :
 			{
 				"bless"          : 2,
@@ -20,7 +18,6 @@
 				"summonBoat"     : 5,
 				"viewAir"        : 3,
 				"viewEarth"      : 3,
-				
 				"disguise"       : 2,
 				"disruptingRay"  : 8,
 				"fireWall"       : 3,
@@ -33,7 +30,6 @@
 				"scuttleBoat"    : 4,
 				"visions"        : 2,
 				"weakness"       : 10,
-				
 				"airShield"      : 2,
 				"antiMagic"      : 20,
 				"earthquake"     : 30,
@@ -48,7 +44,6 @@
 				"protectEarth"   : 8,
 				"protectWater"   : 2,
 				"teleport"       : 2,
-				
 				"berserk"        : 5,
 				"chainLightning" : 10,
 				"clone"          : 5,
@@ -63,7 +58,6 @@
 				"sorrow"         : 20,
 				"townPortal"     : 15,
 				"waterWalk"      : 5,
-				
 				"airElemental"   : 10,
 				"dimensionDoor"  : 5,
 				"earthElemental" : 20,
