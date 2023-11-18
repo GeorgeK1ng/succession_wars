@@ -1,160 +1,238 @@
 {
-	"core:creatureGeneratorCommon" : {
-		"types" : {
-			"sw08wizardLevel1" : {
-				"name" : "Habitat",
-				"creatures" : [[ "sw08wizardHalfling" ]],
-//				"guards" : [
-//					{ "amount" : 50, "type" : "sw08wizardHalfling" }
-//				],
-				"templates" : {
-					"default" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGgrem0",
-						"mask" : ["VAB" ]
-					},
-										"default2" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGgrem1",
-						"mask" : ["VABB" ]
-					},
-										"AVJhalf" : {
-						"animation" : "sw08wizard/Adventure-Map/AVJhalf",
-						"mask" : ["VBAB" ],
-						"allowedTerrains":["dirt"]
-					},
-										"AVJhalf2" : {
-						"animation" : "sw08wizard/Adventure-Map/AVJhalf2",
-						"mask" : ["VBAB" ],
-						"allowedTerrains":["lava"]
-					},
-										"AVJhalf3" : {
-						"animation" : "sw08wizard/Adventure-Map/AVJhalf3",
-						"mask" : ["VBAB" ],
-						"allowedTerrains":["snow"]
-					}
-				}
-			},
-			
-
-			
-			"sw08wizardLevel2" : {
-				"name" : "Pen",
-				"creatures" : [[ "sw08wizardBoar" ]],
-//				"guards" : [
-//					{ "amount" : 30, "type" : "sw08wizardBoar" }
-//				],
-				"templates" : {
-					"default" : {
-						"animation" : "sw08wizard/Adventure-Map/avggarg0",
-						"mask" : ["VVV","VVV","VAB"]
-					},
-										"default2" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGgarg1",
-						"mask" : ["VAB"]
-					}
-				}
-			},
-			
-
-			
-			"sw08wizardLevel3" : {
-				"name" : "Foundry",
-				"creatures" : [[ "sw08wizardIronGolem" ]],
-//				"guards" : [
-//					{ "amount" : 22, "type" : "sw08wizardIronGolem" }
-//				],
-				"templates" : {
-					"default" : {	
-						"animation" : "sw08wizard/Adventure-Map/AVGMAGE0",
-						"mask" : [ "VVV","VBA" ]
-					}
-				}
-			},			
-			
-			
-
-
-			"sw08wizardLevel4" : {
-				"name" : "Mushroom House",
-				"creatures" : [[ "sw08wizardGnome" ]],
-				"guards" : [
-					{ "amount" : 16, "type" : "sw08wizardGnome" }
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"sw08wizardLevel1": {
+				"name": "Habitat",
+				"creatures": [
+					[
+						"sw08wizardHalfling"
+					]
 				],
-				"templates" : {
-					"default" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGgolm0",
-						"mask" : ["VVV" ,"VAB"]
-					}
-				}
-			},
-			
-			"sw08wizardLevel5" : {
-				"name" : "Roc Nest",
-				"creatures" : [[ "sw08wizardRoc" ]],
-				"guards" : [
-					{ "amount" :6, "type" : "sw08wizardRoc" }
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGGENI0",
-						"mask" : [ "VVV","VBA"]
+				//				"guards" : [
+				//					{ "amount" : 50, "type" : "sw08wizardHalfling" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/AVGgrem0",
+						"mask": [
+							"VAB"
+						]
 					},
-										"default2" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGGENIa",
-						"mask" : [ "VVV","VBA"]
+					"default2": {
+						"animation": "sw08wizard/Adventure-Map/AVGgrem1",
+						"mask": [
+							"VABB"
+						]
 					},
-										"SW_roc" : {
-						"animation" : "sw08wizard/Adventure-Map/SW_roc",
-						"mask" : [ "VVV","VVV","VAB"]
+					"AVJhalf": {
+						"animation": "sw08wizard/Adventure-Map/AVJhalf",
+						"mask": [
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"AVJhalf2": {
+						"animation": "sw08wizard/Adventure-Map/AVJhalf2",
+						"mask": [
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"AVJhalf3": {
+						"animation": "sw08wizard/Adventure-Map/AVJhalf3",
+						"mask": [
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
 					}
 				}
 			},
-			"sw08wizardLevel6" : {
-				"name" : "Ivory Tower",
-				"creatures" : [[ "sw08wizardMagi" ]],
-				"guards" : [
-					{ "amount" : 6, "type" : "sw08wizardMagi" }
+			"sw08wizardLevel2": {
+				"name": "Pen",
+				"creatures": [
+					[
+						"sw08wizardBoar"
+					]
 				],
-				"templates" : {
-					"default" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGNAGb0",
-						"mask" : ["VVVV","VVVV","VVBA" ]
-					}				
-				}
-			},
-			
-						"sw08wizardLevel6Upg" : {
-				"name" : "Upg. Ivory Tower",
-				"creatures" : [[ "sw08wizardArchMagi" ]],
-				"guards" : [
-					{ "amount" : 6, "type" : "sw08wizardArchMagi" }
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGNAGA0",
-						"mask" : ["VVVV","VVVV","VVBA" ]
-					}				
-				}
-			},
-			
-			
-			"sw08wizardLevel7" : {
-				"name" : "Cloud Castle",
-				"creatures" : [[ "sw08wizardGiant" ]],
-				"guards" : [
-					{ "amount" : 3, "type" : "sw08wizardGiant" }
-				],
-				"templates" : {
-					"default" : {
-						"animation" : "sw08wizard/Adventure-Map/AVGtitn0",
-						"mask" : ["VVV", "VVV","VBA" ]
+				//				"guards" : [
+				//					{ "amount" : 30, "type" : "sw08wizardBoar" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/avggarg0",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					},
+					"default2": {
+						"animation": "sw08wizard/Adventure-Map/AVGgarg1",
+						"mask": [
+							"VAB"
+						]
 					}
 				}
-			}	
+			},
+			"sw08wizardLevel3": {
+				"name": "Foundry",
+				"creatures": [
+					[
+						"sw08wizardIronGolem"
+					]
+				],
+				//				"guards" : [
+				//					{ "amount" : 22, "type" : "sw08wizardIronGolem" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/AVGMAGE0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"sw08wizardLevel4": {
+				"name": "Mushroom House",
+				"creatures": [
+					[
+						"sw08wizardGnome"
+					]
+				],
+				"guards": [
+					{
+						"amount": 16,
+						"type": "sw08wizardGnome"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/AVGgolm0",
+						"mask": [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"sw08wizardLevel5": {
+				"name": "Roc Nest",
+				"creatures": [
+					[
+						"sw08wizardRoc"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "sw08wizardRoc"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/AVGGENI0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					},
+					"default2": {
+						"animation": "sw08wizard/Adventure-Map/AVGGENIa",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					},
+					"SW_roc": {
+						"animation": "sw08wizard/Adventure-Map/SW_roc",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"sw08wizardLevel6": {
+				"name": "Ivory Tower",
+				"creatures": [
+					[
+						"sw08wizardMagi"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "sw08wizardMagi"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/AVGNAGb0",
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"sw08wizardLevel6Upg": {
+				"name": "Upg. Ivory Tower",
+				"creatures": [
+					[
+						"sw08wizardArchMagi"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "sw08wizardArchMagi"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/AVGNAGA0",
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"sw08wizardLevel7": {
+				"name": "Cloud Castle",
+				"creatures": [
+					[
+						"sw08wizardGiant"
+					]
+				],
+				"guards": [
+					{
+						"amount": 3,
+						"type": "sw08wizardGiant"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "sw08wizard/Adventure-Map/AVGtitn0",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			}
+		}
 	}
-
-
-}
-
-
-			
 }
