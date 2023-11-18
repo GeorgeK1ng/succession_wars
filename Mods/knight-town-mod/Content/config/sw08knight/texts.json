@@ -1,27 +1,24 @@
 {
-	"sw08knight" :
-	{
-		"name" : "Knight",
-		"town" :
-		{
-			"names" :
-			[
-"Middle Gate",
-"Sorpigal",
-"Hampshire",
-"Chandler",
-"South Mill",
-"Whittingham",
-"Yorksford",
-"Sherman",
-"Lankershire",
-"Whitestone",
-"Claxton",
-"Highcastle",
-"Portsmith",
-"Gateway",
-"Dunwall",
-"Armitage"
+	"sw08knight": {
+		"name": "Knight",
+		"town": {
+			"names": [
+				"Middle Gate",
+				"Sorpigal",
+				"Hampshire",
+				"Chandler",
+				"South Mill",
+				"Whittingham",
+				"Yorksford",
+				"Sherman",
+				"Lankershire",
+				"Whitestone",
+				"Claxton",
+				"Highcastle",
+				"Portsmith",
+				"Gateway",
+				"Dunwall",
+				"Armitage"
 			]
 		}
 	}

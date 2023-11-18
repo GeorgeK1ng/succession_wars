@@ -1,29 +1,25 @@
 {
-	"swsw08sorceressfaction" :
-	{
-		"name" : "Sorceress",
-		"town" :
-		{
-			"names" :
-			[
-"Lakeside",
-"Big Oak",
-"Elk's Head",
-"Baywatch",
-"Fountainhead",
-"Timberhill",
-"Forder Oaks",
-"Pinehurst",
-"Woodhaven",
-"Edenbrook",
-"Still Water",
-"Elfwind",
-"Fortune Keep",
-"Serenity",
-"Gladeroot",
-"Forest Glen"
+	"swsw08sorceressfaction": {
+		"name": "Sorceress",
+		"town": {
+			"names": [
+				"Lakeside",
+				"Big Oak",
+				"Elk's Head",
+				"Baywatch",
+				"Fountainhead",
+				"Timberhill",
+				"Forder Oaks",
+				"Pinehurst",
+				"Woodhaven",
+				"Edenbrook",
+				"Still Water",
+				"Elfwind",
+				"Fortune Keep",
+				"Serenity",
+				"Gladeroot",
+				"Forest Glen"
 			]
-			
 		}
 	}
 }
