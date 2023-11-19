@@ -1,8 +1,6 @@
 {
 	"swEndlessBagOfGold": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 7500,

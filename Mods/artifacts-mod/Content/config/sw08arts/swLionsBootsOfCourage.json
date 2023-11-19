@@ -1,8 +1,6 @@
 {
 	"swLionsBootsOfCourage": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "FEET",
 		"class": "RELIC",
 		"value": 16000,

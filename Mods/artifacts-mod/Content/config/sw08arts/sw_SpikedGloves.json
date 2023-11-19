@@ -1,8 +1,6 @@
 {
 	"sw_SpikedGloves": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RING",
 		"class": "MAJOR",
 		"value": 6000,

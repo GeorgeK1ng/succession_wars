@@ -1,8 +1,6 @@
 {
 	"sw_HuntersBow": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "MAJOR",
 		"value": 4000,

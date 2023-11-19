@@ -1,8 +1,6 @@
 {
 	"swLightningRod": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 6000,

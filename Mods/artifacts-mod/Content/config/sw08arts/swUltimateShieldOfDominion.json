@@ -1,8 +1,6 @@
 {
 	"swUltimateShieldOfDominion": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "LEFT_HAND",
 		"class": "RELIC",
 		"value": 32000,

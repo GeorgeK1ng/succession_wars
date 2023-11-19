@@ -1,8 +1,6 @@
 {
 	"sw_WandOfNegation": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "MINOR",
 		"value": 3000,

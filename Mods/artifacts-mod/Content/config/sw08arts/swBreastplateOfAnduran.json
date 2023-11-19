@@ -1,8 +1,6 @@
 {
 	"swBreastplateOfAnduran": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "TORSO",
 		"class": "MAJOR",
 		"value": 6000,

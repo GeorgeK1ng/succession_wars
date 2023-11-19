@@ -1,8 +1,6 @@
 {
 	"sw_MagicBagOfPolarity": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 6000,

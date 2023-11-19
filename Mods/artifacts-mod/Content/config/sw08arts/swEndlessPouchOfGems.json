@@ -1,8 +1,6 @@
 {
 	"swEndlessPouchOfGems": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 5000,

@@ -1,8 +1,6 @@
 {
 	"swPendantOfDeath": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "NECK",
 		"class": "TREASURE",
 		"value": 2500,

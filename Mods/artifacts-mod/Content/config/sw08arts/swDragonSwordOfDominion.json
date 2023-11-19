@@ -1,8 +1,6 @@
 {
 	"swDragonSwordOfDominion": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "MAJOR",
 		"value": 5000,

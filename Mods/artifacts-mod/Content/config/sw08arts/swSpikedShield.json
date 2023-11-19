@@ -1,8 +1,6 @@
 {
 	"swSpikedShield": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "LEFT_HAND",
 		"class": "MINOR",
 		"value": 4000,

@@ -1,8 +1,6 @@
 {
 	"swFireCloak": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "SHOULDERS",
 		"class": "MAJOR",
 		"value": 16000,

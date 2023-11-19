@@ -1,8 +1,6 @@
 {
 	"sw_GnomesRingOfRuby": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RING",
 		"class": "MINOR",
 		"value": 2000,

@@ -1,8 +1,6 @@
 {
 	"swForgotenHelmetOfAnduran": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "HEAD",
 		"class": "MAJOR",
 		"value": 6000,

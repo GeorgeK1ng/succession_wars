@@ -1,8 +1,6 @@
 {
 	"swArcaneNecklaceOfMagic": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "NECK",
 		"class": "MAJOR",
 		"value": 5000,

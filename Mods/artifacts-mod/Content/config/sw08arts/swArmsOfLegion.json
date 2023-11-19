@@ -1,8 +1,6 @@
 {
 	"swArmsOfLegion": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 8000,

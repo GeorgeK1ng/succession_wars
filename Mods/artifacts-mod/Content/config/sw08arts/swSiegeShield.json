@@ -1,8 +1,6 @@
 {
 	"swSiegeShield": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "LEFT_HAND",
 		"class": "MINOR",
 		"value": 8000,

@@ -1,8 +1,6 @@
 {
 	"sw_AmuletOfInterference": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "NECK",
 		"class": "MAJOR",
 		"value": 2000,

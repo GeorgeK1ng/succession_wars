@@ -1,8 +1,6 @@
 {
 	"swForemostScrollOfKnowledge": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 5000,
