@@ -3,16 +3,18 @@
 		"town": {
 			"buildings": {
 				"mageGuild1": {
+					"name": "Mage Guild Level 1",
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id": 0,
 					"cost": {
 						"wood": 5,
 						"ore": 5,
 						"gold": 2000
-					},
-					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name": "Mage Guild Level 1"
+					}
 				},
 				"mageGuild2": {
+					"name": "Mage Guild Level 2",
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id": 1,
 					"upgrades": "mageGuild1",
 					"cost": {
@@ -23,11 +25,11 @@
 						"crystal": 4,
 						"gems": 4,
 						"gold": 1000
-					},
-					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name": "Mage Guild Level 2"
+					}
 				},
 				"mageGuild3": {
+					"name": "Mage Guild Level 3",
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id": 2,
 					"upgrades": "mageGuild2",
 					"cost": {
@@ -38,11 +40,11 @@
 						"crystal": 6,
 						"gems": 6,
 						"gold": 1000
-					},
-					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name": "Mage Guild Level 3"
+					}
 				},
 				"mageGuild4": {
+					"name": "Mage Guild Level 4",
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id": 3,
 					"upgrades": "mageGuild3",
 					"cost": {
@@ -53,11 +55,11 @@
 						"crystal": 8,
 						"gems": 8,
 						"gold": 1000
-					},
-					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name": "Mage Guild Level 4"
+					}
 				},
 				"mageGuild5": {
+					"name": "Mage Guild Level 5",
+					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id": 4,
 					"upgrades": "mageGuild4",
 					"cost": {
@@ -68,20 +70,20 @@
 						"crystal": 10,
 						"gems": 10,
 						"gold": 1000
-					},
-					"description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
-					"name": "Mage Guild Level 5"
+					}
 				},
 				"tavern": {
+					"name": "Tavern",
+					"description": "The Tavern provides hiring of heroes.",
 					"id": 5,
 					"cost": {
 						"wood": 5,
 						"gold": 500
-					},
-					"name": "Tavern",
-					"description": "The Tavern provides hiring of heroes."
+					}
 				},
 				"shipyard": {
+					"name": "Shipyard",
+					"description": "The Shipyard allows you to purchase ships.",
 					"id": 6,
 					"cost": {
 						"wood": 20,
@@ -92,41 +94,41 @@
 						[
 							"shipyard"
 						]
-					],
-					"name": "Shipyard",
-					"description": "The Shipyard allows you to purchase ships."
+					]
 				},
 				"fort": {
+					"name": "Fort",
+					"description": "The Fort provides your town with defensive walls.",
 					"id": 7,
 					"cost": {
 						"wood": 15,
 						"gold": 2000
-					},
-					"name": "Fort",
-					"description": "The Fort provides your town with defensive walls."
+					}
 				},
 				"citadel": {
+					"name": "Citadel",
+					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"id": 8,
 					"upgrades": "fort",
 					"cost": {
 						"ore": 5,
 						"gold": 2500
-					},
-					"name": "Citadel",
-					"description": "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses."
+					}
 				},
 				"castle": {
+					"name": "Castle",
+					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"id": 9,
 					"upgrades": "citadel",
 					"cost": {
 						"wood": 10,
 						"ore": 10,
 						"gold": 5000
-					},
-					"name": "Castle",
-					"description": "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth."
+					}
 				},
 				"villageHall": {
+					"name": "Village Hall",
+					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"id": 10,
 					"mode": "auto",
 					"cost": {
@@ -134,11 +136,11 @@
 					},
 					"produce": {
 						"gold": 500
-					},
-					"name": "Village Hall",
-					"description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+					}
 				},
 				"townHall": {
+					"name": "Town Hall",
+					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"id": 11,
 					"upgrades": "villageHall",
 					"requires": [
@@ -152,11 +154,11 @@
 					},
 					"produce": {
 						"gold": 1000
-					},
-					"name": "Town Hall",
-					"description": "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day."
+					}
 				},
 				"cityHall": {
+					"name": "City Hall",
+					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"id": 12,
 					"upgrades": "townHall",
 					"requires": [
@@ -176,11 +178,11 @@
 					},
 					"produce": {
 						"gold": 2000
-					},
-					"name": "City Hall",
-					"description": "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day."
+					}
 				},
 				"capitol": {
+					"name": "Capitol",
+					"description": "The Capitol earns your kingdom 4000 gold per day.",
 					"id": 13,
 					"upgrades": "cityHall",
 					"requires": [
@@ -194,20 +196,20 @@
 					},
 					"produce": {
 						"gold": 4000
-					},
-					"name": "Capitol",
-					"description": "The Capitol earns your kingdom 4000 gold per day."
+					}
 				},
 				"marketplace": {
+					"name": "Marketplace",
+					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"id": 14,
 					"cost": {
 						"wood": 5,
 						"gold": 500
-					},
-					"name": "Marketplace",
-					"description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own)."
+					}
 				},
 				"resourceSilo": {
+					"name": "Oracle",
+					"description": "The Oracle provides you with an additional +1 mercury each day.",
 					"id": 15,
 					"requires": [
 						"allOf",
@@ -222,21 +224,22 @@
 					},
 					"produce": {
 						"mercury": 1
-					},
-					"description": "The Oracle provides you with an additional +1 mercury each day.",
-					"name": "Oracle"
+					}
 				},
 				"blacksmith": {
+					"name": "Blacksmith",
+					"description": "The Blacksmith provides your armies with First Aid Tents.",
 					"id": 16,
 					"cost": {
 						"ore": 5,
 						"gold": 750
-					},
-					"description": "The Blacksmith provides your armies with First Aid Tents.",
-					"name": "Blacksmith"
+					}
 				},
 				"special1": {
+					"name": "Mystic Garden",
+					"description": "The Mystic Garden produces a small random number of resources each week.",
 					"id": 17,
+					"type": "mysticPond",
 					"cost": {
 						"wood": 2,
 						"ore": 2,
@@ -245,20 +248,19 @@
 						"sulfur": 2,
 						"mercury": 2,
 						"gold": 2000
-					},
-					"description": "The Mystic Garden produces a small random number of resources each week.",
-					"name": "Mystic Garden",
-					"type": "mysticPond"
+					}
 				},
 				"horde1": {
+					"name": "Lumberjacks' Guild",
+					"description": "The Lumberjacks' Guild increases weekly production of Dwarves by 4 per week.",
 					"id": 18, // "upgrades" : "dwellingLvl2"  ,
 					"cost": {
 						"gold": 1000
-					},
-					"description": "The Lumberjacks' Guild increases weekly production of Dwarves by 4 per week.",
-					"name": "Lumberjacks' Guild"
+					}
 				},
 				"horde1Upgr": {
+					"name": "Lumberjacks' Guild",
+					"description": "The Lumberjacks' Guild increases weekly production of Battle Dwarves by 4 per week.",
 					"id": 19,
 					"upgrades": "horde1",
 					"requires": [
@@ -270,11 +272,11 @@
 					"mode": "auto",
 					"cost": {
 						"gold": 1000
-					},
-					"description": "The Lumberjacks' Guild increases weekly production of Battle Dwarves by 4 per week.",
-					"name": "Lumberjacks' Guild"
+					}
 				},
 				"ship": {
+					"name": "Ship",
+					"description": "Ship",
 					"id": 20,
 					"upgrades": "shipyard",
 					"requires": [
@@ -282,12 +284,13 @@
 						[
 							"ship"
 						]
-					],
-					"name": "Ship",
-					"description": "Ship"
+					]
 				},
 				"special2": {
+					"name": "Rainbow",
+					"description": "The Rainbow increases the luck of garrizon hero by +2 when defending against the siege.",
 					"id": 21,
+					"type": "fountainOfFortune",
 					"requires": [
 						"allOf",
 						[
@@ -297,13 +300,13 @@
 					"cost": {
 						"crystal": 10,
 						"gold": 1500
-					},
-					"description": "The Rainbow increases the luck of garrizon hero by +2 when defending against the siege.",
-					"name": "Rainbow",
-					"type": "fountainOfFortune"
+					}
 				},
 				"special3": {
+					"name": "Treasury",
+					"description": "The Treasury earns you 10% interest of any gold you have at the start of each week.",
 					"id": 22,
+					"type": "treasury",
 					"requires": [
 						"allOf",
 						[
@@ -317,10 +320,7 @@
 						"ore": 10,
 						"wood": 5,
 						"gold": 5000
-					},
-					"description": "The Treasury earns you 10% interest of any gold you have at the start of each week.",
-					"name": "Treasury",
-					"type": "treasury"
+					}
 				},
 				//"special4":  	{ "id" : 23, "requires" : ["allOf" , ["special2"]],
 				//"cost" : {
@@ -331,18 +331,22 @@
 				//"description" : "The Rainbow increases the luck of the garrison hero by +2 when defending //against a siege.",
 				//					"name" : "Rainbow" },
 				"horde2": {
-					"id": 24, //"upgrades" : "dwellingLvl5"  ,
+					"name": "Crystal Garden",
+					"description": "The Crystal Garden increases weekly production of Druids by 2 per week.",
+					"id": 24,
+					//"upgrades" : "dwellingLvl5"  ,
 					"requires": [
 						"dwellingLvl5"
 					],
 					"cost": {
 						"gold": 2000
-					},
-					"description": "The Crystal Garden increases weekly production of Druids by 2 per week.",
-					"name": "Crystal Garden"
+					}
 				},
 				"horde2Upgr": {
-					"id": 25, // "upgrades" : "dwellingUpLvl5", 
+					"name": "Crystal Garden",
+					"description": "The Crystal Garden increases weekly production of Greater Druids by 2 per week.",
+					"id": 25,
+					//"upgrades" : "dwellingUpLvl5", 
 					"requires": [
 						"allOf",
 						[
@@ -355,9 +359,7 @@
 					"mode": "auto",
 					"cost": {
 						"gold": 2000
-					},
-					"description": "The Crystal Garden increases weekly production of Greater Druids by 2 per week.",
-					"name": "Crystal Garden"
+					}
 				},
 				//"grail":  { "id" : 26, "mode" : "grail",
 				//					"produce": {
@@ -375,6 +377,8 @@
 				//						"gold" : 1000
 				//					} },
 				"dwellingLvl1": {
+					"name": "Treehouse",
+					"description": "The Treehouse produces Sprites.",
 					"id": 30,
 					"requires": [
 						"allOf",
@@ -385,11 +389,11 @@
 					"cost": {
 						"gold": 500,
 						"wood": 5
-					},
-					"description": "The Treehouse produces Sprites.",
-					"name": "Treehouse"
+					}
 				},
 				"dwellingLvl2": {
+					"name": "Cottage",
+					"description": "The Cottage produces Dwarves.",
 					"id": 31,
 					"requires": [
 						"allOf",
@@ -406,11 +410,11 @@
 					"cost": {
 						"gold": 1000,
 						"wood": 5
-					},
-					"description": "The Cottage produces Dwarves.",
-					"name": "Cottage"
+					}
 				},
 				"dwellingLvl3": {
+					"name": "Archery Range",
+					"description": "The Hunting Ground produces Elves.",
 					"id": 32,
 					"requires": [
 						"allOf",
@@ -423,11 +427,11 @@
 					],
 					"cost": {
 						"gold": 1500
-					},
-					"description": "The Hunting Ground produces Elves.",
-					"name": "Archery Range"
+					}
 				},
 				"dwellingLvl4": {
+					"name": "Keg House",
+					"description": "The Keg House produces Satyrs.",
 					"id": 33,
 					"requires": [
 						"allOf",
@@ -442,11 +446,11 @@
 						"wood": 10,
 						"gold": 2500,
 						"sulfur": 5
-					},
-					"description": "The Keg House produces Satyrs.",
-					"name": "Keg House"
+					}
 				},
 				"dwellingLvl5": {
+					"name": "Stonehenge",
+					"description": "The Stonehenge produces Druids.",
 					"id": 34,
 					"requires": [
 						"allOf",
@@ -466,11 +470,11 @@
 					"cost": {
 						"gold": 2500,
 						"ore": 10
-					},
-					"description": "The Stonehenge produces Druids.",
-					"name": "Stonehenge"
+					}
 				},
 				"dwellingLvl6": {
+					"name": "Fenced Meadow",
+					"description": "The Fenced Meadow produces Unicorns.",
 					"id": 35,
 					"requires": [
 						"allOf",
@@ -485,11 +489,11 @@
 						"gold": 3000,
 						"wood": 10,
 						"gems": 10
-					},
-					"description": "The Fenced Meadow produces Unicorns.",
-					"name": "Fenced Meadow"
+					}
 				},
 				"dwellingLvl7": {
+					"name": "Scarlet Tower",
+					"description": "The Scarlet Tower produces Phoenix.",
 					"id": 36,
 					"requires": [
 						"allOf",
@@ -507,39 +511,37 @@
 						"gold": 10000,
 						"ore": 30,
 						"mercury": 20
-					},
-					"description": "The Scarlet Tower produces Phoenix.",
-					"name": "Scarlet Tower"
+					}
 				},
 				"dwellingUpLvl2": {
+					"name": "Upg. Cottage",
+					"description": "Upg. Cottage produces Battle Dwarves.",
 					"id": 38,
 					"upgrades": "dwellingLvl2",
 					"cost": {
 						"gold": 1500,
 						"wood": 5
-					},
-					"description": "Upg. Cottage produces Battle Dwarves.",
-					"name": "Upg. Cottage"
+					}
 				},
 				"dwellingUpLvl3": {
+					"name": "Upg. Archery Range",
+					"description": "Upg. Hunting Ground produces Grand Elves.",
 					"id": 39,
 					"upgrades": "dwellingLvl3",
 					"cost": {
 						"gold": 1500,
 						"wood": 5
-					},
-					"description": "Upg. Hunting Ground produces Grand Elves.",
-					"name": "Upg. Archery Range"
+					}
 				},
 				"dwellingUpLvl5": {
+					"name": "Upg. Stonehenge",
+					"description": "Upg. Stonehenge produces Greater Druids.",
 					"id": 41,
 					"upgrades": "dwellingLvl5",
 					"cost": {
 						"gold": 2000,
 						"mercury": 5
-					},
-					"description": "Upg. Stonehenge produces Greater Druids.",
-					"name": "Upg. Stonehenge"
+					}
 				}
 			}
 		}
