@@ -22,7 +22,7 @@
 	],
 	"heroClasses":
 	[
-		"config/sw08knight-heroes/Knight.json"
+		"config/sw08knight-heroClasses/Knight.json"
 	],
 	"heroes":
 	[
