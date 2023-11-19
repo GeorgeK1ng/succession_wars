@@ -26,7 +26,23 @@
 	],
 	"heroes":
 	[
-		"config/sw08witch-heroes/witch_heroes.json"
+		"config/sw08witch-heroes/Alice.json",
+		"config/sw08witch-heroes/Budur.json",
+		"config/sw08witch-heroes/Charon.json",
+		"config/sw08witch-heroes/Cmok.json",
+		"config/sw08witch-heroes/Dorika.json",
+		"config/sw08witch-heroes/Ester.json",
+		"config/sw08witch-heroes/Grizzelle.json",
+		"config/sw08witch-heroes/Kaya.json",
+		"config/sw08witch-heroes/Libelle.json",
+		"config/sw08witch-heroes/Lilith.json",
+		"config/sw08witch-heroes/Malis.json",
+		"config/sw08witch-heroes/Nya.json",
+		"config/sw08witch-heroes/Sati.json",
+		"config/sw08witch-heroes/Wenin.json",
+		"config/sw08witch-heroes/Xsissis.json",
+		"config/sw08witch-heroes/Zaia.json",
+		"config/sw08witch-heroes/Zanthia.json"
 	],
 	"creatures":
 	[
