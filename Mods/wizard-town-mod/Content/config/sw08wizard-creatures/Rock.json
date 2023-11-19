@@ -63,8 +63,7 @@
 			"defend" : "sw08wizard/roc/ROCCDFND.wav",
 			"killed" : "sw08wizard/roc/ROCCKILL.wav",
 			"move" : "sw08wizard/roc/ROCCMOVE.wav",
-			"wince" : "sw08wizard/roc/ROCCWNCE.wav",
-			"shoot" : ""
+			"wince" : "sw08wizard/roc/ROCCWNCE.wav"
 		}
 	}
 }

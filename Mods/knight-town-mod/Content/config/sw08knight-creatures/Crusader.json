@@ -69,8 +69,7 @@
 			"defend" : "sw08knight/crusader/AAGLDFND.wav",
 			"killed" : "sw08knight/crusader/AAGLKILL.wav",
 			"move" : "sw08knight/crusader/AAGLMOVE.wav",
-			"wince" : "sw08knight/crusader/AAGLWNCE.wav",
-			"shoot" : ""
+			"wince" : "sw08knight/crusader/AAGLWNCE.wav"
 		}
 	}
 }

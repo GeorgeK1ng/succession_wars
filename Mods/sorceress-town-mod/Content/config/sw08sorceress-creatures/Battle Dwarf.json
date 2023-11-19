@@ -65,8 +65,7 @@
 			"defend" : "sw08sorceress/battle dwarf/BDRFDFND.wav",
 			"killed" : "sw08sorceress/battle dwarf/bdRFKILL.wav",
 			"move" : "sw08sorceress/battle dwarf/BDRFMOVE.wav",
-			"wince" : "sw08sorceress/battle dwarf/BDRFWNCE.wav",
-			"shoot" : ""
+			"wince" : "sw08sorceress/battle dwarf/BDRFWNCE.wav"
 		}
 	}
 }

@@ -64,8 +64,7 @@
 			"defend" : "sw08knight/champion/CHMPDFND.wav",
 			"killed" : "sw08knight/champion/CHMPKILL.wav",
 			"move" : "sw08knight/champion/CHMPMOVE.wav",
-			"wince" : "sw08knight/champion/CHMPWNCE.wav",
-			"shoot" : ""
+			"wince" : "sw08knight/champion/CHMPWNCE.wav"
 		}
 	}
 }

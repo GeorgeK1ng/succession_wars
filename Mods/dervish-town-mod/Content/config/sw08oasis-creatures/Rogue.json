@@ -66,8 +66,7 @@
 			"defend" : "rogue/PIXIDFND.wav",
 			"killed" : "rogue/PIXIKILL.wav",
 			"move" : "rogue/PIXIMOVE.wav",
-			"wince" : "rogue/PIXIWNCE.wav",
-			"shoot" : ""
+			"wince" : "rogue/PIXIWNCE.wav"
 		}
 	}
 }
