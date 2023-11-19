@@ -7,11 +7,11 @@
 		"class": "RELIC",
 		"value": 25000,
 		"components": [
-			"sw08hmm2_legsOfLegion",
-			"sw08hmm2_loinsOfLegion",
-			"sw08hmm2_torsoOfLegion",
-			"sw08hmm2_armsOfLegion",
-			"sw08hmm2_headOfLegion"
+			"swLegsOfLegion",
+			"swLoinsOfLegion",
+			"swTorsoOfLegion",
+			"swArmsOfLegion",
+			"swHeadOfLegion"
 		],
 		"text": {
 			"name": "Statue of Legion",
