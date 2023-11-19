@@ -72,11 +72,12 @@
 			}
 		},
 		"sound" : {
-			"attack" : "",
-			"defend" : "",
-			"killed" : "",
-			"move" : "",
-			"wince" : ""
+			"attack" : "sw08neutral/water elemental/WGLMATTK.wav",
+			"defend" : "sw08neutral/water elemental/WGLMDFND.wav",
+			"killed" : "sw08neutral/water elemental/WGLMKILL.wav",
+			"move" : "sw08neutral/water elemental/WGLMMOVE.wav",
+			"wince" : "sw08neutral/water elemental/WGLMWNCE.wav",
+			"shoot" : "sw08neutral/water elemental/WGLMSHOT.wav"
 		}
 	}
 }
