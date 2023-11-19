@@ -67,8 +67,7 @@
 			"defend" : "sw08knight/cavalier/CAVADFND.wav",
 			"killed" : "sw08knight/cavalier/CAVAKILL.wav",
 			"move" : "sw08knight/cavalier/CAVAMOVE.wav",
-			"wince" : "sw08knight/cavalier/CAVAWNCE.wav",
-			"shoot" : ""
+			"wince" : "sw08knight/cavalier/CAVAWNCE.wav"
 		}
 	}
 }

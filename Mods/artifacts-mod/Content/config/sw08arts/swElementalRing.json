@@ -1,8 +1,6 @@
 {
 	"swElementalRing": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RING",
 		"class": "MAJOR",
 		"value": 9000,

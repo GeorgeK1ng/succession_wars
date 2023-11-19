@@ -1,8 +1,6 @@
 {
 	"sw_CapeOfVelocity": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "SHOULDERS",
 		"class": "MAJOR",
 		"value": 10000,

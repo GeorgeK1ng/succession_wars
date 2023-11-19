@@ -1,8 +1,6 @@
 {
 	"swDivineBreastplateOfProtection": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "TORSO",
 		"class": "MAJOR",
 		"value": 5000,

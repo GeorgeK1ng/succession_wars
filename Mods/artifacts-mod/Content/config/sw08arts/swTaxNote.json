@@ -1,8 +1,6 @@
 {
 	"swTaxNote": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 3000,

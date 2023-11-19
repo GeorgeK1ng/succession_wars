@@ -1,8 +1,6 @@
 {
 	"swElementalBook": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 16000,

@@ -1,8 +1,6 @@
 {
 	"swKnightHammer": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "MINOR",
 		"value": 7000,

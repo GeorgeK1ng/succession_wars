@@ -1,8 +1,6 @@
 {
 	"swGiantFlailOfDominion": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "TREASURE",
 		"value": 3000,

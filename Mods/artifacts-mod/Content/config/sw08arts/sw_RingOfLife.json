@@ -1,8 +1,6 @@
 {
 	"sw_RingOfLife": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RING",
 		"class": "TREASURE",
 		"value": 5000,

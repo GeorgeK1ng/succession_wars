@@ -1,8 +1,6 @@
 {
 	"sw_HelmOfMana": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "HEAD",
 		"class": "TREASURE",
 		"value": 500,

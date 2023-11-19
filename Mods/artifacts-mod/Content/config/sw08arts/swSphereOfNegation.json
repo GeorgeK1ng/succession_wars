@@ -1,8 +1,6 @@
 {
 	"swSphereOfNegation": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 8000,

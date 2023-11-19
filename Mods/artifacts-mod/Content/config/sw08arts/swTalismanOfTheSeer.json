@@ -1,8 +1,6 @@
 {
 	"swTalismanOfTheSeer": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 1000,

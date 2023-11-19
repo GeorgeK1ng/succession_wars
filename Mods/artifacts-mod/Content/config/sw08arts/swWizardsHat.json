@@ -1,8 +1,6 @@
 {
 	"swWizardsHat": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "HEAD",
 		"class": "RELIC",
 		"value": 30000,

@@ -1,8 +1,6 @@
 {
 	"swGoldWatch": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 3000,

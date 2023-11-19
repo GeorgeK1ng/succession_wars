@@ -1,8 +1,6 @@
 {
 	"swTravelersBootsOfMobility": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "FEET",
 		"class": "MINOR",
 		"value": 3000,

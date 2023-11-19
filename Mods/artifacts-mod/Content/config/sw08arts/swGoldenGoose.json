@@ -1,8 +1,6 @@
 {
 	"swGoldenGoose": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 90000,

@@ -1,8 +1,6 @@
 {
 	"swUltimateGrailOfLife": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "RELIC",
 		"value": 36000,

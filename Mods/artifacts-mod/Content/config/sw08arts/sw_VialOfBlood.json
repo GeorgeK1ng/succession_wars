@@ -1,8 +1,6 @@
 {
 	"sw_VialOfBlood": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 5000,

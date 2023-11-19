@@ -1,8 +1,6 @@
 {
 	"swUltimateWandOfMagic": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "RELIC",
 		"value": 30000,

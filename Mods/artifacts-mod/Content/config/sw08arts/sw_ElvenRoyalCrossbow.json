@@ -1,8 +1,6 @@
 {
 	"sw_ElvenRoyalCrossbow": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "TREASURE",
 		"value": 2000,

@@ -1,8 +1,6 @@
 {
 	"sw_SoulInAmethyst": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 3000,

@@ -1,8 +1,6 @@
 {
 	"sw_LichsRobe": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "TORSO",
 		"class": "MINOR",
 		"value": 4000,

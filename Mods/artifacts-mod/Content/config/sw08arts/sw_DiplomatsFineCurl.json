@@ -1,8 +1,6 @@
 {
 	"sw_DiplomatsFineCurl": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RING",
 		"class": "MAJOR",
 		"value": 5000,

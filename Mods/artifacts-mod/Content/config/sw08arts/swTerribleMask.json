@@ -1,8 +1,6 @@
 {
 	"swTerribleMask": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "HEAD",
 		"class": "TREASURE",
 		"value": 3000,

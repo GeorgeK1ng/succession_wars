@@ -1,8 +1,6 @@
 {
 	"swUltimateCrownOfLich": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "HEAD",
 		"class": "RELIC",
 		"value": 34000,

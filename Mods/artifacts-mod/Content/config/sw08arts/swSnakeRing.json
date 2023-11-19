@@ -1,8 +1,6 @@
 {
 	"swSnakeRing": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RING",
 		"class": "TREASURE",
 		"value": 3000,

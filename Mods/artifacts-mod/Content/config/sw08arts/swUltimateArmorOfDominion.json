@@ -1,8 +1,6 @@
 {
 	"swUltimateArmorOfDominion": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "TORSO",
 		"class": "RELIC",
 		"value": 32000,

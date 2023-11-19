@@ -1,8 +1,6 @@
 {
 	"swHolyHammer": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "RELIC",
 		"value": 20000,

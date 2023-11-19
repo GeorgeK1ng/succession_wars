@@ -1,8 +1,6 @@
 {
 	"sw1StLevelSpellsBook": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "SPELLBOOK",
 		"class": "MINOR",
 		"value": 2000,

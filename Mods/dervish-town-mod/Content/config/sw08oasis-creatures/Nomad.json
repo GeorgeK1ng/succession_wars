@@ -66,8 +66,7 @@
 			"defend" : "nomad/WELMDFND.wav",
 			"killed" : "nomad/WELMKILL.wav",
 			"move" : "nomad/WELMMOVE.wav",
-			"wince" : "nomad/WELMWNCE.wav",
-			"shoot" : ""
+			"wince" : "nomad/WELMWNCE.wav"
 		}
 	}
 }

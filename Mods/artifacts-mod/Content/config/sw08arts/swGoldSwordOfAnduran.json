@@ -1,8 +1,6 @@
 {
 	"swGoldSwordOfAnduran": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RIGHT_HAND",
 		"class": "MAJOR",
 		"value": 6000,

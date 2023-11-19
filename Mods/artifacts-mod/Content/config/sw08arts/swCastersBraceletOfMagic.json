@@ -1,8 +1,6 @@
 {
 	"swCastersBraceletOfMagic": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "RING",
 		"class": "TREASURE",
 		"value": 1000,

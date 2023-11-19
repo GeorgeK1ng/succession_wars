@@ -1,8 +1,6 @@
 {
 	"sw_SpikedPlate": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "TORSO",
 		"class": "RELIC",
 		"value": 8000,

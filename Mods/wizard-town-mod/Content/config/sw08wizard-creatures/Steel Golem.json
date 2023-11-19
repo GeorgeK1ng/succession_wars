@@ -68,8 +68,7 @@
 			"defend" : "sw08wizard/steel golem/IGLMDFND.wav",
 			"killed" : "sw08wizard/steel golem/IGLMKILL.wav",
 			"move" : "sw08wizard/steel golem/iglmmove.wav",
-			"wince" : "sw08wizard/steel golem/IGLMWNCE.wav",
-			"shoot" : ""
+			"wince" : "sw08wizard/steel golem/IGLMWNCE.wav"
 		}
 	}
 }

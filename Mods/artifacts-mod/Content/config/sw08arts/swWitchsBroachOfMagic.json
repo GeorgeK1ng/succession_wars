@@ -1,8 +1,6 @@
 {
 	"swWitchsBroachOfMagic": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "NECK",
 		"class": "MINOR",
 		"value": 4000,

@@ -1,8 +1,6 @@
 {
 	"swSailorsAstrolabeOfMobility": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MAJOR",
 		"value": 10000,

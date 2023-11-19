@@ -1,8 +1,6 @@
 {
 	"sw_SpellscrollOfProphecies": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "TREASURE",
 		"value": 1500,

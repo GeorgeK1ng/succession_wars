@@ -1,8 +1,6 @@
 {
 	"sw_SkullCap": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "HEAD",
 		"class": "MINOR",
 		"value": 4000,

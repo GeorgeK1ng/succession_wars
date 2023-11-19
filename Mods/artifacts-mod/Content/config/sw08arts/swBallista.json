@@ -1,8 +1,6 @@
 {
 	"swBallista": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "MISC",
 		"class": "MINOR",
 		"value": 7000,

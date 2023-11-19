@@ -1,8 +1,6 @@
 {
 	"sw_MinistersShieldOfPeace": {
-		"type": [
-			"HERO"
-		],
+		"type": [ "HERO" ],
 		"slot": "LEFT_HAND",
 		"class": "MAJOR",
 		"value": 5000,
