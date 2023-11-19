@@ -9,38 +9,67 @@
 			"130px": "sw08wizard/creature-bg-130px.bmp"
 		},
 		"town": {
-			"mageGuild": 5,
 			"primaryResource": "gems",
 			"warMachine": "sw08neutralammoCart",
 			"defaultTavern": 5,
-			//"boat" : "heroes2Boat_sw08",
+			"moatAbility": "core:spell.castleMoat",
+			// "moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
+
+			"mageGuild": 5,
+
+			"hallBackground" : "sw08wizard/town-screen/Hall.png",
+			"townBackground" : "sw08wizard/town-screen/background.bmp",
+			"guildBackground" : "TPMAGE.bmp",
+			"guildWindow" : "sw08wizard/town-screen/mage-guild.bmp",
+			
 			"musicTheme" : "music/sw08wizard/TowerTown.mp3",
 			"tavernVideo" : "sw08wizard/AnimTav03.mpg",
-			"guildBackground" : "TPMAGE.bmp",
-			"townBackground" : "sw08wizard/town-screen/background.bmp",
-			"guildWindow" : "sw08wizard/town-screen/mage-guild.bmp",
-			"hallBackground" : "sw08wizard/town-screen/Hall.png",
 
-			"hallSlots":[[["villageHall", "townHall", "cityHall", "capitol"], ["fort", "citadel", "castle"], ["tavern"], ["blacksmith"]],
-						[["marketplace", "resourceSilo"], ["mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5"],["special3"], ["special2", "special4"]],
-						[["special1"], ["horde1"], ["shipyard"]],
-						[["dwellingLvl1"], ["dwellingLvl2"], ["dwellingLvl3"], ["dwellingLvl4", "dwellingUpLvl4"]],
-						[["dwellingLvl5"], ["dwellingLvl6", "dwellingUpLvl6"], ["dwellingLvl7", "dwellingUpLvl7"]]],
-						
-			"creatures":[[ "sw08wizardHalfling" ],
-						[ "sw08wizardBoar" ],
-						[ "sw08wizardGnome"],
-						[ "sw08wizardIronGolem", "sw08wizardSteelGolem" ],
-						[ "sw08wizardRoc" ],
-						[ "sw08wizardMagi", "sw08wizardArchMagi" ],
-						[ "sw08wizardGiant", "sw08wizardTitan"]],
+			"hallSlots": [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol" ],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
+					[ "special3" ],
+					[ "special2", "special4" ]
+				],
+				[
+					[ "special1" ],
+					[ "horde1" ],
+					[ "shipyard" ]
+				],
+				[
+					[ "dwellingLvl1" ],
+					[ "dwellingLvl2" ],
+					[ "dwellingLvl3" ],
+					[ "dwellingLvl4", "dwellingUpLvl4" ]
+				],
+				[
+					[ "dwellingLvl5" ],
+					[ "dwellingLvl6", "dwellingUpLvl6" ],
+					[ "dwellingLvl7", "dwellingUpLvl7" ]
+				]
+			],
+
+			"creatures":[
+				[ "sw08wizardHalfling" ],
+				[ "sw08wizardBoar" ],
+				[ "sw08wizardGnome" ],
+				[ "sw08wizardIronGolem", "sw08wizardSteelGolem" ],
+				[ "sw08wizardRoc" ],
+				[ "sw08wizardMagi", "sw08wizardArchMagi" ],
+				[ "sw08wizardGiant", "sw08wizardTitan" ]
+			],
 
 			"horde" : [ 0 ,-1],
 
 			"buildingsIcons": "sw08wizard/town-hall",
-			// "moatHexes" : [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
-			"moatAbility": "core:spell.castleMoat",
-			// "moatDamage" : 75,
+
 			"icons": {
 				"village": {
 					"normal": {
@@ -63,6 +92,11 @@
 					}
 				}
 			},
+
+			"tavern": {
+				"swsw08wizard": 8
+			},
+
 			"mapObject": {
 				"filters" : {
 					"capitolDirt" : [ "allOf", [ "capitol" ] ] ,
@@ -819,9 +853,6 @@
 						]
 					}
 				}
-			},
-			"tavern": {
-				"swsw08wizard": 8
 			}
 		}
 	}
