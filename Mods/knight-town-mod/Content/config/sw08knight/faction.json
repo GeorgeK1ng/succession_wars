@@ -35,7 +35,8 @@
 				[
 					[ "marketplace", "resourceSilo" ],
 					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
-					[ "shipyard" ]],
+					[ "shipyard" ]
+				],
 				[
 					[ "special2" ],
 					[ "horde1", "horde1Upgr" ]
