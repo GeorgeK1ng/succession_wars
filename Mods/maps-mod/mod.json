@@ -1,0 +1,11 @@
+{
+	"name" : "Maps",
+	"description" : "This mod contains converted maps from Heroes1, Heroes2 and Heroes 3 as well as some map created specificaly for SW mod",
+	"modType" : "Other",
+	"author": "",
+	"contact": "",
+	"version" : "1.0",
+	"compatibility" : {
+		"min" : "1.3"
+	}
+}
