@@ -8,8 +8,8 @@
 						"sw08oasisRogue"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08oasisRogue" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08oasisRogue" }
 				//				],
 				"templates": {
 					"default": {
@@ -28,8 +28,8 @@
 						"sw08oasisAcolyte"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08oasisAcolyte" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08oasisAcolyte" }
 				//				],
 				"templates": {
 					"default": {
@@ -48,8 +48,8 @@
 						"sw08oasisNomad"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08oasisNomad" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08oasisNomad" }
 				//				],
 				"templates": {
 					"default": {

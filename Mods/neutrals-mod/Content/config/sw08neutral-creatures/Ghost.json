@@ -1,82 +1,82 @@
 {
-	"sw08neutralGhost" : {
-		"name" : {
-			"singular" : "Ghost",
-			"plural" : "Ghosts"
+	"sw08neutralGhost": {
+		"name": {
+			"singular": "Ghost",
+			"plural": "Ghosts"
 		},
-		"faction" : "sw08neutral",
-		"level" : 4,
-		"cost" : {
-			"gold" : 300
+		"faction": "sw08neutral",
+		"level": 4,
+		"cost": {
+			"gold": 300
 		},
-		"speed" : 7,
-		"hitPoints" : 20,
-		"shots" : 0,
-		"attack" : 7,
-		"defense" : 8,
-		"damage" : {
-			"min" : 4,
-			"max" : 7
+		"speed": 7,
+		"hitPoints": 20,
+		"shots": 0,
+		"attack": 7,
+		"defense": 8,
+		"damage": {
+			"min": 4,
+			"max": 7
 		},
-		"fightValue" : 1000,
-		"aiValue" : 150,
-		"advMapAmount" : {
-			"min" : 4,
-			"max" : 27
+		"fightValue": 1000,
+		"aiValue": 150,
+		"advMapAmount": {
+			"min": 4,
+			"max": 27
 		},
-		"growth" : 5,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "FLYING"
+		"growth": 5,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "FLYING"
 			},
-			"ability2" : {
-				"type" : "SOUL_STEAL",
-				"subtype" : "soulStealPermanent"
+			"ability2": {
+				"type": "SOUL_STEAL",
+				"subtype": "soulStealPermanent"
 			},
-			"ability3" : {
-				"type" : "UNDEAD"
+			"ability3": {
+				"type": "UNDEAD"
 			},
-			"ability4" : {
-				"type" : "MORE_DAMAGE_FROM_SPELL",
-				"subtype" : "spell.destroyUndead",
-				"val" : 50
+			"ability4": {
+				"type": "MORE_DAMAGE_FROM_SPELL",
+				"subtype": "spell.destroyUndead",
+				"val": 50
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08neutral-creatures/cprsmall.def:161",
-			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:161",
-			"map" : "sw08neutral-creatures/map/z358o8",
-			"animation" : "sw08neutral-creatures/battle/c159ghst",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08neutral-creatures/cprsmall.def:161",
+			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:161",
+			"map": "sw08neutral-creatures/map/z358o8",
+			"animation": "sw08neutral-creatures/battle/c159ghst",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "",
-				"offset" : {
-					"upperX" : 0,
-					"upperY" : 0,
-					"middleX" : 0,
-					"middleY" : 0,
-					"lowerX" : 0,
-					"lowerY" : 0
+			"missile": {
+				"projectile": "",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": 0,
+					"lowerY": 0
 				},
-				"frameAngles" : [],
-				"attackClimaxFrame" : 0
+				"frameAngles": [],
+				"attackClimaxFrame": 0
 			}
 		},
-		"sound" : {
-			"attack" : "sw08neutral/ghost/FELMATTK.wav",
-			"defend" : "sw08neutral/ghost/FELMDFND.wav",
-			"killed" : "sw08neutral/ghost/FELMKILL.wav",
-			"move" : "sw08neutral/ghost/FELMMOVE.wav",
-			"wince" : "sw08neutral/ghost/FELMWNCE.wav"
+		"sound": {
+			"attack": "sw08neutral/ghost/FELMATTK.wav",
+			"defend": "sw08neutral/ghost/FELMDFND.wav",
+			"killed": "sw08neutral/ghost/FELMKILL.wav",
+			"move": "sw08neutral/ghost/FELMMOVE.wav",
+			"wince": "sw08neutral/ghost/FELMWNCE.wav"
 		}
 	}
 }

@@ -1,76 +1,76 @@
 {
-	"sw08wizardMagi" : {
-		"name" : {
-			"singular" : "Magi",
-			"plural" : "Magi"
+	"sw08wizardMagi": {
+		"name": {
+			"singular": "Magi",
+			"plural": "Magi"
 		},
-		"faction" : "swsw08wizardfaction",
-		"level" : 6,
-		"cost" : {
-			"gold" : 815
+		"faction": "swsw08wizardfaction",
+		"level": 6,
+		"cost": {
+			"gold": 815
 		},
-		"speed" : 7,
-		"hitPoints" : 40,
-		"shots" : 12,
-		"attack" : 11,
-		"defense" : 7,
-		"damage" : {
-			"min" : 11,
-			"max" : 13
+		"speed": 7,
+		"hitPoints": 40,
+		"shots": 12,
+		"attack": 11,
+		"defense": 7,
+		"damage": {
+			"min": 11,
+			"max": 13
 		},
-		"fightValue" : 665,
-		"aiValue" : 703,
-		"advMapAmount" : {
-			"min" : 8,
-			"max" : 12
+		"fightValue": 665,
+		"aiValue": 703,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
 		},
-		"growth" : 2,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
 			"sw08wizardArchMagi"
 		],
-		"abilities" : {
-			"ability2" : {
-				"type" : "SHOOTER"
+		"abilities": {
+			"ability2": {
+				"type": "SHOOTER"
 			},
-			"ability3" : {
-				"type" : "NO_MELEE_PENALTY"
+			"ability3": {
+				"type": "NO_MELEE_PENALTY"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08wizard-creatures/cprsmall.def:40",
-			"iconLarge" : "sw08wizard-creatures/TWCRPORT.def:40",
-			"map" : "sw08wizard-creatures/map/AVWnaga0",
-			"animation" : "sw08wizard-creatures/battle/c038mage",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08wizard-creatures/cprsmall.def:40",
+			"iconLarge": "sw08wizard-creatures/TWCRPORT.def:40",
+			"map": "sw08wizard-creatures/map/AVWnaga0",
+			"animation": "sw08wizard-creatures/battle/c038mage",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08wizard-creatures/battle/PMAGEX",
-				"offset" : {
-					"upperX" : 27,
-					"upperY" : -85,
-					"middleX" : 37,
-					"middleY" : -46,
-					"lowerX" : 20,
-					"lowerY" : -25
+			"missile": {
+				"projectile": "sw08wizard-creatures/battle/PMAGEX",
+				"offset": {
+					"upperX": 27,
+					"upperY": -85,
+					"middleX": 37,
+					"middleY": -46,
+					"lowerX": 20,
+					"lowerY": -25
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 5
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 5
 			}
 		},
-		"sound" : {
-			"attack" : "sw08wizard/mage/NSENATTK.wav",
-			"defend" : "sw08wizard/mage/NSENDFND.wav",
-			"killed" : "sw08wizard/mage/NSENKILL.wav",
-			"move" : "sw08wizard/mage/NSENMOVE.wav",
-			"wince" : "sw08wizard/mage/NSENWNCE.wav",
-			"shoot" : "sw08wizard/mage/NSENSHOT.wav"
+		"sound": {
+			"attack": "sw08wizard/mage/NSENATTK.wav",
+			"defend": "sw08wizard/mage/NSENDFND.wav",
+			"killed": "sw08wizard/mage/NSENKILL.wav",
+			"move": "sw08wizard/mage/NSENMOVE.wav",
+			"wince": "sw08wizard/mage/NSENWNCE.wav",
+			"shoot": "sw08wizard/mage/NSENSHOT.wav"
 		}
 	}
 }

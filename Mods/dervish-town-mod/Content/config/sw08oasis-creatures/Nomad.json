@@ -1,72 +1,72 @@
 {
-	"sw08oasisNomad" : {
-		"name" : {
-			"singular" : "Nomad",
-			"plural" : "Nomads"
+	"sw08oasisNomad": {
+		"name": {
+			"singular": "Nomad",
+			"plural": "Nomads"
 		},
-		"faction" : "sw08oasisfaction",
-		"level" : 3,
-		"cost" : {
-			"gold" : 250
+		"faction": "sw08oasisfaction",
+		"level": 3,
+		"cost": {
+			"gold": 250
 		},
-		"speed" : 8,
-		"hitPoints" : 25,
-		"shots" : 0,
-		"attack" : 7,
-		"defense" : 6,
-		"damage" : {
-			"min" : 2,
-			"max" : 5
+		"speed": 8,
+		"hitPoints": 25,
+		"shots": 0,
+		"attack": 7,
+		"defense": 6,
+		"damage": {
+			"min": 2,
+			"max": 5
 		},
-		"fightValue" : 315,
-		"aiValue" : 330,
-		"advMapAmount" : {
-			"min" : 12,
-			"max" : 25
+		"fightValue": 315,
+		"aiValue": 330,
+		"advMapAmount": {
+			"min": 12,
+			"max": 25
 		},
-		"growth" : 6,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : true,
-		"abilities" : {
-			// "ability1" : {
-			// 	"type" : "MOVEMENT",
-			// 	"subtype" : "heroMovementLand",
-			// 	"valueType" : "ADDITIVE_VALUE",
-			// 	"val" : 300
+		"growth": 6,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"abilities": {
+			// "ability1": {
+			// 	"type": "MOVEMENT",
+			// 	"subtype": "heroMovementLand",
+			// 	"valueType": "ADDITIVE_VALUE",
+			// 	"val": 300
 			// }
 		},
-		"graphics" : {
-			"iconSmall" : "sw08oasis-creatures/cprsmall.def:124",
-			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:124",
-			"map" : "sw08oasis-creatures/map/AVWicee",
-			"animation" : "sw08oasis-creatures/battle/c122noma",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08oasis-creatures/cprsmall.def:124",
+			"iconLarge": "sw08oasis-creatures/TWCRPORT.def:124",
+			"map": "sw08oasis-creatures/map/AVWicee",
+			"animation": "sw08oasis-creatures/battle/c122noma",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08oasis-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 12
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 12
 			}
 		},
-		"sound" : {
-			"attack" : "nomad/WELMATTK.wav",
-			"defend" : "nomad/WELMDFND.wav",
-			"killed" : "nomad/WELMKILL.wav",
-			"move" : "nomad/WELMMOVE.wav",
-			"wince" : "nomad/WELMWNCE.wav"
+		"sound": {
+			"attack": "nomad/WELMATTK.wav",
+			"defend": "nomad/WELMDFND.wav",
+			"killed": "nomad/WELMKILL.wav",
+			"move": "nomad/WELMMOVE.wav",
+			"wince": "nomad/WELMWNCE.wav"
 		}
 	}
 }

@@ -64,11 +64,11 @@
 							"resources": {
 								"gold": 1000,
 								"wood": 4,
-								//	"mercury" : 4,
+								//	"mercury": 4,
 								"ore": 4,
-								//	"sulfur" : 4,
+								//	"sulfur": 4,
 								"gems": 4
-								//	"crystal" : 4
+								//	"crystal": 4
 							},
 							"value": 3000
 						}
@@ -133,12 +133,12 @@
 						"reward": {
 							"resources": {
 								"gold": 500
-								//"wood" : 4,
-								//	"mercury" : 4,
-								//"ore" : 4,
-								//	"sulfur" : 4,
-								//"gems" : 4,
-								//	"crystal" : 4
+								//"wood": 4,
+								//	"mercury": 4,
+								//"ore": 4,
+								//	"sulfur": 4,
+								//"gems": 4,
+								//	"crystal": 4
 							},
 							"value": 3000,
 							"artifacts": [

@@ -1,75 +1,75 @@
 {
-	"sw08neutralFireMessenger" : {
-		"name" : {
-			"singular" : "Fire Messenger",
-			"plural" : "Fire Messengers"
+	"sw08neutralFireMessenger": {
+		"name": {
+			"singular": "Fire Messenger",
+			"plural": "Fire Messengers"
 		},
-		"faction" : "sw08neutral",
-		"level" : 6,
-		"cost" : {
-			"gold" : 750
+		"faction": "sw08neutral",
+		"level": 6,
+		"cost": {
+			"gold": 750
 		},
-		"speed" : 6,
-		"hitPoints" : 40,
-		"shots" : 0,
-		"attack" : 8,
-		"defense" : 6,
-		"damage" : {
-			"min" : 4,
-			"max" : 6
+		"speed": 6,
+		"hitPoints": 40,
+		"shots": 0,
+		"attack": 8,
+		"defense": 6,
+		"damage": {
+			"min": 4,
+			"max": 6
 		},
-		"fightValue" : 775,
-		"aiValue" : 775,
-		"advMapAmount" : {
-			"min" : 8,
-			"max" : 10
+		"fightValue": 775,
+		"aiValue": 775,
+		"advMapAmount": {
+			"min": 8,
+			"max": 10
 		},
-		"growth" : 2,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability2" : {
-				"type" : "NON_LIVING"
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability2": {
+				"type": "NON_LIVING"
 			},
-			"ability3" : {
-				"type" : "SPELL_DAMAGE_REDUCTION",
-				"val" : 100,
-				"subtype" : "spellSchool.fire"
+			"ability3": {
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"val": 100,
+				"subtype": "spellSchool.fire"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08neutral-creatures/cprsmall.def:116",
-			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:116",
-			"map" : "sw08neutral-creatures/map/AVWelmf0",
-			"animation" : "sw08neutral-creatures/battle/ZM164GD",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08neutral-creatures/cprsmall.def:116",
+			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:116",
+			"map": "sw08neutral-creatures/map/AVWelmf0",
+			"animation": "sw08neutral-creatures/battle/ZM164GD",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "",
-				"offset" : {
-					"upperX" : 0,
-					"upperY" : 0,
-					"middleX" : 0,
-					"middleY" : 0,
-					"lowerX" : 0,
-					"lowerY" : 0
+			"missile": {
+				"projectile": "",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": 0,
+					"lowerY": 0
 				},
-				"frameAngles" : [],
-				"attackClimaxFrame" : 0
+				"frameAngles": [],
+				"attackClimaxFrame": 0
 			}
 		},
-		"sound" : {
-			"attack" : "sw08neutral/fire elemental/FglmATTK.wav",
-			"defend" : "sw08neutral/fire elemental/FglmDFND.wav",
-			"killed" : "sw08neutral/fire elemental/FglmKILL.wav",
-			"move" : "sw08neutral/fire elemental/FglmMOVE.wav",
-			"wince" : "sw08neutral/fire elemental/FglmWNCE.wav"
+		"sound": {
+			"attack": "sw08neutral/fire elemental/FglmATTK.wav",
+			"defend": "sw08neutral/fire elemental/FglmDFND.wav",
+			"killed": "sw08neutral/fire elemental/FglmKILL.wav",
+			"move": "sw08neutral/fire elemental/FglmMOVE.wav",
+			"wince": "sw08neutral/fire elemental/FglmWNCE.wav"
 		}
 	}
 }

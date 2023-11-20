@@ -8,8 +8,8 @@
 						"sw08knightPeasant"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08knightPeasant" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08knightPeasant" }
 				//				],
 				"templates": {
 					"default": {
@@ -49,8 +49,8 @@
 						"sw08knightArcher"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08knightArcher" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08knightArcher" }
 				//				],
 				"templates": {
 					"default": {
@@ -79,8 +79,8 @@
 						"sw08knightPikeman"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08knightPikeman" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08knightPikeman" }
 				//				],
 				"templates": {
 					"default": {

@@ -1,76 +1,76 @@
 {
-	"sw08oasisManticore" : {
-		"name" : {
-			"singular" : "Manticore",
-			"plural" : "Manticores"
+	"sw08oasisManticore": {
+		"name": {
+			"singular": "Manticore",
+			"plural": "Manticores"
 		},
-		"faction" : "sw08oasisfaction",
-		"level" : 5,
-		"cost" : {
-			"gold" : 575
+		"faction": "sw08oasisfaction",
+		"level": 5,
+		"cost": {
+			"gold": 575
 		},
-		"speed" : 9,
-		"hitPoints" : 45,
-		"shots" : 0,
-		"attack" : 9,
-		"defense" : 7,
-		"damage" : {
-			"min" : 6,
-			"max" : 12
+		"speed": 9,
+		"hitPoints": 45,
+		"shots": 0,
+		"attack": 9,
+		"defense": 7,
+		"damage": {
+			"min": 6,
+			"max": 12
 		},
-		"fightValue" : 650,
-		"aiValue" : 770,
-		"advMapAmount" : {
-			"min" : 10,
-			"max" : 20
+		"fightValue": 650,
+		"aiValue": 770,
+		"advMapAmount": {
+			"min": 10,
+			"max": 20
 		},
-		"growth" : 3,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "FLYING",
-				"subtype" : "movementFlying"
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "FLYING",
+				"subtype": "movementFlying"
 			},
-			"ability2" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.paralyze",
-				"addInfo" : [1, 0]
+			"ability2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"addInfo": [1, 0]
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08oasis-creatures/cprsmall.def:128",
-			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:128",
-			"map" : "sw08oasis-creatures/map/AVWstone",
-			"animation" : "sw08oasis-creatures/battle/c126mant",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08oasis-creatures/cprsmall.def:128",
+			"iconLarge": "sw08oasis-creatures/TWCRPORT.def:128",
+			"map": "sw08oasis-creatures/map/AVWstone",
+			"animation": "sw08oasis-creatures/battle/c126mant",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08oasis-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 12
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 12
 			}
 		},
-		"sound" : {
-			"attack" : "Manticore/MANTATTK.wav",
-			"defend" : "Manticore/MANTDFND.wav",
-			"killed" : "Manticore/MANTKILL.wav",
-			"move" : "Manticore/MANTMOVE.wav",
-			"wince" : "Manticore/MANTWNCE.wav",
-			"shoot" : "Manticore/MANTSHOT"
+		"sound": {
+			"attack": "Manticore/MANTATTK.wav",
+			"defend": "Manticore/MANTDFND.wav",
+			"killed": "Manticore/MANTKILL.wav",
+			"move": "Manticore/MANTMOVE.wav",
+			"wince": "Manticore/MANTWNCE.wav",
+			"shoot": "Manticore/MANTSHOT"
 		}
 	}
 }

@@ -1,73 +1,73 @@
 {
-	"sw08barbarianOrc" : {
-		"name" : {
-			"singular" : "Orc",
-			"plural" : "Orcs"
+	"sw08barbarianOrc": {
+		"name": {
+			"singular": "Orc",
+			"plural": "Orcs"
 		},
-		"faction" : "swsw08barbarianfaction",
-		"level" : 2,
-		"cost" : {
-			"gold" : 105
+		"faction": "swsw08barbarianfaction",
+		"level": 2,
+		"cost": {
+			"gold": 105
 		},
-		"speed" : 4,
-		"hitPoints" : 10,
-		"shots" : 8,
-		"attack" : 3,
-		"defense" : 4,
-		"damage" : {
-			"min" : 2,
-			"max" : 3
+		"speed": 4,
+		"hitPoints": 10,
+		"shots": 8,
+		"attack": 3,
+		"defense": 4,
+		"damage": {
+			"min": 2,
+			"max": 3
 		},
-		"fightValue" : 114,
-		"aiValue" : 104,
-		"advMapAmount" : {
-			"min" : 15,
-			"max" : 30
+		"fightValue": 114,
+		"aiValue": 104,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
 		},
-		"growth" : 8,
-		"horde" : 8,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [
+		"growth": 8,
+		"horde": 8,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
 			"sw08barbarianOrcChief"
 		],
-		"abilities" : {
-			"ability1" : {
-				"type" : "SHOOTER"
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:88",
-			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:88",
-			"map" : "sw08barbarian-creatures/map/AVWwolf0",
-			"animation" : "sw08barbarian-creatures/battle/c086orc",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08barbarian-creatures/cprsmall.def:88",
+			"iconLarge": "sw08barbarian-creatures/TWCRPORT.def:88",
+			"map": "sw08barbarian-creatures/map/AVWwolf0",
+			"animation": "sw08barbarian-creatures/battle/c086orc",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08barbarian-creatures/battle/PorchX",
-				"offset" : {
-					"upperX" : 36,
-					"upperY" : -41,
-					"middleX" : 36,
-					"middleY" : -41,
-					"lowerX" : 36,
-					"lowerY" : -41
+			"missile": {
+				"projectile": "sw08barbarian-creatures/battle/PorchX",
+				"offset": {
+					"upperX": 36,
+					"upperY": -41,
+					"middleX": 36,
+					"middleY": -41,
+					"lowerX": 36,
+					"lowerY": -41
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 10
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
 			}
 		},
-		"sound" : {
-			"attack" : "sw08barbarian/orc/GWRDATTK.wav",
-			"defend" : "sw08barbarian/orc/GWRDDFND.wav",
-			"killed" : "sw08barbarian/orc/GWRDKILL.wav",
-			"move" : "sw08barbarian/orc/GWRDMOVE.wav",
-			"wince" : "sw08barbarian/orc/GWRDWNCE.wav",
-			"shoot" : "sw08barbarian/orc/GWRDSHOT.wav"
+		"sound": {
+			"attack": "sw08barbarian/orc/GWRDATTK.wav",
+			"defend": "sw08barbarian/orc/GWRDDFND.wav",
+			"killed": "sw08barbarian/orc/GWRDKILL.wav",
+			"move": "sw08barbarian/orc/GWRDMOVE.wav",
+			"wince": "sw08barbarian/orc/GWRDWNCE.wav",
+			"shoot": "sw08barbarian/orc/GWRDSHOT.wav"
 		}
 	}
 }

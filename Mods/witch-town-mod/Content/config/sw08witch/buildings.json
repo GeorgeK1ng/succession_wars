@@ -245,7 +245,7 @@
 					"name": "Captain's Quaters",
 					"description": "Captain's Quaters increase weekly production of Tribals by 8 per week.",
 					"id": 18,
-					//	"upgrades" : "dwellingLvl1",
+					//	"upgrades": "dwellingLvl1",
 					"cost": {
 						"gold": 1000
 					},
@@ -254,15 +254,15 @@
 					]
 				},
 				//"horde1Upgr":				{
-				//					"cost" : {
-				//						"gold" : 1000
+				//					"cost": {
+				//						"gold": 1000
 				//					},
-				//					"id" : 19,
-				//					"upgrades" : "dwellingUpLvl1",
-				//					"requires" : ["allOf" , ["horde1"]],
-				//					"mode" : "auto",
-				//"description" : "Captain's Quaters increase weekly production of Gnom Leaders by 8 per week.",
-				//					"name" : "Captain's Quaters"
+				//					"id": 19,
+				//					"upgrades": "dwellingUpLvl1",
+				//					"requires": ["allOf" , ["horde1"]],
+				//					"mode": "auto",
+				//"description": "Captain's Quaters increase weekly production of Gnom Leaders by 8 per week.",
+				//					"name": "Captain's Quaters"
 				//				},
 				"ship": {
 					"name": "Ship",
@@ -323,13 +323,13 @@
 					]
 				},
 				//"grail":				{
-				//					"id" : 26,
-				//					"mode" : "grail",
+				//					"id": 26,
+				//					"mode": "grail",
 				//					"produce": {
-				//					    "gold" : 5000
+				//					    "gold": 5000
 				//					},
-				//	"description" : "Death Flower increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
-				//					"name" : "Death Flower"
+				//	"description": "Death Flower increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+				//					"name": "Death Flower"
 				//				},
 				"extraTownHall": {
 					"name": "Extra Town Hall",
@@ -370,12 +370,12 @@
 					"mode": "auto"
 				},
 				//"extraCapitol":				{
-				//					"cost" : {
-				//						"gems" : 5,
-				//						"gold" : 1000
+				//					"cost": {
+				//						"gems": 5,
+				//						"gold": 1000
 				//					},
 				//							"requires":["allOf" , ["extraCapitol"]],
-				//					"id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance"
+				//					"id": 29, "name": "Extra Capitol", "description": "Extra capitol appearance"
 				//				},
 				"dwellingLvl1": {
 					"name": "Straw Hut",

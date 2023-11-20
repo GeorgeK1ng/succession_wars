@@ -279,7 +279,7 @@
 					"name": "Dormitories",
 					"description": "Dormitories increase weekly production of Centaur Captains by 7 per week.",
 					"id": 19,
-					//"upgrades" : "horde1",
+					//"upgrades": "horde1",
 					"requires": [
 						"allOf",
 						[
@@ -310,14 +310,14 @@
 					"type": "manaVortex"
 				},
 				//"special3":                 {
-				//                   "id" : 22,
+				//                   "id": 22,
 				//                 
 				//                  "cost": {
-				//                     "ore" : 5,
-				//                    "gold" : 2500
+				//                     "ore": 5,
+				//                    "gold": 2500
 				//                },
-				//"description" : "With the Artesian Spring, you can recruit creatures from externally //flagged dwellings.",
-				//					"name" : "Artesian Spring"
+				//"description": "With the Artesian Spring, you can recruit creatures from externally //flagged dwellings.",
+				//					"name": "Artesian Spring"
 				//               },
 				"special4": {
 					"name": "Hall of Honor",
@@ -331,13 +331,13 @@
 					}
 				},
 				//"grail": {
-				//                   "id" : 26,
-				//                  "mode" : "grail",
+				//                   "id": 26,
+				//                  "mode": "grail",
 				//					"produce": {
-				//					    "gold" : 5000
+				//					    "gold": 5000
 				//					},
-				//"description" : "God Statue increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
-				//					"name" : "God Statue"
+				//"description": "God Statue increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+				//					"name": "God Statue"
 				//               },
 				"dwellingLvl1": {
 					"name": "Cave",
@@ -494,7 +494,7 @@
 							"mageGuild3"
 						]
 					],
-					//   "upgrades" : "dwellingUpLvl7",
+					//   "upgrades": "dwellingUpLvl7",
 					"cost": {
 						"gold": 10000,
 						"ore": 15,

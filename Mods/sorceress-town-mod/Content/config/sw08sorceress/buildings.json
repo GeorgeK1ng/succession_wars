@@ -253,7 +253,7 @@
 				"horde1": {
 					"name": "Lumberjacks' Guild",
 					"description": "The Lumberjacks' Guild increases weekly production of Dwarves by 4 per week.",
-					"id": 18, // "upgrades" : "dwellingLvl2"  ,
+					"id": 18, // "upgrades": "dwellingLvl2"  ,
 					"cost": {
 						"gold": 1000
 					}
@@ -322,19 +322,19 @@
 						"gold": 5000
 					}
 				},
-				//"special4":  	{ "id" : 23, "requires" : ["allOf" , ["special2"]],
-				//"cost" : {
-				///						"gems" : 5,
+				//"special4":  	{ "id": 23, "requires": ["allOf" , ["special2"]],
+				//"cost": {
+				///						"gems": 5,
 				//
-				//						"gold" : 2000
+				//						"gold": 2000
 				//					},
-				//"description" : "The Rainbow increases the luck of the garrison hero by +2 when defending //against a siege.",
-				//					"name" : "Rainbow" },
+				//"description": "The Rainbow increases the luck of the garrison hero by +2 when defending //against a siege.",
+				//					"name": "Rainbow" },
 				"horde2": {
 					"name": "Crystal Garden",
 					"description": "The Crystal Garden increases weekly production of Druids by 2 per week.",
 					"id": 24,
-					//"upgrades" : "dwellingLvl5"  ,
+					//"upgrades": "dwellingLvl5"  ,
 					"requires": [
 						"dwellingLvl5"
 					],
@@ -346,7 +346,7 @@
 					"name": "Crystal Garden",
 					"description": "The Crystal Garden increases weekly production of Greater Druids by 2 per week.",
 					"id": 25,
-					//"upgrades" : "dwellingUpLvl5", 
+					//"upgrades": "dwellingUpLvl5", 
 					"requires": [
 						"allOf",
 						[
@@ -361,20 +361,20 @@
 						"gold": 2000
 					}
 				},
-				//"grail":  { "id" : 26, "mode" : "grail",
+				//"grail":  { "id": 26, "mode": "grail",
 				//					"produce": {
-				//					    "gold" : 5000
+				//					    "gold": 5000
 				//					},
-				//"description" : "The Spirit Guardian increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
-				//					"name" : "Spirit Guardian"},
-				//"extraTownHall":  { "id" : 27, "name" : "Extra Town Hall", "description" : "Extra town hall appearance", "requires" : ["allOf" , ["townHall"] , ["extraTownHall"]], "mode" : "auto","cost" : {
-				//						"gold" : 1000
+				//"description": "The Spirit Guardian increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+				//					"name": "Spirit Guardian"},
+				//"extraTownHall":  { "id": 27, "name": "Extra Town Hall", "description": "Extra town hall appearance", "requires": ["allOf" , ["townHall"] , ["extraTownHall"]], "mode": "auto","cost": {
+				//						"gold": 1000
 				//					} },
-				//"extraCityHall":  { "id" : 28, "name" : "Extra City Hall", "description" : "Extra city hall appearance", "requires" : ["allOf" , ["cityHall"] , ["extraCityHall"]], "mode" : "auto","cost" : {
-				//						"gold" : 1000
+				//"extraCityHall":  { "id": 28, "name": "Extra City Hall", "description": "Extra city hall appearance", "requires": ["allOf" , ["cityHall"] , ["extraCityHall"]], "mode": "auto","cost": {
+				//						"gold": 1000
 				//					} },
-				//"extraCapitol":  { "id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance", "requires" : ["allOf" , ["capitol"] , ["extraCapitol"]], "mode" : "auto","cost" : {
-				//						"gold" : 1000
+				//"extraCapitol":  { "id": 29, "name": "Extra Capitol", "description": "Extra capitol appearance", "requires": ["allOf" , ["capitol"] , ["extraCapitol"]], "mode": "auto","cost": {
+				//						"gold": 1000
 				//					} },
 				"dwellingLvl1": {
 					"name": "Treehouse",

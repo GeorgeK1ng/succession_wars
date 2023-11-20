@@ -1,9 +1,9 @@
 {
 	"core:obelisk": {
 		"types": {
-			//"name" : "Obelisk",
+			//"name": "Obelisk",
 			"obelisk": {
-				//	"index" :57,
+				//	"index":57,
 				"name": "Obelisk",
 				"aiValue": 350,
 				"rmg": {
@@ -11,7 +11,7 @@
 					"value": 3500,
 					"rarity": 200
 				},
-				//	"handler" : "obelisk",
+				//	"handler": "obelisk",
 				"templates": {
 					"AVXobla": {
 						"animation": "sw08objects_mines/SWOBEL01", //"sw08objects/obelisk/AVXobla",

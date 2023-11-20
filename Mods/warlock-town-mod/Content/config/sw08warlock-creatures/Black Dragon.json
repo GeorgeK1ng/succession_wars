@@ -1,86 +1,86 @@
 {
-	"sw08warlockBlackDragon" : {
-		"name" : {
-			"singular" : "Black Dragon",
-			"plural" : "Black Dragons"
+	"sw08warlockBlackDragon": {
+		"name": {
+			"singular": "Black Dragon",
+			"plural": "Black Dragons"
 		},
-		"faction" : "swsw08warlockfaction",
-		"level" : 7,
-		"cost" : {
-			"gold" : 4250,
-			"sulfur" : 2
+		"faction": "swsw08warlockfaction",
+		"level": 7,
+		"cost": {
+			"gold": 4250,
+			"sulfur": 2
 		},
-		"speed" : 14,
-		"hitPoints" : 300,
-		"shots" : 0,
-		"attack" : 14,
-		"defense" : 14,
-		"damage" : {
-			"min" : 25,
-			"max" : 50
+		"speed": 14,
+		"hitPoints": 300,
+		"shots": 0,
+		"attack": 14,
+		"defense": 14,
+		"damage": {
+			"min": 25,
+			"max": 50
 		},
-		"fightValue" : 4353,
-		"aiValue" : 5729,
-		"advMapAmount" : {
-			"min" : 3,
-			"max" : 7
+		"fightValue": 4353,
+		"aiValue": 5729,
+		"advMapAmount": {
+			"min": 3,
+			"max": 7
 		},
-		"growth" : 1,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : true,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "TWO_HEX_ATTACK_BREATH"
+		"growth": 1,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "TWO_HEX_ATTACK_BREATH"
 			},
-			"ability2" : {
-				"type" : "DRAGON_NATURE"
+			"ability2": {
+				"type": "DRAGON_NATURE"
 			},
-			"ability3" : {
-				"type" : "KING",
-				"val" : 3,
-				"valueType" : "ADDITIVE_VALUE"
+			"ability3": {
+				"type": "KING",
+				"val": 3,
+				"valueType": "ADDITIVE_VALUE"
 			},
-			"ability4" : {
-				"type" : "FLYING"
+			"ability4": {
+				"type": "FLYING"
 			},
-			"ability5" : {
-				"type" : "LEVEL_SPELL_IMMUNITY",
-				"val" : 5
+			"ability5": {
+				"type": "LEVEL_SPELL_IMMUNITY",
+				"val": 5
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08warlock-creatures/cprsmall.def:85",
-			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:85",
-			"map" : "sw08warlock-creatures/map/AVWddrx0",
-			"animation" : "sw08warlock-creatures/battle/c083drg3",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08warlock-creatures/cprsmall.def:85",
+			"iconLarge": "sw08warlock-creatures/TWCRPORT.def:85",
+			"map": "sw08warlock-creatures/map/AVWddrx0",
+			"animation": "sw08warlock-creatures/battle/c083drg3",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08warlock-creatures/battle/CPRZEAX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08warlock-creatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 9
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
 			}
 		},
-		"sound" : {
-			"attack" : "sw08warlock/black dragon/BKDRATTK.wav",
-			"defend" : "sw08warlock/black dragon/BKDRDFND.wav",
-			"killed" : "sw08warlock/black dragon/BKDRKILL.wav",
-			"move" : "sw08warlock/black dragon/BKDRMOVE.wav",
-			"wince" : "sw08warlock/black dragon/BKDRWNCE.wav"
+		"sound": {
+			"attack": "sw08warlock/black dragon/BKDRATTK.wav",
+			"defend": "sw08warlock/black dragon/BKDRDFND.wav",
+			"killed": "sw08warlock/black dragon/BKDRKILL.wav",
+			"move": "sw08warlock/black dragon/BKDRMOVE.wav",
+			"wince": "sw08warlock/black dragon/BKDRWNCE.wav"
 		}
 	}
 }

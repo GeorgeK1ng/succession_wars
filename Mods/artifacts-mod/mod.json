@@ -1,11 +1,11 @@
 {
-	"name" : "SW - H2 artifacts",
-	"description" : "SW - Artifacts from Heroes of Might & Magic 2",
-	"modType" : "Artifacts",
-	"author" : "Noname",
-	"contact" : "none",
-	"version" : "0.0.1",
-	"artifacts" :
+	"name": "SW - H2 artifacts",
+	"description": "SW - Artifacts from Heroes of Might & Magic 2",
+	"modType": "Artifacts",
+	"author": "Noname",
+	"contact": "none",
+	"version": "0.0.1",
+	"artifacts":
 	[
 		"config/sw08arts/sw1StLevelSpellsBook.json",
 		"config/sw08arts/swArcaneNecklaceOfMagic.json",

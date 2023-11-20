@@ -1,76 +1,76 @@
 {
-	"sw08warlockBeholder" : {
-		"name" : {
-			"singular" : "Beholder",
-			"plural" : "Beholders"
+	"sw08warlockBeholder": {
+		"name": {
+			"singular": "Beholder",
+			"plural": "Beholders"
 		},
-		"faction" : "swsw08warlockfaction",
-		"level" : 4,
-		"cost" : {
-			"gold" : 375
+		"faction": "swsw08warlockfaction",
+		"level": 4,
+		"cost": {
+			"gold": 375
 		},
-		"speed" : 6,
-		"hitPoints" : 25,
-		"shots" : 24,
-		"attack" : 8,
-		"defense" : 5,
-		"damage" : {
-			"min" : 4,
-			"max" : 9
+		"speed": 6,
+		"hitPoints": 25,
+		"shots": 24,
+		"attack": 8,
+		"defense": 5,
+		"damage": {
+			"min": 4,
+			"max": 9
 		},
-		"fightValue" : 342,
-		"aiValue" : 343,
-		"advMapAmount" : {
-			"min" : 12,
-			"max" : 22
+		"fightValue": 342,
+		"aiValue": 343,
+		"advMapAmount": {
+			"min": 12,
+			"max": 22
 		},
-		"growth" : 4,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "FLYING"
+		"growth": 4,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "FLYING"
 			},
-			"ability2" : {
-				"type" : "SHOOTER"
+			"ability2": {
+				"type": "SHOOTER"
 			},
-			"ability3" : {
-				"type" : "FREE_SHOOTING"
+			"ability3": {
+				"type": "FREE_SHOOTING"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08warlock-creatures/cprsmall.def:78",
-			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:78",
-			"map" : "sw08warlock-creatures/map/AvWMeds",
-			"animation" : "sw08warlock-creatures/battle/c076bhld",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08warlock-creatures/cprsmall.def:78",
+			"iconLarge": "sw08warlock-creatures/TWCRPORT.def:78",
+			"map": "sw08warlock-creatures/map/AvWMeds",
+			"animation": "sw08warlock-creatures/battle/c076bhld",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08warlock-creatures/battle/Pbhld",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08warlock-creatures/battle/Pbhld",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 5
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 5
 			}
 		},
-		"sound" : {
-			"attack" : "sw08warlock/beholder/DFLYATTK",
-			"defend" : "sw08warlock/beholder/DFLYDFND",
-			"killed" : "sw08warlock/beholder/DFLYKILL",
-			"move" : "sw08warlock/beholder/DFLYMOVE",
-			"wince" : "sw08warlock/beholder/DFLYSHOT",
-			"shoot" : "sw08warlock/beholder/DFLYWNCE"
+		"sound": {
+			"attack": "sw08warlock/beholder/DFLYATTK",
+			"defend": "sw08warlock/beholder/DFLYDFND",
+			"killed": "sw08warlock/beholder/DFLYKILL",
+			"move": "sw08warlock/beholder/DFLYMOVE",
+			"wince": "sw08warlock/beholder/DFLYSHOT",
+			"shoot": "sw08warlock/beholder/DFLYWNCE"
 		}
 	}
 }

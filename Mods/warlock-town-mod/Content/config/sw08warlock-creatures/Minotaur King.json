@@ -1,73 +1,73 @@
 {
-	"sw08warlockMinotaurKing" : {
-		"name" : {
-			"singular" : "Minotaur King",
-			"plural" : "Minotaur Kings"
+	"sw08warlockMinotaurKing": {
+		"name": {
+			"singular": "Minotaur King",
+			"plural": "Minotaur Kings"
 		},
-		"faction" : "swsw08warlockfaction",
-		"level" : 5,
-		"cost" : {
-			"gold" : 650
+		"faction": "swsw08warlockfaction",
+		"level": 5,
+		"cost": {
+			"gold": 650
 		},
-		"speed" : 7,
-		"hitPoints" : 55,
-		"shots" : 0,
-		"attack" : 9,
-		"defense" : 8,
-		"damage" : {
-			"min" : 6,
-			"max" : 12
+		"speed": 7,
+		"hitPoints": 55,
+		"shots": 0,
+		"attack": 9,
+		"defense": 8,
+		"damage": {
+			"min": 6,
+			"max": 12
 		},
-		"fightValue" : 675,
-		"aiValue" : 738,
-		"advMapAmount" : {
-			"min" : 9,
-			"max" : 16
+		"fightValue": 675,
+		"aiValue": 738,
+		"advMapAmount": {
+			"min": 9,
+			"max": 16
 		},
-		"growth" : 3,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "MORALE",
+				"val": 1,
+				"valueType": "INDEPENDENT_MAX"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08warlock-creatures/cprsmall.def:81",
-			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:81",
-			"map" : "sw08warlock-creatures/map/AVWminx0",
-			"animation" : "sw08warlock-creatures/battle/c079umin",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08warlock-creatures/cprsmall.def:81",
+			"iconLarge": "sw08warlock-creatures/TWCRPORT.def:81",
+			"map": "sw08warlock-creatures/map/AVWminx0",
+			"animation": "sw08warlock-creatures/battle/c079umin",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08warlock-creatures/battle/CPRZEAX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08warlock-creatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 9
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
 			}
 		},
-		"sound" : {
-			"attack" : "sw08warlock/minotaur king/MINKATTK.wav",
-			"defend" : "sw08warlock/minotaur king/MINKDFND.wav",
-			"killed" : "sw08warlock/minotaur king/MINKKILL.wav",
-			"move" : "sw08warlock/minotaur king/MINKMOVE.wav",
-			"wince" : "sw08warlock/minotaur king/MINKWNCE.wav"
-			//"shoot" :""
+		"sound": {
+			"attack": "sw08warlock/minotaur king/MINKATTK.wav",
+			"defend": "sw08warlock/minotaur king/MINKDFND.wav",
+			"killed": "sw08warlock/minotaur king/MINKKILL.wav",
+			"move": "sw08warlock/minotaur king/MINKMOVE.wav",
+			"wince": "sw08warlock/minotaur king/MINKWNCE.wav"
+			//"shoot":""
 		}
 	}
 }

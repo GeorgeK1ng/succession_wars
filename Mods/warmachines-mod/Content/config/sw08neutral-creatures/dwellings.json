@@ -1,19 +1,19 @@
 {
-	"core:warMachineFactory" : {
-		"types" : {
-			"warmachinesSw08WMs" : {
-				"name" : "Siege Machines Workshop",
-				"creatures" : [[ "sw08neutralballista" ],[ "sw08neutralammoCart" ],[ "sw08neutralfirstAidTent" ]],
-				"templates" : {
-					"default" : {
-						"animation" :  "sw08neutral-creatures/map/AVGsieg0",
+	"core:warMachineFactory": {
+		"types": {
+			"warmachinesSw08WMs": {
+				"name": "Siege Machines Workshop",
+				"creatures": [[ "sw08neutralballista" ],[ "sw08neutralammoCart" ],[ "sw08neutralfirstAidTent" ]],
+				"templates": {
+					"default": {
+						"animation":  "sw08neutral-creatures/map/AVGsieg0",
 						"visitableFrom": ["---", "+++", "+++"],
-						"mask" : ["VVVV", "VBA" ]
+						"mask": ["VVVV", "VBA" ]
 					},
-										"default2" : {
-						"animation" :  "sw08neutral-creatures/map/AVGsieg1",
+										"default2": {
+						"animation":  "sw08neutral-creatures/map/AVGsieg1",
 						"visitableFrom": ["---", "+++", "+++"],
-						"mask" : ["VVVV", "VBA" ]
+						"mask": ["VVVV", "VBA" ]
 					}
 				}
 			}

@@ -1,73 +1,73 @@
 {
-	"sw08knightArcher" : {
-		"name" : {
-			"singular" : "Archer",
-			"plural" : "Archers"
+	"sw08knightArcher": {
+		"name": {
+			"singular": "Archer",
+			"plural": "Archers"
 		},
-		"faction" : "sw08knight",
-		"level" : 2,
-		"cost" : {
-			"gold" : 100
+		"faction": "sw08knight",
+		"level": 2,
+		"cost": {
+			"gold": 100
 		},
-		"speed" : 3,
-		"hitPoints" : 10,
-		"shots" : 12,
-		"attack" : 5,
-		"defense" : 3,
-		"damage" : {
-			"min" : 1,
-			"max" : 3
+		"speed": 3,
+		"hitPoints": 10,
+		"shots": 12,
+		"attack": 5,
+		"defense": 3,
+		"damage": {
+			"min": 1,
+			"max": 3
 		},
-		"fightValue" : 115,
-		"aiValue" : 126,
-		"advMapAmount" : {
-			"min" : 18,
-			"max" : 25
+		"fightValue": 115,
+		"aiValue": 126,
+		"advMapAmount": {
+			"min": 18,
+			"max": 25
 		},
-		"growth" : 8,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
 			"sw08knightRanger"
 		],
-		"abilities" : {
-			"ability1" : {
-				"type" : "SHOOTER"
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08knight-creatures/cprsmall.def:4",
-			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:4",
-			"map" : "sw08knight-creatures/map/AVWLCRS",
-			"animation" : "sw08knight-creatures/battle/c002arch",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08knight-creatures/cprsmall.def:4",
+			"iconLarge": "sw08knight-creatures/TWCRPORT.def:4",
+			"map": "sw08knight-creatures/map/AVWLCRS",
+			"animation": "sw08knight-creatures/battle/c002arch",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 28,
-					"upperY" : -70,
-					"middleX" : 40,
-					"middleY" : -55,
-					"lowerX" : 33,
-					"lowerY" : -30
+			"missile": {
+				"projectile": "sw08knight-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 28,
+					"upperY": -70,
+					"middleX": 40,
+					"middleY": -55,
+					"lowerX": 33,
+					"lowerY": -30
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 7
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
 			}
 		},
-		"sound" : {
-			"attack" : "sw08knight/archer/LCRSATTK.wav",
-			"defend" : "sw08knight/archer/LCRSDFND.wav",
-			"killed" : "sw08knight/archer/LCRSKILL.wav",
-			"move" : "sw08knight/archer/LCRSMOVE.wav",
-			"wince" : "sw08knight/archer/LCRSWNCE.wav",
-			"shoot" : "sw08knight/archer/LCRSSHOT.wav"
+		"sound": {
+			"attack": "sw08knight/archer/LCRSATTK.wav",
+			"defend": "sw08knight/archer/LCRSDFND.wav",
+			"killed": "sw08knight/archer/LCRSKILL.wav",
+			"move": "sw08knight/archer/LCRSMOVE.wav",
+			"wince": "sw08knight/archer/LCRSWNCE.wav",
+			"shoot": "sw08knight/archer/LCRSSHOT.wav"
 		}
 	}
 }

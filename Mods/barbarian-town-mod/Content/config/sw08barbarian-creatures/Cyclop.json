@@ -1,81 +1,81 @@
 {
-	"sw08barbarianCyclop" : {
-		"name" : {
-			"singular" : "Cyclop",
-			"plural" : "Cyclops"
+	"sw08barbarianCyclop": {
+		"name": {
+			"singular": "Cyclop",
+			"plural": "Cyclops"
 		},
-		"faction" : "swsw08barbarianfaction",
-		"level" : 7,
-		"cost" : {
-			"gold" : 950,
-			"crystal" : 1
+		"faction": "swsw08barbarianfaction",
+		"level": 7,
+		"cost": {
+			"gold": 950,
+			"crystal": 1
 		},
-		"speed" : 7,
-		"hitPoints" : 90,
-		"shots" : 0,
-		"attack" : 12,
-		"defense" : 9,
-		"damage" : {
-			"min" : 14,
-			"max" : 28
+		"speed": 7,
+		"hitPoints": 90,
+		"shots": 0,
+		"attack": 12,
+		"defense": 9,
+		"damage": {
+			"min": 14,
+			"max": 28
 		},
-		"fightValue" : 1466,
-		"aiValue" : 1689,
-		"advMapAmount" : {
-			"min" : 5,
-			"max" : 7
+		"fightValue": 1466,
+		"aiValue": 1689,
+		"advMapAmount": {
+			"min": 5,
+			"max": 7
 		},
-		"growth" : 2,
-		"hasDoubleWeek" : true,
-		"horde" : 0,
-		"abilities" : {
-			"ability1" : {
-				"type" : "TWO_HEX_ATTACK_BREATH"
+		"growth": 2,
+		"hasDoubleWeek": true,
+		"horde": 0,
+		"abilities": {
+			"ability1": {
+				"type": "TWO_HEX_ATTACK_BREATH"
 			},
-			"ability2" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.paralyze",
-				"val" : 20,
-				"addInfo" : 0
+			"ability2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 20,
+				"addInfo": 0
 			},
-			"king" : {
-				"type" : "KING",
-				"val" : 1,
-				"valueType" : "ADDITIVE_VALUE"
+			"king": {
+				"type": "KING",
+				"val": 1,
+				"valueType": "ADDITIVE_VALUE"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08barbarian-creatures/cprsmall.def:98",
-			"iconLarge" : "sw08barbarian-creatures/TWCRPORT.def:98",
-			"map" : "sw08barbarian-creatures/map/avwbhmt0",
-			"animation" : "sw08barbarian-creatures/battle/c096cycl",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08barbarian-creatures/cprsmall.def:98",
+			"iconLarge": "sw08barbarian-creatures/TWCRPORT.def:98",
+			"map": "sw08barbarian-creatures/map/avwbhmt0",
+			"animation": "sw08barbarian-creatures/battle/c096cycl",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "",
-				"offset" : {
-					"upperX" : 0,
-					"upperY" : 0,
-					"middleX" : 0,
-					"middleY" : 0,
-					"lowerX" : 0,
-					"lowerY" : 0
+			"missile": {
+				"projectile": "",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": 0,
+					"lowerY": 0
 				},
-				"frameAngles" : [],
-				"attackClimaxFrame" : 0
+				"frameAngles": [],
+				"attackClimaxFrame": 0
 			}
 		},
-		"sound" : {
-			"attack" : "sw08barbarian/cyclops/YBMHATTK.wav",
-			"defend" : "sw08barbarian/cyclops/YBMHDFND.wav",
-			"killed" : "sw08barbarian/cyclops/YBMHKILL.wav",
-			"move" : "sw08barbarian/cyclops/YBMHMOVE.wav",
-			"wince" : "sw08barbarian/cyclops/YBMHWNCE.wav"
-			//"shoot" :""
+		"sound": {
+			"attack": "sw08barbarian/cyclops/YBMHATTK.wav",
+			"defend": "sw08barbarian/cyclops/YBMHDFND.wav",
+			"killed": "sw08barbarian/cyclops/YBMHKILL.wav",
+			"move": "sw08barbarian/cyclops/YBMHMOVE.wav",
+			"wince": "sw08barbarian/cyclops/YBMHWNCE.wav"
+			//"shoot":""
 		}
 	}
 }

@@ -1,80 +1,80 @@
 {
-	"sw08neutralAirMessenger" : {
-		"name" : {
-			"singular" : "Air Messenger",
-			"plural" : "Air Messengers"
+	"sw08neutralAirMessenger": {
+		"name": {
+			"singular": "Air Messenger",
+			"plural": "Air Messengers"
 		},
-		"faction" : "sw08neutral",
-		"level" : 6,
-		"cost" : {
-			"gold" : 750
+		"faction": "sw08neutral",
+		"level": 6,
+		"cost": {
+			"gold": 750
 		},
-		"speed" : 7,
-		"hitPoints" : 35,
-		"shots" : 0,
-		"attack" : 7,
-		"defense" : 7,
-		"damage" : {
-			"min" : 2,
-			"max" : 8
+		"speed": 7,
+		"hitPoints": 35,
+		"shots": 0,
+		"attack": 7,
+		"defense": 7,
+		"damage": {
+			"min": 2,
+			"max": 8
 		},
-		"fightValue" : 775,
-		"aiValue" : 775,
-		"advMapAmount" : {
-			"min" : 8,
-			"max" : 10
+		"fightValue": 775,
+		"aiValue": 775,
+		"advMapAmount": {
+			"min": 8,
+			"max": 10
 		},
-		"growth" : 2,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability2" : {
-				"type" : "NON_LIVING"
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability2": {
+				"type": "NON_LIVING"
 			},
-			"ability3" : {
-				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "spellSchool.air"
+			"ability3": {
+				"type": "SPELL_SCHOOL_IMMUNITY",
+				"subtype": "spellSchool.air"
 			},
-			"ability4" : {
-				"type" : "SPELL_DAMAGE_REDUCTION",
-				"val" : 100,
-				"subtype" : "spellSchool.any"
+			"ability4": {
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"val": 100,
+				"subtype": "spellSchool.any"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08neutral-creatures/cprsmall.def:114",
-			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:114",
-			"map" : "sw08neutral-creatures/map/AVWelma0",
-			"animation" : "sw08neutral-creatures/battle/ZM166GD",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08neutral-creatures/cprsmall.def:114",
+			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:114",
+			"map": "sw08neutral-creatures/map/AVWelma0",
+			"animation": "sw08neutral-creatures/battle/ZM166GD",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "",
-				"offset" : {
-					"upperX" : 0,
-					"upperY" : 0,
-					"middleX" : 0,
-					"middleY" : 0,
-					"lowerX" : 0,
-					"lowerY" : 0
+			"missile": {
+				"projectile": "",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": 0,
+					"lowerY": 0
 				},
-				"frameAngles" : [],
-				"attackClimaxFrame" : 0
+				"frameAngles": [],
+				"attackClimaxFrame": 0
 			}
 		},
-		"sound" : {
-			"attack" : "sw08neutral/air elemental/AELMATTK.wav",
-			"defend" : "sw08neutral/air elemental/AELMDFND.wav",
-			"killed" : "sw08neutral/air elemental/AELMKILL.wav",
-			"move" : "sw08neutral/air elemental/AELMMOVE.wav",
-			"wince" : "sw08neutral/air elemental/AELMWNCE.wav",
-			"shoot" : "sw08neutral/air elemental/AELMSHOT.wav"
+		"sound": {
+			"attack": "sw08neutral/air elemental/AELMATTK.wav",
+			"defend": "sw08neutral/air elemental/AELMDFND.wav",
+			"killed": "sw08neutral/air elemental/AELMKILL.wav",
+			"move": "sw08neutral/air elemental/AELMMOVE.wav",
+			"wince": "sw08neutral/air elemental/AELMWNCE.wav",
+			"shoot": "sw08neutral/air elemental/AELMSHOT.wav"
 		}
 	}
 }

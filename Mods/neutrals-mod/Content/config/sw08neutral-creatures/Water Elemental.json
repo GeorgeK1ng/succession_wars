@@ -1,74 +1,74 @@
 {
-	"sw08neutralWaterElemental" : {
-		"name" : {
-			"singular" : "Water Elemental",
-			"plural" : "Water Elementals"
+	"sw08neutralWaterElemental": {
+		"name": {
+			"singular": "Water Elemental",
+			"plural": "Water Elementals"
 		},
-		"faction" : "sw08neutral",
-		"level" : 3,
-		"cost" : {
-			"gold" : 500
+		"faction": "sw08neutral",
+		"level": 3,
+		"cost": {
+			"gold": 500
 		},
-		"speed" : 5,
-		"hitPoints" : 45,
-		"shots" : 0,
-		"attack" : 6,
-		"defense" : 8,
-		"damage" : {
-			"min" : 3,
-			"max" : 7
+		"speed": 5,
+		"hitPoints": 45,
+		"shots": 0,
+		"attack": 6,
+		"defense": 8,
+		"damage": {
+			"min": 3,
+			"max": 7
 		},
-		"fightValue" : 315,
-		"aiValue" : 315,
-		"advMapAmount" : {
-			"min" : 13,
-			"max" : 25
+		"fightValue": 315,
+		"aiValue": 315,
+		"advMapAmount": {
+			"min": 13,
+			"max": 25
 		},
-		"growth" : 8,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "spellSchool.water"
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "SPELL_SCHOOL_IMMUNITY",
+				"subtype": "spellSchool.water"
 			},
-			"ability2" : {
-				"type" : "NON_LIVING"
+			"ability2": {
+				"type": "NON_LIVING"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08neutral-creatures/cprsmall.def:117",
-			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:117",
-			"map" : "sw08neutral-creatures/map/AVWelmw0",
-			"animation" : "sw08neutral-creatures/battle/c115ewat",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08neutral-creatures/cprsmall.def:117",
+			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:117",
+			"map": "sw08neutral-creatures/map/AVWelmw0",
+			"animation": "sw08neutral-creatures/battle/c115ewat",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "",
-				"offset" : {
-					"upperX" : 0,
-					"upperY" : 0,
-					"middleX" : 0,
-					"middleY" : 0,
-					"lowerX" : 0,
-					"lowerY" : 0
+			"missile": {
+				"projectile": "",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": 0,
+					"lowerY": 0
 				},
-				"frameAngles" : [],
-				"attackClimaxFrame" : 0
+				"frameAngles": [],
+				"attackClimaxFrame": 0
 			}
 		},
-		"sound" : {
-			"attack" : "sw08neutral/water elemental/WglmATTK.wav",
-			"defend" : "sw08neutral/water elemental/WglmDFND.wav",
-			"killed" : "sw08neutral/water elemental/WglmKILL.wav",
-			"move" : "sw08neutral/water elemental/WglmMOVE.wav",
-			"wince" : "sw08neutral/water elemental/WglmWNCE.wav"
+		"sound": {
+			"attack": "sw08neutral/water elemental/WglmATTK.wav",
+			"defend": "sw08neutral/water elemental/WglmDFND.wav",
+			"killed": "sw08neutral/water elemental/WglmKILL.wav",
+			"move": "sw08neutral/water elemental/WglmMOVE.wav",
+			"wince": "sw08neutral/water elemental/WglmWNCE.wav"
 		}
 	}
 }

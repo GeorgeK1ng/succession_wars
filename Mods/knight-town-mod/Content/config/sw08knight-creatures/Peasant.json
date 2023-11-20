@@ -1,65 +1,65 @@
 {
-	"sw08knightPeasant" : {
-		"name" : {
-			"singular" : "Peasant",
-			"plural" : "Peasants"
+	"sw08knightPeasant": {
+		"name": {
+			"singular": "Peasant",
+			"plural": "Peasants"
 		},
-		"faction" : "sw08knight",
-		"level" : 1,
-		"cost" : {
-			"gold" : 22
+		"faction": "sw08knight",
+		"level": 1,
+		"cost": {
+			"gold": 22
 		},
-		"speed" : 4,
-		"hitPoints" : 2,
-		"shots" : 0,
-		"attack" : 1,
-		"defense" : 1,
-		"damage" : {
-			"min" : 1,
-			"max" : 1
+		"speed": 4,
+		"hitPoints": 2,
+		"shots": 0,
+		"attack": 1,
+		"defense": 1,
+		"damage": {
+			"min": 1,
+			"max": 1
 		},
-		"fightValue" : 20,
-		"aiValue" : 16,
-		"advMapAmount" : {
-			"min" : 60,
-			"max" : 99
+		"fightValue": 20,
+		"aiValue": 16,
+		"advMapAmount": {
+			"min": 60,
+			"max": 99
 		},
-		"growth" : 20,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {},
-		"graphics" : {
-			"iconSmall" : "sw08knight-creatures/cprsmall.def:2",
-			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:2",
-			"map" : "sw08knight-creatures/map/avwpike",
-			"animation" : "sw08knight-creatures/battle/c000psnt",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"growth": 20,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {},
+		"graphics": {
+			"iconSmall": "sw08knight-creatures/cprsmall.def:2",
+			"iconLarge": "sw08knight-creatures/TWCRPORT.def:2",
+			"map": "sw08knight-creatures/map/avwpike",
+			"animation": "sw08knight-creatures/battle/c000psnt",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08knight-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 10
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
 			}
 		},
-		"sound" : {
-			"attack" : "sw08knight/peasant/pikeATTK.wav",
-			"defend" : "sw08knight/peasant/pikeDFND.wav",
-			"killed" : "sw08knight/peasant/pikeKILL.wav",
-			"move" : "sw08knight/peasant/pikeMOVE.wav",
-			"wince" : "sw08knight/peasant/pikeWNCE.wav"
+		"sound": {
+			"attack": "sw08knight/peasant/pikeATTK.wav",
+			"defend": "sw08knight/peasant/pikeDFND.wav",
+			"killed": "sw08knight/peasant/pikeKILL.wav",
+			"move": "sw08knight/peasant/pikeMOVE.wav",
+			"wince": "sw08knight/peasant/pikeWNCE.wav"
 		}
 	}
 }

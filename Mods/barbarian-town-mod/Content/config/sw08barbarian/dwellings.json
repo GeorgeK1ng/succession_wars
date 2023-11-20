@@ -8,8 +8,8 @@
 						"sw08barbarianGoblin"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08barbarianGoblin" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08barbarianGoblin" }
 				//				],
 				"templates": {
 					"default": {
@@ -39,8 +39,8 @@
 						"sw08barbarianOrcChief"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08barbarianOrcChief" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08barbarianOrcChief" }
 				//				],
 				"templates": {
 					"default": {
@@ -59,8 +59,8 @@
 						"sw08barbarianOrc"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08barbarianOrc" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08barbarianOrc" }
 				//				],
 				"templates": {
 					"PALM151": {
@@ -97,8 +97,8 @@
 						"sw08barbarianWolf"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08barbarianWolf" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08barbarianWolf" }
 				//				],
 				"templates": {
 					"default": {

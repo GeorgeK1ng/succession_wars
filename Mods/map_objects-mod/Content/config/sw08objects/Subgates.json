@@ -1,9 +1,9 @@
 {
 	"core:subterraneanGate": {
-		//"handler" : "subterraneanGate",
+		//"handler": "subterraneanGate",
 		"types": {
 			"object": {
-				//	"index" : 0,
+				//	"index": 0,
 				"name": "Subterranean Gate",
 				"templates": {
 					"sw08_AVTcave": {

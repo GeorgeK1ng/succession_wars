@@ -1,73 +1,73 @@
 {
-	"sw08oasisAnubite" : {
-		"name" : {
-			"singular" : "Anubite",
-			"plural" : "Anubites"
+	"sw08oasisAnubite": {
+		"name": {
+			"singular": "Anubite",
+			"plural": "Anubites"
 		},
-		"faction" : "sw08oasisfaction",
-		"level" : 6,
-		"cost" : {
-			"gold" : 850
+		"faction": "sw08oasisfaction",
+		"level": 6,
+		"cost": {
+			"gold": 850
 		},
-		"speed" : 6,
-		"hitPoints" : 70,
-		"shots" : 0,
-		"attack" : 10,
-		"defense" : 10,
-		"damage" : {
-			"min" : 12,
-			"max" : 16
+		"speed": 6,
+		"hitPoints": 70,
+		"shots": 0,
+		"attack": 10,
+		"defense": 10,
+		"damage": {
+			"min": 12,
+			"max": 16
 		},
-		"fightValue" : 1231,
-		"aiValue" : 1169,
-		"advMapAmount" : {
-			"min" : 7,
-			"max" : 10
+		"fightValue": 1231,
+		"aiValue": 1169,
+		"advMapAmount": {
+			"min": 7,
+			"max": 10
 		},
-		"growth" : 2,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability3" : {
-				"type" : "MIND_IMMUNITY"
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability3": {
+				"type": "MIND_IMMUNITY"
 			},
-			"abilit4" : {
-				"type" : "NON_LIVING"
+			"abilit4": {
+				"type": "NON_LIVING"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08oasis-creatures/cprsmall.def:116",
-			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:116",
-			"map" : "sw08oasis-creatures/map/AVWnrg",
-			"animation" : "sw08oasis-creatures/battle/c128anub",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08oasis-creatures/cprsmall.def:116",
+			"iconLarge": "sw08oasis-creatures/TWCRPORT.def:116",
+			"map": "sw08oasis-creatures/map/AVWnrg",
+			"animation": "sw08oasis-creatures/battle/c128anub",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08oasis-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 12
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 12
 			}
 		},
-		"sound" : {
-			"attack" : "Anubite/ANUBattk.wav",
-			"defend" : "Anubite/ANUBdfnd.wav",
-			"killed" : "Anubite/ANUBkill.wav",
-			"move" : "Anubite/ANUBmove.wav",
-			"wince" : "Anubite/ANUBwnce.wav"
-			// "shoot" :"Anubite/"
+		"sound": {
+			"attack": "Anubite/ANUBattk.wav",
+			"defend": "Anubite/ANUBdfnd.wav",
+			"killed": "Anubite/ANUBkill.wav",
+			"move": "Anubite/ANUBmove.wav",
+			"wince": "Anubite/ANUBwnce.wav"
+			// "shoot":"Anubite/"
 		}
 	}
 }

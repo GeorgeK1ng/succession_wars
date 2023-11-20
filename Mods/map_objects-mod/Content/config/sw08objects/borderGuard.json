@@ -1,11 +1,11 @@
 {
 	"core:borderGuard": {
-		//	"index" : 9,
-		//	"handler" : "borderGuard",
+		//	"index": 9,
+		//	"handler": "borderGuard",
 		"types": {
 			"sw08objects_lblue": {
 				"name": "Border Guard",
-				//		"index" : 0,
+				//		"index": 0,
 				"templates": {
 					"AVXBOR00": {
 						"animation": "sw08objects/borderGuard/AVXBOR00",
@@ -34,7 +34,7 @@
 			},
 			"sw08objects_green": {
 				"name": "Border Guard",
-				//		"index" : 1,
+				//		"index": 1,
 				"templates": {
 					"AVXBOR10": {
 						"animation": "sw08objects/borderGuard/AVXBOR10",
@@ -63,7 +63,7 @@
 			},
 			"sw08objects_red": {
 				"name": "Border Guard",
-				//		"index" : 2,
+				//		"index": 2,
 				"templates": {
 					"AVXBOR20": {
 						"animation": "sw08objects/borderGuard/AVXBOR20",
@@ -92,7 +92,7 @@
 			},
 			"sw08objects_dblue": {
 				"name": "Border Guard",
-				//	"index" : 3,
+				//	"index": 3,
 				"templates": {
 					"AVXBOR30": {
 						"animation": "sw08objects/borderGuard/AVXBOR30",
@@ -121,7 +121,7 @@
 			},
 			"sw08objects_brown": {
 				"name": "Border Guard",
-				//	"index" : 4,
+				//	"index": 4,
 				"templates": {
 					"AVXBOR40": {
 						"animation": "sw08objects/borderGuard/AVXBOR40",
@@ -150,7 +150,7 @@
 			},
 			"sw08objects_purple": {
 				"name": "Border Guard",
-				//	"index" : 5,
+				//	"index": 5,
 				"templates": {
 					"AVXBOR50": {
 						"animation": "sw08objects/borderGuard/AVXBOR50",
@@ -179,7 +179,7 @@
 			},
 			"sw08objects_white": {
 				"name": "Border Guard",
-				//	"index" : 6,
+				//	"index": 6,
 				"templates": {
 					"AVXBOR60": {
 						"animation": "sw08objects/borderGuard/AVXBOR60",
@@ -208,7 +208,7 @@
 			},
 			"sw08objects_black": {
 				"name": "Border Guard",
-				//"index" : 7,
+				//"index": 7,
 				"templates": {
 					"AVXBOR70": {
 						"animation": "sw08objects/borderGuard/AVXBOR70",
@@ -237,7 +237,7 @@
 			},
 			"sw08objects_none": {
 				"name": "Border Guard",
-				//	"index" : 8,
+				//	"index": 8,
 				"templates": {
 					"AVXbor80": {
 						"animation": "sw08objects/borderGuard/AVXbor80",

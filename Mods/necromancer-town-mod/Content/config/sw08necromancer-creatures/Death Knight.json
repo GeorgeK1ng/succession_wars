@@ -1,61 +1,61 @@
 {
-	"sw08necromancerDeathKnight" : {
-		"name" : {
-			"singular" : "Death Knight",
-			"plural" : "Death Knights"
+	"sw08necromancerDeathKnight": {
+		"name": {
+			"singular": "Death Knight",
+			"plural": "Death Knights"
 		},
-		"faction" : "swsw08necromancerfaction",
-		"level" : 5,
-		"cost" : {
-			"gold" : 550
+		"faction": "swsw08necromancerfaction",
+		"level": 5,
+		"cost": {
+			"gold": 550
 		},
-		"speed" : 5,
-		"hitPoints" : 50,
-		"shots" : 0,
-		"attack" : 9,
-		"defense" : 8,
-		"damage" : {
-			"min" : 7,
-			"max" : 11
+		"speed": 5,
+		"hitPoints": 50,
+		"shots": 0,
+		"attack": 9,
+		"defense": 8,
+		"damage": {
+			"min": 7,
+			"max": 11
 		},
-		"fightValue" : 639,
-		"aiValue" : 692,
-		"advMapAmount" : {
-			"min" : 6,
-			"max" : 12
+		"fightValue": 639,
+		"aiValue": 692,
+		"advMapAmount": {
+			"min": 6,
+			"max": 12
 		},
-		"growth" : 3,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "DOUBLE_DAMAGE_CHANCE",
-				"val" : 20
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 20
 			},
-			"ability2" : {
-				"type" : "UNDEAD"
+			"ability2": {
+				"type": "UNDEAD"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:66",
-			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:66",
-			"map" : "sw08necromancer-creatures/map/AVWlich0",
-			"animation" : "sw08necromancer-creatures/battle/c064dknt",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08necromancer-creatures/cprsmall.def:66",
+			"iconLarge": "sw08necromancer-creatures/TWCRPORT.def:66",
+			"map": "sw08necromancer-creatures/map/AVWlich0",
+			"animation": "sw08necromancer-creatures/battle/c064dknt",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			}
 		},
-		"sound" : {
-			"attack" : "sw08necromancer/Death Knight/LICHATTK.wav",
-			"defend" : "sw08necromancer/Death Knight/LICHDFND.wav",
-			"killed" : "sw08necromancer/Death Knight/LICHKILL.wav",
-			"move" : "sw08necromancer/Death Knight/LICHmove.wav",
-			"wince" : "sw08necromancer/Death Knight/LICHWNCE.wav"
-			//"shoot" :""
+		"sound": {
+			"attack": "sw08necromancer/Death Knight/LICHATTK.wav",
+			"defend": "sw08necromancer/Death Knight/LICHDFND.wav",
+			"killed": "sw08necromancer/Death Knight/LICHKILL.wav",
+			"move": "sw08necromancer/Death Knight/LICHmove.wav",
+			"wince": "sw08necromancer/Death Knight/LICHWNCE.wav"
+			//"shoot":""
 		}
 	}
 }

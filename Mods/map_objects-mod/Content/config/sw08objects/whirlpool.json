@@ -1,11 +1,11 @@
 {
 	"core:whirlpool": {
-		//"index" :111,
-		//	"handler" : "whirlpool",
-		//	"base" : {
-		//		"sounds" : {
-		//			"ambient" : ["LOOPWHIRL"],
-		//			"visit" : ["DANGER"]
+		//"index":111,
+		//	"handler": "whirlpool",
+		//	"base": {
+		//		"sounds": {
+		//			"ambient": ["LOOPWHIRL"],
+		//			"visit": ["DANGER"]
 		//		}
 		//	},
 		"types": {

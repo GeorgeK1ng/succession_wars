@@ -1,89 +1,89 @@
 {
-	"sw08warlockGreenDragon" : {
-		"name" : {
-			"singular" : "Green Dragon",
-			"plural" : "Green Dragons"
+	"sw08warlockGreenDragon": {
+		"name": {
+			"singular": "Green Dragon",
+			"plural": "Green Dragons"
 		},
-		"faction" : "swsw08warlockfaction",
-		"level" : 7,
-		"cost" : {
-			"gold" : 3000,
-			"sulfur" : 1
+		"faction": "swsw08warlockfaction",
+		"level": 7,
+		"cost": {
+			"gold": 3000,
+			"sulfur": 1
 		},
-		"speed" : 10,
-		"hitPoints" : 200,
-		"shots" : 0,
-		"attack" : 12,
-		"defense" : 12,
-		"damage" : {
-			"min" : 25,
-			"max" : 50
+		"speed": 10,
+		"hitPoints": 200,
+		"shots": 0,
+		"attack": 12,
+		"defense": 12,
+		"damage": {
+			"min": 25,
+			"max": 50
 		},
-		"fightValue" : 3231,
-		"aiValue" : 4062,
-		"advMapAmount" : {
-			"min" : 4,
-			"max" : 7
+		"fightValue": 3231,
+		"aiValue": 4062,
+		"advMapAmount": {
+			"min": 4,
+			"max": 7
 		},
-		"growth" : 1,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : true,
-		"upgrades" : [
+		"growth": 1,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"upgrades": [
 			"sw08warlockRedDragon"
 		],
-		"abilities" : {
-			"ability1" : {
-				"type" : "TWO_HEX_ATTACK_BREATH"
+		"abilities": {
+			"ability1": {
+				"type": "TWO_HEX_ATTACK_BREATH"
 			},
-			"ability2" : {
-				"type" : "DRAGON_NATURE"
+			"ability2": {
+				"type": "DRAGON_NATURE"
 			},
-			"ability3" : {
-				"type" : "KING",
-				"val" : 1,
-				"valueType" : "ADDITIVE_VALUE"
+			"ability3": {
+				"type": "KING",
+				"val": 1,
+				"valueType": "ADDITIVE_VALUE"
 			},
-			"ability4" : {
-				"type" : "FLYING"
+			"ability4": {
+				"type": "FLYING"
 			},
-			"ability5" : {
-				"type" : "LEVEL_SPELL_IMMUNITY",
-				"val" : 3
+			"ability5": {
+				"type": "LEVEL_SPELL_IMMUNITY",
+				"val": 3
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08warlock-creatures/cprsmall.def:83",
-			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:83",
-			"map" : "sw08warlock-creatures/map/AVWmanx0",
-			"animation" : "sw08warlock-creatures/battle/c081drg1",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08warlock-creatures/cprsmall.def:83",
+			"iconLarge": "sw08warlock-creatures/TWCRPORT.def:83",
+			"map": "sw08warlock-creatures/map/AVWmanx0",
+			"animation": "sw08warlock-creatures/battle/c081drg1",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08warlock-creatures/battle/CPRZEAX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08warlock-creatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 9
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
 			}
 		},
-		"sound" : {
-			"attack" : "sw08warlock/green dragon/GHDRATTK.wav",
-			"defend" : "sw08warlock/green dragon/GHDRDFND.wav",
-			"killed" : "sw08warlock/green dragon/GHDRKILL.wav",
-			"move" : "sw08warlock/green dragon/GHDRMOVE.wav",
-			"wince" : "sw08warlock/green dragon/GHDRWNCE.wav",
-			"shoot" : "sw08warlock/green dragon/GHDRATTK.wav"
+		"sound": {
+			"attack": "sw08warlock/green dragon/GHDRATTK.wav",
+			"defend": "sw08warlock/green dragon/GHDRDFND.wav",
+			"killed": "sw08warlock/green dragon/GHDRKILL.wav",
+			"move": "sw08warlock/green dragon/GHDRMOVE.wav",
+			"wince": "sw08warlock/green dragon/GHDRWNCE.wav",
+			"shoot": "sw08warlock/green dragon/GHDRATTK.wav"
 		}
 	}
 }

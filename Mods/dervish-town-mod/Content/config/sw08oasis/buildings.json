@@ -280,14 +280,14 @@
 					}
 				},
 				//  "special2":                 {
-				//                   "id" : 21,
+				//                   "id": 21,
 				//                    "cost": {
-				//                        "wood" : 10,
-				//                        "gold" : 2000
+				//                        "wood": 10,
+				//                        "gold": 2000
 				//                    },
 				//                   "requires": ["allOf" , ["mageGuild1"]],
-				//"description" : "At the foot of the Sphinx you can pay to learn any, or all, of the four schools of magic, for fee 2000 gold each.",
-				//					"name" : "Sphinx"
+				//"description": "At the foot of the Sphinx you can pay to learn any, or all, of the four schools of magic, for fee 2000 gold each.",
+				//					"name": "Sphinx"
 				//               },
 				"grail": {
 					"name": "Magic Shining",

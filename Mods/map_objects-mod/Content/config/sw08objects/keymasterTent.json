@@ -2,7 +2,7 @@
 	"core:keymasterTent": {
 		"types": {
 			"sw08objects_lblue": {
-				//	"index" : 0,
+				//	"index": 0,
 				"name": "Keymaster Tent",
 				"templates": {
 					"AVXkey00": {
@@ -31,7 +31,7 @@
 				}
 			},
 			"sw08objects_green": {
-				//	"index" : 1,
+				//	"index": 1,
 				"name": "Keymaster Tent",
 				"templates": {
 					"AVXkey10": {
@@ -60,7 +60,7 @@
 				}
 			},
 			"sw08objects_red": {
-				//	"index" : 2,
+				//	"index": 2,
 				"name": "Keymaster Tent",
 				"templates": {
 					"FALF0146": {
@@ -89,7 +89,7 @@
 				}
 			},
 			"sw08objects_dblue": {
-				//	"index" : 3,
+				//	"index": 3,
 				"name": "Keymaster Tent",
 				"templates": {
 					"FALF0147": {
@@ -118,7 +118,7 @@
 				}
 			},
 			"sw08objects_brown": {
-				//	"index" : 4,
+				//	"index": 4,
 				"name": "Keymaster Tent",
 				"templates": {
 					"FALF0148": {
@@ -147,7 +147,7 @@
 				}
 			},
 			"sw08objects_purple": {
-				//	"index" : 5,
+				//	"index": 5,
 				"name": "Keymaster Tent",
 				"templates": {
 					"FALF0149": {
@@ -176,7 +176,7 @@
 				}
 			},
 			"sw08objects_white": {
-				//	"index" : 6,
+				//	"index": 6,
 				"name": "Keymaster Tent",
 				"templates": {
 					"FALF0150": {
@@ -205,7 +205,7 @@
 				}
 			},
 			"sw08objects_black": {
-				//	"index" : 7,
+				//	"index": 7,
 				"name": "Keymaster Tent",
 				"templates": {
 					"FALF0151": {
@@ -233,13 +233,13 @@
 					}
 				}
 			}
-			//			"none" :  { 
-			//			"index" : 8 ,
-			//				"templates" : {
+			//			"none":  { 
+			//			"index": 8 ,
+			//				"templates": {
 			//				
-			//					"avxwbor8" : { "animation" : "sw08objects/keymasterTent/avxwbor8", 
-			//					"visitableFrom" : [ "---", "+++", "+++" ], 
-			//					"mask" : [ "VV","VA"]
+			//					"avxwbor8": { "animation": "sw08objects/keymasterTent/avxwbor8", 
+			//					"visitableFrom": [ "---", "+++", "+++" ], 
+			//					"mask": [ "VV","VA"]
 			//					}			
 			//			} }
 		}

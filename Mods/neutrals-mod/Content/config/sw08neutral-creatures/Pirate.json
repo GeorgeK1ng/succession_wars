@@ -1,74 +1,74 @@
 {
-	"sw08neutralPirate" : {
-		"name" : {
-			"singular" : "Pirate",
-			"plural" : "Pirates"
+	"sw08neutralPirate": {
+		"name": {
+			"singular": "Pirate",
+			"plural": "Pirates"
 		},
-		"faction" : "sw08neutral",
-		"level" : 4,
-		"cost" : {
-			"gold" : 300
+		"faction": "sw08neutral",
+		"level": 4,
+		"cost": {
+			"gold": 300
 		},
-		"speed" : 6,
-		"hitPoints" : 26,
-		"shots" : 0,
-		"attack" : 7,
-		"defense" : 5,
-		"damage" : {
-			"min" : 4,
-			"max" : 5
+		"speed": 6,
+		"hitPoints": 26,
+		"shots": 0,
+		"attack": 7,
+		"defense": 5,
+		"damage": {
+			"min": 4,
+			"max": 5
 		},
-		"fightValue" : 690,
-		"aiValue" : 517,
-		"advMapAmount" : {
-			"min" : 4,
-			"max" : 27
+		"fightValue": 690,
+		"aiValue": 517,
+		"advMapAmount": {
+			"min": 4,
+			"max": 27
 		},
-		"growth" : 6,
-		"horde" : 6,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "MOVEMENT",
-				"subtype" : "heroMovementSea",
-				"valueType" : "ADDITIVE_VALUE",
-				"val" : 200,
-				"propagator" : "HERO"
+		"growth": 6,
+		"horde": 6,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "MOVEMENT",
+				"subtype": "heroMovementSea",
+				"valueType": "ADDITIVE_VALUE",
+				"val": 200,
+				"propagator": "HERO"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08neutral-creatures/cprsmall.def:140",
-			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:140",
-			"map" : "sw08neutral-creatures/map/AVWhalf",
-			"animation" : "sw08neutral-creatures/battle/c138pira",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08neutral-creatures/cprsmall.def:140",
+			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:140",
+			"map": "sw08neutral-creatures/map/AVWhalf",
+			"animation": "sw08neutral-creatures/battle/c138pira",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "",
-				"offset" : {
-					"upperX" : 0,
-					"upperY" : 0,
-					"middleX" : 0,
-					"middleY" : 0,
-					"lowerX" : 0,
-					"lowerY" : 0
+			"missile": {
+				"projectile": "",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": 0,
+					"lowerY": 0
 				},
-				"frameAngles" : [],
-				"attackClimaxFrame" : 0
+				"frameAngles": [],
+				"attackClimaxFrame": 0
 			}
 		},
-		"sound" : {
-			"attack" : "sw08neutral/pirate/HALFATTK.wav",
-			"defend" : "sw08neutral/pirate/HALFDFND.wav",
-			"killed" : "sw08neutral/pirate/HALFKILL.wav",
-			"move" : "sw08neutral/pirate/HALFMOVE.wav",
-			"wince" : "sw08neutral/pirate/HALFWNCE.wav"
+		"sound": {
+			"attack": "sw08neutral/pirate/HALFATTK.wav",
+			"defend": "sw08neutral/pirate/HALFDFND.wav",
+			"killed": "sw08neutral/pirate/HALFKILL.wav",
+			"move": "sw08neutral/pirate/HALFMOVE.wav",
+			"wince": "sw08neutral/pirate/HALFWNCE.wav"
 		}
 	}
 }

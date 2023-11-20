@@ -4,7 +4,7 @@
 			"sw08decorRock01": {
 				"name": "Crystals",
 				"rmg": {
-					//"zoneLimit" : 1,
+					//"zoneLimit": 1,
 					"value": 100,
 					"rarity": 100
 				},

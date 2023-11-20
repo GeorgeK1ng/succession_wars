@@ -1,77 +1,77 @@
 {
-	"sw08necromancerMutantZombie" : {
-		"name" : {
-			"singular" : "Mutant Zombie",
-			"plural" : "Mutant Zombies"
+	"sw08necromancerMutantZombie": {
+		"name": {
+			"singular": "Mutant Zombie",
+			"plural": "Mutant Zombies"
 		},
-		"faction" : "swsw08necromancerfaction",
-		"level" : 2,
-		"cost" : {
-			"gold" : 145
+		"faction": "swsw08necromancerfaction",
+		"level": 2,
+		"cost": {
+			"gold": 145
 		},
-		"speed" : 5,
-		"hitPoints" : 20,
-		"shots" : 0,
-		"attack" : 5,
-		"defense" : 2,
-		"damage" : {
-			"min" : 2,
-			"max" : 3
+		"speed": 5,
+		"hitPoints": 20,
+		"shots": 0,
+		"attack": 5,
+		"defense": 2,
+		"damage": {
+			"min": 2,
+			"max": 3
 		},
-		"fightValue" : 169,
-		"aiValue" : 164,
-		"advMapAmount" : {
-			"min" : 15,
-			"max" : 30
+		"fightValue": 169,
+		"aiValue": 164,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
 		},
-		"growth" : 9,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "UNDEAD"
+		"growth": 9,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
 			},
-			"ability2" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.disease",
-				"val" : 20,
-				"addInfo" : 0
+			"ability2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 20,
+				"addInfo": 0
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:61",
-			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:61",
-			"map" : "sw08necromancer-creatures/map/AVWzomx0",
-			"animation" : "sw08necromancer-creatures/battle/c059uzmb",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08necromancer-creatures/cprsmall.def:61",
+			"iconLarge": "sw08necromancer-creatures/TWCRPORT.def:61",
+			"map": "sw08necromancer-creatures/map/AVWzomx0",
+			"animation": "sw08necromancer-creatures/battle/c059uzmb",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08necromancer-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08necromancer-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 10
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
 			}
 		},
-		"sound" : {
-			"attack" : "sw08necromancer/mutant zombie/ZMBLATTK.wav",
-			"defend" : "sw08necromancer/mutant zombie/ZMBLDFND.wav",
-			"killed" : "sw08necromancer/mutant zombie/ZMBLKILL.wav",
-			"move" : "sw08necromancer/mutant zombie/ZMBLMOVE.wav",
-			"wince" : "sw08necromancer/mutant zombie/ZMBLWNCE.wav"
-			//"shoot" :""
+		"sound": {
+			"attack": "sw08necromancer/mutant zombie/ZMBLATTK.wav",
+			"defend": "sw08necromancer/mutant zombie/ZMBLDFND.wav",
+			"killed": "sw08necromancer/mutant zombie/ZMBLKILL.wav",
+			"move": "sw08necromancer/mutant zombie/ZMBLMOVE.wav",
+			"wince": "sw08necromancer/mutant zombie/ZMBLWNCE.wav"
+			//"shoot":""
 		}
 	}
 }

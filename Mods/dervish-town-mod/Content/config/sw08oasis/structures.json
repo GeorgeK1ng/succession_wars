@@ -179,7 +179,7 @@
 					"z": 2,
 					"hidden": true
 				},
-				//"special2":{  "animation" : "sw08oasis/town-screen/buildings/TBELEXT6", "x" : 320, "y" : 30, "z" : 3,  "border" : "sw08oasis/town-screen/buildings-border/TOELEXT6.bmp", "area" : "sw08oasis/town-screen/buildings-area/TZELEXT6.bmp" },
+				//"special2":{  "animation": "sw08oasis/town-screen/buildings/TBELEXT6", "x": 320, "y": 30, "z": 3,  "border": "sw08oasis/town-screen/buildings-border/TOELEXT6.bmp", "area": "sw08oasis/town-screen/buildings-area/TZELEXT6.bmp" },
 				"grail": {
 					"animation": "sw08oasis/town-screen/buildings/TBELHoly",
 					"border": "sw08oasis/town-screen/buildings-border/TOELHoly.bmp",

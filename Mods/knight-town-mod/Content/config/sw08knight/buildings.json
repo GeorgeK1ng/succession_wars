@@ -312,36 +312,36 @@
 					}
 				},
 				//"grail":                {
-				//                    "id" : 26,
-				//                   "mode" : "grail",
+				//                    "id": 26,
+				//                   "mode": "grail",
 				//					"produce": {
-				//					    "gold" : 5000
+				//					    "gold": 5000
 				//					},
-				//"description" : "Colossus increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
-				//					"name" : "Colossus"
+				//"description": "Colossus increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+				//					"name": "Colossus"
 				//                },
 				//"extraTownHall":                {
-				//                   "id" : 27, "name" : "Extra Town Hall", "description" : "Extra town hall appearance",
+				//                   "id": 27, "name": "Extra Town Hall", "description": "Extra town hall appearance",
 				//                   "requires": ["allOf" , ["townHall"] , ["extraTownHall"]],
-				//                   "mode" : "auto",
+				//                   "mode": "auto",
 				//                   "cost": {
-				//                       "gold" : 1000
+				//                       "gold": 1000
 				//                   }
 				//               },
 				//"extraCityHall":                {
-				//                    "id" : 28, "name" : "Extra City Hall", "description" : "Extra city hall appearance",
+				//                    "id": 28, "name": "Extra City Hall", "description": "Extra city hall appearance",
 				///                    "requires": ["allOf" , ["cityHall"] , ["extraCityHall"]],
-				//                    "mode" : "auto",
+				//                    "mode": "auto",
 				//                    "cost": {
-				//                        "gold" : 1000
+				//                        "gold": 1000
 				//                    }
 				//                },
 				//"extraCapitol":                {
-				//                    "id" : 29, "name" : "Extra Capitol", "description" : "Extra capitol appearance",
+				//                    "id": 29, "name": "Extra Capitol", "description": "Extra capitol appearance",
 				//                    "requires": ["allOf" , ["capitol"] , ["extraCapitol"]],
-				//                    "mode" : "auto",
+				//                    "mode": "auto",
 				//                    "cost": {
-				//                        "gold" : 1000
+				//                        "gold": 1000
 				//                    }
 				//                },
 				"dwellingLvl1": {
@@ -477,14 +477,14 @@
 					}
 				},
 				//"dwellingUpLvl1":                {
-				//                   "id" : 37,
-				//                   "upgrades" : "dwellingLvl1",
+				//                   "id": 37,
+				//                   "upgrades": "dwellingLvl1",
 				//                    "cost": {
-				//                      "gold" : 800,
-				//                       "wood" : 5
+				//                      "gold": 800,
+				//                       "wood": 5
 				//                   },
-				//"description" : "Upg. Thatched Hut allows to recruit Brutes.",
-				//					"name" : "Upg. Thatched Hut"
+				//"description": "Upg. Thatched Hut allows to recruit Brutes.",
+				//					"name": "Upg. Thatched Hut"
 				//                },
 				"dwellingUpLvl2": {
 					"name": "Upg. Archery Range",

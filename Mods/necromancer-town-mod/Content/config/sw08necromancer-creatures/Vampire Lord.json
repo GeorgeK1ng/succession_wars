@@ -1,81 +1,81 @@
 {
-	"sw08necromancerVampireLord" : {
-		"name" : {
-			"singular" : "Vampire Lord",
-			"plural" : "Vampire Lords"
+	"sw08necromancerVampireLord": {
+		"name": {
+			"singular": "Vampire Lord",
+			"plural": "Vampire Lords"
 		},
-		"faction" : "swsw08necromancerfaction",
-		"level" : 4,
-		"cost" : {
-			"gold" : 620
+		"faction": "swsw08necromancerfaction",
+		"level": 4,
+		"cost": {
+			"gold": 620
 		},
-		"speed" : 7,
-		"hitPoints" : 40,
-		"shots" : 0,
-		"attack" : 8,
-		"defense" : 6,
-		"damage" : {
-			"min" : 5,
-			"max" : 7
+		"speed": 7,
+		"hitPoints": 40,
+		"shots": 0,
+		"attack": 8,
+		"defense": 6,
+		"damage": {
+			"min": 5,
+			"max": 7
 		},
-		"fightValue" : 437,
-		"aiValue" : 460,
-		"advMapAmount" : {
-			"min" : 8,
-			"max" : 12
+		"fightValue": 437,
+		"aiValue": 460,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
 		},
-		"growth" : 3,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "UNDEAD"
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
 			},
-			"ability2" : {
-				"type" : "BLOCKS_RETALIATION"
+			"ability2": {
+				"type": "BLOCKS_RETALIATION"
 			},
-			"ability3" : {
-				"type" : "LIFE_DRAIN",
-				"val" : 100
+			"ability3": {
+				"type": "LIFE_DRAIN",
+				"val": 100
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:65",
-			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:65",
-			"map" : "sw08necromancer-creatures/map/AVWvamx0",
-			"animation" : "sw08necromancer-creatures/battle/c063uvmp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08necromancer-creatures/cprsmall.def:65",
+			"iconLarge": "sw08necromancer-creatures/TWCRPORT.def:65",
+			"map": "sw08necromancer-creatures/map/AVWvamx0",
+			"animation": "sw08necromancer-creatures/battle/c063uvmp",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08necromancer-creatures/battle/CPRGOGX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08necromancer-creatures/battle/CPRGOGX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 6
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 6
 			}
 		},
-		"sound" : {
-			"attack" : "sw08necromancer/vampire lord/NOSFATTK.wav",
-			"defend" : "sw08necromancer/vampire lord/NOSFDFND.wav",
-			"killed" : "sw08necromancer/vampire lord/NOSFKILL.wav",
-			"move" : "sw08necromancer/vampire lord/NOSFMOVE.wav",
-			"wince" : "sw08necromancer/vampire lord/NOSFWNCE.wav",
-			"shoot" : "sw08necromancer/vampire lord/NOSFSHOT.wav"
-			// "ext1" : "vampire lord/NOSFEXT1.wav",
+		"sound": {
+			"attack": "sw08necromancer/vampire lord/NOSFATTK.wav",
+			"defend": "sw08necromancer/vampire lord/NOSFDFND.wav",
+			"killed": "sw08necromancer/vampire lord/NOSFKILL.wav",
+			"move": "sw08necromancer/vampire lord/NOSFMOVE.wav",
+			"wince": "sw08necromancer/vampire lord/NOSFWNCE.wav",
+			"shoot": "sw08necromancer/vampire lord/NOSFSHOT.wav"
+			// "ext1": "vampire lord/NOSFEXT1.wav",
 			// let's hope this ext works
-			// "ext1" : "vampire lord/NOSFEXT2.wav"
+			// "ext1": "vampire lord/NOSFEXT2.wav"
 		}
 	}
 }

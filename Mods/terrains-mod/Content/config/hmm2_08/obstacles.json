@@ -1,5 +1,5 @@
 {
-	"hmm2obstacle0": { //"id" : 0,
+	"hmm2obstacle0": { //"id": 0,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -10,7 +10,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObDino1.def"
 	},
-	"hmm2obstacle1": { //"id" : 1,
+	"hmm2obstacle1": { //"id": 1,
 		"allowedTerrains": [
 			"dirt",
 			"sand",
@@ -27,7 +27,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObDino2.def"
 	},
-	"hmm2obstacle2": { //"id" : 2,
+	"hmm2obstacle2": { //"id": 2,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -38,7 +38,7 @@
 		"blockedTiles": [0, 1, -14, -15, -16],
 		"animation": "hmm2obstacles/ObDino3.def"
 	},
-	"hmm2obstacle3": { //"id" : 3,
+	"hmm2obstacle3": { //"id": 3,
 		"allowedTerrains": [
 			"dirt",
 			"rough"
@@ -52,7 +52,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObSkel1.def"
 	},
-	"hmm2obstacle4": { //"id" : 4,
+	"hmm2obstacle4": { //"id": 4,
 		"allowedTerrains": [
 			"dirt",
 			"rough",
@@ -68,7 +68,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObSkel2.def"
 	},
-	"hmm2obstacle5": { //"id" : 5,
+	"hmm2obstacle5": { //"id": 5,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -79,7 +79,7 @@
 		"blockedTiles": [1, 2, 3],
 		"animation": "hmm2obstacles/ObBDT01.def"
 	},
-	"hmm2obstacle6": { //"id" : 6,
+	"hmm2obstacle6": { //"id": 6,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -90,7 +90,7 @@
 		"blockedTiles": [-15, -16],
 		"animation": "hmm2obstacles/ObDRk01.def"
 	},
-	"hmm2obstacle7": { //"id" : 7,
+	"hmm2obstacle7": { //"id": 7,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -101,7 +101,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObDRk02.def"
 	},
-	"hmm2obstacle8": { //"id" : 8,
+	"hmm2obstacle8": { //"id": 8,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -112,7 +112,7 @@
 		"blockedTiles": [-16],
 		"animation": "hmm2obstacles/ObDRk03.def"
 	},
-	"hmm2obstacle9": { //"id" : 9,
+	"hmm2obstacle9": { //"id": 9,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -123,7 +123,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObDRk04.def"
 	},
-	"hmm2obstacle10": { //"id" : 10,
+	"hmm2obstacle10": { //"id": 10,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -134,7 +134,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObDSh01.def"
 	},
-	"hmm2obstacle11": { //"id" : 11,
+	"hmm2obstacle11": { //"id": 11,
 		"allowedTerrains": [
 			"dirt"
 		],
@@ -145,7 +145,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObDTF03.def"
 	},
-	"hmm2obstacle12": { //"id" : 12,
+	"hmm2obstacle12": { //"id": 12,
 		"allowedTerrains": [
 			"dirt",
 			"rough"
@@ -159,7 +159,7 @@
 		"blockedTiles": [0, 1, 2, 3],
 		"animation": "hmm2obstacles/ObDtS03.def"
 	},
-	"hmm2obstacle13": { //"id" : 13,
+	"hmm2obstacle13": { //"id": 13,
 		"allowedTerrains": [
 			"dirt",
 			"rough"
@@ -173,7 +173,7 @@
 		"blockedTiles": [1, 2, -15],
 		"animation": "hmm2obstacles/ObDtS04.def"
 	},
-	"hmm2obstacle14": { //"id" : 14,
+	"hmm2obstacle14": { //"id": 14,
 		"allowedTerrains": [
 			"dirt",
 			"rough"
@@ -187,7 +187,7 @@
 		"blockedTiles": [2, -15, -16],
 		"animation": "hmm2obstacles/ObDtS14.def"
 	},
-	"hmm2obstacle15": { //"id" : 15,
+	"hmm2obstacle15": { //"id": 15,
 		"allowedTerrains": [
 			"dirt",
 			"rough"
@@ -201,7 +201,7 @@
 		"blockedTiles": [1, -16, -33],
 		"animation": "hmm2obstacles/ObDtS15.def"
 	},
-	"hmm2obstacle16": { //"id" : 16,
+	"hmm2obstacle16": { //"id": 16,
 		"allowedTerrains": [
 			"hmm2desert",
 			"sand"
@@ -213,7 +213,7 @@
 		"blockedTiles": [-15, -16, -32, -33, -48, -49],
 		"animation": "hmm2obstacles/ObDsM01.def"
 	},
-	"hmm2obstacle17": { //"id" : 17,
+	"hmm2obstacle17": { //"id": 17,
 		"allowedTerrains": [
 			"hmm2desert",
 			"sand"
@@ -225,7 +225,7 @@
 		"blockedTiles": [1, -15, -16],
 		"animation": "hmm2obstacles/ObDsS02.def"
 	},
-	"hmm2obstacle18": { //"id" : 18,
+	"hmm2obstacle18": { //"id": 18,
 		"allowedTerrains": [
 			"hmm2desert",
 			"sand"
@@ -237,7 +237,7 @@
 		"blockedTiles": [1, 2, 3, -15, -16],
 		"animation": "hmm2obstacles/ObDsS17.def"
 	},
-	"hmm2obstacle19": { //"id" : 19,
+	"hmm2obstacle19": { //"id": 19,
 		"allowedTerrains": [
 			"grass",
 			"swamp"
@@ -249,7 +249,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObGLg01.def"
 	},
-	"hmm2obstacle20": { //"id" : 20,
+	"hmm2obstacle20": { //"id": 20,
 		"allowedTerrains": [
 			"grass",
 			"swamp"
@@ -263,7 +263,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObGRk01.def"
 	},
-	"hmm2obstacle21": { //"id" : 21,
+	"hmm2obstacle21": { //"id": 21,
 		"allowedTerrains": [
 			"grass",
 			"swamp"
@@ -275,7 +275,7 @@
 		"blockedTiles": [0],
 		"animation": "hmm2obstacles/ObGSt01.def"
 	},
-	"hmm2obstacle22": { //"id" : 22,
+	"hmm2obstacle22": { //"id": 22,
 		"allowedTerrains": [
 			"grass"
 		],
@@ -288,7 +288,7 @@
 		"blockedTiles": [1, 2, 3, 4, -13, -14, -15, -16],
 		"animation": "hmm2obstacles/ObGrS01.def"
 	},
-	"hmm2obstacle23": { //"id" : 23,
+	"hmm2obstacle23": { //"id": 23,
 		"allowedTerrains": [
 			"grass"
 		],
@@ -299,7 +299,7 @@
 		"blockedTiles": [1, 2],
 		"animation": "hmm2obstacles/OBGrS02.def"
 	},
-	"hmm2obstacle24": { //"id" : 24,
+	"hmm2obstacle24": { //"id": 24,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -310,7 +310,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObSnS01.def"
 	},
-	"hmm2obstacle25": { //"id" : 25,
+	"hmm2obstacle25": { //"id": 25,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -321,7 +321,7 @@
 		"blockedTiles": [1, 2, 3, 4],
 		"animation": "hmm2obstacles/ObSnS02.def"
 	},
-	"hmm2obstacle26": { //"id" : 26,
+	"hmm2obstacle26": { //"id": 26,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -332,7 +332,7 @@
 		"blockedTiles": [0, -16, -33],
 		"animation": "hmm2obstacles/ObSnS03.def"
 	},
-	"hmm2obstacle27": { //"id" : 27,
+	"hmm2obstacle27": { //"id": 27,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -343,7 +343,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObSnS04.def"
 	},
-	"hmm2obstacle28": { //"id" : 28,
+	"hmm2obstacle28": { //"id": 28,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -354,7 +354,7 @@
 		"blockedTiles": [1],
 		"animation": "hmm2obstacles/ObSnS05.def"
 	},
-	"hmm2obstacle29": { //"id" : 29,
+	"hmm2obstacle29": { //"id": 29,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -365,7 +365,7 @@
 		"blockedTiles": [1, 2],
 		"animation": "hmm2obstacles/ObSnS06.def"
 	},
-	"hmm2obstacle30": { //"id" : 30,
+	"hmm2obstacle30": { //"id": 30,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -376,7 +376,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObSnS07.def"
 	},
-	"hmm2obstacle31": { //"id" : 31,
+	"hmm2obstacle31": { //"id": 31,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -387,7 +387,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObSnS08.def"
 	},
-	"hmm2obstacle32": { //"id" : 32,
+	"hmm2obstacle32": { //"id": 32,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -398,7 +398,7 @@
 		"blockedTiles": [2, 3, 4, 5, -13, -14, -15, -16],
 		"animation": "hmm2obstacles/ObSnS09.def"
 	},
-	"hmm2obstacle33": { //"id" : 33,
+	"hmm2obstacle33": { //"id": 33,
 		"allowedTerrains": [
 			"snow"
 		],
@@ -409,7 +409,7 @@
 		"blockedTiles": [3, -13, -14, -15, -33, -49, -66],
 		"animation": "hmm2obstacles/ObSnS10.def"
 	},
-	"hmm2obstacle34": { //"id" : 34,
+	"hmm2obstacle34": { //"id": 34,
 		"allowedTerrains": [
 			"swamp"
 		],
@@ -420,7 +420,7 @@
 		"blockedTiles": [0],
 		"animation": "hmm2obstacles/ObSwS01.def"
 	},
-	"hmm2obstacle35": { //"id" : 35,
+	"hmm2obstacle35": { //"id": 35,
 		"allowedTerrains": [
 			"swamp"
 		],
@@ -431,7 +431,7 @@
 		"blockedTiles": [-10, -11, -12, -13, -14, -15, -16],
 		"animation": "hmm2obstacles/ObSwS02.def"
 	},
-	"hmm2obstacle36": { //"id" : 36,
+	"hmm2obstacle36": { //"id": 36,
 		"allowedTerrains": [
 			"swamp"
 		],
@@ -442,7 +442,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObSwS03.def"
 	},
-	"hmm2obstacle37": { //"id" : 37,
+	"hmm2obstacle37": { //"id": 37,
 		"allowedTerrains": [
 			"swamp"
 		],
@@ -453,7 +453,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObSwS04.def"
 	},
-	"hmm2obstacle38": { //"id" : 38,
+	"hmm2obstacle38": { //"id": 38,
 		"allowedTerrains": [
 			"swamp"
 		],
@@ -464,7 +464,7 @@
 		"blockedTiles": [-13, -14, -15, -16, -30, -31, -32, -33],
 		"animation": "hmm2obstacles/ObSwS11b.def"
 	},
-	"hmm2obstacle39": { //"id" : 39,
+	"hmm2obstacle39": { //"id": 39,
 		"allowedTerrains": [
 			"swamp"
 		],
@@ -475,7 +475,7 @@
 		"blockedTiles": [-16, -17, -31, -32, -33, -34],
 		"animation": "hmm2obstacles/ObSwS13a.def"
 	},
-	"hmm2obstacle40": { //"id" : 40,
+	"hmm2obstacle40": { //"id": 40,
 		"allowedTerrains": [
 			"rough"
 		],
@@ -488,7 +488,7 @@
 		"blockedTiles": [0, 1, -16],
 		"animation": "hmm2obstacles/ObRgS01.def"
 	},
-	"hmm2obstacle41": { //"id" : 41,
+	"hmm2obstacle41": { //"id": 41,
 		"allowedTerrains": [
 			"rough"
 		],
@@ -501,7 +501,7 @@
 		"blockedTiles": [-14, -15, -16, -32, -33],
 		"animation": "hmm2obstacles/ObRgS02.def"
 	},
-	"hmm2obstacle42": { //"id" : 42,
+	"hmm2obstacle42": { //"id": 42,
 		"allowedTerrains": [
 			"rough"
 		],
@@ -514,7 +514,7 @@
 		"blockedTiles": [1, 2, -15, -16],
 		"animation": "hmm2obstacles/ObRgS03.def"
 	},
-	"hmm2obstacle43": { //"id" : 43,
+	"hmm2obstacle43": { //"id": 43,
 		"allowedTerrains": [
 			"rough"
 		],
@@ -527,7 +527,7 @@
 		"blockedTiles": [-16, -32, -33],
 		"animation": "hmm2obstacles/ObRgS04.def"
 	},
-	"hmm2obstacle44": { //"id" : 44,
+	"hmm2obstacle44": { //"id": 44,
 		"allowedTerrains": [
 			"rough"
 		],
@@ -540,7 +540,7 @@
 		"blockedTiles": [-15, -16, -32],
 		"animation": "hmm2obstacles/ObRgS05.def"
 	},
-	"hmm2obstacle45": { //"id" : 45,
+	"hmm2obstacle45": { //"id": 45,
 		"allowedTerrains": [
 			"subterra"
 		],
@@ -551,7 +551,7 @@
 		"blockedTiles": [0, 1, 2, -15, -16],
 		"animation": "hmm2obstacles/ObSuS01.def"
 	},
-	"hmm2obstacle46": { //"id" : 46,
+	"hmm2obstacle46": { //"id": 46,
 		"allowedTerrains": [
 			"subterra"
 		],
@@ -562,7 +562,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObSuS02.def"
 	},
-	"hmm2obstacle47": { //"id" : 47,
+	"hmm2obstacle47": { //"id": 47,
 		"allowedTerrains": [
 			"subterra"
 		],
@@ -573,7 +573,7 @@
 		"blockedTiles": [0, 1, 2, 3, -14, -15, -16],
 		"animation": "hmm2obstacles/ObSuS11b.def"
 	},
-	"hmm2obstacle48": { //"id" : 48,
+	"hmm2obstacle48": { //"id": 48,
 		"allowedTerrains": [
 			"lava"
 		],
@@ -584,7 +584,7 @@
 		"blockedTiles": [-14, -32, -33],
 		"animation": "hmm2obstacles/ObLvS01.def"
 	},
-	"hmm2obstacle49": { //"id" : 49,
+	"hmm2obstacle49": { //"id": 49,
 		"allowedTerrains": [
 			"lava"
 		],
@@ -595,7 +595,7 @@
 		"blockedTiles": [0, 1, 2, -14, -15, -16],
 		"animation": "hmm2obstacles/ObLvS02.def"
 	},
-	"hmm2obstacle50": { //"id" : 50,
+	"hmm2obstacle50": { //"id": 50,
 		"allowedTerrains": [
 			"lava"
 		],
@@ -606,7 +606,7 @@
 		"blockedTiles": [-13, -14, -15, -30, -31, -32, -33],
 		"animation": "hmm2obstacles/ObLvS03.def"
 	},
-	"hmm2obstacle51": { //"id" : 51,
+	"hmm2obstacle51": { //"id": 51,
 		"allowedTerrains": [
 			"lava"
 		],
@@ -617,7 +617,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObLvS04.def"
 	},
-	"hmm2obstacle52": { //"id" : 52,
+	"hmm2obstacle52": { //"id": 52,
 		"allowedTerrains": [
 			"lava"
 		],
@@ -628,7 +628,7 @@
 		"blockedTiles": [-14, -15, -32, -33, -49, -50],
 		"animation": "hmm2obstacles/ObLvS09.def"
 	},
-	"hmm2obstacle53": { //"id" : 53,
+	"hmm2obstacle53": { //"id": 53,
 		"allowedTerrains": [
 			"lava"
 		],
@@ -639,7 +639,7 @@
 		"blockedTiles": [-13, -14, -15, -16, -30, -31],
 		"animation": "hmm2obstacles/ObLvS17.def"
 	},
-	"hmm2obstacle54": { //"id" : 54,
+	"hmm2obstacle54": { //"id": 54,
 		"allowedTerrains": [
 			"lava"
 		],
@@ -650,7 +650,7 @@
 		"blockedTiles": [-13, -14, -15, -16, -31, -32, -33],
 		"animation": "hmm2obstacles/ObLvS22.def"
 	},
-	"hmm2obstacle55": { //"id" : 55,
+	"hmm2obstacle55": { //"id": 55,
 		"allowedTerrains": [
 			"water"
 		],
@@ -661,7 +661,7 @@
 		"blockedTiles": [-15, -16, -33],
 		"animation": "hmm2obstacles/ObBtS04.def"
 	},
-	"hmm2obstacle56": { //"id" : 56,
+	"hmm2obstacle56": { //"id": 56,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_sand_shore"
@@ -672,7 +672,7 @@
 		"blockedTiles": [1, -15, -16],
 		"animation": "hmm2obstacles/ObBhS02.def"
 	},
-	"hmm2obstacle57": { //"id" : 57,
+	"hmm2obstacle57": { //"id": 57,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_sand_shore"
@@ -683,160 +683,160 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObBhS03.def"
 	},
-	// "hmm2obstacle58":{//"id" : 58,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_sand_shore"],
-	// "width" : 5,
-	// "height" : 2,
-	// "foreground" : true,
-	//            "blockedTiles" :  [1, 2, 3, -14, -15, -16],
-	// "animation" : "hmm2obstacles/ObBhS11a.def",
+	// "hmm2obstacle58":{//"id": 58,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_sand_shore"],
+	// "width": 5,
+	// "height": 2,
+	// "foreground": true,
+	//            "blockedTiles":  [1, 2, 3, -14, -15, -16],
+	// "animation": "hmm2obstacles/ObBhS11a.def",
 	// },
-	// "hmm2obstacle59":{//"id" : 59,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_sand_shore"],
-	// "width" : 4,
-	// "height" : 2,
-	// "foreground" : true,
-	//          "blockedTiles" :  [1, 2, -14, -15],
-	// "animation" : "hmm2obstacles/ObBhS12b.def",
+	// "hmm2obstacle59":{//"id": 59,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_sand_shore"],
+	// "width": 4,
+	// "height": 2,
+	// "foreground": true,
+	//          "blockedTiles":  [1, 2, -14, -15],
+	// "animation": "hmm2obstacles/ObBhS12b.def",
 	// },
-	// "hmm2obstacle60":{//"id" : 60,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_sand_shore"],
-	// "width" : 2,
-	// "height" : 2,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0, 1, -16],
-	// "animation" : "hmm2obstacles/ObBhS14b.def",
+	// "hmm2obstacle60":{//"id": 60,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_sand_shore"],
+	// "width": 2,
+	// "height": 2,
+	// "foreground": true,
+	//          "blockedTiles":  [0, 1, -16],
+	// "animation": "hmm2obstacles/ObBhS14b.def",
 	// },
-	// "hmm2obstacle61":{//"id" : 61,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_holy_ground"],
-	// "width" : 1,
-	// "height" : 1,
-	// "foreground" : true,
-	//           "blockedTiles" :  [0],
-	// "animation" : "hmm2obstacles/ObHGs00.def",
+	// "hmm2obstacle61":{//"id": 61,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_holy_ground"],
+	// "width": 1,
+	// "height": 1,
+	// "foreground": true,
+	//           "blockedTiles":  [0],
+	// "animation": "hmm2obstacles/ObHGs00.def",
 	// },
-	// "hmm2obstacle62":{//"id" : 62,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_holy_ground"],
-	// "width" : 2,
-	// "height" : 1,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0, 1],
-	// "animation" : "hmm2obstacles/ObHGs01.def",
+	// "hmm2obstacle62":{//"id": 62,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_holy_ground"],
+	// "width": 2,
+	// "height": 1,
+	// "foreground": true,
+	//          "blockedTiles":  [0, 1],
+	// "animation": "hmm2obstacles/ObHGs01.def",
 	// },
-	// "hmm2obstacle63":{//"id" : 63,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_holy_ground"],
-	// "width" : 3,
-	// "height" : 3,
-	// "foreground" : true,
-	//          "blockedTiles" :  [1],
-	// "animation" : "hmm2obstacles/ObHGs02.def",
+	// "hmm2obstacle63":{//"id": 63,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_holy_ground"],
+	// "width": 3,
+	// "height": 3,
+	// "foreground": true,
+	//          "blockedTiles":  [1],
+	// "animation": "hmm2obstacles/ObHGs02.def",
 	// },
-	// "hmm2obstacle64":{//"id" : 64,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_holy_ground"],
-	// "width" : 3,
-	// "height" : 2,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0, 1, 2],
-	// "animation" : "hmm2obstacles/ObHGs03.def",
+	// "hmm2obstacle64":{//"id": 64,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_holy_ground"],
+	// "width": 3,
+	// "height": 2,
+	// "foreground": true,
+	//          "blockedTiles":  [0, 1, 2],
+	// "animation": "hmm2obstacles/ObHGs03.def",
 	// },
-	// "hmm2obstacle65":{//"id" : 65,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_holy_ground"],
-	// "width" : 4,
-	// "height" : 3,
-	// "foreground" : true,
-	//           "blockedTiles" :  [0, 1, 2, 3],
-	// "animation" : "hmm2obstacles/ObHGs04.def",
+	// "hmm2obstacle65":{//"id": 65,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_holy_ground"],
+	// "width": 4,
+	// "height": 3,
+	// "foreground": true,
+	//           "blockedTiles":  [0, 1, 2, 3],
+	// "animation": "hmm2obstacles/ObHGs04.def",
 	// },
-	// "hmm2obstacle66":{//"id" : 66,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_evil_fog"],
-	// "width" : 1,
-	// "height" : 1,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0],
-	// "animation" : "hmm2obstacles/ObEFs00.def",
+	// "hmm2obstacle66":{//"id": 66,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_evil_fog"],
+	// "width": 1,
+	// "height": 1,
+	// "foreground": true,
+	//          "blockedTiles":  [0],
+	// "animation": "hmm2obstacles/ObEFs00.def",
 	// },
-	// "hmm2obstacle67":{//"id" : 67,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_evil_fog"],
-	// "width" : 2,
-	// "height" : 1,
-	// "foreground" : true,
-	//        "blockedTiles" :  [0, 1],
-	// "animation" : "hmm2obstacles/ObEFs01.def",
+	// "hmm2obstacle67":{//"id": 67,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_evil_fog"],
+	// "width": 2,
+	// "height": 1,
+	// "foreground": true,
+	//        "blockedTiles":  [0, 1],
+	// "animation": "hmm2obstacles/ObEFs01.def",
 	// },
-	// "hmm2obstacle68":{//"id" : 68,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_evil_fog"],
-	// "width" : 3,
-	// "height" : 2,
-	// "foreground" : true,
-	//         "blockedTiles" :  [0, 1, 2],
-	// "animation" : "hmm2obstacles/ObEFs02.def",
+	// "hmm2obstacle68":{//"id": 68,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_evil_fog"],
+	// "width": 3,
+	// "height": 2,
+	// "foreground": true,
+	//         "blockedTiles":  [0, 1, 2],
+	// "animation": "hmm2obstacles/ObEFs02.def",
 	// },
-	// "hmm2obstacle69":{//"id" : 69,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_evil_fog"],
-	// "width" : 4,
-	// "height" : 2,
-	// "foreground" : true,
-	//          "blockedTiles" :  [1, 2],
-	// "animation" : "hmm2obstacles/ObEFs03.def",
+	// "hmm2obstacle69":{//"id": 69,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_evil_fog"],
+	// "width": 4,
+	// "height": 2,
+	// "foreground": true,
+	//          "blockedTiles":  [1, 2],
+	// "animation": "hmm2obstacles/ObEFs03.def",
 	// },
-	// "hmm2obstacle70":{//"id" : 70,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_evil_fog"],
-	// "width" : 6,
-	// "height" : 2,
-	// "foreground" : true,
-	//           "blockedTiles" :  [1, 2, 3, -12, -13],
-	// "animation" : "hmm2obstacles/ObEFs04.def",
+	// "hmm2obstacle70":{//"id": 70,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_evil_fog"],
+	// "width": 6,
+	// "height": 2,
+	// "foreground": true,
+	//           "blockedTiles":  [1, 2, 3, -12, -13],
+	// "animation": "hmm2obstacles/ObEFs04.def",
 	// },
-	// "hmm2obstacle71":{//"id" : 71,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_clover_field"],
-	// "width" : 1,
-	// "height" : 1,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0],
-	// "animation" : "hmm2obstacles/ObCFs00.def",
+	// "hmm2obstacle71":{//"id": 71,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_clover_field"],
+	// "width": 1,
+	// "height": 1,
+	// "foreground": true,
+	//          "blockedTiles":  [0],
+	// "animation": "hmm2obstacles/ObCFs00.def",
 	// },
-	// "hmm2obstacle72":{//"id" : 72,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_clover_field"],
-	// "width" : 3,
-	// "height" : 1,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0, 1, 2],
-	// "animation" : "hmm2obstacles/ObCFs01.def",
+	// "hmm2obstacle72":{//"id": 72,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_clover_field"],
+	// "width": 3,
+	// "height": 1,
+	// "foreground": true,
+	//          "blockedTiles":  [0, 1, 2],
+	// "animation": "hmm2obstacles/ObCFs01.def",
 	// },
-	// "hmm2obstacle73":{//"id" : 73,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_clover_field"],
-	// "width" : 3,
-	// "height" : 2,
-	// "foreground" : true,
-	//           "blockedTiles" :  [1, 2, -15, -16],
-	// "animation" : "hmm2obstacles/ObCFs02.def",
+	// "hmm2obstacle73":{//"id": 73,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_clover_field"],
+	// "width": 3,
+	// "height": 2,
+	// "foreground": true,
+	//           "blockedTiles":  [1, 2, -15, -16],
+	// "animation": "hmm2obstacles/ObCFs02.def",
 	// },
-	// "hmm2obstacle74":{//"id" : 74,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_clover_field"],
-	// "width" : 4,
-	// "height" : 2,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0, 1, 2, -14, -15, -16],
-	// "animation" : "hmm2obstacles/ObCFs03.def",
+	// "hmm2obstacle74":{//"id": 74,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_clover_field"],
+	// "width": 4,
+	// "height": 2,
+	// "foreground": true,
+	//          "blockedTiles":  [0, 1, 2, -14, -15, -16],
+	// "animation": "hmm2obstacles/ObCFs03.def",
 	// },
-	"hmm2obstacle75": { //"id" : 75,
+	"hmm2obstacle75": { //"id": 75,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_lucid_pools"
@@ -847,7 +847,7 @@
 		"blockedTiles": [0],
 		"animation": "hmm2obstacles/ObLPs00.def"
 	},
-	"hmm2obstacle76": { //"id" : 76,
+	"hmm2obstacle76": { //"id": 76,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_lucid_pools"
@@ -858,7 +858,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObLPs01.def"
 	},
-	"hmm2obstacle77": { //"id" : 77,
+	"hmm2obstacle77": { //"id": 77,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_lucid_pools"
@@ -869,7 +869,7 @@
 		"blockedTiles": [0, -15, -16],
 		"animation": "hmm2obstacles/ObLPs02.def"
 	},
-	"hmm2obstacle78": { //"id" : 78,
+	"hmm2obstacle78": { //"id": 78,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_lucid_pools"
@@ -880,7 +880,7 @@
 		"blockedTiles": [1, 2, 3, -13, -14, -15, -16],
 		"animation": "hmm2obstacles/ObLPs03.def"
 	},
-	"hmm2obstacle79": { //"id" : 79,
+	"hmm2obstacle79": { //"id": 79,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_fiery_fields"
@@ -891,7 +891,7 @@
 		"blockedTiles": [0],
 		"animation": "hmm2obstacles/ObFFs00.def"
 	},
-	"hmm2obstacle80": { //"id" : 80,
+	"hmm2obstacle80": { //"id": 80,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_fiery_fields"
@@ -902,7 +902,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObFFs01.def"
 	},
-	"hmm2obstacle81": { //"id" : 81,
+	"hmm2obstacle81": { //"id": 81,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_fiery_fields"
@@ -913,7 +913,7 @@
 		"blockedTiles": [0, 1, 2, -15],
 		"animation": "hmm2obstacles/ObFFs02.def"
 	},
-	"hmm2obstacle82": { //"id" : 82,
+	"hmm2obstacle82": { //"id": 82,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_fiery_fields"
@@ -924,7 +924,7 @@
 		"blockedTiles": [1, 2, 3, -15, -16],
 		"animation": "hmm2obstacles/ObFFs03.def"
 	},
-	"hmm2obstacle83": { //"id" : 83,
+	"hmm2obstacle83": { //"id": 83,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_fiery_fields"
@@ -935,7 +935,7 @@
 		"blockedTiles": [0, 1, 2, 3, -14, -15, -16],
 		"animation": "hmm2obstacles/ObFFs04.def"
 	},
-	"hmm2obstacle84": { //"id" : 84,
+	"hmm2obstacle84": { //"id": 84,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_rocklands"
@@ -946,7 +946,7 @@
 		"blockedTiles": [0],
 		"animation": "hmm2obstacles/ObRLs00.def"
 	},
-	"hmm2obstacle85": { //"id" : 85,
+	"hmm2obstacle85": { //"id": 85,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_rocklands"
@@ -957,7 +957,7 @@
 		"blockedTiles": [0, 1],
 		"animation": "hmm2obstacles/ObRLs01.def"
 	},
-	"hmm2obstacle86": { //"id" : 86,
+	"hmm2obstacle86": { //"id": 86,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_rocklands"
@@ -968,7 +968,7 @@
 		"blockedTiles": [0, 1, 2],
 		"animation": "hmm2obstacles/ObRLs02.def"
 	},
-	"hmm2obstacle87": { //"id" : 87,
+	"hmm2obstacle87": { //"id": 87,
 		"allowedTerrains": [],
 		"specialBattlefields": [
 			"hmm2_rocklands"
@@ -979,337 +979,337 @@
 		"blockedTiles": [1, 2, 3, -15, -16],
 		"animation": "hmm2obstacles/ObRLs03.def"
 	}
-	// "hmm2obstacle88":{//"id" : 88, "allowedTerrains" : [], "specialBattlefields" : ["hmm2_magic_clouds"], "width" : 1, "height" : 1, "foreground" : true, "blockedTiles" : [0], "animation" : "hmm2obstacles/ObMCs00.def"},
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_magic_clouds"],
-	// "width" : 1,
-	// "height" : 1,
-	// "foreground" : true,
-	//          "blockedTiles" :  [0],
-	// "animation" : "hmm2obstacles/ObMCs00.def",
+	// "hmm2obstacle88":{//"id": 88, "allowedTerrains": [], "specialBattlefields": ["hmm2_magic_clouds"], "width": 1, "height": 1, "foreground": true, "blockedTiles": [0], "animation": "hmm2obstacles/ObMCs00.def"},
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_magic_clouds"],
+	// "width": 1,
+	// "height": 1,
+	// "foreground": true,
+	//          "blockedTiles":  [0],
+	// "animation": "hmm2obstacles/ObMCs00.def",
 	// },
-	// "hmm2obstacle89":{//"id" : 89,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_magic_clouds"],
-	// "width" : 2,
-	// "height" : 2,
-	// "foreground" : true,
-	//         "blockedTiles" :  [1, -16],
-	// "animation" : "hmm2obstacles/ObMCs01.def",
+	// "hmm2obstacle89":{//"id": 89,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_magic_clouds"],
+	// "width": 2,
+	// "height": 2,
+	// "foreground": true,
+	//         "blockedTiles":  [1, -16],
+	// "animation": "hmm2obstacles/ObMCs01.def",
 	// },
-	// "hmm2obstacle90":{//"id" : 90,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_magic_clouds"],
-	// "width" : 4,
-	// "height" : 2,
-	//// "foreground" : true,
-	//         "blockedTiles" :  [0, 1, -14, -15],
-	// "animation" : "hmm2obstacles/ObMCs02.def",
+	// "hmm2obstacle90":{//"id": 90,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_magic_clouds"],
+	// "width": 4,
+	// "height": 2,
+	//// "foreground": true,
+	//         "blockedTiles":  [0, 1, -14, -15],
+	// "animation": "hmm2obstacles/ObMCs02.def",
 	// },
-	// "hmm2obstacle0A":{   "absolute":true,//"id" : 0,
-	// "allowedTerrains" : ["dirt"],
-	// "specialBattlefields" : [],
-	// "width" : 124,
-	// "height" : 254,
-	// "foreground" : false,
-	// "blockedTiles" :  [80, 94, 95, 96, 97, 105, 106, 107, 108, 109, 110],
-	// "animation" : "hmm2obstacles/ObDtL04.bmp"
+	// "hmm2obstacle0A":{   "absolute":true,//"id": 0,
+	// "allowedTerrains": ["dirt"],
+	// "specialBattlefields": [],
+	// "width": 124,
+	// "height": 254,
+	// "foreground": false,
+	// "blockedTiles":  [80, 94, 95, 96, 97, 105, 106, 107, 108, 109, 110],
+	// "animation": "hmm2obstacles/ObDtL04.bmp"
 	// },
-	// "hmm2obstacle1A":{   "absolute":true,//"id" : 1,
-	// "allowedTerrains" : ["dirt"],
-	// "specialBattlefields" : [],
-	// "width" : 256,
-	// "height" : 254,
-	// "foreground" : false,
-	// "blockedTiles" :  [73, 91, 108, 109, 110, 111, 112, 113],
-	// "animation" : "hmm2obstacles/ObDtL06.bmp"
+	// "hmm2obstacle1A":{   "absolute":true,//"id": 1,
+	// "allowedTerrains": ["dirt"],
+	// "specialBattlefields": [],
+	// "width": 256,
+	// "height": 254,
+	// "foreground": false,
+	// "blockedTiles":  [73, 91, 108, 109, 110, 111, 112, 113],
+	// "animation": "hmm2obstacles/ObDtL06.bmp"
 	// },
-	// "hmm2obstacle2A":{   "absolute":true,//"id" : 2,
-	// "allowedTerrains" : ["dirt"],
-	// "specialBattlefields" : [],
-	// "width" : 168,
-	// "height" : 212,
-	// "foreground" : false,
-	// "blockedTiles" :  [60, 61, 62, 63, 64, 72, 73, 74, 75, 76, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149],
-	// "animation" : "hmm2obstacles/ObDtL10.bmp"
+	// "hmm2obstacle2A":{   "absolute":true,//"id": 2,
+	// "allowedTerrains": ["dirt"],
+	// "specialBattlefields": [],
+	// "width": 168,
+	// "height": 212,
+	// "foreground": false,
+	// "blockedTiles":  [60, 61, 62, 63, 64, 72, 73, 74, 75, 76, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149],
+	// "animation": "hmm2obstacles/ObDtL10.bmp"
 	// },
-	// "hmm2obstacle3A":{   "absolute":true,//"id" : 3,
-	// "allowedTerrains" : ["dirt"],
-	// "specialBattlefields" : [],
-	// "width" : 124,
-	// "height" : 254,
-	// "foreground" : false,
-	// "blockedTiles" :  [88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
-	// "animation" : "hmm2obstacles/ObDtL02.bmp"
+	// "hmm2obstacle3A":{   "absolute":true,//"id": 3,
+	// "allowedTerrains": ["dirt"],
+	// "specialBattlefields": [],
+	// "width": 124,
+	// "height": 254,
+	// "foreground": false,
+	// "blockedTiles":  [88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
+	// "animation": "hmm2obstacles/ObDtL02.bmp"
 	// },
-	// "hmm2obstacle4A":{   "absolute":true,//"id" : 4,
-	// "allowedTerrains" : ["dirt"],
-	// "specialBattlefields" : [],
-	// "width" : 146,
-	// "height" : 254,
-	// "foreground" : false,
-	// "blockedTiles" :  [76, 77, 78, 79, 80, 89, 90, 91, 92, 93],
-	// "animation" : "hmm2obstacles/ObDtL03.bmp"
+	// "hmm2obstacle4A":{   "absolute":true,//"id": 4,
+	// "allowedTerrains": ["dirt"],
+	// "specialBattlefields": [],
+	// "width": 146,
+	// "height": 254,
+	// "foreground": false,
+	// "blockedTiles":  [76, 77, 78, 79, 80, 89, 90, 91, 92, 93],
+	// "animation": "hmm2obstacles/ObDtL03.bmp"
 	// },
-	// "hmm2obstacle5A":{   "absolute":true,//"id" : 5,
-	// "allowedTerrains" : ["grass"],
-	// "specialBattlefields" : [],
-	// "width" : 173,
-	// "height" : 221,
-	// "foreground" : false,
-	// "blockedTiles" :  [55, 56, 57, 58, 75, 76, 77, 95, 112, 113, 131],
-	// "animation" : "hmm2obstacles/ObGrL01.bmp"
+	// "hmm2obstacle5A":{   "absolute":true,//"id": 5,
+	// "allowedTerrains": ["grass"],
+	// "specialBattlefields": [],
+	// "width": 173,
+	// "height": 221,
+	// "foreground": false,
+	// "blockedTiles":  [55, 56, 57, 58, 75, 76, 77, 95, 112, 113, 131],
+	// "animation": "hmm2obstacles/ObGrL01.bmp"
 	// },
-	// "hmm2obstacle6A":{   "absolute":true,//"id" : 6,
-	// "allowedTerrains" : ["grass"],
-	// "specialBattlefields" : [],
-	// "width" : 180,
-	// "height" : 264,
-	// "foreground" : false,
-	// "blockedTiles" :  [81, 91, 92, 93, 94, 95, 96, 97, 98, 106, 107, 123],
-	// "animation" : "hmm2obstacles/ObGrL02.bmp"
+	// "hmm2obstacle6A":{   "absolute":true,//"id": 6,
+	// "allowedTerrains": ["grass"],
+	// "specialBattlefields": [],
+	// "width": 180,
+	// "height": 264,
+	// "foreground": false,
+	// "blockedTiles":  [81, 91, 92, 93, 94, 95, 96, 97, 98, 106, 107, 123],
+	// "animation": "hmm2obstacles/ObGrL02.bmp"
 	// },
-	// "hmm2obstacle7A":{   "absolute":true,//"id" : 7,
-	// "allowedTerrains" : ["snow"],
-	// "specialBattlefields" : [],
-	// "width" : 166,
-	// "height" : 255,
-	// "foreground" : false,
-	// "blockedTiles" :  [76, 77, 78, 79, 91, 92, 93, 97, 98, 106, 107, 108],
-	// "animation" : "hmm2obstacles/ObSnL01.bmp"
+	// "hmm2obstacle7A":{   "absolute":true,//"id": 7,
+	// "allowedTerrains": ["snow"],
+	// "specialBattlefields": [],
+	// "width": 166,
+	// "height": 255,
+	// "foreground": false,
+	// "blockedTiles":  [76, 77, 78, 79, 91, 92, 93, 97, 98, 106, 107, 108],
+	// "animation": "hmm2obstacles/ObSnL01.bmp"
 	// },
-	// "hmm2obstacle8A":{   "absolute":true,//"id" : 8,
-	// "allowedTerrains" : ["snow"],
-	// "specialBattlefields" : [],
-	// "width" : 302,
-	// "height" : 172,
-	// "foreground" : false,
-	// "blockedTiles" :  [41, 42, 43, 58, 75, 92, 108, 126, 143],
-	// "animation" : "hmm2obstacles/ObSnL14.bmp"
+	// "hmm2obstacle8A":{   "absolute":true,//"id": 8,
+	// "allowedTerrains": ["snow"],
+	// "specialBattlefields": [],
+	// "width": 302,
+	// "height": 172,
+	// "foreground": false,
+	// "blockedTiles":  [41, 42, 43, 58, 75, 92, 108, 126, 143],
+	// "animation": "hmm2obstacles/ObSnL14.bmp"
 	// },
-	// "hmm2obstacle9A":{   "absolute":true,//"id" : 9,
-	// "allowedTerrains" : ["swamp"],
-	// "specialBattlefields" : [],
-	// "width" : 300,
-	// "height" : 170,
-	// "foreground" : false,
-	// "blockedTiles" :  [40, 41, 58, 59, 74, 75, 92, 93, 109, 110, 111, 127, 128, 129, 130],
-	// "animation" : "hmm2obstacles/ObSwL15.bmp"
+	// "hmm2obstacle9A":{   "absolute":true,//"id": 9,
+	// "allowedTerrains": ["swamp"],
+	// "specialBattlefields": [],
+	// "width": 300,
+	// "height": 170,
+	// "foreground": false,
+	// "blockedTiles":  [40, 41, 58, 59, 74, 75, 92, 93, 109, 110, 111, 127, 128, 129, 130],
+	// "animation": "hmm2obstacles/ObSwL15.bmp"
 	// },
-	// "hmm2obstacle10A":{   "absolute":true,//"id" : 10,
-	// "allowedTerrains" : ["swamp"],
-	// "specialBattlefields" : [],
-	// "width" : 278,
-	// "height" : 171,
-	// "foreground" : true,
-	// "blockedTiles" :  [43, 60, 61, 77, 93, 94, 95, 109, 110, 126, 127],
-	// "animation" : "hmm2obstacles/ObSwL14.bmp"
+	// "hmm2obstacle10A":{   "absolute":true,//"id": 10,
+	// "allowedTerrains": ["swamp"],
+	// "specialBattlefields": [],
+	// "width": 278,
+	// "height": 171,
+	// "foreground": true,
+	// "blockedTiles":  [43, 60, 61, 77, 93, 94, 95, 109, 110, 126, 127],
+	// "animation": "hmm2obstacles/ObSwL14.bmp"
 	// },
-	// "hmm2obstacle11A":{   "absolute":true,//"id" : 11,
-	// "allowedTerrains" : ["swamp"],
-	// "specialBattlefields" : [],
-	// "width" : 256,
-	// "height" : 254,
-	// "foreground" : true,
-	// "blockedTiles" :  [74, 75, 76, 77, 91, 92, 93, 94, 95, 109, 110, 111, 112],
-	// "animation" : "hmm2obstacles/ObSwL22.bmp"
+	// "hmm2obstacle11A":{   "absolute":true,//"id": 11,
+	// "allowedTerrains": ["swamp"],
+	// "specialBattlefields": [],
+	// "width": 256,
+	// "height": 254,
+	// "foreground": true,
+	// "blockedTiles":  [74, 75, 76, 77, 91, 92, 93, 94, 95, 109, 110, 111, 112],
+	// "animation": "hmm2obstacles/ObSwL22.bmp"
 	// },
 	//	"hmm2obstacle12A":{   "absolute":true,
-	//		"allowedTerrains" : ["lava"],
-	//		"specialBattlefields" : [],
-	//		"width" : 124,
-	//		"height" : 254,
-	//		"foreground" : false,
-	//                  "blockedTiles" :  [77, 78, 79, 80, 81, 91, 92, 93, 94, 105, 106, 107],
-	//		"animation" : "hmm2obstacles/ObLvL01.bmp"
+	//		"allowedTerrains": ["lava"],
+	//		"specialBattlefields": [],
+	//		"width": 124,
+	//		"height": 254,
+	//		"foreground": false,
+	//                  "blockedTiles":  [77, 78, 79, 80, 81, 91, 92, 93, 94, 105, 106, 107],
+	//		"animation": "hmm2obstacles/ObLvL01.bmp"
 	//	},
-	//	"hmm2obstacle13A":{   "absolute":true,//"id" : 13,
-	//		"allowedTerrains" : ["lava"],
-	//		"specialBattlefields" : [],
-	//		"width" : 256,
-	//		"height" : 128,
-	//		"foreground" : false,
-	//                  "blockedTiles" :  [43, 60, 61, 76, 77, 93, 109, 126, 127, 142, 143],
-	//		"animation" : "hmm2obstacles/OBLvL02.bmp"
+	//	"hmm2obstacle13A":{   "absolute":true,//"id": 13,
+	//		"allowedTerrains": ["lava"],
+	//		"specialBattlefields": [],
+	//		"width": 256,
+	//		"height": 128,
+	//		"foreground": false,
+	//                  "blockedTiles":  [43, 60, 61, 76, 77, 93, 109, 126, 127, 142, 143],
+	//		"animation": "hmm2obstacles/OBLvL02.bmp"
 	//	},
-	// "hmm2obstacle14A":{   "absolute":true,//"id" : 14,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 186,
-	// "height" : 212,
-	// "foreground" : false,
-	// "blockedTiles" :  [55, 72, 90, 107, 125, 126, 127, 128, 129, 130, 131, 132],
-	// "animation" : "hmm2obstacles/ObRgL01.bmp"
+	// "hmm2obstacle14A":{   "absolute":true,//"id": 14,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 186,
+	// "height": 212,
+	// "foreground": false,
+	// "blockedTiles":  [55, 72, 90, 107, 125, 126, 127, 128, 129, 130, 131, 132],
+	// "animation": "hmm2obstacles/ObRgL01.bmp"
 	// },
-	// "hmm2obstacle15A":{   "absolute":true,//"id" : 15,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 347,
-	// "height" : 174,
-	// "foreground" : false,
-	// "blockedTiles" :  [41, 59, 76, 94, 111, 129, 143, 144, 145],
-	// "animation" : "hmm2obstacles/ObRgL02.bmp"
+	// "hmm2obstacle15A":{   "absolute":true,//"id": 15,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 347,
+	// "height": 174,
+	// "foreground": false,
+	// "blockedTiles":  [41, 59, 76, 94, 111, 129, 143, 144, 145],
+	// "animation": "hmm2obstacles/ObRgL02.bmp"
 	// },
-	// "hmm2obstacle16A":{   "absolute":true,//"id" : 16,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 294,
-	// "height" : 169,
-	// "foreground" : false,
-	// "blockedTiles" :  [40, 41, 42, 43, 58, 75, 93, 110, 128, 145],
-	// "animation" : "hmm2obstacles/ObRgL03.bmp"
+	// "hmm2obstacle16A":{   "absolute":true,//"id": 16,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 294,
+	// "height": 169,
+	// "foreground": false,
+	// "blockedTiles":  [40, 41, 42, 43, 58, 75, 93, 110, 128, 145],
+	// "animation": "hmm2obstacles/ObRgL03.bmp"
 	// },
-	// "hmm2obstacle17A":{   "absolute":true,//"id" : 17,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 165,
-	// "height" : 257,
-	// "foreground" : false,
-	// "blockedTiles" :  [72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 89, 105],
-	// "animation" : "hmm2obstacles/ObRgL04.bmp"
+	// "hmm2obstacle17A":{   "absolute":true,//"id": 17,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 165,
+	// "height": 257,
+	// "foreground": false,
+	// "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 89, 105],
+	// "animation": "hmm2obstacles/ObRgL04.bmp"
 	// },
-	// "hmm2obstacle18A":{   "absolute":true,//"id" : 18,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 208,
-	// "height" : 268,
-	// "foreground" : false,
-	// "blockedTiles" :  [72, 73, 74, 75, 76, 77, 78, 79, 80, 90, 91, 92, 93, 94, 95, 96, 97],
-	// "animation" : "hmm2obstacles/ObRgL05.bmp"
+	// "hmm2obstacle18A":{   "absolute":true,//"id": 18,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 208,
+	// "height": 268,
+	// "foreground": false,
+	// "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 90, 91, 92, 93, 94, 95, 96, 97],
+	// "animation": "hmm2obstacles/ObRgL05.bmp"
 	// },
-	// "hmm2obstacle19A":{   "absolute":true,//"id" : 19,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 252,
-	// "height" : 254,
-	// "foreground" : false,
-	// "blockedTiles" :  [73, 74, 75, 76, 77, 78, 91, 92, 93, 94],
-	// "animation" : "hmm2obstacles/ObRgL06.bmp"
+	// "hmm2obstacle19A":{   "absolute":true,//"id": 19,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 252,
+	// "height": 254,
+	// "foreground": false,
+	// "blockedTiles":  [73, 74, 75, 76, 77, 78, 91, 92, 93, 94],
+	// "animation": "hmm2obstacles/ObRgL06.bmp"
 	// },
-	// "hmm2obstacle20A":{   "absolute":true,//"id" : 20,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 278,
-	// "height" : 128,
-	// "foreground" : false,
-	// "blockedTiles" :  [23, 40, 58, 75, 93, 110, 128, 145, 163],
-	// "animation" : "hmm2obstacles/ObRgL15.bmp"
+	// "hmm2obstacle20A":{   "absolute":true,//"id": 20,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 278,
+	// "height": 128,
+	// "foreground": false,
+	// "blockedTiles":  [23, 40, 58, 75, 93, 110, 128, 145, 163],
+	// "animation": "hmm2obstacles/ObRgL15.bmp"
 	// },
-	// "hmm2obstacle21A":{   "absolute":true,//"id" : 21,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 208,
-	// "height" : 268,
-	// "foreground" : false,
-	// "blockedTiles" :  [72, 73, 74, 75, 76, 77, 78, 79, 80, 90, 91, 92, 93, 94, 95, 96, 97],
-	// "animation" : "hmm2obstacles/ObRgL05.bmp"
+	// "hmm2obstacle21A":{   "absolute":true,//"id": 21,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 208,
+	// "height": 268,
+	// "foreground": false,
+	// "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 90, 91, 92, 93, 94, 95, 96, 97],
+	// "animation": "hmm2obstacles/ObRgL05.bmp"
 	// },
-	// "hmm2obstacle22A":{   "absolute":true,//"id" : 22,
-	// "allowedTerrains" : ["rough"],
-	// "specialBattlefields" : ["hmm2_cursed_ground"],
-	// "width" : 168,
-	// "height" : 212,
-	// "foreground" : true,
-	// "blockedTiles" :  [73, 74, 75, 76, 77, 78, 79, 90, 91, 92, 93, 94, 95, 96, 97, 106, 107, 108, 109, 110, 111, 112],
-	// "animation" : "hmm2obstacles/ObRgL22.bmp"
+	// "hmm2obstacle22A":{   "absolute":true,//"id": 22,
+	// "allowedTerrains": ["rough"],
+	// "specialBattlefields": ["hmm2_cursed_ground"],
+	// "width": 168,
+	// "height": 212,
+	// "foreground": true,
+	// "blockedTiles":  [73, 74, 75, 76, 77, 78, 79, 90, 91, 92, 93, 94, 95, 96, 97, 106, 107, 108, 109, 110, 111, 112],
+	// "animation": "hmm2obstacles/ObRgL22.bmp"
 	// },
-	//"hmm2obstacle23A":{   "absolute":true,//"id" : 23,
-	//	"allowedTerrains" : [],
-	//	"specialBattlefields" : ["hmm2_sand_shore"],
-	//	"width" : 147,
-	//	"height" : 264,
-	//	"foreground" : false,
-	//              "blockedTiles" :  [72, 73, 74, 75, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
-	//	"animation" : "hmm2obstacles/ObBhL02.bmp"
+	//"hmm2obstacle23A":{   "absolute":true,//"id": 23,
+	//	"allowedTerrains": [],
+	//	"specialBattlefields": ["hmm2_sand_shore"],
+	//	"width": 147,
+	//	"height": 264,
+	//	"foreground": false,
+	//              "blockedTiles":  [72, 73, 74, 75, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
+	//	"animation": "hmm2obstacles/ObBhL02.bmp"
 	//},
-	//"hmm2obstacle24A":{   "absolute":true,//"id" : 24,
-	//	"allowedTerrains" : [],
-	//	"specialBattlefields" : ["hmm2_sand_shore"],
-	//	"width" : 178,
-	//	"height" : 262,
-	//	"foreground" : false,
-	//              "blockedTiles" :  [71, 72, 73, 74, 75, 76, 77, 78, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
-	//	"animation" : "hmm2obstacles/ObBhL03.bmp"
+	//"hmm2obstacle24A":{   "absolute":true,//"id": 24,
+	//	"allowedTerrains": [],
+	//	"specialBattlefields": ["hmm2_sand_shore"],
+	//	"width": 178,
+	//	"height": 262,
+	//	"foreground": false,
+	//              "blockedTiles":  [71, 72, 73, 74, 75, 76, 77, 78, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
+	//	"animation": "hmm2obstacles/ObBhL03.bmp"
 	//},
-	//"hmm2obstacle25A":{   "absolute":true,//"id" : 25,
-	//	"allowedTerrains" : [],
-	//	"specialBattlefields" : ["hmm2_sand_shore"],
-	//	"width" : 173,
-	//	"height" : 257,
-	//	"foreground" : false,
-	//              "blockedTiles" :  [72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 89, 90, 105, 106],
-	//	"animation" : "hmm2obstacles/ObBhL05.bmp"
+	//"hmm2obstacle25A":{   "absolute":true,//"id": 25,
+	//	"allowedTerrains": [],
+	//	"specialBattlefields": ["hmm2_sand_shore"],
+	//	"width": 173,
+	//	"height": 257,
+	//	"foreground": false,
+	//              "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 89, 90, 105, 106],
+	//	"animation": "hmm2obstacles/ObBhL05.bmp"
 	//},
-	//"hmm2obstacle26A":{   "absolute":true,//"id" : 26,
-	//	"allowedTerrains" : [],
-	//	"specialBattlefields" : ["hmm2_sand_shore"],
-	//	"width" : 241,
-	//	"height" : 272,
-	//	"foreground" : false,
-	//              "blockedTiles" :  [73, 91, 108, 109, 110, 111, 112, 113],
-	//		"animation" : "hmm2obstacles/ObBhL06.bmp"
+	//"hmm2obstacle26A":{   "absolute":true,//"id": 26,
+	//	"allowedTerrains": [],
+	//	"specialBattlefields": ["hmm2_sand_shore"],
+	//	"width": 241,
+	//	"height": 272,
+	//	"foreground": false,
+	//              "blockedTiles":  [73, 91, 108, 109, 110, 111, 112, 113],
+	//		"animation": "hmm2obstacles/ObBhL06.bmp"
 	//	},
-	//	"hmm2obstacle27A":{   "absolute":true,//"id" : 27,
-	//		"allowedTerrains" : [],
-	//		"specialBattlefields" : ["hmm2_sand_shore"],
-	//		"width" : 261,
-	//		"height" : 129,
-	//		"foreground" : false,
-	//                  "blockedTiles" :  [27, 28, 43, 44, 60, 61, 76, 77, 93, 94, 109, 110, 126, 127, 142, 143, 159],
-	//		"animation" : "hmm2obstacles/ObBhL14.bmp"
+	//	"hmm2obstacle27A":{   "absolute":true,//"id": 27,
+	//		"allowedTerrains": [],
+	//		"specialBattlefields": ["hmm2_sand_shore"],
+	//		"width": 261,
+	//		"height": 129,
+	//		"foreground": false,
+	//                  "blockedTiles":  [27, 28, 43, 44, 60, 61, 76, 77, 93, 94, 109, 110, 126, 127, 142, 143, 159],
+	//		"animation": "hmm2obstacles/ObBhL14.bmp"
 	//	},
-	//	"hmm2obstacle28A":{   "absolute":true,//"id" : 28,
-	//		"allowedTerrains" : [],
-	//		"specialBattlefields" : ["hmm2_sand_shore"],
-	//		"width" : 180,
-	//		"height" : 154,
-	//		"foreground" : false,
-	//                  "blockedTiles" :  [22, 38, 39, 40, 44, 45, 46, 55, 56, 57, 62, 63, 123, 124, 125, 130, 131, 140, 141, 146, 147, 148],
-	//		"animation" : "hmm2obstacles/ObBhL16.bmp"
+	//	"hmm2obstacle28A":{   "absolute":true,//"id": 28,
+	//		"allowedTerrains": [],
+	//		"specialBattlefields": ["hmm2_sand_shore"],
+	//		"width": 180,
+	//		"height": 154,
+	//		"foreground": false,
+	//                  "blockedTiles":  [22, 38, 39, 40, 44, 45, 46, 55, 56, 57, 62, 63, 123, 124, 125, 130, 131, 140, 141, 146, 147, 148],
+	//		"animation": "hmm2obstacles/ObBhL16.bmp"
 	//	},
-	//	"hmm2obstacle29A":{   "absolute":true,//"id" : 29,
-	//		"allowedTerrains" : [],
-	//		"specialBattlefields" : ["hmm2_clover_field"],
-	//		"width" : 304,
-	//		"height" : 264,
-	//		"foreground" : false,
-	//                  "blockedTiles" :  [76, 77, 92, 93, 94, 95, 109, 110, 111],
-	//		"animation" : "hmm2obstacles/ObCFL00.bmp"
+	//	"hmm2obstacle29A":{   "absolute":true,//"id": 29,
+	//		"allowedTerrains": [],
+	//		"specialBattlefields": ["hmm2_clover_field"],
+	//		"width": 304,
+	//		"height": 264,
+	//		"foreground": false,
+	//                  "blockedTiles":  [76, 77, 92, 93, 94, 95, 109, 110, 111],
+	//		"animation": "hmm2obstacles/ObCFL00.bmp"
 	//	},
-	// "hmm2obstacle30A":{   "absolute":true,//"id" : 30,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_lucid_pools"],
-	// "width" : 256,
-	// "height" : 257,
-	// "foreground" : false,
-	// "blockedTiles" :  [76, 77, 78, 92, 93, 94, 107, 108, 109],
-	// "animation" : "hmm2obstacles/ObLPL00.bmp"
+	// "hmm2obstacle30A":{   "absolute":true,//"id": 30,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_lucid_pools"],
+	// "width": 256,
+	// "height": 257,
+	// "foreground": false,
+	// "blockedTiles":  [76, 77, 78, 92, 93, 94, 107, 108, 109],
+	// "animation": "hmm2obstacles/ObLPL00.bmp"
 	// },
-	// "hmm2obstacle31A":{   "absolute":true,//"id" : 31,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_fiery_fields"],
-	// "width" : 257,
-	// "height" : 255,
-	// "foreground" : true,
-	// "blockedTiles" :  [76, 77, 91, 92, 93, 94, 95, 108, 109, 110, 111],
-	// "animation" : "hmm2obstacles/ObFFL00.bmp"
+	// "hmm2obstacle31A":{   "absolute":true,//"id": 31,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_fiery_fields"],
+	// "width": 257,
+	// "height": 255,
+	// "foreground": true,
+	// "blockedTiles":  [76, 77, 91, 92, 93, 94, 95, 108, 109, 110, 111],
+	// "animation": "hmm2obstacles/ObFFL00.bmp"
 	// },
-	// "hmm2obstacle32A":{   "absolute":true,//"id" : 32,
-	// "allowedTerrains" : [],
-	// "specialBattlefields" : ["hmm2_rocklands"],
-	// "width" : 277,
-	// "height" : 218,
-	// "foreground" : true,
-	// "blockedTiles" :  [60, 61, 75, 76, 77, 91, 92, 93, 94, 95],
-	// "animation" : "hmm2obstacles/ObRLL00.bmp"
+	// "hmm2obstacle32A":{   "absolute":true,//"id": 32,
+	// "allowedTerrains": [],
+	// "specialBattlefields": ["hmm2_rocklands"],
+	// "width": 277,
+	// "height": 218,
+	// "foreground": true,
+	// "blockedTiles":  [60, 61, 75, 76, 77, 91, 92, 93, 94, 95],
+	// "animation": "hmm2obstacles/ObRLL00.bmp"
 	// },
-	//	"hmm2obstacle33A":{   "absolute":true,//"id" : 33,
-	//		"allowedTerrains" : [],
-	//		"specialBattlefields" : ["hmm2_magic_clouds"],
-	//		"width" : 300,
-	//		"height" : 214,
-	//		"foreground" : false,
-	//                  "blockedTiles" :  [59, 60, 74, 75, 76, 93, 94, 95, 111, 112],
-	//		"animation" : "hmm2obstacles/ObMCL00.bmp"
+	//	"hmm2obstacle33A":{   "absolute":true,//"id": 33,
+	//		"allowedTerrains": [],
+	//		"specialBattlefields": ["hmm2_magic_clouds"],
+	//		"width": 300,
+	//		"height": 214,
+	//		"foreground": false,
+	//                  "blockedTiles":  [59, 60, 74, 75, 76, 93, 94, 95, 111, 112],
+	//		"animation": "hmm2obstacles/ObMCL00.bmp"
 	//	}
 }

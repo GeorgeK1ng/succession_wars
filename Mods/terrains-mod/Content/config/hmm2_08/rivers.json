@@ -1,6 +1,6 @@
 {
 	"hmm2waterRiver": {
-		//      "originalRiverId" : 1,
+		//      "originalRiverId": 1,
 		"shortIdentifier": "qs", //must be 2 characters
 		"tilesFilename": "hmm2rr/clrrvr",
 		"delta": "hmm2rr/clrdelt",
@@ -13,14 +13,14 @@
 		]
 	},
 	"hmm2iceRiver": {
-		//      "originalRiverId" : 2,
+		//      "originalRiverId": 2,
 		"shortIdentifier": "qi",
 		"tilesFilename": "hmm2rr/icyrvr",
 		"delta": "hmm2rr/icedelt",
 		"text": "Ice River"
 	},
 	"hmm2mudRiver": {
-		// "originalRiverId" : 3,
+		// "originalRiverId": 3,
 		"shortIdentifier": "qm",
 		"tilesFilename": "hmm2rr/mudrvr",
 		"delta": "hmm2rr/muddelt",
@@ -33,7 +33,7 @@
 		]
 	},
 	"hmm2lavaRiver": {
-		//      "originalRiverId" : 4,
+		//      "originalRiverId": 4,
 		"shortIdentifier": "ql",
 		"tilesFilename": "hmm2rr/lavrvr",
 		"delta": "hmm2rr/lavdelt",

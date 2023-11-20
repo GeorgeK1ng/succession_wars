@@ -1,82 +1,82 @@
 {
-	"sw08necromancerBoneDragon" : {
-		"name" : {
-			"singular" : "Bone Dragon",
-			"plural" : "Bone Dragons"
+	"sw08necromancerBoneDragon": {
+		"name": {
+			"singular": "Bone Dragon",
+			"plural": "Bone Dragons"
 		},
-		"faction" : "swsw08necromancerfaction",
-		"level" : 7,
-		"cost" : {
-			"gold" : 2450
+		"faction": "swsw08necromancerfaction",
+		"level": 7,
+		"cost": {
+			"gold": 2450
 		},
-		"speed" : 9,
-		"hitPoints" : 150,
-		"shots" : 0,
-		"attack" : 11,
-		"defense" : 9,
-		"damage" : {
-			"min" : 25,
-			"max" : 45
+		"speed": 9,
+		"hitPoints": 150,
+		"shots": 0,
+		"attack": 11,
+		"defense": 9,
+		"damage": {
+			"min": 25,
+			"max": 45
 		},
-		"fightValue" : 2485,
-		"aiValue" : 3011,
-		"advMapAmount" : {
-			"min" : 4,
-			"max" : 8
+		"fightValue": 2485,
+		"aiValue": 3011,
+		"advMapAmount": {
+			"min": 4,
+			"max": 8
 		},
-		"growth" : 1,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : true,
-		"abilities" : {
-			"ability1" : {
-				"type" : "UNDEAD"
+		"growth": 1,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
 			},
-			"ability2" : {
-				"type" : "FLYING",
-				"subtype" : "movementFlying"
+			"ability2": {
+				"type": "FLYING",
+				"subtype": "movementFlying"
 			},
-			"ability3" : {
-				"type" : "KING",
-				"val" : 1,
-				"valueType" : "ADDITIVE_VALUE"
+			"ability3": {
+				"type": "KING",
+				"val": 1,
+				"valueType": "ADDITIVE_VALUE"
 			},
-			"ability4" : {
-				"type" : "DRAGON_NATURE"
+			"ability4": {
+				"type": "DRAGON_NATURE"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:70",
-			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:70",
-			"map" : "sw08necromancer-creatures/map/AVWbone0",
-			"animation" : "sw08necromancer-creatures/battle/c068bdrg",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08necromancer-creatures/cprsmall.def:70",
+			"iconLarge": "sw08necromancer-creatures/TWCRPORT.def:70",
+			"map": "sw08necromancer-creatures/map/AVWbone0",
+			"animation": "sw08necromancer-creatures/battle/c068bdrg",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08necromancer-creatures/battle/CPRGOGX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08necromancer-creatures/battle/CPRGOGX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
-				"attackClimaxFrame" : 6
+				"frameAngles": [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
+				"attackClimaxFrame": 6
 			}
 		},
-		"sound" : {
-			"attack" : "sw08necromancer/bone dragon/BODRATTK.wav",
-			"defend" : "sw08necromancer/bone dragon/BODRDFND.wav",
-			"killed" : "sw08necromancer/bone dragon/BODRKILL.wav",
-			"move" : "sw08necromancer/bone dragon/BODRMOVE.wav",
-			"wince" : "sw08necromancer/bone dragon/BODRWNCE.wav"
-			//"shoot" :""
+		"sound": {
+			"attack": "sw08necromancer/bone dragon/BODRATTK.wav",
+			"defend": "sw08necromancer/bone dragon/BODRDFND.wav",
+			"killed": "sw08necromancer/bone dragon/BODRKILL.wav",
+			"move": "sw08necromancer/bone dragon/BODRMOVE.wav",
+			"wince": "sw08necromancer/bone dragon/BODRWNCE.wav"
+			//"shoot":""
 		}
 	}
 }

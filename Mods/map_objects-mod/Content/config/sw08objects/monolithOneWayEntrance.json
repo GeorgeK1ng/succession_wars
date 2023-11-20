@@ -2,7 +2,7 @@
 	"core:monolithOneWayEntrance": {
 		"types": {
 			"sw08objectsmonolithEnterA": {
-				//"index" : 502,
+				//"index": 502,
 				"name": "Monolith One Way Entrance",
 				"templates": {
 					"AVXMN1B0": {
@@ -31,7 +31,7 @@
 				}
 			},
 			"sw08objectsmonolithEnterB": {
-				//"index" : 503,
+				//"index": 503,
 				"name": "Monolith One Way Entrance",
 				"templates": {
 					"AVXMN1R0": {
@@ -60,7 +60,7 @@
 				}
 			},
 			"sw08objectsmonolithEnterC": {
-				//"index" : 504,
+				//"index": 504,
 				"name": "Monolith One Way Entrance",
 				"templates": {
 					"AVXMN1Y0": {
@@ -89,7 +89,7 @@
 				}
 			},
 			"sw08objectsmonolithEnterD": {
-				//"index" : 505,
+				//"index": 505,
 				"name": "Monolith One Way Entrance",
 				"templates": {
 					"AVXmn4i0": {
@@ -122,7 +122,7 @@
 	"core:monolithOneWayExit": {
 		"types": {
 			"sw08objectsmonolithExitA": {
-				//"index" : 502,
+				//"index": 502,
 				"name": "Monolith One Way Exit",
 				"templates": {
 					"AVXmn4o0": {
@@ -151,7 +151,7 @@
 				}
 			},
 			"sw08objectsmonolithExitB": {
-				//"index" : 503,
+				//"index": 503,
 				"name": "Monolith One Way Exit",
 				"templates": {
 					"AVXmx1b0": {
@@ -180,7 +180,7 @@
 				}
 			},
 			"sw08objectsmonolithExitC": {
-				//"index" : 504,
+				//"index": 504,
 				"name": "Monolith One Way Exit",
 				"templates": {
 					"AVXmx1r0": {
@@ -209,7 +209,7 @@
 				}
 			},
 			"sw08objectsmonolithExitD": {
-				//"index" : 505,
+				//"index": 505,
 				"name": "Monolith One Way Exit",
 				"templates": {
 					"AVXmx1y0": {

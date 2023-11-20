@@ -1,61 +1,61 @@
 {
-	"sw08neutralAirElemental" : {
-		"name" : {
-			"singular" : "Air Elemental",
-			"plural" : "Air Elementals"
+	"sw08neutralAirElemental": {
+		"name": {
+			"singular": "Air Elemental",
+			"plural": "Air Elementals"
 		},
-		"faction" : "sw08neutral",
-		"level" : 3,
-		"cost" : {
-			"gold" : 500
+		"faction": "sw08neutral",
+		"level": 3,
+		"cost": {
+			"gold": 500
 		},
-		"speed" : 7,
-		"hitPoints" : 35,
-		"shots" : 0,
-		"attack" : 7,
-		"defense" : 7,
-		"damage" : {
-			"min" : 2,
-			"max" : 8
+		"speed": 7,
+		"hitPoints": 35,
+		"shots": 0,
+		"attack": 7,
+		"defense": 7,
+		"damage": {
+			"min": 2,
+			"max": 8
 		},
-		"fightValue" : 324,
-		"aiValue" : 356,
-		"advMapAmount" : {
-			"min" : 13,
-			"max" : 25
+		"fightValue": 324,
+		"aiValue": 356,
+		"advMapAmount": {
+			"min": 13,
+			"max": 25
 		},
-		"growth" : 8,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "spellSchool.air"
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SPELL_SCHOOL_IMMUNITY",
+				"subtype": "spellSchool.air"
 			},
-			"ability2" : {
-				"type" : "NON_LIVING"
+			"ability2": {
+				"type": "NON_LIVING"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08neutral-creatures/cprsmall.def:114",
-			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:114",
-			"map" : "sw08neutral-creatures/map/AVWelme0",
-			"animation" : "sw08neutral-creatures/battle/c112eair",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08neutral-creatures/cprsmall.def:114",
+			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:114",
+			"map": "sw08neutral-creatures/map/AVWelme0",
+			"animation": "sw08neutral-creatures/battle/c112eair",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			}
 		},
-		"sound" : {
-			"attack" : "sw08neutral/air elemental/AELMATTK.wav",
-			"defend" : "sw08neutral/air elemental/AELMDFND.wav",
-			"killed" : "sw08neutral/air elemental/AELMKILL.wav",
-			"move" : "sw08neutral/air elemental/AELMMOVE.wav",
-			"wince" : "sw08neutral/air elemental/AELMWNCE.wav",
-			"shoot" : "sw08neutral/air elemental/AELMSHOT.wav"
+		"sound": {
+			"attack": "sw08neutral/air elemental/AELMATTK.wav",
+			"defend": "sw08neutral/air elemental/AELMDFND.wav",
+			"killed": "sw08neutral/air elemental/AELMKILL.wav",
+			"move": "sw08neutral/air elemental/AELMMOVE.wav",
+			"wince": "sw08neutral/air elemental/AELMWNCE.wav",
+			"shoot": "sw08neutral/air elemental/AELMSHOT.wav"
 		}
 	}
 }

@@ -1,70 +1,70 @@
 {
-	"sw08witchLizardWarrior" : {
-		"name" : {
-			"singular" : "Lizard Warrior",
-			"plural" : "Lizard Warriors"
+	"sw08witchLizardWarrior": {
+		"name": {
+			"singular": "Lizard Warrior",
+			"plural": "Lizard Warriors"
 		},
-		"faction" : "sw08witch",
-		"level" : 3,
-		"cost" : {
-			"gold" : 230
+		"faction": "sw08witch",
+		"level": 3,
+		"cost": {
+			"gold": 230
 		},
-		"speed" : 5,
-		"hitPoints" : 20,
-		"shots" : 24,
-		"attack" : 5,
-		"defense" : 7,
-		"damage" : {
-			"min" : 2,
-			"max" : 6
+		"speed": 5,
+		"hitPoints": 20,
+		"shots": 24,
+		"attack": 5,
+		"defense": 7,
+		"damage": {
+			"min": 2,
+			"max": 6
 		},
-		"fightValue" : 232,
-		"aiValue" : 229,
-		"advMapAmount" : {
-			"min" : 15,
-			"max" : 30
+		"fightValue": 232,
+		"aiValue": 229,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
 		},
-		"growth" : 7,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "SHOOTER"
+		"growth": 7,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08witch-creatures/cprsmall.def:105",
-			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:105",
-			"map" : "sw08witch-creatures/map/082/AVWlizx0",
-			"animation" : "sw08witch-creatures/battle/c103uliz",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08witch-creatures/cprsmall.def:105",
+			"iconLarge": "sw08witch-creatures/TWCRPORT.def:105",
+			"map": "sw08witch-creatures/map/082/AVWlizx0",
+			"animation": "sw08witch-creatures/battle/c103uliz",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08witch-creatures/battle/PPLIZAX",
-				"offset" : {
-					"upperX" : 30,
-					"upperY" : -70,
-					"middleX" : 45,
-					"middleY" : -49,
-					"lowerX" : 40,
-					"lowerY" : -47
+			"missile": {
+				"projectile": "sw08witch-creatures/battle/PPLIZAX",
+				"offset": {
+					"upperX": 30,
+					"upperY": -70,
+					"middleX": 45,
+					"middleY": -49,
+					"lowerX": 40,
+					"lowerY": -47
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 7
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
 			}
 		},
-		"sound" : {
-			"attack" : "sw08witch/lizard warrior/ALIZATTK.wav",
-			"defend" : "sw08witch/lizard warrior/ALIZDFND.wav",
-			"killed" : "sw08witch/lizard warrior/ALIZKILL.wav",
-			"move" : "sw08witch/lizard warrior/ALIZMOVE.wav",
-			"wince" : "sw08witch/lizard warrior/ALIZWNCE.wav",
-			"shoot" : "sw08witch/lizard warrior/ALIZSHOT.wav"
+		"sound": {
+			"attack": "sw08witch/lizard warrior/ALIZATTK.wav",
+			"defend": "sw08witch/lizard warrior/ALIZDFND.wav",
+			"killed": "sw08witch/lizard warrior/ALIZKILL.wav",
+			"move": "sw08witch/lizard warrior/ALIZMOVE.wav",
+			"wince": "sw08witch/lizard warrior/ALIZWNCE.wav",
+			"shoot": "sw08witch/lizard warrior/ALIZSHOT.wav"
 		}
 	}
 }

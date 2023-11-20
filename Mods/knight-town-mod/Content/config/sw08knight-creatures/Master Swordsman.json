@@ -1,65 +1,65 @@
 {
-	"sw08knightMasterSwordsman" : {
-		"name" : {
-			"singular" : "Master Swordsman",
-			"plural" : "Master Swordsmen"
+	"sw08knightMasterSwordsman": {
+		"name": {
+			"singular": "Master Swordsman",
+			"plural": "Master Swordsmen"
 		},
-		"faction" : "sw08knight",
-		"level" : 5,
-		"cost" : {
-			"gold" : 400
+		"faction": "sw08knight",
+		"level": 5,
+		"cost": {
+			"gold": 400
 		},
-		"speed" : 7,
-		"hitPoints" : 40,
-		"shots" : 0,
-		"attack" : 7,
-		"defense" : 9,
-		"damage" : {
-			"min" : 6,
-			"max" : 8
+		"speed": 7,
+		"hitPoints": 40,
+		"shots": 0,
+		"attack": 7,
+		"defense": 9,
+		"damage": {
+			"min": 6,
+			"max": 8
 		},
-		"fightValue" : 588,
-		"aiValue" : 588,
-		"advMapAmount" : {
-			"min" : 14,
-			"max" : 22
+		"fightValue": 588,
+		"aiValue": 588,
+		"advMapAmount": {
+			"min": 14,
+			"max": 22
 		},
-		"growth" : 4,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {},
-		"graphics" : {
-			"iconSmall" : "sw08knight-creatures/cprsmall.def:11",
-			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:11",
-			"map" : "sw08knight-creatures/map/AvWMonk",
-			"animation" : "sw08knight-creatures/battle/c009uswd",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"growth": 4,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {},
+		"graphics": {
+			"iconSmall": "sw08knight-creatures/cprsmall.def:11",
+			"iconLarge": "sw08knight-creatures/TWCRPORT.def:11",
+			"map": "sw08knight-creatures/map/AvWMonk",
+			"animation": "sw08knight-creatures/battle/c009uswd",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08knight-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 7
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
 			}
 		},
-		"sound" : {
-			"attack" : "sw08knight/master swordsman/ZELTATTK.wav",
-			"defend" : "sw08knight/master swordsman/ZELTDFND.wav",
-			"killed" : "sw08knight/master swordsman/ZELTKILL.wav",
-			"move" : "sw08knight/master swordsman/ZELTMOVE.wav",
-			"wince" : "sw08knight/master swordsman/ZELTWNCE.wav"
+		"sound": {
+			"attack": "sw08knight/master swordsman/ZELTATTK.wav",
+			"defend": "sw08knight/master swordsman/ZELTDFND.wav",
+			"killed": "sw08knight/master swordsman/ZELTKILL.wav",
+			"move": "sw08knight/master swordsman/ZELTMOVE.wav",
+			"wince": "sw08knight/master swordsman/ZELTWNCE.wav"
 		}
 	}
 }

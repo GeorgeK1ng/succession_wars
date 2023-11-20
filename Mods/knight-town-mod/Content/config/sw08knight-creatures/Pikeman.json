@@ -1,71 +1,71 @@
 {
-	"sw08knightPikeman" : {
-		"name" : {
-			"singular" : "Pikeman",
-			"plural" : "Pikemen"
+	"sw08knightPikeman": {
+		"name": {
+			"singular": "Pikeman",
+			"plural": "Pikemen"
 		},
-		"faction" : "sw08knight",
-		"level" : 3,
-		"cost" : {
-			"gold" : 150
+		"faction": "sw08knight",
+		"level": 3,
+		"cost": {
+			"gold": 150
 		},
-		"speed" : 5,
-		"hitPoints" : 15,
-		"shots" : 0,
-		"attack" : 5,
-		"defense" : 6,
-		"damage" : {
-			"min" : 3,
-			"max" : 4
+		"speed": 5,
+		"hitPoints": 15,
+		"shots": 0,
+		"attack": 5,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 4
 		},
-		"fightValue" : 324,
-		"aiValue" : 250,
-		"advMapAmount" : {
-			"min" : 15,
-			"max" : 25
+		"fightValue": 324,
+		"aiValue": 250,
+		"advMapAmount": {
+			"min": 15,
+			"max": 25
 		},
-		"growth" : 6,
-		"horde" : 3,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [
+		"growth": 6,
+		"horde": 3,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
 			"sw08knightVeteranPikeman"
 		],
-		"graphics" : {
-			"iconSmall" : "sw08knight-creatures/cprsmall.def:6",
-			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:6",
-			"map" : "sw08knight-creatures/map/avwgrif",
-			"animation" : "sw08knight-creatures/battle/c004pike",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08knight-creatures/cprsmall.def:6",
+			"iconLarge": "sw08knight-creatures/TWCRPORT.def:6",
+			"map": "sw08knight-creatures/map/avwgrif",
+			"animation": "sw08knight-creatures/battle/c004pike",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08knight-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 8
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
 			}
 		},
-		"sound" : {
-			"attack" : "sw08knight/pikeman/grifATTK.wav",
-			"defend" : "sw08knight/pikeman/grifDFND.wav",
-			"killed" : "sw08knight/pikeman/grifKILL.wav",
-			"move" : "sw08knight/pikeman/grifMOVE.wav",
-			"wince" : "sw08knight/pikeman/grifWNCE"
+		"sound": {
+			"attack": "sw08knight/pikeman/grifATTK.wav",
+			"defend": "sw08knight/pikeman/grifDFND.wav",
+			"killed": "sw08knight/pikeman/grifKILL.wav",
+			"move": "sw08knight/pikeman/grifMOVE.wav",
+			"wince": "sw08knight/pikeman/grifWNCE"
 		},
-		"abilities" : {
-			"ability1" : {
-				"type" : "CHARGE_IMMUNITY"
+		"abilities": {
+			"ability1": {
+				"type": "CHARGE_IMMUNITY"
 			}
 		}
 	}

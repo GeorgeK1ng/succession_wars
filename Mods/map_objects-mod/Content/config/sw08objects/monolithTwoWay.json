@@ -3,7 +3,7 @@
 		"types": {
 			// "monolith1": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn2g0",
@@ -32,7 +32,7 @@
 			// },
 			// "monolith2": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn2o0",
@@ -61,7 +61,7 @@
 			// },
 			// "monolith3": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn2p0",
@@ -90,7 +90,7 @@
 			// },
 			// "monolith4": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn4b0",
@@ -119,7 +119,7 @@
 			// },
 			// "monolith5": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn5b0",
@@ -148,7 +148,7 @@
 			// },
 			// "monolith6": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn2g0",
@@ -177,7 +177,7 @@
 			// },
 			// "monolith7": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn2g0",
@@ -206,7 +206,7 @@
 			// },
 			// "monolith8": {
 			// 	"name": "Two-way Monolith",
-			// 	//"index" : 0,
+			// 	//"index": 0,
 			// 	"templates": {
 			// 		"AVXmn2g0": {
 			// 			"animation": "sw08objects/monolithTwoWay/AVXmn2g0",
@@ -235,7 +235,7 @@
 			// },
 			"sw08objectsmonolithA": {
 				"name": "Two-way Monolith",
-				//"index" : 0,
+				//"index": 0,
 				"templates": {
 					"AVXmn2g0": {
 						"animation": "sw08objects/monolithTwoWay/AVXmn2g0",
@@ -264,7 +264,7 @@
 			},
 			"sw08objectsmonolithB": {
 				"name": "Two-way Monolith",
-				//"index" : 0,
+				//"index": 0,
 				"templates": {
 					"AVXmn2o0": {
 						"animation": "sw08objects/monolithTwoWay/AVXmn2o0",
@@ -292,7 +292,7 @@
 			},
 			"sw08objectsmonolithC": {
 				"name": "Two-way Monolith",
-				//"index" : 0,
+				//"index": 0,
 				"templates": {
 					"AVXmn2p0": {
 						"animation": "sw08objects/monolithTwoWay/AVXmn2p0",
@@ -321,7 +321,7 @@
 			},
 			"sw08objectsmonolithD": {
 				"name": "Two-way Monolith",
-				//"index" : 0,
+				//"index": 0,
 				"templates": {
 					"AVXmn4b0": {
 						"animation": "sw08objects/monolithTwoWay/AVXmn4b0",
@@ -349,7 +349,7 @@
 			},
 			"sw08objectsmonolithE": {
 				"name": "Two-way Monolith",
-				//"index" : 0,
+				//"index": 0,
 				"templates": {
 					"AVXmn5b0": {
 						"animation": "sw08objects/monolithTwoWay/AVXmn5b0",

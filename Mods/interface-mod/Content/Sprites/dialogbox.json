@@ -1,16 +1,16 @@
 {
-	"images" :
+	"images":
 	[
-		{ "frame" : 0, "file" : "dialogbox/DiBoxTL.png"},
-		{ "frame" : 1, "file" : "dialogbox/DiBoxTR.png"},
-		{ "frame" : 2, "file" : "dialogbox/DiBoxBL.png"},
-		{ "frame" : 3, "file" : "dialogbox/DiBoxBR.png"},
-		{ "frame" : 4, "file" : "dialogbox/DiBoxL.png"},
-		{ "frame" : 5, "file" : "dialogbox/DiBoxR.png"},
-		{ "frame" : 6, "file" : "dialogbox/DiBoxT.png"},
-		{ "frame" : 7, "file" : "dialogbox/DiBoxB.png"},
-		{ "frame" : 8, "file" : "dialogbox/DiBoxRL.png"},
-		{ "frame" : 9, "file" : "dialogbox/DiBoxRR.png"},
-		{ "frame" : 10, "file" : "dialogbox/DiBoxRB.png"}
+		{ "frame": 0, "file": "dialogbox/DiBoxTL.png"},
+		{ "frame": 1, "file": "dialogbox/DiBoxTR.png"},
+		{ "frame": 2, "file": "dialogbox/DiBoxBL.png"},
+		{ "frame": 3, "file": "dialogbox/DiBoxBR.png"},
+		{ "frame": 4, "file": "dialogbox/DiBoxL.png"},
+		{ "frame": 5, "file": "dialogbox/DiBoxR.png"},
+		{ "frame": 6, "file": "dialogbox/DiBoxT.png"},
+		{ "frame": 7, "file": "dialogbox/DiBoxB.png"},
+		{ "frame": 8, "file": "dialogbox/DiBoxRL.png"},
+		{ "frame": 9, "file": "dialogbox/DiBoxRR.png"},
+		{ "frame": 10, "file": "dialogbox/DiBoxRB.png"}
 	]
 }

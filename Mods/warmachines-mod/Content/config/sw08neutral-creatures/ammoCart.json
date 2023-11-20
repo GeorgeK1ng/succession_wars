@@ -1,61 +1,61 @@
 {
 	"sw08neutralammoCart": {
-		"name" : {
-			"plural" : "Ammo Carts",
-			"singular" : "Ammo Cart"
+		"name": {
+			"plural": "Ammo Carts",
+			"singular": "Ammo Cart"
 		},
-		"faction" : "sw08neutral",
-		"level" : 0,
-		"cost" : {
-			"gold" : 1000
+		"faction": "sw08neutral",
+		"level": 0,
+		"cost": {
+			"gold": 1000
 		},
-		"speed" : 0,
-		"hitPoints" : 100,
-		"attack" : 0,
-		"defense" : 5,
-		"damage" : {
-			"max" : 0,
-			"min" : 0
+		"speed": 0,
+		"hitPoints": 100,
+		"attack": 0,
+		"defense": 5,
+		"damage": {
+			"max": 0,
+			"min": 0
 		},
-		"doubleWide" : false,
-		"growth" : 0,
-		"horde" : 0,
-		"aiValue" : 400,
-		"fightValue" : 5,
-		"advMapAmount" : {
-			"max" : 0,
-			"min" : 0
+		"doubleWide": false,
+		"growth": 0,
+		"horde": 0,
+		"aiValue": 400,
+		"fightValue": 5,
+		"advMapAmount": {
+			"max": 0,
+			"min": 0
 		},
-		"abilities" : {
-			"SIEGE_WEAPON" : {
-				"type" : "SIEGE_WEAPON"
+		"abilities": {
+			"SIEGE_WEAPON": {
+				"type": "SIEGE_WEAPON"
 			},
-			"inactive" : {
-				"type" : "NOT_ACTIVE"
+			"inactive": {
+				"type": "NOT_ACTIVE"
 			},
-			"inactive2" : {
-				"type" : "SHOTS",
-				"val" : 999
+			"inactive2": {
+				"type": "SHOTS",
+				"val": 999
 			}
 		},
 		
-		"graphics" : {
-			"animation" : "sw08neutral-creatures/battle/c148ammo.def",
-			"map" : "sw08neutral-creatures/arts/AVA0005.def",
+		"graphics": {
+			"animation": "sw08neutral-creatures/battle/c148ammo.def",
+			"map": "sw08neutral-creatures/arts/AVA0005.def",
 			
-			"iconSmall" : "sw08neutral-creatures/CPRSMALL.def:150",
-			"iconLarge" : "sw08neutral-creatures/TwCrPort.def:150",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"attack" : 1,
-				"walk" : 1,
-				"idle" : 10
+			"iconSmall": "sw08neutral-creatures/CPRSMALL.def:150",
+			"iconLarge": "sw08neutral-creatures/TwCrPort.def:150",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"attack": 1,
+				"walk": 1,
+				"idle": 10
 			}
 		},
-		"sound" : {
-			"killed" : "sw08neutral/cart/CARTKILL.wav",
-			"wince" : "sw08neutral/cart/CARTWNCE.wav"
+		"sound": {
+			"killed": "sw08neutral/cart/CARTKILL.wav",
+			"wince": "sw08neutral/cart/CARTWNCE.wav"
 		},
-		"special" : true
+		"special": true
 	}
 }

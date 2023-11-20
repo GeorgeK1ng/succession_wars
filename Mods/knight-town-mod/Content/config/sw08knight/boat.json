@@ -1,15 +1,15 @@
 {
-	"core:boat" : {
-		"types" : {
+	"core:boat": {
+		"types": {
 
-			"sw08knightBoat" : {
-				"name" : "Boat",
+			"sw08knightBoat": {
+				"name": "Boat",
 
-			"rmg" : { "mapLimit" : 64 },
-				"templates" : {
-					"default" : {
-						"animation" : "sw08knight/boat/Hmm2Boat",
-						"mask" : [ "VVV", "VAV" ]
+			"rmg": { "mapLimit": 64 },
+				"templates": {
+					"default": {
+						"animation": "sw08knight/boat/Hmm2Boat",
+						"mask": [ "VVV", "VAV" ]
 					}
 				}
 			}

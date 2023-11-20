@@ -8,8 +8,8 @@
 						"sw08warlockCentaur"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08warlockCentaur" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08warlockCentaur" }
 				//				],
 				"templates": {
 					"default": {
@@ -54,8 +54,8 @@
 						"sw08warlockGargoyle"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08warlockGargoyle" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08warlockGargoyle" }
 				//				],
 				"templates": {
 					"default": {
@@ -81,8 +81,8 @@
 						"sw08warlockGriffin"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08warlockGriffin" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08warlockGriffin" }
 				//				],
 				"templates": {
 					"default": {

@@ -1,62 +1,62 @@
 {
-	"sw08warlockGriffin" : {
-		"name" : {
-			"singular" : "Griffin",
-			"plural" : "Griffins"
+	"sw08warlockGriffin": {
+		"name": {
+			"singular": "Griffin",
+			"plural": "Griffins"
 		},
-		"faction" : "swsw08warlockfaction",
-		"level" : 3,
-		"cost" : {
-			"gold" : 225
+		"faction": "swsw08warlockfaction",
+		"level": 3,
+		"cost": {
+			"gold": 225
 		},
-		"speed" : 6,
-		"hitPoints" : 20,
-		"shots" : 0,
-		"attack" : 6,
-		"defense" : 6,
-		"damage" : {
-			"min" : 3,
-			"max" : 4
+		"speed": 6,
+		"hitPoints": 20,
+		"shots": 0,
+		"attack": 6,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 4
 		},
-		"fightValue" : 217,
-		"aiValue" : 214,
-		"advMapAmount" : {
-			"min" : 12,
-			"max" : 25
+		"fightValue": 217,
+		"aiValue": 214,
+		"advMapAmount": {
+			"min": 12,
+			"max": 25
 		},
-		"growth" : 6,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : true,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "FLYING"
+		"growth": 6,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "FLYING"
 			},
-			"ability2" : {
-				"type" : "ADDITIONAL_RETALIATION",
-				"val" : 1
+			"ability2": {
+				"type": "ADDITIONAL_RETALIATION",
+				"val": 1
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08warlock-creatures/cprsmall.def:76",
-			"iconLarge" : "sw08warlock-creatures/TWCRPORT.def:76",
-			"map" : "sw08warlock-creatures/map/AvWbehl0",
-			"animation" : "sw08warlock-creatures/battle/c074grif",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08warlock-creatures/cprsmall.def:76",
+			"iconLarge": "sw08warlock-creatures/TWCRPORT.def:76",
+			"map": "sw08warlock-creatures/map/AvWbehl0",
+			"animation": "sw08warlock-creatures/battle/c074grif",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			}
 		},
-		"sound" : {
-			"attack" : "sw08warlock/griffin/BHDRATTK.wav",
-			"defend" : "sw08warlock/griffin/BHDRDFND.wav",
-			"killed" : "sw08warlock/griffin/BHDRKILL.wav",
-			"move" : "sw08warlock/griffin/BHDRMOVE.wav",
-			"wince" : "sw08warlock/griffin/BHDRWNCE.wav"
-			//"shoot" :""
+		"sound": {
+			"attack": "sw08warlock/griffin/BHDRATTK.wav",
+			"defend": "sw08warlock/griffin/BHDRDFND.wav",
+			"killed": "sw08warlock/griffin/BHDRKILL.wav",
+			"move": "sw08warlock/griffin/BHDRMOVE.wav",
+			"wince": "sw08warlock/griffin/BHDRWNCE.wav"
+			//"shoot":""
 		}
 	}
 }

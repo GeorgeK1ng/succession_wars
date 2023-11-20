@@ -1,59 +1,59 @@
 {
 	"sw08neutralcatapult": {
-		"name" : {
-			"plural" : "Catapults",
-			"singular" : "Catapult"
+		"name": {
+			"plural": "Catapults",
+			"singular": "Catapult"
 		},
-		"faction" : "sw08neutral",
-		"level" : 0,
-		"cost" : {
-			"gold" : 1
+		"faction": "sw08neutral",
+		"level": 0,
+		"cost": {
+			"gold": 1
 		},
-		"speed" : 0,
-		"hitPoints" : 1000,
-		"attack" : 10,
-		"defense" : 10,
-		"damage" : {
-			"max" : 0,
-			"min" : 0
+		"speed": 0,
+		"hitPoints": 1000,
+		"attack": 10,
+		"defense": 10,
+		"damage": {
+			"max": 0,
+			"min": 0
 		},
-		"shots" : 24,
-		"doubleWide" : false,
-		"growth" : 0,
-		"horde" : 0,
-		"aiValue" : 500,
-		"fightValue" : 5,
-		"advMapAmount" : {
-			"max" : 0,
-			"min" : 0
+		"shots": 24,
+		"doubleWide": false,
+		"growth": 0,
+		"horde": 0,
+		"aiValue": 500,
+		"fightValue": 5,
+		"advMapAmount": {
+			"max": 0,
+			"min": 0
 		},
-		"abilities" : {
-			"ab1" : {
-				"type" : "CATAPULT", "subtype" : "spell.catapultShot"
+		"abilities": {
+			"ab1": {
+				"type": "CATAPULT", "subtype": "spell.catapultShot"
 			},
-			"SHOOTING_ARMY" : {
-				"type" : "SHOOTER"
+			"SHOOTING_ARMY": {
+				"type": "SHOOTER"
 			},
-			"SIEGE_WEAPON" : {
-				"type" : "SIEGE_WEAPON"
+			"SIEGE_WEAPON": {
+				"type": "SIEGE_WEAPON"
 			}
 		},
 		
-		"graphics" : {
-			"animation" : "sw08neutral-creatures/battle/c145cata.def",
-					"map" : "sw08neutral-creatures/arts/AVA0003.def",	
-			"iconSmall" : "sw08neutral-creatures/CPRSMALL.def:147",
-			"iconLarge" : "sw08neutral-creatures/TwCrPort.def:147",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"attack" : 1,
-				"walk" : 1,
-				"idle" : 10
+		"graphics": {
+			"animation": "sw08neutral-creatures/battle/c145cata.def",
+					"map": "sw08neutral-creatures/arts/AVA0003.def",	
+			"iconSmall": "sw08neutral-creatures/CPRSMALL.def:147",
+			"iconLarge": "sw08neutral-creatures/TwCrPort.def:147",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"attack": 1,
+				"walk": 1,
+				"idle": 10
 			},
-			"missile" : {
-				"projectile" : "sw08neutral-creatures/battle/SMCATX.DEF",
-				"attackClimaxFrame" : 5,
-				"frameAngles" : [
+			"missile": {
+				"projectile": "sw08neutral-creatures/battle/SMCATX.DEF",
+				"attackClimaxFrame": 5,
+				"frameAngles": [
 					0,
 					0,
 					0,
@@ -67,21 +67,21 @@
 					0,
 					0
 				],
-				"offset" : {
-					"lowerX" : 69,
-					"lowerY" : -119,
-					"middleX" : 69,
-					"middleY" : -119,
-					"upperX" : 69,
-					"upperY" : -119
+				"offset": {
+					"lowerX": 69,
+					"lowerY": -119,
+					"middleX": 69,
+					"middleY": -119,
+					"upperX": 69,
+					"upperY": -119
 				}
 			}
 		},
-		"sound" : {
-			"killed" : "sw08neutral/catapult/CATAKILL.wav",
-			"shoot" : "sw08neutral/catapult/CATASHOT.wav",
-			"wince" : "sw08neutral/catapult/CATAWNCE.wav"
+		"sound": {
+			"killed": "sw08neutral/catapult/CATAKILL.wav",
+			"shoot": "sw08neutral/catapult/CATASHOT.wav",
+			"wince": "sw08neutral/catapult/CATAWNCE.wav"
 		},
-		"special" : true
+		"special": true
 	}
 }

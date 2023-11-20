@@ -1,20 +1,20 @@
 {
 	"hmm2dirtRoad": {
-		// "originalRoadId" : 1,
+		// "originalRoadId": 1,
 		"shortIdentifier": "sd", //must be 2 characters
 		"tilesFilename": "hmm2rr/dirtrd",
 		"moveCost": 75,
 		"text": "Road"
 	},
 	"hmm2gravelRoad": {
-		// "originalRoadId" : 2,
+		// "originalRoadId": 2,
 		"shortIdentifier": "sg",
 		"tilesFilename": "hmm2rr/gravrd",
 		"moveCost": 65,
 		"text": "Gravel Road"
 	},
 	"hmm2cobblestoneRoad": {
-		// "originalRoadId" : 3,
+		// "originalRoadId": 3,
 		"shortIdentifier": "sc",
 		"tilesFilename": "hmm2rr/cobbrd",
 		"moveCost": 50,

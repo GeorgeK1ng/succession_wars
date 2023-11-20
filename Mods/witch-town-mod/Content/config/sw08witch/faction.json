@@ -9,22 +9,22 @@
 			"130px": "sw08witch/creature-bg-130px"
 		},
 		"town": {
-			"primaryResource" : "ore",
-			"warMachine" : "sw08neutralfirstAidTent",
-			"defaultTavern" : 5,
-			"moatAbility" : "core:spell.fortressMoat",
+			"primaryResource": "ore",
+			"warMachine": "sw08neutralfirstAidTent",
+			"defaultTavern": 5,
+			"moatAbility": "core:spell.fortressMoat",
 
-			// "moatHexes" : [ 10, 11, 27, 28, 43, 44, 60, 61, 76, 77, 94, 110, 111, 128, 129, 145, 146, 163, 164, 180, 181 ],
+			// "moatHexes": [ 10, 11, 27, 28, 43, 44, 60, 61, 76, 77, 94, 110, 111, 128, 129, 145, 146, 163, 164, 180, 181 ],
 
-			"mageGuild" : 5,
+			"mageGuild": 5,
 
-			"hallBackground" : "sw08witch/town-screen/Hall.png",
-			"townBackground" : "sw08witch/town-screen/tbfrback",
-			"guildBackground" : "TPMAGE.bmp",
-			"guildWindow" : "sw08witch/town-screen/mage-guild",
+			"hallBackground": "sw08witch/town-screen/Hall.png",
+			"townBackground": "sw08witch/town-screen/tbfrback",
+			"guildBackground": "TPMAGE.bmp",
+			"guildWindow": "sw08witch/town-screen/mage-guild",
 
-			"musicTheme" : "music/sw08witch/FortressTown.mp3",
-			"tavernVideo" : "sw08witch/optav015.mpg",
+			"musicTheme": "music/sw08witch/FortressTown.mp3",
+			"tavernVideo": "sw08witch/optav015.mpg",
 
 			"hallSlots": [
 				[
@@ -56,7 +56,7 @@
 				]
 			],
 			
-			"creatures" :
+			"creatures":
 			[
 				[ "sw08witchTribal" ],
 				[ "sw08witchWasp" ],
@@ -67,9 +67,9 @@
 				[ "sw08witchWywern" ]
 			],
 
-			"horde" : [ 0 , -1 ],
+			"horde": [ 0 , -1 ],
 
-			"buildingsIcons" : "sw08witch/town-hall",
+			"buildingsIcons": "sw08witch/town-hall",
 
 			"icons": {
 				"village": {
@@ -98,70 +98,70 @@
 				"sw08Witch": 8
 			},
 
-			"mapObject" : {
-				"filters" : {
-					"capitolDirt" : [ "allOf", [ "capitol" ] ] ,
-					"castleDirt" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelDirt" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortDirt" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageDirt" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townDirt" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+			"mapObject": {
+				"filters": {
+					"capitolDirt": [ "allOf", [ "capitol" ] ] ,
+					"castleDirt": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelDirt": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortDirt": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageDirt": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townDirt": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 					
-					"capitolSand" : [ "allOf", [ "capitol" ] ] ,
-					"castleSand" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelSand" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortSand" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageSand" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townSand" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolSand": [ "allOf", [ "capitol" ] ] ,
+					"castleSand": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSand": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSand": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSand": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSand": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 					
-					"capitolGrass" : [ "allOf", [ "capitol" ] ] ,
-					"castleGrass" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelGrass" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortGrass" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageGrass" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townGrass" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolGrass": [ "allOf", [ "capitol" ] ] ,
+					"castleGrass": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelGrass": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortGrass": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageGrass": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townGrass": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 					
-					"capitolSnow" : [ "allOf", [ "capitol" ] ] ,
-					"castleSnow" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelSnow" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortSnow" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageSnow" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townSnow" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolSnow": [ "allOf", [ "capitol" ] ] ,
+					"castleSnow": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSnow": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSnow": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSnow": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSnow": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 						
-					"capitolSwamp" : [ "allOf", [ "capitol" ] ] ,
-					"castleSwamp" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelSwamp" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortSwamp" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageSwamp" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townSwamp" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolSwamp": [ "allOf", [ "capitol" ] ] ,
+					"castleSwamp": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSwamp": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSwamp": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSwamp": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSwamp": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 
 						
-					"capitolRough" : [ "allOf", [ "capitol" ] ] ,
-					"castleRough" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelRough" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortRough" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageRough" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townRough" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolRough": [ "allOf", [ "capitol" ] ] ,
+					"castleRough": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelRough": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortRough": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageRough": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townRough": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 
-					"capitolSubterra" : [ "allOf", [ "capitol" ] ] ,
-					"castleSubterra" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelSubterra" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortSubterra" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageSubterra" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townSubterra" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolSubterra": [ "allOf", [ "capitol" ] ] ,
+					"castleSubterra": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSubterra": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSubterra": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSubterra": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSubterra": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 
-					"capitolLava" : [ "allOf", [ "capitol" ] ] ,
-					"castleLava" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelLava" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortLava" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageLava" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townLava" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolLava": [ "allOf", [ "capitol" ] ] ,
+					"castleLava": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelLava": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortLava": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageLava": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townLava": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
 
-					"castleAll" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadelAll" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fortAll" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
-					"villageAll" : [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
-					"townAll" : [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ]
+					"castleAll": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelAll": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortAll": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageAll": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townAll": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ]
 				},
 
 				"templates": {

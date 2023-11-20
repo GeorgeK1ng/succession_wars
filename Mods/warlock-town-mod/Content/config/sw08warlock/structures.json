@@ -163,7 +163,7 @@
 					"y": 95,
 					"z": -3
 				},
-//"horde1Upgr":{  "animation" : "sw08warlock/town-screen/buildings/TBDNHRD2", "x" : -1,   "y" : 142, "z" : 2,  "border" : "sw08warlock/town-screen/buildings-border/TODTR2HA.bmp", "area" : "sw08warlock/town-screen/buildings-area/TZDTR2HA.bmp", "hidden" : true},
+//"horde1Upgr":{  "animation": "sw08warlock/town-screen/buildings/TBDNHRD2", "x": -1,   "y": 142, "z": 2,  "border": "sw08warlock/town-screen/buildings-border/TODTR2HA.bmp", "area": "sw08warlock/town-screen/buildings-area/TZDTR2HA.bmp", "hidden": true},
 				"special2": {
 					"animation": "sw08warlock/town-screen/buildings/TBDNEXT0",
 					"border": "sw08warlock/town-screen/buildings-border/TODVOR1A.bmp",
@@ -188,7 +188,7 @@
 					"y": 64,
 					"z": -16
 				},
-//"grail":{  "animation" : "sw08warlock/town-screen/buildings/TBDNHOLY", "x" : 462, "y" : 0,  "z" : -9,  "border" : "sw08warlock/town-screen/buildings-border/TODHOLY.bmp",  "area" : "sw08warlock/town-screen/buildings-area/TZDHOLY.bmp" },
+//"grail":{  "animation": "sw08warlock/town-screen/buildings/TBDNHOLY", "x": 462, "y": 0,  "z": -9,  "border": "sw08warlock/town-screen/buildings-border/TODHOLY.bmp",  "area": "sw08warlock/town-screen/buildings-area/TZDHOLY.bmp" },
 				"dwellingLvl1": {
 					"animation": "sw08warlock/town-screen/buildings/TBDNDW_0",
 					"border": "sw08warlock/town-screen/buildings-border/TODTRG1A.bmp",
@@ -245,10 +245,10 @@
 					"y": 0,
 					"z": -6
 				},
-//"dwellingUpLvl1":{  "animation" : "sw08warlock/town-screen/buildings/TBDNUP_0", "x" : -1,   "y" : 142, "z" : 2,  "border" : "sw08warlock/town-screen/buildings-border/TODTRG2A.bmp", "area" : "sw08warlock/town-screen/buildings-area/TZDTRG2A.bmp" },
-				//"dwellingUpLvl2":{  "animation" : "sw08warlock/town-screen/buildings/TBDNUP_1", "x" : 297,   "y" : 293,  "border" : "sw08warlock/town-screen/buildings-border/TODHAR2.bmp",  "area" : "sw08warlock/town-screen/buildings-area/TZDHAR2.bmp" },
-				//"dwellingUpLvl3":{  "animation" : "sw08warlock/town-screen/buildings/TBDNUP_2", "x" : 621, "y" : 41, "z" : 1,  "border" : "sw08warlock/town-screen/buildings-border/TODBEH2A.bmp", "area" : "sw08warlock/town-screen/buildings-area/TZDBEH2A.bmp" },
-				//"dwellingUpLvl4":{  "animation" : "sw08warlock/town-screen/buildings/TBDNUP_3", "x" : 0, "y" : 241,  "z" : -1, "border" : "sw08warlock/town-screen/buildings-border/TODMED2.bmp",  "area" : "sw08warlock/town-screen/buildings-area/TZDMED2.bmp" },
+//"dwellingUpLvl1":{  "animation": "sw08warlock/town-screen/buildings/TBDNUP_0", "x": -1,   "y": 142, "z": 2,  "border": "sw08warlock/town-screen/buildings-border/TODTRG2A.bmp", "area": "sw08warlock/town-screen/buildings-area/TZDTRG2A.bmp" },
+				//"dwellingUpLvl2":{  "animation": "sw08warlock/town-screen/buildings/TBDNUP_1", "x": 297,   "y": 293,  "border": "sw08warlock/town-screen/buildings-border/TODHAR2.bmp",  "area": "sw08warlock/town-screen/buildings-area/TZDHAR2.bmp" },
+				//"dwellingUpLvl3":{  "animation": "sw08warlock/town-screen/buildings/TBDNUP_2", "x": 621, "y": 41, "z": 1,  "border": "sw08warlock/town-screen/buildings-border/TODBEH2A.bmp", "area": "sw08warlock/town-screen/buildings-area/TZDBEH2A.bmp" },
+				//"dwellingUpLvl4":{  "animation": "sw08warlock/town-screen/buildings/TBDNUP_3", "x": 0, "y": 241,  "z": -1, "border": "sw08warlock/town-screen/buildings-border/TODMED2.bmp",  "area": "sw08warlock/town-screen/buildings-area/TZDMED2.bmp" },
 				"dwellingUpLvl5": {
 					"animation": "sw08warlock/town-screen/buildings/TBDNUP_4",
 					"border": "sw08warlock/town-screen/buildings-border/TODMIN2.bmp",
@@ -257,7 +257,7 @@
 					"y": 249,
 					"z": -18
 				},
-//"dwellingUpLvl6":{  "animation" : "sw08warlock/town-screen/buildings/TBDNUP_5", "x" : 148, "y" : 0, "z" : -1, "border" : "sw08warlock/town-screen/buildings-border/TODMAN2.bmp",  "area" : "sw08warlock/town-screen/buildings-area/TZDMAN2.bmp" },
+//"dwellingUpLvl6":{  "animation": "sw08warlock/town-screen/buildings/TBDNUP_5", "x": 148, "y": 0, "z": -1, "border": "sw08warlock/town-screen/buildings-border/TODMAN2.bmp",  "area": "sw08warlock/town-screen/buildings-area/TZDMAN2.bmp" },
 				"dwellingUpLvl7": {
 					"animation": "sw08warlock/town-screen/buildings/TBDNUP_6",
 					"border": "sw08warlock/town-screen/buildings-border/TODDRA2A.bmp",
@@ -266,7 +266,7 @@
 					"y": 0,
 					"z": -5
 				}
-//"building50":{  "animation" : "sw08warlock/town-screen/buildings/TBDNExt1", "x" : 214, "y" : 0,   "z" : -1, "border" : "sw08warlock/town-screen/buildings-border/TODDRA2A.bmp", "area" : "sw08warlock/town-screen/buildings-area/TZDDRA2A.bmp" }
+//"building50":{  "animation": "sw08warlock/town-screen/buildings/TBDNExt1", "x": 214, "y": 0,   "z": -1, "border": "sw08warlock/town-screen/buildings-border/TODDRA2A.bmp", "area": "sw08warlock/town-screen/buildings-area/TZDDRA2A.bmp" }
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 	"core:mine": {
 		"types": {
 			"sawmill": {
-				//"index" : 0,
+				//"index": 0,
 				"rmg": {
 					"value": 1500
 				},
@@ -269,7 +269,7 @@
 			},
 			"orePit": {
 				"name": "Ore Mine",
-				//"index" : 1,
+				//"index": 1,
 				"rmg": {
 					"value": 3500
 				},
@@ -457,7 +457,7 @@
 				}
 			},
 			"alchemistLab": {
-				//"index" : 2,
+				//"index": 2,
 				"rmg": {
 					"value": 3500
 				},
@@ -506,7 +506,7 @@
 			},
 			"sulfurDune": {
 				"name": "Sulfur Mine",
-				//"index" : 3,
+				//"index": 3,
 				"rmg": {
 					"value": 3500
 				},
@@ -710,7 +710,7 @@
 			},
 			"crystalCavern": {
 				"name": "Crystal Mine",
-				//"index" : 4,
+				//"index": 4,
 				"rmg": {
 					"value": 3500
 				},
@@ -914,7 +914,7 @@
 			},
 			"gemPond": {
 				"name": "Gem Mine",
-				//"index" : 5,
+				//"index": 5,
 				"rmg": {
 					"value": 3500
 				},
@@ -1103,7 +1103,7 @@
 			},
 			"goldMine": {
 				"name": "Gold Mine",
-				//"index" : 6,
+				//"index": 6,
 				"rmg": {
 					"value": 3500
 				},

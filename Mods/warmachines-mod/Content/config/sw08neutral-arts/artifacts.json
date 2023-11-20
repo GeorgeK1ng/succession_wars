@@ -2,86 +2,86 @@
 
 	"sw08neutralcatapult":
 	{
-	"warMachine" : "sw08neutralcatapult",
-		"type" : ["HERO"],
-		"class" : "SPECIAL",
-		"slot" : [
+	"warMachine": "sw08neutralcatapult",
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot": [
 			"MACH4"
 		],
-		"text" : {
-			"description" : "{Catapult} Use this war machine to target your enemy's fortifications in combat.",
-			"event" : "You trip over the Catapult, dust it off, and stick it in your pack.",
-			"name" : "Catapult"
+		"text": {
+			"description": "{Catapult} Use this war machine to target your enemy's fortifications in combat.",
+			"event": "You trip over the Catapult, dust it off, and stick it in your pack.",
+			"name": "Catapult"
 		},
-		"value" : 1000,
+		"value": 1000,
 		
 		"graphics":
 		{
-			"image" : "sw08neutral-creatures/arts/artifcur.def:3",
-			"map" : "sw08neutral-creatures/arts/AVA0003.def"
+			"image": "sw08neutral-creatures/arts/artifcur.def:3",
+			"map": "sw08neutral-creatures/arts/AVA0003.def"
 		}
 	},
 
 	"sw08neutralballista":
 	{
-"warMachine" : "sw08neutralballista",
-		"type" : ["HERO"],
-		"class" : "SPECIAL",
-		"slot" : [
+"warMachine": "sw08neutralballista",
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot": [
 			"MACH1"
 		],
-		"text" : {
-			"description" : "{Ballista} Use this war machine to target your enemy's troops in combat.",
-			"event" : "You trip over the Ballista, dust it off, and stick it in your pack.",
-			"name" : "Ballista"
+		"text": {
+			"description": "{Ballista} Use this war machine to target your enemy's troops in combat.",
+			"event": "You trip over the Ballista, dust it off, and stick it in your pack.",
+			"name": "Ballista"
 		},
-		"value" : 2500,
+		"value": 2500,
 		"graphics":
 		{
-			"image" : "sw08neutral-creatures/arts/artifcur.def:4",
-			"map" : "sw08neutral-creatures/arts/AVA0004.def"
+			"image": "sw08neutral-creatures/arts/artifcur.def:4",
+			"map": "sw08neutral-creatures/arts/AVA0004.def"
 		}
 	},
 
 	"sw08neutralammoCart":
 	{
-	"warMachine" : "sw08neutralammoCart",
-		"type" : ["HERO"],
-		"class" : "SPECIAL",
-		"slot" : [
+	"warMachine": "sw08neutralammoCart",
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot": [
 			"MACH2"
 		],
-		"text" : {
-			"description" : "{Ammo Cart} The Ammo Cart ensures that your missile troops will never run out of ammunition in combat.",
-			"event" : "You trip over the Ammo Cart, dust it off, and stick it in your pack.",
-			"name" : "Ammo Cart"
+		"text": {
+			"description": "{Ammo Cart} The Ammo Cart ensures that your missile troops will never run out of ammunition in combat.",
+			"event": "You trip over the Ammo Cart, dust it off, and stick it in your pack.",
+			"name": "Ammo Cart"
 		},
-		"value" : 1000,
+		"value": 1000,
 		"graphics":
 		{
-			"image" : "sw08neutral-creatures/arts/artifcur.def:5",
-			"map" : "sw08neutral-creatures/arts/AVA0005.def"
+			"image": "sw08neutral-creatures/arts/artifcur.def:5",
+			"map": "sw08neutral-creatures/arts/AVA0005.def"
 		}
 	},
 
 	"sw08neutralfirstAidTent":
 	{
-	"warMachine" : "sw08neutralfirstAidTent",
-		"type" : ["HERO"],
-		"class" : "SPECIAL",
-		"slot" : [
+	"warMachine": "sw08neutralfirstAidTent",
+		"type": ["HERO"],
+		"class": "SPECIAL",
+		"slot": [
 			"MACH3"
 		],
-		"text" : {
-			"description" : "{First Aid Tent} The First Aid Tent provides healing to your troops during each round of combat.",
-			"event" : "You trip over the First Aid Tent, dust it off, and stick it in your pack.",
-			"name" : "First Aid Tent"
+		"text": {
+			"description": "{First Aid Tent} The First Aid Tent provides healing to your troops during each round of combat.",
+			"event": "You trip over the First Aid Tent, dust it off, and stick it in your pack.",
+			"name": "First Aid Tent"
 		},
-		"value" : 750,
+		"value": 750,
 		"graphics":
 		{
-			"image" : "sw08neutral-creatures/arts/artifcur.def:6",
-			"map" : "sw08neutral-creatures/arts/AVA0006.def"
+			"image": "sw08neutral-creatures/arts/artifcur.def:6",
+			"map": "sw08neutral-creatures/arts/AVA0006.def"
 		}
 	}
 

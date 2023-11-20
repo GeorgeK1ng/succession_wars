@@ -8,8 +8,8 @@
 						"sw08sorceressPixie"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08sorceressPixie" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08sorceressPixie" }
 				//				],
 				"templates": {
 					"default": {
@@ -28,8 +28,8 @@
 						"sw08sorceressPixie"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08sorceressPixie" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08sorceressPixie" }
 				//				],
 				"templates": {
 					"default": {
@@ -48,8 +48,8 @@
 						"sw08sorceressPixie"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08sorceressPixie" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08sorceressPixie" }
 				//				],
 				"templates": {
 					"default": {
@@ -68,8 +68,8 @@
 						"sw08sorceressDwarf"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08sorceressDwarf" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08sorceressDwarf" }
 				//				],
 				"templates": {
 					"default": {
@@ -100,8 +100,8 @@
 						"sw08sorceressBattleDwarf"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08sorceressBattleDwarf" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08sorceressBattleDwarf" }
 				//				],
 				"templates": {
 					"default": {
@@ -120,8 +120,8 @@
 						"sw08sorceressElf"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08sorceressElf" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08sorceressElf" }
 				//				],
 				"templates": {
 					"default": {
@@ -140,8 +140,8 @@
 						"sw08sorceressGrandElf"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08sorceressGrandElf" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08sorceressGrandElf" }
 				//				],
 				"templates": {
 					"default": {

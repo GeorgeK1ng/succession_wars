@@ -1,7 +1,7 @@
 {
 	"sw08witch": {
 		"town": {
-			"guildSpells" :
+			"guildSpells":
 			{
 				"bless"          : 2,
 				"bloodlust"      : 5,

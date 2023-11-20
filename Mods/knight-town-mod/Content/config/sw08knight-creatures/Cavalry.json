@@ -1,73 +1,73 @@
 {
-	"sw08knightCavalry" : {
-		"name" : {
-			"singular" : "Cavalry",
-			"plural" : "Cavalries"
+	"sw08knightCavalry": {
+		"name": {
+			"singular": "Cavalry",
+			"plural": "Cavalries"
 		},
-		"faction" : "sw08knight",
-		"level" : 6,
-		"cost" : {
-			"gold" : 550
+		"faction": "sw08knight",
+		"level": 6,
+		"cost": {
+			"gold": 550
 		},
-		"speed" : 8,
-		"hitPoints" : 40,
-		"shots" : 0,
-		"attack" : 10,
-		"defense" : 9,
-		"damage" : {
-			"min" : 6,
-			"max" : 12
+		"speed": 8,
+		"hitPoints": 40,
+		"shots": 0,
+		"attack": 10,
+		"defense": 9,
+		"damage": {
+			"min": 6,
+			"max": 12
 		},
-		"fightValue" : 1112,
-		"aiValue" : 1297,
-		"advMapAmount" : {
-			"min" : 12,
-			"max" : 18
+		"fightValue": 1112,
+		"aiValue": 1297,
+		"advMapAmount": {
+			"min": 12,
+			"max": 18
 		},
-		"growth" : 3,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : true,
-		"upgrades" : [
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"upgrades": [
 			"sw08knightChampion"
 		],
-		"abilities" : {
-			"ability1" : {
-				"type" : "JOUSTING",
-				"val" : 15
+		"abilities": {
+			"ability1": {
+				"type": "JOUSTING",
+				"val": 15
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08knight-creatures/cprsmall.def:12",
-			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:12",
-			"map" : "sw08knight-creatures/map/avwcvlr0",
-			"animation" : "sw08knight-creatures/battle/c010cvlr",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08knight-creatures/cprsmall.def:12",
+			"iconLarge": "sw08knight-creatures/TWCRPORT.def:12",
+			"map": "sw08knight-creatures/map/avwcvlr0",
+			"animation": "sw08knight-creatures/battle/c010cvlr",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08knight-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08knight-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 7
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
 			}
 		},
-		"sound" : {
-			"attack" : "sw08knight/cavalier/CAVAATTK.wav",
-			"defend" : "sw08knight/cavalier/CAVADFND.wav",
-			"killed" : "sw08knight/cavalier/CAVAKILL.wav",
-			"move" : "sw08knight/cavalier/CAVAMOVE.wav",
-			"wince" : "sw08knight/cavalier/CAVAWNCE.wav"
+		"sound": {
+			"attack": "sw08knight/cavalier/CAVAATTK.wav",
+			"defend": "sw08knight/cavalier/CAVADFND.wav",
+			"killed": "sw08knight/cavalier/CAVAKILL.wav",
+			"move": "sw08knight/cavalier/CAVAMOVE.wav",
+			"wince": "sw08knight/cavalier/CAVAWNCE.wav"
 		}
 	}
 }

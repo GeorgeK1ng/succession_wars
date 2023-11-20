@@ -1,70 +1,70 @@
 {
-	"sw08witchWasp" : {
-		"name" : {
-			"singular" : "Wasp",
-			"plural" : "Wasps"
+	"sw08witchWasp": {
+		"name": {
+			"singular": "Wasp",
+			"plural": "Wasps"
 		},
-		"faction" : "sw08witch",
-		"level" : 2,
-		"cost" : {
-			"gold" : 145
+		"faction": "sw08witch",
+		"level": 2,
+		"cost": {
+			"gold": 145
 		},
-		"speed" : 8,
-		"hitPoints" : 10,
-		"shots" : 0,
-		"attack" : 4,
-		"defense" : 2,
-		"damage" : {
-			"min" : 2,
-			"max" : 5
+		"speed": 8,
+		"hitPoints": 10,
+		"shots": 0,
+		"attack": 4,
+		"defense": 2,
+		"damage": {
+			"min": 2,
+			"max": 5
 		},
-		"fightValue" : 133,
-		"aiValue" : 120,
-		"advMapAmount" : {
-			"min" : 15,
-			"max" : 30
+		"fightValue": 133,
+		"aiValue": 120,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
 		},
-		"growth" : 8,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "FLYING",
-				"subtype" : "movementFlying"
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "FLYING",
+				"subtype": "movementFlying"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08witch-creatures/cprsmall.def:102",
-			"iconLarge" : "sw08witch-creatures/TWCRPORT.def:102",
-			"map" : "sw08witch-creatures/map/AvWdfly",
-			"animation" : "sw08witch-creatures/battle/c100wasp",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08witch-creatures/cprsmall.def:102",
+			"iconLarge": "sw08witch-creatures/TWCRPORT.def:102",
+			"map": "sw08witch-creatures/map/AvWdfly",
+			"animation": "sw08witch-creatures/battle/c100wasp",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08witch-creatures/battle/cprgtix",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08witch-creatures/battle/cprgtix",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 13
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 13
 			}
 		},
-		"sound" : {
-			"attack" : "sw08witch/wasp/PLIZATTK.wav",
-			"defend" : "sw08witch/wasp/PLIZDFND.wav",
-			"killed" : "sw08witch/wasp/PLIZKILL.wav",
-			"move" : "sw08witch/wasp/PLIZMOVE.wav",
-			"wince" : "sw08witch/wasp/PLIZWNCE.wav"
+		"sound": {
+			"attack": "sw08witch/wasp/PLIZATTK.wav",
+			"defend": "sw08witch/wasp/PLIZDFND.wav",
+			"killed": "sw08witch/wasp/PLIZKILL.wav",
+			"move": "sw08witch/wasp/PLIZMOVE.wav",
+			"wince": "sw08witch/wasp/PLIZWNCE.wav"
 		}
 	}
 }

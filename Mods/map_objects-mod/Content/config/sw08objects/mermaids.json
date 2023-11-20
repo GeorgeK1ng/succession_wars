@@ -3,9 +3,9 @@
 		"types": {
 			"sw08objectsmermaids01": {
 				"handler": "bonusingObject",
-				//	"base" : {
-				//		"sounds" : {
-				//			"visit" : ["LUCK"]
+				//	"base": {
+				//		"sounds": {
+				//			"visit": ["LUCK"]
 				//		}
 				//	},
 				"name": "Mermaids",

@@ -1,74 +1,74 @@
 {
-	"sw08neutralEarthElemental" : {
-		"name" : {
-			"singular" : "Earth Elemental",
-			"plural" : "Earth Elementals"
+	"sw08neutralEarthElemental": {
+		"name": {
+			"singular": "Earth Elemental",
+			"plural": "Earth Elementals"
 		},
-		"faction" : "sw08neutral",
-		"level" : 3,
-		"cost" : {
-			"gold" : 500
+		"faction": "sw08neutral",
+		"level": 3,
+		"cost": {
+			"gold": 500
 		},
-		"speed" : 4,
-		"hitPoints" : 50,
-		"shots" : 0,
-		"attack" : 8,
-		"defense" : 8,
-		"damage" : {
-			"min" : 4,
-			"max" : 5
+		"speed": 4,
+		"hitPoints": 50,
+		"shots": 0,
+		"attack": 8,
+		"defense": 8,
+		"damage": {
+			"min": 4,
+			"max": 5
 		},
-		"fightValue" : 415,
-		"aiValue" : 330,
-		"advMapAmount" : {
-			"min" : 13,
-			"max" : 25
+		"fightValue": 415,
+		"aiValue": 330,
+		"advMapAmount": {
+			"min": 13,
+			"max": 25
 		},
-		"growth" : 8,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [],
-		"abilities" : {
-			"ability1" : {
-				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "spellSchool.earth"
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "SPELL_SCHOOL_IMMUNITY",
+				"subtype": "spellSchool.earth"
 			},
-			"ability2" : {
-				"type" : "NON_LIVING"
+			"ability2": {
+				"type": "NON_LIVING"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08neutral-creatures/cprsmall.def:115",
-			"iconLarge" : "sw08neutral-creatures/TWCRPORT.def:115",
-			"map" : "sw08neutral-creatures/map/AVWelme0",
-			"animation" : "sw08neutral-creatures/battle/ZM165GD",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08neutral-creatures/cprsmall.def:115",
+			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:115",
+			"map": "sw08neutral-creatures/map/AVWelme0",
+			"animation": "sw08neutral-creatures/battle/ZM165GD",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "",
-				"offset" : {
-					"upperX" : 0,
-					"upperY" : 0,
-					"middleX" : 0,
-					"middleY" : 0,
-					"lowerX" : 0,
-					"lowerY" : 0
+			"missile": {
+				"projectile": "",
+				"offset": {
+					"upperX": 0,
+					"upperY": 0,
+					"middleX": 0,
+					"middleY": 0,
+					"lowerX": 0,
+					"lowerY": 0
 				},
-				"frameAngles" : [],
-				"attackClimaxFrame" : 0
+				"frameAngles": [],
+				"attackClimaxFrame": 0
 			}
 		},
-		"sound" : {
-			"attack" : "sw08neutral/earth elemental/EglmATTK.wav",
-			"defend" : "sw08neutral/earth elemental/EglmDFND.wav",
-			"killed" : "sw08neutral/earth elemental/EglmKILL.wav",
-			"move" : "sw08neutral/earth elemental/EglmMOVE.wav",
-			"wince" : "sw08neutral/earth elemental/EglmWNCE.wav"
+		"sound": {
+			"attack": "sw08neutral/earth elemental/EglmATTK.wav",
+			"defend": "sw08neutral/earth elemental/EglmDFND.wav",
+			"killed": "sw08neutral/earth elemental/EglmKILL.wav",
+			"move": "sw08neutral/earth elemental/EglmMOVE.wav",
+			"wince": "sw08neutral/earth elemental/EglmWNCE.wav"
 		}
 	}
 }

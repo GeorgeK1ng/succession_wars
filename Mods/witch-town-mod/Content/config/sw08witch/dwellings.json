@@ -8,8 +8,8 @@
 						"sw08witchTribal"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08witchTribal" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08witchTribal" }
 				//				],
 				"templates": {
 					"default": {
@@ -28,8 +28,8 @@
 						"sw08witchLizardman"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08witchLizardman" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08witchLizardman" }
 				//				],
 				"templates": {
 					"default": {
@@ -48,8 +48,8 @@
 						"sw08witchWasp"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08witchWasp" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08witchWasp" }
 				//				],
 				"templates": {
 					"default": {

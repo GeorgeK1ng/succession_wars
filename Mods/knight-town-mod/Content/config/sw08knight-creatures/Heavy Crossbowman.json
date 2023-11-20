@@ -1,70 +1,70 @@
 {
-	"sw08knightHeavyCrossbowman" : {
-		"name" : {
-			"singular" : "Marksman",
-			"plural" : "Marksmen"
+	"sw08knightHeavyCrossbowman": {
+		"name": {
+			"singular": "Marksman",
+			"plural": "Marksmen"
 		},
-		"faction" : "sw08knight",
-		"level" : 4,
-		"cost" : {
-			"gold" : 275
+		"faction": "sw08knight",
+		"level": 4,
+		"cost": {
+			"gold": 275
 		},
-		"speed" : 6,
-		"hitPoints" : 20,
-		"shots" : 24,
-		"attack" : 7,
-		"defense" : 8,
-		"damage" : {
-			"min" : 3,
-			"max" : 5
+		"speed": 6,
+		"hitPoints": 20,
+		"shots": 24,
+		"attack": 7,
+		"defense": 8,
+		"damage": {
+			"min": 3,
+			"max": 5
 		},
-		"fightValue" : 467,
-		"aiValue" : 588,
-		"advMapAmount" : {
-			"min" : 14,
-			"max" : 20
+		"fightValue": 467,
+		"aiValue": 588,
+		"advMapAmount": {
+			"min": 14,
+			"max": 20
 		},
-		"growth" : 5,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "SHOOTER"
+		"growth": 5,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08knight-creatures/cprsmall.def:9",
-			"iconLarge" : "sw08knight-creatures/TWCRPORT.def:9",
-			"map" : "sw08knight-creatures/map/avwswrx0",
-			"animation" : "sw08knight-creatures/battle/c007uxbw",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08knight-creatures/cprsmall.def:9",
+			"iconLarge": "sw08knight-creatures/TWCRPORT.def:9",
+			"map": "sw08knight-creatures/map/avwswrx0",
+			"animation": "sw08knight-creatures/battle/c007uxbw",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08knight-creatures/battle/Porcx",
-				"offset" : {
-					"upperX" : 48,
-					"upperY" : -43,
-					"middleX" : 48,
-					"middleY" : -43,
-					"lowerX" : 48,
-					"lowerY" : -43
+			"missile": {
+				"projectile": "sw08knight-creatures/battle/Porcx",
+				"offset": {
+					"upperX": 48,
+					"upperY": -43,
+					"middleX": 48,
+					"middleY": -43,
+					"lowerX": 48,
+					"lowerY": -43
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 9
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
 			}
 		},
-		"sound" : {
-			"attack" : "sw08knight/heavy crossbowman/CRUSATTK.wav",
-			"defend" : "sw08knight/heavy crossbowman/CRUSDFND.wav",
-			"killed" : "sw08knight/heavy crossbowman/CRUSKILL.wav",
-			"move" : "sw08knight/heavy crossbowman/CRUSMOVE.wav",
-			"wince" : "sw08knight/heavy crossbowman/CRUSWNCE.wav",
-			"shoot" : "sw08knight/heavy crossbowman/CRUSSHOT.wav"
+		"sound": {
+			"attack": "sw08knight/heavy crossbowman/CRUSATTK.wav",
+			"defend": "sw08knight/heavy crossbowman/CRUSDFND.wav",
+			"killed": "sw08knight/heavy crossbowman/CRUSKILL.wav",
+			"move": "sw08knight/heavy crossbowman/CRUSMOVE.wav",
+			"wince": "sw08knight/heavy crossbowman/CRUSWNCE.wav",
+			"shoot": "sw08knight/heavy crossbowman/CRUSSHOT.wav"
 		}
 	}
 }

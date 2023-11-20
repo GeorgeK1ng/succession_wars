@@ -1,54 +1,54 @@
 {
-	"sw08witch" :{
-		"town" :{
-			"siege" :{
-				"towerIconSmall" : "sw08witch/siege_new/TOWERIS",
-				"towerIconLarge" : "sw08witch/siege_new/TOWERIB",
-				"shooter" :"sw08witchLizardman",
-				"imagePrefix" : "sw08witch/siege_new/SGDN",
-				"gate" :
+	"sw08witch":{
+		"town":{
+			"siege":{
+				"towerIconSmall": "sw08witch/siege_new/TOWERIS",
+				"towerIconLarge": "sw08witch/siege_new/TOWERIB",
+				"shooter":"sw08witchLizardman",
+				"imagePrefix": "sw08witch/siege_new/SGDN",
+				"gate":
 				{
-					"arch" : { "x" : 471, "y" : 164 },
-					"gate" : { "x" : 395, "y" : 260 }
+					"arch": { "x": 471, "y": 164 },
+					"gate": { "x": 395, "y": 260 }
 				},
-				"moat" :
+				"moat":
 				{
-					"bank" : { "x" : 283, "y" : 94 },
-					"moat" : { "x" : 283, "y" : 94 }
+					"bank": { "x": 283, "y": 94 },
+					"moat": { "x": 283, "y": 94 }
 				},
-								"static" :
+								"static":
 				{
-					"background" : { "x" : 608, "y" : 50 },
-					"bottom" : { "x" : 522, "y" : 305 },
-					"top" : { "x" : 494, "y" : 53 }
+					"background": { "x": 608, "y": 50 },
+					"bottom": { "x": 522, "y": 305 },
+					"top": { "x": 494, "y": 53 }
 				},
-				"towers" :
+				"towers":
 				{
-					"bottom" :
+					"bottom":
 					{
-						"battlement" : { "x" : 600, "y" : 495 },
-						"creature" : { "x" : 370, "y" : 293 },
-						"tower" : { "x" : 600, "y" : 495 }
+						"battlement": { "x": 600, "y": 495 },
+						"creature": { "x": 370, "y": 293 },
+						"tower": { "x": 600, "y": 495 }
 					},
-					"keep" :
+					"keep":
 					{
-						"battlement" : { "x" : 732, "y" : 162 },
-						"creature" : { "x" : 521, "y" : -50 },
-						"tower" : { "x" : 732, "y" : 162 }
+						"battlement": { "x": 732, "y": 162 },
+						"creature": { "x": 521, "y": -50 },
+						"tower": { "x": 732, "y": 162 }
 					},
-					"top" :
+					"top":
 					{
-						"battlement" : { "x" : 565, "y" : 15 },
-						"creature" : { "x" : 341, "y" : -187 },
-						"tower" : { "x" : 565, "y" : 15 }
+						"battlement": { "x": 565, "y": 15 },
+						"creature": { "x": 341, "y": -187 },
+						"tower": { "x": 565, "y": 15 }
 					}
 				},
-				"walls" :
+				"walls":
 				{
-					"bottom" : { "x" : 559, "y" : 448 },
-					"bottomMid" : { "x" : 471, "y" : 296 },
-					"upper" : { "x" : 523, "y" : 56 },
-					"upperMid" : { "x" : 477, "y" : 180 }
+					"bottom": { "x": 559, "y": 448 },
+					"bottomMid": { "x": 471, "y": 296 },
+					"upper": { "x": 523, "y": 56 },
+					"upperMid": { "x": 477, "y": 180 }
 				}
 			}
 		}

@@ -1,15 +1,15 @@
 {
-	"core:boat" : {
-		"types" : {
+	"core:boat": {
+		"types": {
 
-			"sw08witchBoat" : {
-				"name" : "Boat",
+			"sw08witchBoat": {
+				"name": "Boat",
 
-			"rmg" : { "mapLimit" : 64 },
-				"templates" : {
-					"default" : {
-						"animation" : "sw08witch/boat/Hmm2Boat",
-						"mask" : [ "VVV", "VAV" ]
+			"rmg": { "mapLimit": 64 },
+				"templates": {
+					"default": {
+						"animation": "sw08witch/boat/Hmm2Boat",
+						"mask": [ "VVV", "VAV" ]
 					}
 				}
 			}

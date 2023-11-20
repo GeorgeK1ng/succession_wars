@@ -8,8 +8,8 @@
 						"sw08necromancerSkeleton"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08necromancerSkeleton" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08necromancerSkeleton" }
 				//				],
 				"templates": {
 					"default": {
@@ -37,8 +37,8 @@
 						"sw08necromancerSkeleton"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 50, "type" : "sw08necromancerSkeleton" }
+				//				"guards": [
+				//					{ "amount": 50, "type": "sw08necromancerSkeleton" }
 				//				],
 				"templates": {
 					"default": {
@@ -56,8 +56,8 @@
 						"sw08necromancerZombie"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08necromancerZombie" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08necromancerZombie" }
 				//				],
 				"templates": {
 					"def1": {
@@ -84,8 +84,8 @@
 						"sw08necromancerMutantZombie"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 30, "type" : "sw08necromancerMutantZombie" }
+				//				"guards": [
+				//					{ "amount": 30, "type": "sw08necromancerMutantZombie" }
 				//				],
 				"templates": {
 					"def1": {
@@ -104,8 +104,8 @@
 						"sw08necromancerRoyalMummy"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08necromancerRoyalMummy" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08necromancerRoyalMummy" }
 				//				],
 				"templates": {
 					"default": {
@@ -124,8 +124,8 @@
 						"sw08necromancerMummy"
 					]
 				],
-				//				"guards" : [
-				//					{ "amount" : 22, "type" : "sw08necromancerMummy" }
+				//				"guards": [
+				//					{ "amount": 22, "type": "sw08necromancerMummy" }
 				//				],
 				"templates": {
 					"PALM048": {

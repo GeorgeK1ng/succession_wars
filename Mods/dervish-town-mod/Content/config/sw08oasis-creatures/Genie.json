@@ -1,86 +1,86 @@
 {
-	"sw08oasisGenie" : {
-		"name" : {
-			"singular" : "Genie",
-			"plural" : "Genies"
+	"sw08oasisGenie": {
+		"name": {
+			"singular": "Genie",
+			"plural": "Genies"
 		},
-		"faction" : "sw08oasisfaction",
-		"level" : 7,
-		"cost" : {
-			"gold" : 1200,
-			"gems" : 1
+		"faction": "sw08oasisfaction",
+		"level": 7,
+		"cost": {
+			"gold": 1200,
+			"gems": 1
 		},
-		"speed" : 12,
-		"hitPoints" : 90,
-		"shots" : 0,
-		"attack" : 12,
-		"defense" : 9,
-		"damage" : {
-			"min" : 20,
-			"max" : 30
+		"speed": 12,
+		"hitPoints": 90,
+		"shots": 0,
+		"attack": 12,
+		"defense": 9,
+		"damage": {
+			"min": 20,
+			"max": 30
 		},
-		"fightValue" : 2200,
-		"aiValue" : 2700,
-		"advMapAmount" : {
-			"min" : 5,
-			"max" : 10
+		"fightValue": 2200,
+		"aiValue": 2700,
+		"advMapAmount": {
+			"min": 5,
+			"max": 10
 		},
-		"growth" : 2,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "MAGIC_RESISTANCE",
-				"val" : 40
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "MAGIC_RESISTANCE",
+				"val": 40
 			},
-			"ability2" : {
-				"type" : "FLYING"
+			"ability2": {
+				"type": "FLYING"
 			},
-			"ability3" : {
-				"type" : "DESTRUCTION",
-				"addInfo" : 20,
-				"val" : 50,
-				"subtype" : "destructionKillPercentage"
+			"ability3": {
+				"type": "DESTRUCTION",
+				"addInfo": 20,
+				"val": 50,
+				"subtype": "destructionKillPercentage"
 			},
-			"king" : {
-				"type" : "KING",
-				"val" : 1,
-				"valueType" : "ADDITIVE_VALUE"
+			"king": {
+				"type": "KING",
+				"val": 1,
+				"valueType": "ADDITIVE_VALUE"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08oasis-creatures/cprsmall.def:132",
-			"iconLarge" : "sw08oasis-creatures/TWCRPORT.def:132",
-			"map" : "sw08oasis-creatures/map/AVWfbird",
-			"animation" : "sw08oasis-creatures/battle/c130geni",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08oasis-creatures/cprsmall.def:132",
+			"iconLarge": "sw08oasis-creatures/TWCRPORT.def:132",
+			"map": "sw08oasis-creatures/map/AVWfbird",
+			"animation": "sw08oasis-creatures/battle/c130geni",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08oasis-creatures/battle/PLCBOWX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08oasis-creatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 12
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 12
 			}
 		},
-		"sound" : {
-			"attack" : "genie/PHOEATTK",
-			"defend" : "genie/PHOEDFND",
-			"killed" : "genie/PHOEKILL",
-			"move" : "genie/PHOEMOVE",
-			"wince" : "genie/PHOEWNCE",
-			"shoot" : "genie/PHOEATTK"
+		"sound": {
+			"attack": "genie/PHOEATTK",
+			"defend": "genie/PHOEDFND",
+			"killed": "genie/PHOEKILL",
+			"move": "genie/PHOEMOVE",
+			"wince": "genie/PHOEWNCE",
+			"shoot": "genie/PHOEATTK"
 		}
 	}
 }

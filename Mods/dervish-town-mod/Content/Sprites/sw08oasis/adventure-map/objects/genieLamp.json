@@ -1,7 +1,7 @@
 {
 	"configurableObjectEggOfTheDragon": {
-		"name" : "Dragon Egg",
-		"handler" : "configurable",
+		"name": "Dragon Egg",
+		"handler": "configurable",
 		"base": {
 			"sounds": {
 				"visit": ["CHEST"],
@@ -11,121 +11,121 @@
 
 		"types": {
 				"eggsDragonEgg01": {
-				"name" : "Dragon Egg",
+				"name": "Dragon Egg",
 				"rmg": {
-					"value" : 2000,
-					"rarity" : 100
+					"value": 2000,
+					"rarity": 100
 				},
 				
 				
 				"rewards": [
 					{
 						"appearChance": {
-							"dice" : 1,
+							"dice": 1,
 
-							"min" : 0,
-							"max" : 30
+							"min": 0,
+							"max": 30
 						},
 
-					"creatures" : [
+					"creatures": [
 						{
-							"type" : "redDragon",
-							"upgradeChance" : 30,
-							"amount" : 1
+							"type": "redDragon",
+							"upgradeChance": 30,
+							"amount": 1
 						}
 					],
-						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
-						"selectChance" : 100,
-						"removeObject" : true
+						"message": "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance": 100,
+						"removeObject": true
 					},
 					{
 						"appearChance": {
-							"dice" : 1,
+							"dice": 1,
 
-							"min" : 30,
-							"max" : 60
+							"min": 30,
+							"max": 60
 						},
 
-					"creatures" : [
+					"creatures": [
 						{
-							"type" : "greenDragon",
-							"upgradeChance" : 30,
-							"amount" : 1
+							"type": "greenDragon",
+							"upgradeChance": 30,
+							"amount": 1
 						}
 					],
-						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
-						"selectChance" : 100,
-						"removeObject" : true
+						"message": "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance": 100,
+						"removeObject": true
 					},
  				
  					{
 						"appearChance": {
-							"dice" : 1,
+							"dice": 1,
 
-							"min" : 60,
-							"max" :  70
+							"min": 60,
+							"max":  70
 						},
 
-					"creatures" : [
+					"creatures": [
 						{
-							"type" : "rustDragon",
-							 "upgradeChance" : 30,
-							"amount" : 1
+							"type": "rustDragon",
+							 "upgradeChance": 30,
+							"amount": 1
 						}
 					],
-					"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
-						"selectChance" : 100,
-						"removeObject" : true
+					"message": "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance": 100,
+						"removeObject": true
 					},
  					{
 						"appearChance": {
-							"dice" : 1,
+							"dice": 1,
 
-							"min" : 70,
-							"max" :  90
+							"min": 70,
+							"max":  90
 						},
 
-					"creatures" : [
+					"creatures": [
 						{
-							"type" : "fairieDragon",
-							 "upgradeChance" : 30,
-							"amount" : 1
+							"type": "fairieDragon",
+							 "upgradeChance": 30,
+							"amount": 1
 						}
 					],
-						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
-						"selectChance" : 100,
-						"removeObject" : true
+						"message": "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance": 100,
+						"removeObject": true
 					},					
  					{
 						"appearChance": {
-							"dice" : 1,
+							"dice": 1,
 
-							"min" : 90,
-							"max" :  100
+							"min": 90,
+							"max":  100
 						},
 
-					"creatures" : [
+					"creatures": [
 						{
-							"type" : "azureDragon",
-							 "upgradeChance" : 30,
-							"amount" : 1
+							"type": "azureDragon",
+							 "upgradeChance": 30,
+							"amount": 1
 						}
 					],
-						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
-						"selectChance" : 100,
-						"removeObject" : true
+						"message": "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance": 100,
+						"removeObject": true
 					},
 				],
-				"blockedVisitable" : true,
+				"blockedVisitable": true,
 		 
-				"visitMode" : "once",
-				"selectMode" : "selectFirst",
+				"visitMode": "once",
+				"selectMode": "selectFirst",
  
 				
 				"templates": {
 
 					"FALME001": {
-						"animation" : "newconf-objects/egg/FALME001",
+						"animation": "newconf-objects/egg/FALME001",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -134,7 +134,7 @@
 						]
 					},
 					"FALME002": {
-						"animation" : "newconf-objects/egg/FALME002",
+						"animation": "newconf-objects/egg/FALME002",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -143,7 +143,7 @@
 						]
 					},
 					"FALME003": {
-						"animation" : "newconf-objects/egg/FALME003",
+						"animation": "newconf-objects/egg/FALME003",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -152,7 +152,7 @@
 						]
 					},
 					"FALME004": {
-						"animation" : "newconf-objects/egg/FALME004",
+						"animation": "newconf-objects/egg/FALME004",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -161,7 +161,7 @@
 						]
 					},
 					"FALME005": {
-						"animation" : "newconf-objects/egg/FALME005",
+						"animation": "newconf-objects/egg/FALME005",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -170,7 +170,7 @@
 						]
 					},
 					"FALME006": {
-						"animation" : "newconf-objects/egg/FALME006",
+						"animation": "newconf-objects/egg/FALME006",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -179,7 +179,7 @@
 						]
 					},
 					"FALME007": {
-						"animation" : "newconf-objects/egg/FALME007",
+						"animation": "newconf-objects/egg/FALME007",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -189,7 +189,7 @@
 					},
  
 					"CrDrgEgg": {
-						"animation" : "newconf-objects/egg/CrDrgEgg",
+						"animation": "newconf-objects/egg/CrDrgEgg",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -198,7 +198,7 @@
 						]
 					},
 					"DiDrgEgg": {
-						"animation" : "newconf-objects/egg/DiDrgEgg",
+						"animation": "newconf-objects/egg/DiDrgEgg",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -207,7 +207,7 @@
 						]
 					},
 					"DragEgg1": {
-						"animation" : "newconf-objects/egg/DragEgg1",
+						"animation": "newconf-objects/egg/DragEgg1",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -216,7 +216,7 @@
 						]
 					},
 					"DragEgg2": {
-						"animation" : "newconf-objects/egg/DragEgg2",
+						"animation": "newconf-objects/egg/DragEgg2",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -225,7 +225,7 @@
 						]
 					},
 					"DragEgg3": {
-						"animation" : "newconf-objects/egg/DragEgg3",
+						"animation": "newconf-objects/egg/DragEgg3",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -234,7 +234,7 @@
 						]
 					},
 					"DragEgg4": {
-						"animation" : "newconf-objects/egg/DragEgg4",
+						"animation": "newconf-objects/egg/DragEgg4",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -243,7 +243,7 @@
 						]
 					},
 					"DragEgg5": {
-						"animation" : "newconf-objects/egg/DragEgg5",
+						"animation": "newconf-objects/egg/DragEgg5",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -252,7 +252,7 @@
 						]
 					},
 					"DragEgg6": {
-						"animation" : "newconf-objects/egg/DragEgg6",
+						"animation": "newconf-objects/egg/DragEgg6",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -261,7 +261,7 @@
 						]
 					},
 					"DragEgg7": {
-						"animation" : "newconf-objects/egg/DragEgg7",
+						"animation": "newconf-objects/egg/DragEgg7",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -280,40 +280,40 @@
 			},
 			
 				"eggsCrystalDragonEgg01": {
-				"name" : "Crystal Dragon Egg",
+				"name": "Crystal Dragon Egg",
 				"rmg": {
-					"value" : 2500,
-					"rarity" : 100
+					"value": 2500,
+					"rarity": 100
 				},
 				
 			"rewards": [
 					{
  
 
-					"creatures" : [
+					"creatures": [
 						{
-							"type" : "crystalDragon",
-							"upgradeChance" : 30,
-							"amount" : 1
+							"type": "crystalDragon",
+							"upgradeChance": 30,
+							"amount": 1
 						}
 					],
-						"message" : "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
-						"selectChance" : 100,
-						"removeObject" : true
+						"message": "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
+						"selectChance": 100,
+						"removeObject": true
 					} 
  
 				],
-				"blockedVisitable" : true,
+				"blockedVisitable": true,
 		 
-				"visitMode" : "once",
-				"selectMode" : "selectFirst",
+				"visitMode": "once",
+				"selectMode": "selectFirst",
  				
 				
 				
 				"templates": {
  
 					"CrDrgEgg": {
-						"animation" : "newconf-objects/egg/CrDrgEgg",
+						"animation": "newconf-objects/egg/CrDrgEgg",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -322,7 +322,7 @@
 						]
 					},
 					"DiDrgEgg": {
-						"animation" : "newconf-objects/egg/DiDrgEgg",
+						"animation": "newconf-objects/egg/DiDrgEgg",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VV", "VA"],
 
@@ -340,10 +340,10 @@
 			},
 			
 							"eggsWyvernDragonEgg01": {
-				"name" : "Wyvern Dragon Egg",
+				"name": "Wyvern Dragon Egg",
 				"rmg": {
-					"value" : 700,
-					"rarity" : 100
+					"value": 700,
+					"rarity": 100
 				},
 				
 								
@@ -351,29 +351,29 @@
 					{
  
 
-					"creatures" : [
+					"creatures": [
 						{
-							"type" : "wyvern",
-							"upgradeChance" : 30,
-							"amount" : 1
+							"type": "wyvern",
+							"upgradeChance": 30,
+							"amount": 1
 						}
 					],
-						"message" : "You have found a wyvern egg. You put it in a warm place and after a few hours wyvern hatches from it, recognizing you as her parent.",
-						"selectChance" : 100,
-						"removeObject" : true
+						"message": "You have found a wyvern egg. You put it in a warm place and after a few hours wyvern hatches from it, recognizing you as her parent.",
+						"selectChance": 100,
+						"removeObject": true
 					} 
  
 				],
-				"blockedVisitable" : true,
+				"blockedVisitable": true,
 		 
-				"visitMode" : "once",
-				"selectMode" : "selectFirst",
+				"visitMode": "once",
+				"selectMode": "selectFirst",
  				
 				
 				"templates": {
  
 					"WyvEgg1": {
-						"animation" : "newconf-objects/egg/WyvEgg1",
+						"animation": "newconf-objects/egg/WyvEgg1",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VA"],
 

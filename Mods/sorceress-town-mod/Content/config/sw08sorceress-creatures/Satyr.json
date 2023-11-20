@@ -1,68 +1,68 @@
 {
-	"sw08sorceressSatyr" : {
-		"name" : {
-			"singular" : "Satyr",
-			"plural" : "Satyrs"
+	"sw08sorceressSatyr": {
+		"name": {
+			"singular": "Satyr",
+			"plural": "Satyrs"
 		},
-		"faction" : "swsw08sorceressfaction",
-		"level" : 4,
-		"cost" : {
-			"gold" : 385
+		"faction": "swsw08sorceressfaction",
+		"level": 4,
+		"cost": {
+			"gold": 385
 		},
-		"speed" : 6,
-		"hitPoints" : 30,
-		"shots" : 0,
-		"attack" : 8,
-		"defense" : 7,
-		"damage" : {
-			"min" : 6,
-			"max" : 9
+		"speed": 6,
+		"hitPoints": 30,
+		"shots": 0,
+		"attack": 8,
+		"defense": 7,
+		"damage": {
+			"min": 6,
+			"max": 9
 		},
-		"fightValue" : 422,
-		"aiValue" : 433,
-		"advMapAmount" : {
-			"min" : 12,
-			"max" : 20
+		"fightValue": 422,
+		"aiValue": 433,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
 		},
-		"growth" : 4,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "SPELLCASTER",
-				"subtype" : "spell.mirth",
-				"val" : 1,
-				"addInfo" : 100
+		"growth": 4,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.mirth",
+				"val": 1,
+				"addInfo": 100
 			},
-			"ability2" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 200
+			"ability2": {
+				"type": "CREATURE_SPELL_POWER",
+				"val": 200
 			},
-			"ability3" : {
-				"type" : "CASTS",
-				"val" : 3
+			"ability3": {
+				"type": "CASTS",
+				"val": 3
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:22",
-			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:22",
-			"map" : "sw08sorceress-creatures/map/AVWSatyr",
-			"animation" : "sw08sorceress-creatures/battle/c020styr",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08sorceress-creatures/cprsmall.def:22",
+			"iconLarge": "sw08sorceress-creatures/TWCRPORT.def:22",
+			"map": "sw08sorceress-creatures/map/AVWSatyr",
+			"animation": "sw08sorceress-creatures/battle/c020styr",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			}
 		},
-		"sound" : {
-			"attack" : "sw08sorceress/satyr/PEGAATTK.wav",
-			"defend" : "sw08sorceress/satyr/PEGADFND.wav",
-			"killed" : "sw08sorceress/satyr/PEGAKILL.wav",
-			"move" : "sw08sorceress/satyr/PEGAMOVE",
-			"wince" : "sw08sorceress/satyr/PEGAWNCE.wav"
-			//"shoot" :""
+		"sound": {
+			"attack": "sw08sorceress/satyr/PEGAATTK.wav",
+			"defend": "sw08sorceress/satyr/PEGADFND.wav",
+			"killed": "sw08sorceress/satyr/PEGAKILL.wav",
+			"move": "sw08sorceress/satyr/PEGAMOVE",
+			"wince": "sw08sorceress/satyr/PEGAWNCE.wav"
+			//"shoot":""
 		}
 	}
 }

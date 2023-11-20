@@ -8,7 +8,7 @@
 				},
 				"layer": "sail",
 				"actualAnimation": "h2_boats08/Hmm2Boat",
-				//"overlayAnimation" : "h2_boats08/Hmm2Boat",
+				//"overlayAnimation": "h2_boats08/Hmm2Boat",
 				"onboardAssaultAllowed": true,
 				"onboardVisitAllowed": true,
 				"flagAnimations": [

@@ -1,81 +1,81 @@
 {
-	"sw08necromancerLich" : {
-		"name" : {
-			"singular" : "Lich",
-			"plural" : "Liches"
+	"sw08necromancerLich": {
+		"name": {
+			"singular": "Lich",
+			"plural": "Liches"
 		},
-		"faction" : "swsw08necromancerfaction",
-		"level" : 6,
-		"cost" : {
-			"gold" : 800
+		"faction": "swsw08necromancerfaction",
+		"level": 6,
+		"cost": {
+			"gold": 800
 		},
-		"speed" : 6,
-		"hitPoints" : 40,
-		"shots" : 12,
-		"attack" : 7,
-		"defense" : 12,
-		"damage" : {
-			"min" : 12,
-			"max" : 14
+		"speed": 6,
+		"hitPoints": 40,
+		"shots": 12,
+		"attack": 7,
+		"defense": 12,
+		"damage": {
+			"min": 12,
+			"max": 14
 		},
-		"fightValue" : 692,
-		"aiValue" : 741,
-		"advMapAmount" : {
-			"min" : 6,
-			"max" : 10
+		"fightValue": 692,
+		"aiValue": 741,
+		"advMapAmount": {
+			"min": 6,
+			"max": 10
 		},
-		"growth" : 2,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"upgrades" : [
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
 			"sw08necromancerPowerLich"
 		],
-		"abilities" : {
-			"ability1" : {
-				"type" : "UNDEAD"
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
 			},
-			"ability2" : {
-				"type" : "SHOOTER"
+			"ability2": {
+				"type": "SHOOTER"
 			},
-			"ability3" : {
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.deathCloud",
-				"val" : 0
+			"ability3": {
+				"type": "SPELL_LIKE_ATTACK",
+				"subtype": "spell.deathCloud",
+				"val": 0
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08necromancer-creatures/cprsmall.def:68",
-			"iconLarge" : "sw08necromancer-creatures/TWCRPORT.def:68",
-			"map" : "sw08necromancer-creatures/map/AVWbkni0",
-			"animation" : "sw08necromancer-creatures/battle/c066lich",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08necromancer-creatures/cprsmall.def:68",
+			"iconLarge": "sw08necromancer-creatures/TWCRPORT.def:68",
+			"map": "sw08necromancer-creatures/map/AVWbkni0",
+			"animation": "sw08necromancer-creatures/battle/c066lich",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08necromancer-creatures/battle/PLICH",
-				"offset" : {
-					"upperX" : 42,
-					"upperY" : -83,
-					"middleX" : 43,
-					"middleY" : -66,
-					"lowerX" : 33,
-					"lowerY" : -26
+			"missile": {
+				"projectile": "sw08necromancer-creatures/battle/PLICH",
+				"offset": {
+					"upperX": 42,
+					"upperY": -83,
+					"middleX": 43,
+					"middleY": -66,
+					"lowerX": 33,
+					"lowerY": -26
 				},
-				"frameAngles" : [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
-				"attackClimaxFrame" : 5
+				"frameAngles": [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
+				"attackClimaxFrame": 5
 			}
 		},
-		"sound" : {
-			"attack" : "sw08necromancer/lich/licxATTK.wav",
-			"defend" : "sw08necromancer/lich/licxDFND.wav",
-			"killed" : "sw08necromancer/lich/licxKILL.wav",
-			"move" : "sw08necromancer/lich/licxMOVE.wav",
-			"wince" : "sw08necromancer/lich/licxWNCE.wav",
-			"shoot" : "sw08necromancer/lich/licxSHOT.wav"
+		"sound": {
+			"attack": "sw08necromancer/lich/licxATTK.wav",
+			"defend": "sw08necromancer/lich/licxDFND.wav",
+			"killed": "sw08necromancer/lich/licxKILL.wav",
+			"move": "sw08necromancer/lich/licxMOVE.wav",
+			"wince": "sw08necromancer/lich/licxWNCE.wav",
+			"shoot": "sw08necromancer/lich/licxSHOT.wav"
 		}
 	}
 }

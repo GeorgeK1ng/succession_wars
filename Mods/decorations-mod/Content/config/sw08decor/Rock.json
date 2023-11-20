@@ -340,7 +340,7 @@
 						]
 					},
 					//			"AVLr12u0": {
-					///				"animation" : "sw08decor/rock/AVLr12u0",
+					///				"animation": "sw08decor/rock/AVLr12u0",
 					//				"visitableFrom": ["---", "+++", "+++"],
 					////			"mask": ["VV","VB"],
 					//		"allowedTerrains": [

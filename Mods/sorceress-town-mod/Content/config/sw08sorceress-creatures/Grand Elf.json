@@ -1,73 +1,73 @@
 {
-	"sw08sorceressGrandElf" : {
-		"name" : {
-			"singular" : "Grand Elf",
-			"plural" : "Grand Elves"
+	"sw08sorceressGrandElf": {
+		"name": {
+			"singular": "Grand Elf",
+			"plural": "Grand Elves"
 		},
-		"faction" : "swsw08sorceressfaction",
-		"level" : 3,
-		"cost" : {
-			"gold" : 255
+		"faction": "swsw08sorceressfaction",
+		"level": 3,
+		"cost": {
+			"gold": 255
 		},
-		"speed" : 7,
-		"hitPoints" : 15,
-		"shots" : 24,
-		"attack" : 5,
-		"defense" : 5,
-		"damage" : {
-			"min" : 2,
-			"max" : 3
+		"speed": 7,
+		"hitPoints": 15,
+		"shots": 24,
+		"attack": 5,
+		"defense": 5,
+		"damage": {
+			"min": 2,
+			"max": 3
 		},
-		"fightValue" : 151,
-		"aiValue" : 144,
-		"advMapAmount" : {
-			"min" : 12,
-			"max" : 28
+		"fightValue": 151,
+		"aiValue": 144,
+		"advMapAmount": {
+			"min": 12,
+			"max": 28
 		},
-		"growth" : 6,
-		"horde" : 0,
-		"hasDoubleWeek" : true,
-		"doubleWide" : false,
-		"abilities" : {
-			"ability1" : {
-				"type" : "SHOOTER"
+		"growth": 6,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
 			},
-			"ability2" : {
-				"type" : "ADDITIONAL_ATTACK"
+			"ability2": {
+				"type": "ADDITIONAL_ATTACK"
 			}
 		},
-		"graphics" : {
-			"iconSmall" : "sw08sorceress-creatures/cprsmall.def:21",
-			"iconLarge" : "sw08sorceress-creatures/TWCRPORT.def:21",
-			"map" : "sw08sorceress-creatures/map/AVWelfx0",
-			"animation" : "sw08sorceress-creatures/battle/c019uelf",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"idle" : 10,
-				"walk" : 1,
-				"attack" : 1
+		"graphics": {
+			"iconSmall": "sw08sorceress-creatures/cprsmall.def:21",
+			"iconLarge": "sw08sorceress-creatures/TWCRPORT.def:21",
+			"map": "sw08sorceress-creatures/map/AVWelfx0",
+			"animation": "sw08sorceress-creatures/battle/c019uelf",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
 			},
-			"missile" : {
-				"projectile" : "sw08sorceress-creatures/battle/PELFX",
-				"offset" : {
-					"upperX" : 41,
-					"upperY" : -92,
-					"middleX" : 58,
-					"middleY" : -79,
-					"lowerX" : 29,
-					"lowerY" : -14
+			"missile": {
+				"projectile": "sw08sorceress-creatures/battle/PELFX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame" : 8
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
 			}
 		},
-		"sound" : {
-			"attack" : "sw08sorceress/grand elf/GELFATTK.wav",
-			"defend" : "sw08sorceress/grand elf/GELFDFND.wav",
-			"killed" : "sw08sorceress/grand elf/GELFKILL.wav",
-			"move" : "sw08sorceress/grand elf/GELFMOVE.wav",
-			"wince" : "sw08sorceress/grand elf/GELFWNCE.wav",
-			"shoot" : "sw08sorceress/grand elf/GELFSHOT.wav"
+		"sound": {
+			"attack": "sw08sorceress/grand elf/GELFATTK.wav",
+			"defend": "sw08sorceress/grand elf/GELFDFND.wav",
+			"killed": "sw08sorceress/grand elf/GELFKILL.wav",
+			"move": "sw08sorceress/grand elf/GELFMOVE.wav",
+			"wince": "sw08sorceress/grand elf/GELFWNCE.wav",
+			"shoot": "sw08sorceress/grand elf/GELFSHOT.wav"
 		}
 	}
 }
