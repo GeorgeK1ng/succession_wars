@@ -56,19 +56,6 @@
 				"idle": 10,
 				"walk": 1,
 				"attack": 1
-			},
-			"missile": {
-				"projectile": "",
-				"offset": {
-					"upperX": 0,
-					"upperY": 0,
-					"middleX": 0,
-					"middleY": 0,
-					"lowerX": 0,
-					"lowerY": 0
-				},
-				"frameAngles": [],
-				"attackClimaxFrame": 0
 			}
 		},
 		"sound": {
@@ -76,8 +63,7 @@
 			"defend": "sw08neutral/water elemental/WGLMDFND.wav",
 			"killed": "sw08neutral/water elemental/WGLMKILL.wav",
 			"move": "sw08neutral/water elemental/WGLMMOVE.wav",
-			"wince": "sw08neutral/water elemental/WGLMWNCE.wav",
-			"shoot": "sw08neutral/water elemental/WGLMSHOT.wav"
+			"wince": "sw08neutral/water elemental/WGLMWNCE.wav"
 		}
 	}
 }
