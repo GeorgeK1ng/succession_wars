@@ -65,6 +65,7 @@
 			"resistance": 3,
 			"firstAid": 2
 		},
+		"defaultTavern": 3,
 		"tavern": {
 			"castle": 2,
 			"rampart": 6,
