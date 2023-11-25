@@ -23,7 +23,7 @@
 			"mageGuild": 5,
 
 			"musicTheme": "music/sw08barbarian/StrongHold.mp3",
-			"tavernVideo": "sw08barbarian/SWTV014.mpg",
+			"tavernVideo": "sw08barbarian/Tavern.bik",
 
 			"creatures": [
 				[ "sw08barbarianGoblin" ],
