@@ -7,8 +7,8 @@
 	"version": "0.0.1",
 	"depends":
 	[
-		"succession_wars.warmachines-mod",
-		"succession_wars.terrains-mod"
+		"succession_wars.warMachines",
+		"succession_wars.terrains"
 	],
 	"factions":
 	[
