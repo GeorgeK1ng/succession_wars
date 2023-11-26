@@ -1,0 +1,38 @@
+{
+	"core:mysticalGarden": {
+		"types": {
+			"swgarden": {
+				"name": "Mystical Garden",
+				"aiValue": 500,
+				"rmg": {
+					"value": 500,
+					"rarity": 50
+				},
+				"templates": {
+					"avtmyst0": {
+						"animation": "swMapObjects/mysticalGarden/avtmyst0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

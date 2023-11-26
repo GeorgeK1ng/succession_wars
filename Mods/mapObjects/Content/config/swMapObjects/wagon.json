@@ -1,0 +1,66 @@
+{
+	"core:wagon": {
+		"types": {
+			"swwagon01": {
+				"name": "Wagon",
+				"aiValue": 500,
+				"rmg": {
+					"zoneLimit": 10,
+					"value": 500,
+					"rarity": 50
+				},
+				"templates": {
+					"AVTwagn0": {
+						"animation": "swMapObjects/wagon/AVTwagn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVTwagn1": {
+						"animation": "swMapObjects/wagon/AVTwagn1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"AVTwagn2": {
+						"animation": "swMapObjects/wagon/AVTwagn2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"core:schoolOfWar": {
+		"types": {
+			"swschoolOfWar01": {
+				"name": "School of War",
+				"aiValue": 1000,
+				"rmg": {
+					"value": 1000,
+					"rarity": 50
+				},
+				"templates": {
+					"AVSwar20": {
+						"animation": "swMapObjects/schoolOfWar/AVSwar20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					},
+					"AVSwar30": {
+						"animation": "swMapObjects/schoolOfWar/AVSwar30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBBB",
+							"VBABV"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					},
+					"avxfgld": {
+						"animation": "swMapObjects/schoolOfWar/avxfgld",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

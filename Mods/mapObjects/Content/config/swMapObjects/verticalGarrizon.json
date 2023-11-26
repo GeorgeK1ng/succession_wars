@@ -1,0 +1,64 @@
+{
+	"core:garrisonVertical": {
+		"types": {
+			"swverticalGarrizon01": {
+				"name": "Garrizon",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 1000,
+					"rarity": 80
+				},
+				"templates": {
+					"AVCvgr": {
+						"animation": "swMapObjects/verticalGarrizon/AVCvgr",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VB",
+							"VA",
+							"VB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"swamp",
+							"lava",
+							"rough",
+							"sand",
+							"hmm2desert"
+						]
+					},
+					"zgarn002": {
+						"animation": "swMapObjects/verticalGarrizon/zgarn002",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VB",
+							"VA",
+							"VB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"swamp",
+							"lava",
+							"rough",
+							"sand",
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

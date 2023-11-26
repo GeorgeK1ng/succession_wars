@@ -1,0 +1,70 @@
+{
+	"core:altarOfSacrifice": {
+		"types": {
+			"swaltarOfSacrifice01": {
+				"name": "Altar Of Sacrifice",
+				"aiValue": 100,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"modes": [
+					"creature-experience",
+					"artifact-experience"
+				],
+				"templates": {
+					"avxaltar": {
+						"animation": "swMapObjects/altarOfSacrifice/avxaltar",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"hmm2desert",
+							"sand",
+							"swamp"
+						]
+					},
+					"AVXaltar1": {
+						"animation": "swMapObjects/altarOfSacrifice/AVXaltar1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"subterra",
+							"lava"
+						]
+					},
+					"AVXaltar2": {
+						"animation": "swMapObjects/altarOfSacrifice/AVXaltar2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					}
+				}
+			}
+		}
+	}
+}

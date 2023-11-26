@@ -1,0 +1,62 @@
+{
+	"core:sirens": {
+		"types": {
+			"sw08_sirens": {
+				"name": "Sirens",
+				"aiValue": 100,
+				"rmg": {
+					"mapLimit": 32,
+					"value": 100,
+					"rarity": 20
+				},
+				"templates": {
+					"AVXsirn0": {
+						"animation": "swMapObjects/sirens/AVXsirn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXsirn0b": {
+						"animation": "swMapObjects/sirens/AVXsirn0b",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXsirnb": {
+						"animation": "swMapObjects/sirens/AVXsirnb",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"core:treeOfKnowledge": {
+		"types": {
+			"swtreeOfKnowledge01": {
+				"name": "Tree of Knowledge",
+				"aiValue": 2500,
+				"rmg": {
+					"mapLimit": 100,
+					"value": 2500,
+					"rarity": 50
+				},
+				"templates": {
+					"AVXTREK0": {
+						"animation": "swMapObjects/treeOfKnowledge/AVXTREK0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt"
+						]
+					},
+					"AVXTREl0": {
+						"animation": "swMapObjects/treeOfKnowledge/AVXTREl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVVA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"z358o6": {
+						"animation": "swMapObjects/treeOfKnowledge/z358o6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVVA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

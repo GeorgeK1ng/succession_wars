@@ -1,0 +1,63 @@
+{
+	"core:schoolOfMagic": {
+		"types": {
+			"swschoolOfMagic101": {
+				"name": "School Of Magic",
+				"aiValue": 1000,
+				"rmg": {
+					"value": 1000,
+					"rarity": 50
+				},
+				"templates": {
+					"AVSschm0": {
+						"animation": "swMapObjects/schoolOfMagic/AVSschm0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					},
+					"AVsschn1": {
+						"animation": "swMapObjects/schoolOfMagic/AVsschn1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

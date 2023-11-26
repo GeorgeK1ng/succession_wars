@@ -1,0 +1,282 @@
+{
+	"core:borderGuard": {
+		//	"index": 9,
+		//	"handler": "borderGuard",
+		"types": {
+			"sw_lblue": {
+				"name": "Border Guard",
+				//		"index": 0,
+				"templates": {
+					"AVXBOR00": {
+						"animation": "swMapObjects/borderGuard/AVXBOR00",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_green": {
+				"name": "Border Guard",
+				//		"index": 1,
+				"templates": {
+					"AVXBOR10": {
+						"animation": "swMapObjects/borderGuard/AVXBOR10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_red": {
+				"name": "Border Guard",
+				//		"index": 2,
+				"templates": {
+					"AVXBOR20": {
+						"animation": "swMapObjects/borderGuard/AVXBOR20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_dblue": {
+				"name": "Border Guard",
+				//	"index": 3,
+				"templates": {
+					"AVXBOR30": {
+						"animation": "swMapObjects/borderGuard/AVXBOR30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_brown": {
+				"name": "Border Guard",
+				//	"index": 4,
+				"templates": {
+					"AVXBOR40": {
+						"animation": "swMapObjects/borderGuard/AVXBOR40",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_purple": {
+				"name": "Border Guard",
+				//	"index": 5,
+				"templates": {
+					"AVXBOR50": {
+						"animation": "swMapObjects/borderGuard/AVXBOR50",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_white": {
+				"name": "Border Guard",
+				//	"index": 6,
+				"templates": {
+					"AVXBOR60": {
+						"animation": "swMapObjects/borderGuard/AVXBOR60",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_black": {
+				"name": "Border Guard",
+				//"index": 7,
+				"templates": {
+					"AVXBOR70": {
+						"animation": "swMapObjects/borderGuard/AVXBOR70",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_none": {
+				"name": "Border Guard",
+				//	"index": 8,
+				"templates": {
+					"AVXbor80": {
+						"animation": "swMapObjects/borderGuard/AVXbor80",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava",
+							"hmm2desert"
+						]
+					},
+					"AVXbor90": {
+						"animation": "swMapObjects/borderGuard/AVXbor90",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

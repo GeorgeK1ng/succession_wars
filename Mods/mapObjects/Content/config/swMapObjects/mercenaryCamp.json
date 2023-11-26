@@ -1,0 +1,39 @@
+{
+	"core:mercenaryCamp": {
+		"types": {
+			"swmercenaryCamp01": {
+				"name": "Mercenary Camp",
+				"aiValue": 1500,
+				"rmg": {
+					"zoneLimit": 3,
+					"value": 100,
+					"rarity": 120
+				},
+				"templates": {
+					"avsmerc0": {
+						"animation": "swMapObjects/mercenaryCamp/avsmerc0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

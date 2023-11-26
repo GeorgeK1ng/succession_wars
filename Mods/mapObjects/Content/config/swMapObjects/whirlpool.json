@@ -1,0 +1,39 @@
+{
+	"core:whirlpool": {
+		//"index":111,
+		//	"handler": "whirlpool",
+		//	"base": {
+		//		"sounds": {
+		//			"ambient": ["LOOPWHIRL"],
+		//			"visit": ["DANGER"]
+		//		}
+		//	},
+		"types": {
+			"swWhirlpool01": {
+				"name": "Whirlpool",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"templates": {
+					"AVXwhrl0": {
+						"animation": "swMapObjects/whirlpool/AVXwhrl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}

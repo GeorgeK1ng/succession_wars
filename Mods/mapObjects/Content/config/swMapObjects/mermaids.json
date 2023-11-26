@@ -1,0 +1,67 @@
+{
+	"core:mermaids": {
+		"types": {
+			"swmermaids01": {
+				"handler": "bonusingObject",
+				//	"base": {
+				//		"sounds": {
+				//			"visit": ["LUCK"]
+				//		}
+				//	},
+				"name": "Mermaids",
+				"aiValue": 100,
+				"rmg": {
+					"value": 100,
+					"rarity": 20
+				},
+				"templates": {
+					"AVXmerm0": {
+						"animation": "swMapObjects/mermaids/AVXmerm0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmerm0b": {
+						"animation": "swMapObjects/mermaids/AVXmerm0b",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmermb": {
+						"animation": "swMapObjects/mermaids/AVXmermb",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}

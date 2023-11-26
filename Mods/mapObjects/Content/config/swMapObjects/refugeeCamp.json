@@ -1,0 +1,40 @@
+{
+	"core:refugeeCamp": {
+		"types": {
+			"swrefugeeCamp01": {
+				"name": "Refugee Camp",
+				"aiValue": 2000,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"templates": {
+					"refugeeeB04": {
+						"animation": "swMapObjects/refugeeCamp/avgrefg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

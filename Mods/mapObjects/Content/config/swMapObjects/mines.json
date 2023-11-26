@@ -1,0 +1,1310 @@
+{
+	"core:mine": {
+		"types": {
+			"sawmill": {
+				//"index": 0,
+				"rmg": {
+					"value": 1500
+				},
+				"name": "Sawmill",
+				"templates": {
+					"sw08_avccasm0": {
+						"animation": "swMapObjects_mines/SWMIN50", //"swMapObjects/mines/wood/avccasm0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBA"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_AVLamGr": {
+						"animation": "swMapObjects_mines/SWMIN13", //"swMapObjects/mines/wood/AVLamGr",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBA"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_AVMORD0": {
+						"animation": "swMapObjects_mines/SWMIN51", //"swMapObjects/mines/wood/AVMORD0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVMsawa0": {
+						"animation": "swMapObjects_mines/SWMIN61", //"swMapObjects/mines/wood/AVMsawa0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"sw08_avmsawd0": {
+						"animation": "swMapObjects_mines/SWMIN54", //"swMapObjects/mines/wood/avmsawd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"sw08_AVMsawg0": {
+						"animation": "swMapObjects_mines/SWMIN40", //"swMapObjects/mines/wood/AVMsawg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_avmsawh1": {
+						"animation": "swMapObjects_mines/SWMIN52", //"swMapObjects/mines/wood/avmsawh1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVMsawk0": {
+						"animation": "swMapObjects_mines/SWMIN56", //"swMapObjects/mines/wood/AVMsawk0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"sw08_AVMsawl0": {
+						"animation": "swMapObjects_mines/SWMIN55", //"swMapObjects/mines/wood/AVMsawl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"sw08_AVMsawl2": {
+						"animation": "swMapObjects_mines/SWMIN53", //"swMapObjects/mines/wood/AVMsawl2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"sw08_AVMsawr0": {
+						"animation": "swMapObjects_mines/SWMIN08", //"swMapObjects/mines/wood/AVMsawr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"sw08_AVMsawz0": {
+						"animation": "swMapObjects_mines/SWMIN57", //"swMapObjects/mines/wood/AVMsawz0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"sw08_AVMswds0": {
+						"animation": "swMapObjects_mines/SWMIN60", //"swMapObjects/mines/wood/AVMswds0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVBBB",
+							"VBBBA"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"sw08_AVMswsn0": {
+						"animation": "swMapObjects_mines/SWMIN58", //"swMapObjects/mines/wood/AVMswsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVSschw0": {
+						"animation": "swMapObjects_mines/SWMIN49", //"swMapObjects/mines/wood/AVSschw0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"sw08_AVMswsn01": {
+						"animation": "swMapObjects_mines/SWMIN67", //"swMapObjects/mines/wood/AVMswsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"sw08_082_AVNcrys0": {
+						"animation": "swMapObjects_mines/082/AVNcrys0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					}
+				}
+			},
+			"orePit": {
+				"name": "Ore Mine",
+				//"index": 1,
+				"rmg": {
+					"value": 3500
+				},
+				"templates": {
+					"sw08_AV0sulf0": {
+						"animation": "swMapObjects_mines/SWMIN01", //"swMapObjects/mines/ore/AV0sulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"sw08_AVLore0": {
+						"animation": "swMapObjects_mines/SWMIN48", //"swMapObjects/mines/ore/AVLore0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"sw08_AVMORDR0": {
+						"animation": "swMapObjects_mines/SWMIN41", //"swMapObjects/mines/ore/AVMORDR0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_082_AVMORDR0": {
+						"animation": "swMapObjects_mines/082/AVMORDR0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_AVMords0": {
+						"animation": "swMapObjects_mines/SWMIN42", //"swMapObjects/mines/ore/AVMords0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"sw08_AVMore0": {
+						"animation": "swMapObjects_mines/SWMIN43", //"swMapObjects/mines/ore/AVMore0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_082_AVMore0": {
+						"animation": "swMapObjects_mines/082/AVMore0", //"swMapObjects/mines/ore/AVMore0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVMorlv0": {
+						"animation": "swMapObjects_mines/SWMIN44", //"swMapObjects/mines/ore/AVMorlv0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"sw08_AVMorro0": {
+						"animation": "swMapObjects_mines/SWMIN45", //"swMapObjects/mines/ore/AVMorro0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"sw08_AVMorsb0": {
+						"animation": "swMapObjects_mines/SWMIN46", //"SWMIN01", //swMapObjects/mines/ore/AVMorsb0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"sw08_AVMorsn0": {
+						"animation": "swMapObjects_mines/SWMIN47", //"swMapObjects/mines/ore/AVMorsn0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"sw08_AVMorsw0": {
+						"animation": "swMapObjects_mines/SWMIN14", //"swMapObjects/mines/ore/AVMorsw0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+				}
+			},
+			"alchemistLab": {
+				//"index": 2,
+				"rmg": {
+					"value": 3500
+				},
+				"name": "Alchemist Lab",
+				"templates": {
+					"sw08_AVMalch0": {
+						"animation": "swMapObjects_mines/SWMIN15", //"swMapObjects/mines/mercury/AVMalch0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"swamp",
+							"lava",
+							"subterra",
+							"sand",
+							"rough",
+							"hmm2desert"
+						]
+					},
+					"sw08_AVMalcs0": {
+						"animation": "swMapObjects_mines/SWMIN16", //"swMapObjects/mines/mercury/AVMalcs0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			},
+			"sulfurDune": {
+				"name": "Sulfur Mine",
+				//"index": 3,
+				"rmg": {
+					"value": 3500
+				},
+				"templates": {
+					"sw08_AV1sulf0": {
+						"animation": "swMapObjects_mines/SWMIN02", //"swMapObjects/mines/sulfur/AV1sulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"sw08_AV2sulf0": {
+						"animation": "swMapObjects_mines/SWMIN62", //"swMapObjects/mines/sulfur/AV2sulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_082_AV2sulf0": {
+						"animation": "swMapObjects_mines/082/AV2sulf0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AV5sulf0": {
+						"animation": "swMapObjects_mines/SWMIN03", //"swMapObjects/mines/sulfur/AV5sulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVcsulf0": {
+						"animation": "swMapObjects_mines/SWMIN09", //"swMapObjects/mines/sulfur/AVcsulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"sw08_AVEsulf0": {
+						"animation": "swMapObjects_mines/SWMIN10", //"swMapObjects/mines/sulfur/AVEsulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"sw08_AVFsulf0": {
+						"animation": "swMapObjects_mines/SWMIN11", //"swMapObjects/mines/sulfur/AVFsulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"sw08_AVMsulf0": {
+						"animation": "swMapObjects_mines/SWMIN59", //"swMapObjects/mines/sulfur/AVMsulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_082_AVMsulf0": {
+						"animation": "swMapObjects_mines/082/AVMsulf0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_AVOsulf0": {
+						"animation": "swMapObjects_mines/SWMIN04", //"swMapObjects/mines/sulfur/AVOsulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVSsulf0": {
+						"animation": "swMapObjects_mines/SWMIN65", //"swMapObjects/mines/sulfur/AVSsulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"sw08_AVZcrrf0": {
+						"animation": "swMapObjects_mines/SWMIN68", //"swMapObjects/mines/sulfur/AVZcrrf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"sw08_AVEsulf01": {
+						"animation": "swMapObjects_mines/SWMIN70", //"swMapObjects/mines/sulfur/AVEsulf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"crystalCavern": {
+				"name": "Crystal Mine",
+				//"index": 4,
+				"rmg": {
+					"value": 3500
+				},
+				"templates": {
+					"sw08_avccasJ0": {
+						"animation": "swMapObjects_mines/SWMIN07", //"swMapObjects/mines/crystal/avccasJ0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"sw08_avmcrdr0": {
+						"animation": "swMapObjects_mines/SWMIN17", //"swMapObjects/mines/crystal/avmcrdr0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_082_avmcrdr0": {
+						"animation": "swMapObjects_mines/082/avmcrdr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_AVMcrds0": {
+						"animation": "swMapObjects_mines/SWMIN18", //"swMapObjects/mines/crystal/AVMcrds0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"sw08_AVMCRGR0": {
+						"animation": "swMapObjects_mines/SWMIN62", //"swMapObjects/mines/crystal/AVMCRGR0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVMcrrf0": {
+						"animation": "swMapObjects_mines/SWMIN20", //"swMapObjects/mines/crystal/AVMcrrf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"sw08_AVMcrsn0": {
+						"animation": "swMapObjects_mines/SWMIN21", //"swMapObjects/mines/crystal/AVMcrsn0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"sw08_AVMcrsu0": {
+						"animation": "swMapObjects_mines/SWMIN22", //"swMapObjects/mines/crystal/AVMcrsu0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"sw08_AVMcrsw0": {
+						"animation": "swMapObjects_mines/SWMIN19", //"swMapObjects/mines/crystal/AVMcrsw0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVmcrvo0": {
+						"animation": "swMapObjects_mines/SWMIN24", //"swMapObjects/mines/crystal/AVmcrvo0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"sw08_AVMcrys0": {
+						"animation": "swMapObjects_mines/SWMIN25", //"swMapObjects/mines/crystal/AVMcrys0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_082_AVMcrys0": {
+						"animation": "swMapObjects_mines/SWMIN25", //"swMapObjects/mines/crystal/082/AVMcrys0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVNcrys0": {
+						"animation": "swMapObjects_mines/SWMIN23", //"swMapObjects/mines/crystal/AVNcrys0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					}
+				}
+			},
+			"gemPond": {
+				"name": "Gem Mine",
+				//"index": 5,
+				"rmg": {
+					"value": 3500
+				},
+				"templates": {
+					"sw08_avccasb0": {
+						"animation": "swMapObjects_mines/SWMIN05", //"swMapObjects/mines/gems/avccasb0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"sw08_AVHgeM0": {
+						"animation": "swMapObjects_mines/SWMIN12", //"swMapObjects/mines/gems/AVHgeM0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"sw08_avmgedr0": {
+						"animation": "swMapObjects_mines/SWMIN26", //"swMapObjects/mines/gems/avmgedr0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_082_avmgedr0": {
+						"animation": "swMapObjects_mines/082/avmgedr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBBB",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_AVMgelv0": {
+						"animation": "swMapObjects_mines/SWMIN27", //"swMapObjects/mines/gems/AVMgelv0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"sw08_AVMgems0": {
+						"animation": "swMapObjects_mines/SWMIN28", //"swMapObjects/mines/gems/AVMgems0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_082_AVMgems0": {
+						"animation": "swMapObjects_mines/082/AVMgems0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVMgerf0": {
+						"animation": "swMapObjects_mines/SWMIN29", //"swMapObjects/mines/gems/AVMgerf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"sw08_AVMgesn0": {
+						"animation": "swMapObjects_mines/SWMIN30", //"swMapObjects/mines/gems/AVMgesn0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"sw08_AVngems0": {
+						"animation": "swMapObjects_mines/SWMIN63", //"swMapObjects/mines/gems/AVngems0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVPgems0": {
+						"animation": "swMapObjects_mines/SWMIN66", //"swMapObjects/mines/gems/AVPgems0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"sw08_AVYgerf0": {
+						"animation": "swMapObjects_mines/SWMIN69", //"swMapObjects/mines/gems/AVYgerf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"goldMine": {
+				"name": "Gold Mine",
+				//"index": 6,
+				"rmg": {
+					"value": 3500
+				},
+				"templates": {
+					"sw08_avccasc0": {
+						"animation": "swMapObjects_mines/SWMIN06", //"swMapObjects/mines/gold/avccasc0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"sw08_avmgodr0": {
+						"animation": "swMapObjects_mines/SWMIN31", //"swMapObjects/mines/gold/avmgodr0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_082_avmgodr0": {
+						"animation": "swMapObjects_mines/082/avmgodr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"sw08_AVMgods0": {
+						"animation": "swMapObjects_mines/SWMIN64", //"swMapObjects/mines/gold/AVMgods0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_avmgogr0": {
+						"animation": "swMapObjects_mines/SWMIN33", //"swMapObjects/mines/gold/avmgogr0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVMgold0": {
+						"animation": "swMapObjects_mines/SWMIN34", //"swMapObjects/mines/gold/AVMgold0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_082_AVMgold0": {
+						"animation": "swMapObjects_mines/082/AVMgold0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"sw08_AVMgorf0": {
+						"animation": "swMapObjects_mines/SWMIN32", //"swMapObjects/mines/gold/AVMgorf0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"sw08_AVMgosb0": {
+						"animation": "swMapObjects_mines/SWMIN36", //"swMapObjects/mines/gold/AVMgosb0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"sw08_AVMgosn0": {
+						"animation": "swMapObjects_mines/SWMIN37", //"swMapObjects/mines/gold/AVMgosn0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"sw08_AVMgosw0": {
+						"animation": "swMapObjects_mines/SWMIN35", //"swMapObjects/mines/gold/AVMgosw0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"sw08_AVMgovo0": {
+						"animation": "swMapObjects_mines/SWMIN39", //"swMapObjects/mines/gold/AVMgovo0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"sw08_AVNgold0": {
+						"animation": "swMapObjects_mines/SWMIN38", //"swMapObjects/mines/gold/AVNgold0", 
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

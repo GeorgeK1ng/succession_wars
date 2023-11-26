@@ -1,0 +1,30 @@
+{
+	"core:leanTo": {
+		"types": {
+			"swleanTo": {
+				"name": "Resource Depot",
+				"aiValue": 500,
+				"rmg": {
+					"value": 500,
+					"rarity": 100
+				},
+				"templates": {
+					"AVMlean0": {
+						"animation": "swMapObjects/leanTo/AVMlean0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

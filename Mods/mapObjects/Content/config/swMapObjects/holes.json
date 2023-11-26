@@ -1,0 +1,137 @@
+{
+	"core:hole": {
+		"types": {
+			"object": {
+				"name": "Hole",
+				"templates": {
+					"AVLhlds0": {
+						"animation": "swMapObjects/hole/AVLhlds0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"AVLhlsn0": {
+						"animation": "swMapObjects/hole/AVLhlsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"avlhold0": {
+						"animation": "swMapObjects/hole/avlhold0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"avlholg0": {
+						"animation": "swMapObjects/hole/avlholg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avlholl0": {
+						"animation": "swMapObjects/hole/avlholl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"avlholr0": {
+						"animation": "swMapObjects/hole/avlholr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"avlhols0": {
+						"animation": "swMapObjects/hole/avlhols0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"avlholu0": {
+						"animation": "swMapObjects/hole/avlholu0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"avlholx0": {
+						"animation": "swMapObjects/hole/avlholx0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"V"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	}
+}

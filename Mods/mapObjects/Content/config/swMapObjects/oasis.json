@@ -1,0 +1,47 @@
+{
+	"core:oasis": {
+		"types": {
+			"swoasis1new": {
+				"name": "Oasis",
+				"aiValue": 100,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"templates": {
+					"AVXosis0": {
+						"animation": "swMapObjects/oasis/AVXosis0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"AVXosis1": {
+						"animation": "swMapObjects/oasis/AVXosis1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BAB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

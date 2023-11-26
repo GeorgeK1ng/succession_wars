@@ -1,0 +1,36 @@
+{
+	"core:libraryOfEnlightenment": {
+		"types": {
+			"swlibraryOfEnlightenment01": {
+				"name": "Library of Enlightment",
+				"aiValue": 12000,
+				"rmg": {
+					"value": 12000,
+					"rarity": 20,
+					"zoneLimit": 1
+				},
+				"templates": {
+					"avslibr0": {
+						"animation": "swMapObjects/libraryOfEnlightenment/avslibr0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV",
+							"VBBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"sand",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

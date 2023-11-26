@@ -1,0 +1,40 @@
+{
+	"core:tavern": {
+		"types": {
+			"swtavern": {
+				"aiValue": 100,
+				"name": "Tavern",
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 20
+				},
+				"templates": {
+					"AVXtvrn0": {
+						"animation": "swMapObjects/tavern/AVXtvrn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

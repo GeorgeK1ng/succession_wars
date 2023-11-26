@@ -1,0 +1,40 @@
+{
+	"core:temple": {
+		"types": {
+			"swtemple01": {
+				"name": "Temple",
+				"aiValue": 100,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+					"avstmpl0": {
+						"animation": "swMapObjects/temple/avstmpl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

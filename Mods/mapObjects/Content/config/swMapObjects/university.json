@@ -1,0 +1,89 @@
+{
+	"core:university": {
+		"types": {
+			"swuniversity01": {
+				"name": "University",
+				"aiValue": 2500,
+				"rmg": {
+					"value": 2500,
+					"rarity": 20,
+					"zoneLimit": 1
+				},
+				"templates": {
+					"AVSuniv0": {
+						"animation": "swMapObjects/university/AVSuniv0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VBBBB",
+							"VBBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					},
+					"AVSuniv1": {
+						"animation": "swMapObjects/university/AVSuniv1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVBBBB",
+							"VVBBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					},
+					"AVSuniv2": {
+						"animation": "swMapObjects/university/AVSuniv2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVBBBB",
+							"VVBBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

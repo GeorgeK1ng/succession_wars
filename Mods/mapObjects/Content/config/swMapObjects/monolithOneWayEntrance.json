@@ -1,0 +1,242 @@
+{
+	"core:monolithOneWayEntrance": {
+		"types": {
+			"swmonolithEnterA": {
+				//"index": 502,
+				"name": "Monolith One Way Entrance",
+				"templates": {
+					"AVXMN1B0": {
+						"animation": "swMapObjects/monolithOneWayEntrance/AVXMN1B0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithEnterB": {
+				//"index": 503,
+				"name": "Monolith One Way Entrance",
+				"templates": {
+					"AVXMN1R0": {
+						"animation": "swMapObjects/monolithOneWayEntrance/AVXMN1R0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithEnterC": {
+				//"index": 504,
+				"name": "Monolith One Way Entrance",
+				"templates": {
+					"AVXMN1Y0": {
+						"animation": "swMapObjects/monolithOneWayEntrance/AVXMN1Y0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithEnterD": {
+				//"index": 505,
+				"name": "Monolith One Way Entrance",
+				"templates": {
+					"AVXmn4i0": {
+						"animation": "swMapObjects/monolithOneWayEntrance/AVXmn4i0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:monolithOneWayExit": {
+		"types": {
+			"swmonolithExitA": {
+				//"index": 502,
+				"name": "Monolith One Way Exit",
+				"templates": {
+					"AVXmn4o0": {
+						"animation": "swMapObjects/monolithOneWayExit/AVXmn4o0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithExitB": {
+				//"index": 503,
+				"name": "Monolith One Way Exit",
+				"templates": {
+					"AVXmx1b0": {
+						"animation": "swMapObjects/monolithOneWayExit/AVXmx1b0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithExitC": {
+				//"index": 504,
+				"name": "Monolith One Way Exit",
+				"templates": {
+					"AVXmx1r0": {
+						"animation": "swMapObjects/monolithOneWayExit/AVXmx1r0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithExitD": {
+				//"index": 505,
+				"name": "Monolith One Way Exit",
+				"templates": {
+					"AVXmx1y0": {
+						"animation": "swMapObjects/monolithOneWayExit/AVXmx1y0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

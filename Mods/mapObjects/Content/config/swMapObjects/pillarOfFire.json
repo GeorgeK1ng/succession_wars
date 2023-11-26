@@ -1,0 +1,58 @@
+{
+	"pillarOfFireswDungeons01": {
+		"name": "Pillar of Fire",
+		"handler": "configurable",
+		"types": {
+			"swpillarOfFire01": {
+				"sounds": {
+					"ambient": [
+						"LOOPFIRE"
+					],
+					"visit": [
+						"LIGHTHOUSE"
+					]
+				},
+				"aiValue": 750,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 750,
+					"rarity": 100
+				},
+				"name": "Pillar of Fire",
+				"compatibilityIdentifiers": [
+					"object"
+				],
+				"visitMode": "unlimited",
+				"rewards": [
+					{
+						"message": "{Pillar of Fire}\n\nYou discover a tall gaslight tower.  You light it, which produces enough light to penetrate the surrounding darkness.",
+						"revealTiles": {
+							"radius": 20,
+							"surface": 1,
+							"subterra": 1,
+							"water": 1,
+							"rock": -1
+						}
+					}
+				]
+			},
+			"templates": {
+				"AVXpllr0": {
+					"animation": "swMapObjects/pillarOfFire/AVXpllr0",
+					"visitableFrom": [
+						"---",
+						"+++",
+						"+++"
+					],
+					"mask": [
+						"VVV",
+						"VVA"
+					],
+					"allowedTerrains": [
+						"subterra"
+					]
+				}
+			}
+		}
+	}
+}

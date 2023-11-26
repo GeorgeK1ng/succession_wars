@@ -1,0 +1,40 @@
+{
+	"core:eyeOfTheMagi": {
+		"types": {
+			"sw08eyeOfTheMagi": {
+				"name": "Eye Of The Magi",
+				"aiValue": 0,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 2500,
+					"rarity": 50
+				},
+				"templates": {
+					"AVXeyem0": {
+						"animation": "swMapObjects/eyeOfTheMagi/AVXeyem0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

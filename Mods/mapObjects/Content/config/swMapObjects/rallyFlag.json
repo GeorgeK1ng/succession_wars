@@ -1,0 +1,34 @@
+{
+	"core:rallyFlag": {
+		"types": {
+			"swrallyFlag01": {
+				"name": "Holy Statue of Valor",
+				"aiValue": 100,
+				"rmg": {
+					"value": 100,
+					"rarity": 100,
+					"zoneLimit": 1
+				},
+				"templates": {
+					"AVXrlly0": {
+						"animation": "swMapObjects/rallyFlag/AVXrlly0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

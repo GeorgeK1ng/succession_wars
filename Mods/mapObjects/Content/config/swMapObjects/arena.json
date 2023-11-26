@@ -1,0 +1,39 @@
+{
+	"core:arena": {
+		"types": {
+			"swarena01": {
+				"name": "Arena",
+				"aiValue": 3000,
+				"rmg": {
+					"value": 3000,
+					"rarity": 50
+				},
+				"templates": {
+					"AVSarna0": {
+						"animation": "swMapObjects/arena/AVSarna0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"swamp",
+							"grass",
+							"rough",
+							"snow",
+							"subterra",
+							"sand",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

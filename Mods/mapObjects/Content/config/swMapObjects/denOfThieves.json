@@ -1,0 +1,79 @@
+{
+	"core:denOfThieves": {
+		"types": {
+			"swdenOfThieves01": {
+				"name": "Oracle",
+				"aiValue": 100,
+				"rmg": {
+					"value": 100,
+					"rarity": 100,
+					"zoneLimit": 1
+				},
+				"templates": {
+					"AVXdend0": {
+						"animation": "swMapObjects/denOfThieves/AVXdend0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXdene0": {
+						"animation": "swMapObjects/denOfThieves/AVXdene0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"AvXDenT": {
+						"animation": "swMapObjects/denOfThieves/AvXDenT",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BA"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"zdent001": {
+						"animation": "swMapObjects/denOfThieves/zdent001",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	}
+}

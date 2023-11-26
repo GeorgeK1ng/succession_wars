@@ -1,0 +1,32 @@
+{
+	"core:swanPond": {
+		"types": {
+			"swswanPond01": {
+				"name": "Swan Pond",
+				"aiValue": 100,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+					"avsclvd0": {
+						"animation": "swMapObjects/swanPound/avsclvd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

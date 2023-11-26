@@ -1,0 +1,30 @@
+{
+	"core:flotsam": {
+		"types": {
+			"sw08_flotsam01": {
+				"name": "Flotsam",
+				"aiValue": 2000,
+				"rmg": {
+					"value": 2000,
+					"rarity": 100
+				},
+				"templates": {
+					"AVAflot0": {
+						"animation": "swMapObjects/flotsam/AVAflot0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}

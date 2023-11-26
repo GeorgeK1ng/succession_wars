@@ -1,0 +1,277 @@
+{
+	"core:obelisk": {
+		"types": {
+			//"name": "Obelisk",
+			"obelisk": {
+				//	"index":57,
+				"name": "Obelisk",
+				"aiValue": 350,
+				"rmg": {
+					"mapLimit": 48,
+					"value": 3500,
+					"rarity": 200
+				},
+				//	"handler": "obelisk",
+				"templates": {
+					"AVXobla": {
+						"animation": "swMapObjects_mines/SWOBEL01", //"swMapObjects/obelisk/AVXobla",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"subterra",
+							"dirt"
+						]
+					},
+					"AvXOblB": {
+						"animation": "swMapObjects_mines/SWOBEL02", //"swMapObjects/obelisk/AvXOblB",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AvXOblG": {
+						"animation": "swMapObjects_mines/SWOBEL03", //"swMapObjects/obelisk/AvXOblG",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"AvXOblK": {
+						"animation": "swMapObjects_mines/SWOBEL04", //"swMapObjects/obelisk/AvXOblK",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AvXOblO": {
+						"animation": "swMapObjects_mines/SWOBEL05", //"swMapObjects/obelisk/AvXOblO",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AvXOblP": {
+						"animation": "swMapObjects_mines/SWOBEL06", //"swMapObjects/obelisk/AvXOblP",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AvXOblq": {
+						"animation": "swMapObjects_mines/SWOBEL07", //"swMapObjects/obelisk/AvXOblq",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"sand",
+							"rough",
+							"swamp",
+							"subterra",
+							"hmm2desert"
+						]
+					},
+					"AVXoblr": {
+						"animation": "swMapObjects_mines/SWOBEL08", //"swMapObjects/obelisk/AVXoblr",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"sand",
+							"rough",
+							"swamp",
+							"subterra",
+							"hmm2desert"
+						]
+					},
+					"AvXObls": {
+						"animation": "swMapObjects_mines/SWOBEL09", //"swMapObjects/obelisk/AvXObls",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"sand",
+							"rough",
+							"swamp",
+							"subterra",
+							"hmm2desert"
+						]
+					},
+					"AvXOblt": {
+						"animation": "swMapObjects_mines/SWOBEL10", //"swMapObjects/obelisk/AvXOblt",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"sand",
+							"rough",
+							"swamp",
+							"subterra",
+							"hmm2desert"
+						]
+					},
+					"AvXOblu": {
+						"animation": "swMapObjects_mines/SWOBEL11", //"swMapObjects/obelisk/AvXOblu",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"sand",
+							"rough",
+							"swamp",
+							"subterra",
+							"hmm2desert"
+						]
+					},
+					"AvXOblW": {
+						"animation": "swMapObjects_mines/SWOBEL12", //"swMapObjects/obelisk/AvXOblW",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AvXOblx": {
+						"animation": "swMapObjects_mines/SWOBEL13", //"swMapObjects/obelisk/AvXOblx",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AvXOblY": {
+						"animation": "swMapObjects_mines/SWOBEL14", //"swMapObjects/obelisk/AvXOblY",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"AvXOblz": {
+						"animation": "swMapObjects_mines/SWOBEL15", //"swMapObjects/obelisk/AvXOblz",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

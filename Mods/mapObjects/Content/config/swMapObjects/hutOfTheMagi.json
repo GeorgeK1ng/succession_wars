@@ -1,0 +1,40 @@
+{
+	"core:hutOfTheMagi": {
+		"types": {
+			"swhutOfTheMagi01": {
+				"name": "Hut Of The Magi",
+				"aiValue": 750,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 2500,
+					"rarity": 50
+				},
+				"templates": {
+					"AVXhutm0": {
+						"animation": "swMapObjects/hutOfTheMagi/AVXhutm0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVAV"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

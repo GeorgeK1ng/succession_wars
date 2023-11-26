@@ -1,0 +1,138 @@
+{
+	"core:campfire": {
+		"types": {
+			"sw08_CampFire01": {
+				"name": "Camp Fire",
+				"aiValue": 2000,
+				"rmg": {
+					"value": 2000,
+					"rarity": 500
+				},
+				"templates": {
+					"adcfra": {
+						"animation": "swMapObjects/campFire/adcfra",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
+						]
+					},
+					"AVXcfds0": {
+						"animation": "swMapObjects/campFire/AVXcfds0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"A"
+						],
+						"allowedTerrains": [
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
+						]
+					},
+					"AVXcflv0": {
+						"animation": "swMapObjects/campFire/AVXcflv0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"A"
+						],
+						"allowedTerrains": [
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
+						]
+					},
+					"AVXcflv01": {
+						"animation": "swMapObjects/campFire/AVXcflv01",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"swamp",
+							"lava",
+							"subterra",
+							"rough",
+							"sand",
+							"dirt"
+						]
+					},
+					"AVXcfsn0": {
+						"animation": "swMapObjects/campFire/AVXcfsn0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVYcfdr0": {
+						"animation": "swMapObjects/campFire/AVYcfdr0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"AVYcfds0": {
+						"animation": "swMapObjects/campFire/AVYcfds0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

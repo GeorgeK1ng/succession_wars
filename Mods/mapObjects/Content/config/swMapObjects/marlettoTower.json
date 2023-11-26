@@ -1,0 +1,90 @@
+{
+	"core:marlettoTower": {
+		"types": {
+			"swmarlettoTower": {
+				"name": "Fort",
+				"aiValue": 1500,
+				"rmg": {
+					"value": 1500,
+					"rarity": 100,
+					"zoneLimit": 3
+				},
+				"templates": {
+					"avsmarg": {
+						"animation": "swMapObjects/marlettoTower/avsmarg",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avsmarl": {
+						"animation": "swMapObjects/marlettoTower/avsmarl",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVBA"
+						]
+					},
+					"avsmars": {
+						"animation": "swMapObjects/marlettoTower/avsmars",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BBA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"avsmarw": {
+						"animation": "swMapObjects/marlettoTower/avsmarw",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVXMAPU0": {
+						"animation": "swMapObjects/marlettoTower/AVXMAPU0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BBA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	}
+}

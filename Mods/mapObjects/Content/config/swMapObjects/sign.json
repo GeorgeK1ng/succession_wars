@@ -1,0 +1,143 @@
+{
+	"core:sign": {
+		"types": {
+			"swSign01": {
+				"name": "Sign",
+				"aiValue": 0,
+				"templates": {
+					"avxsndg0": {
+						"animation": "swMapObjects/sign/avxsndg0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXsnds0": {
+						"animation": "swMapObjects/sign/AVXsnds0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"AVXsnds1": {
+						"animation": "swMapObjects/sign/AVXsnds1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AVXsnlv0": {
+						"animation": "swMapObjects/sign/AVXsnlv0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"rough",
+							"sand",
+							"lava",
+							"grass",
+							"dirt",
+							"swamp"
+						]
+					},
+					"AVXsnsn0": {
+						"animation": "swMapObjects/sign/AVXsnsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXsnsw0": {
+						"animation": "swMapObjects/sign/AVXsnsw0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"AVXsnws1": {
+						"animation": "swMapObjects/sign/AVXsnws1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"zobj047": {
+						"animation": "swMapObjects/sign/zobj047",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"zobj048": {
+						"animation": "swMapObjects/sign/zobj048",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"A"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

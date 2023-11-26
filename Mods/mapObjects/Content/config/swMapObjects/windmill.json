@@ -1,0 +1,64 @@
+{
+	"core:windmill": {
+		"types": {
+			"swwindmill": {
+				"name": "Windmill",
+				"aiValue": 1500,
+				"rmg": {
+					"value": 1500,
+					"rarity": 80
+				},
+				"templates": {
+					"AVMwmsn0": {
+						"animation": "swMapObjects/windmill/AVMwmsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"avmwndd0": {
+						"animation": "swMapObjects/windmill/avmwndd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"BVMwndd0": {
+						"animation": "swMapObjects/windmill/BVMwndd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+				}
+			}
+		}
+	}
+}

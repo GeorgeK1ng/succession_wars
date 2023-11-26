@@ -1,0 +1,82 @@
+{
+	"magicSpring-sw-1": {
+		"handler": "configurable",
+		"name": "Magic Spring",
+		"types": {
+			"sw-objectsmagicSpring01": {
+				"name": "Magic Spring",
+				"sounds": {
+					"ambient": [
+						"LOOPFOUN"
+					],
+					"visit": [
+						"FAERIE"
+					]
+				},
+				"aiValue": 500,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 500,
+					"rarity": 50
+				},
+				"compatibilityIdentifiers": [
+					"object"
+				],
+				"onEmptyMessage": "{Magic Spring}\n\nA drink from the spring fills your blood with magic!  You have twice your normal spell points in reserve.",
+				"onVisitedMessage": "{Magic Spring}\n\nThe magic spring only regenerates once a week, and someone has already been here this week.",
+				"description": "@core.xtrainfo.15",
+				"resetParameters": {
+					"period": 7,
+					"visitors": true
+				},
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"limiter": {
+							"noneOf": [
+								{
+									"manaPercentage": 200
+								}
+							]
+						},
+						"message": "{Magic Spring}\n\nA drink from the spring fills your blood with magic!  You have twice your normal spell points in reserve.",
+						"manaPercentage": 200
+					}
+				],
+				"templates": {
+					"AVXmags0": {
+						"animation": "swMapObjects/magicSpring/AVXmags0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVSora0": {
+						"animation": "swMapObjects/magicSpring/AVSora0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+				}
+			}
+		}
+	}
+}

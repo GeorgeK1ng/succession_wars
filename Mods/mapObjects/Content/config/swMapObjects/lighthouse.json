@@ -1,0 +1,41 @@
+{
+	"core:lighthouse": {
+		"types": {
+			"swlighthouse01": {
+				"name": "Lighthouse",
+				"aiValue": 500,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"templates": {
+					"AVXlths0": {
+						"animation": "swMapObjects/lighthouse/AVXlths0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

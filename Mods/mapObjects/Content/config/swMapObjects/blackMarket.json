@@ -1,0 +1,43 @@
+{
+	"core:blackMarket": {
+		"types": {
+			"swblackMarket01": {
+				"name": "Black Market",
+				"aiValue": 8000,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 60
+				},
+				"modes": [
+					"resource-artifact"
+				],
+				"templates": {
+					"AVXmktb0": {
+						"animation": "swMapObjects/blackMarket/AVXmktb0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

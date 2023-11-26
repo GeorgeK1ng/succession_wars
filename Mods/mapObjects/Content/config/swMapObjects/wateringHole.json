@@ -1,0 +1,32 @@
+{
+	"core:wateringHole": {
+		"types": {
+			"swwaterhole01": {
+				"name": "Watering Place",
+				"aiValue": 500,
+				"rmg": {
+					"zoneLimit": 2,
+					"value": 500,
+					"rarity": 50
+				},
+				"templates": {
+					"AVXwtrh0": {
+						"animation": "swMapObjects/wateringHole/AVXwtrh0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"BBAB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	}
+}

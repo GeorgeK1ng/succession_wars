@@ -1,0 +1,72 @@
+{
+	"core:starAxis": {
+		"types": {
+			"swstarAxis01": {
+				"name": "Star Axis",
+				"aiValue": 1500,
+				"rmg": {
+					"zoneLimit": 3,
+					"value": 1500,
+					"rarity": 100
+				},
+				"templates": {
+					"AVSaxis20": {
+						"animation": "swMapObjects/starAxis/AVSaxis20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swstarAxis02": {
+				"name": "Stonehenge",
+				"rmg": {
+					"zoneLimit": 3,
+					"value": 1500,
+					"rarity": 100
+				},
+				"templates": {
+					"AVSaxis20": {
+						"animation": "swMapObjects/starAxis/AVSaxis0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

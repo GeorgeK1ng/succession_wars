@@ -1,0 +1,59 @@
+{
+	"core:faerieRing": {
+		"types": {
+			"swfaerieRing101": {
+				"name": "Faerie Ring",
+				"aiValue": 100,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 100,
+					"rarity": 100
+				},
+				"templates": {
+					"AVBring0": {
+						"animation": "swMapObjects/faerieRing/AVBring0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avsring0": {
+						"animation": "swMapObjects/faerieRing/avsring0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"AVSRING1": {
+						"animation": "swMapObjects/faerieRing/AVSRING1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+				}
+			}
+		}
+	}
+}

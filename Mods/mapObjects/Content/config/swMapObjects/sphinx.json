@@ -1,0 +1,121 @@
+{
+	"core:warriorTomb": {
+		"types": {
+			"swsphinx01": {
+				"name": "Sphinx",
+				"rmg": {
+					"value": 6000,
+					"rarity": 30
+				},
+				"templates": {
+					"zsphnx10": {
+						"animation": "swMapObjects/sphinx/zsphnx10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"zsphnx11": {
+						"animation": "swMapObjects/sphinx/zsphnx11",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"zsphnx111": {
+						"animation": "swMapObjects/sphinx/zsphnx111",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"zsphnx12": {
+						"animation": "swMapObjects/sphinx/zsphnx12",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"zsphnx13": {
+						"animation": "swMapObjects/sphinx/zsphnx13",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"zsphnx14": {
+						"animation": "swMapObjects/sphinx/zsphnx14",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"zsphnx15": {
+						"animation": "swMapObjects/sphinx/zsphnx15",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"AB"
+						],
+						"allowedTerrains": [
+							"subterra",
+							"sand"
+						]
+					}
+				}
+			}
+		}
+	}
+}

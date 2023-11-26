@@ -1,0 +1,54 @@
+{
+	"core:stables": {
+		"types": {
+			"swstables01": {
+				"name": "Stables",
+				"aiValue": 200,
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 200,
+					"rarity": 40
+				},
+				"templates": {
+					"avxstbl0": {
+						"animation": "swMapObjects/stables/avxstbl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"grass",
+							"subterra",
+							"swamp",
+							"rough",
+							"lava",
+							"sand",
+							"hmm2desert"
+						]
+					},
+					"AVZstbl0": {
+						"animation": "swMapObjects/stables/AVZstbl0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

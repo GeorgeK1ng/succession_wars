@@ -1,0 +1,240 @@
+{
+	"core:borderGate": {
+		"index": 212,
+		"handler": "borderGate",
+		"types": {
+			"sw_lblue": {
+				"name": "Border Gate",
+				//"index": 0,
+				"templates": {
+					"AVXbgt00": {
+						"animation": "swMapObjects/borderGate/AVXbgt00.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_green": {
+				"name": "Border Gate",
+				//"index": 1,
+				"templates": {
+					"AVXbgt10": {
+						"animation": "swMapObjects/borderGate/AVXbgt10.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_red": {
+				"name": "Border Gate",
+				//"index": 2,
+				"templates": {
+					"AVXbgt20": {
+						"animation": "swMapObjects/borderGate/AVXbgt20.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_dblue": {
+				"name": "Border Gate",
+				//"index": 3,
+				"templates": {
+					"AVXbgt30": {
+						"animation": "swMapObjects/borderGate/AVXbgt30.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_brown": {
+				"name": "Border Gate",
+				//"index": 4,
+				"templates": {
+					"AVXbgt40": {
+						"animation": "swMapObjects/borderGate/AVXbgt40.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_purple": {
+				"name": "Border Gate",
+				//"index": 5,
+				"templates": {
+					"AVXbgt50": {
+						"animation": "swMapObjects/borderGate/AVXbgt50.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_white": {
+				"name": "Border Gate",
+				//"index": 6,
+				"templates": {
+					"AVXbgt60": {
+						"animation": "swMapObjects/borderGate/AVXbgt60.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_black": {
+				"name": "Border Gate",
+				//"index": 7,
+				"templates": {
+					"AVXbgt70": {
+						"animation": "swMapObjects/borderGate/AVXbgt70.def",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+		}
+	}
+}

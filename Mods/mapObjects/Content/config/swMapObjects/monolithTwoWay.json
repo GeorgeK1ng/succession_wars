@@ -1,0 +1,393 @@
+{
+	"core:monolithTwoWay": {
+		"types": {
+			// "monolith1": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn2g0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			// "monolith2": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn2o0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			// "monolith3": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn2p0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			// "monolith4": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn4b0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			// "monolith5": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn5b0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			// "monolith6": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn2g0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			// "monolith7": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn2g0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			// "monolith8": {
+			// 	"name": "Two-way Monolith",
+			// 	//"index": 0,
+			// 	"templates": {
+			// 		"AVXmn2g0": {
+			// 			"animation": "swMapObjects/monolithTwoWay/AVXmn2g0",
+			// 			"visitableFrom": [
+			// 				"---",
+			// 				"+++",
+			// 				"+++"
+			// 			],
+			// 			"mask": [
+			// 				"VV",
+			// 				"VA"
+			// 			],
+			// 			"allowedTerrains": [
+			// 				"grass",
+			// 				"dirt",
+			// 				"rough",
+			// 				"subterra",
+			// 				"sand",
+			// 				"lava",
+			// 				"swamp",
+			// 				"snow",
+			// 				"hmm2desert"
+			// 			]
+			// 		}
+			// 	}
+			// },
+			"swmonolithA": {
+				"name": "Two-way Monolith",
+				//"index": 0,
+				"templates": {
+					"AVXmn2g0": {
+						"animation": "swMapObjects/monolithTwoWay/AVXmn2g0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithB": {
+				"name": "Two-way Monolith",
+				//"index": 0,
+				"templates": {
+					"AVXmn2o0": {
+						"animation": "swMapObjects/monolithTwoWay/AVXmn2o0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithC": {
+				"name": "Two-way Monolith",
+				//"index": 0,
+				"templates": {
+					"AVXmn2p0": {
+						"animation": "swMapObjects/monolithTwoWay/AVXmn2p0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithD": {
+				"name": "Two-way Monolith",
+				//"index": 0,
+				"templates": {
+					"AVXmn4b0": {
+						"animation": "swMapObjects/monolithTwoWay/AVXmn4b0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"swmonolithE": {
+				"name": "Two-way Monolith",
+				//"index": 0,
+				"templates": {
+					"AVXmn5b0": {
+						"animation": "swMapObjects/monolithTwoWay/AVXmn5b0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"rough",
+							"dirt",
+							"subterra",
+							"swamp",
+							"lava",
+							"sand",
+							"hmm2desert"
+						]
+					},
+					"AVZosis0": {
+						"animation": "swMapObjects/monolithTwoWay/AVZosis0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

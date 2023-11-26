@@ -1,0 +1,247 @@
+{
+	"core:keymasterTent": {
+		"types": {
+			"sw_lblue": {
+				//	"index": 0,
+				"name": "Keymaster Tent",
+				"templates": {
+					"AVXkey00": {
+						"animation": "swMapObjects/keymasterTent/AVXkey00",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_green": {
+				//	"index": 1,
+				"name": "Keymaster Tent",
+				"templates": {
+					"AVXkey10": {
+						"animation": "swMapObjects/keymasterTent/AVXkey10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_red": {
+				//	"index": 2,
+				"name": "Keymaster Tent",
+				"templates": {
+					"FALF0146": {
+						"animation": "swMapObjects/keymasterTent/AVXkey20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_dblue": {
+				//	"index": 3,
+				"name": "Keymaster Tent",
+				"templates": {
+					"FALF0147": {
+						"animation": "swMapObjects/keymasterTent/AVXkey30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_brown": {
+				//	"index": 4,
+				"name": "Keymaster Tent",
+				"templates": {
+					"FALF0148": {
+						"animation": "swMapObjects/keymasterTent/AVXkey40",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_purple": {
+				//	"index": 5,
+				"name": "Keymaster Tent",
+				"templates": {
+					"FALF0149": {
+						"animation": "swMapObjects/keymasterTent/AVXkey50",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_white": {
+				//	"index": 6,
+				"name": "Keymaster Tent",
+				"templates": {
+					"FALF0150": {
+						"animation": "swMapObjects/keymasterTent/AVXkey60",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			},
+			"sw_black": {
+				//	"index": 7,
+				"name": "Keymaster Tent",
+				"templates": {
+					"FALF0151": {
+						"animation": "swMapObjects/keymasterTent/AVXkey70",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"subterra",
+							"sand",
+							"lava",
+							"swamp",
+							"snow",
+							"hmm2desert"
+						]
+					}
+				}
+			}
+			//			"none":  { 
+			//			"index": 8 ,
+			//				"templates": {
+			//				
+			//					"avxwbor8": { "animation": "swMapObjects/keymasterTent/avxwbor8", 
+			//					"visitableFrom": [ "---", "+++", "+++" ], 
+			//					"mask": [ "VV","VA"]
+			//					}			
+			//			} }
+		}
+	}
+}
