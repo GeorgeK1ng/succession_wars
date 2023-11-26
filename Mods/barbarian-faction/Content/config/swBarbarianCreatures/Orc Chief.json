@@ -1,0 +1,70 @@
+{
+	"swBarbarianOrcChief": {
+		"name": {
+			"singular": "Orc Chief",
+			"plural": "Orc Chiefs"
+		},
+		"faction": "swswBarbarianfaction",
+		"level": 2,
+		"cost": {
+			"gold": 170
+		},
+		"speed": 5,
+		"hitPoints": 15,
+		"shots": 16,
+		"attack": 3,
+		"defense": 4,
+		"damage": {
+			"min": 3,
+			"max": 4
+		},
+		"fightValue": 170,
+		"aiValue": 161,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
+		},
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swBarbarianCreatures/cprsmall.def:89",
+			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:89",
+			"map": "swBarbarianCreatures/map/AVWwolx0",
+			"animation": "swBarbarianCreatures/battle/c087uorc",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swBarbarianCreatures/battle/PorchX",
+				"offset": {
+					"upperX": 36,
+					"upperY": -41,
+					"middleX": 36,
+					"middleY": -41,
+					"lowerX": 36,
+					"lowerY": -41
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "swBarbarian/orc chief/HGWRATTK.wav",
+			"defend": "swBarbarian/orc chief/HGWRDFND.wav",
+			"killed": "swBarbarian/orc chief/HGWRKILL.wav",
+			"move": "swBarbarian/orc chief/HGWRMOVE.wav",
+			"wince": "swBarbarian/orc chief/HGWRWNCE.wav",
+			"shoot": "swBarbarian/orc chief/HGWRSHOT.wav"
+		}
+	}
+}

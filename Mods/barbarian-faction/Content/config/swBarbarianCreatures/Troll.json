@@ -1,0 +1,79 @@
+{
+	"swBarbarianTroll": {
+		"name": {
+			"singular": "Troll",
+			"plural": "Trolls"
+		},
+		"faction": "swswBarbarianfaction",
+		"level": 6,
+		"cost": {
+			"gold": 500
+		},
+		"speed": 5,
+		"hitPoints": 45,
+		"shots": 8,
+		"attack": 10,
+		"defense": 5,
+		"damage": {
+			"min": 7,
+			"max": 9
+		},
+		"fightValue": 551,
+		"aiValue": 585,
+		"advMapAmount": {
+			"min": 7,
+			"max": 10
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swBarbarianWarTroll"
+		],
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			},
+			"ability2": {
+				"type": "HP_REGENERATION"
+			},
+			"ability3": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swBarbarianCreatures/cprsmall.def:96",
+			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:96",
+			"map": "swBarbarianCreatures/map/avwcycl0",
+			"animation": "swBarbarianCreatures/battle/c094trol",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swBarbarianCreatures/battle/PCYCLBX",
+				"offset": {
+					"upperX": 30,
+					"upperY": -70,
+					"middleX": 50,
+					"middleY": -60,
+					"lowerX": 65,
+					"lowerY": -70
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 5
+			}
+		},
+		"sound": {
+			"attack": "swBarbarian/troll/CCYCATTK.wav",
+			"defend": "swBarbarian/troll/CCYCDFND.wav",
+			"killed": "swBarbarian/troll/CCYCKILL.wav",
+			"move": "swBarbarian/troll/CCYCMOVE.wav",
+			"wince": "swBarbarian/troll/CCYCWNCE.wav",
+			"shoot": "swBarbarian/troll/CCYCSHOT.wav"
+		}
+	}
+}

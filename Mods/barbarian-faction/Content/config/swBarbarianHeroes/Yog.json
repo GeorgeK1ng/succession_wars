@@ -1,0 +1,58 @@
+{
+	"sw08Yog": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Yog",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Magic Resistance",
+				"description": "Magic Resistance",
+				"tooltip": "Receives a 5% per level bonus to Magic Resistance skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:102",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:102",
+			"large": "swBarbarianHeroes/port/HPL102BR.bmp",
+			"small": "swBarbarianHeroes/port/HPS102BR.bmp"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianOrc",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "resistance",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MAGIC_RESISTANCE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

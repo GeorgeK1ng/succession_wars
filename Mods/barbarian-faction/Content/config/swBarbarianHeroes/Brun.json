@@ -1,0 +1,63 @@
+{
+	"sw08Brun": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Brun",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Logistics",
+				"description": "Logistics",
+				"tooltip": "Receives a 6% per level bonus to Logistics skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:110",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:110",
+			"large": "swBarbarianHeroes/port/new/Barb01L.bmp",
+			"small": "swBarbarianHeroes/port/new/Barb01S.bmp"
+		},
+		"spellbook": [
+			"frenzy"
+		],
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianOrc",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "logistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MOVEMENT",
+					"subtype": "heroMovementLand",
+					"valueType": "PERCENT_TO_BASE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"val": 6,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

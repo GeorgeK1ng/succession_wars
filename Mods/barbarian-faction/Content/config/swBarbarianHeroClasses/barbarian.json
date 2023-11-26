@@ -1,0 +1,76 @@
+{
+	"swswBarbarian": {
+		"name": "swBarbarian",
+		"faction": "swswBarbarianfaction",
+		"affinity": "might",
+		"commander": "swBarbarianOgreLord",
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "swBarbarianHeroClasses/AH13_"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"female": "swBarbarianHeroClasses/CH012",
+				"male": "swBarbarianHeroClasses/CH013"
+			}
+		},
+		//primaryskills, lowlevelchance, highlevelchance are all values from original H2
+		"primarySkills": {
+			"attack": 3,
+			"defence": 1,
+			"spellpower": 1,
+			"knowledge": 1
+		},
+		"lowLevelChance": {
+			"attack": 55,
+			"defence": 35,
+			"spellpower": 5,
+			"knowledge": 5
+		},
+		"highLevelChance": {
+			"attack": 30,
+			"defence": 30,
+			"spellpower": 20,
+			"knowledge": 20
+		},
+		//I copied the H2 values on the skills that exist in H2, the rest needs balancing,
+		// they're also sorted alphabetically from H2, + H3 skills after
+		"secondarySkills": {
+			"archery": 3,
+			"ballistics": 3,
+			"diplomacy": 2,
+			"eagleEye": 1,
+			"estates": 2,
+			"leadership": 3,
+			"logistics": 3,
+			"luck": 2,
+			"mysticism": 1,
+			"navigation": 3,
+			"necromancy": 0,
+			"pathfinding": 4,
+			"scouting": 4,
+			"wisdom": 1,
+			"fireMagic": 2,
+			"airMagic": 3,
+			"waterMagic": 2,
+			"earthMagic": 4,
+			"scholar": 1,
+			"tactics": 6,
+			"artillery": 5,
+			"learning": 2,
+			"offence": 9,
+			"armorer": 2,
+			"intelligence": 3,
+			"sorcery": 2,
+			"resistance": 3,
+			"firstAid": 2
+		},
+		"defaultTavern": 3,
+		"tavern": {
+			"swswBarbarianfaction": 8
+		}
+	}
+}

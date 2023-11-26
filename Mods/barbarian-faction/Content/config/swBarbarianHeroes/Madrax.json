@@ -1,0 +1,47 @@
+{
+	"sw08Madrax": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Madrax",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Ogres and Ogre Lords",
+				"description": "Ogres and Ogre Lords",
+				"tooltip": "Increases the Attack and Defense skill of any Ogres or Ogre Lords for each level attained after 5th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:96",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:96",
+			"large": "swBarbarianHeroes/port/new/hornyp10L.bmp",
+			"small": "swBarbarianHeroes/port/new/hornyp10S.bmp"
+		},
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianOrc",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "armorer",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"creature": "swBarbarianOgre"
+		}
+	}
+}

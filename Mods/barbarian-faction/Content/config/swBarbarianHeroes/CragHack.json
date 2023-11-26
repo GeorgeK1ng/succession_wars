@@ -1,0 +1,59 @@
+{
+	"sw08CragHack": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Crag Hack",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Offence",
+				"description": "Offence",
+				"tooltip": "Receives a 5% per level bonus to Offense skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:98",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:98",
+			"large": "swBarbarianHeroes/port/HPL098BR.bmp",
+			"small": "swBarbarianHeroes/port/HPS098BR.bmp"
+		},
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"subtype": "damageTypeMelee",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

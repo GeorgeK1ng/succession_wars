@@ -1,0 +1,166 @@
+{
+	"core:dragonUtopia": {
+		"types": {
+			"sw08trollBridge": {
+				"handler": "bank",
+				"name": "Troll Bridge",
+				"templates": {
+					"base": {
+						"animation": "swBarbarian/adventure-map/banks/bridge/AVXbnk87",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBBB",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					}
+				},
+				"rmg": {
+					"value": 3000,
+					"rarity": 100
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swBarbarianWarTroll",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianTroll",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianTroll",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianTroll",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianWarTroll",
+								"amount": 5
+							}
+						],
+						"combat_value": 900,
+						"reward": {
+							"resources": {
+								"gold": 1500
+							},
+							"value": 3000,
+							"creatures": [
+								{
+									"type": "swBarbarianTroll",
+									"amount": 6
+								}
+							]
+						}
+					}
+				]
+			},
+			"sw08cave": {
+				"handler": "bank",
+				"name": "Ogre Cave",
+				"templates": {
+					"base": {
+						"animation": "swBarbarian/adventure-map/banks/cave/AVzoblk",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"BAV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					}
+				},
+				"rmg": {
+					"value": 4000,
+					"rarity": 80
+				},
+				"levels": [
+					{
+						"chance": 50,
+						"guards": [
+							{
+								"type": "swBarbarianOgreLord",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianOgre",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianOgre",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianOgreLord",
+								"amount": 5
+							}
+						],
+						"combat_value": 900,
+						"reward": {
+							"resources": {
+								"ore": 5
+							},
+							"value": 2000,
+							"creatures": [
+								{
+									"type": "swBarbarianOgreLord",
+									"amount": 5
+								}
+							]
+						}
+					},
+					{
+						"chance": 50,
+						"guards": [
+							{
+								"type": "swBarbarianOgre",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianOgre",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianOgre",
+								"amount": 5
+							},
+							{
+								"type": "swBarbarianOgre",
+								"amount": 5
+							}
+						],
+						"combat_value": 900,
+						"reward": {
+							"resources": {
+								"ore": 5
+							},
+							"value": 2000,
+							"creatures": [
+								{
+									"type": "swBarbarianOgre",
+									"amount": 5
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,222 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"swBarbarianLevel1D": {
+				"name": "Hut",
+				"creatures": [
+					[
+						"swBarbarianGoblin"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 50, "type": "swBarbarianGoblin" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swBarbarian/Adventure-Map/AVGgobl0",
+						"mask": [
+							"VBA"
+						]
+					},
+					"defaul2": {
+						"animation": "swBarbarian/Adventure-Map/AVGgobl1",
+						"mask": [
+							"VA"
+						]
+					},
+					"defaul3": {
+						"animation": "swBarbarian/Adventure-Map/AVGgoblb",
+						"mask": [
+							"VBA"
+						]
+					}
+				}
+			},
+			"swBarbarianLevel2": {
+				"name": "Upg. Orc Tower",
+				"creatures": [
+					[
+						"swBarbarianOrcChief"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 30, "type": "swBarbarianOrcChief" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swBarbarian/Adventure-Map/AVGwolf0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swBarbarianLevel2D": {
+				"name": "Orc Tower",
+				"creatures": [
+					[
+						"swBarbarianOrc"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 30, "type": "swBarbarianOrc" }
+				//				],
+				"templates": {
+					"PALM151": {
+						"animation": "swBarbarian/Adventure-Map/AVGwolf1",
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"PALM189": {
+						"animation": "swBarbarian/Adventure-Map/AVGwolf2",
+						"mask": [
+							"VA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"lava",
+							"subterra",
+							"swamp",
+							"rough",
+							"sand"
+						]
+					}
+				}
+			},
+			"swBarbarianLevel3": {
+				"name": "Den",
+				"creatures": [
+					[
+						"swBarbarianWolf"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 22, "type": "swBarbarianWolf" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swBarbarian/Adventure-Map/AVGorcg0",
+						"mask": [
+							"VV",
+							"BA"
+						]
+					},
+					"default2": {
+						"animation": "swBarbarian/Adventure-Map/AVCorc0",
+						"mask": [
+							"VV",
+							"BA"
+						]
+					}
+				}
+			},
+			"swBarbarianLevel4": {
+				"name": "Nest",
+				"creatures": [
+					[
+						"swBarbarianHarpy"
+					]
+				],
+				"guards": [
+					{
+						"amount": 16,
+						"type": "swBarbarianHarpy"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swBarbarian/Adventure-Map/AVGogre0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swBarbarianLevel5D": {
+				"name": "Adobe",
+				"creatures": [
+					[
+						"swBarbarianOgre"
+					]
+				],
+				"guards": [
+					{
+						"amount": 12,
+						"type": "swBarbarianOgre"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swBarbarian/Adventure-Map/AVGrocs1",
+						"mask": [
+							"VBA"
+						]
+					}
+				}
+			},
+			"swBarbarianLevel6": {
+				"name": "Bridge",
+				"creatures": [
+					[
+						"swBarbarianTroll"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "swBarbarianTroll"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swBarbarian/Adventure-Map/AVGtrll",
+						"mask": [
+							"VVVV",
+							"BBBA"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"default2": {
+						"animation": "swBarbarian/Adventure-Map/AVGcycl0",
+						"mask": [
+							"VBA"
+						]
+					}
+				}
+			},
+			"swBarbarianLevel7D": {
+				"name": "Pyramid",
+				"creatures": [
+					[
+						"swBarbarianCyclop"
+					]
+				],
+				"guards": [
+					{
+						"amount": 4,
+						"type": "swBarbarianCyclop"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swBarbarian/Adventure-Map/AVGbhmt0",
+						"mask": [
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			}
+		}
+	}
+}

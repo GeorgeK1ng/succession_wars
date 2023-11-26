@@ -1,0 +1,81 @@
+{
+	"swBarbarianCyclop": {
+		"name": {
+			"singular": "Cyclop",
+			"plural": "Cyclops"
+		},
+		"faction": "swswBarbarianfaction",
+		"level": 7,
+		"cost": {
+			"gold": 950,
+			"crystal": 1
+		},
+		"speed": 7,
+		"hitPoints": 90,
+		"shots": 0,
+		"attack": 12,
+		"defense": 9,
+		"damage": {
+			"min": 14,
+			"max": 28
+		},
+		"fightValue": 1466,
+		"aiValue": 1689,
+		"advMapAmount": {
+			"min": 5,
+			"max": 7
+		},
+		"growth": 2,
+		"hasDoubleWeek": true,
+		"horde": 0,
+		"abilities": {
+			"ability1": {
+				"type": "TWO_HEX_ATTACK_BREATH"
+			},
+			"ability2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.paralyze",
+				"val": 20,
+				"addInfo": 0
+			},
+			"king": {
+				"type": "KING",
+				"val": 1,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swBarbarianCreatures/cprsmall.def:98",
+			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:98",
+			"map": "swBarbarianCreatures/map/avwbhmt0",
+			"animation": "swBarbarianCreatures/battle/c096cycl",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "PROJECTILE_ANIMATION_PLACEHOLDER",
+				"offset": {
+					"upperX": 36,
+					"upperY": -41,
+					"middleX": 36,
+					"middleY": -41,
+					"lowerX": 36,
+					"lowerY": -41
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "swBarbarian/cyclops/YBMHATTK.wav",
+			"defend": "swBarbarian/cyclops/YBMHDFND.wav",
+			"killed": "swBarbarian/cyclops/YBMHKILL.wav",
+			"move": "swBarbarian/cyclops/YBMHMOVE.wav",
+			"wince": "swBarbarian/cyclops/YBMHWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

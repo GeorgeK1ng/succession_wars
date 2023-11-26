@@ -1,0 +1,105 @@
+{
+	"sw08Fineous": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Fineous",
+			"biography": "no bios",
+			"specialty": {
+				"name": "War Machines",
+				"description": "War Machines",
+				"tooltip": "Provides a level-dependent health bonus to all War Machines used in combat."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:104",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:104",
+			"large": "swBarbarianHeroes/port/HPL104BM.bmp",
+			"small": "swBarbarianHeroes/port/HPS104BM.bmp"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "ballista",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityCreatureHealth": {
+					"type": "STACK_HEALTH",
+					"val": 5,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"ballista",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityCreatureHealth1": {
+					"type": "STACK_HEALTH",
+					"val": 5,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"catapult",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityCreatureHealth2": {
+					"type": "STACK_HEALTH",
+					"val": 5,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"firstAidTent",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityCreatureHealth3": {
+					"type": "STACK_HEALTH",
+					"val": 5,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"ammoCart",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

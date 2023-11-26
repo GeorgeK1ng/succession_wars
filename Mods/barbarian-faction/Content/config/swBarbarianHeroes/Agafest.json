@@ -1,0 +1,59 @@
+{
+	"sw08Agafest": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Agafest",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Offence",
+				"description": "Offence",
+				"tooltip": "Receives a 6% per level bonus to Offense skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:98",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:98",
+			"large": "swBarbarianHeroes/port/new/Barb02L.bmp",
+			"small": "swBarbarianHeroes/port/new/Barb02S.bmp"
+		},
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "armorer",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"subtype": "damageTypeMelee",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 6,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

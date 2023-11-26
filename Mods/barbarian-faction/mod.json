@@ -12,58 +12,58 @@
 	],
 	"factions":
 	[
-		"config/sw08barbarian/buildings.json",
-		"config/sw08barbarian/faction.json",
-		"config/sw08barbarian/siege.json",
-		"config/sw08barbarian/spells.json",
-		"config/sw08barbarian/structures.json",
-		"config/sw08barbarian/puzzle.json",
-		"config/sw08barbarian/texts.json"
+		"config/swBarbarian/buildings.json",
+		"config/swBarbarian/faction.json",
+		"config/swBarbarian/siege.json",
+		"config/swBarbarian/spells.json",
+		"config/swBarbarian/structures.json",
+		"config/swBarbarian/puzzle.json",
+		"config/swBarbarian/texts.json"
 	],
 	"heroClasses":
 	[
-		"config/sw08barbarian-heroClasses/barbarian.json"
+		"config/swBarbarianHeroClasses/barbarian.json"
 	],
 	"heroes":
 	[
-		"config/sw08barbarian-heroes/Agafest.json",
-		"config/sw08barbarian-heroes/Antoine.json",
-		"config/sw08barbarian-heroes/Atlas.json",
-		"config/sw08barbarian-heroes/Brun.json",
-		"config/sw08barbarian-heroes/CragHack.json",
-		"config/sw08barbarian-heroes/Ergon.json",
-		"config/sw08barbarian-heroes/Finbros.json",
-		"config/sw08barbarian-heroes/Fineous.json",
-		"config/sw08barbarian-heroes/Ildy.json",
-		"config/sw08barbarian-heroes/Jaclyn.json",
-		"config/sw08barbarian-heroes/Jezebel.json",
-		"config/sw08barbarian-heroes/Jojosh.json",
-		"config/sw08barbarian-heroes/Madrax.json",
-		"config/sw08barbarian-heroes/Moham.json",
-		"config/sw08barbarian-heroes/Sonnie.json",
-		"config/sw08barbarian-heroes/Thornson.json",
-		"config/sw08barbarian-heroes/Thundax.json",
-		"config/sw08barbarian-heroes/Tsabu.json",
-		"config/sw08barbarian-heroes/Wallas.json",
-		"config/sw08barbarian-heroes/Xandor.json",
-		"config/sw08barbarian-heroes/Yog.json"
+		"config/swBarbarianHeroes/Agafest.json",
+		"config/swBarbarianHeroes/Antoine.json",
+		"config/swBarbarianHeroes/Atlas.json",
+		"config/swBarbarianHeroes/Brun.json",
+		"config/swBarbarianHeroes/CragHack.json",
+		"config/swBarbarianHeroes/Ergon.json",
+		"config/swBarbarianHeroes/Finbros.json",
+		"config/swBarbarianHeroes/Fineous.json",
+		"config/swBarbarianHeroes/Ildy.json",
+		"config/swBarbarianHeroes/Jaclyn.json",
+		"config/swBarbarianHeroes/Jezebel.json",
+		"config/swBarbarianHeroes/Jojosh.json",
+		"config/swBarbarianHeroes/Madrax.json",
+		"config/swBarbarianHeroes/Moham.json",
+		"config/swBarbarianHeroes/Sonnie.json",
+		"config/swBarbarianHeroes/Thornson.json",
+		"config/swBarbarianHeroes/Thundax.json",
+		"config/swBarbarianHeroes/Tsabu.json",
+		"config/swBarbarianHeroes/Wallas.json",
+		"config/swBarbarianHeroes/Xandor.json",
+		"config/swBarbarianHeroes/Yog.json"
 	],
 	"creatures":
 	[
-		"config/sw08barbarian-creatures/Cyclop.json",
-		"config/sw08barbarian-creatures/Goblin.json",
-		"config/sw08barbarian-creatures/Harpy.json",
-		"config/sw08barbarian-creatures/Ogre Lord.json",
-		"config/sw08barbarian-creatures/Ogre.json",
-		"config/sw08barbarian-creatures/Orc Chief.json",
-		"config/sw08barbarian-creatures/Orc.json",
-		"config/sw08barbarian-creatures/Troll.json",
-		"config/sw08barbarian-creatures/War Troll.json",
-		"config/sw08barbarian-creatures/Wolf.json"
+		"config/swBarbarianCreatures/Cyclop.json",
+		"config/swBarbarianCreatures/Goblin.json",
+		"config/swBarbarianCreatures/Harpy.json",
+		"config/swBarbarianCreatures/Ogre Lord.json",
+		"config/swBarbarianCreatures/Ogre.json",
+		"config/swBarbarianCreatures/Orc Chief.json",
+		"config/swBarbarianCreatures/Orc.json",
+		"config/swBarbarianCreatures/Troll.json",
+		"config/swBarbarianCreatures/War Troll.json",
+		"config/swBarbarianCreatures/Wolf.json"
 	],
 	"objects":
 	[
-		"config/sw08barbarian/banks.json",
-		"config/sw08barbarian/dwellings.json"
+		"config/swBarbarian/banks.json",
+		"config/swBarbarian/dwellings.json"
 	]
 }

@@ -1,0 +1,61 @@
+{
+	"sw08Xandor": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Xandor",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Bloodlust",
+				"description": "Bloodlust",
+				"tooltip": "Casts Bloodlust with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:99",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:99",
+			"large": "swBarbarianHeroes/port/new/sw029_L.bmp",
+			"small": "swBarbarianHeroes/port/new/sw029_S.bmp"
+		},
+		"spellbook": [
+			"bloodlust"
+		],
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianOrc",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "fireMagic",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.bloodlust"
+				}
+			}
+		}
+	}
+}

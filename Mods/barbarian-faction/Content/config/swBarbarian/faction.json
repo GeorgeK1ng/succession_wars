@@ -1,0 +1,860 @@
+{
+	"swswBarbarianfaction": {
+		"name": "Barbarian",
+		"alignment": "neutral",
+		"nativeTerrain": "rough",
+		"boat": "heroes2Boat_sw08",
+		"creatureBackground": {
+			"120px": "swBarbarian/creature-bg-120px.bmp",
+			"130px": "swBarbarian/creature-bg-130px.bmp"
+		},
+		"town": {
+			"primaryResource": "ore",
+			"warMachine": "swNeutralballista",
+			"defaultTavern": 5,
+			"moatAbility": "core:spell.strongholdMoat",
+			// "moatHexes": [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
+
+			"townBackground": "swBarbarian/town-screen/background.bmp",
+			"hallBackground": "swBarbarian/town-screen/Hall.png",
+			"guildBackground": "TPMAGE.bmp",
+			"guildWindow": "swBarbarian/town-screen/mage-guild.bmp",
+
+			"mageGuild": 5,
+
+			"musicTheme": "music/swBarbarian/StrongHold.mp3",
+			"tavernVideo": "swBarbarian/Tavern.bik",
+
+			"creatures": [
+				[ "swBarbarianGoblin" ],
+				[ "swBarbarianOrc", "swBarbarianOrcChief" ],
+				[ "swBarbarianWolf"],
+				[ "swBarbarianHarpy"],
+				[ "swBarbarianOgre", "swBarbarianOgreLord"],
+				[ "swBarbarianTroll", "swBarbarianWarTroll" ],
+				[ "swBarbarianCyclop" ]
+			],
+			"hallSlots": [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol" ],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
+					[ "special1", "special4" ],
+					[ "shipyard" ]
+				],
+				[
+					[ "special2" ],
+					[ "special3" ],
+					[ "horde1" ]
+				],
+				[
+					[ "dwellingLvl1" ],
+					[ "dwellingLvl2", "dwellingUpLvl2" ],
+					[ "dwellingLvl3" ],
+					[ "dwellingLvl4" ]
+				],
+				[
+					[ "dwellingLvl5", "dwellingUpLvl5" ],
+					[ "dwellingLvl6", "dwellingUpLvl6" ],
+					[ "dwellingLvl7" ]
+				]
+			],
+
+			"horde": [ 0 ,-1],
+			
+			"buildingsIcons": "swBarbarian/town-hall",
+	
+			"icons": {
+				"village": {
+					"normal": {
+						"large": "swBarbarian/itpt.def:12",
+						"small": "swBarbarian/ITPA.def:14"
+					},
+					"built": {
+						"large": "swBarbarian/itpt.def:13",
+						"small": "swBarbarian/ITPA.def:15"
+					}
+				},
+				"fort": {
+					"normal": {
+						"large": "swBarbarian/itpt.def:12",
+						"small": "swBarbarian/ITPA.def:14"
+					},
+					"built": {
+						"large": "swBarbarian/itpt.def:13",
+						"small": "swBarbarian/ITPA.def:15"
+					}
+				}
+			},
+
+			"tavern":
+			{
+				"swswBarbarian": 8
+			},
+			
+			"mapObject": {
+				"filters": {
+					"capitolDirt": [ "allOf", [ "capitol" ] ] ,
+					"castleDirt": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelDirt": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortDirt": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageDirt": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townDirt": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					
+ 
+					"capitolGrass": [ "allOf", [ "capitol" ] ] ,
+					"castleGrass": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelGrass": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortGrass": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageGrass": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townGrass": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					
+					"capitolSnow": [ "allOf", [ "capitol" ] ] ,
+					"castleSnow": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSnow": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSnow": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSnow": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSnow": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+						
+					"capitolSwamp": [ "allOf", [ "capitol" ] ] ,
+					"castleSwamp": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSwamp": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSwamp": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSwamp": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSwamp": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+					"capitolRough": [ "allOf", [ "capitol" ] ] ,
+					"castleRough": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelRough": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortRough": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageRough": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townRough": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					"capitolSand": [ "allOf", [ "capitol" ] ] ,
+					"castleSand": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSand": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSand": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSand": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSand": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+					"capitolSubterra": [ "allOf", [ "capitol" ] ] ,
+					"castleSubterra": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSubterra": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSubterra": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSubterra": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSubterra": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+					"capitolLava": [ "allOf", [ "capitol" ] ] ,
+					"castleLava": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelLava": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortLava": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageLava": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townLava": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+					"castleAll": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelAll": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortAll": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageAll": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townAll": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ]
+
+				},
+				"templates": {
+					"capitolAll": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"castleAll": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"citadelAll": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"fortAll": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"townAll": {
+						"animation": "swBarbarian/adventure-map/avc6_6_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"villageAll": {
+						"animation": "swBarbarian/adventure-map/avc6_6_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"capitolDirt": {
+						"animation": "swBarbarian/adventure-map/avc6_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"castleDirt": {
+						"animation": "swBarbarian/adventure-map/avc6_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"citadelDirt": {
+						"animation": "swBarbarian/adventure-map/avc6_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"fortDirt": {
+						"animation": "swBarbarian/adventure-map/avc6_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"townDirt": {
+						"animation": "swBarbarian/adventure-map/avc6_0_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"villageDirt": {
+						"animation": "swBarbarian/adventure-map/avc6_0_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"capitolGrass": {
+						"animation": "swBarbarian/adventure-map/avc6_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"castleGrass": {
+						"animation": "swBarbarian/adventure-map/avc6_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"citadelGrass": {
+						"animation": "swBarbarian/adventure-map/avc6_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"fortGrass": {
+						"animation": "swBarbarian/adventure-map/avc6_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"townGrass": {
+						"animation": "swBarbarian/adventure-map/avc6_2_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"villageGrass": {
+						"animation": "swBarbarian/adventure-map/avc6_2_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"capitolSnow": {
+						"animation": "swBarbarian/adventure-map/avc6_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"castleSnow": {
+						"animation": "swBarbarian/adventure-map/avc6_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"citadelSnow": {
+						"animation": "swBarbarian/adventure-map/avc6_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"fortSnow": {
+						"animation": "swBarbarian/adventure-map/avc6_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"townSnow": {
+						"animation": "swBarbarian/adventure-map/avc6_3_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"villageSnow": {
+						"animation": "swBarbarian/adventure-map/avc6_3_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"capitolSwamp": {
+						"animation": "swBarbarian/adventure-map/avc6_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"castleSwamp": {
+						"animation": "swBarbarian/adventure-map/avc6_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"citadelSwamp": {
+						"animation": "swBarbarian/adventure-map/avc6_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"fortSwamp": {
+						"animation": "swBarbarian/adventure-map/avc6_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"townSwamp": {
+						"animation": "swBarbarian/adventure-map/avc6_4_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"villageSwamp": {
+						"animation": "swBarbarian/adventure-map/avc6_4_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"capitolRough": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"castleRough": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"citadelRough": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"fortRough": {
+						"animation": "swBarbarian/adventure-map/avc6_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"townRough": {
+						"animation": "swBarbarian/adventure-map/avc6_6_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"villageRough": {
+						"animation": "swBarbarian/adventure-map/avc6_6_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"capitolSubterra": {
+						"animation": "swBarbarian/adventure-map/avc6_8_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"castleSubterra": {
+						"animation": "swBarbarian/adventure-map/avc6_8_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"citadelSubterra": {
+						"animation": "swBarbarian/adventure-map/avc6_8_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"fortSubterra": {
+						"animation": "swBarbarian/adventure-map/avc6_8_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"townSubterra": {
+						"animation": "swBarbarian/adventure-map/avc6_8_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"villageSubterra": {
+						"animation": "swBarbarian/adventure-map/avc6_8_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"capitolSand": {
+						"animation": "swBarbarian/adventure-map/avc6_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"castleSand": {
+						"animation": "swBarbarian/adventure-map/avc6_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"citadelSand": {
+						"animation": "swBarbarian/adventure-map/avc6_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"fortSand": {
+						"animation": "swBarbarian/adventure-map/avc6_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"townSand": {
+						"animation": "swBarbarian/adventure-map/avc6_5_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"villageSand": {
+						"animation": "swBarbarian/adventure-map/avc6_5_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"capitolLava": {
+						"animation": "swBarbarian/adventure-map/avc6_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"castleLava": {
+						"animation": "swBarbarian/adventure-map/avc6_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"citadelLava": {
+						"animation": "swBarbarian/adventure-map/avc6_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"fortLava": {
+						"animation": "swBarbarian/adventure-map/avc6_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"townLava": {
+						"animation": "swBarbarian/adventure-map/avc6_7_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"villageLava": {
+						"animation": "swBarbarian/adventure-map/avc6_7_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					}
+				}
+			}
+		}
+	}
+}

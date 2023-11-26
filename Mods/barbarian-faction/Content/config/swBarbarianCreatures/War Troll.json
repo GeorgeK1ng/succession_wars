@@ -1,0 +1,78 @@
+{
+	"swBarbarianWarTroll": {
+		"name": {
+			"singular": "War Troll",
+			"plural": "War Trolls"
+		},
+		"faction": "swswBarbarianfaction",
+		"level": 6,
+		"cost": {
+			"gold": 645
+		},
+		"speed": 6,
+		"hitPoints": 45,
+		"shots": 16,
+		"attack": 10,
+		"defense": 5,
+		"damage": {
+			"min": 7,
+			"max": 9
+		},
+		"fightValue": 616,
+		"aiValue": 654,
+		"advMapAmount": {
+			"min": 7,
+			"max": 10
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			},
+			"ability2": {
+				"type": "HP_REGENERATION",
+				"val": 100000,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"ability3": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swBarbarianCreatures/cprsmall.def:97",
+			"iconLarge": "swBarbarianCreatures/TWCRPORT.def:97",
+			"map": "swBarbarianCreatures/map/avwcycx0",
+			"animation": "swBarbarianCreatures/battle/c095utrl",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swBarbarianCreatures/battle/PCYCLBX",
+				"offset": {
+					"upperX": 30,
+					"upperY": -70,
+					"middleX": 50,
+					"middleY": -60,
+					"lowerX": 65,
+					"lowerY": -70
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 5
+			}
+		},
+		"sound": {
+			"attack": "swBarbarian/war troll/CYCLATTK.wav",
+			"defend": "swBarbarian/war troll/CYCLDFND.wav",
+			"killed": "swBarbarian/war troll/CYCLKILL.wav",
+			"move": "swBarbarian/war troll/cyclmove.wav",
+			"wince": "swBarbarian/war troll/CYCLWNCE.wav",
+			"shoot": "swBarbarian/war troll/CYCLSHOT.wav"
+		}
+	}
+}

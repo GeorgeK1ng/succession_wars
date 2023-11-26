@@ -1,0 +1,53 @@
+{
+	"sw08Jojosh": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Jojosh",
+			"biography": "no bios",
+			"specialty": {
+				"name": "+ 350 Gold",
+				"description": "+ 350 Gold",
+				"tooltip": "Increases kingdom's income by 350 gold per day."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:97",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:97",
+			"large": "swBarbarianHeroes/port/HPL097BR.bmp",
+			"small": "swBarbarianHeroes/port/HPS097BR.bmp"
+		},
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianOrc",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swBarbarianWolf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gold",
+					"val": 350
+				}
+			}
+		}
+	}
+}

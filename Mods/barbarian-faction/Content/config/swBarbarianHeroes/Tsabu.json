@@ -1,0 +1,48 @@
+{
+	"sw08Tsabu": {
+		"class": "swswBarbarian",
+		"female": false,
+		"texts": {
+			"name": "Tsabu",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Harpies",
+				"description": "Harpies",
+				"tooltip": "Increases the Attack and Defense skill of any Harpies for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swBarbarianHeroes/UN32.def:103",
+			"specialtyLarge": "swBarbarianHeroes/UN44.def:103",
+			"large": "swBarbarianHeroes/port/HPL103BR.bmp",
+			"small": "swBarbarianHeroes/port/HPS103BR.bmp"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swBarbarianGoblin",
+				"min": 14,
+				"max": 22
+			},
+			{
+				"creature": "swBarbarianOrc",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swBarbarianHarpy",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"creature": "swBarbarianHarpy"
+		}
+	}
+}
