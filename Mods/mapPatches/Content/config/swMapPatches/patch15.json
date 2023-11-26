@@ -1,0 +1,150 @@
+{
+	"core:lucidPools": {
+		"types": {
+			"sw08patch15": {
+				"name": "Ice Plains",
+				"templates": {
+					"AVXld00": {
+						"animation": "swMapPatches/patch15/AVXld00",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXld10": {
+						"animation": "swMapPatches/patch15/AVXld10",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXld20": {
+						"animation": "swMapPatches/patch15/AVXld20",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXld30": {
+						"animation": "swMapPatches/patch15/AVXld30",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXld40": {
+						"animation": "swMapPatches/patch15/AVXld40",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXld50": {
+						"animation": "swMapPatches/patch15/AVXld50",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXld70": {
+						"animation": "swMapPatches/patch15/AVXld70",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXld60": {
+						"animation": "swMapPatches/patch15/AVXld60",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

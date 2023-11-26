@@ -1,0 +1,151 @@
+{
+	"core:lucidPools": {
+		"types": {
+			"sw08patch25": {
+				"name": "Lucid Pools",
+				"battleground": "sw08_hmm2_lucid_pools",
+				"templates": {
+					"CRdelt1": {
+						"animation": "swMapPatches/patch25/CRdelt1",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"CRdelt2": {
+						"animation": "swMapPatches/patch25/CRdelt2",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"CRdelt3": {
+						"animation": "swMapPatches/patch25/CRdelt3",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"CRdelt4": {
+						"animation": "swMapPatches/patch25/CRdelt4",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"CRdelt5": {
+						"animation": "swMapPatches/patch25/CRdelt5",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"CRdelt6": {
+						"animation": "swMapPatches/patch25/CRdelt6",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"CRdelt7": {
+						"animation": "swMapPatches/patch25/CRdelt7",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"CRdelt": {
+						"animation": "swMapPatches/patch25/CRdelt",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					}
+				}
+			}
+		}
+	}
+}

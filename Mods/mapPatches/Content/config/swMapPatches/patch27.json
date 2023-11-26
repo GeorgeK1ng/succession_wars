@@ -1,0 +1,131 @@
+{
+	"core:favorableWinds": {
+		"types": {
+			"sw08patch27": {
+				"name": "Stars",
+				"templates": {
+					"IM000": {
+						"animation": "swMapPatches/patch27/IM000",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"IM001": {
+						"animation": "swMapPatches/patch27/IM001",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"IM002": {
+						"animation": "swMapPatches/patch27/IM002",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"IM003": {
+						"animation": "swMapPatches/patch27/IM003",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"IM004": {
+						"animation": "swMapPatches/patch27/IM004",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"IM006": {
+						"animation": "swMapPatches/patch27/IM006",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"IM005": {
+						"animation": "swMapPatches/patch27/IM005",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}

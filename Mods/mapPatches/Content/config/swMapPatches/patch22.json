@@ -1,0 +1,150 @@
+{
+	"core:lucidPools": {
+		"types": {
+			"sw08patch22": {
+				"name": "Cracking Ice",
+				"templates": {
+					"AVZgyne0": {
+						"animation": "swMapPatches/patch22/AVZgyne0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVZgyne10": {
+						"animation": "swMapPatches/patch22/AVZgyne10",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVZgyne20": {
+						"animation": "swMapPatches/patch22/AVZgyne20",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVZgyne30": {
+						"animation": "swMapPatches/patch22/AVZgyne30",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVZgyne40": {
+						"animation": "swMapPatches/patch22/AVZgyne40",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVZgyne50": {
+						"animation": "swMapPatches/patch22/AVZgyne50",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVZgyne70": {
+						"animation": "swMapPatches/patch22/AVZgyne70",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVZgyne60": {
+						"animation": "swMapPatches/patch22/AVZgyne60",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

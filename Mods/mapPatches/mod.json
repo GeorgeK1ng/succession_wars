@@ -1,0 +1,43 @@
+{
+	"name": "SW - Map Patches",
+	"description": "SW - Map Patches",
+	"modType": "Graphical",
+	"author": "Noname",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
+	[
+		"succession_wars.terrains"
+	],
+	"objects":
+	[
+		"config/swMapPatches/patch1.json",
+		"config/swMapPatches/patch2.json",
+		"config/swMapPatches/patch3.json",
+		"config/swMapPatches/patch4.json",
+		"config/swMapPatches/patch5.json",
+		"config/swMapPatches/patch6.json",
+		"config/swMapPatches/patch7.json",
+		"config/swMapPatches/patch8.json",
+		"config/swMapPatches/patch9.json",
+		"config/swMapPatches/patch10.json",
+		"config/swMapPatches/patch11.json",
+		"config/swMapPatches/patch12.json",
+		"config/swMapPatches/patch13.json",
+		"config/swMapPatches/patch14.json",
+		"config/swMapPatches/patch15.json",
+		"config/swMapPatches/patch16.json",
+		"config/swMapPatches/patch17.json",
+		"config/swMapPatches/patch18.json",
+		"config/swMapPatches/patch19.json",
+		"config/swMapPatches/patch20.json",
+		"config/swMapPatches/patch21.json",
+		"config/swMapPatches/patch22.json",
+		"config/swMapPatches/patch23.json",
+		"config/swMapPatches/patch24.json",
+		"config/swMapPatches/patch25.json",
+		"config/swMapPatches/patch26.json",
+		"config/swMapPatches/patch27.json",
+		"config/swMapPatches/patch28.json"
+	]
+}

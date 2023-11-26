@@ -1,0 +1,151 @@
+{
+	"core:magicPlains": {
+		"types": {
+			"sw08patch7": {
+				"name": "Magic Plains",
+				"battleground": "sw08_hmm2_magic_plains",
+				"templates": {
+					"AVXbs0": {
+						"animation": "swMapPatches/patch7/AVXbs0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXbs1": {
+						"animation": "swMapPatches/patch7/AVXbs1",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXbs2": {
+						"animation": "swMapPatches/patch7/AVXbs2",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXbs3": {
+						"animation": "swMapPatches/patch7/AVXbs3",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXbs4": {
+						"animation": "swMapPatches/patch7/AVXbs4",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXbs5": {
+						"animation": "swMapPatches/patch7/AVXbs5",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXbs6": {
+						"animation": "swMapPatches/patch7/AVXbs6",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXbs7": {
+						"animation": "swMapPatches/patch7/AVXbs7",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+				}
+			}
+		}
+	}
+}

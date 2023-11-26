@@ -1,0 +1,150 @@
+{
+	"core:favorableWinds": {
+		"types": {
+			"sw08patch17": {
+				"name": "Stormy Sea",
+				"templates": {
+					"AVXmc0": {
+						"animation": "swMapPatches/patch17/AVXmc0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmc1": {
+						"animation": "swMapPatches/patch17/AVXmc1",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmc2": {
+						"animation": "swMapPatches/patch17/AVXmc2",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmc3": {
+						"animation": "swMapPatches/patch17/AVXmc3",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmc4": {
+						"animation": "swMapPatches/patch17/AVXmc4",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmc5": {
+						"animation": "swMapPatches/patch17/AVXmc5",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmc6": {
+						"animation": "swMapPatches/patch17/AVXmc6",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVXmc7": {
+						"animation": "swMapPatches/patch17/AVXmc7",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,151 @@
+{
+	"core:rocklands": {
+		"types": {
+			"sw08patch5": {
+				"name": "Rock Lands",
+				"battleground": "sw08_hmm2_rocklands",
+				"templates": {
+					"AVmautr0": {
+						"animation": "swMapPatches/patch5/AVmautr0",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVmautr1": {
+						"animation": "swMapPatches/patch5/AVmautr1",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVmautr2": {
+						"animation": "swMapPatches/patch5/AVmautr2",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVmautr3": {
+						"animation": "swMapPatches/patch5/AVmautr3",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVmautr4": {
+						"animation": "swMapPatches/patch5/AVmautr4",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVmautr5": {
+						"animation": "swMapPatches/patch5/AVmautr5",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVmautr6": {
+						"animation": "swMapPatches/patch5/AVmautr6",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"AVmautr7": {
+						"animation": "swMapPatches/patch5/AVmautr7",
+						"visitableFrom": [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	}
+}
