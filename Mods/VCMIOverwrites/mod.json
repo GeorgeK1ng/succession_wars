@@ -18,6 +18,6 @@
 	],
 	"templates":
 	[
-		"config/sw08templates/08SWJebusCross.json"
+		"config/swRMGTemplates/08SWJebusCross.json"
 	]
 }
