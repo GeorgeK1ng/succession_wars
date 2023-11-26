@@ -1,0 +1,24 @@
+{
+	"swEnchantedHourglass": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "TREASURE",
+		"value": 1000,
+		"text": {
+			"name": "Enchanted Hourglass",
+			"description": "The Enchanted Hourglass extends the duration of all your spells by 2 turns.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPELL_DURATION",
+				"val": 2,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:85",
+			"map": "swArts/AVA0085"
+		}
+	}
+}

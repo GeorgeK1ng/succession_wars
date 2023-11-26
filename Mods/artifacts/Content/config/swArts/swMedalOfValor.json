@@ -1,0 +1,23 @@
+{
+	"swMedalOfValor": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "TREASURE",
+		"value": 2000,
+		"text": {
+			"name": "Medal of Valor",
+			"description": "The Medal of Valor increases your morale.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "MORALE",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:50",
+			"map": "swArts/AVA0050"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"sw_WandOfNegation": {
+		"type": [ "HERO" ],
+		"slot": "RIGHT_HAND",
+		"class": "MINOR",
+		"value": 3000,
+		"text": {
+			"name": "_Wand of Negation",
+			"description": "The Wand of Negation makes all your troops inmune to dispel magic spells.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.dispel"
+			},
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.curse"
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:92",
+			"map": "swArts/AVA0092"
+		}
+	}
+}

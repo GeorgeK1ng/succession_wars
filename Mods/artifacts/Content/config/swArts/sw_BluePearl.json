@@ -1,0 +1,29 @@
+{
+	"sw_BluePearl": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 6000,
+		"text": {
+			"name": "_Blue Pearl",
+			"description": "The Blue Pearl increases your Spell Power and Knowledge by 3 each.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.spellpower",
+				"val": 3
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.knowledge",
+				"val": 3
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:43",
+			"map": "swArts/AVA0043"
+		}
+	}
+}

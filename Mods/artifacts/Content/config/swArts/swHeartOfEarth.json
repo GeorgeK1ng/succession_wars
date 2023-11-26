@@ -1,0 +1,23 @@
+{
+	"swHeartOfEarth": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "RELIC",
+		"value": 20000,
+		"text": {
+			"name": "Heart of Earth",
+			"description": "The Heart of Earth provides to you all spells in the school of Earth Magic. It must be equipped for the spells to be available.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"subtype": "spellSchool.earth",
+				"type": "SPELLS_OF_SCHOOL"
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:86",
+			"map": "swArts/AVA0086"
+		}
+	}
+}

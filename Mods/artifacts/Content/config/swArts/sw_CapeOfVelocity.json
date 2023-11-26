@@ -1,0 +1,23 @@
+{
+	"sw_CapeOfVelocity": {
+		"type": [ "HERO" ],
+		"slot": "SHOULDERS",
+		"class": "MAJOR",
+		"value": 10000,
+		"text": {
+			"name": "_Cape of Velocity",
+			"description": "Worn about the shoulders, this cape increases the combat speed of all y//our units by +2.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "STACKS_SPEED",
+				"val": 2
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:99",
+			"map": "swArts/AVA0099"
+		}
+	}
+}

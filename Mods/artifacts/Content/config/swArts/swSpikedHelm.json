@@ -1,0 +1,29 @@
+{
+	"swSpikedHelm": {
+		"type": [ "HERO" ],
+		"slot": "HEAD",
+		"class": "TREASURE",
+		"value": 2000,
+		"text": {
+			"name": "Spiked Helm",
+			"description": "The Spiked Helm increases your Attack and Defense skills by 1 each.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.defence",
+				"val": 1
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:33",
+			"map": "swArts/AVA0033"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"sw_VialOfBlood": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "TREASURE",
+		"value": 5000,
+		"text": {
+			"name": "_Vial of Blood",
+			"description": "The Vial of Blood increases the health of all your units.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "STACK_HEALTH",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:96",
+			"map": "swArts/AVA0096"
+		}
+	}
+}

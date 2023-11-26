@@ -1,0 +1,24 @@
+{
+	"swGoldWatch": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 3000,
+		"text": {
+			"name": "Gold Watch",
+			"description": "The Gold Watch doubles the efectiveness of your hypnotize spells.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.hypnotize",
+				"val": 100
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:63",
+			"map": "swArts/AVA0063"
+		}
+	}
+}

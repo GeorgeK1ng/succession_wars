@@ -1,0 +1,23 @@
+{
+	"swSerenityPendant": {
+		"type": [ "HERO" ],
+		"slot": "NECK",
+		"class": "TREASURE",
+		"value": 1000,
+		"text": {
+			"name": "Serenity Pendant",
+			"description": "The Serenity Pendant makes all your troops inmune to Berserk spell.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.berserk"
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:100",
+			"map": "swArts/AVA0100"
+		}
+	}
+}

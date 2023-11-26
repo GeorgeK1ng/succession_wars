@@ -1,0 +1,25 @@
+{
+	"swNomadsBootsOfMobility": {
+		"type": [ "HERO" ],
+		"slot": "FEET",
+		"class": "MINOR",
+		"value": 3000,
+		"text": {
+			"name": "Nomad's Boots of Mobility",
+			"description": "The Nomad's Boots of Mobility increases your movement on land.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "MOVEMENT",
+				"subtype": "heroMovementLand",
+				"valueType": "ADDITIVE_VALUE",
+				"val": 10
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:70",
+			"map": "swArts/AVA0070"
+		}
+	}
+}

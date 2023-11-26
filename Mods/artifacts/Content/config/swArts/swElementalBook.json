@@ -1,0 +1,39 @@
+{
+	"swElementalBook": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 16000,
+		"text": {
+			"name": "Elemental Book",
+			"description": "Elemental Book increases effectiveness of elemental summoning spells by 50%.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 100,
+				"subtype": "spell.airElemental"
+			},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 100,
+				"subtype": "spell.waterElemental"
+			},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 100,
+				"subtype": "spell.fireElemental"
+			},
+			{
+				"type": "SPECIAL_SPELL_LEV",
+				"val": 100,
+				"subtype": "spell.earthElemental"
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:66",
+			"map": "swArts/AVA0066"
+		}
+	}
+}

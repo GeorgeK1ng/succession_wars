@@ -1,0 +1,29 @@
+{
+	"swIceCloak": {
+		"type": [ "HERO" ],
+		"slot": "SHOULDERS",
+		"class": "MAJOR",
+		"value": 16000,
+		"text": {
+			"name": "Ice Cloak",
+			"description": "The Ice Cloak decreases damage of water spells by 50%.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPELL_DAMAGE",
+				"subtype": "spellSchool.water",
+				"val": -50,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater": "BONUS_OWNER_UPDATER",
+				"limiters": [
+					"OPPOSITE_SIDE"
+				]
+			}
+		],
+		"graphics": {
+			"image": "swArts/ARTIFACT.def:59",
+			"map": "swArts/AVA0059"
+		}
+	}
+}
