@@ -1,10 +1,10 @@
 {
-	"sw08neutralEarthElemental": {
+	"swNeutralEarthElemental": {
 		"name": {
 			"singular": "Earth Elemental",
 			"plural": "Earth Elementals"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 3,
 		"cost": {
 			"gold": 500
@@ -39,10 +39,10 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:115",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:115",
-			"map": "sw08neutral-creatures/map/AVWelme0",
-			"animation": "sw08neutral-creatures/battle/ZM165GD",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:115",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:115",
+			"map": "swNeutralCreatures/map/AVWelme0",
+			"animation": "swNeutralCreatures/battle/ZM165GD",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -64,11 +64,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/earth elemental/EglmATTK.wav",
-			"defend": "sw08neutral/earth elemental/EglmDFND.wav",
-			"killed": "sw08neutral/earth elemental/EglmKILL.wav",
-			"move": "sw08neutral/earth elemental/EglmMOVE.wav",
-			"wince": "sw08neutral/earth elemental/EglmWNCE.wav"
+			"attack": "swNeutral/earth elemental/EglmATTK.wav",
+			"defend": "swNeutral/earth elemental/EglmDFND.wav",
+			"killed": "swNeutral/earth elemental/EglmKILL.wav",
+			"move": "swNeutral/earth elemental/EglmMOVE.wav",
+			"wince": "swNeutral/earth elemental/EglmWNCE.wav"
 		}
 	}
 }

@@ -10,7 +10,7 @@
 		},
 		"town": {
 			"primaryResource": "ore",
-			"warMachine": "sw08neutralfirstAidTent",
+			"warMachine": "swNeutralfirstAidTent",
 			"defaultTavern": 5,
 			"moatAbility": "core:spell.fortressMoat",
 

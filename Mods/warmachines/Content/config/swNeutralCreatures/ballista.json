@@ -1,10 +1,10 @@
 {
-	"sw08neutralballista": {
+	"swNeutralballista": {
 		"name": {
 			"plural": "Ballistas",
 			"singular": "Ballista"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 0,
 		"cost": {
 			"gold": 1000
@@ -37,10 +37,10 @@
 		},
 		
 		"graphics": {
-			"animation": "sw08neutral-creatures/battle/c146ball.def",
-			"map": "sw08neutral-creatures/arts/AVA0004.def",			
-			"iconSmall": "sw08neutral-creatures/CPRSMALL.def:148",
-			"iconLarge": "sw08neutral-creatures/TwCrPort.def:148",
+			"animation": "swNeutralCreatures/battle/c146ball.def",
+			"map": "swNeutralCreatures/arts/AVA0004.def",			
+			"iconSmall": "swNeutralCreatures/CPRSMALL.def:148",
+			"iconLarge": "swNeutralCreatures/TwCrPort.def:148",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"attack": 1,
@@ -48,7 +48,7 @@
 				"idle": 10
 			},
 			"missile": {
-				"projectile": "sw08neutral-creatures/battle/SMBALX.DEF",
+				"projectile": "swNeutralCreatures/battle/SMBALX.DEF",
 				"attackClimaxFrame": 5,
 				"frameAngles": [
 					90,
@@ -75,9 +75,9 @@
 			}
 		},
 		"sound": {
-			"killed": "sw08neutral/ballista/BALLKILL.wav",
-			"shoot": "sw08neutral/ballista/BALLSHOT.wav",
-			"wince": "sw08neutral/ballista/BALLWNCE.wav"
+			"killed": "swNeutral/ballista/BALLKILL.wav",
+			"shoot": "swNeutral/ballista/BALLSHOT.wav",
+			"wince": "swNeutral/ballista/BALLWNCE.wav"
 		},
 		"special": true
 	}

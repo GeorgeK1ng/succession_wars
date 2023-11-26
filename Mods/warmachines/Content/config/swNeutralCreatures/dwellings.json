@@ -3,15 +3,15 @@
 		"types": {
 			"warmachinesSw08WMs": {
 				"name": "Siege Machines Workshop",
-				"creatures": [[ "sw08neutralballista" ],[ "sw08neutralammoCart" ],[ "sw08neutralfirstAidTent" ]],
+				"creatures": [[ "swNeutralballista" ],[ "swNeutralammoCart" ],[ "swNeutralfirstAidTent" ]],
 				"templates": {
 					"default": {
-						"animation":  "sw08neutral-creatures/map/AVGsieg0",
+						"animation":  "swNeutralCreatures/map/AVGsieg0",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VVVV", "VBA" ]
 					},
 										"default2": {
-						"animation":  "sw08neutral-creatures/map/AVGsieg1",
+						"animation":  "swNeutralCreatures/map/AVGsieg1",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": ["VVVV", "VBA" ]
 					}

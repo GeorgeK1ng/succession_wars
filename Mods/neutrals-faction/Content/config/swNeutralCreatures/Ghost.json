@@ -1,10 +1,10 @@
 {
-	"sw08neutralGhost": {
+	"swNeutralGhost": {
 		"name": {
 			"singular": "Ghost",
 			"plural": "Ghosts"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 4,
 		"cost": {
 			"gold": 300
@@ -47,10 +47,10 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:161",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:161",
-			"map": "sw08neutral-creatures/map/z358o8",
-			"animation": "sw08neutral-creatures/battle/c159ghst",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:161",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:161",
+			"map": "swNeutralCreatures/map/z358o8",
+			"animation": "swNeutralCreatures/battle/c159ghst",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -59,11 +59,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/ghost/FELMATTK.wav",
-			"defend": "sw08neutral/ghost/FELMDFND.wav",
-			"killed": "sw08neutral/ghost/FELMKILL.wav",
-			"move": "sw08neutral/ghost/FELMMOVE.wav",
-			"wince": "sw08neutral/ghost/FELMWNCE.wav"
+			"attack": "swNeutral/ghost/FELMATTK.wav",
+			"defend": "swNeutral/ghost/FELMDFND.wav",
+			"killed": "swNeutral/ghost/FELMKILL.wav",
+			"move": "swNeutral/ghost/FELMMOVE.wav",
+			"wince": "swNeutral/ghost/FELMWNCE.wav"
 		}
 	}
 }

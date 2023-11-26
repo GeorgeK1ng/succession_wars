@@ -1,22 +1,22 @@
 {
-	"sw08neutralAirMessenger": {
+	"swNeutralEarthMessenger": {
 		"name": {
-			"singular": "Air Messenger",
-			"plural": "Air Messengers"
+			"singular": "Earth Messenger",
+			"plural": "Earth Messengers"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 6,
 		"cost": {
 			"gold": 750
 		},
-		"speed": 7,
-		"hitPoints": 35,
+		"speed": 4,
+		"hitPoints": 50,
 		"shots": 0,
-		"attack": 7,
-		"defense": 7,
+		"attack": 8,
+		"defense": 8,
 		"damage": {
 			"min": 2,
-			"max": 8
+			"max": 5
 		},
 		"fightValue": 775,
 		"aiValue": 775,
@@ -35,26 +35,25 @@
 			},
 			"ability3": {
 				"type": "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.air"
+				"subtype": "spellSchool.earth"
 			},
 			"ability4": {
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"val": 100,
-				"subtype": "spellSchool.any"
+				"subtype": "spellSchool.earth"
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:114",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:114",
-			"map": "sw08neutral-creatures/map/AVWelma0",
-			"animation": "sw08neutral-creatures/battle/ZM166GD",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:115",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:115",
+			"map": "swNeutralCreatures/map/AVWelme0",
+			"animation": "swNeutralCreatures/battle/c113eear",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
 				"walk": 1,
 				"attack": 1
 			},
-			// ToDo: Fix these dummy values from Arch Mage so that validation passes
 			"missile": {
 				"projectile": "PROJECTILE_ANIMATION_PLACEHOLDER",
 				"offset": {
@@ -70,12 +69,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/air elemental/AELMATTK.wav",
-			"defend": "sw08neutral/air elemental/AELMDFND.wav",
-			"killed": "sw08neutral/air elemental/AELMKILL.wav",
-			"move": "sw08neutral/air elemental/AELMMOVE.wav",
-			"wince": "sw08neutral/air elemental/AELMWNCE.wav",
-			"shoot": "sw08neutral/air elemental/AELMSHOT.wav"
+			"attack": "swNeutral/earth elemental/EglmATTK.wav",
+			"defend": "swNeutral/earth elemental/EglmDFND.wav",
+			"killed": "swNeutral/earth elemental/EglmKILL.wav",
+			"move": "swNeutral/earth elemental/EglmMOVE.wav",
+			"wince": "swNeutral/earth elemental/EglmWNCE.wav"
 		}
 	}
 }

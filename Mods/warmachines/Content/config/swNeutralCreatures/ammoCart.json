@@ -1,10 +1,10 @@
 {
-	"sw08neutralammoCart": {
+	"swNeutralammoCart": {
 		"name": {
 			"plural": "Ammo Carts",
 			"singular": "Ammo Cart"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 0,
 		"cost": {
 			"gold": 1000
@@ -40,11 +40,11 @@
 		},
 		
 		"graphics": {
-			"animation": "sw08neutral-creatures/battle/c148ammo.def",
-			"map": "sw08neutral-creatures/arts/AVA0005.def",
+			"animation": "swNeutralCreatures/battle/c148ammo.def",
+			"map": "swNeutralCreatures/arts/AVA0005.def",
 			
-			"iconSmall": "sw08neutral-creatures/CPRSMALL.def:150",
-			"iconLarge": "sw08neutral-creatures/TwCrPort.def:150",
+			"iconSmall": "swNeutralCreatures/CPRSMALL.def:150",
+			"iconLarge": "swNeutralCreatures/TwCrPort.def:150",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"attack": 1,
@@ -53,8 +53,8 @@
 			}
 		},
 		"sound": {
-			"killed": "sw08neutral/cart/CARTKILL.wav",
-			"wince": "sw08neutral/cart/CARTWNCE.wav"
+			"killed": "swNeutral/cart/CARTKILL.wav",
+			"wince": "swNeutral/cart/CARTWNCE.wav"
 		},
 		"special": true
 	}

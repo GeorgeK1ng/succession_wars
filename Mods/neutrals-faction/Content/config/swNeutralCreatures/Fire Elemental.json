@@ -1,10 +1,10 @@
 {
-	"sw08neutralFireElemental": {
+	"swNeutralFireElemental": {
 		"name": {
 			"singular": "Fire Elemental",
 			"plural": "Fire Elementals"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 3,
 		"cost": {
 			"gold": 500
@@ -39,10 +39,10 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:116",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:116",
-			"map": "sw08neutral-creatures/map/AVWelmf0",
-			"animation": "sw08neutral-creatures/battle/c114efir",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:116",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:116",
+			"map": "swNeutralCreatures/map/AVWelmf0",
+			"animation": "swNeutralCreatures/battle/c114efir",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -64,11 +64,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/fire elemental/FglmATTK.wav",
-			"defend": "sw08neutral/fire elemental/FglmDFND.wav",
-			"killed": "sw08neutral/fire elemental/FglmKILL.wav",
-			"move": "sw08neutral/fire elemental/FglmMOVE.wav",
-			"wince": "sw08neutral/fire elemental/FglmWNCE.wav"
+			"attack": "swNeutral/fire elemental/FglmATTK.wav",
+			"defend": "swNeutral/fire elemental/FglmDFND.wav",
+			"killed": "swNeutral/fire elemental/FglmKILL.wav",
+			"move": "swNeutral/fire elemental/FglmMOVE.wav",
+			"wince": "swNeutral/fire elemental/FglmWNCE.wav"
 		}
 	}
 }

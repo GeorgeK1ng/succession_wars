@@ -1,8 +1,8 @@
 {
 
-	"sw08neutralcatapult":
+	"swNeutralcatapult":
 	{
-	"warMachine": "sw08neutralcatapult",
+	"warMachine": "swNeutralcatapult",
 		"type": ["HERO"],
 		"class": "SPECIAL",
 		"slot": [
@@ -17,14 +17,14 @@
 		
 		"graphics":
 		{
-			"image": "sw08neutral-creatures/arts/artifcur.def:3",
-			"map": "sw08neutral-creatures/arts/AVA0003.def"
+			"image": "swNeutralCreatures/arts/artifcur.def:3",
+			"map": "swNeutralCreatures/arts/AVA0003.def"
 		}
 	},
 
-	"sw08neutralballista":
+	"swNeutralballista":
 	{
-"warMachine": "sw08neutralballista",
+"warMachine": "swNeutralballista",
 		"type": ["HERO"],
 		"class": "SPECIAL",
 		"slot": [
@@ -38,14 +38,14 @@
 		"value": 2500,
 		"graphics":
 		{
-			"image": "sw08neutral-creatures/arts/artifcur.def:4",
-			"map": "sw08neutral-creatures/arts/AVA0004.def"
+			"image": "swNeutralCreatures/arts/artifcur.def:4",
+			"map": "swNeutralCreatures/arts/AVA0004.def"
 		}
 	},
 
-	"sw08neutralammoCart":
+	"swNeutralammoCart":
 	{
-	"warMachine": "sw08neutralammoCart",
+	"warMachine": "swNeutralammoCart",
 		"type": ["HERO"],
 		"class": "SPECIAL",
 		"slot": [
@@ -59,14 +59,14 @@
 		"value": 1000,
 		"graphics":
 		{
-			"image": "sw08neutral-creatures/arts/artifcur.def:5",
-			"map": "sw08neutral-creatures/arts/AVA0005.def"
+			"image": "swNeutralCreatures/arts/artifcur.def:5",
+			"map": "swNeutralCreatures/arts/AVA0005.def"
 		}
 	},
 
-	"sw08neutralfirstAidTent":
+	"swNeutralfirstAidTent":
 	{
-	"warMachine": "sw08neutralfirstAidTent",
+	"warMachine": "swNeutralfirstAidTent",
 		"type": ["HERO"],
 		"class": "SPECIAL",
 		"slot": [
@@ -80,8 +80,8 @@
 		"value": 750,
 		"graphics":
 		{
-			"image": "sw08neutral-creatures/arts/artifcur.def:6",
-			"map": "sw08neutral-creatures/arts/AVA0006.def"
+			"image": "swNeutralCreatures/arts/artifcur.def:6",
+			"map": "swNeutralCreatures/arts/AVA0006.def"
 		}
 	}
 

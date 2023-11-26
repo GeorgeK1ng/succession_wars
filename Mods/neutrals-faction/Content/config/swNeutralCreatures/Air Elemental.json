@@ -1,10 +1,10 @@
 {
-	"sw08neutralAirElemental": {
+	"swNeutralAirElemental": {
 		"name": {
 			"singular": "Air Elemental",
 			"plural": "Air Elementals"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 3,
 		"cost": {
 			"gold": 500
@@ -38,10 +38,10 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:114",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:114",
-			"map": "sw08neutral-creatures/map/AVWelme0",
-			"animation": "sw08neutral-creatures/battle/c112eair",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:114",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:114",
+			"map": "swNeutralCreatures/map/AVWelme0",
+			"animation": "swNeutralCreatures/battle/c112eair",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -50,12 +50,12 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/air elemental/AELMATTK.wav",
-			"defend": "sw08neutral/air elemental/AELMDFND.wav",
-			"killed": "sw08neutral/air elemental/AELMKILL.wav",
-			"move": "sw08neutral/air elemental/AELMMOVE.wav",
-			"wince": "sw08neutral/air elemental/AELMWNCE.wav",
-			"shoot": "sw08neutral/air elemental/AELMSHOT.wav"
+			"attack": "swNeutral/air elemental/AELMATTK.wav",
+			"defend": "swNeutral/air elemental/AELMDFND.wav",
+			"killed": "swNeutral/air elemental/AELMKILL.wav",
+			"move": "swNeutral/air elemental/AELMMOVE.wav",
+			"wince": "swNeutral/air elemental/AELMWNCE.wav",
+			"shoot": "swNeutral/air elemental/AELMSHOT.wav"
 		}
 	}
 }

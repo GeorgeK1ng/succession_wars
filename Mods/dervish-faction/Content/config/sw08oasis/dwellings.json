@@ -169,18 +169,18 @@
 				"name": "Siege Machines Workshop",
 				"creatures": [
 					[
-						"sw08neutralballista"
+						"swNeutralballista"
 					],
 					[
-						"sw08neutralammoCart"
+						"swNeutralammoCart"
 					],
 					[
-						"sw08neutralfirstAidTent"
+						"swNeutralfirstAidTent"
 					]
 				],
 				"templates": {
 					"default": {
-						"animation": "sw08neutral-creatures/map/AVGsieg0",
+						"animation": "swNeutralCreatures/map/AVGsieg0",
 						"mask": [
 							"VVVV",
 							"VBA"
@@ -195,7 +195,7 @@
 						]
 					},
 					"default2": {
-						"animation": "sw08neutral-creatures/map/AVGsieg1",
+						"animation": "swNeutralCreatures/map/AVGsieg1",
 						"mask": [
 							"VVVV",
 							"VBA"

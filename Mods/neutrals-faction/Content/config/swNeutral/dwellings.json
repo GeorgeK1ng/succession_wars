@@ -1,22 +1,22 @@
 {
 	"core:creatureGeneratorCommon": {
 		"types": {
-			"sw08neutralDwellingAir": {
+			"swNeutralDwellingAir": {
 				"name": "Air Altar",
 				"creatures": [
 					[
-						"sw08neutralAirElemental"
+						"swNeutralAirElemental"
 					]
 				],
 				"guards": [
 					{
 						"amount": 24,
-						"type": "sw08neutralAirElemental"
+						"type": "swNeutralAirElemental"
 					}
 				],
 				"templates": {
 					"default": {
-						"animation": "sw08neutral/adventure-map/AVGair0",
+						"animation": "swNeutral/adventure-map/AVGair0",
 						"mask": [
 							"VVVV",
 							"VBAB"
@@ -34,22 +34,22 @@
 					}
 				}
 			},
-			"sw08neutralDwellingEarth": {
+			"swNeutralDwellingEarth": {
 				"name": "Earth Altar",
 				"creatures": [
 					[
-						"sw08neutralEarthElemental"
+						"swNeutralEarthElemental"
 					]
 				],
 				"guards": [
 					{
 						"amount": 24,
-						"type": "sw08neutralEarthElemental"
+						"type": "swNeutralEarthElemental"
 					}
 				],
 				"templates": {
 					"default": {
-						"animation": "sw08neutral/adventure-map/AVGerth0",
+						"animation": "swNeutral/adventure-map/AVGerth0",
 						"mask": [
 							"VVVV",
 							"VBAB"
@@ -67,22 +67,22 @@
 					}
 				}
 			},
-			"sw08neutralDwellingFire": {
+			"swNeutralDwellingFire": {
 				"name": "Fire Altar",
 				"creatures": [
 					[
-						"sw08neutralFireElemental"
+						"swNeutralFireElemental"
 					]
 				],
 				"guards": [
 					{
 						"amount": 24,
-						"type": "sw08neutralFireElemental"
+						"type": "swNeutralFireElemental"
 					}
 				],
 				"templates": {
 					"default": {
-						"animation": "sw08neutral/adventure-map/AVGfire0",
+						"animation": "swNeutral/adventure-map/AVGfire0",
 						"mask": [
 							"VVVV",
 							"VBAB"
@@ -100,22 +100,22 @@
 					}
 				}
 			},
-			"sw08neutralDwellingWater": {
+			"swNeutralDwellingWater": {
 				"name": "Water Altar",
 				"creatures": [
 					[
-						"sw08neutralWaterElemental"
+						"swNeutralWaterElemental"
 					]
 				],
 				"guards": [
 					{
 						"amount": 24,
-						"type": "sw08neutralWaterElemental"
+						"type": "swNeutralWaterElemental"
 					}
 				],
 				"templates": {
 					"default": {
-						"animation": "sw08neutral/adventure-map/AVMsavu0",
+						"animation": "swNeutral/adventure-map/AVMsavu0",
 						"mask": [
 							"VVVV",
 							"VBAB"
@@ -133,22 +133,22 @@
 					}
 				}
 			},
-			"sw08neutralDwellingGhost": {
+			"swNeutralDwellingGhost": {
 				"name": "Crypt",
 				"creatures": [
 					[
-						"sw08neutralGhost"
+						"swNeutralGhost"
 					]
 				],
 				"guards": [
 					{
 						"amount": 24,
-						"type": "sw08neutralGhost"
+						"type": "swNeutralGhost"
 					}
 				],
 				"templates": {
 					"default": {
-						"animation": "sw08neutral/adventure-map/AVGghst0",
+						"animation": "swNeutral/adventure-map/AVGghst0",
 						"mask": [
 							"VVV",
 							"VBA"
@@ -170,7 +170,7 @@
 						]
 					},
 					"default2": {
-						"animation": "sw08neutral/adventure-map/AVGfirb1",
+						"animation": "swNeutral/adventure-map/AVGfirb1",
 						"mask": [
 							"VVV",
 							"VBA"
@@ -193,22 +193,22 @@
 					}
 				}
 			},
-			"sw08neutralDwellingPirate": {
+			"swNeutralDwellingPirate": {
 				"name": "Pirate Fort",
 				"creatures": [
 					[
-						"sw08neutralPirate"
+						"swNeutralPirate"
 					]
 				],
 				"guards": [
 					{
 						"amount": 24,
-						"type": "sw08neutralPirate"
+						"type": "swNeutralPirate"
 					}
 				],
 				"templates": {
 					"default": {
-						"animation": "sw08neutral/adventure-map/AVGhalf",
+						"animation": "swNeutral/adventure-map/AVGhalf",
 						"mask": [
 							"VVV",
 							"VBA"

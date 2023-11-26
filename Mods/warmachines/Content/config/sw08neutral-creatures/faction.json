@@ -1,9 +1,0 @@
-{      "sw08neutral": {          "name": "Neutral",         
- "creatureBackground": {             
- "120px":  "sw08neutral/tpcasneu.bmp",             
- "130px": "sw08neutral/CRBKGNEU.bmp"         
- },          "nativeTerrain": "grass",         
- "boat": "boatFortress",
-"alignment": "neutral"      
- }  
- } 

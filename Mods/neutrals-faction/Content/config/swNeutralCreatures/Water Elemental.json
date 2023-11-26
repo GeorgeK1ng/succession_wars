@@ -1,10 +1,10 @@
 {
-	"sw08neutralWaterElemental": {
+	"swNeutralWaterElemental": {
 		"name": {
 			"singular": "Water Elemental",
 			"plural": "Water Elementals"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 3,
 		"cost": {
 			"gold": 500
@@ -39,10 +39,10 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:117",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:117",
-			"map": "sw08neutral-creatures/map/AVWelmw0",
-			"animation": "sw08neutral-creatures/battle/c115ewat",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:117",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:117",
+			"map": "swNeutralCreatures/map/AVWelmw0",
+			"animation": "swNeutralCreatures/battle/c115ewat",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -64,11 +64,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/water elemental/WglmATTK.wav",
-			"defend": "sw08neutral/water elemental/WglmDFND.wav",
-			"killed": "sw08neutral/water elemental/WglmKILL.wav",
-			"move": "sw08neutral/water elemental/WglmMOVE.wav",
-			"wince": "sw08neutral/water elemental/WglmWNCE.wav"
+			"attack": "swNeutral/water elemental/WglmATTK.wav",
+			"defend": "swNeutral/water elemental/WglmDFND.wav",
+			"killed": "swNeutral/water elemental/WglmKILL.wav",
+			"move": "swNeutral/water elemental/WglmMOVE.wav",
+			"wince": "swNeutral/water elemental/WglmWNCE.wav"
 		}
 	}
 }

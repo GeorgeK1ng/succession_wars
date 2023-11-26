@@ -7,7 +7,7 @@
 				"aiValue": 4000,
 				"templates": {
 					"AVscave0": {
-						"animation": "sw08neutral/adventure-map/banks/cave/AVscave0",
+						"animation": "swNeutral/adventure-map/banks/cave/AVscave0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -22,7 +22,7 @@
 						]
 					},
 					"AVXbnk76": {
-						"animation": "sw08neutral/adventure-map/banks/cave/AVXbnk76",
+						"animation": "swNeutral/adventure-map/banks/cave/AVXbnk76",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -37,7 +37,7 @@
 						]
 					},
 					"AVXbnk78": {
-						"animation": "sw08neutral/adventure-map/banks/cave/AVXbnk78",
+						"animation": "swNeutral/adventure-map/banks/cave/AVXbnk78",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -52,7 +52,7 @@
 						]
 					},
 					"AVXbnk80": {
-						"animation": "sw08neutral/adventure-map/banks/cave/AVXbnk80",
+						"animation": "swNeutral/adventure-map/banks/cave/AVXbnk80",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -77,23 +77,23 @@
 						"guards": [
 							{
 								"amount": 2,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							}
 						],
 						"combat_value": 400,
@@ -109,23 +109,23 @@
 						"guards": [
 							{
 								"amount": 3,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							}
 						],
 						"combat_value": 500,
@@ -141,23 +141,23 @@
 						"guards": [
 							{
 								"amount": 5,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralAirElemental"
+								"type": "swNeutralAirElemental"
 							}
 						],
 						"combat_value": 500,
@@ -173,23 +173,23 @@
 						"guards": [
 							{
 								"amount": 2,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							}
 						],
 						"combat_value": 400,
@@ -205,23 +205,23 @@
 						"guards": [
 							{
 								"amount": 3,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							}
 						],
 						"combat_value": 500,
@@ -237,23 +237,23 @@
 						"guards": [
 							{
 								"amount": 5,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralEarthElemental"
+								"type": "swNeutralEarthElemental"
 							}
 						],
 						"combat_value": 500,
@@ -269,23 +269,23 @@
 						"guards": [
 							{
 								"amount": 2,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							}
 						],
 						"combat_value": 400,
@@ -301,23 +301,23 @@
 						"guards": [
 							{
 								"amount": 3,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							}
 						],
 						"combat_value": 500,
@@ -333,23 +333,23 @@
 						"guards": [
 							{
 								"amount": 5,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralFireElemental"
+								"type": "swNeutralFireElemental"
 							}
 						],
 						"combat_value": 500,
@@ -365,23 +365,23 @@
 						"guards": [
 							{
 								"amount": 2,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							}
 						],
 						"combat_value": 400,
@@ -397,23 +397,23 @@
 						"guards": [
 							{
 								"amount": 3,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							}
 						],
 						"combat_value": 500,
@@ -429,23 +429,23 @@
 						"guards": [
 							{
 								"amount": 5,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralWaterElemental"
+								"type": "swNeutralWaterElemental"
 							}
 						],
 						"combat_value": 500,
@@ -467,7 +467,7 @@
 				"name": "Shipwreck",
 				"templates": {
 					"avawre10": {
-						"animation": "sw08neutral/adventure-map/banks/Shipwreck/AVAdlic0",
+						"animation": "swNeutral/adventure-map/banks/Shipwreck/AVAdlic0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -483,7 +483,7 @@
 						]
 					},
 					"avadlic1": {
-						"animation": "sw08neutral/adventure-map/banks/Shipwreck/avadlic1",
+						"animation": "swNeutral/adventure-map/banks/Shipwreck/avadlic1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -499,7 +499,7 @@
 						]
 					},
 					"avadlic2": {
-						"animation": "sw08neutral/adventure-map/banks/Shipwreck/avadlic2",
+						"animation": "swNeutral/adventure-map/banks/Shipwreck/avadlic2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -525,23 +525,23 @@
 						"guards": [
 							{
 								"amount": 2,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 2,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							}
 						],
 						"combat_value": 400,
@@ -557,23 +557,23 @@
 						"guards": [
 							{
 								"amount": 3,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 3,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							}
 						],
 						"combat_value": 550,
@@ -589,23 +589,23 @@
 						"guards": [
 							{
 								"amount": 5,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 5,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							}
 						],
 						"combat_value": 650,
@@ -621,23 +621,23 @@
 						"guards": [
 							{
 								"amount": 10,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 10,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 10,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 10,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							},
 							{
 								"amount": 10,
-								"type": "sw08neutralGhost"
+								"type": "swNeutralGhost"
 							}
 						],
 						"combat_value": 900,

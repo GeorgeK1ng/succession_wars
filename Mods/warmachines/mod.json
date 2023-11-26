@@ -11,21 +11,21 @@
 	],
 	"factions":
 	[
-		"config/sw08neutral-creatures/faction.json"
+		"config/swNeutralCreatures/faction.json"
 	],
 	"creatures":
 	[
-		"config/sw08neutral-creatures/ammoCart.json",
-		"config/sw08neutral-creatures/ballista.json",
-		"config/sw08neutral-creatures/catapult.json",
-		"config/sw08neutral-creatures/firstAidTent.json"
+		"config/swNeutralCreatures/ammoCart.json",
+		"config/swNeutralCreatures/ballista.json",
+		"config/swNeutralCreatures/catapult.json",
+		"config/swNeutralCreatures/firstAidTent.json"
 	],
 	"objects":
 	[
-		"config/sw08neutral-creatures/dwellings.json"
+		"config/swNeutralCreatures/dwellings.json"
 	],
 	"artifacts":
 	[
-		"config/sw08neutral-arts/artifacts.json"
+		"config/swNeutralArtifacts/artifacts.json"
 	]
 }

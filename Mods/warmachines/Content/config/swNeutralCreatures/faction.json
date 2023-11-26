@@ -1,0 +1,12 @@
+{
+	"swNeutral": {
+		"name": "Neutral",
+		"alignment": "neutral",
+		"nativeTerrain": "grass",
+		"boat": "boatFortress",
+		"creatureBackground": {
+			"120px": "swNeutral/tpcasneu.bmp",
+			"130px": "swNeutral/CRBKGNEU.bmp"
+		}
+	}
+}

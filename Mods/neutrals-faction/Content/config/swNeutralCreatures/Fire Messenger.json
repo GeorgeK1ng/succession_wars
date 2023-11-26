@@ -1,22 +1,22 @@
 {
-	"sw08neutralEarthMessenger": {
+	"swNeutralFireMessenger": {
 		"name": {
-			"singular": "Earth Messenger",
-			"plural": "Earth Messengers"
+			"singular": "Fire Messenger",
+			"plural": "Fire Messengers"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 6,
 		"cost": {
 			"gold": 750
 		},
-		"speed": 4,
-		"hitPoints": 50,
+		"speed": 6,
+		"hitPoints": 40,
 		"shots": 0,
 		"attack": 8,
-		"defense": 8,
+		"defense": 6,
 		"damage": {
-			"min": 2,
-			"max": 5
+			"min": 4,
+			"max": 6
 		},
 		"fightValue": 775,
 		"aiValue": 775,
@@ -34,20 +34,16 @@
 				"type": "NON_LIVING"
 			},
 			"ability3": {
-				"type": "SPELL_SCHOOL_IMMUNITY",
-				"subtype": "spellSchool.earth"
-			},
-			"ability4": {
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"val": 100,
-				"subtype": "spellSchool.earth"
+				"subtype": "spellSchool.fire"
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:115",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:115",
-			"map": "sw08neutral-creatures/map/AVWelme0",
-			"animation": "sw08neutral-creatures/battle/c113eear",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:116",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:116",
+			"map": "swNeutralCreatures/map/AVWelmf0",
+			"animation": "swNeutralCreatures/battle/ZM164GD",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -69,11 +65,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/earth elemental/EglmATTK.wav",
-			"defend": "sw08neutral/earth elemental/EglmDFND.wav",
-			"killed": "sw08neutral/earth elemental/EglmKILL.wav",
-			"move": "sw08neutral/earth elemental/EglmMOVE.wav",
-			"wince": "sw08neutral/earth elemental/EglmWNCE.wav"
+			"attack": "swNeutral/fire elemental/FglmATTK.wav",
+			"defend": "swNeutral/fire elemental/FglmDFND.wav",
+			"killed": "swNeutral/fire elemental/FglmKILL.wav",
+			"move": "swNeutral/fire elemental/FglmMOVE.wav",
+			"wince": "swNeutral/fire elemental/FglmWNCE.wav"
 		}
 	}
 }

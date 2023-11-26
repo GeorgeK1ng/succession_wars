@@ -11,24 +11,24 @@
 	],
 	"factions":
 	[
-		"config/sw08neutral/faction.json"
+		"config/swNeutral/faction.json"
 	],
 	"creatures":
 	[
-		"config/sw08neutral-creatures/Air Elemental.json",
-		"config/sw08neutral-creatures/Air Messenger.json",
-		"config/sw08neutral-creatures/Earth Elemental.json",
-		"config/sw08neutral-creatures/Earth Messenger.json",
-		"config/sw08neutral-creatures/Fire Elemental.json",
-		"config/sw08neutral-creatures/Fire Messenger.json",
-		"config/sw08neutral-creatures/Water Elemental.json",
-		"config/sw08neutral-creatures/Water Messenger.json",
-		"config/sw08neutral-creatures/Pirate.json",
-		"config/sw08neutral-creatures/Ghost.json"
+		"config/swNeutralCreatures/Air Elemental.json",
+		"config/swNeutralCreatures/Air Messenger.json",
+		"config/swNeutralCreatures/Earth Elemental.json",
+		"config/swNeutralCreatures/Earth Messenger.json",
+		"config/swNeutralCreatures/Fire Elemental.json",
+		"config/swNeutralCreatures/Fire Messenger.json",
+		"config/swNeutralCreatures/Water Elemental.json",
+		"config/swNeutralCreatures/Water Messenger.json",
+		"config/swNeutralCreatures/Pirate.json",
+		"config/swNeutralCreatures/Ghost.json"
 	],
 	"objects":
 	[
-		"config/sw08neutral/dwellings.json",
-		"config/sw08neutral/banks.json"
+		"config/swNeutral/dwellings.json",
+		"config/swNeutral/banks.json"
 	]
 }

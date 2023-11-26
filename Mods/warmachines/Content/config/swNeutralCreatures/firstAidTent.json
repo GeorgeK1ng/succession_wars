@@ -1,10 +1,10 @@
 {
-	"sw08neutralfirstAidTent": {
+	"swNeutralfirstAidTent": {
 		"name": {
 			"plural": "First Aid Tents",
 			"singular": "First Aid Tent"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 0,
 		"cost": {
 			"gold": 750
@@ -43,10 +43,10 @@
 		},
 		
 		"graphics": {
-			"animation": "sw08neutral-creatures/battle/c147tent.def",
-			"map": "sw08neutral-creatures/arts/AVA0006",
-			"iconSmall": "sw08neutral-creatures/CPRSMALL.def:149",
-			"iconLarge": "sw08neutral-creatures/TwCrPort.def:149",
+			"animation": "swNeutralCreatures/battle/c147tent.def",
+			"map": "swNeutralCreatures/arts/AVA0006",
+			"iconSmall": "swNeutralCreatures/CPRSMALL.def:149",
+			"iconLarge": "swNeutralCreatures/TwCrPort.def:149",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"attack": 1,
@@ -55,8 +55,8 @@
 			}
 		},
 		"sound": {
-			"killed": "sw08neutral/Tent/FAIDKILL.wav",
-			"wince": "sw08neutral/Tent/FAIDWNCE.wav"
+			"killed": "swNeutral/Tent/FAIDKILL.wav",
+			"wince": "swNeutral/Tent/FAIDWNCE.wav"
 		},
 		"special": true
 	}

@@ -1,10 +1,10 @@
 {
-	"sw08neutralcatapult": {
+	"swNeutralcatapult": {
 		"name": {
 			"plural": "Catapults",
 			"singular": "Catapult"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 0,
 		"cost": {
 			"gold": 1
@@ -40,10 +40,10 @@
 		},
 		
 		"graphics": {
-			"animation": "sw08neutral-creatures/battle/c145cata.def",
-					"map": "sw08neutral-creatures/arts/AVA0003.def",	
-			"iconSmall": "sw08neutral-creatures/CPRSMALL.def:147",
-			"iconLarge": "sw08neutral-creatures/TwCrPort.def:147",
+			"animation": "swNeutralCreatures/battle/c145cata.def",
+					"map": "swNeutralCreatures/arts/AVA0003.def",	
+			"iconSmall": "swNeutralCreatures/CPRSMALL.def:147",
+			"iconLarge": "swNeutralCreatures/TwCrPort.def:147",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"attack": 1,
@@ -51,7 +51,7 @@
 				"idle": 10
 			},
 			"missile": {
-				"projectile": "sw08neutral-creatures/battle/SMCATX.DEF",
+				"projectile": "swNeutralCreatures/battle/SMCATX.DEF",
 				"attackClimaxFrame": 5,
 				"frameAngles": [
 					0,
@@ -78,9 +78,9 @@
 			}
 		},
 		"sound": {
-			"killed": "sw08neutral/catapult/CATAKILL.wav",
-			"shoot": "sw08neutral/catapult/CATASHOT.wav",
-			"wince": "sw08neutral/catapult/CATAWNCE.wav"
+			"killed": "swNeutral/catapult/CATAKILL.wav",
+			"shoot": "swNeutral/catapult/CATASHOT.wav",
+			"wince": "swNeutral/catapult/CATAWNCE.wav"
 		},
 		"special": true
 	}

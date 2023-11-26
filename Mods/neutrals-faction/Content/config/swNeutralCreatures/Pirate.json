@@ -1,10 +1,10 @@
 {
-	"sw08neutralPirate": {
+	"swNeutralPirate": {
 		"name": {
 			"singular": "Pirate",
 			"plural": "Pirates"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 4,
 		"cost": {
 			"gold": 300
@@ -39,10 +39,10 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:140",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:140",
-			"map": "sw08neutral-creatures/map/AVWhalf",
-			"animation": "sw08neutral-creatures/battle/c138pira",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:140",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:140",
+			"map": "swNeutralCreatures/map/AVWhalf",
+			"animation": "swNeutralCreatures/battle/c138pira",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -51,11 +51,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/pirate/HALFATTK.wav",
-			"defend": "sw08neutral/pirate/HALFDFND.wav",
-			"killed": "sw08neutral/pirate/HALFKILL.wav",
-			"move": "sw08neutral/pirate/HALFMOVE.wav",
-			"wince": "sw08neutral/pirate/HALFWNCE.wav"
+			"attack": "swNeutral/pirate/HALFATTK.wav",
+			"defend": "swNeutral/pirate/HALFDFND.wav",
+			"killed": "swNeutral/pirate/HALFKILL.wav",
+			"move": "swNeutral/pirate/HALFMOVE.wav",
+			"wince": "swNeutral/pirate/HALFWNCE.wav"
 		}
 	}
 }

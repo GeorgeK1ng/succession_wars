@@ -1,10 +1,10 @@
 {
-	"sw08neutralWaterMessenger": {
+	"swNeutralWaterMessenger": {
 		"name": {
 			"singular": "Water Messenger",
 			"plural": "Water Messengers"
 		},
-		"faction": "sw08neutral",
+		"faction": "swNeutral",
 		"level": 6,
 		"cost": {
 			"gold": 750
@@ -47,10 +47,10 @@
 			}
 		},
 		"graphics": {
-			"iconSmall": "sw08neutral-creatures/cprsmall.def:117",
-			"iconLarge": "sw08neutral-creatures/TWCRPORT.def:117",
-			"map": "sw08neutral-creatures/map/AVWelmw0",
-			"animation": "sw08neutral-creatures/battle/ZM167GD",
+			"iconSmall": "swNeutralCreatures/cprsmall.def:117",
+			"iconLarge": "swNeutralCreatures/TWCRPORT.def:117",
+			"map": "swNeutralCreatures/map/AVWelmw0",
+			"animation": "swNeutralCreatures/battle/ZM167GD",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
 				"idle": 10,
@@ -59,11 +59,11 @@
 			}
 		},
 		"sound": {
-			"attack": "sw08neutral/water elemental/WGLMATTK.wav",
-			"defend": "sw08neutral/water elemental/WGLMDFND.wav",
-			"killed": "sw08neutral/water elemental/WGLMKILL.wav",
-			"move": "sw08neutral/water elemental/WGLMMOVE.wav",
-			"wince": "sw08neutral/water elemental/WGLMWNCE.wav"
+			"attack": "swNeutral/water elemental/WGLMATTK.wav",
+			"defend": "swNeutral/water elemental/WGLMDFND.wav",
+			"killed": "swNeutral/water elemental/WGLMKILL.wav",
+			"move": "swNeutral/water elemental/WGLMMOVE.wav",
+			"wince": "swNeutral/water elemental/WGLMWNCE.wav"
 		}
 	}
 }
