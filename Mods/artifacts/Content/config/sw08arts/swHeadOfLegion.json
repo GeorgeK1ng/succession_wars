@@ -1,0 +1,25 @@
+{
+	"swHeadOfLegion": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MINOR",
+		"value": 8000,
+		"text": {
+			"name": "Head of Legion",
+			"description": "The Head of Legion increases growth of level 5 creatures by 1. Hero must be present in town at first day of week.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "CREATURE_GROWTH",
+				"subtype": "creatureLevel5",
+				"val": 1,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:122",
+			"map": "sw08arts/AVA0122"
+		}
+	}
+}

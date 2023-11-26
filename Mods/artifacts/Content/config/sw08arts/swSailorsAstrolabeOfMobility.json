@@ -1,0 +1,25 @@
+{
+	"swSailorsAstrolabeOfMobility": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 10000,
+		"text": {
+			"name": "Sailor's Astrolabe of Mobility",
+			"description": "The Sailor's Astrolabe of Mobility increases your movement on sea.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "MOVEMENT",
+				"subtype": "heroMovementSea",
+				"valueType": "ADDITIVE_VALUE",
+				"val": 20
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:71",
+			"map": "sw08arts/AVA0071"
+		}
+	}
+}

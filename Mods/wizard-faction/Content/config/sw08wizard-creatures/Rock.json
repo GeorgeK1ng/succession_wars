@@ -1,0 +1,69 @@
+{
+	"sw08wizardRoc": {
+		"name": {
+			"singular": "Roc",
+			"plural": "Rocs"
+		},
+		"faction": "swsw08wizardfaction",
+		"level": 5,
+		"cost": {
+			"gold": 540
+		},
+		"speed": 8,
+		"hitPoints": 50,
+		"shots": 1,
+		"attack": 7,
+		"defense": 7,
+		"damage": {
+			"min": 6,
+			"max": 9
+		},
+		"fightValue": 553,
+		"aiValue": 598,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"abilities": {
+			"ability2": {
+				"type": "FLYING"
+			}
+		},
+		"graphics": {
+			"iconSmall": "sw08wizard-creatures/cprsmall.def:38",
+			"iconLarge": "sw08wizard-creatures/TWCRPORT.def:38",
+			"map": "sw08wizard-creatures/map/AVWgeni0",
+			"animation": "sw08wizard-creatures/battle/c036roc",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "sw08wizard-creatures/battle/Phalf",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 13
+			}
+		},
+		"sound": {
+			"attack": "sw08wizard/roc/ROCCATTK.wav",
+			"defend": "sw08wizard/roc/ROCCDFND.wav",
+			"killed": "sw08wizard/roc/ROCCKILL.wav",
+			"move": "sw08wizard/roc/ROCCMOVE.wav",
+			"wince": "sw08wizard/roc/ROCCWNCE.wav"
+		}
+	}
+}

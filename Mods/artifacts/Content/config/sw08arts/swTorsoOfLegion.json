@@ -1,0 +1,25 @@
+{
+	"swTorsoOfLegion": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MINOR",
+		"value": 8000,
+		"text": {
+			"name": "Torso of Legion",
+			"description": "The Torso of Legion increases growth of level 3 creatures by 3. Hero must be present in town at first day of week.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "CREATURE_GROWTH",
+				"subtype": "creatureLevel3",
+				"val": 3,
+				"propagator": "VISITED_TOWN_AND_VISITOR"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:119",
+			"map": "sw08arts/AVA0119"
+		}
+	}
+}

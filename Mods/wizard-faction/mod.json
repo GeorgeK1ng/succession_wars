@@ -1,0 +1,68 @@
+{
+	"name": "SW - Wizard town",
+	"description": "Wizard town",
+	"modType": "Town",
+	"author": "author",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
+	[
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
+	],
+	"factions":
+	[
+		"config/sw08wizard/buildings.json",
+		"config/sw08wizard/faction.json",
+		"config/sw08wizard/siege.json",
+		"config/sw08wizard/spells.json",
+		"config/sw08wizard/structures.json",
+		"config/sw08wizard/puzzle.json",
+		"config/sw08wizard/texts.json"
+	],
+	"heroClasses":
+	[
+		"config/sw08wizard-heroClasses/wizard.json"
+	],
+	"heroes":
+	[
+		"config/sw08wizard-heroes/Arina.json",
+		"config/sw08wizard-heroes/Astral.json",
+		"config/sw08wizard-heroes/Brissa.json",
+		"config/sw08wizard-heroes/Dawn.json",
+		"config/sw08wizard-heroes/Flint.json",
+		"config/sw08wizard-heroes/Gurwillin.json",
+		"config/sw08wizard-heroes/Halon.json",
+		"config/sw08wizard-heroes/Kalindra.json",
+		"config/sw08wizard-heroes/Klavis.json",
+		"config/sw08wizard-heroes/Lloyd.json",
+		"config/sw08wizard-heroes/Mandigal.json",
+		"config/sw08wizard-heroes/Myra.json",
+		"config/sw08wizard-heroes/Myrini.json",
+		"config/sw08wizard-heroes/Rendalf.json",
+		"config/sw08wizard-heroes/Sarakin.json",
+		"config/sw08wizard-heroes/Segwen.json",
+		"config/sw08wizard-heroes/Skoran.json",
+		"config/sw08wizard-heroes/Solmyr.json",
+		"config/sw08wizard-heroes/Tolich.json",
+		"config/sw08wizard-heroes/Wilfrey.json"
+	],
+	"creatures":
+	[
+		"config/sw08wizard-creatures/Arch Magi.json",
+		"config/sw08wizard-creatures/Boar.json",
+		"config/sw08wizard-creatures/Giant.json",
+		"config/sw08wizard-creatures/Halfling.json",
+		"config/sw08wizard-creatures/Gnome.json",
+		"config/sw08wizard-creatures/Iron Golem.json",
+		"config/sw08wizard-creatures/Rock.json",
+		"config/sw08wizard-creatures/Steel Golem.json",
+		"config/sw08wizard-creatures/Titan.json",
+		"config/sw08wizard-creatures/Magi.json"
+	],
+	"objects":
+	[
+		"config/sw08wizard/dwellings.json",
+		"config/sw08wizard/banks.json"
+	]
+}

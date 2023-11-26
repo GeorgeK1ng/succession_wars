@@ -1,0 +1,24 @@
+{
+	"swTerribleMask": {
+		"type": [ "HERO" ],
+		"slot": "HEAD",
+		"class": "TREASURE",
+		"value": 3000,
+		"text": {
+			"name": "Terrible Mask",
+			"description": "The Terrible Mask dissallows neutral armies to join.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "WANDERING_CREATURES_JOIN_BONUS",
+				"val": -200,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:54",
+			"map": "sw08arts/AVA0054"
+		}
+	}
+}

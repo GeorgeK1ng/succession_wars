@@ -1,0 +1,24 @@
+{
+	"swEndlessCartOfOre": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MINOR",
+		"value": 5000,
+		"text": {
+			"name": "Endless Cart of Ore",
+			"description": "The Endless Cart of Ore provides 1 unit of ore per day.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.ore",
+				"val": 1
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:112",
+			"map": "sw08arts/AVA0112"
+		}
+	}
+}

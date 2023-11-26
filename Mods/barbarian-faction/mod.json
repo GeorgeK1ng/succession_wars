@@ -1,0 +1,69 @@
+{
+	"name": "SW - Barbarian Town",
+	"description": "Barbarian Town",
+	"modType": "Town",
+	"author": "author",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
+	[
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
+	],
+	"factions":
+	[
+		"config/sw08barbarian/buildings.json",
+		"config/sw08barbarian/faction.json",
+		"config/sw08barbarian/siege.json",
+		"config/sw08barbarian/spells.json",
+		"config/sw08barbarian/structures.json",
+		"config/sw08barbarian/puzzle.json",
+		"config/sw08barbarian/texts.json"
+	],
+	"heroClasses":
+	[
+		"config/sw08barbarian-heroClasses/barbarian.json"
+	],
+	"heroes":
+	[
+		"config/sw08barbarian-heroes/Agafest.json",
+		"config/sw08barbarian-heroes/Antoine.json",
+		"config/sw08barbarian-heroes/Atlas.json",
+		"config/sw08barbarian-heroes/Brun.json",
+		"config/sw08barbarian-heroes/CragHack.json",
+		"config/sw08barbarian-heroes/Ergon.json",
+		"config/sw08barbarian-heroes/Finbros.json",
+		"config/sw08barbarian-heroes/Fineous.json",
+		"config/sw08barbarian-heroes/Ildy.json",
+		"config/sw08barbarian-heroes/Jaclyn.json",
+		"config/sw08barbarian-heroes/Jezebel.json",
+		"config/sw08barbarian-heroes/Jojosh.json",
+		"config/sw08barbarian-heroes/Madrax.json",
+		"config/sw08barbarian-heroes/Moham.json",
+		"config/sw08barbarian-heroes/Sonnie.json",
+		"config/sw08barbarian-heroes/Thornson.json",
+		"config/sw08barbarian-heroes/Thundax.json",
+		"config/sw08barbarian-heroes/Tsabu.json",
+		"config/sw08barbarian-heroes/Wallas.json",
+		"config/sw08barbarian-heroes/Xandor.json",
+		"config/sw08barbarian-heroes/Yog.json"
+	],
+	"creatures":
+	[
+		"config/sw08barbarian-creatures/Cyclop.json",
+		"config/sw08barbarian-creatures/Goblin.json",
+		"config/sw08barbarian-creatures/Harpy.json",
+		"config/sw08barbarian-creatures/Ogre Lord.json",
+		"config/sw08barbarian-creatures/Ogre.json",
+		"config/sw08barbarian-creatures/Orc Chief.json",
+		"config/sw08barbarian-creatures/Orc.json",
+		"config/sw08barbarian-creatures/Troll.json",
+		"config/sw08barbarian-creatures/War Troll.json",
+		"config/sw08barbarian-creatures/Wolf.json"
+	],
+	"objects":
+	[
+		"config/sw08barbarian/banks.json",
+		"config/sw08barbarian/dwellings.json"
+	]
+}

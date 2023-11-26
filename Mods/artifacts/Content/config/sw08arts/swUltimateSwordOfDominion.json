@@ -1,0 +1,24 @@
+{
+	"swUltimateSwordOfDominion": {
+		"type": [ "HERO" ],
+		"slot": "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 30000,
+		"text": {
+			"name": "Ultimate Sword of Dominion",
+			"description": "The Ultimate Sword of Dominion increases your attack skill by 12.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "primarySkill.attack",
+				"val": 12
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:94",
+			"map": "sw08arts/AVA0094"
+		}
+	}
+}

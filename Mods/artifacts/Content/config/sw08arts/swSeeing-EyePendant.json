@@ -1,0 +1,27 @@
+{
+	"swSeeing-EyePendant": {
+		"type": [ "HERO" ],
+		"slot": "NECK",
+		"class": "MAJOR",
+		"value": 5000,
+		"text": {
+			"name": "Seeing-eye Pendant",
+			"description": "The Seeing-eye Pendant makes all your troops inmune to blindness spells.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.blind"
+			},
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.stoneGaze"
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:101",
+			"map": "sw08arts/AVA0101"
+		}
+	}
+}

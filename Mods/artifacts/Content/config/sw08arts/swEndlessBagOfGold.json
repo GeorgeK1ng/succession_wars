@@ -1,0 +1,24 @@
+{
+	"swEndlessBagOfGold": {
+		"type": [ "HERO" ],
+		"slot": "MISC",
+		"class": "MAJOR",
+		"value": 7500,
+		"text": {
+			"name": "Endless Bag of Gold",
+			"description": "The Endless Bag of Gold provides you with 750 gold per day.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype": "resource.gold",
+				"val": 750
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:116",
+			"map": "sw08arts/AVA0116"
+		}
+	}
+}

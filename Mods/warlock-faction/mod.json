@@ -1,0 +1,72 @@
+{
+	"name": "SW - Warlock Town",
+	"description": "Warlock Town",
+	"modType": "Town",
+	"author": "Untitled",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
+	[
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
+	],
+	"factions":
+	[
+		"config/sw08warlock/buildings.json",
+		"config/sw08warlock/faction.json",
+		"config/sw08warlock/siege.json",
+		"config/sw08warlock/spells.json",
+		"config/sw08warlock/structures.json",
+		"config/sw08warlock/puzzle.json",
+		"config/sw08warlock/texts.json"
+	],
+	"creatures":
+	[
+		"config/sw08warlock-creatures/Black Dragon.json",
+		"config/sw08warlock-creatures/Centaur.json",
+		"config/sw08warlock-creatures/Gargoyle.json",
+		"config/sw08warlock-creatures/Green Dragon.json",
+		"config/sw08warlock-creatures/Griffin.json",
+		"config/sw08warlock-creatures/Hydra.json",
+		"config/sw08warlock-creatures/Minotaur King.json",
+		"config/sw08warlock-creatures/Minotaur.json",
+		"config/sw08warlock-creatures/Red Dragon.json",
+		"config/sw08warlock-creatures/Beholder.json"
+	],
+	"heroClasses":
+	[
+		"config/sw08warlock-heroClasses/warlock.json"
+	],
+	"heroes":
+	[
+		"config/sw08warlock-heroes/Adaliya.json",
+		"config/sw08warlock-heroes/Agar.json",
+		"config/sw08warlock-heroes/Alamar.json",
+		"config/sw08warlock-heroes/Amadeys.json",
+		"config/sw08warlock-heroes/Amicus.json",
+		"config/sw08warlock-heroes/Archibald.json",
+		"config/sw08warlock-heroes/Arie.json",
+		"config/sw08warlock-heroes/Barok.json",
+		"config/sw08warlock-heroes/Crodo.json",
+		"config/sw08warlock-heroes/Deliran.json",
+		"config/sw08warlock-heroes/Evilla.json",
+		"config/sw08warlock-heroes/Falagar.json",
+		"config/sw08warlock-heroes/Faljarena.json",
+		"config/sw08warlock-heroes/Gharik.json",
+		"config/sw08warlock-heroes/Kastore.json",
+		"config/sw08warlock-heroes/Mojo.json",
+		"config/sw08warlock-heroes/Quentin.json",
+		"config/sw08warlock-heroes/Sarkosian.json",
+		"config/sw08warlock-heroes/Verchoffin.json",
+		"config/sw08warlock-heroes/Vesper.json",
+		"config/sw08warlock-heroes/Wiggo.json",
+		"config/sw08warlock-heroes/Wrathmont.json",
+		"config/sw08warlock-heroes/Xian.json",
+		"config/sw08warlock-heroes/Zoltan.json"
+	],
+	"objects":
+	[
+		"config/sw08warlock/dwellings.json",
+		"config/sw08warlock/banks.json"
+	]
+}

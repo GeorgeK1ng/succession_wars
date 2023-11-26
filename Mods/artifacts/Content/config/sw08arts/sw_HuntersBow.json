@@ -1,0 +1,25 @@
+{
+	"sw_HuntersBow": {
+		"type": [ "HERO" ],
+		"slot": "RIGHT_HAND",
+		"class": "MAJOR",
+		"value": 4000,
+		"text": {
+			"name": "_Hunter's Bow",
+			"description": "The Hunter's Bow increases your Archery skill by 10%.",
+			"event": "You found something useful."
+		},
+		"bonuses": [
+			{
+				"type": "PERCENTAGE_DAMAGE_BOOST",
+				"subtype": "damageTypeRanged",
+				"valueType": "ADDITIVE_VALUE",
+				"val": 10
+			}
+		],
+		"graphics": {
+			"image": "sw08arts/ARTIFACT.def:61",
+			"map": "sw08arts/AVA0061"
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"name": "SW Beta 0.81 - Gypsy Town",
+	"description": "Gypsy Town",
+	"modType": "Town",
+	"author": "author",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
+	[
+		"succession_wars.warmachines-mod",
+		"succession_wars.terrains-mod"
+	],
+	"factions":
+	[
+		"config/sw08oasis/buildings.json",
+		"config/sw08oasis/faction.json",
+		"config/sw08oasis/siege.json",
+		"config/sw08oasis/spells.json",
+		"config/sw08oasis/structures.json",
+		"config/sw08oasis/puzzle.json",
+		"config/sw08oasis/texts.json"
+	],
+	"creatures":
+	[
+		"config/sw08oasis-creatures/Acolyte.json",
+		"config/sw08oasis-creatures/Anubite.json",
+		"config/sw08oasis-creatures/Genie.json",
+		"config/sw08oasis-creatures/Manticore.json",
+		"config/sw08oasis-creatures/Marauder.json",
+		"config/sw08oasis-creatures/Medusa Queen.json",
+		"config/sw08oasis-creatures/Medusa.json",
+		"config/sw08oasis-creatures/Nomad.json",
+		"config/sw08oasis-creatures/Rogue.json"
+	],
+	"heroClasses":
+	[
+		"config/sw08oasis-heroClasses/dervish.json"
+	],
+	"heroes":
+	[
+		"config/sw08oasis-heroes/Akbar.json",
+		"config/sw08oasis-heroes/Cagan.json",
+		"config/sw08oasis-heroes/Cyrca.json",
+		"config/sw08oasis-heroes/Dahlia.json",
+		"config/sw08oasis-heroes/Draconia.json",
+		"config/sw08oasis-heroes/Elderian.json",
+		"config/sw08oasis-heroes/Ethania.json",
+		"config/sw08oasis-heroes/Hatshesup.json",
+		"config/sw08oasis-heroes/IbnFadlan.json",
+		"config/sw08oasis-heroes/Ivan.json",
+		"config/sw08oasis-heroes/Jarkonas.json",
+		"config/sw08oasis-heroes/Joseph.json",
+		"config/sw08oasis-heroes/Logrim.json",
+		"config/sw08oasis-heroes/Marcus.json",
+		"config/sw08oasis-heroes/Martine.json",
+		"config/sw08oasis-heroes/Sulman.json",
+		"config/sw08oasis-heroes/Thane.json",
+		"config/sw08oasis-heroes/Tumur.json",
+		"config/sw08oasis-heroes/Xerx.json"
+	],
+	"objects":
+	[
+		"config/sw08oasis/dwellings.json",
+		"config/sw08oasis/banks.json",
+		"config/sw08oasis/genieLamp.json"
+	]
+}
