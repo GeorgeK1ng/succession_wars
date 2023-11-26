@@ -51,17 +51,17 @@
 				"attack": 1
 			},
 			"missile": {
-				"projectile": "sw08wizard-creatures/battle/PMAGEX",
+				"projectile": "PROJECTILE_ANIMATION_PLACEHOLDER",
 				"offset": {
-					"upperX": 27,
-					"upperY": -85,
-					"middleX": 37,
-					"middleY": -46,
-					"lowerX": 20,
-					"lowerY": -25
+					"upperX": 36,
+					"upperY": -41,
+					"middleX": 36,
+					"middleY": -41,
+					"lowerX": 36,
+					"lowerY": -41
 				},
 				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
-				"attackClimaxFrame": 5
+				"attackClimaxFrame": 10
 			}
 		},
 		"sound": {

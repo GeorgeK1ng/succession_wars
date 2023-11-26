@@ -45,19 +45,6 @@
 				"idle": 10,
 				"walk": 1,
 				"attack": 1
-			},
-			"missile": {
-				"projectile": "",
-				"offset": {
-					"upperX": 0,
-					"upperY": 0,
-					"middleX": 0,
-					"middleY": 0,
-					"lowerX": 0,
-					"lowerY": 0
-				},
-				"frameAngles": [],
-				"attackClimaxFrame": 0
 			}
 		},
 		"sound": {

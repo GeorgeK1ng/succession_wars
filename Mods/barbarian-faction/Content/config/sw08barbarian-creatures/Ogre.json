@@ -44,7 +44,7 @@
 				"attack": 1
 			},
 			"missile": {
-				"projectile": "sw08barbarian-creatures/battle/PorchX",
+				"projectile": "PROJECTILE_ANIMATION_PLACEHOLDER",
 				"offset": {
 					"upperX": 41,
 					"upperY": -92,
