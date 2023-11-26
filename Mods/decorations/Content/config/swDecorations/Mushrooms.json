@@ -1,40 +1,42 @@
 {
-	"core:kelp": {
+	"core:mushrooms": {
 		"types": {
-			"sw08kelp": {
-				"name": "Kelp",
+			"sw08mushroooms": {
+				"name": "Mushrooms",
 				"rmg": {
-					"zoneLimit": 1,
+					"zoneLimit": 13,
 					"value": 100,
-					"rarity": 50
+					"rarity": 100
 				},
 				"templates": {
-					"AVLklp10": {
-						"animation": "sw08decor/kelp/AVLklp10",
+					"AVLXgr02": {
+						"animation": "swDecorations/mushrooms/AVLXgr02",
 						"visitableFrom": [
 							"---",
 							"+++",
 							"+++"
 						],
 						"mask": [
-							"BBB"
+							"VB"
 						],
 						"allowedTerrains": [
-							"water"
+							"subterra",
+							"swamp"
 						]
 					},
-					"AVLklp20": {
-						"animation": "sw08decor/kelp/AVLklp20",
+					"ZH4Obj02": {
+						"animation": "swDecorations/mushrooms/ZH4Obj02",
 						"visitableFrom": [
 							"---",
 							"+++",
 							"+++"
 						],
 						"mask": [
-							"BB"
+							"VBA"
 						],
 						"allowedTerrains": [
-							"water"
+							"subterra",
+							"swamp"
 						]
 					}
 				}

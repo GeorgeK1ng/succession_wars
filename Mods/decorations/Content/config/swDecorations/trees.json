@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVLbuzr0": {
-						"animation": "sw08decor/tree/AVLbuzr0",
+						"animation": "swDecorations/tree/AVLbuzr0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -25,7 +25,7 @@
 						]
 					},
 					"AVLCT5U0": {
-						"animation": "sw08decor/tree/AVLCT5U0",
+						"animation": "swDecorations/tree/AVLCT5U0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -39,7 +39,7 @@
 						]
 					},
 					"AVLdt3s0": {
-						"animation": "sw08decor/tree/AVLdt3s0",
+						"animation": "swDecorations/tree/AVLdt3s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -55,7 +55,7 @@
 						]
 					},
 					"AvLRG11": {
-						"animation": "sw08decor/tree/AvLRG11",
+						"animation": "swDecorations/tree/AvLRG11",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -69,7 +69,7 @@
 						]
 					},
 					"newAvLRG11": {
-						"animation": "sw08decor/tree/082/AvLRG11",
+						"animation": "swDecorations/tree/082/AvLRG11",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -83,7 +83,7 @@
 						]
 					},
 					"AVLROUG0": {
-						"animation": "sw08decor/tree/AVLROUG0",
+						"animation": "swDecorations/tree/AVLROUG0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -99,7 +99,7 @@
 						]
 					},
 					"AVLROUG1": {
-						"animation": "sw08decor/tree/AVLROUG1",
+						"animation": "swDecorations/tree/AVLROUG1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -116,7 +116,7 @@
 					}
 				},
 				"AVLROUG2": {
-					"animation": "sw08decor/tree/AVLROUG2",
+					"animation": "swDecorations/tree/AVLROUG2",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -132,7 +132,7 @@
 					]
 				},
 				"AVLsh1g0": {
-					"animation": "sw08decor/tree/AVLsh1g0",
+					"animation": "swDecorations/tree/AVLsh1g0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -146,7 +146,7 @@
 					]
 				},
 				"AVLsh1r0": {
-					"animation": "sw08decor/tree/AVLsh1r0",
+					"animation": "swDecorations/tree/AVLsh1r0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -161,7 +161,7 @@
 					]
 				},
 				"AVLsh2g0": {
-					"animation": "sw08decor/tree/AVLsh2g0",
+					"animation": "swDecorations/tree/AVLsh2g0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -175,7 +175,7 @@
 					]
 				},
 				"AVLsh2r0": {
-					"animation": "sw08decor/tree/AVLsh2r0",
+					"animation": "swDecorations/tree/AVLsh2r0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -189,7 +189,7 @@
 					]
 				},
 				"AVLsh3r0": {
-					"animation": "sw08decor/tree/AVLsh3r0",
+					"animation": "swDecorations/tree/AVLsh3r0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -204,7 +204,7 @@
 					]
 				},
 				"AVLsh4r0": {
-					"animation": "sw08decor/tree/AVLsh4r0",
+					"animation": "swDecorations/tree/AVLsh4r0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -219,7 +219,7 @@
 					]
 				},
 				"avlstm4": {
-					"animation": "sw08decor/tree/avlstm4",
+					"animation": "swDecorations/tree/avlstm4",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -234,7 +234,7 @@
 					]
 				},
 				"AVLswt00": {
-					"animation": "sw08decor/tree/AVLswt00",
+					"animation": "swDecorations/tree/AVLswt00",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -250,7 +250,7 @@
 					]
 				},
 				"AVLswt01": {
-					"animation": "sw08decor/tree/AVLswt01",
+					"animation": "swDecorations/tree/AVLswt01",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -266,7 +266,7 @@
 					]
 				},
 				"AVLswt02": {
-					"animation": "sw08decor/tree/AVLswt02",
+					"animation": "swDecorations/tree/AVLswt02",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -282,7 +282,7 @@
 					]
 				},
 				"AVLswt03": {
-					"animation": "sw08decor/tree/AVLswt03",
+					"animation": "swDecorations/tree/AVLswt03",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -298,7 +298,7 @@
 					]
 				},
 				"AVLswt04": {
-					"animation": "sw08decor/tree/AVLswt04",
+					"animation": "swDecorations/tree/AVLswt04",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -314,7 +314,7 @@
 					]
 				},
 				"AVLswt05": {
-					"animation": "sw08decor/tree/AVLswt05",
+					"animation": "swDecorations/tree/AVLswt05",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -330,7 +330,7 @@
 					]
 				},
 				"AVLswt06": {
-					"animation": "sw08decor/tree/AVLswt06",
+					"animation": "swDecorations/tree/AVLswt06",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -346,7 +346,7 @@
 					]
 				},
 				"AVLswt07": {
-					"animation": "sw08decor/tree/AVLswt07",
+					"animation": "swDecorations/tree/AVLswt07",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -362,7 +362,7 @@
 					]
 				},
 				"AVLswt09": {
-					"animation": "sw08decor/tree/AVLswt09",
+					"animation": "swDecorations/tree/AVLswt09",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -377,7 +377,7 @@
 					]
 				},
 				"AVLswt10": {
-					"animation": "sw08decor/tree/AVLswt10",
+					"animation": "swDecorations/tree/AVLswt10",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -391,7 +391,7 @@
 					]
 				},
 				"AVLswt11": {
-					"animation": "sw08decor/tree/AVLswt11",
+					"animation": "swDecorations/tree/AVLswt11",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -406,7 +406,7 @@
 					]
 				},
 				"AVLswt12": {
-					"animation": "sw08decor/tree/AVLswt12",
+					"animation": "swDecorations/tree/AVLswt12",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -422,7 +422,7 @@
 					]
 				},
 				"AVLswt13": {
-					"animation": "sw08decor/tree/AVLswt13",
+					"animation": "swDecorations/tree/AVLswt13",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -438,7 +438,7 @@
 					]
 				},
 				"AVLswt14": {
-					"animation": "sw08decor/tree/AVLswt14",
+					"animation": "swDecorations/tree/AVLswt14",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -454,7 +454,7 @@
 					]
 				},
 				"AVLswt15": {
-					"animation": "sw08decor/tree/AVLswt15",
+					"animation": "swDecorations/tree/AVLswt15",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -469,7 +469,7 @@
 					]
 				},
 				"AVLswt16": {
-					"animation": "sw08decor/tree/AVLswt16",
+					"animation": "swDecorations/tree/AVLswt16",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -484,7 +484,7 @@
 					]
 				},
 				"newAVLswt16": {
-					"animation": "sw08decor/tree/082/AVLswt16",
+					"animation": "swDecorations/tree/082/AVLswt16",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -499,7 +499,7 @@
 					]
 				},
 				"AVLswt17": {
-					"animation": "sw08decor/tree/AVLswt17",
+					"animation": "swDecorations/tree/AVLswt17",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -515,7 +515,7 @@
 					]
 				},
 				"AVLswt18": {
-					"animation": "sw08decor/tree/AVLswt18",
+					"animation": "swDecorations/tree/AVLswt18",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -531,7 +531,7 @@
 					]
 				},
 				"AVLswtr1": {
-					"animation": "sw08decor/tree/AVLswtr1",
+					"animation": "swDecorations/tree/AVLswtr1",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -546,7 +546,7 @@
 					]
 				},
 				"avltr1d0": {
-					"animation": "sw08decor/tree/avltr1d0",
+					"animation": "swDecorations/tree/avltr1d0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -561,7 +561,7 @@
 					]
 				},
 				"avltr6d0": {
-					"animation": "sw08decor/tree/avltr6d0",
+					"animation": "swDecorations/tree/avltr6d0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -576,7 +576,7 @@
 					]
 				},
 				"AVLtRo01": {
-					"animation": "sw08decor/tree/AVLtRo01",
+					"animation": "swDecorations/tree/AVLtRo01",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -592,7 +592,7 @@
 					]
 				},
 				"AVLtRo04": {
-					"animation": "sw08decor/tree/AVLtRo04",
+					"animation": "swDecorations/tree/AVLtRo04",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -608,7 +608,7 @@
 					]
 				},
 				"AVLtRo11": {
-					"animation": "sw08decor/tree/AVLtRo11",
+					"animation": "swDecorations/tree/AVLtRo11",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -623,7 +623,7 @@
 					]
 				},
 				"AVLtRo12": {
-					"animation": "sw08decor/tree/AVLtRo12",
+					"animation": "swDecorations/tree/AVLtRo12",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -637,7 +637,7 @@
 					]
 				},
 				"AVLwlw30": {
-					"animation": "sw08decor/tree/AVLwlw30",
+					"animation": "swDecorations/tree/AVLwlw30",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -652,7 +652,7 @@
 					]
 				},
 				"AVLXds01": {
-					"animation": "sw08decor/tree/AVLXds01",
+					"animation": "swDecorations/tree/AVLXds01",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -667,7 +667,7 @@
 					]
 				},
 				"AVLXds11": {
-					"animation": "sw08decor/tree/AVLXds11",
+					"animation": "swDecorations/tree/AVLXds11",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -682,7 +682,7 @@
 					]
 				},
 				"AVLXds12": {
-					"animation": "sw08decor/tree/AVLXds12",
+					"animation": "swDecorations/tree/AVLXds12",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -696,7 +696,7 @@
 					]
 				},
 				"AVLXgr01": {
-					"animation": "sw08decor/tree/AVLXgr01",
+					"animation": "swDecorations/tree/AVLXgr01",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -711,7 +711,7 @@
 					]
 				},
 				"AVLXgr08": {
-					"animation": "sw08decor/tree/AVLXgr08",
+					"animation": "swDecorations/tree/AVLXgr08",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -726,7 +726,7 @@
 					]
 				},
 				"AVLXgr09": {
-					"animation": "sw08decor/tree/AVLXgr09",
+					"animation": "swDecorations/tree/AVLXgr09",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -741,7 +741,7 @@
 					]
 				},
 				"AVLXgr10": {
-					"animation": "sw08decor/tree/AVLXgr10",
+					"animation": "swDecorations/tree/AVLXgr10",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -756,7 +756,7 @@
 					]
 				},
 				"AVLXgr11": {
-					"animation": "sw08decor/tree/AVLXgr11",
+					"animation": "swDecorations/tree/AVLXgr11",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -771,7 +771,7 @@
 					]
 				},
 				"AVLXgr12": {
-					"animation": "sw08decor/tree/AVLXgr12",
+					"animation": "swDecorations/tree/AVLXgr12",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -786,7 +786,7 @@
 					]
 				},
 				"AVSWdec3": {
-					"animation": "sw08decor/tree/AVSWdec3",
+					"animation": "swDecorations/tree/AVSWdec3",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -801,7 +801,7 @@
 					]
 				},
 				"zdec0002": {
-					"animation": "sw08decor/tree/zdec0002",
+					"animation": "swDecorations/tree/zdec0002",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -816,7 +816,7 @@
 					]
 				},
 				"zdec0003": {
-					"animation": "sw08decor/tree/zdec0003",
+					"animation": "swDecorations/tree/zdec0003",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -831,7 +831,7 @@
 					]
 				},
 				"zdec0004": {
-					"animation": "sw08decor/tree/zdec0004",
+					"animation": "swDecorations/tree/zdec0004",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -846,7 +846,7 @@
 					]
 				},
 				"zdec1004": {
-					"animation": "sw08decor/tree/zdec1004",
+					"animation": "swDecorations/tree/zdec1004",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -861,7 +861,7 @@
 					]
 				},
 				"zdec1101": {
-					"animation": "sw08decor/tree/zdec1101",
+					"animation": "swDecorations/tree/zdec1101",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -875,7 +875,7 @@
 					]
 				},
 				"newAVLROUG0": {
-					"animation": "sw08decor/tree/082/AVLROUG0",
+					"animation": "swDecorations/tree/082/AVLROUG0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -889,7 +889,7 @@
 					]
 				},
 				"newAVLROUG1": {
-					"animation": "sw08decor/tree/082/AVLROUG1",
+					"animation": "swDecorations/tree/082/AVLROUG1",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -903,7 +903,7 @@
 					]
 				},
 				"newAVLROUG2": {
-					"animation": "sw08decor/tree/082/AVLROUG2",
+					"animation": "swDecorations/tree/082/AVLROUG2",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -917,7 +917,7 @@
 					]
 				},
 				"newAVLsh1g0": {
-					"animation": "sw08decor/tree/082/AVLsh1g0",
+					"animation": "swDecorations/tree/082/AVLsh1g0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -931,7 +931,7 @@
 					]
 				},
 				"newAVLsh2g0": {
-					"animation": "sw08decor/tree/082/AVLsh2g0",
+					"animation": "swDecorations/tree/082/AVLsh2g0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -954,7 +954,7 @@
 				},
 				"templates": {
 					"AVLautr0": {
-						"animation": "sw08decor/trees/AVLautr0",
+						"animation": "swDecorations/trees/AVLautr0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -968,7 +968,7 @@
 						]
 					},
 					"AVLautr1": {
-						"animation": "sw08decor/trees/AVLautr1",
+						"animation": "swDecorations/trees/AVLautr1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -982,7 +982,7 @@
 						]
 					},
 					"AVLautr2": {
-						"animation": "sw08decor/trees/AVLautr2",
+						"animation": "swDecorations/trees/AVLautr2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -997,7 +997,7 @@
 						]
 					},
 					"AVLautr3": {
-						"animation": "sw08decor/trees/AVLautr3",
+						"animation": "swDecorations/trees/AVLautr3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1012,7 +1012,7 @@
 						]
 					},
 					"AVLautr4": {
-						"animation": "sw08decor/trees/AVLautr4",
+						"animation": "swDecorations/trees/AVLautr4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1027,7 +1027,7 @@
 						]
 					},
 					"AVLautr5": {
-						"animation": "sw08decor/trees/AVLautr5",
+						"animation": "swDecorations/trees/AVLautr5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1042,7 +1042,7 @@
 						]
 					},
 					"AVLautr6": {
-						"animation": "sw08decor/trees/AVLautr6",
+						"animation": "swDecorations/trees/AVLautr6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1058,7 +1058,7 @@
 						]
 					},
 					"AVLautr7": {
-						"animation": "sw08decor/trees/AVLautr7",
+						"animation": "swDecorations/trees/AVLautr7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1074,7 +1074,7 @@
 						]
 					},
 					"AVLd1sn0": {
-						"animation": "sw08decor/trees/AVLd1sn0",
+						"animation": "swDecorations/trees/AVLd1sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1089,7 +1089,7 @@
 						]
 					},
 					"AVLd2sn0": {
-						"animation": "sw08decor/trees/AVLd2sn0",
+						"animation": "swDecorations/trees/AVLd2sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1104,7 +1104,7 @@
 						]
 					},
 					"AVLd3sn0": {
-						"animation": "sw08decor/trees/AVLd3sn0",
+						"animation": "swDecorations/trees/AVLd3sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1119,7 +1119,7 @@
 						]
 					},
 					"AVLd4sn0": {
-						"animation": "sw08decor/trees/AVLd4sn0",
+						"animation": "swDecorations/trees/AVLd4sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1134,7 +1134,7 @@
 						]
 					},
 					"AVLd5sn0": {
-						"animation": "sw08decor/trees/AVLd5sn0",
+						"animation": "swDecorations/trees/AVLd5sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1149,7 +1149,7 @@
 						]
 					},
 					"AVLd6sn0": {
-						"animation": "sw08decor/trees/AVLd6sn0",
+						"animation": "swDecorations/trees/AVLd6sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1164,7 +1164,7 @@
 						]
 					},
 					"AVLd7sn0": {
-						"animation": "sw08decor/trees/AVLd7sn0",
+						"animation": "swDecorations/trees/AVLd7sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1179,7 +1179,7 @@
 						]
 					},
 					"AVLd8sn0": {
-						"animation": "sw08decor/trees/AVLd8sn0",
+						"animation": "swDecorations/trees/AVLd8sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1194,7 +1194,7 @@
 						]
 					},
 					"AVLd9sn0": {
-						"animation": "sw08decor/trees/AVLd9sn0",
+						"animation": "swDecorations/trees/AVLd9sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1209,7 +1209,7 @@
 						]
 					},
 					"AVLDDSN0": {
-						"animation": "sw08decor/trees/AVLDDSN0",
+						"animation": "swDecorations/trees/AVLDDSN0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1224,7 +1224,7 @@
 						]
 					},
 					"AVLDDSN1": {
-						"animation": "sw08decor/trees/AVLDDSN1",
+						"animation": "swDecorations/trees/AVLDDSN1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1239,7 +1239,7 @@
 						]
 					},
 					"AVLDDSN2": {
-						"animation": "sw08decor/trees/AVLDDSN2",
+						"animation": "swDecorations/trees/AVLDDSN2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1255,7 +1255,7 @@
 						]
 					},
 					"AVLDDSN3": {
-						"animation": "sw08decor/trees/AVLDDSN3",
+						"animation": "swDecorations/trees/AVLDDSN3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1271,7 +1271,7 @@
 						]
 					},
 					"AVLDDSN4": {
-						"animation": "sw08decor/trees/AVLDDSN4",
+						"animation": "swDecorations/trees/AVLDDSN4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1287,7 +1287,7 @@
 						]
 					},
 					"AVLDDSN5": {
-						"animation": "sw08decor/trees/AVLDDSN5",
+						"animation": "swDecorations/trees/AVLDDSN5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1303,7 +1303,7 @@
 						]
 					},
 					"AVLDDSN6": {
-						"animation": "sw08decor/trees/AVLDDSN6",
+						"animation": "swDecorations/trees/AVLDDSN6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1320,7 +1320,7 @@
 						]
 					},
 					"AVLDDSN7": {
-						"animation": "sw08decor/trees/AVLDDSN7",
+						"animation": "swDecorations/trees/AVLDDSN7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1337,7 +1337,7 @@
 						]
 					},
 					"AVLDEAD0": {
-						"animation": "sw08decor/trees/AVLDEAD0",
+						"animation": "swDecorations/trees/AVLDEAD0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1353,7 +1353,7 @@
 						]
 					},
 					"AVLDEAD1": {
-						"animation": "sw08decor/trees/AVLDEAD1",
+						"animation": "swDecorations/trees/AVLDEAD1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1369,7 +1369,7 @@
 						]
 					},
 					"AVLDEAD2": {
-						"animation": "sw08decor/trees/AVLDEAD2",
+						"animation": "swDecorations/trees/AVLDEAD2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1385,7 +1385,7 @@
 						]
 					},
 					"AVLDEAD3": {
-						"animation": "sw08decor/trees/AVLDEAD3",
+						"animation": "swDecorations/trees/AVLDEAD3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1401,7 +1401,7 @@
 						]
 					},
 					"AVLDEAD4": {
-						"animation": "sw08decor/trees/AVLDEAD4",
+						"animation": "swDecorations/trees/AVLDEAD4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1418,7 +1418,7 @@
 						]
 					},
 					"AVLDEAD5": {
-						"animation": "sw08decor/trees/AVLDEAD5",
+						"animation": "swDecorations/trees/AVLDEAD5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1435,7 +1435,7 @@
 						]
 					},
 					"AVLDEAD6": {
-						"animation": "sw08decor/trees/AVLDEAD6",
+						"animation": "swDecorations/trees/AVLDEAD6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1453,7 +1453,7 @@
 						]
 					},
 					"AVLDEAD7": {
-						"animation": "sw08decor/trees/AVLDEAD7",
+						"animation": "swDecorations/trees/AVLDEAD7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1471,7 +1471,7 @@
 						]
 					},
 					"AVLDEAD8": {
-						"animation": "sw08decor/trees/AVLDEAD8",
+						"animation": "swDecorations/trees/AVLDEAD8",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1486,7 +1486,7 @@
 						]
 					},
 					"AVLDEAD9": {
-						"animation": "sw08decor/trees/AVLDEAD9",
+						"animation": "swDecorations/trees/AVLDEAD9",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1501,7 +1501,7 @@
 						]
 					},
 					"AVLdt1s0": {
-						"animation": "sw08decor/trees/AVLdt1s0",
+						"animation": "swDecorations/trees/AVLdt1s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1517,7 +1517,7 @@
 						]
 					},
 					"AVLdt2s0": {
-						"animation": "sw08decor/trees/AVLdt2s0",
+						"animation": "swDecorations/trees/AVLdt2s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1533,7 +1533,7 @@
 						]
 					},
 					"AVlpl100": {
-						"animation": "sw08decor/trees/AVlpl100",
+						"animation": "swDecorations/trees/AVlpl100",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1550,7 +1550,7 @@
 						]
 					},
 					"AVlpl110": {
-						"animation": "sw08decor/trees/AVlpl110",
+						"animation": "swDecorations/trees/AVlpl110",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1567,7 +1567,7 @@
 						]
 					},
 					"AVLplm10": {
-						"animation": "sw08decor/trees/AVLplm10",
+						"animation": "swDecorations/trees/AVLplm10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1583,7 +1583,7 @@
 						]
 					},
 					"AVLplm20": {
-						"animation": "sw08decor/trees/AVLplm20",
+						"animation": "swDecorations/trees/AVLplm20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1599,7 +1599,7 @@
 						]
 					},
 					"AVLplm30": {
-						"animation": "sw08decor/trees/AVLplm30",
+						"animation": "swDecorations/trees/AVLplm30",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1615,7 +1615,7 @@
 						]
 					},
 					"AVLplm40": {
-						"animation": "sw08decor/trees/AVLplm40",
+						"animation": "swDecorations/trees/AVLplm40",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1630,7 +1630,7 @@
 						]
 					},
 					"AVLplm50": {
-						"animation": "sw08decor/trees/AVLplm50",
+						"animation": "swDecorations/trees/AVLplm50",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1646,7 +1646,7 @@
 						]
 					},
 					"AVLplm60": {
-						"animation": "sw08decor/trees/AVLplm60",
+						"animation": "swDecorations/trees/AVLplm60",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1662,7 +1662,7 @@
 						]
 					},
 					"AVLplm70": {
-						"animation": "sw08decor/trees/AVLplm70",
+						"animation": "swDecorations/trees/AVLplm70",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1678,7 +1678,7 @@
 						]
 					},
 					"AVLplm80": {
-						"animation": "sw08decor/trees/AVLplm80",
+						"animation": "swDecorations/trees/AVLplm80",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1695,7 +1695,7 @@
 						]
 					},
 					"AVLplm90": {
-						"animation": "sw08decor/trees/AVLplm90",
+						"animation": "swDecorations/trees/AVLplm90",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1711,7 +1711,7 @@
 						]
 					},
 					"AVLpntr0": {
-						"animation": "sw08decor/trees/AVLpntr0",
+						"animation": "swDecorations/trees/AVLpntr0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1725,7 +1725,7 @@
 						]
 					},
 					"AVLpntr1": {
-						"animation": "sw08decor/trees/AVLpntr1",
+						"animation": "swDecorations/trees/AVLpntr1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1739,7 +1739,7 @@
 						]
 					},
 					"AVLpntr2": {
-						"animation": "sw08decor/trees/AVLpntr2",
+						"animation": "swDecorations/trees/AVLpntr2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1754,7 +1754,7 @@
 						]
 					},
 					"AVLpntr3": {
-						"animation": "sw08decor/trees/AVLpntr3",
+						"animation": "swDecorations/trees/AVLpntr3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1769,7 +1769,7 @@
 						]
 					},
 					"AVLpntr4": {
-						"animation": "sw08decor/trees/AVLpntr4",
+						"animation": "swDecorations/trees/AVLpntr4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1784,7 +1784,7 @@
 						]
 					},
 					"AVLpntr5": {
-						"animation": "sw08decor/trees/AVLpntr5",
+						"animation": "swDecorations/trees/AVLpntr5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1799,7 +1799,7 @@
 						]
 					},
 					"AVLpntr6": {
-						"animation": "sw08decor/trees/AVLpntr6",
+						"animation": "swDecorations/trees/AVLpntr6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1815,7 +1815,7 @@
 						]
 					},
 					"AVLpntr7": {
-						"animation": "sw08decor/trees/AVLpntr7",
+						"animation": "swDecorations/trees/AVLpntr7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1831,7 +1831,7 @@
 						]
 					},
 					"avlsntr0": {
-						"animation": "sw08decor/trees/avlsntr0",
+						"animation": "swDecorations/trees/avlsntr0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1845,7 +1845,7 @@
 						]
 					},
 					"avlsntr1": {
-						"animation": "sw08decor/trees/avlsntr1",
+						"animation": "swDecorations/trees/avlsntr1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1859,7 +1859,7 @@
 						]
 					},
 					"avlsntr2": {
-						"animation": "sw08decor/trees/avlsntr2",
+						"animation": "swDecorations/trees/avlsntr2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1874,7 +1874,7 @@
 						]
 					},
 					"avlsntr3": {
-						"animation": "sw08decor/trees/avlsntr3",
+						"animation": "swDecorations/trees/avlsntr3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1889,7 +1889,7 @@
 						]
 					},
 					"avlsntr4": {
-						"animation": "sw08decor/trees/avlsntr4",
+						"animation": "swDecorations/trees/avlsntr4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1904,7 +1904,7 @@
 						]
 					},
 					"avlsntr5": {
-						"animation": "sw08decor/trees/avlsntr5",
+						"animation": "swDecorations/trees/avlsntr5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1919,7 +1919,7 @@
 						]
 					},
 					"avlsntr6": {
-						"animation": "sw08decor/trees/avlsntr6",
+						"animation": "swDecorations/trees/avlsntr6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1935,7 +1935,7 @@
 						]
 					},
 					"avlsntr7": {
-						"animation": "sw08decor/trees/avlsntr7",
+						"animation": "swDecorations/trees/avlsntr7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1951,7 +1951,7 @@
 						]
 					},
 					"AVLSPTR0": {
-						"animation": "sw08decor/trees/AVLSPTR0",
+						"animation": "swDecorations/trees/AVLSPTR0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1965,7 +1965,7 @@
 						]
 					},
 					"newAVLxgr13": {
-						"animation": "sw08decor/trees/082/AVLxgr13",
+						"animation": "swDecorations/trees/082/AVLxgr13",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1981,7 +1981,7 @@
 						]
 					},
 					"newAVLSPTR0": {
-						"animation": "sw08decor/trees/082/AVLSPTR0",
+						"animation": "swDecorations/trees/082/AVLSPTR0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1995,7 +1995,7 @@
 						]
 					},
 					"AVLSPTR1": {
-						"animation": "sw08decor/trees/AVLSPTR1",
+						"animation": "swDecorations/trees/AVLSPTR1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2009,7 +2009,7 @@
 						]
 					},
 					"AVLSPTR2": {
-						"animation": "sw08decor/trees/AVLSPTR2",
+						"animation": "swDecorations/trees/AVLSPTR2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2024,7 +2024,7 @@
 						]
 					},
 					"AVLSPTR3": {
-						"animation": "sw08decor/trees/AVLSPTR3",
+						"animation": "swDecorations/trees/AVLSPTR3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2039,7 +2039,7 @@
 						]
 					},
 					"AVLSPTR4": {
-						"animation": "sw08decor/trees/AVLSPTR4",
+						"animation": "swDecorations/trees/AVLSPTR4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2054,7 +2054,7 @@
 						]
 					},
 					"AVLSPTR5": {
-						"animation": "sw08decor/trees/AVLSPTR5",
+						"animation": "swDecorations/trees/AVLSPTR5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2069,7 +2069,7 @@
 						]
 					},
 					"AVLSPTR6": {
-						"animation": "sw08decor/trees/AVLSPTR6",
+						"animation": "swDecorations/trees/AVLSPTR6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2084,7 +2084,7 @@
 						]
 					},
 					"AVLSPTR7": {
-						"animation": "sw08decor/trees/AVLSPTR7",
+						"animation": "swDecorations/trees/AVLSPTR7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2100,7 +2100,7 @@
 						]
 					},
 					"AVLSPTR8": {
-						"animation": "sw08decor/trees/AVLSPTR8",
+						"animation": "swDecorations/trees/AVLSPTR8",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2116,7 +2116,7 @@
 						]
 					},
 					"AVLswmp0": {
-						"animation": "sw08decor/trees/AVLswmp0",
+						"animation": "swDecorations/trees/AVLswmp0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2131,7 +2131,7 @@
 						]
 					},
 					"AVLswmp1": {
-						"animation": "sw08decor/trees/AVLswmp1",
+						"animation": "swDecorations/trees/AVLswmp1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2146,7 +2146,7 @@
 						]
 					},
 					"AVLswmp2": {
-						"animation": "sw08decor/trees/AVLswmp2",
+						"animation": "swDecorations/trees/AVLswmp2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2162,7 +2162,7 @@
 						]
 					},
 					"AVLswmp3": {
-						"animation": "sw08decor/trees/AVLswmp3",
+						"animation": "swDecorations/trees/AVLswmp3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2178,7 +2178,7 @@
 						]
 					},
 					"AVLswmp4": {
-						"animation": "sw08decor/trees/AVLswmp4",
+						"animation": "swDecorations/trees/AVLswmp4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2194,7 +2194,7 @@
 						]
 					},
 					"AVLswmp5": {
-						"animation": "sw08decor/trees/AVLswmp5",
+						"animation": "swDecorations/trees/AVLswmp5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2210,7 +2210,7 @@
 						]
 					},
 					"AVLswmp6": {
-						"animation": "sw08decor/trees/AVLswmp6",
+						"animation": "swDecorations/trees/AVLswmp6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2227,7 +2227,7 @@
 						]
 					},
 					"AVLswmp7": {
-						"animation": "sw08decor/trees/AVLswmp7",
+						"animation": "swDecorations/trees/AVLswmp7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2244,7 +2244,7 @@
 						]
 					},
 					"AVLswt08": {
-						"animation": "sw08decor/trees/AVLswt08",
+						"animation": "swDecorations/trees/AVLswt08",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2260,7 +2260,7 @@
 						]
 					},
 					"AVLswt19": {
-						"animation": "sw08decor/trees/AVLswt19",
+						"animation": "swDecorations/trees/AVLswt19",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2276,7 +2276,7 @@
 						]
 					},
 					"AVLSWTR0": {
-						"animation": "sw08decor/trees/AVLSWTR0",
+						"animation": "swDecorations/trees/AVLSWTR0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2291,7 +2291,7 @@
 						]
 					},
 					"AVLSWTR2": {
-						"animation": "sw08decor/trees/AVLSWTR2",
+						"animation": "swDecorations/trees/AVLSWTR2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2307,7 +2307,7 @@
 						]
 					},
 					"AVLSWTR3": {
-						"animation": "sw08decor/trees/AVLSWTR3",
+						"animation": "swDecorations/trees/AVLSWTR3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2323,7 +2323,7 @@
 						]
 					},
 					"AVLSWTR4": {
-						"animation": "sw08decor/trees/AVLSWTR4",
+						"animation": "swDecorations/trees/AVLSWTR4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2339,7 +2339,7 @@
 						]
 					},
 					"AVLSWTR5": {
-						"animation": "sw08decor/trees/AVLSWTR5",
+						"animation": "swDecorations/trees/AVLSWTR5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2355,7 +2355,7 @@
 						]
 					},
 					"AVLSWTR6": {
-						"animation": "sw08decor/trees/AVLSWTR6",
+						"animation": "swDecorations/trees/AVLSWTR6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2372,7 +2372,7 @@
 						]
 					},
 					"AVLSWTR7": {
-						"animation": "sw08decor/trees/AVLSWTR7",
+						"animation": "swDecorations/trees/AVLSWTR7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2389,7 +2389,7 @@
 						]
 					},
 					"AVLSWTR8": {
-						"animation": "sw08decor/trees/AVLSWTR8",
+						"animation": "swDecorations/trees/AVLSWTR8",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2405,7 +2405,7 @@
 						]
 					},
 					"AVLSWTR9": {
-						"animation": "sw08decor/trees/AVLSWTR9",
+						"animation": "swDecorations/trees/AVLSWTR9",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2422,7 +2422,7 @@
 						]
 					},
 					"avltr2d0": {
-						"animation": "sw08decor/trees/avltr2d0",
+						"animation": "swDecorations/trees/avltr2d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2437,7 +2437,7 @@
 						]
 					},
 					"avltr3d0": {
-						"animation": "sw08decor/trees/avltr3d0",
+						"animation": "swDecorations/trees/avltr3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2452,7 +2452,7 @@
 						]
 					},
 					"avltr4d0": {
-						"animation": "sw08decor/trees/avltr4d0",
+						"animation": "swDecorations/trees/avltr4d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2467,7 +2467,7 @@
 						]
 					},
 					"avltr5d0": {
-						"animation": "sw08decor/trees/avltr5d0",
+						"animation": "swDecorations/trees/avltr5d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2482,7 +2482,7 @@
 						]
 					},
 					"AVLtRo00": {
-						"animation": "sw08decor/trees/AVLtRo00",
+						"animation": "swDecorations/trees/AVLtRo00",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2498,7 +2498,7 @@
 						]
 					},
 					"AVLtRo02": {
-						"animation": "sw08decor/trees/AVLtRo02",
+						"animation": "swDecorations/trees/AVLtRo02",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2514,7 +2514,7 @@
 						]
 					},
 					"AVLtRo03": {
-						"animation": "sw08decor/trees/AVLtRo03",
+						"animation": "swDecorations/trees/AVLtRo03",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2529,7 +2529,7 @@
 						]
 					},
 					"AVLtRo05": {
-						"animation": "sw08decor/trees/AVLtRo05",
+						"animation": "swDecorations/trees/AVLtRo05",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2545,7 +2545,7 @@
 						]
 					},
 					"AVLtRo06": {
-						"animation": "sw08decor/trees/AVLtRo06",
+						"animation": "swDecorations/trees/AVLtRo06",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2561,7 +2561,7 @@
 						]
 					},
 					"AVLtRo07": {
-						"animation": "sw08decor/trees/AVLtRo07",
+						"animation": "swDecorations/trees/AVLtRo07",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2578,7 +2578,7 @@
 						]
 					},
 					"AVLtRo08": {
-						"animation": "sw08decor/trees/AVLtRo08",
+						"animation": "swDecorations/trees/AVLtRo08",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2594,7 +2594,7 @@
 						]
 					},
 					"AVLtRo09": {
-						"animation": "sw08decor/trees/AVLtRo09",
+						"animation": "swDecorations/trees/AVLtRo09",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2611,7 +2611,7 @@
 						]
 					},
 					"AVLtRo10": {
-						"animation": "sw08decor/trees/AVLtRo10",
+						"animation": "swDecorations/trees/AVLtRo10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2628,7 +2628,7 @@
 						]
 					},
 					"AVLtrRo0": {
-						"animation": "sw08decor/trees/AVLtrRo0",
+						"animation": "swDecorations/trees/AVLtrRo0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2645,7 +2645,7 @@
 						]
 					},
 					"AVLTRRO1": {
-						"animation": "sw08decor/trees/AVLTRRO1",
+						"animation": "swDecorations/trees/AVLTRRO1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2662,7 +2662,7 @@
 						]
 					},
 					"AVLTRRO2": {
-						"animation": "sw08decor/trees/AVLTRRO2",
+						"animation": "swDecorations/trees/AVLTRRO2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2679,7 +2679,7 @@
 						]
 					},
 					"AVLWLW10": {
-						"animation": "sw08decor/trees/AVLWLW10",
+						"animation": "swDecorations/trees/AVLWLW10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2694,7 +2694,7 @@
 						]
 					},
 					"AVLWLW20": {
-						"animation": "sw08decor/trees/AVLWLW20",
+						"animation": "swDecorations/trees/AVLWLW20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2709,7 +2709,7 @@
 						]
 					},
 					"AVLXds02": {
-						"animation": "sw08decor/trees/AVLXds02",
+						"animation": "swDecorations/trees/AVLXds02",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2725,7 +2725,7 @@
 						]
 					},
 					"AVLxgr04": {
-						"animation": "sw08decor/trees/AVLxgr04",
+						"animation": "swDecorations/trees/AVLxgr04",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2740,7 +2740,7 @@
 						]
 					},
 					"AVLxgr05": {
-						"animation": "sw08decor/trees/AVLxgr05",
+						"animation": "swDecorations/trees/AVLxgr05",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2755,7 +2755,7 @@
 						]
 					},
 					"AVLxgr06": {
-						"animation": "sw08decor/trees/AVLxgr06",
+						"animation": "swDecorations/trees/AVLxgr06",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2771,7 +2771,7 @@
 						]
 					},
 					"AVLxgr07": {
-						"animation": "sw08decor/trees/AVLxgr07",
+						"animation": "swDecorations/trees/AVLxgr07",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2787,7 +2787,7 @@
 						]
 					},
 					"AVpl100": {
-						"animation": "sw08decor/trees/AVpl100",
+						"animation": "swDecorations/trees/AVpl100",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2803,7 +2803,7 @@
 						]
 					},
 					"Zdec1104": {
-						"animation": "sw08decor/trees/Zdec1104",
+						"animation": "swDecorations/trees/Zdec1104",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -2817,7 +2817,7 @@
 						]
 					},
 					"newAVLd5sn01": {
-						"animation": "sw08decor/trees/AVLd5sn01",
+						"animation": "swDecorations/trees/AVLd5sn01",
 						"visitableFrom": [
 							"---",
 							"+++",

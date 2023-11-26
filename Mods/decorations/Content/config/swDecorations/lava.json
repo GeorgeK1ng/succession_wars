@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVLlau10": {
-						"animation": "sw08decor/lava/AVLlau10",
+						"animation": "swDecorations/lava/AVLlau10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -25,7 +25,7 @@
 						]
 					},
 					"AVLlau100": {
-						"animation": "sw08decor/lava/AVLlau100",
+						"animation": "swDecorations/lava/AVLlau100",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -39,7 +39,7 @@
 						]
 					},
 					"AVLlau110": {
-						"animation": "sw08decor/lava/AVLlau110",
+						"animation": "swDecorations/lava/AVLlau110",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -54,7 +54,7 @@
 						]
 					},
 					"AVLlau120": {
-						"animation": "sw08decor/lava/AVLlau120",
+						"animation": "swDecorations/lava/AVLlau120",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -68,7 +68,7 @@
 						]
 					},
 					"AVLlau20": {
-						"animation": "sw08decor/lava/AVLlau20",
+						"animation": "swDecorations/lava/AVLlau20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -83,7 +83,7 @@
 						]
 					},
 					"AVLlau30": {
-						"animation": "sw08decor/lava/AVLlau30",
+						"animation": "swDecorations/lava/AVLlau30",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -98,7 +98,7 @@
 						]
 					},
 					"AVLlau40": {
-						"animation": "sw08decor/lava/AVLlau40",
+						"animation": "swDecorations/lava/AVLlau40",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -113,7 +113,7 @@
 						]
 					},
 					"AVLlau50": {
-						"animation": "sw08decor/lava/AVLlau50",
+						"animation": "swDecorations/lava/AVLlau50",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -128,7 +128,7 @@
 						]
 					},
 					"AVLlau60": {
-						"animation": "sw08decor/lava/AVLlau60",
+						"animation": "swDecorations/lava/AVLlau60",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -143,7 +143,7 @@
 						]
 					},
 					"AVLlau70": {
-						"animation": "sw08decor/lava/AVLlau70",
+						"animation": "swDecorations/lava/AVLlau70",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -158,7 +158,7 @@
 						]
 					},
 					"AVLlau80": {
-						"animation": "sw08decor/lava/AVLlau80",
+						"animation": "swDecorations/lava/AVLlau80",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -173,7 +173,7 @@
 						]
 					},
 					"AVLlau90": {
-						"animation": "sw08decor/lava/AVLlau90",
+						"animation": "swDecorations/lava/AVLlau90",
 						"visitableFrom": [
 							"---",
 							"+++",

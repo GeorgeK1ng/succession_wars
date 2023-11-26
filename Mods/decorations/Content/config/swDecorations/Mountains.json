@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVLMTDR1": {
-						"animation": "sw08decor/mountains/AVLMTDR1",
+						"animation": "swDecorations/mountains/AVLMTDR1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -27,7 +27,7 @@
 						]
 					},
 					"AVLMTDR2": {
-						"animation": "sw08decor/mountains/AVLMTDR2",
+						"animation": "swDecorations/mountains/AVLMTDR2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -44,7 +44,7 @@
 						]
 					},
 					"AVLMTDR3": {
-						"animation": "sw08decor/mountains/AVLMTDR3",
+						"animation": "swDecorations/mountains/AVLMTDR3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -60,7 +60,7 @@
 						]
 					},
 					"AVLMTDR4": {
-						"animation": "sw08decor/mountains/AVLMTDR4",
+						"animation": "swDecorations/mountains/AVLMTDR4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -76,7 +76,7 @@
 						]
 					},
 					"AVLMTDR5": {
-						"animation": "sw08decor/mountains/AVLMTDR5",
+						"animation": "swDecorations/mountains/AVLMTDR5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -91,7 +91,7 @@
 						]
 					},
 					"AVLMTDR6": {
-						"animation": "sw08decor/mountains/AVLMTDR6",
+						"animation": "swDecorations/mountains/AVLMTDR6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -106,7 +106,7 @@
 						]
 					},
 					"AVLMTDR7": {
-						"animation": "sw08decor/mountains/AVLMTDR7",
+						"animation": "swDecorations/mountains/AVLMTDR7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -122,7 +122,7 @@
 						]
 					},
 					"AVLMTDR8": {
-						"animation": "sw08decor/mountains/AVLMTDR8",
+						"animation": "swDecorations/mountains/AVLMTDR8",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -148,7 +148,7 @@
 				},
 				"templates": {
 					"AVLmtds1": {
-						"animation": "sw08decor/mountains/AVLmtds1",
+						"animation": "swDecorations/mountains/AVLmtds1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -165,7 +165,7 @@
 						]
 					},
 					"AVLmtds2": {
-						"animation": "sw08decor/mountains/AVLmtds2",
+						"animation": "swDecorations/mountains/AVLmtds2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -182,7 +182,7 @@
 						]
 					},
 					"AVLmtds3": {
-						"animation": "sw08decor/mountains/AVLmtds3",
+						"animation": "swDecorations/mountains/AVLmtds3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -198,7 +198,7 @@
 						]
 					},
 					"AVLmtds4": {
-						"animation": "sw08decor/mountains/AVLmtds4",
+						"animation": "swDecorations/mountains/AVLmtds4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -214,7 +214,7 @@
 						]
 					},
 					"AVLmtds5": {
-						"animation": "sw08decor/mountains/AVLmtds5",
+						"animation": "swDecorations/mountains/AVLmtds5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -229,7 +229,7 @@
 						]
 					},
 					"AVLmtds6": {
-						"animation": "sw08decor/mountains/AVLmtds6",
+						"animation": "swDecorations/mountains/AVLmtds6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -254,7 +254,7 @@
 				},
 				"templates": {
 					"AVLmtgn0": {
-						"animation": "sw08decor/mountains/AVLmtgn0",
+						"animation": "swDecorations/mountains/AVLmtgn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -271,7 +271,7 @@
 						]
 					},
 					"AVLmtgn1": {
-						"animation": "sw08decor/mountains/AVLmtgn1",
+						"animation": "swDecorations/mountains/AVLmtgn1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -288,7 +288,7 @@
 						]
 					},
 					"AVLmtgn2": {
-						"animation": "sw08decor/mountains/AVLmtgn2",
+						"animation": "swDecorations/mountains/AVLmtgn2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -304,7 +304,7 @@
 						]
 					},
 					"AVLmtgn3": {
-						"animation": "sw08decor/mountains/AVLmtgn3",
+						"animation": "swDecorations/mountains/AVLmtgn3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -320,7 +320,7 @@
 						]
 					},
 					"AVLmtgn4": {
-						"animation": "sw08decor/mountains/AVLmtgn4",
+						"animation": "swDecorations/mountains/AVLmtgn4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -335,7 +335,7 @@
 						]
 					},
 					"AVLmtgn5": {
-						"animation": "sw08decor/mountains/AVLmtgn5",
+						"animation": "swDecorations/mountains/AVLmtgn5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -360,7 +360,7 @@
 				},
 				"templates": {
 					"AVLmtgn0": {
-						"animation": "sw08decor/mountains/082/AVLmtgn0",
+						"animation": "swDecorations/mountains/082/AVLmtgn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -377,7 +377,7 @@
 						]
 					},
 					"AVLmtgn1": {
-						"animation": "sw08decor/mountains/082/AVLmtgn1",
+						"animation": "swDecorations/mountains/082/AVLmtgn1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -394,7 +394,7 @@
 						]
 					},
 					"AVLmtgn2": {
-						"animation": "sw08decor/mountains/082/AVLmtgn2",
+						"animation": "swDecorations/mountains/082/AVLmtgn2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -410,7 +410,7 @@
 						]
 					},
 					"AVLmtgn3": {
-						"animation": "sw08decor/mountains/082/AVLmtgn3",
+						"animation": "swDecorations/mountains/082/AVLmtgn3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -426,7 +426,7 @@
 						]
 					},
 					"AVLmtgn4": {
-						"animation": "sw08decor/mountains/082/AVLmtgn4",
+						"animation": "swDecorations/mountains/082/AVLmtgn4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -441,7 +441,7 @@
 						]
 					},
 					"AVLmtgn5": {
-						"animation": "sw08decor/mountains/082/AVLmtgn5",
+						"animation": "swDecorations/mountains/082/AVLmtgn5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -466,7 +466,7 @@
 				},
 				"templates": {
 					"AVLmtgr1": {
-						"animation": "sw08decor/mountains/AVLmtgr1",
+						"animation": "swDecorations/mountains/AVLmtgr1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -483,7 +483,7 @@
 						]
 					},
 					"AVLmtgr2": {
-						"animation": "sw08decor/mountains/AVLmtgr2",
+						"animation": "swDecorations/mountains/AVLmtgr2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -500,7 +500,7 @@
 						]
 					},
 					"AVLmtgr3": {
-						"animation": "sw08decor/mountains/AVLmtgr3",
+						"animation": "swDecorations/mountains/AVLmtgr3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -516,7 +516,7 @@
 						]
 					},
 					"AVLmtgr4": {
-						"animation": "sw08decor/mountains/AVLmtgr4",
+						"animation": "swDecorations/mountains/AVLmtgr4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -532,7 +532,7 @@
 						]
 					},
 					"AVLmtgr5": {
-						"animation": "sw08decor/mountains/AVLmtgr5",
+						"animation": "swDecorations/mountains/AVLmtgr5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -547,7 +547,7 @@
 						]
 					},
 					"AVLmtgr6": {
-						"animation": "sw08decor/mountains/AVLmtgr6",
+						"animation": "swDecorations/mountains/AVLmtgr6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -572,7 +572,7 @@
 				},
 				"templates": {
 					"avlmtrf1": {
-						"animation": "sw08decor/mountains/avlmtrf1",
+						"animation": "swDecorations/mountains/avlmtrf1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -589,7 +589,7 @@
 						]
 					},
 					"avlmtrf2": {
-						"animation": "sw08decor/mountains/avlmtrf2",
+						"animation": "swDecorations/mountains/avlmtrf2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -606,7 +606,7 @@
 						]
 					},
 					"avlmtrf3": {
-						"animation": "sw08decor/mountains/avlmtrf3",
+						"animation": "swDecorations/mountains/avlmtrf3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -622,7 +622,7 @@
 						]
 					},
 					"avlmtrf4": {
-						"animation": "sw08decor/mountains/avlmtrf4",
+						"animation": "swDecorations/mountains/avlmtrf4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -638,7 +638,7 @@
 						]
 					},
 					"avlmtrf5": {
-						"animation": "sw08decor/mountains/avlmtrf5",
+						"animation": "swDecorations/mountains/avlmtrf5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -653,7 +653,7 @@
 						]
 					},
 					"avlmtrf6": {
-						"animation": "sw08decor/mountains/avlmtrf6",
+						"animation": "swDecorations/mountains/avlmtrf6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -678,7 +678,7 @@
 				},
 				"templates": {
 					"AVLmtsb0": {
-						"animation": "sw08decor/mountains/AVLmtsb0",
+						"animation": "swDecorations/mountains/AVLmtsb0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -695,7 +695,7 @@
 						]
 					},
 					"AVLmtsb1": {
-						"animation": "sw08decor/mountains/AVLmtsb1",
+						"animation": "swDecorations/mountains/AVLmtsb1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -712,7 +712,7 @@
 						]
 					},
 					"AVLmtsb2": {
-						"animation": "sw08decor/mountains/AVLmtsb2",
+						"animation": "swDecorations/mountains/AVLmtsb2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -728,7 +728,7 @@
 						]
 					},
 					"AVLmtsb3": {
-						"animation": "sw08decor/mountains/AVLmtsb3",
+						"animation": "swDecorations/mountains/AVLmtsb3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -744,7 +744,7 @@
 						]
 					},
 					"AVLmtsb4": {
-						"animation": "sw08decor/mountains/AVLmtsb4",
+						"animation": "swDecorations/mountains/AVLmtsb4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -759,7 +759,7 @@
 						]
 					},
 					"AVLmtsb5": {
-						"animation": "sw08decor/mountains/AVLmtsb5",
+						"animation": "swDecorations/mountains/AVLmtsb5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -774,7 +774,7 @@
 						]
 					},
 					"AVLmtsb6": {
-						"animation": "sw08decor/mountains/AVLmtsb6",
+						"animation": "swDecorations/mountains/AVLmtsb6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -789,7 +789,7 @@
 						]
 					},
 					"AVLmtsb7": {
-						"animation": "sw08decor/mountains/AVLmtsb7",
+						"animation": "swDecorations/mountains/AVLmtsb7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -805,7 +805,7 @@
 						]
 					},
 					"AVLmtsb8": {
-						"animation": "sw08decor/mountains/AVLmtsb8",
+						"animation": "swDecorations/mountains/AVLmtsb8",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -831,7 +831,7 @@
 				},
 				"templates": {
 					"AVLmtsn1": {
-						"animation": "sw08decor/mountains/AVLmtsn1",
+						"animation": "swDecorations/mountains/AVLmtsn1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -848,7 +848,7 @@
 						]
 					},
 					"AVLmtsn2": {
-						"animation": "sw08decor/mountains/AVLmtsn2",
+						"animation": "swDecorations/mountains/AVLmtsn2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -865,7 +865,7 @@
 						]
 					},
 					"AVLmtsn3": {
-						"animation": "sw08decor/mountains/AVLmtsn3",
+						"animation": "swDecorations/mountains/AVLmtsn3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -881,7 +881,7 @@
 						]
 					},
 					"AVLmtsn4": {
-						"animation": "sw08decor/mountains/AVLmtsn4",
+						"animation": "swDecorations/mountains/AVLmtsn4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -897,7 +897,7 @@
 						]
 					},
 					"AVLmtsn5": {
-						"animation": "sw08decor/mountains/AVLmtsn5",
+						"animation": "swDecorations/mountains/AVLmtsn5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -912,7 +912,7 @@
 						]
 					},
 					"AVLmtsn6": {
-						"animation": "sw08decor/mountains/AVLmtsn6",
+						"animation": "swDecorations/mountains/AVLmtsn6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -937,7 +937,7 @@
 				},
 				"templates": {
 					"AVLmtsw1": {
-						"animation": "sw08decor/mountains/AVLmtsw1",
+						"animation": "swDecorations/mountains/AVLmtsw1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -954,7 +954,7 @@
 						]
 					},
 					"AVLmtsw2": {
-						"animation": "sw08decor/mountains/AVLmtsw2",
+						"animation": "swDecorations/mountains/AVLmtsw2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -971,7 +971,7 @@
 						]
 					},
 					"AVLmtsw3": {
-						"animation": "sw08decor/mountains/AVLmtsw3",
+						"animation": "swDecorations/mountains/AVLmtsw3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -987,7 +987,7 @@
 						]
 					},
 					"AVLmtsw4": {
-						"animation": "sw08decor/mountains/AVLmtsw4",
+						"animation": "swDecorations/mountains/AVLmtsw4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1003,7 +1003,7 @@
 						]
 					},
 					"AVLmtsw5": {
-						"animation": "sw08decor/mountains/AVLmtsw5",
+						"animation": "swDecorations/mountains/AVLmtsw5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1018,7 +1018,7 @@
 						]
 					},
 					"AVLmtsw6": {
-						"animation": "sw08decor/mountains/AVLmtsw6",
+						"animation": "swDecorations/mountains/AVLmtsw6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1043,7 +1043,7 @@
 				},
 				"templates": {
 					"AVLmtvo1": {
-						"animation": "sw08decor/mountains/AVLmtvo1",
+						"animation": "swDecorations/mountains/AVLmtvo1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1060,7 +1060,7 @@
 						]
 					},
 					"AVLmtvo2": {
-						"animation": "sw08decor/mountains/AVLmtvo2",
+						"animation": "swDecorations/mountains/AVLmtvo2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1077,7 +1077,7 @@
 						]
 					},
 					"AVLmtvo3": {
-						"animation": "sw08decor/mountains/AVLmtvo3",
+						"animation": "swDecorations/mountains/AVLmtvo3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1093,7 +1093,7 @@
 						]
 					},
 					"AVLmtvo4": {
-						"animation": "sw08decor/mountains/AVLmtvo4",
+						"animation": "swDecorations/mountains/AVLmtvo4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1109,7 +1109,7 @@
 						]
 					},
 					"AVLmtvo5": {
-						"animation": "sw08decor/mountains/AVLmtvo5",
+						"animation": "swDecorations/mountains/AVLmtvo5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1124,7 +1124,7 @@
 						]
 					},
 					"AVLmtvo6": {
-						"animation": "sw08decor/mountains/AVLmtvo6",
+						"animation": "swDecorations/mountains/AVLmtvo6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1149,7 +1149,7 @@
 				},
 				"templates": {
 					"AVmund0": {
-						"animation": "sw08decor/mountains/AVmund0",
+						"animation": "swDecorations/mountains/AVmund0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1167,7 +1167,7 @@
 						]
 					},
 					"AVmund1": {
-						"animation": "sw08decor/mountains/AVmund1",
+						"animation": "swDecorations/mountains/AVmund1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1184,7 +1184,7 @@
 						]
 					},
 					"AVMwelg0": {
-						"animation": "sw08decor/mountains/AVMwelg0",
+						"animation": "swDecorations/mountains/AVMwelg0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1201,7 +1201,7 @@
 						]
 					},
 					"AVMwelg1": {
-						"animation": "sw08decor/mountains/AVMwelg1",
+						"animation": "swDecorations/mountains/AVMwelg1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1218,7 +1218,7 @@
 						]
 					},
 					"AVMwelg2": {
-						"animation": "sw08decor/mountains/AVMwelg2",
+						"animation": "swDecorations/mountains/AVMwelg2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1234,7 +1234,7 @@
 						]
 					},
 					"AVMwelg3": {
-						"animation": "sw08decor/mountains/AVMwelg3",
+						"animation": "swDecorations/mountains/AVMwelg3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1250,7 +1250,7 @@
 						]
 					},
 					"AVMwelg4": {
-						"animation": "sw08decor/mountains/AVMwelg4",
+						"animation": "swDecorations/mountains/AVMwelg4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1265,7 +1265,7 @@
 						]
 					},
 					"AVMwelg5": {
-						"animation": "sw08decor/mountains/AVMwelg5",
+						"animation": "swDecorations/mountains/AVMwelg5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1280,7 +1280,7 @@
 						]
 					},
 					"AVMwelg6": {
-						"animation": "sw08decor/mountains/AVMwelg6",
+						"animation": "swDecorations/mountains/AVMwelg6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1296,7 +1296,7 @@
 						]
 					},
 					"AVMwelg7": {
-						"animation": "sw08decor/mountains/AVMwelg7",
+						"animation": "swDecorations/mountains/AVMwelg7",
 						"visitableFrom": [
 							"---",
 							"+++",

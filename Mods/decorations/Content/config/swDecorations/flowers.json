@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVLsh6g0": {
-						"animation": "sw08decor/bed/AVLsh6g0",
+						"animation": "swDecorations/bed/AVLsh6g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -34,7 +34,7 @@
 				},
 				"templates": {
 					"AVLCT4G0": {
-						"animation": "sw08decor/flowers/AVLCT4G0",
+						"animation": "swDecorations/flowers/AVLCT4G0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -49,7 +49,7 @@
 						]
 					},
 					"AVLCT5G0": {
-						"animation": "sw08decor/flowers/AVLCT5G0",
+						"animation": "swDecorations/flowers/AVLCT5G0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -63,7 +63,7 @@
 						]
 					},
 					"AVLCT6G0": {
-						"animation": "sw08decor/flowers/AVLCT6G0",
+						"animation": "swDecorations/flowers/AVLCT6G0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -77,7 +77,7 @@
 						]
 					},
 					"AVLCT7G0": {
-						"animation": "sw08decor/flowers/AVLCT7G0",
+						"animation": "swDecorations/flowers/AVLCT7G0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -91,7 +91,7 @@
 						]
 					},
 					"AVLdun30": {
-						"animation": "sw08decor/flowers/AVLdun30",
+						"animation": "swDecorations/flowers/AVLdun30",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -106,7 +106,7 @@
 						]
 					},
 					"AVLf01g0": {
-						"animation": "sw08decor/flowers/AVLf01g0",
+						"animation": "swDecorations/flowers/AVLf01g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -120,7 +120,7 @@
 						]
 					},
 					"AVLf02g0": {
-						"animation": "sw08decor/flowers/AVLf02g0",
+						"animation": "swDecorations/flowers/AVLf02g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -134,7 +134,7 @@
 						]
 					},
 					"AVLf03g0": {
-						"animation": "sw08decor/flowers/AVLf03g0",
+						"animation": "swDecorations/flowers/AVLf03g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -148,7 +148,7 @@
 						]
 					},
 					"AVLf04g0": {
-						"animation": "sw08decor/flowers/AVLf04g0",
+						"animation": "swDecorations/flowers/AVLf04g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -162,7 +162,7 @@
 						]
 					},
 					"AVLf05g0": {
-						"animation": "sw08decor/flowers/AVLf05g0",
+						"animation": "swDecorations/flowers/AVLf05g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -177,7 +177,7 @@
 						]
 					},
 					"AVLf06g0": {
-						"animation": "sw08decor/flowers/AVLf06g0",
+						"animation": "swDecorations/flowers/AVLf06g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -191,7 +191,7 @@
 						]
 					},
 					"AVLf07g0": {
-						"animation": "sw08decor/flowers/AVLf07g0",
+						"animation": "swDecorations/flowers/AVLf07g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -205,7 +205,7 @@
 						]
 					},
 					"AVLf08g0": {
-						"animation": "sw08decor/flowers/AVLf08g0",
+						"animation": "swDecorations/flowers/AVLf08g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -219,7 +219,7 @@
 						]
 					},
 					"AVLf09g0": {
-						"animation": "sw08decor/flowers/AVLf09g0",
+						"animation": "swDecorations/flowers/AVLf09g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -233,7 +233,7 @@
 						]
 					},
 					"AVLf10g0": {
-						"animation": "sw08decor/flowers/AVLf10g0",
+						"animation": "swDecorations/flowers/AVLf10g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -247,7 +247,7 @@
 						]
 					},
 					"AVLf11g0": {
-						"animation": "sw08decor/flowers/AVLf11g0",
+						"animation": "swDecorations/flowers/AVLf11g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -261,7 +261,7 @@
 						]
 					},
 					"AVLf12g0": {
-						"animation": "sw08decor/flowers/AVLf12g0",
+						"animation": "swDecorations/flowers/AVLf12g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -275,7 +275,7 @@
 						]
 					},
 					"AVLf13g0": {
-						"animation": "sw08decor/flowers/AVLf13g0",
+						"animation": "swDecorations/flowers/AVLf13g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -289,7 +289,7 @@
 						]
 					},
 					"AVLf14g0": {
-						"animation": "sw08decor/flowers/AVLf14g0",
+						"animation": "swDecorations/flowers/AVLf14g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -303,7 +303,7 @@
 						]
 					},
 					"AVLf15g0": {
-						"animation": "sw08decor/flowers/AVLf15g0",
+						"animation": "swDecorations/flowers/AVLf15g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -317,7 +317,7 @@
 						]
 					},
 					"AVLf16g0": {
-						"animation": "sw08decor/flowers/AVLf16g0",
+						"animation": "swDecorations/flowers/AVLf16g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -331,7 +331,7 @@
 						]
 					},
 					"AVLf17g0": {
-						"animation": "sw08decor/flowers/AVLf17g0",
+						"animation": "swDecorations/flowers/AVLf17g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -346,7 +346,7 @@
 						]
 					},
 					"AVLf18g0": {
-						"animation": "sw08decor/flowers/AVLf18g0",
+						"animation": "swDecorations/flowers/AVLf18g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -360,7 +360,7 @@
 						]
 					},
 					"AVLf19g0": {
-						"animation": "sw08decor/flowers/AVLf19g0",
+						"animation": "swDecorations/flowers/AVLf19g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -374,7 +374,7 @@
 						]
 					},
 					"AVLfl1d0": {
-						"animation": "sw08decor/flowers/AVLfl1d0",
+						"animation": "swDecorations/flowers/AVLfl1d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -388,7 +388,7 @@
 						]
 					},
 					"AVLfl2d0": {
-						"animation": "sw08decor/flowers/AVLfl2d0",
+						"animation": "swDecorations/flowers/AVLfl2d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -402,7 +402,7 @@
 						]
 					},
 					"AVLfl3d0": {
-						"animation": "sw08decor/flowers/AVLfl3d0",
+						"animation": "swDecorations/flowers/AVLfl3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -416,7 +416,7 @@
 						]
 					},
 					"AVLfl4d0": {
-						"animation": "sw08decor/flowers/AVLfl4d0",
+						"animation": "swDecorations/flowers/AVLfl4d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -430,7 +430,7 @@
 						]
 					},
 					"AVLfl5d0": {
-						"animation": "sw08decor/flowers/AVLfl5d0",
+						"animation": "swDecorations/flowers/AVLfl5d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -444,7 +444,7 @@
 						]
 					},
 					"AVLfl6d0": {
-						"animation": "sw08decor/flowers/AVLfl6d0",
+						"animation": "swDecorations/flowers/AVLfl6d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -458,7 +458,7 @@
 						]
 					},
 					"AVLfl7d0": {
-						"animation": "sw08decor/flowers/AVLfl7d0",
+						"animation": "swDecorations/flowers/AVLfl7d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -472,7 +472,7 @@
 						]
 					},
 					"AVLfl8d0": {
-						"animation": "sw08decor/flowers/AVLfl8d0",
+						"animation": "swDecorations/flowers/AVLfl8d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -486,7 +486,7 @@
 						]
 					},
 					"AVLfl9d0": {
-						"animation": "sw08decor/flowers/AVLfl9d0",
+						"animation": "swDecorations/flowers/AVLfl9d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -500,7 +500,7 @@
 						]
 					},
 					"AVLflow0": {
-						"animation": "sw08decor/flowers/AVLflow0",
+						"animation": "swDecorations/flowers/AVLflow0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -514,7 +514,7 @@
 						]
 					},
 					"AVLflow1": {
-						"animation": "sw08decor/flowers/AVLflow1",
+						"animation": "swDecorations/flowers/AVLflow1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -528,7 +528,7 @@
 						]
 					},
 					"AVLflow2": {
-						"animation": "sw08decor/flowers/AVLflow2",
+						"animation": "swDecorations/flowers/AVLflow2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -542,7 +542,7 @@
 						]
 					},
 					"AVLflow3": {
-						"animation": "sw08decor/flowers/AVLflow3",
+						"animation": "swDecorations/flowers/AVLflow3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -556,7 +556,7 @@
 						]
 					},
 					"AVLflow4": {
-						"animation": "sw08decor/flowers/AVLflow4",
+						"animation": "swDecorations/flowers/AVLflow4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -570,7 +570,7 @@
 						]
 					},
 					"AVLflow5": {
-						"animation": "sw08decor/flowers/AVLflow5",
+						"animation": "swDecorations/flowers/AVLflow5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -584,7 +584,7 @@
 						]
 					},
 					"AVLflow6": {
-						"animation": "sw08decor/flowers/AVLflow6",
+						"animation": "swDecorations/flowers/AVLflow6",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -598,7 +598,7 @@
 						]
 					},
 					"AVLflow7": {
-						"animation": "sw08decor/flowers/AVLflow7",
+						"animation": "swDecorations/flowers/AVLflow7",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -612,7 +612,7 @@
 						]
 					},
 					"AVLflow8": {
-						"animation": "sw08decor/flowers/AVLflow8",
+						"animation": "swDecorations/flowers/AVLflow8",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -626,7 +626,7 @@
 						]
 					},
 					"AVLflow9": {
-						"animation": "sw08decor/flowers/AVLflow9",
+						"animation": "swDecorations/flowers/AVLflow9",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -640,7 +640,7 @@
 						]
 					},
 					"AVLs01s0": {
-						"animation": "sw08decor/flowers/AVLs01s0",
+						"animation": "swDecorations/flowers/AVLs01s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -654,7 +654,7 @@
 						]
 					},
 					"AVLs02s0": {
-						"animation": "sw08decor/flowers/AVLs02s0",
+						"animation": "swDecorations/flowers/AVLs02s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -668,7 +668,7 @@
 						]
 					},
 					"AVLs03s0": {
-						"animation": "sw08decor/flowers/AVLs03s0",
+						"animation": "swDecorations/flowers/AVLs03s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -682,7 +682,7 @@
 						]
 					},
 					"newAVLs02s0": {
-						"animation": "sw08decor/flowers/082/AVLs02s0",
+						"animation": "swDecorations/flowers/082/AVLs02s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -696,7 +696,7 @@
 						]
 					},
 					"newAVLs03s0": {
-						"animation": "sw08decor/flowers/082/AVLs03s0",
+						"animation": "swDecorations/flowers/082/AVLs03s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -710,7 +710,7 @@
 						]
 					},
 					"AVLs04s0": {
-						"animation": "sw08decor/flowers/AVLs04s0",
+						"animation": "swDecorations/flowers/AVLs04s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -724,7 +724,7 @@
 						]
 					},
 					"AVLs05s0": {
-						"animation": "sw08decor/flowers/AVLs05s0",
+						"animation": "swDecorations/flowers/AVLs05s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -738,7 +738,7 @@
 						]
 					},
 					"AVLs06s0": {
-						"animation": "sw08decor/flowers/AVLs06s0",
+						"animation": "swDecorations/flowers/AVLs06s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -752,7 +752,7 @@
 						]
 					},
 					"AVLs07s0": {
-						"animation": "sw08decor/flowers/AVLs07s0",
+						"animation": "swDecorations/flowers/AVLs07s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -766,7 +766,7 @@
 						]
 					},
 					"AVLs08s0": {
-						"animation": "sw08decor/flowers/AVLs08s0",
+						"animation": "swDecorations/flowers/AVLs08s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -780,7 +780,7 @@
 						]
 					},
 					"AVLs09s0": {
-						"animation": "sw08decor/flowers/AVLs09s0",
+						"animation": "swDecorations/flowers/AVLs09s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -794,7 +794,7 @@
 						]
 					},
 					"AVLs10s0": {
-						"animation": "sw08decor/flowers/AVLs10s0",
+						"animation": "swDecorations/flowers/AVLs10s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -808,7 +808,7 @@
 						]
 					},
 					"AVLs11s0": {
-						"animation": "sw08decor/flowers/AVLs11s0",
+						"animation": "swDecorations/flowers/AVLs11s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -822,7 +822,7 @@
 						]
 					},
 					"AVLs1sn0": {
-						"animation": "sw08decor/flowers/AVLs1sn0",
+						"animation": "swDecorations/flowers/AVLs1sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -836,7 +836,7 @@
 						]
 					},
 					"AVLs2sn0": {
-						"animation": "sw08decor/flowers/AVLs2sn0",
+						"animation": "swDecorations/flowers/AVLs2sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -850,7 +850,7 @@
 						]
 					},
 					"AVLs3sn0": {
-						"animation": "sw08decor/flowers/AVLs3sn0",
+						"animation": "swDecorations/flowers/AVLs3sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -864,7 +864,7 @@
 						]
 					},
 					"AVLswp10": {
-						"animation": "sw08decor/flowers/AVLswp10",
+						"animation": "swDecorations/flowers/AVLswp10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -878,7 +878,7 @@
 						]
 					},
 					"AVLswp20": {
-						"animation": "sw08decor/flowers/AVLswp20",
+						"animation": "swDecorations/flowers/AVLswp20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -892,7 +892,7 @@
 						]
 					},
 					"AVLswp30": {
-						"animation": "sw08decor/flowers/AVLswp30",
+						"animation": "swDecorations/flowers/AVLswp30",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -906,7 +906,7 @@
 						]
 					},
 					"AVLswp40": {
-						"animation": "sw08decor/flowers/AVLswp40",
+						"animation": "swDecorations/flowers/AVLswp40",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -920,7 +920,7 @@
 						]
 					},
 					"AVLswp50": {
-						"animation": "sw08decor/flowers/AVLswp50",
+						"animation": "swDecorations/flowers/AVLswp50",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -934,7 +934,7 @@
 						]
 					},
 					"AVLswp60": {
-						"animation": "sw08decor/flowers/AVLswp60",
+						"animation": "swDecorations/flowers/AVLswp60",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -948,7 +948,7 @@
 						]
 					},
 					"AVLswp70": {
-						"animation": "sw08decor/flowers/AVLswp70",
+						"animation": "swDecorations/flowers/AVLswp70",
 						"visitableFrom": [
 							"---",
 							"+++",

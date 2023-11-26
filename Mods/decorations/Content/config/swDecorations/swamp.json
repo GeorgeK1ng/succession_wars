@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVLman10": {
-						"animation": "sw08decor/swamp/AVLman10",
+						"animation": "swDecorations/swamp/AVLman10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -24,7 +24,7 @@
 						]
 					},
 					"AVLman20": {
-						"animation": "sw08decor/swamp/AVLman20",
+						"animation": "swDecorations/swamp/AVLman20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -38,7 +38,7 @@
 						]
 					},
 					"AVLman30": {
-						"animation": "sw08decor/swamp/AVLman30",
+						"animation": "swDecorations/swamp/AVLman30",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -52,7 +52,7 @@
 						]
 					},
 					"AVLman40": {
-						"animation": "sw08decor/swamp/AVLman40",
+						"animation": "swDecorations/swamp/AVLman40",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -66,7 +66,7 @@
 						]
 					},
 					"AVLman50": {
-						"animation": "sw08decor/swamp/AVLman50",
+						"animation": "swDecorations/swamp/AVLman50",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -80,7 +80,7 @@
 						]
 					},
 					"AVLman55": {
-						"animation": "sw08decor/swamp/AVLman55",
+						"animation": "swDecorations/swamp/AVLman55",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -95,7 +95,7 @@
 						]
 					},
 					"AVLmoss0": {
-						"animation": "sw08decor/swamp/AVLmoss0",
+						"animation": "swDecorations/swamp/AVLmoss0",
 						"visitableFrom": [
 							"---",
 							"+++",

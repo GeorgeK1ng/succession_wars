@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVEring0": {
-						"animation": "sw08decor/vulcanos/AVEring0",
+						"animation": "swDecorations/vulcanos/AVEring0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -27,7 +27,7 @@
 						]
 					},
 					"AVLvol10": {
-						"animation": "sw08decor/vulcanos/AVLvol10",
+						"animation": "swDecorations/vulcanos/AVLvol10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -42,7 +42,7 @@
 						]
 					},
 					"AVLvol20": {
-						"animation": "sw08decor/vulcanos/AVLvol20",
+						"animation": "swDecorations/vulcanos/AVLvol20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -57,7 +57,7 @@
 						]
 					},
 					"AVLvol30": {
-						"animation": "sw08decor/vulcanos/AVLvol30",
+						"animation": "swDecorations/vulcanos/AVLvol30",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -75,7 +75,7 @@
 						]
 					},
 					"AVLvol40": {
-						"animation": "sw08decor/vulcanos/AVLvol40",
+						"animation": "swDecorations/vulcanos/AVLvol40",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -90,7 +90,7 @@
 						]
 					},
 					"AVLvol50": {
-						"animation": "sw08decor/vulcanos/AVLvol50",
+						"animation": "swDecorations/vulcanos/AVLvol50",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -106,7 +106,7 @@
 						]
 					},
 					"zdec0008": {
-						"animation": "sw08decor/vulcanos/zdec0008",
+						"animation": "swDecorations/vulcanos/zdec0008",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -121,7 +121,7 @@
 						]
 					},
 					"ZDec0015": {
-						"animation": "sw08decor/vulcanos/ZDec0015",
+						"animation": "swDecorations/vulcanos/ZDec0015",
 						"visitableFrom": [
 							"---",
 							"+++",

@@ -1,7 +1,7 @@
 {
 	"core:rock": {
 		"types": {
-			"sw08decorRocShipwreck01": {
+			"swRocShipwreck01": {
 				"name": "Shipwreck",
 				"rmg": {
 					"zoneLimit": 1,
@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"avlrk1w0": {
-						"animation": "sw08decor/rock/avlrk1w0",
+						"animation": "swDecorations/rock/avlrk1w0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -26,7 +26,7 @@
 					}
 				}
 			},
-			"sw08decorRock01": {
+			"swRock01": {
 				"name": "Rocks",
 				"rmg": {
 					"zoneLimit": 8,
@@ -35,7 +35,7 @@
 				},
 				"templates": {
 					"AVLr01u0": {
-						"animation": "sw08decor/rock/AVLr01u0",
+						"animation": "swDecorations/rock/AVLr01u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -49,7 +49,7 @@
 						]
 					},
 					"AVLr02r0": {
-						"animation": "sw08decor/rock/AVLr02r0",
+						"animation": "swDecorations/rock/AVLr02r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -64,7 +64,7 @@
 						]
 					},
 					"AVLr02u0": {
-						"animation": "sw08decor/rock/AVLr02u0",
+						"animation": "swDecorations/rock/AVLr02u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -79,7 +79,7 @@
 						]
 					},
 					"AVLr03r0": {
-						"animation": "sw08decor/rock/AVLr03r0",
+						"animation": "swDecorations/rock/AVLr03r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -93,7 +93,7 @@
 						]
 					},
 					"AVLr03u0": {
-						"animation": "sw08decor/rock/AVLr03u0",
+						"animation": "swDecorations/rock/AVLr03u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -108,7 +108,7 @@
 						]
 					},
 					"AVLr04r0": {
-						"animation": "sw08decor/rock/AVLr04r0",
+						"animation": "swDecorations/rock/AVLr04r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -123,7 +123,7 @@
 						]
 					},
 					"AVLr04u0": {
-						"animation": "sw08decor/rock/AVLr04u0",
+						"animation": "swDecorations/rock/AVLr04u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -138,7 +138,7 @@
 						]
 					},
 					"AVLr05u0": {
-						"animation": "sw08decor/rock/AVLr05u0",
+						"animation": "swDecorations/rock/AVLr05u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -152,7 +152,7 @@
 						]
 					},
 					"AVLr06r0": {
-						"animation": "sw08decor/rock/AVLr06r0",
+						"animation": "swDecorations/rock/AVLr06r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -166,7 +166,7 @@
 						]
 					},
 					"AVLr06u0": {
-						"animation": "sw08decor/rock/AVLr06u0",
+						"animation": "swDecorations/rock/AVLr06u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -180,7 +180,7 @@
 						]
 					},
 					"AVLr07r0": {
-						"animation": "sw08decor/rock/AVLr07r0",
+						"animation": "swDecorations/rock/AVLr07r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -194,7 +194,7 @@
 						]
 					},
 					"AVLr07u0": {
-						"animation": "sw08decor/rock/AVLr07u0",
+						"animation": "swDecorations/rock/AVLr07u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -208,7 +208,7 @@
 						]
 					},
 					"AVLr08r0": {
-						"animation": "sw08decor/rock/AVLr08r0",
+						"animation": "swDecorations/rock/AVLr08r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -222,7 +222,7 @@
 						]
 					},
 					"AVLr08u0": {
-						"animation": "sw08decor/rock/AVLr08u0",
+						"animation": "swDecorations/rock/AVLr08u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -236,7 +236,7 @@
 						]
 					},
 					"AVLr09r0": {
-						"animation": "sw08decor/rock/AVLr09r0",
+						"animation": "swDecorations/rock/AVLr09r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -251,7 +251,7 @@
 						]
 					},
 					"AVLr09u0": {
-						"animation": "sw08decor/rock/AVLr09u0",
+						"animation": "swDecorations/rock/AVLr09u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -265,7 +265,7 @@
 						]
 					},
 					"AVLr10r0": {
-						"animation": "sw08decor/rock/AVLr10r0",
+						"animation": "swDecorations/rock/AVLr10r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -280,7 +280,7 @@
 						]
 					},
 					"AVLr10u0": {
-						"animation": "sw08decor/rock/AVLr10u0",
+						"animation": "swDecorations/rock/AVLr10u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -295,7 +295,7 @@
 						]
 					},
 					"AVLr11r0": {
-						"animation": "sw08decor/rock/AVLr11r0",
+						"animation": "swDecorations/rock/AVLr11r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -310,7 +310,7 @@
 						]
 					},
 					"AVLr12u0": {
-						"animation": "sw08decor/rock/AVLr12u0",
+						"animation": "swDecorations/rock/AVLr12u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -325,7 +325,7 @@
 						]
 					},
 					"AVLr12r0": {
-						"animation": "sw08decor/rock/AVLr12r0",
+						"animation": "swDecorations/rock/AVLr12r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -340,7 +340,7 @@
 						]
 					},
 					//			"AVLr12u0": {
-					///				"animation": "sw08decor/rock/AVLr12u0",
+					///				"animation": "swDecorations/rock/AVLr12u0",
 					//				"visitableFrom": ["---", "+++", "+++"],
 					////			"mask": ["VV","VB"],
 					//		"allowedTerrains": [
@@ -348,7 +348,7 @@
 					//	]
 					//	},
 					"AVLr13r0": {
-						"animation": "sw08decor/rock/AVLr13r0",
+						"animation": "swDecorations/rock/AVLr13r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -363,7 +363,7 @@
 						]
 					},
 					"AVLr13u0": {
-						"animation": "sw08decor/rock/AVLr13u0",
+						"animation": "swDecorations/rock/AVLr13u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -378,7 +378,7 @@
 						]
 					},
 					"AVLr14r0": {
-						"animation": "sw08decor/rock/AVLr14r0",
+						"animation": "swDecorations/rock/AVLr14r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -392,7 +392,7 @@
 						]
 					},
 					"AVLr14u0": {
-						"animation": "sw08decor/rock/AVLr14u0",
+						"animation": "swDecorations/rock/AVLr14u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -406,7 +406,7 @@
 						]
 					},
 					"AVLr15r0": {
-						"animation": "sw08decor/rock/AVLr14r0",
+						"animation": "swDecorations/rock/AVLr14r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -420,7 +420,7 @@
 						]
 					},
 					"AVLr15u0": {
-						"animation": "sw08decor/rock/AVLr15u0",
+						"animation": "swDecorations/rock/AVLr15u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -435,7 +435,7 @@
 						]
 					},
 					"AVLr16u0": {
-						"animation": "sw08decor/rock/AVLr16u0",
+						"animation": "swDecorations/rock/AVLr16u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -450,7 +450,7 @@
 						]
 					},
 					"AVLr1sn0": {
-						"animation": "sw08decor/rock/AVLr1sn0",
+						"animation": "swDecorations/rock/AVLr1sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -464,7 +464,7 @@
 						]
 					},
 					"AVLr2sn0": {
-						"animation": "sw08decor/rock/AVLr2sn0",
+						"animation": "swDecorations/rock/AVLr2sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -478,7 +478,7 @@
 						]
 					},
 					"AVLr3sn0": {
-						"animation": "sw08decor/rock/AVLr3sn0",
+						"animation": "swDecorations/rock/AVLr3sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -492,7 +492,7 @@
 						]
 					},
 					"AVLr4sn0": {
-						"animation": "sw08decor/rock/AVLr4sn0",
+						"animation": "swDecorations/rock/AVLr4sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -506,7 +506,7 @@
 						]
 					},
 					"AVLr5sn0": {
-						"animation": "sw08decor/rock/AVLr5sn0",
+						"animation": "swDecorations/rock/AVLr5sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -520,7 +520,7 @@
 						]
 					},
 					"AVLr6sn0": {
-						"animation": "sw08decor/rock/AVLr6sn0",
+						"animation": "swDecorations/rock/AVLr6sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -534,7 +534,7 @@
 						]
 					},
 					"AVLr7sn0": {
-						"animation": "sw08decor/rock/AVLr7sn0",
+						"animation": "swDecorations/rock/AVLr7sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -549,7 +549,7 @@
 						]
 					},
 					"AVLr8sn0": {
-						"animation": "sw08decor/rock/AVLr8sn0",
+						"animation": "swDecorations/rock/AVLr8sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -563,7 +563,7 @@
 						]
 					},
 					"avlrd01": {
-						"animation": "sw08decor/rock/avlrd01",
+						"animation": "swDecorations/rock/avlrd01",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -577,7 +577,7 @@
 						]
 					},
 					"avlrd02": {
-						"animation": "sw08decor/rock/avlrd02",
+						"animation": "swDecorations/rock/avlrd02",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -592,7 +592,7 @@
 						]
 					},
 					"avlrd04": {
-						"animation": "sw08decor/rock/avlrd04",
+						"animation": "swDecorations/rock/avlrd04",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -606,7 +606,7 @@
 						]
 					},
 					"avlrg01": {
-						"animation": "sw08decor/rock/avlrg01",
+						"animation": "swDecorations/rock/avlrg01",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -620,7 +620,7 @@
 						]
 					},
 					"avlrg02": {
-						"animation": "sw08decor/rock/avlrg02",
+						"animation": "swDecorations/rock/avlrg02",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -635,7 +635,7 @@
 						]
 					},
 					"avlrg03": {
-						"animation": "sw08decor/rock/avlrg03",
+						"animation": "swDecorations/rock/avlrg03",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -649,7 +649,7 @@
 						]
 					},
 					"avlrg04": {
-						"animation": "sw08decor/rock/avlrg04",
+						"animation": "swDecorations/rock/avlrg04",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -663,7 +663,7 @@
 						]
 					},
 					"avlrg05": {
-						"animation": "sw08decor/rock/avlrg05",
+						"animation": "swDecorations/rock/avlrg05",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -677,7 +677,7 @@
 						]
 					},
 					"avlrg06": {
-						"animation": "sw08decor/rock/avlrg06",
+						"animation": "swDecorations/rock/avlrg06",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -691,7 +691,7 @@
 						]
 					},
 					"avlrg07": {
-						"animation": "sw08decor/rock/avlrg07",
+						"animation": "swDecorations/rock/avlrg07",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -705,7 +705,7 @@
 						]
 					},
 					"avlrg08": {
-						"animation": "sw08decor/rock/avlrg08",
+						"animation": "swDecorations/rock/avlrg08",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -719,7 +719,7 @@
 						]
 					},
 					"avlrg09": {
-						"animation": "sw08decor/rock/avlrg09",
+						"animation": "swDecorations/rock/avlrg09",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -733,7 +733,7 @@
 						]
 					},
 					"avlrg10": {
-						"animation": "sw08decor/rock/avlrg10",
+						"animation": "swDecorations/rock/avlrg10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -747,7 +747,7 @@
 						]
 					},
 					"AVLrk1s0": {
-						"animation": "sw08decor/rock/AVLrk1s0",
+						"animation": "swDecorations/rock/AVLrk1s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -762,7 +762,7 @@
 						]
 					},
 					"avlrk1w0": {
-						"animation": "sw08decor/rock/avlrk1w0",
+						"animation": "swDecorations/rock/avlrk1w0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -777,7 +777,7 @@
 						]
 					},
 					"AVLrk2s0": {
-						"animation": "sw08decor/rock/AVLrk2s0",
+						"animation": "swDecorations/rock/AVLrk2s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -791,7 +791,7 @@
 						]
 					},
 					"AVLrk3d0": {
-						"animation": "sw08decor/rock/AVLrk3d0",
+						"animation": "swDecorations/rock/AVLrk3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -805,7 +805,7 @@
 						]
 					},
 					"AVLrk3s0": {
-						"animation": "sw08decor/rock/AVLrk3s0",
+						"animation": "swDecorations/rock/AVLrk3s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -819,7 +819,7 @@
 						]
 					},
 					"AVLrk4s0": {
-						"animation": "sw08decor/rock/AVLrk4s0",
+						"animation": "swDecorations/rock/AVLrk4s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -833,7 +833,7 @@
 						]
 					},
 					"AVLrk5d0": {
-						"animation": "sw08decor/rock/AVLrk5d0",
+						"animation": "swDecorations/rock/AVLrk5d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -847,7 +847,7 @@
 						]
 					},
 					"AVLRR01": {
-						"animation": "sw08decor/rock/AVLRR01",
+						"animation": "swDecorations/rock/AVLRR01",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -861,7 +861,7 @@
 						]
 					},
 					"AVLRR05": {
-						"animation": "sw08decor/rock/AVLRR05",
+						"animation": "swDecorations/rock/AVLRR05",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -875,7 +875,7 @@
 						]
 					},
 					"AVLsh3g0": {
-						"animation": "sw08decor/rock/AVLsh3g0",
+						"animation": "swDecorations/rock/AVLsh3g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -889,7 +889,7 @@
 						]
 					},
 					"newAVLsh3g0": {
-						"animation": "sw08decor/rock/082/AVLsh3g0",
+						"animation": "swDecorations/rock/082/AVLsh3g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -904,7 +904,7 @@
 						]
 					},
 					"AVLstg10": {
-						"animation": "sw08decor/rock/AVLstg10",
+						"animation": "swDecorations/rock/AVLstg10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -919,7 +919,7 @@
 						]
 					},
 					"AVLstg11": {
-						"animation": "sw08decor/rock/AVLstg11",
+						"animation": "swDecorations/rock/AVLstg11",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -934,7 +934,7 @@
 						]
 					},
 					"AVLstg12": {
-						"animation": "sw08decor/rock/AVLstg12",
+						"animation": "swDecorations/rock/AVLstg12",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -948,7 +948,7 @@
 						]
 					},
 					"AVLstg13": {
-						"animation": "sw08decor/rock/AVLstg13",
+						"animation": "swDecorations/rock/AVLstg13",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -962,7 +962,7 @@
 						]
 					},
 					"AVLXsw01": {
-						"animation": "sw08decor/rock/AVLxsw01",
+						"animation": "swDecorations/rock/AVLxsw01",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -976,7 +976,7 @@
 						]
 					},
 					"AVLXsw02": {
-						"animation": "sw08decor/rock/AVLXsw02",
+						"animation": "swDecorations/rock/AVLXsw02",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -990,7 +990,7 @@
 						]
 					},
 					"AVLXsw06": {
-						"animation": "sw08decor/rock/AVLXsw06",
+						"animation": "swDecorations/rock/AVLXsw06",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1004,7 +1004,7 @@
 						]
 					},
 					"AVLXsw07": {
-						"animation": "sw08decor/rock/AVLXsw07",
+						"animation": "swDecorations/rock/AVLXsw07",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1019,7 +1019,7 @@
 						]
 					},
 					"ZWVolc1": {
-						"animation": "sw08decor/rock/082/ZWVolc1",
+						"animation": "swDecorations/rock/082/ZWVolc1",
 						"visitableFrom": [
 							"---",
 							"+++",

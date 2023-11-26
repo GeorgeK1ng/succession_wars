@@ -1,16 +1,30 @@
 {
-	"core:outcropping": {
+	"core:grassHills": {
 		"types": {
-			"sw08outcropping": {
-				"name": "Outcropping",
+			"swo08_dunes": {
+				"name": "Dunes",
 				"rmg": {
-					"zoneLimit": 1,
 					"value": 100,
-					"rarity": 100
+					"rarity": 50
 				},
 				"templates": {
-					"AVLo1sn0": {
-						"animation": "sw08decor/outcropping/AVLo1sn0",
+					"AVLdun10": {
+						"animation": "swDecorations/dunes/AVLdun10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"subterra",
+							"sand"
+						]
+					},
+					"AVLdun20": {
+						"animation": "swDecorations/dunes/AVLdun20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -20,11 +34,191 @@
 							"BB"
 						],
 						"allowedTerrains": [
-							"snow"
+							"subterra",
+							"sand"
 						]
 					},
-					"AVLo2sn0": {
-						"animation": "sw08decor/outcropping/AVLo2sn0",
+					"AVLmd1r0": {
+						"animation": "swDecorations/dunes/AVLmd1r0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AVLmd2r0": {
+						"animation": "swDecorations/dunes/AVLmd2r0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AVLmd3r0": {
+						"animation": "swDecorations/dunes/AVLmd3r0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AVLoc1r0": {
+						"animation": "swDecorations/dunes/AVLoc1r0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AVLoc2r0": {
+						"animation": "swDecorations/dunes/AVLoc2r0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"AVLoc3r0": {
+						"animation": "swDecorations/dunes/AVLoc3r0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"avlxds07": {
+						"animation": "swDecorations/dunes/avlxds07",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"avlxds08": {
+						"animation": "swDecorations/dunes/avlxds08",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"avlxds09": {
+						"animation": "swDecorations/dunes/avlxds09",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					}
+				}
+			},
+			"swo08_dunes2": {
+				"name": "Hill",
+				"rmg": {
+					"value": 100,
+					"rarity": 50
+				},
+				"templates": {
+					"avlmd1d0": {
+						"animation": "swDecorations/hill/avlmd1d0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"avlmd1g0": {
+						"animation": "swDecorations/hill/avlmd1g0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBBB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avlmd2d0": {
+						"animation": "swDecorations/hill/avlmd2d0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"avlmd2g0": {
+						"animation": "swDecorations/hill/avlmd2g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -34,11 +228,25 @@
 							"BB"
 						],
 						"allowedTerrains": [
-							"snow"
+							"grass"
 						]
 					},
-					"AVLo3sn0": {
-						"animation": "sw08decor/outcropping/AVLo3sn0",
+					"avlmd3g0": {
+						"animation": "swDecorations/hill/avlmd3g0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"SW_spider": {
+						"animation": "swDecorations/hill/SW_spider",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -46,202 +254,6 @@
 						],
 						"mask": [
 							"BBB"
-						],
-						"allowedTerrains": [
-							"snow"
-						]
-					},
-					"AVLo4sn0": {
-						"animation": "sw08decor/outcropping/AVLo4sn0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BBBB"
-						],
-						"allowedTerrains": [
-							"snow"
-						]
-					},
-					"AVLoc1d0": {
-						"animation": "sw08decor/outcropping/AVLoc1d0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"AVLoc1g0": {
-						"animation": "sw08decor/outcropping/AVLoc1g0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"AVLoc1u0": {
-						"animation": "sw08decor/outcropping/AVLoc1u0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"subterra"
-						]
-					},
-					"AVLoc2d0": {
-						"animation": "sw08decor/outcropping/AVLoc2d0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"AVLoc2g0": {
-						"animation": "sw08decor/outcropping/AVLoc2g0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"AVLoc2u0": {
-						"animation": "sw08decor/outcropping/AVLoc2u0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"subterra"
-						]
-					},
-					"AVLoc3d0": {
-						"animation": "sw08decor/outcropping/AVLoc3d0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"AVLoc3g0": {
-						"animation": "sw08decor/outcropping/AVLoc3g0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"AVLoc3u0": {
-						"animation": "sw08decor/outcropping/AVLoc3u0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"subterra"
-						]
-					},
-					"AVLoc4G0": {
-						"animation": "sw08decor/outcropping/AVLoc4G0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"AVLoc4R0": {
-						"animation": "sw08decor/outcropping/AVLoc4R0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"subterra"
-						]
-					},
-					"AVLoc4u0": {
-						"animation": "sw08decor/outcropping/AVLoc4u0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"subterra"
-						]
-					},
-					"newAVLoc2g0": {
-						"animation": "sw08decor/outcropping/082/AVLoc2g0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
 						],
 						"allowedTerrains": [
 							"grass"

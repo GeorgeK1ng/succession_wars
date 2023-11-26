@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVLca010": {
-						"animation": "sw08decor/vegetation/AVLca010",
+						"animation": "swDecorations/vegetation/AVLca010",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -24,7 +24,7 @@
 						]
 					},
 					"AVLca020": {
-						"animation": "sw08decor/vegetation/AVLca020",
+						"animation": "swDecorations/vegetation/AVLca020",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -38,7 +38,7 @@
 						]
 					},
 					"AVLca030": {
-						"animation": "sw08decor/vegetation/AVLca030",
+						"animation": "swDecorations/vegetation/AVLca030",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -52,7 +52,7 @@
 						]
 					},
 					"AVLca040": {
-						"animation": "sw08decor/vegetation/AVLca040",
+						"animation": "swDecorations/vegetation/AVLca040",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -67,7 +67,7 @@
 						]
 					},
 					"AVLca050": {
-						"animation": "sw08decor/vegetation/AVLca050",
+						"animation": "swDecorations/vegetation/AVLca050",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -82,7 +82,7 @@
 						]
 					},
 					"AVLca060": {
-						"animation": "sw08decor/vegetation/AVLca060",
+						"animation": "swDecorations/vegetation/AVLca060",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -98,7 +98,7 @@
 						]
 					},
 					"AVLca070": {
-						"animation": "sw08decor/vegetation/AVLca070",
+						"animation": "swDecorations/vegetation/AVLca070",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -113,7 +113,7 @@
 						]
 					},
 					"AVLca080": {
-						"animation": "sw08decor/vegetation/AVLca080",
+						"animation": "swDecorations/vegetation/AVLca080",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -128,7 +128,7 @@
 						]
 					},
 					"AVLca090": {
-						"animation": "sw08decor/vegetation/AVLca090",
+						"animation": "swDecorations/vegetation/AVLca090",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -143,7 +143,7 @@
 						]
 					},
 					"AVLca100": {
-						"animation": "sw08decor/vegetation/AVLca100",
+						"animation": "swDecorations/vegetation/AVLca100",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -159,7 +159,7 @@
 						]
 					},
 					"AVLca110": {
-						"animation": "sw08decor/vegetation/AVLca110",
+						"animation": "swDecorations/vegetation/AVLca110",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -174,7 +174,7 @@
 						]
 					},
 					"AVLca120": {
-						"animation": "sw08decor/vegetation/AVLca120",
+						"animation": "swDecorations/vegetation/AVLca120",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -189,7 +189,7 @@
 						]
 					},
 					"AVLca130": {
-						"animation": "sw08decor/vegetation/AVLca130",
+						"animation": "swDecorations/vegetation/AVLca130",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -204,7 +204,7 @@
 						]
 					},
 					"AVLca1r0": {
-						"animation": "sw08decor/vegetation/AVLca1r0",
+						"animation": "swDecorations/vegetation/AVLca1r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -220,7 +220,7 @@
 						]
 					},
 					"AVLca2r0": {
-						"animation": "sw08decor/vegetation/AVLca2r0",
+						"animation": "swDecorations/vegetation/AVLca2r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -235,7 +235,7 @@
 						]
 					},
 					"AVLca3r0": {
-						"animation": "sw08decor/vegetation/AVLca3r0",
+						"animation": "swDecorations/vegetation/AVLca3r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -251,7 +251,7 @@
 						]
 					},
 					"AVLca4r0": {
-						"animation": "sw08decor/vegetation/AVLca4r0",
+						"animation": "swDecorations/vegetation/AVLca4r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -265,7 +265,7 @@
 						]
 					},
 					"AVLMS010": {
-						"animation": "sw08decor/vegetation/AVLMS010",
+						"animation": "swDecorations/vegetation/AVLMS010",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -279,7 +279,7 @@
 						]
 					},
 					"AVLMS020": {
-						"animation": "sw08decor/vegetation/AVLMS010",
+						"animation": "swDecorations/vegetation/AVLMS010",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -293,7 +293,7 @@
 						]
 					},
 					"AVLMS030": {
-						"animation": "sw08decor/vegetation/AVLMS030",
+						"animation": "swDecorations/vegetation/AVLMS030",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -307,7 +307,7 @@
 						]
 					},
 					"AVLSH5R0": {
-						"animation": "sw08decor/vegetation/AVLSH5R0",
+						"animation": "swDecorations/vegetation/AVLSH5R0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -321,7 +321,7 @@
 						]
 					},
 					"AVLSH6R0": {
-						"animation": "sw08decor/vegetation/AVLSH6R0",
+						"animation": "swDecorations/vegetation/AVLSH6R0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -335,7 +335,7 @@
 						]
 					},
 					"AVLSH7R0": {
-						"animation": "sw08decor/vegetation/AVLSH7R0",
+						"animation": "swDecorations/vegetation/AVLSH7R0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -349,7 +349,7 @@
 						]
 					},
 					"AVLSH8R0": {
-						"animation": "sw08decor/vegetation/AVLSH8R0",
+						"animation": "swDecorations/vegetation/AVLSH8R0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -363,7 +363,7 @@
 						]
 					},
 					"AVLSH9R0": {
-						"animation": "sw08decor/vegetation/AVLSH9R0",
+						"animation": "swDecorations/vegetation/AVLSH9R0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -377,7 +377,7 @@
 						]
 					},
 					"AVLsptt0": {
-						"animation": "sw08decor/vegetation/AVLsptt0",
+						"animation": "swDecorations/vegetation/AVLsptt0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -391,7 +391,7 @@
 						]
 					},
 					"AVLXro10": {
-						"animation": "sw08decor/vegetation/AVLXro10",
+						"animation": "swDecorations/vegetation/AVLXro10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -405,7 +405,7 @@
 						]
 					},
 					"AVLXro11": {
-						"animation": "sw08decor/vegetation/AVLXro11",
+						"animation": "swDecorations/vegetation/AVLXro11",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -419,7 +419,7 @@
 						]
 					},
 					"AVLXro12": {
-						"animation": "sw08decor/vegetation/AVLXro12",
+						"animation": "swDecorations/vegetation/AVLXro12",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -433,7 +433,7 @@
 						]
 					},
 					"AVLXro13": {
-						"animation": "sw08decor/vegetation/AVLXro13",
+						"animation": "swDecorations/vegetation/AVLXro13",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -447,7 +447,7 @@
 						]
 					},
 					"AVLXsu10": {
-						"animation": "sw08decor/vegetation/AVLXsu10",
+						"animation": "swDecorations/vegetation/AVLXsu10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -461,7 +461,7 @@
 						]
 					},
 					"AVLXsw03": {
-						"animation": "sw08decor/vegetation/AVLXsw03",
+						"animation": "swDecorations/vegetation/AVLXsw03",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -475,7 +475,7 @@
 						]
 					},
 					"AVLXsw04": {
-						"animation": "sw08decor/vegetation/AVLXsw04",
+						"animation": "swDecorations/vegetation/AVLXsw04",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -489,7 +489,7 @@
 						]
 					},
 					"AVLXsw05": {
-						"animation": "sw08decor/vegetation/AVLXsw05",
+						"animation": "swDecorations/vegetation/AVLXsw05",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -503,7 +503,7 @@
 						]
 					},
 					"AVLXsw08": {
-						"animation": "sw08decor/vegetation/AVLXsw08",
+						"animation": "swDecorations/vegetation/AVLXsw08",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -517,7 +517,7 @@
 						]
 					},
 					"AVLXsw09": {
-						"animation": "sw08decor/vegetation/AVLXsw09",
+						"animation": "swDecorations/vegetation/AVLXsw09",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -531,7 +531,7 @@
 						]
 					},
 					"AVLXsw10": {
-						"animation": "sw08decor/vegetation/AVLXsw10",
+						"animation": "swDecorations/vegetation/AVLXsw10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -545,7 +545,7 @@
 						]
 					},
 					"AVLXsw11": {
-						"animation": "sw08decor/vegetation/AVLXsw11",
+						"animation": "swDecorations/vegetation/AVLXsw11",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -559,7 +559,7 @@
 						]
 					},
 					"AVLXsw13": {
-						"animation": "sw08decor/vegetation/AVLXsw13",
+						"animation": "swDecorations/vegetation/AVLXsw13",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -573,7 +573,7 @@
 						]
 					},
 					"AVLXsw14": {
-						"animation": "sw08decor/vegetation/AVLXsw14",
+						"animation": "swDecorations/vegetation/AVLXsw14",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -587,7 +587,7 @@
 						]
 					},
 					"AVLXsw15": {
-						"animation": "sw08decor/vegetation/AVLXsw15",
+						"animation": "swDecorations/vegetation/AVLXsw15",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -601,7 +601,7 @@
 						]
 					},
 					"AVLXsw16": {
-						"animation": "sw08decor/vegetation/AVLXsw16",
+						"animation": "swDecorations/vegetation/AVLXsw16",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -615,7 +615,7 @@
 						]
 					},
 					"AVLyuc10": {
-						"animation": "sw08decor/vegetation/AVLyuc10",
+						"animation": "swDecorations/vegetation/AVLyuc10",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -629,7 +629,7 @@
 						]
 					},
 					"AVLyuc20": {
-						"animation": "sw08decor/vegetation/AVLyuc20",
+						"animation": "swDecorations/vegetation/AVLyuc20",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -643,7 +643,7 @@
 						]
 					},
 					"AVLyuc30": {
-						"animation": "sw08decor/vegetation/AVLyuc30",
+						"animation": "swDecorations/vegetation/AVLyuc30",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -657,7 +657,7 @@
 						]
 					},
 					"wheel1": {
-						"animation": "sw08decor/vegetation/wheel1",
+						"animation": "swDecorations/vegetation/wheel1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -671,7 +671,7 @@
 						]
 					},
 					"AvLRG10": {
-						"animation": "sw08decor/vegetation/AvLRG10",
+						"animation": "swDecorations/vegetation/AvLRG10",
 						"visitableFrom": [
 							"---",
 							"+++",

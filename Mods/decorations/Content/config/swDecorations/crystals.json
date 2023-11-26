@@ -1,7 +1,7 @@
 {
 	"core:rock": {
 		"types": {
-			"sw08decorRock01": {
+			"swRock01": {
 				"name": "Crystals",
 				"rmg": {
 					//"zoneLimit": 1,
@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"zcbon000": {
-						"animation": "sw08decor/crystals/zcbon000",
+						"animation": "swDecorations/crystals/zcbon000",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -25,7 +25,7 @@
 						]
 					},
 					"zcbon001": {
-						"animation": "sw08decor/crystals/zcbon001",
+						"animation": "swDecorations/crystals/zcbon001",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -40,7 +40,7 @@
 						]
 					},
 					"zcbon002": {
-						"animation": "sw08decor/crystals/zcbon002",
+						"animation": "swDecorations/crystals/zcbon002",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -55,7 +55,7 @@
 						]
 					},
 					"zcbon003": {
-						"animation": "sw08decor/crystals/zcbon003",
+						"animation": "swDecorations/crystals/zcbon003",
 						"visitableFrom": [
 							"---",
 							"+++",

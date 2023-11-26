@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"AVLrk2w0": {
-						"animation": "sw08decor/reef/AVLrk2w0",
+						"animation": "swDecorations/reef/AVLrk2w0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -25,7 +25,7 @@
 						]
 					},
 					"AVLrk3w0": {
-						"animation": "sw08decor/reef/AVLrk3w0",
+						"animation": "swDecorations/reef/AVLrk3w0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -40,7 +40,7 @@
 						]
 					},
 					"AVLrk4w0": {
-						"animation": "sw08decor/reef/AVLrk4w0",
+						"animation": "swDecorations/reef/AVLrk4w0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -54,7 +54,7 @@
 						]
 					},
 					"ZReef1": {
-						"animation": "sw08decor/reef/ZReef1",
+						"animation": "swDecorations/reef/ZReef1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -68,7 +68,7 @@
 						]
 					},
 					"ZReef2": {
-						"animation": "sw08decor/reef/ZReef2",
+						"animation": "swDecorations/reef/ZReef2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -82,7 +82,7 @@
 						]
 					},
 					"ZReef3": {
-						"animation": "sw08decor/reef/ZReef3",
+						"animation": "swDecorations/reef/ZReef3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -96,7 +96,7 @@
 						]
 					},
 					"ZReef4": {
-						"animation": "sw08decor/reef/ZReef4",
+						"animation": "swDecorations/reef/ZReef4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -111,7 +111,7 @@
 						]
 					},
 					"ZReef5": {
-						"animation": "sw08decor/reef/ZReef5",
+						"animation": "swDecorations/reef/ZReef5",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -126,7 +126,7 @@
 						]
 					},
 					"ZWVolc1": {
-						"animation": "sw08decor/reef/ZWVolc1",
+						"animation": "swDecorations/reef/ZWVolc1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -140,7 +140,7 @@
 						]
 					},
 					"Zreef2": {
-						"animation": "sw08decor/reef/082/Zreef2",
+						"animation": "swDecorations/reef/082/Zreef2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -154,7 +154,7 @@
 						]
 					},
 					"Zreef3": {
-						"animation": "sw08decor/reef/082/Zreef3",
+						"animation": "swDecorations/reef/082/Zreef3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -168,7 +168,7 @@
 						]
 					},
 					"Zreef4": {
-						"animation": "sw08decor/reef/082/Zreef4",
+						"animation": "swDecorations/reef/082/Zreef4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -193,7 +193,7 @@
 				},
 				"templates": {
 					"zreef6": {
-						"animation": "sw08decor/reef/zreef6",
+						"animation": "swDecorations/reef/zreef6",
 						"visitableFrom": [
 							"---",
 							"+++",

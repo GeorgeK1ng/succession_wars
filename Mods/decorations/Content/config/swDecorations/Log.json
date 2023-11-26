@@ -1,7 +1,7 @@
 {
 	"core:log": {
 		"types": {
-			"sw08decorlogs": {
+			"swlogs": {
 				"name": "Log",
 				"rmg": {
 					"zoneLimit": 7,
@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"avldlog": {
-						"animation": "sw08decor/log/avldlog",
+						"animation": "swDecorations/log/avldlog",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -26,7 +26,7 @@
 					}
 				}
 			},
-			"sw08decorstomps": {
+			"swstomps": {
 				"name": "Stomps",
 				"rmg": {
 					"zoneLimit": 7,
@@ -35,7 +35,7 @@
 				},
 				"templates": {
 					"AVLp1sn0": {
-						"animation": "sw08decor/log/AVLp1sn0",
+						"animation": "swDecorations/log/AVLp1sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -49,7 +49,7 @@
 						]
 					},
 					"AVLp2sn0": {
-						"animation": "sw08decor/log/AVLp2sn0",
+						"animation": "swDecorations/log/AVLp2sn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -63,7 +63,7 @@
 						]
 					},
 					"AVLsh4g0": {
-						"animation": "sw08decor/log/AVLsh4g0",
+						"animation": "swDecorations/log/AVLsh4g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -79,7 +79,7 @@
 						]
 					},
 					"AVLsh4g01": {
-						"animation": "sw08decor/log/AVLsh4g01",
+						"animation": "swDecorations/log/AVLsh4g01",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -93,7 +93,7 @@
 						]
 					},
 					"avlstm1": {
-						"animation": "sw08decor/log/avlstm1",
+						"animation": "swDecorations/log/avlstm1",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -109,7 +109,7 @@
 						]
 					},
 					"avlstm2": {
-						"animation": "sw08decor/log/avlstm2",
+						"animation": "swDecorations/log/avlstm2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -125,7 +125,7 @@
 						]
 					},
 					"avlstm3": {
-						"animation": "sw08decor/log/avlstm3",
+						"animation": "swDecorations/log/avlstm3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -139,7 +139,7 @@
 						]
 					},
 					"AVSwdec4": {
-						"animation": "sw08decor/log/AVSwdec4",
+						"animation": "swDecorations/log/AVSwdec4",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -153,7 +153,7 @@
 						]
 					},
 					"AVSwdec5": {
-						"animation": "sw08decor/log/AVSwdec5",
+						"animation": "swDecorations/log/AVSwdec5",
 						"visitableFrom": [
 							"---",
 							"+++",

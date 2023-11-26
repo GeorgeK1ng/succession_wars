@@ -1,30 +1,153 @@
 {
-	"core:grassHills": {
+	"core:lake": {
 		"types": {
-			"swo08_dunes": {
-				"name": "Dunes",
+			"sw08lake01": {
+				"name": "Lake",
 				"rmg": {
+					"zoneLimit": 1,
 					"value": 100,
 					"rarity": 50
 				},
 				"templates": {
-					"AVLdun10": {
-						"animation": "sw08decor/dunes/AVLdun10",
+					"AVEwwhl0": {
+						"animation": "swDecorations/lake/AVEwwhl0",
 						"visitableFrom": [
 							"---",
 							"+++",
 							"+++"
 						],
 						"mask": [
-							"VBB"
+							"BBBVV",
+							"BBBBV",
+							"BBBBB"
 						],
 						"allowedTerrains": [
-							"subterra",
-							"sand"
+							"swamp"
 						]
 					},
-					"AVLdun20": {
-						"animation": "sw08decor/dunes/AVLdun20",
+					"AVEwwsn0": {
+						"animation": "swDecorations/lake/AVEwwsn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB",
+							"BBB",
+							"BBB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"AVLflk10": {
+						"animation": "swDecorations/lake/AVLflk10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBBBV",
+							"VBBBB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"newAVLflk10": {
+						"animation": "swDecorations/lake/082/AVLflk10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBBBV",
+							"VBBBB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVLflk20": {
+						"animation": "swDecorations/lake/AVLflk20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVLflk30": {
+						"animation": "swDecorations/lake/AVLflk30",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"avllk1d0": {
+						"animation": "swDecorations/lake/avllk1d0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBBB",
+							"BBBB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"avllk1g0": {
+						"animation": "swDecorations/lake/avllk1g0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"BBBBB",
+							"BBBBB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avllk1s0": {
+						"animation": "swDecorations/lake/avllk1s0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBV",
+							"BBBV",
+							"BBBV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"avllk2d0": {
+						"animation": "swDecorations/lake/avllk2d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -34,219 +157,56 @@
 							"BB"
 						],
 						"allowedTerrains": [
-							"subterra",
-							"sand"
+							"dirt"
 						]
 					},
-					"AVLmd1r0": {
-						"animation": "sw08decor/dunes/AVLmd1r0",
+					"avllk2g0": {
+						"animation": "swDecorations/lake/avllk2g0",
 						"visitableFrom": [
 							"---",
 							"+++",
 							"+++"
 						],
 						"mask": [
-							"VBB"
+							"BBBB",
+							"BBBB"
 						],
 						"allowedTerrains": [
-							"hmm2desert"
+							"grass"
 						]
 					},
-					"AVLmd2r0": {
-						"animation": "sw08decor/dunes/AVLmd2r0",
+					"avllk2s0": {
+						"animation": "swDecorations/lake/avllk2s0",
 						"visitableFrom": [
 							"---",
 							"+++",
 							"+++"
 						],
 						"mask": [
-							"VBB"
+							"BBBB",
+							"BBBB"
 						],
 						"allowedTerrains": [
-							"hmm2desert"
+							"swamp"
 						]
 					},
-					"AVLmd3r0": {
-						"animation": "sw08decor/dunes/AVLmd3r0",
+					"avllk3d0": {
+						"animation": "swDecorations/lake/avllk3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
 							"+++"
 						],
 						"mask": [
-							"VBBB"
-						],
-						"allowedTerrains": [
-							"hmm2desert"
-						]
-					},
-					"AVLoc1r0": {
-						"animation": "sw08decor/dunes/AVLoc1r0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVV",
-							"VBB"
-						],
-						"allowedTerrains": [
-							"hmm2desert"
-						]
-					},
-					"AVLoc2r0": {
-						"animation": "sw08decor/dunes/AVLoc2r0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB"
-						],
-						"allowedTerrains": [
-							"hmm2desert"
-						]
-					},
-					"AVLoc3r0": {
-						"animation": "sw08decor/dunes/AVLoc3r0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB"
-						],
-						"allowedTerrains": [
-							"hmm2desert"
-						]
-					},
-					"avlxds07": {
-						"animation": "sw08decor/dunes/avlxds07",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB"
-						],
-						"allowedTerrains": [
-							"sand"
-						]
-					},
-					"avlxds08": {
-						"animation": "sw08decor/dunes/avlxds08",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB"
-						],
-						"allowedTerrains": [
-							"sand"
-						]
-					},
-					"avlxds09": {
-						"animation": "sw08decor/dunes/avlxds09",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBBB"
-						],
-						"allowedTerrains": [
-							"sand"
-						]
-					}
-				}
-			},
-			"swo08_dunes2": {
-				"name": "Hill",
-				"rmg": {
-					"value": 100,
-					"rarity": 50
-				},
-				"templates": {
-					"avlmd1d0": {
-						"animation": "sw08decor/hill/avlmd1d0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB"
+							"VBBBBBBBB",
+							"VBBBBBBBV"
 						],
 						"allowedTerrains": [
 							"dirt"
 						]
 					},
-					"avlmd1g0": {
-						"animation": "sw08decor/hill/avlmd1g0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVVV",
-							"VBBB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"avlmd2d0": {
-						"animation": "sw08decor/hill/avlmd2d0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"avlmd2g0": {
-						"animation": "sw08decor/hill/avlmd2g0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"avlmd3g0": {
-						"animation": "sw08decor/hill/avlmd3g0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"SW_spider": {
-						"animation": "sw08decor/hill/SW_spider",
+					"avllk3g0": {
+						"animation": "swDecorations/lake/avllk3g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -257,6 +217,67 @@
 						],
 						"allowedTerrains": [
 							"grass"
+						]
+					},
+					"avllk3s0": {
+						"animation": "swDecorations/lake/avllk3s0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BBBBBBV",
+							"BBBBBBB",
+							"BBBBBBB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"avllk4g0": {
+						"animation": "swDecorations/lake/avllk4g0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avllk5g0": {
+						"animation": "swDecorations/lake/avllk5g0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"BB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVLllk20": {
+						"animation": "swDecorations/lake/AVLllk20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBBBVV",
+							"BBBBBB",
+							"VBBBBV"
+						],
+						"allowedTerrains": [
+							"rough"
 						]
 					}
 				}

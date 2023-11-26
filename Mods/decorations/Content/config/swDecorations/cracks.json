@@ -10,7 +10,7 @@
 				},
 				"templates": {
 					"avclt3d0": {
-						"animation": "sw08decor/cracks/avclt3d0",
+						"animation": "swDecorations/cracks/avclt3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -24,7 +24,7 @@
 						]
 					},
 					"AVLb2f0": {
-						"animation": "sw08decor/cracks/AVLb2f0",
+						"animation": "swDecorations/cracks/AVLb2f0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -39,7 +39,7 @@
 						]
 					},
 					"AVLb3f0": {
-						"animation": "sw08decor/cracks/AVLb3f0",
+						"animation": "swDecorations/cracks/AVLb3f0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -55,7 +55,7 @@
 						]
 					},
 					"zdec0013": {
-						"animation": "sw08decor/cracks/zdec0013",
+						"animation": "swDecorations/cracks/zdec0013",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -70,7 +70,7 @@
 						]
 					},
 					"AVLb4f0": {
-						"animation": "sw08decor/cracks/AVLb4f0",
+						"animation": "swDecorations/cracks/AVLb4f0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -85,7 +85,7 @@
 						]
 					},
 					"avlc10l0": {
-						"animation": "sw08decor/cracks/avlc10l0",
+						"animation": "swDecorations/cracks/avlc10l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -99,7 +99,7 @@
 						]
 					},
 					"avlc11l0": {
-						"animation": "sw08decor/cracks/avlc11l0",
+						"animation": "swDecorations/cracks/avlc11l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -114,7 +114,7 @@
 						]
 					},
 					"avlc12l0": {
-						"animation": "sw08decor/cracks/avlc12l0",
+						"animation": "swDecorations/cracks/avlc12l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -128,7 +128,7 @@
 						]
 					},
 					"avlc13l0": {
-						"animation": "sw08decor/cracks/avlc13l0",
+						"animation": "swDecorations/cracks/avlc13l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -142,7 +142,7 @@
 						]
 					},
 					"avlc14l0": {
-						"animation": "sw08decor/cracks/avlc14l0",
+						"animation": "swDecorations/cracks/avlc14l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -156,7 +156,7 @@
 						]
 					},
 					"avlct1d0": {
-						"animation": "sw08decor/cracks/avlct1d0",
+						"animation": "swDecorations/cracks/avlct1d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -170,7 +170,7 @@
 						]
 					},
 					"AVLct1g0": {
-						"animation": "sw08decor/cracks/AVLct1g0",
+						"animation": "swDecorations/cracks/AVLct1g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -185,7 +185,7 @@
 						]
 					},
 					"AVLct1l0": {
-						"animation": "sw08decor/cracks/AVLct1l0",
+						"animation": "swDecorations/cracks/AVLct1l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -200,7 +200,7 @@
 						]
 					},
 					"AVLct1r0": {
-						"animation": "sw08decor/cracks/AVLct1r0",
+						"animation": "swDecorations/cracks/AVLct1r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -215,7 +215,7 @@
 						]
 					},
 					"AVLct1u0": {
-						"animation": "sw08decor/cracks/AVLct1u0",
+						"animation": "swDecorations/cracks/AVLct1u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -230,7 +230,7 @@
 						]
 					},
 					"avlct2d0": {
-						"animation": "sw08decor/cracks/avlct2d0",
+						"animation": "swDecorations/cracks/avlct2d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -244,7 +244,7 @@
 						]
 					},
 					"AVLct2g0": {
-						"animation": "sw08decor/cracks/AVLct2g0",
+						"animation": "swDecorations/cracks/AVLct2g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -259,7 +259,7 @@
 						]
 					},
 					"AVLct2l0": {
-						"animation": "sw08decor/cracks/AVLct2l0",
+						"animation": "swDecorations/cracks/AVLct2l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -275,7 +275,7 @@
 						]
 					},
 					"AVLct2r0": {
-						"animation": "sw08decor/cracks/AVLct2r0",
+						"animation": "swDecorations/cracks/AVLct2r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -291,7 +291,7 @@
 						]
 					},
 					"AVLct2u0": {
-						"animation": "sw08decor/cracks/AVLct2u0",
+						"animation": "swDecorations/cracks/AVLct2u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -305,7 +305,7 @@
 						]
 					},
 					"avlct3d0": {
-						"animation": "sw08decor/cracks/avlct3d0",
+						"animation": "swDecorations/cracks/avlct3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -319,7 +319,7 @@
 						]
 					},
 					"avlct3g0": {
-						"animation": "sw08decor/cracks/avlct3g0",
+						"animation": "swDecorations/cracks/avlct3g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -335,7 +335,7 @@
 						]
 					},
 					"avlct3l0": {
-						"animation": "sw08decor/cracks/avlct3l0",
+						"animation": "swDecorations/cracks/avlct3l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -350,7 +350,7 @@
 						]
 					},
 					"avlct3r0": {
-						"animation": "sw08decor/cracks/avlct3r0",
+						"animation": "swDecorations/cracks/avlct3r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -364,7 +364,7 @@
 						]
 					},
 					"avlct3u0": {
-						"animation": "sw08decor/cracks/avlct3u0",
+						"animation": "swDecorations/cracks/avlct3u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -380,7 +380,7 @@
 						]
 					},
 					"avlct4d0": {
-						"animation": "sw08decor/cracks/avlct4d0",
+						"animation": "swDecorations/cracks/avlct4d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -394,7 +394,7 @@
 						]
 					},
 					"avlct4l0": {
-						"animation": "sw08decor/cracks/avlct4l0",
+						"animation": "swDecorations/cracks/avlct4l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -409,7 +409,7 @@
 						]
 					},
 					"avlct4r0": {
-						"animation": "sw08decor/cracks/avlct4r0",
+						"animation": "swDecorations/cracks/avlct4r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -423,7 +423,7 @@
 						]
 					},
 					"avlct4u0": {
-						"animation": "sw08decor/cracks/avlct4u0",
+						"animation": "swDecorations/cracks/avlct4u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -439,7 +439,7 @@
 						]
 					},
 					"avlct5d0": {
-						"animation": "sw08decor/cracks/avlct5d0",
+						"animation": "swDecorations/cracks/avlct5d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -453,7 +453,7 @@
 						]
 					},
 					"avlct5l0": {
-						"animation": "sw08decor/cracks/avlct5l0",
+						"animation": "swDecorations/cracks/avlct5l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -468,7 +468,7 @@
 						]
 					},
 					"avlct5r0": {
-						"animation": "sw08decor/cracks/avlct5r0",
+						"animation": "swDecorations/cracks/avlct5r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -482,7 +482,7 @@
 						]
 					},
 					"avlct6l0": {
-						"animation": "sw08decor/cracks/avlct6l0",
+						"animation": "swDecorations/cracks/avlct6l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -497,7 +497,7 @@
 						]
 					},
 					"avlct6r0": {
-						"animation": "sw08decor/cracks/avlct6r0",
+						"animation": "swDecorations/cracks/avlct6r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -512,7 +512,7 @@
 						]
 					},
 					"avlct7l0": {
-						"animation": "sw08decor/cracks/avlct7l0",
+						"animation": "swDecorations/cracks/avlct7l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -527,7 +527,7 @@
 						]
 					},
 					"avlct7r0": {
-						"animation": "sw08decor/cracks/avlct7r0",
+						"animation": "swDecorations/cracks/avlct7r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -541,7 +541,7 @@
 						]
 					},
 					"avlct8l0": {
-						"animation": "sw08decor/cracks/avlct8l0",
+						"animation": "swDecorations/cracks/avlct8l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -556,7 +556,7 @@
 						]
 					},
 					"avlct8r0": {
-						"animation": "sw08decor/cracks/avlct8r0",
+						"animation": "swDecorations/cracks/avlct8r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -570,7 +570,7 @@
 						]
 					},
 					"avlct9l0": {
-						"animation": "sw08decor/cracks/avlct9l0",
+						"animation": "swDecorations/cracks/avlct9l0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -584,7 +584,7 @@
 						]
 					},
 					"avlct9r0": {
-						"animation": "sw08decor/cracks/avlct9r0",
+						"animation": "swDecorations/cracks/avlct9r0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -599,7 +599,7 @@
 						]
 					},
 					"newAVLct1g0": {
-						"animation": "sw08decor/cracks/082/AVLct1g0",
+						"animation": "swDecorations/cracks/082/AVLct1g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -614,7 +614,7 @@
 						]
 					},
 					"newAVLct1u0": {
-						"animation": "sw08decor/cracks/082/AVLct1u0",
+						"animation": "swDecorations/cracks/082/AVLct1u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -629,7 +629,7 @@
 						]
 					},
 					"newavlct2d0": {
-						"animation": "sw08decor/cracks/082/avlct2d0",
+						"animation": "swDecorations/cracks/082/avlct2d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -643,7 +643,7 @@
 						]
 					},
 					"newAVLct2u0": {
-						"animation": "sw08decor/cracks/082/AVLct2u0",
+						"animation": "swDecorations/cracks/082/AVLct2u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -657,7 +657,7 @@
 						]
 					},
 					"newavlct3d0": {
-						"animation": "sw08decor/cracks/082/avlct3d0",
+						"animation": "swDecorations/cracks/082/avlct3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -671,7 +671,7 @@
 						]
 					},
 					"newAVLct3u0": {
-						"animation": "sw08decor/cracks/082/AVLct3u0",
+						"animation": "swDecorations/cracks/082/AVLct3u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -697,7 +697,7 @@
 				},
 				"templates": {
 					"AVLb1f0": {
-						"animation": "sw08decor/crater/AVLb1f0",
+						"animation": "swDecorations/crater/AVLb1f0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -711,7 +711,7 @@
 						]
 					},
 					"AVLctds0": {
-						"animation": "sw08decor/crater/AVLctds0",
+						"animation": "swDecorations/crater/AVLctds0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -725,7 +725,7 @@
 						]
 					},
 					"avlctrd0": {
-						"animation": "sw08decor/crater/avlctrd0",
+						"animation": "swDecorations/crater/avlctrd0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -739,7 +739,7 @@
 						]
 					},
 					"AVLctrg0": {
-						"animation": "sw08decor/crater/AVLctrg0",
+						"animation": "swDecorations/crater/AVLctrg0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -753,7 +753,7 @@
 						]
 					},
 					"AVLctrl0": {
-						"animation": "sw08decor/crater/AVLctrl0",
+						"animation": "swDecorations/crater/AVLctrl0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -767,7 +767,7 @@
 						]
 					},
 					"AVLctrr0": {
-						"animation": "sw08decor/crater/AVLctrr0",
+						"animation": "swDecorations/crater/AVLctrr0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -781,7 +781,7 @@
 						]
 					},
 					"AVLctrs0": {
-						"animation": "sw08decor/crater/AVLctrs0",
+						"animation": "swDecorations/crater/AVLctrs0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -795,7 +795,7 @@
 						]
 					},
 					"AVLctsn0": {
-						"animation": "sw08decor/crater/AVLctsn0",
+						"animation": "swDecorations/crater/AVLctsn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -809,7 +809,7 @@
 						]
 					},
 					"AVLglly0": {
-						"animation": "sw08decor/crater/AVLglly0",
+						"animation": "swDecorations/crater/AVLglly0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -823,7 +823,7 @@
 						]
 					},
 					"AVLspit0": {
-						"animation": "sw08decor/crater/AVLspit0",
+						"animation": "swDecorations/crater/AVLspit0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -837,7 +837,7 @@
 						]
 					},
 					"avlctrd01": {
-						"animation": "sw08decor/crater/avlctrd01",
+						"animation": "swDecorations/crater/avlctrd01",
 						"visitableFrom": [
 							"---",
 							"+++",
