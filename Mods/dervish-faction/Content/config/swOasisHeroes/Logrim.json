@@ -1,0 +1,60 @@
+{
+	"sw08Logrim": {
+		"female": false,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Logrim",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Sorcery",
+				"tooltip": "Receives a 5% per level bonus to Sorcery skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:135",
+			"specialtyLarge": "swOasisHeroes/UN44.def:135",
+			"large": "swOasisHeroes/port/082/HPL007PL",
+			"small": "swOasisHeroes/port/082/HPS007PL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "spellSchool.any",
+					"valueType": "PERCENT_TO_BASE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

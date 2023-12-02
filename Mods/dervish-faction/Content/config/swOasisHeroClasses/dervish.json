@@ -1,0 +1,78 @@
+{
+	"swswOasis": {
+		"name": "Dervish",
+		"faction": "swOasisfaction",
+		"affinity": "might",
+		"commander": "swOasisMedusaQueen",
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "swOasisHeroClasses/AH17_"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"female": "swOasisHeroClasses/CH16",
+				"male": "swOasisHeroClasses/CH17"
+			}
+		},
+		//primaryskills, lowlevelchance, highlevelchance are all values from original H2
+		"primarySkills":
+		{
+			"attack": 1,
+			"defence": 1,
+			"spellpower": 2,
+			"knowledge": 1
+		},
+		"lowLevelChance": {
+			"attack": 20,
+			"defence": 20,
+			"spellpower": 30,
+			"knowledge": 30
+		},
+		"highLevelChance": {
+			"attack": 25,
+			"defence": 25,
+			"spellpower": 25,
+			"knowledge": 25
+		},
+		//I copied the H2 values on the skills that exist in H2, the rest needs balancing,
+		// they're also sorted alphabetically from H2, + H3 skills after
+		"secondarySkills": {
+			"archery": 8,
+			"ballistics": 8,
+			"diplomacy": 2,
+			"eagleEye": 2,
+			"estates": 3,
+			"leadership": 3,
+			"logistics": 8,
+			"luck": 2,
+			"mysticism": 3,
+			"navigation": 5,
+			"necromancy": 0,
+			"pathfinding": 6,
+			"scouting": 6,
+			"wisdom": 2,
+			"fireMagic": 3,
+			"airMagic": 2,
+			"waterMagic": 2,
+			"earthMagic": 3,
+			"scholar": 1,
+			"tactics": 8,
+			"artillery": 8,
+			"learning": 8,
+			"offence": 9,
+			"armorer": 5,
+			"intelligence": 1,
+			"sorcery": 1,
+			"resistance": 2,
+			"firstAid": 1
+		},
+		"defaultTavern": 4,
+		"tavern": //needs fixing, I copied values from HCTRAITS.txt
+		{
+			"swOasisfaction": 8
+		}
+	}
+}

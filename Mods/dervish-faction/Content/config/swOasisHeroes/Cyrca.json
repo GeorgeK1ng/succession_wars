@@ -1,0 +1,52 @@
+{
+	"sw08Cyrca": {
+		"female": true,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Cyrca",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Medusas or Medusa Queens",
+				"description": "Medusas or Medusa Queens",
+				"tooltip": "Increases the Attack and Defense skills of any Medusas or Medusa Queens for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:130",
+			"specialtyLarge": "swOasisHeroes/UN44.def:130",
+			"large": "swOasisHeroes/port/HPL002PL",
+			"small": "swOasisHeroes/port/HPS002PL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisMedusa",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "swOasisMedusa"
+		}
+	}
+}

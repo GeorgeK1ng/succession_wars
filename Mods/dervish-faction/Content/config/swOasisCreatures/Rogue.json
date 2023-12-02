@@ -1,0 +1,72 @@
+{
+	"swOasisRogue": {
+		"name": {
+			"singular": "Rogue",
+			"plural": "Rogues"
+		},
+		"faction": "swOasisfaction",
+		"level": 1,
+		"cost": {
+			"gold": 60
+		},
+		"speed": 6,
+		"hitPoints": 4,
+		"shots": 0,
+		"attack": 5,
+		"defense": 1,
+		"damage": {
+			"min": 1,
+			"max": 2
+		},
+		"fightValue": 50,
+		"aiValue": 70,
+		"advMapAmount": {
+			"min": 25,
+			"max": 45
+		},
+		"growth": 10,
+		"horde": 5,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swOasisMarauder"
+		],
+		"abilities": {
+			"ability1": {
+				"type": "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swOasisCreatures/cprsmall.def:120",
+			"iconLarge": "swOasisCreatures/TWCRPORT.def:120",
+			"map": "swOasisCreatures/map/AVWpixie",
+			"animation": "swOasisCreatures/battle/c118rogu",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swOasisCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "rogue/PIXIATTK.wav",
+			"defend": "rogue/PIXIDFND.wav",
+			"killed": "rogue/PIXIKILL.wav",
+			"move": "rogue/PIXIMOVE.wav",
+			"wince": "rogue/PIXIWNCE.wav"
+		}
+	}
+}

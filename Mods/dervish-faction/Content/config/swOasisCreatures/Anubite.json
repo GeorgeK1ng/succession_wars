@@ -1,0 +1,73 @@
+{
+	"swOasisAnubite": {
+		"name": {
+			"singular": "Anubite",
+			"plural": "Anubites"
+		},
+		"faction": "swOasisfaction",
+		"level": 6,
+		"cost": {
+			"gold": 850
+		},
+		"speed": 6,
+		"hitPoints": 70,
+		"shots": 0,
+		"attack": 10,
+		"defense": 10,
+		"damage": {
+			"min": 12,
+			"max": 16
+		},
+		"fightValue": 1231,
+		"aiValue": 1169,
+		"advMapAmount": {
+			"min": 7,
+			"max": 10
+		},
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability3": {
+				"type": "MIND_IMMUNITY"
+			},
+			"abilit4": {
+				"type": "NON_LIVING"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swOasisCreatures/cprsmall.def:116",
+			"iconLarge": "swOasisCreatures/TWCRPORT.def:116",
+			"map": "swOasisCreatures/map/AVWnrg",
+			"animation": "swOasisCreatures/battle/c128anub",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swOasisCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 12
+			}
+		},
+		"sound": {
+			"attack": "Anubite/ANUBattk.wav",
+			"defend": "Anubite/ANUBdfnd.wav",
+			"killed": "Anubite/ANUBkill.wav",
+			"move": "Anubite/ANUBmove.wav",
+			"wince": "Anubite/ANUBwnce.wav"
+			// "shoot":"Anubite/"
+		}
+	}
+}

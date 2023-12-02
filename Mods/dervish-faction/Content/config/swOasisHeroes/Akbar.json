@@ -1,0 +1,52 @@
+{
+	"sw08Akbar": {
+		"female": false,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Akbar",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Nomads",
+				"description": "Nomads",
+				"tooltip": "Increases the Attack and Defense skills of any Nomads for each level attained after 3rd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:132",
+			"specialtyLarge": "swOasisHeroes/UN44.def:132",
+			"large": "swOasisHeroes/port/new/Nomad01L",
+			"small": "swOasisHeroes/port/new/Nomad01S"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "logistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "swOasisNomad"
+		}
+	}
+}

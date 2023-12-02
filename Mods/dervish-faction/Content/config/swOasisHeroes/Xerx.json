@@ -1,0 +1,52 @@
+{
+	"sw08Xerx": {
+		"female": false,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Xerx",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Anubites",
+				"description": "Anubites",
+				"tooltip": "Increases the Attack and Defense skills of any Anubites for each level attained after 6th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:137",
+			"specialtyLarge": "swOasisHeroes/UN44.def:137",
+			"large": "swOasisHeroes/port/HPL001EL",
+			"small": "swOasisHeroes/port/HPS001EL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "swOasisAnubite"
+		}
+	}
+}

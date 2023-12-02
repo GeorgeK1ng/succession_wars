@@ -1,0 +1,73 @@
+{
+	"swOasisAcolyte": {
+		"name": {
+			"singular": "Acolyte",
+			"plural": "Acolytes"
+		},
+		"faction": "swOasisfaction",
+		"level": 2,
+		"cost": {
+			"gold": 125
+		},
+		"speed": 4,
+		"hitPoints": 10,
+		"shots": 12,
+		"attack": 6,
+		"defense": 2,
+		"damage": {
+			"min": 2,
+			"max": 4
+		},
+		"fightValue": 114,
+		"aiValue": 126,
+		"advMapAmount": {
+			"min": 18,
+			"max": 25
+		},
+		"growth": 9,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			}
+			// "ability2": {
+			// 	"type": "Half damage to mind resistant creatures"
+			// }
+		},
+		"graphics": {
+			"iconSmall": "swOasisCreatures/cprsmall.def:122",
+			"iconLarge": "swOasisCreatures/TWCRPORT.def:122",
+			"map": "swOasisCreatures/map/AVWpsye",
+			"animation": "swOasisCreatures/battle/c120acol",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swOasisCreatures/battle/Pacol",
+				"offset": {
+					"upperX": 38,
+					"upperY": -65,
+					"middleX": 36,
+					"middleY": -59,
+					"lowerX": 21,
+					"lowerY": -50
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
+			}
+		},
+		"sound": {
+			"attack": "acolyte/PSYCATTK",
+			"defend": "acolyte/PSYCDFND",
+			"killed": "acolyte/PSYCKILL",
+			"move": "acolyte/PSYCMOVE",
+			"wince": "acolyte/PSYCWNCE",
+			"shoot": "acolyte/PSYCSHOT"
+		}
+	}
+}

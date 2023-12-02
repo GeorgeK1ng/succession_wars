@@ -1,0 +1,58 @@
+{
+	"sw08Ivan": {
+		"female": false,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Ivan",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Magic Resistance",
+				"description": "Magic Resistance",
+				"tooltip": "Receives a 5% per level bonus to Magic Resistance skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:134",
+			"specialtyLarge": "swOasisHeroes/UN44.def:134",
+			"large": "swOasisHeroes/port/HPL006PL",
+			"small": "swOasisHeroes/port/HPS006PL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "resistance",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MAGIC_RESISTANCE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

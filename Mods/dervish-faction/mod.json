@@ -1,6 +1,6 @@
 {
-	"name": "SW Beta 0.81 - Gypsy Town",
-	"description": "Gypsy Town",
+	"name": "SW Gypsy Faction",
+	"description": "Gypsy Faction",
 	"modType": "Town",
 	"author": "author",
 	"contact": "none",
@@ -12,56 +12,56 @@
 	],
 	"factions":
 	[
-		"config/sw08oasis/buildings.json",
-		"config/sw08oasis/faction.json",
-		"config/sw08oasis/siege.json",
-		"config/sw08oasis/spells.json",
-		"config/sw08oasis/structures.json",
-		"config/sw08oasis/puzzle.json",
-		"config/sw08oasis/texts.json"
+		"config/swOasis/buildings.json",
+		"config/swOasis/faction.json",
+		"config/swOasis/siege.json",
+		"config/swOasis/spells.json",
+		"config/swOasis/structures.json",
+		"config/swOasis/puzzle.json",
+		"config/swOasis/texts.json"
 	],
 	"creatures":
 	[
-		"config/sw08oasis-creatures/Acolyte.json",
-		"config/sw08oasis-creatures/Anubite.json",
-		"config/sw08oasis-creatures/Genie.json",
-		"config/sw08oasis-creatures/Manticore.json",
-		"config/sw08oasis-creatures/Marauder.json",
-		"config/sw08oasis-creatures/Medusa Queen.json",
-		"config/sw08oasis-creatures/Medusa.json",
-		"config/sw08oasis-creatures/Nomad.json",
-		"config/sw08oasis-creatures/Rogue.json"
+		"config/swOasisCreatures/Acolyte.json",
+		"config/swOasisCreatures/Anubite.json",
+		"config/swOasisCreatures/Genie.json",
+		"config/swOasisCreatures/Manticore.json",
+		"config/swOasisCreatures/Marauder.json",
+		"config/swOasisCreatures/Medusa Queen.json",
+		"config/swOasisCreatures/Medusa.json",
+		"config/swOasisCreatures/Nomad.json",
+		"config/swOasisCreatures/Rogue.json"
 	],
 	"heroClasses":
 	[
-		"config/sw08oasis-heroClasses/dervish.json"
+		"config/swOasisHeroClasses/dervish.json"
 	],
 	"heroes":
 	[
-		"config/sw08oasis-heroes/Akbar.json",
-		"config/sw08oasis-heroes/Cagan.json",
-		"config/sw08oasis-heroes/Cyrca.json",
-		"config/sw08oasis-heroes/Dahlia.json",
-		"config/sw08oasis-heroes/Draconia.json",
-		"config/sw08oasis-heroes/Elderian.json",
-		"config/sw08oasis-heroes/Ethania.json",
-		"config/sw08oasis-heroes/Hatshesup.json",
-		"config/sw08oasis-heroes/IbnFadlan.json",
-		"config/sw08oasis-heroes/Ivan.json",
-		"config/sw08oasis-heroes/Jarkonas.json",
-		"config/sw08oasis-heroes/Joseph.json",
-		"config/sw08oasis-heroes/Logrim.json",
-		"config/sw08oasis-heroes/Marcus.json",
-		"config/sw08oasis-heroes/Martine.json",
-		"config/sw08oasis-heroes/Sulman.json",
-		"config/sw08oasis-heroes/Thane.json",
-		"config/sw08oasis-heroes/Tumur.json",
-		"config/sw08oasis-heroes/Xerx.json"
+		"config/swOasisHeroes/Akbar.json",
+		"config/swOasisHeroes/Cagan.json",
+		"config/swOasisHeroes/Cyrca.json",
+		"config/swOasisHeroes/Dahlia.json",
+		"config/swOasisHeroes/Draconia.json",
+		"config/swOasisHeroes/Elderian.json",
+		"config/swOasisHeroes/Ethania.json",
+		"config/swOasisHeroes/Hatshesup.json",
+		"config/swOasisHeroes/IbnFadlan.json",
+		"config/swOasisHeroes/Ivan.json",
+		"config/swOasisHeroes/Jarkonas.json",
+		"config/swOasisHeroes/Joseph.json",
+		"config/swOasisHeroes/Logrim.json",
+		"config/swOasisHeroes/Marcus.json",
+		"config/swOasisHeroes/Martine.json",
+		"config/swOasisHeroes/Sulman.json",
+		"config/swOasisHeroes/Thane.json",
+		"config/swOasisHeroes/Tumur.json",
+		"config/swOasisHeroes/Xerx.json"
 	],
 	"objects":
 	[
-		"config/sw08oasis/dwellings.json",
-		"config/sw08oasis/banks.json",
-		"config/sw08oasis/genieLamp.json"
+		"config/swOasis/dwellings.json",
+		"config/swOasis/banks.json",
+		"config/swOasis/genieLamp.json"
 	]
 }

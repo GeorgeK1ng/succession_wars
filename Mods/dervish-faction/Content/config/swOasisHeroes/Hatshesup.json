@@ -1,0 +1,60 @@
+{
+	"sw08Hatshesup": {
+		"female": true,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Hatshesup",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Intelligence",
+				"description": "Intelligence",
+				"tooltip": "Receives a 6% per level bonus to Intelligence skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:136",
+			"specialtyLarge": "swOasisHeroes/UN44.def:136",
+			"large": "swOasisHeroes/port/new/seer10L",
+			"small": "swOasisHeroes/port/new/seer10S"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MANA_PER_KNOWLEDGE",
+					"valueType": "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"val": 6,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

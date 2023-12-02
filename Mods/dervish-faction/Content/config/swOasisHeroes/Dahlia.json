@@ -1,0 +1,52 @@
+{
+	"sw08Dahlia": {
+		"female": true,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Dahlia",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Manticores",
+				"description": "Manticores",
+				"tooltip": "Increases the Attack and Defense skills of any Manticores for each level attained after 5th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:140",
+			"specialtyLarge": "swOasisHeroes/UN44.def:140",
+			"large": "swOasisHeroes/port/HPL004EL",
+			"small": "swOasisHeroes/port/HPS004EL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "resistance",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "swOasisManticore"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"sw08Sulman": {
+		"female": false,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Sulman",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Acolytes",
+				"description": "Acolytes",
+				"tooltip": "Increases the Attack and Defense skills of any Acolytes for each level attained after 2nd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:138",
+			"specialtyLarge": "swOasisHeroes/UN44.def:138",
+			"large": "swOasisHeroes/port/HPL002EL",
+			"small": "swOasisHeroes/port/HPS002EL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "swOasisAcolyte"
+		}
+	}
+}

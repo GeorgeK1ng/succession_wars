@@ -1,0 +1,52 @@
+{
+	"sw08Thane": {
+		"female": false,
+		"class": "swswOasis",
+		"texts": {
+			"name": "Thane",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Ballista",
+				"description": "Ballista",
+				"tooltip": "Increases the Attack and Defense skills of any Ballista for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swOasisHeroes/UN32.def:139",
+			"specialtyLarge": "swOasisHeroes/UN44.def:139",
+			"large": "swOasisHeroes/port/HPL003EL",
+			"small": "swOasisHeroes/port/HPS003EL"
+		},
+		"spellbook": [],
+		"army": [
+			{
+				"creature": "swOasisRogue",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swOasisAcolyte",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swOasisNomad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill": "ballistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "ballista"
+		}
+	}
+}

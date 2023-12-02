@@ -1,0 +1,216 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"swOasisfactionLevel1": {
+				"name": "Wagon Camp",
+				"creatures": [
+					[
+						"swOasisRogue"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 50, "type": "swOasisRogue" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swOasis/adventure-map/AVGpixie",
+						"mask": [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"swOasisfactionLevel2": {
+				"name": "Temple",
+				"creatures": [
+					[
+						"swOasisAcolyte"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 30, "type": "swOasisAcolyte" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swOasis/adventure-map/AVGelp",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swOasisfactionLevel3": {
+				"name": "Desert Tent",
+				"creatures": [
+					[
+						"swOasisNomad"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 22, "type": "swOasisNomad" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swOasis/adventure-map/AVGelr",
+						"mask": [
+							"VVV",
+							"VAB"
+						]
+					},
+					"default2": {
+						"animation": "swOasis/adventure-map/AVG2ela",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swOasisfactionLevel4": {
+				"name": "Chapel",
+				"creatures": [
+					[
+						"swOasisMedusa"
+					]
+				],
+				"guards": [
+					{
+						"amount": 16,
+						"type": "swOasisMedusa"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swOasis/adventure-map/AVG2ele",
+						"mask": [
+							"VBA"
+						]
+					}
+				}
+			},
+			"swOasisfactionLevel5": {
+				"name": "Pit",
+				"creatures": [
+					[
+						"swOasisManticore"
+					]
+				],
+				"guards": [
+					{
+						"amount": 12,
+						"type": "swOasisManticore"
+					}
+				],
+				"templates": {
+					"PALM013": {
+						"animation": "swOasis/adventure-map/AVG2elf",
+						"mask": [
+							"VBA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			},
+			"swOasisfactionLevel6": {
+				"name": "Ancient Tomb",
+				"creatures": [
+					[
+						"swOasisAnubite"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "swOasisAnubite"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swOasis/adventure-map/AVG2elw",
+						"mask": [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"swOasisfactionLevel7": {
+				"name": "Altar Of Wishes",
+				"creatures": [
+					[
+						"swOasisGenie"
+					]
+				],
+				"guards": [
+					{
+						"amount": 3,
+						"type": "swOasisGenie"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swOasis/adventure-map/AVGfbrd",
+						"mask": [
+							"VVVV",
+							"VVAB"
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:warMachineFactory": {
+		"types": {
+			"warmachinesSw08WMs": {
+				"name": "Siege Machines Workshop",
+				"creatures": [
+					[
+						"swNeutralballista"
+					],
+					[
+						"swNeutralammoCart"
+					],
+					[
+						"swNeutralfirstAidTent"
+					]
+				],
+				"templates": {
+					"default": {
+						"animation": "swNeutralCreatures/map/AVGsieg0",
+						"mask": [
+							"VVVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"hmm2desert",
+							"sand",
+							"swamp"
+						]
+					},
+					"default2": {
+						"animation": "swNeutralCreatures/map/AVGsieg1",
+						"mask": [
+							"VVVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass",
+							"dirt",
+							"rough",
+							"hmm2desert",
+							"sand",
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

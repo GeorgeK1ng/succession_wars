@@ -1,0 +1,79 @@
+{
+	"swOasisMedusaQueen": {
+		"name": {
+			"singular": "Medusa Queen",
+			"plural": "Medusa Queens"
+		},
+		"faction": "swOasisfaction",
+		"level": 4,
+		"cost": {
+			"gold": 425
+		},
+		"speed": 6,
+		"hitPoints": 30,
+		"shots": 8,
+		"attack": 7,
+		"defense": 8,
+		"damage": {
+			"min": 5,
+			"max": 8
+		},
+		"fightValue": 470,
+		"aiValue": 523,
+		"advMapAmount": {
+			"min": 10,
+			"max": 18
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"abilities": {
+			"ability1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.stoneGaze",
+				"val": 30,
+				"addInfo": 2000
+			},
+			"ability2": {
+				"type": "SHOOTER"
+			},
+			"ability3": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swOasisCreatures/cprsmall.def:127",
+			"iconLarge": "swOasisCreatures/TWCRPORT.def:127",
+			"map": "swOasisCreatures/map/AVWrog",
+			"animation": "swOasisCreatures/battle/c125umed",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swOasisCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 30,
+					"upperY": -70,
+					"middleX": 40,
+					"middleY": -55,
+					"lowerX": 33,
+					"lowerY": -30
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
+			}
+		},
+		"sound": {
+			"attack": "medusa queen/MEDQATTK.wav",
+			"defend": "medusa queen/MEDQDFND.wav",
+			"killed": "medusa queen/MEDQKILL.wav",
+			"move": "medusa queen/MEDQMOVE.wav",
+			"wince": "medusa queen/MEDQWNCE.wav",
+			"shoot": "medusa queen/MEDQSHOT.wav"
+		}
+	}
+}
