@@ -1,0 +1,61 @@
+{
+	"swNecromancerDeathKnight": {
+		"name": {
+			"singular": "Death Knight",
+			"plural": "Death Knights"
+		},
+		"faction": "swswNecromancerfaction",
+		"level": 5,
+		"cost": {
+			"gold": 550
+		},
+		"speed": 5,
+		"hitPoints": 50,
+		"shots": 0,
+		"attack": 9,
+		"defense": 8,
+		"damage": {
+			"min": 7,
+			"max": 11
+		},
+		"fightValue": 639,
+		"aiValue": 692,
+		"advMapAmount": {
+			"min": 6,
+			"max": 12
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "DOUBLE_DAMAGE_CHANCE",
+				"val": 20
+			},
+			"ability2": {
+				"type": "UNDEAD"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swNecromancerCreatures/cprsmall.def:66",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:66",
+			"map": "swNecromancerCreatures/map/AVWlich0",
+			"animation": "swNecromancerCreatures/battle/c064dknt",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "swNecromancer/Death Knight/LICHATTK.wav",
+			"defend": "swNecromancer/Death Knight/LICHDFND.wav",
+			"killed": "swNecromancer/Death Knight/LICHKILL.wav",
+			"move": "swNecromancer/Death Knight/LICHmove.wav",
+			"wince": "swNecromancer/Death Knight/LICHWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

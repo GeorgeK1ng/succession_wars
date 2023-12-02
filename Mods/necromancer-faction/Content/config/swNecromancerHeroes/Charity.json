@@ -1,0 +1,60 @@
+{
+	"sw08Charity": {
+		"class": "swswNecromancer",
+		"female": true,
+		"texts": {
+			"name": "Charity",
+			"biography": "NO_TEXT",
+			"specialty": {
+				"name": "Necromancy",
+				"description": "Necromancy",
+				"tooltip": "Receives a 3% per level bonus to Necromancy skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swNecromancerHeroes/UN32.def:66",
+			"specialtyLarge": "swNecromancerHeroes/UN44.def:66",
+			"large": "swNecromancerHeroes/port/HPL066DK.bmp",
+			"small": "swNecromancerHeroes/port/HPS066DK.bmp"
+		},
+		"spellbook": [
+			"haste"
+		],
+		"army": [
+			{
+				"creature": "swNecromancerSkeleton",
+				"min": 22,
+				"max": 30
+			},
+			{
+				"creature": "swNecromancerZombie",
+				"min": 12,
+				"max": 18
+			},
+			{
+				"creature": "swNecromancerMummy",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "UNDEAD_RAISE_PERCENTAGE",
+					"val": 3,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

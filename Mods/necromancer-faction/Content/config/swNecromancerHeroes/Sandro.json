@@ -1,0 +1,62 @@
+{
+	"sw08Sandro": {
+		"class": "swswNecromancer",
+		"female": false,
+		"texts": {
+			"name": "Sandro",
+			"biography": "NO_TEXT",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Sorcery",
+				"tooltip": "Receives a 5% per level bonus to Sorcery skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swNecromancerHeroes/UN32.def:73",
+			"specialtyLarge": "swNecromancerHeroes/UN44.def:73",
+			"large": "swNecromancerHeroes/port/HPL073NC.bmp",
+			"small": "swNecromancerHeroes/port/HPS073NC.bmp"
+		},
+		"spellbook": [
+			"deathRipple"
+		],
+		"army": [
+			{
+				"creature": "swNecromancerSkeleton",
+				"min": 22,
+				"max": 30
+			},
+			{
+				"creature": "swNecromancerZombie",
+				"min": 12,
+				"max": 18
+			},
+			{
+				"creature": "swNecromancerMummy",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "spellSchool.any",
+					"valueType": "PERCENT_TO_BASE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"swNecromancerSkeleton": {
+		"name": {
+			"singular": "Skeleton",
+			"plural": "Skeletons"
+		},
+		"faction": "swswNecromancerfaction",
+		"level": 1,
+		"cost": {
+			"gold": 65
+		},
+		"speed": 5,
+		"hitPoints": 4,
+		"shots": 0,
+		"attack": 4,
+		"defense": 3,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"fightValue": 69,
+		"aiValue": 57,
+		"advMapAmount": {
+			"min": 20,
+			"max": 50
+		},
+		"growth": 10,
+		"horde": 5,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swNecromancerCreatures/cprsmall.def:58",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:58",
+			"map": "swNecromancerCreatures/map/AVWskel0",
+			"animation": "swNecromancerCreatures/battle/c056skel",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swNecromancerCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "swNecromancer/skeleton/SKELATTK.wav",
+			"defend": "swNecromancer/skeleton/SKELDFND.wav",
+			"killed": "swNecromancer/skeleton/SKELKILL.wav",
+			"move": "swNecromancer/skeleton/SKELMOVE.wav",
+			"wince": "swNecromancer/skeleton/SKELWNCE.wav"
+			// "shoot": ""
+		}
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"swNecromancerVampire": {
+		"name": {
+			"singular": "Vampire",
+			"plural": "Vampires"
+		},
+		"faction": "swswNecromancerfaction",
+		"level": 4,
+		"cost": {
+			"gold": 410
+		},
+		"speed": 6,
+		"hitPoints": 30,
+		"shots": 0,
+		"attack": 8,
+		"defense": 6,
+		"damage": {
+			"min": 5,
+			"max": 7
+		},
+		"fightValue": 371,
+		"aiValue": 380,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": ["swNecromancerVampireLord"],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
+			},
+			"ability2": {
+				"type": "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swNecromancerCreatures/cprsmall.def:64",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:64",
+			"map": "swNecromancerCreatures/map/AVWvamp0",
+			"animation": "swNecromancerCreatures/battle/c062vamp",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swNecromancerCreatures/battle/CPRGOGX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 6
+			}
+		},
+		"sound": {
+			"attack": "swNecromancer/vampire/VAMPATTK.wav",
+			"defend": "swNecromancer/vampire/VAMPDFND.wav",
+			"killed": "swNecromancer/vampire/VAMPKILL.wav",
+			"move": "swNecromancer/vampire/VAMPMOVE.wav",
+			"wince": "swNecromancer/vampire/VAMPWNCE.wav"
+			// "shoot":""
+			// "ext1":"vampire/VAMPEXT1.wav", // let's hope this ext works
+			// "ext1":"vampire/VAMPEXT2.wav"
+		}
+	}
+}

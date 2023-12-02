@@ -1,0 +1,77 @@
+{
+	"swNecromancerMutantZombie": {
+		"name": {
+			"singular": "Mutant Zombie",
+			"plural": "Mutant Zombies"
+		},
+		"faction": "swswNecromancerfaction",
+		"level": 2,
+		"cost": {
+			"gold": 145
+		},
+		"speed": 5,
+		"hitPoints": 20,
+		"shots": 0,
+		"attack": 5,
+		"defense": 2,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"fightValue": 169,
+		"aiValue": 164,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
+		},
+		"growth": 9,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
+			},
+			"ability2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.disease",
+				"val": 20,
+				"addInfo": 0
+			}
+		},
+		"graphics": {
+			"iconSmall": "swNecromancerCreatures/cprsmall.def:61",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:61",
+			"map": "swNecromancerCreatures/map/AVWzomx0",
+			"animation": "swNecromancerCreatures/battle/c059uzmb",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swNecromancerCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "swNecromancer/mutant zombie/ZMBLATTK.wav",
+			"defend": "swNecromancer/mutant zombie/ZMBLDFND.wav",
+			"killed": "swNecromancer/mutant zombie/ZMBLKILL.wav",
+			"move": "swNecromancer/mutant zombie/ZMBLMOVE.wav",
+			"wince": "swNecromancer/mutant zombie/ZMBLWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

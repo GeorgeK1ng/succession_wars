@@ -1,0 +1,245 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"swNecromancerLevel1": {
+				"name": "Excavation",
+				"creatures": [
+					[
+						"swNecromancerSkeleton"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 50, "type": "swNecromancerSkeleton" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swNecromancer/Adventure-Map/AVGskel0",
+						"mask": [
+							"VV",
+							"AB"
+						]
+					},
+					"default2": {
+						"animation": "swNecromancer/Adventure-Map/AVGskel1",
+						"mask": [
+							"BBA"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel1A": {
+				"name": "Cemetery",
+				"creatures": [
+					[
+						"swNecromancerSkeleton"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 50, "type": "swNecromancerSkeleton" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swNecromancer/Adventure-Map/AVGskel2",
+						"mask": [
+							"VA"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel2": {
+				"name": "Graveyard",
+				"creatures": [
+					[
+						"swNecromancerZombie"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 30, "type": "swNecromancerZombie" }
+				//				],
+				"templates": {
+					"def1": {
+						"animation": "swNecromancer/Adventure-Map/AVGzomb2",
+						"mask": [
+							"VBA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"def2": {
+						"animation": "swNecromancer/Adventure-Map/AVGzomb1",
+						"mask": [
+							"VBA"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel2Upg": {
+				"name": "Upg. Graveyard",
+				"creatures": [
+					[
+						"swNecromancerMutantZombie"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 30, "type": "swNecromancerMutantZombie" }
+				//				],
+				"templates": {
+					"def1": {
+						"animation": "swNecromancer/Adventure-Map/AVGzomb0",
+						"mask": [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel3": {
+				"name": "Upg. Pyramid",
+				"creatures": [
+					[
+						"swNecromancerRoyalMummy"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 22, "type": "swNecromancerRoyalMummy" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swNecromancer/Adventure-Map/AVGwght0",
+						"mask": [
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel3D": {
+				"name": "Pyramid",
+				"creatures": [
+					[
+						"swNecromancerMummy"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 22, "type": "swNecromancerMummy" }
+				//				],
+				"templates": {
+					"PALM048": {
+						"animation": "swNecromancer/Adventure-Map/AVGmumy",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel4D": {
+				"name": "Hall of Darkness",
+				"creatures": [
+					[
+						"swNecromancerDeathKnight"
+					]
+				],
+				"guards": [
+					{
+						"amount": 16,
+						"type": "swNecromancerDeathKnight"
+					}
+				],
+				"templates": {
+					"PALM091": {
+						"animation": "swNecromancer/Adventure-Map/AVGvamp0",
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel5D": {
+				"name": "Mansion",
+				"creatures": [
+					[
+						"swNecromancerVampire"
+					]
+				],
+				"guards": [
+					{
+						"amount": 12,
+						"type": "swNecromancerVampire"
+					}
+				],
+				"templates": {
+					"PALM225": {
+						"animation": "swNecromancer/Adventure-Map/AVGlich0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel6D": {
+				"name": "Mausoleum",
+				"creatures": [
+					[
+						"swNecromancerLich"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "swNecromancerLich"
+					}
+				],
+				"templates": {
+					"PALM173": {
+						"animation": "swNecromancer/Adventure-Map/AVGbkni0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swNecromancerLevel7": {
+				"name": "Dragon Laboratory",
+				"creatures": [
+					[
+						"swNecromancerBoneDragon"
+					]
+				],
+				"guards": [
+					{
+						"amount": 3,
+						"type": "swNecromancerBoneDragon"
+					}
+				],
+				"templates": {
+					"def1": {
+						"animation": "swNecromancer/Adventure-Map/AVGbone0",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					},
+					"def2": {
+						"animation": "swNecromancer/Adventure-Map/AVGbone2",
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VBBA"
+						]
+					}
+				}
+			}
+		}
+	}
+}

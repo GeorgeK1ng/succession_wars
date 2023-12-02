@@ -1,0 +1,61 @@
+{
+	"sw08Rialdo": {
+		"class": "swswNecromancer",
+		"female": false,
+		"texts": {
+			"name": "Rialdo",
+			"biography": "NO_TEXT",
+			"specialty": {
+				"name": "Weakness",
+				"description": "Weakness",
+				"tooltip": "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swNecromancerHeroes/UN32.def:69",
+			"specialtyLarge": "swNecromancerHeroes/UN44.def:69",
+			"large": "swNecromancerHeroes/port/HPL069DK.bmp",
+			"small": "swNecromancerHeroes/port/HPS069DK.bmp"
+		},
+		"spellbook": [
+			"weakness"
+		],
+		"army": [
+			{
+				"creature": "swNecromancerSkeleton",
+				"min": 22,
+				"max": 30
+			},
+			{
+				"creature": "swNecromancerZombie",
+				"min": 12,
+				"max": 18
+			},
+			{
+				"creature": "swNecromancerMummy",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.weakness"
+				}
+			}
+		}
+	}
+}

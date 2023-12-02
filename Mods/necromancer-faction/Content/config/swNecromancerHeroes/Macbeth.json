@@ -1,0 +1,97 @@
+{
+	"sw08Macbeth": {
+		"class": "swswNecromancer",
+		"female": true,
+		"special": true,
+		"texts": {
+			"name": "Macbeth",
+			"biography": "NO_TEXT",
+			"specialty": {
+				"name": "Vampires",
+				"description": "Vampires",
+				"tooltip": "Black Knights or Dread Knights receive +4 Att, +4 Def, and +6 Dmg"
+			}
+		},
+		"images": {
+			"specialtySmall": "swNecromancerHeroes/UN32.def:76",
+			"specialtyLarge": "swNecromancerHeroes/UN44.def:76",
+			"large": "swNecromancerHeroes/port/HPLZ0001.bmp",
+			"small": "swNecromancerHeroes/port/HPSZ0001.bmp"
+		},
+		"spellbook": [
+			"haste"
+		],
+		"army": [
+			{
+				"creature": "swNecromancerSkeleton",
+				"min": 22,
+				"max": 30
+			},
+			{
+				"creature": "swNecromancerZombie",
+				"min": 12,
+				"max": 18
+			},
+			{
+				"creature": "swNecromancerMummy",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 4,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swNecromancerVampire",
+								true
+							]
+						}
+					]
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 4,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swNecromancerVampire",
+								true
+							]
+						}
+					]
+				},
+				"abilityCreatureDamage": {
+					"type": "CREATURE_DAMAGE",
+					"val": 6,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swNecromancerVampire",
+								true
+							]
+						}
+					]
+				}
+			}
+		}
+	}
+}

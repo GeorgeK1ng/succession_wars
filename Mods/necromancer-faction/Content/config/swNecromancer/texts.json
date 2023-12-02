@@ -1,0 +1,25 @@
+{
+	"swswNecromancerfaction": {
+		"name": "Necromancer",
+		"town": {
+			"names": [
+				"Nightshadow",
+				"Sheltemburg",
+				"Blacksford",
+				"Westmoor",
+				"Blackridge",
+				"Bloodreign",
+				"Blackwind",
+				"Cathcart",
+				"Dark Cloud",
+				"Coldsoul",
+				"Ghostwind",
+				"Sanctum",
+				"Death's Gate",
+				"Dark Eternal",
+				"Agony",
+				"Evernight"
+			]
+		}
+	}
+}

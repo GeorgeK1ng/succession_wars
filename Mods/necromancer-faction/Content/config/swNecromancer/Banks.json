@@ -1,0 +1,712 @@
+{
+	"core:dragonUtopia": {
+		"types": {
+			"sw08Crypt": {
+				"handler": "bank",
+				"name": "Crypt",
+				"templates": {
+					"base": {
+						"animation": "swNecromancer/adventure-map/banks/crypt/avxbnk60",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"grass",
+							"rough",
+							"subterra",
+							"snow"
+						]
+					},
+					"base2": {
+						"animation": "swNecromancer/adventure-map/banks/crypt/zcrbvm17",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"grass",
+							"rough",
+							"subterra",
+							"snow"
+						]
+					}
+				},
+				"rmg": {
+					"value": 700,
+					"rarity": 150
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swNecromancerSkeleton",
+								"amount": 25
+							},
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerSkeleton",
+								"amount": 25
+							},
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 5
+							}
+						],
+						"combat_value": 600,
+						"reward": {
+							"resources": {
+								"gold": 2500,
+								"gems": 5
+							},
+							"value": 2000,
+							"artifacts": [
+								{
+									"class": "TREASURE"
+								}
+							]
+						}
+					}
+				]
+			},
+			"sw08Graveyard": {
+				"handler": "bank",
+				"name": "Graveyard",
+				"templates": {
+					"avxbnk90": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/avxbnk90",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"avxbnk92": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/avxbnk92",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"avxbnk94": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/avxbnk94",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"AVXgyds0": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/AVXgyds0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"subterra"
+						]
+					},
+					"AVXgyne0": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/AVXgyne0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"AVXgyne1": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/AVXgyne1",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVBAB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"AVXgysn0": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/AVXgysn0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"avxgznb": {
+						"animation": "swNecromancer/adventure-map/banks/Graveyard/avxgznb",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+				},
+				"rmg": {
+					"value": 900,
+					"rarity": 130
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swNecromancerMutantZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerMutantZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerMutantZombie",
+								"amount": 25
+							},
+							{
+								"type": "swNecromancerMutantZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerMutantZombie",
+								"amount": 20
+							}
+						],
+						"combat_value": 500,
+						"reward": {
+							"resources": {
+								"gold": 2000
+							},
+							"value": 2000,
+							"artifacts": [
+								{
+									"class": "MINOR"
+								}
+							]
+						}
+					}
+				]
+			},
+			"sw08CityOfTheDead": {
+				"handler": "bank",
+				"name": "City of the Dead",
+				"templates": {
+					"base": {
+						"animation": "swNecromancer/adventure-map/banks/city/AVSutop6",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"BBBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					},
+					"base2": {
+						"animation": "swNecromancer/adventure-map/banks/city/AVXbnk100",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"BBBAB"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					}
+				},
+				"rmg": {
+					"value": 2000,
+					"rarity": 70
+				},
+				"levels": [
+					{
+						"chance": 40,
+						"guards": [
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerVampireLord",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerPowerLich",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerVampireLord",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							}
+						],
+						"combat_value": 1000,
+						"reward": {
+							"resources": {
+								"gold": 1500
+							},
+							"value": 3000,
+							"creatures": [
+								{
+									"type": "swNecromancerPowerLich",
+									"amount": 6
+								}
+							]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerVampireLord",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerPowerLich",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerVampireLord",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							}
+						],
+						"combat_value": 1000,
+						"reward": {
+							"resources": {
+								"gold": 1500
+							},
+							"value": 2800,
+							"creatures": [
+								{
+									"type": "swNecromancerPowerLich",
+									"amount": 5
+								}
+							]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							},
+							{
+								"type": "swNecromancerVampireLord",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerPowerLich",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerVampireLord",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerZombie",
+								"amount": 20
+							}
+						],
+						"combat_value": 1000,
+						"reward": {
+							"resources": {
+								"gold": 1500
+							},
+							"value": 2500,
+							"creatures": [
+								{
+									"type": "swNecromancerPowerLich",
+									"amount": 4
+								}
+							]
+						}
+					}
+				]
+			},
+			//custom
+			"sw08DarkCastle": {
+				"handler": "bank",
+				"name": "Crypt",
+				"templates": {
+					"base": {
+						"animation": "swNecromancer/adventure-map/banks/darkCastle/ZCRbank2",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BA"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					}
+				},
+				"rmg": {
+					"value": 1800,
+					"rarity": 70
+				},
+				"levels": [
+					{
+						"chance": 40,
+						"guards": [
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 5
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 5
+							}
+						],
+						"combat_value": 900,
+						"value": 3000,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						]
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 7
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 7
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 7
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 7
+							}
+						],
+						"combat_value": 900,
+						"value": 3000,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						]
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 10
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 10
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 10
+							},
+							{
+								"type": "swNecromancerDeathKnight",
+								"amount": 10
+							}
+						],
+						"combat_value": 1500,
+						"value": 5000,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"core:shipwreck": {
+		"types": {
+			"sw08ShipwreckSkeletons": {
+				"handler": "bank",
+				"name": "Shipwreck",
+				"templates": {
+					"avawre10": {
+						"animation": "swNecromancer/adventure-map/banks/Shipwreck/avawre10",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"avawre20": {
+						"animation": "swNecromancer/adventure-map/banks/Shipwreck/avawre20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"avawre21": {
+						"animation": "swNecromancer/adventure-map/banks/Shipwreck/avawre21",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					},
+					"AVAwrek0": {
+						"animation": "swNecromancer/adventure-map/banks/Shipwreck/AVAwrek0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"VA"
+						],
+						"allowedTerrains": [
+							"water"
+						]
+					}
+				},
+				"rmg": {
+					"value": 3000,
+					"rarity": 90
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swNecromancerSkeleton",
+								"amount": 40
+							},
+							{
+								"type": "swNecromancerSkeleton",
+								"amount": 40
+							},
+							{
+								"type": "swNecromancerSkeleton",
+								"amount": 40
+							},
+							{
+								"type": "swNecromancerSkeleton",
+								"amount": 40
+							},
+							{
+								"type": "swNecromancerSkeleton",
+								"amount": 40
+							}
+						],
+						"combat_value": 800,
+						"reward": {
+							"resources": {
+								"gold": 5000
+							},
+							"value": 3500
+						}
+					}
+				]
+			}
+		}
+	},
+	"core:pyramid": {
+		"handler": "bank",
+		"base": {
+			"sounds": {
+				"visit": [
+					"MYSTERY"
+				]
+			}
+		},
+		"types": {
+			"sw08pyramid": {
+				"resetDuration": 0,
+				"name": "Pyramid",
+				"aiValue": 8000,
+				"rmg": {
+					"value": 5000,
+					"rarity": 20
+				},
+				"templates": {
+					"base": {
+						"animation": "swNecromancer/adventure-map/banks/Pyramid/avxprmd0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"sand"
+						]
+					}
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swNecromancerRoyalMummy",
+								"amount": 15
+							},
+							{
+								"type": "swNecromancerRoyalMummy",
+								"amount": 15
+							},
+							{
+								"type": "swNecromancerRoyalMummy",
+								"amount": 15
+							},
+							{
+								"type": "swNecromancerRoyalMummy",
+								"amount": 15
+							},
+							{
+								"type": "swNecromancerRoyalMummy",
+								"amount": 15
+							}
+						],
+						"combat_value": 1086,
+						"reward": {
+							"value": 15000,
+							"spells": [
+								{
+									"level": 5
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

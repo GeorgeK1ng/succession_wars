@@ -1,0 +1,81 @@
+{
+	"swNecromancerVampireLord": {
+		"name": {
+			"singular": "Vampire Lord",
+			"plural": "Vampire Lords"
+		},
+		"faction": "swswNecromancerfaction",
+		"level": 4,
+		"cost": {
+			"gold": 620
+		},
+		"speed": 7,
+		"hitPoints": 40,
+		"shots": 0,
+		"attack": 8,
+		"defense": 6,
+		"damage": {
+			"min": 5,
+			"max": 7
+		},
+		"fightValue": 437,
+		"aiValue": 460,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
+			},
+			"ability2": {
+				"type": "BLOCKS_RETALIATION"
+			},
+			"ability3": {
+				"type": "LIFE_DRAIN",
+				"val": 100
+			}
+		},
+		"graphics": {
+			"iconSmall": "swNecromancerCreatures/cprsmall.def:65",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:65",
+			"map": "swNecromancerCreatures/map/AVWvamx0",
+			"animation": "swNecromancerCreatures/battle/c063uvmp",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swNecromancerCreatures/battle/CPRGOGX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 6
+			}
+		},
+		"sound": {
+			"attack": "swNecromancer/vampire lord/NOSFATTK.wav",
+			"defend": "swNecromancer/vampire lord/NOSFDFND.wav",
+			"killed": "swNecromancer/vampire lord/NOSFKILL.wav",
+			"move": "swNecromancer/vampire lord/NOSFMOVE.wav",
+			"wince": "swNecromancer/vampire lord/NOSFWNCE.wav",
+			"shoot": "swNecromancer/vampire lord/NOSFSHOT.wav"
+			// "ext1": "vampire lord/NOSFEXT1.wav",
+			// let's hope this ext works
+			// "ext1": "vampire lord/NOSFEXT2.wav"
+		}
+	}
+}

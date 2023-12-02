@@ -1,0 +1,79 @@
+{
+	"swNecromancerMummy": {
+		"name": {
+			"singular": "Mummy",
+			"plural": "Mummies"
+		},
+		"faction": "swswNecromancerfaction",
+		"level": 3,
+		"cost": {
+			"gold": 210
+		},
+		"speed": 5,
+		"hitPoints": 25,
+		"shots": 0,
+		"attack": 6,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 4
+		},
+		"fightValue": 246,
+		"aiValue": 248,
+		"advMapAmount": {
+			"min": 10,
+			"max": 25
+		},
+		"growth": 6,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swNecromancerRoyalMummy"
+		],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
+			},
+			"ability2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 20,
+				"addInfo": 0
+			}
+		},
+		"graphics": {
+			"iconSmall": "swNecromancerCreatures/cprsmall.def:62",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:62",
+			"map": "swNecromancerCreatures/map/AvWWigh",
+			"animation": "swNecromancerCreatures/battle/c060mumm",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swNecromancerCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "swNecromancer/mummy/WGHTATTK.wav",
+			"defend": "swNecromancer/mummy/WGHTDFND.wav",
+			"killed": "swNecromancer/mummy/WGHTKILL.wav",
+			"move": "swNecromancer/mummy/WGHTMOVE.wav",
+			"wince": "swNecromancer/mummy/WGHTWNCE.wav",
+			"shoot": "swNecromancer/mummy/WGHTATTK.wav"
+		}
+	}
+}

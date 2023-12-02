@@ -1,0 +1,63 @@
+{
+	"sw08Zam": {
+		"class": "swswNecromancer",
+		"female": false,
+		"texts": {
+			"name": "Zam",
+			"biography": "NO_TEXT",
+			"specialty": {
+				"name": "Logistics",
+				"description": "Logistics",
+				"tooltip": "Receives a 5% per level bonus to Logistics skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swNecromancerHeroes/UN32.def:64",
+			"specialtyLarge": "swNecromancerHeroes/UN44.def:64",
+			"large": "swNecromancerHeroes/port/HPL064DK.bmp",
+			"small": "swNecromancerHeroes/port/HPS064DK.bmp"
+		},
+		"spellbook": [
+			"haste"
+		],
+		"army": [
+			{
+				"creature": "swNecromancerSkeleton",
+				"min": 22,
+				"max": 30
+			},
+			{
+				"creature": "swNecromancerZombie",
+				"min": 12,
+				"max": 18
+			},
+			{
+				"creature": "swNecromancerMummy",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MOVEMENT",
+					"subtype": "heroMovementLand",
+					"valueType": "PERCENT_TO_BASE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

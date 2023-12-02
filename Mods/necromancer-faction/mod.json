@@ -1,6 +1,6 @@
 {
-	"name": "SW - Necromancer town",
-	"description": "Necromancer town",
+	"name": "SW - Necromancer faction",
+	"description": "Necromancer faction",
 	"modType": "Town",
 	"author": "AUTHOR",
 	"contact": "none",
@@ -12,57 +12,57 @@
 	],
 	"factions":
 	[
-		"config/sw08necromancer/buildings.json",
-		"config/sw08necromancer/faction.json",
-		"config/sw08necromancer/siege.json",
-		"config/sw08necromancer/spells.json",
-		"config/sw08necromancer/structures.json",
-		"config/sw08necromancer/puzzle.json",
-		"config/sw08necromancer/texts.json"
+		"config/swNecromancer/buildings.json",
+		"config/swNecromancer/faction.json",
+		"config/swNecromancer/siege.json",
+		"config/swNecromancer/spells.json",
+		"config/swNecromancer/structures.json",
+		"config/swNecromancer/puzzle.json",
+		"config/swNecromancer/texts.json"
 	],
 	"heroClasses":
 	[
-		"config/sw08necromancer-heroClasses/necromancer.json"
+		"config/swNecromancerHeroClasses/necromancer.json"
 	],
 	"heroes":
 	[
-		"config/sw08necromancer-heroes/Archelaus.json",
-		"config/sw08necromancer-heroes/BrotherBrax.json",
-		"config/sw08necromancer-heroes/Celia.json",
-		"config/sw08necromancer-heroes/Charity.json",
-		"config/sw08necromancer-heroes/Darlana.json",
-		"config/sw08necromancer-heroes/Gavrius.json",
-		"config/sw08necromancer-heroes/Gridian.json",
-		"config/sw08necromancer-heroes/LordCorlagon.json",
-		"config/sw08necromancer-heroes/LordPalmer.json",
-		"config/sw08necromancer-heroes/Macbeth.json",
-		"config/sw08necromancer-heroes/Mephista.json",
-		"config/sw08necromancer-heroes/Nimbus.json",
-		"config/sw08necromancer-heroes/Ranloo.json",
-		"config/sw08necromancer-heroes/Rialdo.json",
-		"config/sw08necromancer-heroes/Roxana.json",
-		"config/sw08necromancer-heroes/Sandro.json",
-		"config/sw08necromancer-heroes/Volodar.json",
-		"config/sw08necromancer-heroes/Zam.json",
-		"config/sw08necromancer-heroes/Zom.json"
+		"config/swNecromancerHeroes/Archelaus.json",
+		"config/swNecromancerHeroes/BrotherBrax.json",
+		"config/swNecromancerHeroes/Celia.json",
+		"config/swNecromancerHeroes/Charity.json",
+		"config/swNecromancerHeroes/Darlana.json",
+		"config/swNecromancerHeroes/Gavrius.json",
+		"config/swNecromancerHeroes/Gridian.json",
+		"config/swNecromancerHeroes/LordCorlagon.json",
+		"config/swNecromancerHeroes/LordPalmer.json",
+		"config/swNecromancerHeroes/Macbeth.json",
+		"config/swNecromancerHeroes/Mephista.json",
+		"config/swNecromancerHeroes/Nimbus.json",
+		"config/swNecromancerHeroes/Ranloo.json",
+		"config/swNecromancerHeroes/Rialdo.json",
+		"config/swNecromancerHeroes/Roxana.json",
+		"config/swNecromancerHeroes/Sandro.json",
+		"config/swNecromancerHeroes/Volodar.json",
+		"config/swNecromancerHeroes/Zam.json",
+		"config/swNecromancerHeroes/Zom.json"
 	],
 	"creatures":
 	[
-		"config/sw08necromancer-creatures/Bone Dragon.json",
-		"config/sw08necromancer-creatures/Lich.json",
-		"config/sw08necromancer-creatures/Mummy.json",
-		"config/sw08necromancer-creatures/Mutant Zombie.json",
-		"config/sw08necromancer-creatures/Power Lich.json",
-		"config/sw08necromancer-creatures/Royal Mummy.json",
-		"config/sw08necromancer-creatures/Skeleton.json",
-		"config/sw08necromancer-creatures/Vampire Lord.json",
-		"config/sw08necromancer-creatures/Vampire.json",
-		"config/sw08necromancer-creatures/Zombie.json",
-		"config/sw08necromancer-creatures/Death Knight.json"
+		"config/swNecromancerCreatures/Bone Dragon.json",
+		"config/swNecromancerCreatures/Lich.json",
+		"config/swNecromancerCreatures/Mummy.json",
+		"config/swNecromancerCreatures/Mutant Zombie.json",
+		"config/swNecromancerCreatures/Power Lich.json",
+		"config/swNecromancerCreatures/Royal Mummy.json",
+		"config/swNecromancerCreatures/Skeleton.json",
+		"config/swNecromancerCreatures/Vampire Lord.json",
+		"config/swNecromancerCreatures/Vampire.json",
+		"config/swNecromancerCreatures/Zombie.json",
+		"config/swNecromancerCreatures/Death Knight.json"
 	],
 	"objects":
 	[
-		"config/sw08necromancer/dwellings.json",
-		"config/sw08necromancer/banks.json"
+		"config/swNecromancer/dwellings.json",
+		"config/swNecromancer/banks.json"
 	]
 }

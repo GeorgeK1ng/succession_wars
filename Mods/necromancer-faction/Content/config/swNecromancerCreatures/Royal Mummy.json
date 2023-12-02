@@ -1,0 +1,77 @@
+{
+	"swNecromancerRoyalMummy": {
+		"name": {
+			"singular": "Royal Mummy",
+			"plural": "Royal Mummies"
+		},
+		"faction": "swswNecromancerfaction",
+		"level": 3,
+		"cost": {
+			"gold": 245
+		},
+		"speed": 6,
+		"hitPoints": 30,
+		"shots": 0,
+		"attack": 6,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 4
+		},
+		"fightValue": 273,
+		"aiValue": 280,
+		"advMapAmount": {
+			"min": 10,
+			"max": 25
+		},
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "UNDEAD"
+			},
+			"ability2": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.curse",
+				"val": 30,
+				"addInfo": 0
+			}
+		},
+		"graphics": {
+			"iconSmall": "swNecromancerCreatures/cprsmall.def:63",
+			"iconLarge": "swNecromancerCreatures/TWCRPORT.def:63",
+			"map": "swNecromancerCreatures/map/AVWwigx0",
+			"animation": "swNecromancerCreatures/battle/c061umum",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swNecromancerCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "swNecromancer/royal mummy/WRTHATTK.wav",
+			"defend": "swNecromancer/royal mummy/WRTHDFND.wav",
+			"killed": "swNecromancer/royal mummy/WRTHKILL.wav",
+			"move": "swNecromancer/royal mummy/WRTHMOVE.wav",
+			"wince": "swNecromancer/royal mummy/WRTHWNCE.wav"
+			// "shoot": "swNecromancer/royal mummy/WRTHSHOT.wav"
+		}
+	}
+}
