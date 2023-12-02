@@ -1,0 +1,25 @@
+{
+	"swswWizardfaction": {
+		"name": "Wizard",
+		"town": {
+			"names": [
+				"Atlantium",
+				"Vertigo",
+				"Winterkill",
+				"Olympus",
+				"Kalindra",
+				"Erliquin",
+				"Roc Haven",
+				"Avalon",
+				"Fenton",
+				"Quick Silver",
+				"Corackston",
+				"Whiteshield",
+				"Silverwing",
+				"Cloudspire",
+				"Tirith",
+				"Mystos"
+			]
+		}
+	}
+}

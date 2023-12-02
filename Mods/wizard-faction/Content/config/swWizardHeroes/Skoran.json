@@ -1,0 +1,81 @@
+{
+	"sw08Skoran": {
+		"class": "swswWizard",
+		"female": false,
+		"texts": {
+			"name": "Skoran",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Iron Golems and Steel Golems",
+				"description": "Iron Golems and Steel Golems",
+				"tooltip": "Increases the Attack and Defense skill of any Iron Golems or Steel Golems for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:47",
+			"specialtyLarge": "swWizardHeroes/UN44.def:47",
+			"large": "swWizardHeroes/port/082/HPL047WZ",
+			"small": "swWizardHeroes/port/082/HPS047WZ"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardIronGolem",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardIronGolem",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardIronGolem",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

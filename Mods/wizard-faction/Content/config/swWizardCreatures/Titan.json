@@ -1,0 +1,87 @@
+{
+	"swWizardTitan": {
+		"name": {
+			"singular": "Titan",
+			"plural": "Titans"
+		},
+		"faction": "swswWizardfaction",
+		"level": 7,
+		"cost": {
+			"gold": 3700,
+			"gems": 2
+		},
+		"speed": 9,
+		"hitPoints": 300,
+		"shots": 16,
+		"attack": 15,
+		"defense": 15,
+		"damage": {
+			"min": 30,
+			"max": 40
+		},
+		"fightValue": 4347,
+		"aiValue": 5738,
+		"advMapAmount": {
+			"min": 3,
+			"max": 7
+		},
+		"growth": 1,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "NON_LIVING"
+			},
+			"ability2": {
+				"type": "MIND_IMMUNITY"
+			},
+			"ability3": {
+				"type": "SHOOTER"
+			},
+			"ability4": {
+				"type": "HATE",
+				"subtype": "creature.blackDragon",
+				"val": 50
+			},
+			"king": {
+				"type": "KING",
+				"val": 3,
+				"valueType": "ADDITIVE_VALUE"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWizardCreatures/cprsmall.def:43",
+			"iconLarge": "swWizardCreatures/TWCRPORT.def:43",
+			"map": "swWizardCreatures/map/AVWtitx0",
+			"animation": "swWizardCreatures/battle/c041titn",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWizardCreatures/battle/cprgtix",
+				"offset": {
+					"upperX": 11,
+					"upperY": -131,
+					"middleX": 76,
+					"middleY": -87,
+					"lowerX": 19,
+					"lowerY": -1
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 4
+			}
+		},
+		"sound": {
+			"attack": "swWizard/titan/GTITATTK.wav",
+			"defend": "swWizard/titan/GTITDFND.wav",
+			"killed": "swWizard/titan/GTITKILL.wav",
+			"move": "swWizard/titan/GTITMOVE.wav",
+			"wince": "swWizard/titan/GTITWNCE.wav",
+			"shoot": "swWizard/titan/GTITSHOT.wav"
+		}
+	}
+}

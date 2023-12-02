@@ -1,0 +1,57 @@
+{
+	"sw08Wilfrey": {
+		"class": "swswWizard",
+		"female": false,
+		"texts": {
+			"name": "Wilfrey",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Dragon Slayer",
+				"description": "Dragon Slayer",
+				"tooltip": "Casts Dragon Slayer with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:37",
+			"specialtyLarge": "swWizardHeroes/UN44.def:37",
+			"large": "swWizardHeroes/port/HPL037AL",
+			"small": "swWizardHeroes/port/HPS037AL"
+		},
+		"spellbook": [
+			"slayer"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.slayer"
+				}
+			}
+		}
+	}
+}

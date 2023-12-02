@@ -1,0 +1,59 @@
+{
+	"sw08Arina": {
+		"class": "swswWizard",
+		"female": true,
+		"texts": {
+			"name": "Arina",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Scouting",
+				"description": "Scouting",
+				"tooltip": "Receives an additional square of vision for each level, in addition to the effect of Scouting skill."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:32",
+			"specialtyLarge": "swWizardHeroes/UN44.def:32",
+			"large": "swWizardHeroes/port/new/priest12L",
+			"small": "swWizardHeroes/port/new/priest12S"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "scouting",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SIGHT_RADIUS",
+					"val": 3
+				}
+			}
+		}
+	}
+}

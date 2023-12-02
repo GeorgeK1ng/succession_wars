@@ -1,0 +1,76 @@
+{
+	"swWizardMagi": {
+		"name": {
+			"singular": "Magi",
+			"plural": "Magi"
+		},
+		"faction": "swswWizardfaction",
+		"level": 6,
+		"cost": {
+			"gold": 815
+		},
+		"speed": 7,
+		"hitPoints": 40,
+		"shots": 12,
+		"attack": 11,
+		"defense": 7,
+		"damage": {
+			"min": 11,
+			"max": 13
+		},
+		"fightValue": 665,
+		"aiValue": 703,
+		"advMapAmount": {
+			"min": 8,
+			"max": 12
+		},
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swWizardArchMagi"
+		],
+		"abilities": {
+			"ability2": {
+				"type": "SHOOTER"
+			},
+			"ability3": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWizardCreatures/cprsmall.def:40",
+			"iconLarge": "swWizardCreatures/TWCRPORT.def:40",
+			"map": "swWizardCreatures/map/AVWnaga0",
+			"animation": "swWizardCreatures/battle/c038mage",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "PROJECTILE_ANIMATION_PLACEHOLDER",
+				"offset": {
+					"upperX": 36,
+					"upperY": -41,
+					"middleX": 36,
+					"middleY": -41,
+					"lowerX": 36,
+					"lowerY": -41
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 10
+			}
+		},
+		"sound": {
+			"attack": "swWizard/mage/NSENATTK.wav",
+			"defend": "swWizard/mage/NSENDFND.wav",
+			"killed": "swWizard/mage/NSENKILL.wav",
+			"move": "swWizard/mage/NSENMOVE.wav",
+			"wince": "swWizard/mage/NSENWNCE.wav",
+			"shoot": "swWizard/mage/NSENSHOT.wav"
+		}
+	}
+}

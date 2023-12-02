@@ -1,0 +1,238 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"swWizardLevel1": {
+				"name": "Habitat",
+				"creatures": [
+					[
+						"swWizardHalfling"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 50, "type": "swWizardHalfling" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/AVGgrem0",
+						"mask": [
+							"VAB"
+						]
+					},
+					"default2": {
+						"animation": "swWizard/Adventure-Map/AVGgrem1",
+						"mask": [
+							"VABB"
+						]
+					},
+					"AVJhalf": {
+						"animation": "swWizard/Adventure-Map/AVJhalf",
+						"mask": [
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"AVJhalf2": {
+						"animation": "swWizard/Adventure-Map/AVJhalf2",
+						"mask": [
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"AVJhalf3": {
+						"animation": "swWizard/Adventure-Map/AVJhalf3",
+						"mask": [
+							"VBAB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				}
+			},
+			"swWizardLevel2": {
+				"name": "Pen",
+				"creatures": [
+					[
+						"swWizardBoar"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 30, "type": "swWizardBoar" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/avggarg0",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					},
+					"default2": {
+						"animation": "swWizard/Adventure-Map/AVGgarg1",
+						"mask": [
+							"VAB"
+						]
+					}
+				}
+			},
+			"swWizardLevel3": {
+				"name": "Foundry",
+				"creatures": [
+					[
+						"swWizardIronGolem"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 22, "type": "swWizardIronGolem" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/AVGMAGE0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swWizardLevel4": {
+				"name": "Mushroom House",
+				"creatures": [
+					[
+						"swWizardGnome"
+					]
+				],
+				"guards": [
+					{
+						"amount": 16,
+						"type": "swWizardGnome"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/AVGgolm0",
+						"mask": [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"swWizardLevel5": {
+				"name": "Roc Nest",
+				"creatures": [
+					[
+						"swWizardRoc"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "swWizardRoc"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/AVGGENI0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					},
+					"default2": {
+						"animation": "swWizard/Adventure-Map/AVGGENIa",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					},
+					"SW_roc": {
+						"animation": "swWizard/Adventure-Map/SW_roc",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"swWizardLevel6": {
+				"name": "Ivory Tower",
+				"creatures": [
+					[
+						"swWizardMagi"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "swWizardMagi"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/AVGNAGb0",
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"swWizardLevel6Upg": {
+				"name": "Upg. Ivory Tower",
+				"creatures": [
+					[
+						"swWizardArchMagi"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "swWizardArchMagi"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/AVGNAGA0",
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						]
+					}
+				}
+			},
+			"swWizardLevel7": {
+				"name": "Cloud Castle",
+				"creatures": [
+					[
+						"swWizardGiant"
+					]
+				],
+				"guards": [
+					{
+						"amount": 3,
+						"type": "swWizardGiant"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWizard/Adventure-Map/AVGtitn0",
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			}
+		}
+	}
+}

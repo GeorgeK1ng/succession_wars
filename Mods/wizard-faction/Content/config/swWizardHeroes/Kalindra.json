@@ -1,0 +1,81 @@
+{
+	"sw08Kalindra": {
+		"class": "swswWizard",
+		"female": true,
+		"texts": {
+			"name": "Kalindra",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Boars",
+				"description": "Boars",
+				"tooltip": "Increases the Attack and Defense skill of any Boars for each level attained after 2nd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:40",
+			"specialtyLarge": "swWizardHeroes/UN44.def:40",
+			"large": "swWizardHeroes/port/HPL040WZ",
+			"small": "swWizardHeroes/port/HPS040WZ"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardBoar",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardBoar",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

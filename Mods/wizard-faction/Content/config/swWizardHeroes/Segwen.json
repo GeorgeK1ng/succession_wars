@@ -1,0 +1,62 @@
+{
+	"sw08Segwen": {
+		"class": "swswWizard",
+		"female": true,
+		"texts": {
+			"name": "Segwen",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Estates",
+				"description": "Estates",
+				"tooltip": "Receives a 5% per level bonus to Estates skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:42",
+			"specialtyLarge": "swWizardHeroes/UN44.def:42",
+			"large": "swWizardHeroes/port/HPL042WZ",
+			"small": "swWizardHeroes/port/HPS042WZ"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "estates",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gold",
+					"valueType": "PERCENT_TO_ALL",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

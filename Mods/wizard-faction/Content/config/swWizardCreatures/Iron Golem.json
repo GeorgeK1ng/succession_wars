@@ -1,0 +1,78 @@
+{
+	"swWizardIronGolem": {
+		"name": {
+			"singular": "Iron Golem",
+			"plural": "Iron Golems"
+		},
+		"faction": "swswWizardfaction",
+		"level": 4,
+		"cost": {
+			"gold": 250
+		},
+		"speed": 3,
+		"hitPoints": 35,
+		"shots": 0,
+		"attack": 5,
+		"defense": 10,
+		"damage": {
+			"min": 4,
+			"max": 6
+		},
+		"fightValue": 373,
+		"aiValue": 392,
+		"advMapAmount": {
+			"min": 10,
+			"max": 25
+		},
+		"growth": 5,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swWizardSteelGolem"
+		],
+		"abilities": {
+			"ability1": {
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"val": 50,
+				"subtype": "spellSchool.fire"
+			},
+			"ability2": {
+				"type": "NON_LIVING"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWizardCreatures/cprsmall.def:36",
+			"iconLarge": "swWizardCreatures/TWCRPORT.def:36",
+			"map": "swWizardCreatures/map/AVWmage0",
+			"animation": "swWizardCreatures/battle/c034golm",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWizardCreatures/battle/Phalf",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 13
+			}
+		},
+		"sound": {
+			"attack": "swWizard/iron golem/SGLMATTK.wav",
+			"defend": "swWizard/iron golem/SGLMDFND.wav",
+			"killed": "swWizard/iron golem/SGLMKILL.wav",
+			"move": "swWizard/iron golem/sglmmove.wav",
+			"wince": "swWizard/iron golem/SGLMWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"sw08Dawn": {
+		"class": "swswWizard",
+		"female": false,
+		"texts": {
+			"name": "Dawn",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Rocs",
+				"description": "Rocs",
+				"tooltip": "Increases the Attack and Defense skill of any Rocs for each level attained after 5th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:36",
+			"specialtyLarge": "swWizardHeroes/UN44.def:36",
+			"large": "swWizardHeroes/port/HPL036AL",
+			"small": "swWizardHeroes/port/HPS036AL"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardRoc",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardRoc",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

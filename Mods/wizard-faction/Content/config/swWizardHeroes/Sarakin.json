@@ -1,0 +1,81 @@
+{
+	"sw08Sarakin": {
+		"class": "swswWizard",
+		"female": false,
+		"texts": {
+			"name": "Sarakin",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Magi and Arch Magi",
+				"description": "Magi and Arch Magi",
+				"tooltip": "Increases the Attack and Defense skills of any Magi or Arch Magi for each level attained after 6th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:33",
+			"specialtyLarge": "swWizardHeroes/UN44.def:33",
+			"large": "swWizardHeroes/port/HPL033AL",
+			"small": "swWizardHeroes/port/HPS033AL"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardMagi",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWizardMagi",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

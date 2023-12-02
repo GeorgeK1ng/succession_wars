@@ -1,0 +1,57 @@
+{
+	"sw08Astral": {
+		"class": "swswWizard",
+		"female": false,
+		"texts": {
+			"name": "Astral",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Hypnotize",
+				"description": "Hypnotize",
+				"tooltip": "Casts Hypnotize with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:45",
+			"specialtyLarge": "swWizardHeroes/UN44.def:45",
+			"large": "swWizardHeroes/port/HPL045WZ",
+			"small": "swWizardHeroes/port/HPS045WZ"
+		},
+		"spellbook": [
+			"hypnotize"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.hypnotize"
+				}
+			}
+		}
+	}
+}

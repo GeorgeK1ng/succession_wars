@@ -1,0 +1,62 @@
+{
+	"sw08Flint": {
+		"class": "swswWizard",
+		"female": false,
+		"texts": {
+			"name": "Flint",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Navigation",
+				"description": "Navigation",
+				"tooltip": "Receives a 5% per level bonus to Navigation skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWizardHeroes/UN32.def:34",
+			"specialtyLarge": "swWizardHeroes/UN44.def:34",
+			"large": "swWizardHeroes/port/HPL034AL",
+			"small": "swWizardHeroes/port/HPS034AL"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swWizardHalfling",
+				"min": 10,
+				"max": 18
+			},
+			{
+				"creature": "swWizardBoar",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWizardGnome",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MOVEMENT",
+					"subtype": "heroMovementSea",
+					"valueType": "PERCENT_TO_BASE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}
