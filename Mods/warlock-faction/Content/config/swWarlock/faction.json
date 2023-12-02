@@ -1,0 +1,862 @@
+{
+	"swswWarlockfaction": {
+		"name": "Warlock",
+		"alignment": "evil",
+		"nativeTerrain": "swamp",
+		"boat": "heroes2Boat_sw08",
+		"creatureBackground": {
+			"120px": "swWarlock/creature-bg-120px.bmp",
+			"130px": "swWarlock/creature-bg-130px.bmp"
+		},
+		"town": {
+			"primaryResource": "sulfur",
+			"warMachine": "swNeutralballista",
+			"defaultTavern": 5,
+			"moatAbility": "core:spell.castleMoat",
+			// "moatHexes": [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
+			// "moatDamage":95,
+
+			"mageGuild": 5,
+
+			"hallBackground": "swWarlock/town-screen/Hall.png",
+			"townBackground": "swWarlock/town-screen/background.bmp",
+			"guildBackground": "TPMAGE.bmp",
+			"guildWindow": "swWarlock/town-screen/mage-guild.bmp",
+			
+			"musicTheme": "music/swWarlock/dungeon",
+			"tavernVideo": "swWarlock/Tavern.bik",
+
+			"hallSlots": [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol"],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
+					[ "shipyard" ],
+					[ "special4" ]
+				],
+				[
+					[ "special1" ],
+					[ "special2" ],
+					[ "horde1" ]
+				],
+				[
+					[ "dwellingLvl1" ],
+					[ "dwellingLvl2" ],
+					[ "dwellingLvl3" ],
+					[ "dwellingLvl4" ]
+				],
+				[
+					[ "dwellingLvl5", "dwellingUpLvl5" ],
+					[ "dwellingLvl6" ],
+					[ "dwellingLvl7", "dwellingUpLvl7", "building50" ]
+				]
+			],
+
+			"creatures": [
+				[ "swWarlockCentaur" ],
+				[ "swWarlockGargoyle" ],
+				[ "swWarlockGriffin" ],
+				[ "swWarlockBeholder" ],
+				[ "swWarlockMinotaur", "swWarlockMinotaurKing" ],
+				[ "swWarlockHydra" ],
+				[ "swWarlockGreenDragon", "swWarlockRedDragon", "swWarlockBlackDragon" ]
+			],
+
+			"horde": [ 0 ,-1],
+
+			"buildingsIcons": "swWarlock/town-hall",
+
+			"icons": {
+				"village": {
+					"normal": {
+						"large": "swWarlock/itpt.def:10",
+						"small": "swWarlock/ITPA.def:12"
+					},
+					"built": {
+						"large": "swWarlock/itpt.def:11",
+						"small": "swWarlock/ITPA.def:13"
+					}
+				},
+				"fort": {
+					"normal": {
+						"large": "swWarlock/itpt.def:10",
+						"small": "swWarlock/ITPA.def:12"
+					},
+					"built": {
+						"large": "swWarlock/itpt.def:11",
+						"small": "swWarlock/ITPA.def:13"
+					}
+				}
+			},
+
+			"tavern": {
+				"swswWarlock": 8
+			},
+			
+			"mapObject": {
+				"filters": {
+					"capitolDirt": [ "allOf", [ "capitol" ] ] ,
+					"castleDirt": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelDirt": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortDirt": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageDirt": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townDirt": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					
+					"capitolSand": [ "allOf", [ "capitol" ] ] ,
+					"castleSand": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSand": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSand": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSand": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSand": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					
+					"capitolGrass": [ "allOf", [ "capitol" ] ] ,
+					"castleGrass": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelGrass": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortGrass": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageGrass": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townGrass": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+					
+					"capitolSnow": [ "allOf", [ "capitol" ] ] ,
+					"castleSnow": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSnow": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSnow": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSnow": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSnow": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+						
+					"capitolSwamp": [ "allOf", [ "capitol" ] ] ,
+					"castleSwamp": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSwamp": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSwamp": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSwamp": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSwamp": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+						
+					"capitolRough": [ "allOf", [ "capitol" ] ] ,
+					"castleRough": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelRough": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortRough": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageRough": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townRough": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+					"capitolSubterra": [ "allOf", [ "capitol" ] ] ,
+					"castleSubterra": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelSubterra": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortSubterra": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageSubterra": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townSubterra": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+					"capitolLava": [ "allOf", [ "capitol" ] ] ,
+					"castleLava": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelLava": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortLava": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageLava": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townLava": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ],
+
+					"castleAll": [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadelAll": [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fortAll": [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"villageAll": [ "allOf", [ "villageHall" ], [ "noneOf", [ "fort", "townHall" ] ] ],
+					"townAll": [ "allOf", [ "townHall" ], [ "noneOf", [ "fort" ] ] ]
+				},
+
+				"templates": {
+					"capitolAll": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"castleAll": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"citadelAll": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"fortAll": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"townAll": {
+						"animation": "swWarlock/adventure-map/avc5_0_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"villageAll": {
+						"animation": "swWarlock/adventure-map/avc5_0_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						]
+					},
+					"capitolDirt": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"castleDirt": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"citadelDirt": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"fortDirt": {
+						"animation": "swWarlock/adventure-map/avc5_0_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"townDirt": {
+						"animation": "swWarlock/adventure-map/avc5_0_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"villageDirt": {
+						"animation": "swWarlock/adventure-map/avc5_0_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt"
+						]
+					},
+					"capitolSand": {
+						"animation": "swWarlock/adventure-map/avc5_1_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"castleSand": {
+						"animation": "swWarlock/adventure-map/avc5_1_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"citadelSand": {
+						"animation": "swWarlock/adventure-map/avc5_1_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"fortSand": {
+						"animation": "swWarlock/adventure-map/avc5_1_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"townSand": {
+						"animation": "swWarlock/adventure-map/avc5_1_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"villageSand": {
+						"animation": "swWarlock/adventure-map/avc5_1_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"sand",
+							"subterra"
+						]
+					},
+					"capitolGrass": {
+						"animation": "swWarlock/adventure-map/avc5_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"castleGrass": {
+						"animation": "swWarlock/adventure-map/avc5_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"citadelGrass": {
+						"animation": "swWarlock/adventure-map/avc5_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"fortGrass": {
+						"animation": "swWarlock/adventure-map/avc5_2_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"townGrass": {
+						"animation": "swWarlock/adventure-map/avc5_2_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"villageGrass": {
+						"animation": "swWarlock/adventure-map/avc5_2_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					},
+					"capitolSnow": {
+						"animation": "swWarlock/adventure-map/avc5_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"castleSnow": {
+						"animation": "swWarlock/adventure-map/avc5_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"citadelSnow": {
+						"animation": "swWarlock/adventure-map/avc5_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"fortSnow": {
+						"animation": "swWarlock/adventure-map/avc5_3_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"townSnow": {
+						"animation": "swWarlock/adventure-map/avc5_3_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"villageSnow": {
+						"animation": "swWarlock/adventure-map/avc5_3_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					},
+					"capitolSwamp": {
+						"animation": "swWarlock/adventure-map/avc5_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"castleSwamp": {
+						"animation": "swWarlock/adventure-map/avc5_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"citadelSwamp": {
+						"animation": "swWarlock/adventure-map/avc5_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"fortSwamp": {
+						"animation": "swWarlock/adventure-map/avc5_4_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"townSwamp": {
+						"animation": "swWarlock/adventure-map/avc5_4_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"villageSwamp": {
+						"animation": "swWarlock/adventure-map/avc5_4_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"capitolRough": {
+						"animation": "swWarlock/adventure-map/avc5_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"castleRough": {
+						"animation": "swWarlock/adventure-map/avc5_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"citadelRough": {
+						"animation": "swWarlock/adventure-map/avc5_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"fortRough": {
+						"animation": "swWarlock/adventure-map/avc5_5_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"townRough": {
+						"animation": "swWarlock/adventure-map/avc5_5_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"villageRough": {
+						"animation": "swWarlock/adventure-map/avc5_5_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"hmm2desert"
+						]
+					},
+					"capitolSubterra": {
+						"animation": "swWarlock/adventure-map/avc5_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"castleSubterra": {
+						"animation": "swWarlock/adventure-map/avc5_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"citadelSubterra": {
+						"animation": "swWarlock/adventure-map/avc5_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"fortSubterra": {
+						"animation": "swWarlock/adventure-map/avc5_6_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"townSubterra": {
+						"animation": "swWarlock/adventure-map/avc5_6_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"villageSubterra": {
+						"animation": "swWarlock/adventure-map/avc5_6_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"rough"
+						]
+					},
+					"capitolLava": {
+						"animation": "swWarlock/adventure-map/avc5_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"castleLava": {
+						"animation": "swWarlock/adventure-map/avc5_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"citadelLava": {
+						"animation": "swWarlock/adventure-map/avc5_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"fortLava": {
+						"animation": "swWarlock/adventure-map/avc5_7_1",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"townLava": {
+						"animation": "swWarlock/adventure-map/avc5_7_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					},
+					"villageLava": {
+						"animation": "swWarlock/adventure-map/avc5_7_0",
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBBBB",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"lava"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"swWarlockMinotaur": {
+		"name": {
+			"singular": "Minotaur",
+			"plural": "Minotaurs"
+		},
+		"faction": "swswWarlockfaction",
+		"level": 5,
+		"cost": {
+			"gold": 460
+		},
+		"speed": 5,
+		"hitPoints": 40,
+		"shots": 0,
+		"attack": 9,
+		"defense": 8,
+		"damage": {
+			"min": 6,
+			"max": 12
+		},
+		"fightValue": 563,
+		"aiValue": 597,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": ["swWarlockMinotaurKing"],
+		"abilities": {
+			"ability1": {
+				"type": "MORALE",
+				"val": 1,
+				"valueType": "INDEPENDENT_MAX"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWarlockCreatures/cprsmall.def:80",
+			"iconLarge": "swWarlockCreatures/TWCRPORT.def:80",
+			"map": "swWarlockCreatures/map/AVWmino",
+			"animation": "swWarlockCreatures/battle/c078mino",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWarlockCreatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
+			}
+		},
+		"sound": {
+			"attack": "swWarlock/minotaur/MINOATTK.wav",
+			"defend": "swWarlock/minotaur/MINODFND.wav",
+			"killed": "swWarlock/minotaur/MINOKILL.wav",
+			"move": "swWarlock/minotaur/MINOMOVE.wav",
+			"wince": "swWarlock/minotaur/MINOWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

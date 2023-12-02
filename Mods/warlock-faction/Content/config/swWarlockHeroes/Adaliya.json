@@ -1,0 +1,60 @@
+{
+	"sw08Adaliya": {
+		"female": true,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Adaliya",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Sorcery",
+				"tooltip": "Receives a 6% per level bonus to Sorcery skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:83",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:83",
+			"large": "swWarlockHeroes/port/new/sw011L",
+			"small": "swWarlockHeroes/port/new/sw011S"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL_DAMAGE",
+					"val": 6,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

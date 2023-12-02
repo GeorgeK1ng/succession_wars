@@ -1,6 +1,6 @@
 {
-	"name": "SW - Warlock Town",
-	"description": "Warlock Town",
+	"name": "SW - Warlock Faction",
+	"description": "Warlock Faction",
 	"modType": "Town",
 	"author": "Untitled",
 	"contact": "none",
@@ -12,61 +12,61 @@
 	],
 	"factions":
 	[
-		"config/sw08warlock/buildings.json",
-		"config/sw08warlock/faction.json",
-		"config/sw08warlock/siege.json",
-		"config/sw08warlock/spells.json",
-		"config/sw08warlock/structures.json",
-		"config/sw08warlock/puzzle.json",
-		"config/sw08warlock/texts.json"
+		"config/swWarlock/buildings.json",
+		"config/swWarlock/faction.json",
+		"config/swWarlock/siege.json",
+		"config/swWarlock/spells.json",
+		"config/swWarlock/structures.json",
+		"config/swWarlock/puzzle.json",
+		"config/swWarlock/texts.json"
 	],
 	"creatures":
 	[
-		"config/sw08warlock-creatures/Black Dragon.json",
-		"config/sw08warlock-creatures/Centaur.json",
-		"config/sw08warlock-creatures/Gargoyle.json",
-		"config/sw08warlock-creatures/Green Dragon.json",
-		"config/sw08warlock-creatures/Griffin.json",
-		"config/sw08warlock-creatures/Hydra.json",
-		"config/sw08warlock-creatures/Minotaur King.json",
-		"config/sw08warlock-creatures/Minotaur.json",
-		"config/sw08warlock-creatures/Red Dragon.json",
-		"config/sw08warlock-creatures/Beholder.json"
+		"config/swWarlockCreatures/Black Dragon.json",
+		"config/swWarlockCreatures/Centaur.json",
+		"config/swWarlockCreatures/Gargoyle.json",
+		"config/swWarlockCreatures/Green Dragon.json",
+		"config/swWarlockCreatures/Griffin.json",
+		"config/swWarlockCreatures/Hydra.json",
+		"config/swWarlockCreatures/Minotaur King.json",
+		"config/swWarlockCreatures/Minotaur.json",
+		"config/swWarlockCreatures/Red Dragon.json",
+		"config/swWarlockCreatures/Beholder.json"
 	],
 	"heroClasses":
 	[
-		"config/sw08warlock-heroClasses/warlock.json"
+		"config/swWarlockHeroClasses/warlock.json"
 	],
 	"heroes":
 	[
-		"config/sw08warlock-heroes/Adaliya.json",
-		"config/sw08warlock-heroes/Agar.json",
-		"config/sw08warlock-heroes/Alamar.json",
-		"config/sw08warlock-heroes/Amadeys.json",
-		"config/sw08warlock-heroes/Amicus.json",
-		"config/sw08warlock-heroes/Archibald.json",
-		"config/sw08warlock-heroes/Arie.json",
-		"config/sw08warlock-heroes/Barok.json",
-		"config/sw08warlock-heroes/Crodo.json",
-		"config/sw08warlock-heroes/Deliran.json",
-		"config/sw08warlock-heroes/Evilla.json",
-		"config/sw08warlock-heroes/Falagar.json",
-		"config/sw08warlock-heroes/Faljarena.json",
-		"config/sw08warlock-heroes/Gharik.json",
-		"config/sw08warlock-heroes/Kastore.json",
-		"config/sw08warlock-heroes/Mojo.json",
-		"config/sw08warlock-heroes/Quentin.json",
-		"config/sw08warlock-heroes/Sarkosian.json",
-		"config/sw08warlock-heroes/Verchoffin.json",
-		"config/sw08warlock-heroes/Vesper.json",
-		"config/sw08warlock-heroes/Wiggo.json",
-		"config/sw08warlock-heroes/Wrathmont.json",
-		"config/sw08warlock-heroes/Xian.json",
-		"config/sw08warlock-heroes/Zoltan.json"
+		"config/swWarlockHeroes/Adaliya.json",
+		"config/swWarlockHeroes/Agar.json",
+		"config/swWarlockHeroes/Alamar.json",
+		"config/swWarlockHeroes/Amadeys.json",
+		"config/swWarlockHeroes/Amicus.json",
+		"config/swWarlockHeroes/Archibald.json",
+		"config/swWarlockHeroes/Arie.json",
+		"config/swWarlockHeroes/Barok.json",
+		"config/swWarlockHeroes/Crodo.json",
+		"config/swWarlockHeroes/Deliran.json",
+		"config/swWarlockHeroes/Evilla.json",
+		"config/swWarlockHeroes/Falagar.json",
+		"config/swWarlockHeroes/Faljarena.json",
+		"config/swWarlockHeroes/Gharik.json",
+		"config/swWarlockHeroes/Kastore.json",
+		"config/swWarlockHeroes/Mojo.json",
+		"config/swWarlockHeroes/Quentin.json",
+		"config/swWarlockHeroes/Sarkosian.json",
+		"config/swWarlockHeroes/Verchoffin.json",
+		"config/swWarlockHeroes/Vesper.json",
+		"config/swWarlockHeroes/Wiggo.json",
+		"config/swWarlockHeroes/Wrathmont.json",
+		"config/swWarlockHeroes/Xian.json",
+		"config/swWarlockHeroes/Zoltan.json"
 	],
 	"objects":
 	[
-		"config/sw08warlock/dwellings.json",
-		"config/sw08warlock/banks.json"
+		"config/swWarlock/dwellings.json",
+		"config/swWarlock/banks.json"
 	]
 }

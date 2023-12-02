@@ -1,0 +1,61 @@
+{
+	"sw08Vesper": {
+		"female": false,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Vesper",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Fireball",
+				"description": "Fireball",
+				"tooltip": "Casts Fireball with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:90",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:90",
+			"large": "swWarlockHeroes/port/HPL090WL",
+			"small": "swWarlockHeroes/port/HPS090WL"
+		},
+		"spellbook": [
+			"fireball"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.fireball"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"sw08Archibald": {
+		"female": false,
+		"special": true,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Archibald",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Armageddon",
+				"description": "Armageddon",
+				"tooltip": "Casts Armageddon with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:147",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:147",
+			"large": "swWarlockHeroes/port/HPL132WL",
+			"small": "swWarlockHeroes/port/HPS132WL"
+		},
+		"spellbook": [
+			"armageddon"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.armageddon"
+				}
+			}
+		}
+	}
+}

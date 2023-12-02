@@ -1,0 +1,62 @@
+{
+	"swWarlockGriffin": {
+		"name": {
+			"singular": "Griffin",
+			"plural": "Griffins"
+		},
+		"faction": "swswWarlockfaction",
+		"level": 3,
+		"cost": {
+			"gold": 225
+		},
+		"speed": 6,
+		"hitPoints": 20,
+		"shots": 0,
+		"attack": 6,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 4
+		},
+		"fightValue": 217,
+		"aiValue": 214,
+		"advMapAmount": {
+			"min": 12,
+			"max": 25
+		},
+		"growth": 6,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "FLYING"
+			},
+			"ability2": {
+				"type": "ADDITIONAL_RETALIATION",
+				"val": 1
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWarlockCreatures/cprsmall.def:76",
+			"iconLarge": "swWarlockCreatures/TWCRPORT.def:76",
+			"map": "swWarlockCreatures/map/AvWbehl0",
+			"animation": "swWarlockCreatures/battle/c074grif",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "swWarlock/griffin/BHDRATTK.wav",
+			"defend": "swWarlock/griffin/BHDRDFND.wav",
+			"killed": "swWarlock/griffin/BHDRKILL.wav",
+			"move": "swWarlock/griffin/BHDRMOVE.wav",
+			"wince": "swWarlock/griffin/BHDRWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

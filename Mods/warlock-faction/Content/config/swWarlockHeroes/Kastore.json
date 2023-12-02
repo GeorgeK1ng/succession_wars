@@ -1,0 +1,61 @@
+{
+	"sw08Kastore": {
+		"female": false,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Kastore",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Lightning Bolt",
+				"description": "Lightning Bolt",
+				"tooltip": "Casts Lightning Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:82",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:82",
+			"large": "swWarlockHeroes/port/HPL082OV",
+			"small": "swWarlockHeroes/port/HPS082OV"
+		},
+		"spellbook": [
+			"lightningBolt"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPECIAL_SPELL_LEV",
+					"subtype": "spell.lightningBolt",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

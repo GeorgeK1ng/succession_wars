@@ -1,0 +1,61 @@
+{
+	"swWarlockGargoyle": {
+		"name": {
+			"singular": "Gargoyle",
+			"plural": "Gargoyles"
+		},
+		"faction": "swswWarlockfaction",
+		"level": 2,
+		"cost": {
+			"gold": 160
+		},
+		"speed": 7,
+		"hitPoints": 15,
+		"shots": 0,
+		"attack": 4,
+		"defense": 7,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"fightValue": 153,
+		"aiValue": 147,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
+		},
+		"growth": 7,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [],
+		"abilities": {
+			"ability1": {
+				"type": "FLYING"
+			},
+			"ability2": {
+				"type": "NON_LIVING"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWarlockCreatures/cprsmall.def:74",
+			"iconLarge": "swWarlockCreatures/TWCRPORT.def:74",
+			"map": "swWarlockCreatures/map/avwharp0",
+			"animation": "swWarlockCreatures/battle/c072garg",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "swWarlock/gargoyle/OGREATTK.wav",
+			"defend": "swWarlock/gargoyle/OGREDFND.wav",
+			"killed": "swWarlock/gargoyle/OGREKILL.wav",
+			"move": "swWarlock/gargoyle/OGREMOVE.wav",
+			"wince": "swWarlock/gargoyle/OGREWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

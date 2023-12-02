@@ -1,0 +1,60 @@
+{
+	"sw08Falagar": {
+		"female": false,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Falagar",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Sorcery",
+				"tooltip": "Receives a 5% per level bonus to Sorcery skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:83",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:83",
+			"large": "swWarlockHeroes/port/HPL083OV",
+			"small": "swWarlockHeroes/port/HPS083OV"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL_DAMAGE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

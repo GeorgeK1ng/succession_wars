@@ -1,0 +1,61 @@
+{
+	"sw08Xian": {
+		"female": true,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Xian",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Learning",
+				"description": "Learning",
+				"tooltip": "Receives a 5% per level bonus to Learning skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:80",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:80",
+			"large": "swWarlockHeroes/port/new/xian10_L",
+			"small": "swWarlockHeroes/port/new/xian10_S"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "learning",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "HERO_EXPERIENCE_GAIN_PERCENT",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

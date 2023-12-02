@@ -1,0 +1,85 @@
+{
+	"sw08Zoltan": {
+		"female": false,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Zoltan",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Minotaurs and Minotaur Kings",
+				"description": "Minotaurs and Minotaur Kings",
+				"tooltip": "Increases the Attack and Defense skill of any Minotaurs or Minotaur Kings for each level attained after 5th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:89",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:89",
+			"large": "swWarlockHeroes/port/HPL089WL",
+			"small": "swWarlockHeroes/port/HPS089WL"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWarlockMinotaur",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWarlockMinotaur",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

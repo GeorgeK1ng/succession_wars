@@ -1,0 +1,25 @@
+{
+	"swswWarlockfaction": {
+		"name": "Warlock",
+		"town": {
+			"names": [
+				"Vulcania",
+				"Burlock",
+				"Alamar",
+				"Blackfang",
+				"Algary",
+				"Brownston",
+				"Blackburn",
+				"Dragontooth",
+				"Castigare",
+				"Blackquarter",
+				"Darkburrow",
+				"Coldshadow",
+				"Sorrow Crown",
+				"Dragonnade",
+				"Chillwater",
+				"Darkhold"
+			]
+		}
+	}
+}

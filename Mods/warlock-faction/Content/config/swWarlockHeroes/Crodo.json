@@ -1,0 +1,62 @@
+{
+	"sw08Crodo": {
+		"female": false,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Crodo",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Intellect",
+				"description": "Intellect",
+				"tooltip": "Receives a 5% per level bonus to Intellect skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:81",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:81",
+			"large": "swWarlockHeroes/port/HPL081OV",
+			"small": "swWarlockHeroes/port/HPS081OV"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MANA_PER_KNOWLEDGE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"valueType": "PERCENT_TO_TARGET_TYPE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

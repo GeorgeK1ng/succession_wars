@@ -1,0 +1,87 @@
+{
+	"swWarlockRedDragon": {
+		"name": {
+			"singular": "Red Dragon",
+			"plural": "Red Dragons"
+		},
+		"faction": "swswWarlockfaction",
+		"level": 7,
+		"cost": {
+			"gold": 3800,
+			"sulfur": 1
+		},
+		"speed": 12,
+		"hitPoints": 250,
+		"shots": 0,
+		"attack": 13,
+		"defense": 13,
+		"damage": {
+			"min": 25,
+			"max": 50
+		},
+		"fightValue": 3795,
+		"aiValue": 4891,
+		"advMapAmount": {
+			"min": 3,
+			"max": 7
+		},
+		"growth": 1,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"upgrades": ["swWarlockBlackDragon"],
+		"abilities": {
+			"ability1": {
+				"type": "TWO_HEX_ATTACK_BREATH"
+			},
+			"ability2": {
+				"type": "DRAGON_NATURE"
+			},
+			"ability3": {
+				"type": "KING",
+				"val": 2,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"ability4": {
+				"type": "FLYING"
+			},
+			"ability5": {
+				"type": "LEVEL_SPELL_IMMUNITY",
+				"val": 4
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWarlockCreatures/cprsmall.def:84",
+			"iconLarge": "swWarlockCreatures/TWCRPORT.def:84",
+			"map": "swWarlockCreatures/map/AVWRDrg",
+			"animation": "swWarlockCreatures/battle/c082drg2",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWarlockCreatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
+			}
+		},
+		"sound": {
+			"attack": "swWarlock/red dragon/RDDRATTK.wav",
+			"defend": "swWarlock/red dragon/RDDRDFND.wav",
+			"killed": "swWarlock/red dragon/RDDRKILL.wav",
+			"move": "swWarlock/red dragon/RDDRMOVE.wav",
+			"wince": "swWarlock/red dragon/RDDRWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

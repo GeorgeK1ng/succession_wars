@@ -1,0 +1,516 @@
+{
+	"core:dragonUtopia": {
+		"types": {
+			"sw08utopia": {
+				"handler": "bank",
+				"name": "Dragon City",
+				"templates": {
+					"base": {
+						"animation": "swWarlock/adventure-map/banks/utopia/avsutop0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVVVVVV",
+							"VVBBABB"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"grass",
+							"rough",
+							"subterra",
+							"snow"
+						]
+					}
+				},
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 9000,
+					"rarity": 50
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swWarlockGreenDragon",
+								"amount": 4
+							},
+							{
+								"type": "swWarlockGreenDragon",
+								"amount": 4
+							},
+							{
+								"type": "swWarlockRedDragon",
+								"amount": 3
+							},
+							{
+								"type": "swWarlockRedDragon",
+								"amount": 3
+							},
+							{
+								"type": "swWarlockBlackDragon",
+								"amount": 2
+							}
+						],
+						"combat_value": 600,
+						"reward": {
+							"resources": {
+								"gold": 15000,
+								"gems": 5
+							},
+							"value": 30000,
+							"artifacts": [
+								{
+									"class": "MINOR"
+								},
+								{
+									"class": "MAJOR"
+								},
+								{
+									"class": "MAJOR"
+								},
+								{
+									"class": "RELIC"
+								}
+							]
+						}
+					}
+				]
+			},
+			"sw08utopia2": {
+				"handler": "bank",
+				"name": "Dragon Utopia",
+				"templates": {
+					"base": {
+						"animation": "swWarlock/adventure-map/banks/utopia/avsutop0",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVVV",
+							"VVVVV",
+							"VVVVV",
+							"VVBBA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"grass",
+							"rough",
+							"subterra",
+							"snow"
+						]
+					}
+				},
+				"rmg": {
+					"zoneLimit": 1,
+					"value": 6000,
+					"rarity": 70
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swWarlockGreenDragon",
+								"amount": 3
+							},
+							{
+								"type": "swWarlockGreenDragon",
+								"amount": 3
+							},
+							{
+								"type": "swWarlockGreenDragon",
+								"amount": 3
+							},
+							{
+								"type": "swWarlockGreenDragon",
+								"amount": 3
+							},
+							{
+								"type": "swWarlockGreenDragon",
+								"amount": 3
+							}
+						],
+						"combat_value": 600,
+						"reward": {
+							"resources": {
+								"gold": 10000
+							},
+							"value": 20000,
+							"artifacts": [
+								{
+									"class": "MINOR"
+								},
+								{
+									"class": "MAJOR"
+								}
+							]
+						}
+					}
+				]
+			},
+			"sw08centaurCave": {
+				"handler": "bank",
+				"name": "Centaur Cave",
+				"templates": {
+					"ZCrbank3": {
+						"animation": "swWarlock/adventure-map/banks/centaurCave/ZCrbank3",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VAB"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					}
+				},
+				"rmg": {
+					"value": 500,
+					"rarity": 150
+				},
+				"levels": [
+					{
+						"chance": 40,
+						"guards": [
+							{
+								"type": "swWarlockCentaur",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 10
+							}
+						],
+						"combat_value": 500,
+						"reward": {
+							"resources": {
+								"gold": 1000
+							},
+							"value": 500
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{
+								"type": "swWarlockCentaur",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 15
+							}
+						],
+						"combat_value": 670,
+						"reward": {
+							"resources": {
+								"gold": 1500
+							},
+							"value": 500
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{
+								"type": "swWarlockCentaur",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 20
+							}
+						],
+						"combat_value": 900,
+						"reward": {
+							"resources": {
+								"gold": 2000
+							},
+							"value": 500
+						}
+					}
+				]
+			},
+			"swWarlockTOwer": {
+				"handler": "bank",
+				"name": "Warlock Tower",
+				"templates": {
+					"avxbnk50": {
+						"animation": "swWarlock/adventure-map/banks/tower/avxbnk50",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"swamp"
+						]
+					}
+				},
+				"rmg": {
+					"value": 2000,
+					"rarity": 70
+				},
+				"levels": [
+					{
+						"chance": 50,
+						"guards": [
+							{
+								"type": "swWarlockCentaur",
+								"amount": 30
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 30
+							},
+							{
+								"type": "swWarlockGargoyle",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockGargoyle",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockMinotaur",
+								"amount": 5
+							}
+						],
+						"combat_value": 1200,
+						"reward": {
+							"resources": {
+								"gold": 3000
+							},
+							"value": 4000,
+							"artifacts": [
+								{
+									"class": "MAJOR"
+								}
+							]
+						}
+					},
+					{
+						"chance": 50,
+						"guards": [
+							{
+								"type": "swWarlockCentaur",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockCentaur",
+								"amount": 20
+							},
+							{
+								"type": "swWarlockGargoyle",
+								"amount": 12
+							},
+							{
+								"type": "swWarlockGargoyle",
+								"amount": 12
+							},
+							{
+								"type": "swWarlockMinotaur",
+								"amount": 3
+							}
+						],
+						"combat_value": 900,
+						"reward": {
+							"resources": {
+								"gold": 2500
+							},
+							"value": 4000,
+							"artifacts": [
+								{
+									"class": "MINOR"
+								}
+							]
+						}
+					}
+				]
+			},
+			//custom
+			"sw08dungeon": {
+				"handler": "bank",
+				"name": "Dungeon Entrance",
+				"templates": {
+					"avxbnk00": {
+						"animation": "swWarlock/adventure-map/banks/dungeon/avxbnk00",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"dirt",
+							"swamp",
+							"subterra"
+						]
+					}
+				},
+				"rmg": {
+					"value": 900,
+					"rarity": 100
+				},
+				"levels": [
+					{
+						"chance": 50,
+						"guards": [
+							{
+								"type": "swWarlockBeholder",
+								"amount": 5
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 5
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 5
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 5
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 5
+							}
+						],
+						"combat_value": 900,
+						"value": 1000,
+						"artifacts": [
+							{
+								"class": "TREASURE"
+							},
+							{
+								"class": "TREASURE"
+							}
+						]
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{
+								"type": "swWarlockBeholder",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 10
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 10
+							}
+						],
+						"combat_value": 1500,
+						"value": 4000,
+						"artifacts": [
+							{
+								"class": "MINOR"
+							}
+						]
+					},
+					{
+						"chance": 20,
+						"guards": [
+							{
+								"type": "swWarlockBeholder",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 15
+							},
+							{
+								"type": "swWarlockBeholder",
+								"amount": 15
+							}
+						],
+						"combat_value": 2000,
+						"value": 7000,
+						"artifacts": [
+							{
+								"class": "MAJOR"
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

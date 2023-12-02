@@ -1,0 +1,85 @@
+{
+	"sw08Faljarena": {
+		"female": true,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Faljarena",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Gargoyles",
+				"description": "Gargoyles",
+				"tooltip": "Increases the Attack and Defense skill of any Gargoyles for each level attained after 2nd level. (Inactive for v0.8 beta)"
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:91",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:91",
+			"large": "swWarlockHeroes/port/new/drow01L",
+			"small": "swWarlockHeroes/port/new/drow01S"
+		},
+		"spellbook": [
+			"slow"
+		],
+		"army": [
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "earthMagic",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWarlockGargoyle",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWarlockGargoyle",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

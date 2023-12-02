@@ -1,0 +1,20 @@
+{
+	"core:boat": {
+		"types": {
+
+			"swWarlockBoat": {
+				"name": "Boat",
+
+			"rmg": { "mapLimit": 64 },
+				"templates": {
+					"default": {
+						"animation": "swWarlock/boat/Hmm2Boat",
+						"mask": [ "VVV", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+
+
+}

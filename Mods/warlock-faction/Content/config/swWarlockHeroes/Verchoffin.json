@@ -1,0 +1,85 @@
+{
+	"sw08Verchoffin": {
+		"female": false,
+		"class": "swswWarlock",
+		"texts": {
+			"name": "Verchoffin",
+			"biography": "The past of this person is covered in shroud.",
+			"specialty": {
+				"name": "Hydras",
+				"description": "Hydras",
+				"tooltip": "Increases the Attack and Defense skill of any Hydras for each level attained after 6th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWarlockHeroes/UN32.def:84",
+			"specialtyLarge": "swWarlockHeroes/UN44.def:84",
+			"large": "swWarlockHeroes/port/HPL084OV",
+			"small": "swWarlockHeroes/port/HPS084OV"
+		},
+		"spellbook": [
+			"curse"
+		],
+		"army": [
+			{
+				"creature": "swWarlockCentaur",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "swWarlockGargoyle",
+				"min": 6,
+				"max": 8
+			},
+			{
+				"creature": "swWarlockGriffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWarlockHydra",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWarlockHydra",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}
