@@ -1,0 +1,86 @@
+{
+	"swWitchWywern": {
+		"name": {
+			"singular": "Wywern",
+			"plural": "Wywerns"
+		},
+		"faction": "swWitch",
+		"level": 7,
+		"cost": {
+			"gold": 1100,
+			"sulfur": 1
+		},
+		"speed": 10,
+		"hitPoints": 90,
+		"shots": 0,
+		"attack": 11,
+		"defense": 11,
+		"damage": {
+			"min": 15,
+			"max": 30
+		},
+		"fightValue": 1536,
+		"aiValue": 1778,
+		"advMapAmount": {
+			"min": 4,
+			"max": 8
+		},
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"upgrades": [],
+		"abilities": {
+			"ab1": {
+				"type": "KING",
+				"val": 1,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"ab2": {
+				"type": "FLYING",
+				"subtype": "movementFlying"
+			},
+			"ab3": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.poison",
+				"addInfo": [
+					0,
+					0
+				],
+				"val": 30
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWitchCreatures/cprsmall.def:112",
+			"iconLarge": "swWitchCreatures/TWCRPORT.def:112",
+			"map": "swWitchCreatures/map/082/AvWHydr",
+			"animation": "swWitchCreatures/battle/c110wyvn",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWitchCreatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
+			}
+		},
+		"sound": {
+			"attack": "swWitch/Wywern/HYDRATTK.wav",
+			"defend": "swWitch/Wywern/HYDRDFND.wav",
+			"killed": "swWitch/Wywern/HYDRKILL.wav",
+			"move": "swWitch/Wywern/HYDRMOVE.wav",
+			"wince": "swWitch/Wywern/HYDRWNCE.wav"
+		}
+	}
+}

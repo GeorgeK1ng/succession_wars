@@ -1,0 +1,56 @@
+{
+	"sw08Sati": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Sati",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "+ 350 Gold",
+				"description": "+ 350 Gold",
+				"tooltip": "Increases kingdom's income by 350 gold per day."
+			}
+		},
+		"spellbook": [
+			"weakness"
+		],
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:114",
+			"specialtyLarge": "swWitchHeroes/UN44.def:114",
+			"large": "swWitchHeroes/port/HPL114BS.bmp",
+			"small": "swWitchHeroes/port/HPS114BS.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gold",
+					"val": 350
+				}
+			}
+		}
+	}
+}

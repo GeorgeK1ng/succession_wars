@@ -1,0 +1,58 @@
+{
+	"sw08Budur": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Budur",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Sorcery",
+				"tooltip": "Receives a 5% per level bonus to Sorcery skill."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:121",
+			"specialtyLarge": "swWitchHeroes/UN44.def:121",
+			"large": "swWitchHeroes/port/HPL121WH.bmp",
+			"small": "swWitchHeroes/port/HPS121WH.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "spellSchool.any",
+					"valueType": "PERCENT_TO_BASE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

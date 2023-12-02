@@ -1,0 +1,81 @@
+{
+	"sw08Alice": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Alice",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Toads",
+				"description": "Toads",
+				"tooltip": "Increases the Attack and Defense skills of any Toads for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:120",
+			"specialtyLarge": "swWitchHeroes/UN44.def:120",
+			"large": "swWitchHeroes/port/082/HPL120WH.bmp",
+			"small": "swWitchHeroes/port/082/HPS120WH.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			},
+			{
+				"creature": "swWitchToad",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchToad",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchToad",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

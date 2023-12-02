@@ -1,0 +1,165 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"swWitchLevel1": {
+				"name": "Straw Hut",
+				"creatures": [
+					[
+						"swWitchTribal"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 50, "type": "swWitchTribal" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swWitch/adventure-map/AVGGNLL0",
+						"mask": [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"swWitchLevel3": {
+				"name": "Lizard Den",
+				"creatures": [
+					[
+						"swWitchLizardman"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 30, "type": "swWitchLizardman" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swWitch/adventure-map/AVGLZRD0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swWitchLevel2": {
+				"name": "Hive",
+				"creatures": [
+					[
+						"swWitchWasp"
+					]
+				],
+				//				"guards": [
+				//					{ "amount": 22, "type": "swWitchWasp" }
+				//				],
+				"templates": {
+					"default": {
+						"animation": "swWitch/adventure-map/AVGdfly0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swWitchLevel4": {
+				"name": "Lily Pond",
+				"creatures": [
+					[
+						"swWitchToad"
+					]
+				],
+				"guards": [
+					{
+						"amount": 16,
+						"type": "swWitchToad"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWitch/adventure-map/AVGbasl0",
+						"mask": [
+							"BBB",
+							"BBA"
+						]
+					}
+				}
+			},
+			"swWitchLevel5": {
+				"name": "Cocoon",
+				"creatures": [
+					[
+						"swWitchMantis"
+					]
+				],
+				"guards": [
+					{
+						"amount": 12,
+						"type": "swWitchMantis"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWitch/adventure-map/AVGgorg0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swWitchLevel6": {
+				"name": "Thicket",
+				"creatures": [
+					[
+						"swWitchTreeant"
+					]
+				],
+				"guards": [
+					{
+						"amount": 6,
+						"type": "swWitchTreeant"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWitch/adventure-map/AVGwyvn0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"swWitchLevel7": {
+				"name": "Aerie",
+				"creatures": [
+					[
+						"swWitchWywern"
+					]
+				],
+				"guards": [
+					{
+						"amount": 3,
+						"type": "swWitchWywern"
+					}
+				],
+				"templates": {
+					"default": {
+						"animation": "swWitch/adventure-map/AVGhydr0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					},
+					"default2": {
+						"animation": "swWitch/adventure-map/AVGhyds0",
+						"mask": [
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			}
+		}
+	}
+}

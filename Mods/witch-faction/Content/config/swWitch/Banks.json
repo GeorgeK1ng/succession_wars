@@ -1,0 +1,84 @@
+{
+	"core:dragonUtopia": {
+		"types": {
+			"swWitchHive": {
+				"handler": "bank",
+				"name": "Wasp Hive",
+				"templates": {
+					"base": {
+						"animation": "swWitch/adventure-map/banks/hive/AVXbnk70",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVAV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					},
+					"base082": {
+						"animation": "swWitch/adventure-map/banks/hive_082/AVXbnk70",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVVV",
+							"VVBAV"
+						],
+						"allowedTerrains": [
+							"swamp"
+						]
+					}
+				},
+				"rmg": {
+					"value": 1200,
+					"rarity": 120
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swWitchWasp",
+								"amount": 10
+							},
+							{
+								"type": "swWitchWasp",
+								"amount": 10
+							},
+							{
+								"type": "swWitchWasp",
+								"amount": 10
+							},
+							{
+								"type": "swWitchWasp",
+								"amount": 10
+							},
+							{
+								"type": "swWitchWasp",
+								"amount": 10
+							},
+							{
+								"type": "swWitchWasp",
+								"amount": 10
+							}
+						],
+						"combat_value": 800,
+						"reward": {
+							"resources": {
+								"gold": 1500
+							},
+							"value": 1000
+						}
+					}
+				]
+			}
+		}
+	}
+}

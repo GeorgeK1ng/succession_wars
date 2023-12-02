@@ -1,6 +1,6 @@
 {
-	"name": "SW - Witch Town",
-	"description": "Witch Town",
+	"name": "SW - Witch faction",
+	"description": "Witch faction",
 	"modType": "Town",
 	"author": "author",
 	"contact": "none",
@@ -12,52 +12,52 @@
 	],
 	"factions":
 	[
-		"config/sw08witch/buildings.json",
-		"config/sw08witch/faction.json",
-		"config/sw08witch/siege.json",
-		"config/sw08witch/spells.json",
-		"config/sw08witch/structures.json",
-		"config/sw08witch/puzzle.json",
-		"config/sw08witch/texts.json"
+		"config/swWitch/buildings.json",
+		"config/swWitch/faction.json",
+		"config/swWitch/siege.json",
+		"config/swWitch/spells.json",
+		"config/swWitch/structures.json",
+		"config/swWitch/puzzle.json",
+		"config/swWitch/texts.json"
 	],
 	"heroClasses":
 	[
-		"config/sw08witch-heroClasses/witch.json"
+		"config/swWitchHeroClasses/witch.json"
 	],
 	"heroes":
 	[
-		"config/sw08witch-heroes/Alice.json",
-		"config/sw08witch-heroes/Budur.json",
-		"config/sw08witch-heroes/Charon.json",
-		"config/sw08witch-heroes/Cmok.json",
-		"config/sw08witch-heroes/Dorika.json",
-		"config/sw08witch-heroes/Ester.json",
-		"config/sw08witch-heroes/Grizzelle.json",
-		"config/sw08witch-heroes/Kaya.json",
-		"config/sw08witch-heroes/Libelle.json",
-		"config/sw08witch-heroes/Lilith.json",
-		"config/sw08witch-heroes/Malis.json",
-		"config/sw08witch-heroes/Nya.json",
-		"config/sw08witch-heroes/Sati.json",
-		"config/sw08witch-heroes/Wenin.json",
-		"config/sw08witch-heroes/Xsissis.json",
-		"config/sw08witch-heroes/Zaia.json",
-		"config/sw08witch-heroes/Zanthia.json"
+		"config/swWitchHeroes/Alice.json",
+		"config/swWitchHeroes/Budur.json",
+		"config/swWitchHeroes/Charon.json",
+		"config/swWitchHeroes/Cmok.json",
+		"config/swWitchHeroes/Dorika.json",
+		"config/swWitchHeroes/Ester.json",
+		"config/swWitchHeroes/Grizzelle.json",
+		"config/swWitchHeroes/Kaya.json",
+		"config/swWitchHeroes/Libelle.json",
+		"config/swWitchHeroes/Lilith.json",
+		"config/swWitchHeroes/Malis.json",
+		"config/swWitchHeroes/Nya.json",
+		"config/swWitchHeroes/Sati.json",
+		"config/swWitchHeroes/Wenin.json",
+		"config/swWitchHeroes/Xsissis.json",
+		"config/swWitchHeroes/Zaia.json",
+		"config/swWitchHeroes/Zanthia.json"
 	],
 	"creatures":
 	[
-		"config/sw08witch-creatures/Lizard Warrior.json",
-		"config/sw08witch-creatures/Lizardman.json",
-		"config/sw08witch-creatures/Mantis.json",
-		"config/sw08witch-creatures/Toad.json",
-		"config/sw08witch-creatures/Treant.json",
-		"config/sw08witch-creatures/Tribal.json",
-		"config/sw08witch-creatures/Wasp.json",
-		"config/sw08witch-creatures/Wyvern.json"
+		"config/swWitchCreatures/Lizard Warrior.json",
+		"config/swWitchCreatures/Lizardman.json",
+		"config/swWitchCreatures/Mantis.json",
+		"config/swWitchCreatures/Toad.json",
+		"config/swWitchCreatures/Treant.json",
+		"config/swWitchCreatures/Tribal.json",
+		"config/swWitchCreatures/Wasp.json",
+		"config/swWitchCreatures/Wyvern.json"
 	],
 	"objects":
 	[
-		"config/sw08witch/dwellings.json",
-		"config/sw08witch/banks.json"
+		"config/swWitch/dwellings.json",
+		"config/swWitch/banks.json"
 	]
 }

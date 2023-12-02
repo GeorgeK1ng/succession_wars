@@ -1,0 +1,58 @@
+{
+	"sw08Cmok": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Cmok",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Intellect",
+				"description": "Intellect",
+				"tooltip": "Receives a 5% per level bonus to Intellect skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:118",
+			"specialtyLarge": "swWitchHeroes/UN44.def:118",
+			"large": "swWitchHeroes/port/HPL118BS.bmp",
+			"small": "swWitchHeroes/port/HPS118BS.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MANA_PER_KNOWLEDGE",
+					"valueType": "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType": "SECONDARY_SKILL",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

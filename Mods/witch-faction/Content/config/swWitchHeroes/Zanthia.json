@@ -1,0 +1,56 @@
+{
+	"sw08Zanthia": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Zanthia",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "+ 1 Mercury",
+				"description": "+ 1 Mercury",
+				"tooltip": "Increases kingdom's Mercury production by 1 per day."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:125",
+			"specialtyLarge": "swWitchHeroes/UN44.def:125",
+			"large": "swWitchHeroes/port/HPL125WH.bmp",
+			"small": "swWitchHeroes/port/HPS125WH.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"disruptingRay"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.mercury",
+					"val": 1
+				}
+			}
+		}
+	}
+}

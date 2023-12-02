@@ -1,0 +1,70 @@
+{
+	"swWitchWasp": {
+		"name": {
+			"singular": "Wasp",
+			"plural": "Wasps"
+		},
+		"faction": "swWitch",
+		"level": 2,
+		"cost": {
+			"gold": 145
+		},
+		"speed": 8,
+		"hitPoints": 10,
+		"shots": 0,
+		"attack": 4,
+		"defense": 2,
+		"damage": {
+			"min": 2,
+			"max": 5
+		},
+		"fightValue": 133,
+		"aiValue": 120,
+		"advMapAmount": {
+			"min": 15,
+			"max": 30
+		},
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "FLYING",
+				"subtype": "movementFlying"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWitchCreatures/cprsmall.def:102",
+			"iconLarge": "swWitchCreatures/TWCRPORT.def:102",
+			"map": "swWitchCreatures/map/AvWdfly",
+			"animation": "swWitchCreatures/battle/c100wasp",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWitchCreatures/battle/cprgtix",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 13
+			}
+		},
+		"sound": {
+			"attack": "swWitch/wasp/PLIZATTK.wav",
+			"defend": "swWitch/wasp/PLIZDFND.wav",
+			"killed": "swWitch/wasp/PLIZKILL.wav",
+			"move": "swWitch/wasp/PLIZMOVE.wav",
+			"wince": "swWitch/wasp/PLIZWNCE.wav"
+		}
+	}
+}

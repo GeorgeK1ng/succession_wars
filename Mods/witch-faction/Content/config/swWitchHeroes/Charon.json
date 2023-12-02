@@ -1,0 +1,56 @@
+{
+	"sw08Charon": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Charon",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Mysticism",
+				"description": "Mysticism",
+				"tooltip": "Receives a level-dependent bonus to mana regeneration."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:112",
+			"specialtyLarge": "swWitchHeroes/UN44.def:112",
+			"large": "swWitchHeroes/port/HPL112BS.bmp",
+			"small": "swWitchHeroes/port/HPS112BS.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MANA_REGENERATION",
+					"val": 1,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+{
+	"swWitchMantis": {
+		"name": {
+			"singular": "Mantis",
+			"plural": "Mantises"
+		},
+		"faction": "swWitch",
+		"level": 5,
+		"cost": {
+			"gold": 540
+		},
+		"speed": 5,
+		"hitPoints": 50,
+		"shots": 0,
+		"attack": 7,
+		"defense": 9,
+		"damage": {
+			"min": 7,
+			"max": 10
+		},
+		"fightValue": 608,
+		"aiValue": 660,
+		"advMapAmount": {
+			"min": 10,
+			"max": 20
+		},
+		"growth": 3,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"abilities": {
+			"ability1": {
+				"type": "FIRST_STRIKE"
+			},
+			"ability2": {
+				"type": "FLYING",
+				"subtype": "movementFlying"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWitchCreatures/cprsmall.def:108",
+			"iconLarge": "swWitchCreatures/TWCRPORT.def:108",
+			"map": "swWitchCreatures/map/AvWgorg",
+			"animation": "swWitchCreatures/battle/c106mtis",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWitchCreatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
+			}
+		},
+		"sound": {
+			"attack": "swWitch/mantis/HHAGATTK.wav",
+			"defend": "swWitch/mantis/HHAGDFND.wav",
+			"killed": "swWitch/mantis/HHAGKILL.wav",
+			"move": "swWitch/mantis/HHAGMOVE.wav",
+			"wince": "swWitch/mantis/HHAGWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

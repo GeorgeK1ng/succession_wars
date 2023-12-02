@@ -1,0 +1,71 @@
+{
+	"swWitchLizardman": {
+		"name": {
+			"singular": "Lizardman",
+			"plural": "Lizardmen"
+		},
+		"faction": "swWitch",
+		"level": 3,
+		"cost": {
+			"gold": 165
+		},
+		"speed": 4,
+		"hitPoints": 20,
+		"shots": 12,
+		"attack": 4,
+		"defense": 5,
+		"damage": {
+			"min": 2,
+			"max": 4
+		},
+		"fightValue": 191,
+		"aiValue": 187,
+		"advMapAmount": {
+			"min": 10,
+			"max": 20
+		},
+		"growth": 7,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": ["swWitchLizardWarrior"],
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWitchCreatures/cprsmall.def:104",
+			"iconLarge": "swWitchCreatures/TWCRPORT.def:104",
+			"map": "swWitchCreatures/map/082/AvWLizr",
+			"animation": "swWitchCreatures/battle/c102liza",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWitchCreatures/battle/PPLIZAX",
+				"offset": {
+					"upperX": 30,
+					"upperY": -70,
+					"middleX": 45,
+					"middleY": -49,
+					"lowerX": 40,
+					"lowerY": -47
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
+			}
+		},
+		"sound": {
+			"attack": "swWitch/lizardman/PLIZATTK.wav",
+			"defend": "swWitch/lizardman/PLIZDFND.wav",
+			"killed": "swWitch/lizardman/PLIZKILL.wav",
+			"move": "swWitch/lizardman/PLIZMOVE.wav",
+			"wince": "swWitch/lizardman/PLIZWNCE.wav",
+			"shoot": "swWitch/lizardman/PLIZSHOT.wav"
+		}
+	}
+}

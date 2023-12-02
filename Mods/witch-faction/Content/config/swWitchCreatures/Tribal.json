@@ -1,0 +1,70 @@
+{
+	"swWitchTribal": {
+		"name": {
+			"singular": "Tribal",
+			"plural": "Tribals"
+		},
+		"faction": "swWitch",
+		"level": 1,
+		"cost": {
+			"gold": 65
+		},
+		"speed": 4,
+		"hitPoints": 6,
+		"shots": 12,
+		"attack": 2,
+		"defense": 5,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"fightValue": 77,
+		"aiValue": 67,
+		"advMapAmount": {
+			"min": 20,
+			"max": 40
+		},
+		"growth": 8,
+		"horde": 5,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWitchCreatures/cprsmall.def:100",
+			"iconLarge": "swWitchCreatures/TWCRPORT.def:100",
+			"map": "swWitchCreatures/map/AVWgnll0",
+			"animation": "swWitchCreatures/battle/c098trbl",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWitchCreatures/battle/PPLIZAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
+			}
+		},
+		"sound": {
+			"attack": "swWitch/tribal/GNOLATTK.wav",
+			"defend": "swWitch/tribal/GNOLDFND.wav",
+			"killed": "swWitch/tribal/GNOLKILL.wav",
+			"move": "swWitch/tribal/GNOLMOVE.wav",
+			"wince": "swWitch/tribal/GNOLWNCE.wav",
+			"shoot": "swWitch/tribal/GNOLATTK.wav"
+		}
+	}
+}

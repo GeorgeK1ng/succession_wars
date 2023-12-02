@@ -1,0 +1,81 @@
+{
+	"sw08Kaya": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Kaya",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Treants",
+				"description": "Treants",
+				"tooltip": "Increases the Attack and Defense skills of any Treants for each level attained after 6th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:123",
+			"specialtyLarge": "swWitchHeroes/UN44.def:123",
+			"large": "swWitchHeroes/port/HPL123WH.bmp",
+			"small": "swWitchHeroes/port/HPS123WH.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchTreeant",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchTreeant",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

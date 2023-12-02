@@ -1,0 +1,81 @@
+{
+	"sw08Wenin": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Wenin",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Wasps",
+				"description": "Wasps",
+				"tooltip": "Increases the Attack and Defense skills of any Wasps for each level attained after 2nd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:116",
+			"specialtyLarge": "swWitchHeroes/UN44.def:116",
+			"large": "swWitchHeroes/port/HPL116BS.bmp",
+			"small": "swWitchHeroes/port/HPS116BS.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"spellbook": [
+			"weakness"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchWasp",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchWasp",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

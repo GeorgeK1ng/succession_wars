@@ -1,0 +1,72 @@
+{
+	"swWitchTreeant": {
+		"name": {
+			"singular": "Treeant",
+			"plural": "Treants"
+		},
+		"faction": "swWitch",
+		"level": 6,
+		"cost": {
+			"gold": 850
+		},
+		"speed": 4,
+		"hitPoints": 85,
+		"shots": 0,
+		"attack": 12,
+		"defense": 9,
+		"damage": {
+			"min": 10,
+			"max": 16
+		},
+		"fightValue": 1104,
+		"aiValue": 1274,
+		"advMapAmount": {
+			"min": 7,
+			"max": 11
+		},
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.bind",
+				"val": 30,
+				"addInfo": [1, 0]
+			}
+		},
+		"graphics": {
+			"iconSmall": "swWitchCreatures/cprsmall.def:110",
+			"iconLarge": "swWitchCreatures/TWCRPORT.def:110",
+			"map": "swWitchCreatures/map/AVWwyvr",
+			"animation": "swWitchCreatures/battle/c108trea",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swWitchCreatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
+			}
+		},
+		"sound": {
+			"attack": "swWitch/tree/TBRDATTK.wav",
+			"defend": "swWitch/tree/TBRDDFND.wav",
+			"killed": "swWitch/tree/TBRDKILL.wav",
+			"move": "swWitch/tree/TBRDMOVE.wav",
+			"wince": "swWitch/tree/TBRDWNCE.wav"
+		}
+	}
+}

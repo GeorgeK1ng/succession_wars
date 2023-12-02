@@ -1,0 +1,57 @@
+{
+	"sw08Libelle": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Libelle",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Disrupting Ray",
+				"description": "Disrupting Ray",
+				"tooltip": "Casts Disrupting Ray with increased effect."
+			}
+		},
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:124",
+			"specialtyLarge": "swWitchHeroes/UN44.def:124",
+			"large": "swWitchHeroes/port/HPL124WH.bmp",
+			"small": "swWitchHeroes/port/HPS124WH.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchWasp",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swWitchLizardman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"spellbook": [
+			"disruptingRay"
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.disruptingRay"
+				}
+			}
+		}
+	}
+}

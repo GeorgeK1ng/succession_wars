@@ -1,0 +1,20 @@
+{
+	"core:boat": {
+		"types": {
+
+			"swWitchBoat": {
+				"name": "Boat",
+
+			"rmg": { "mapLimit": 64 },
+				"templates": {
+					"default": {
+						"animation": "swWitch/boat/Hmm2Boat",
+						"mask": [ "VVV", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+
+
+}

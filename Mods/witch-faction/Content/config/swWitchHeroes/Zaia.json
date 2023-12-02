@@ -1,0 +1,81 @@
+{
+	"sw08Zaia": {
+		"female": true,
+		"class": "swWitch",
+		"texts": {
+			"name": "Zaia",
+			"biography": "no bio yet",
+			"specialty": {
+				"name": "Tribals",
+				"description": "Tribals",
+				"tooltip": "Increases the Attack and Defense skills of any Tribals for each level attained after 1st level."
+			}
+		},
+		"spellbook": [
+			"weakness"
+		],
+		"images": {
+			"specialtySmall": "swWitchHeroes/UN32.def:113",
+			"specialtyLarge": "swWitchHeroes/UN44.def:113",
+			"large": "swWitchHeroes/port/HPL113BS.bmp",
+			"small": "swWitchHeroes/port/HPS113BS.bmp"
+		},
+		"army": [
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			},
+			{
+				"creature": "swWitchTribal",
+				"min": 8,
+				"max": 16
+			}
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchTribal",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swWitchTribal",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}
