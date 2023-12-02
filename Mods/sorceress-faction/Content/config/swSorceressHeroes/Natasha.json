@@ -1,0 +1,85 @@
+{
+	"sw08Natasha": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Natasha",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Dwarves and Battle Dwarves",
+				"description": "Dwarves and Battle Dwarves",
+				"tooltip": "Increases the Attack and Defense skills of any Dwarves or Battle Dwarves for each level attained after 2nd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:18",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:18",
+			"large": "swSorceressHeroes/port/HPL018RN",
+			"small": "swSorceressHeroes/port/HPS018RN"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressDwarf",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressDwarf",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"sw08Kasmetra": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Kasmetra",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Druids and Greater Druids",
+				"description": "Druids and Greater Druids",
+				"tooltip": "Increases the Attack and Defense skills of any Druids or Greater Druids for each level attained after 5th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:27",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:27",
+			"large": "swSorceressHeroes/port/HPL027DR",
+			"small": "swSorceressHeroes/port/HPS027DR"
+		},
+		"spellbook": [
+			"bless"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "scholar",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressDruid",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressDruid",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

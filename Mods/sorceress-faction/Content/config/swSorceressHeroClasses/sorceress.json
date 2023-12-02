@@ -1,0 +1,82 @@
+{
+	"swSorceress": {
+		"name": "Sorceress",
+		"faction": "swswSorceressfaction",
+		"affinity": "magic",
+		"commander": "swSorceressGreaterDruid",
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "swSorceressHeroClasses/AH02_"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"female": "swSorceressHeroClasses/CH02",
+				"male": "swSorceressHeroClasses/CH03"
+			}
+		},
+		"primarySkills": {
+			"attack": 0,
+			"defence": 0,
+			"spellpower": 2,
+			"knowledge": 3
+		},
+		"lowLevelChance": {
+			"attack": 10,
+			"defence": 10,
+			"spellpower": 30,
+			"knowledge": 50
+		},
+		"highLevelChance": {
+			"attack": 20,
+			"defence": 20,
+			"spellpower": 30,
+			"knowledge": 30
+		},
+		"secondarySkills": {
+			"archery": 3,
+			"ballistics": 3,
+			"diplomacy": 2,
+			"eagleEye": 2,
+			"estates": 2,
+			"leadership": 1,
+			"logistics": 2,
+			"luck": 3,
+			"mysticism": 3,
+			"navigation": 4,
+			"necromancy": 0,
+			"pathfinding": 2,
+			"scouting": 1,
+			"wisdom": 4,
+			"fireMagic": 2,
+			"airMagic": 3,
+			"waterMagic": 2,
+			"earthMagic": 4,
+			"scholar": 1,
+			"tactics": 6,
+			"artillery": 5,
+			"learning": 2,
+			"offence": 9,
+			"armorer": 2,
+			"intelligence": 3,
+			"sorcery": 2,
+			"resistance": 3,
+			"firstAid": 2
+		},
+		"defaultTavern": 3,
+		"tavern": {
+			"castle": 2,
+			"rampart": 6,
+			"tower": 6,
+			"inferno": 6,
+			"necropolis": 5,
+			"dungeon": 5,
+			"stronghold": 6,
+			"fortress": 6,
+			"conflux": 5,
+			"swswSorceressfaction": 10
+		}
+	}
+}

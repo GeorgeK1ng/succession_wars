@@ -1,0 +1,305 @@
+{
+	"swswSorceressfaction": {
+		"town": {
+			"structures": {
+				"ext": {
+					"animation": "swSorceress/town-screen/buildings/tbrmext2",
+					"x": 8,
+					"y": 324,
+					"z": 1
+				},
+				"mageGuild1": {
+					"animation": "swSorceress/town-screen/buildings/TBRMMAGE",
+					"border": "swSorceress/town-screen/buildings-border/TORMAG1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRMAG1.bmp",
+					"x": 278,
+					"y": 70,
+					"z": -33
+				},
+				"mageGuild2": {
+					"animation": "swSorceress/town-screen/buildings/TBRMMAG2",
+					"border": "swSorceress/town-screen/buildings-border/TORMAG2.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRMAG2.bmp",
+					"x": 278,
+					"y": 47,
+					"z": -33
+				},
+				"mageGuild3": {
+					"animation": "swSorceress/town-screen/buildings/TBRMMAG3",
+					"border": "swSorceress/town-screen/buildings-border/TORMAG3.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRMAG3.bmp",
+					"x": 278,
+					"y": 31,
+					"z": -33
+				},
+				"mageGuild4": {
+					"animation": "swSorceress/town-screen/buildings/TBRMMAG4",
+					"border": "swSorceress/town-screen/buildings-border/TORMAG4.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRMAG4.bmp",
+					"x": 278,
+					"y": 18,
+					"z": -33
+				},
+				"mageGuild5": {
+					"animation": "swSorceress/town-screen/buildings/TBRMMAG5",
+					"border": "swSorceress/town-screen/buildings-border/TORMAG5.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRMAG5.bmp",
+					"x": 278,
+					"y": 9,
+					"z": -33
+				},
+				"tavern": {
+					"animation": "swSorceress/town-screen/buildings/TBRMTVRN",
+					"border": "swSorceress/town-screen/buildings-border/TORTAV.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRTAV.bmp",
+					"x": 424,
+					"y": 236,
+					"z": -26
+				},
+				"shipyard": {
+					"animation": "swSorceress/town-screen/buildings/Tbrmdock",
+					"border": "swSorceress/town-screen/buildings-border/Tormdknn.bmp",
+					"area": "swSorceress/town-screen/buildings-area/tzrmdknn.bmp",
+					"x": 8,
+					"y": 310,
+					"z": -21
+				},
+				"fort": {
+					"animation": "swSorceress/town-screen/buildings/TBRMCSTL",
+					"border": "swSorceress/town-screen/buildings-border/TORCAS1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRCAS1.bmp",
+					"x": 8,
+					"y": 70,
+					"z": -35
+				},
+				"citadel": {
+					"animation": "swSorceress/town-screen/buildings/TBRMCAS2",
+					"border": "swSorceress/town-screen/buildings-border/TORCAS2.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRCAS2.bmp",
+					"x": 8,
+					"y": 70,
+					"z": -35
+				},
+				"castle": {
+					"animation": "swSorceress/town-screen/buildings/TBRMCAS3",
+					"border": "swSorceress/town-screen/buildings-border/TORCAS3.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRCAS3.bmp",
+					"x": 8,
+					"y": 70,
+					"z": -35
+				},
+				"villageHall": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHALL",
+					"border": "swSorceress/town-screen/buildings-border/TORHAL1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRHAL1.bmp",
+					"x": 581,
+					"y": 161,
+					"z": -17
+				},
+				"townHall": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHAL2",
+					"border": "swSorceress/town-screen/buildings-border/TORHAL2.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRHAL2.bmp",
+					"x": 581,
+					"y": 161,
+					"z": -17
+				},
+				"cityHall": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHAL3",
+					"border": "swSorceress/town-screen/buildings-border/TORHAL3.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRHAL3.bmp",
+					"x": 397,
+					"y": 133,
+					"z": -17
+				},
+				"capitol": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHAL4",
+					"border": "swSorceress/town-screen/buildings-border/TORHAL4.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRHAL4.bmp",
+					"x": 397,
+					"y": 119,
+					"z": -17
+				},
+				"marketplace": {
+					"animation": "swSorceress/town-screen/buildings/TBRMMARK",
+					"border": "swSorceress/town-screen/buildings-border/TORMRK1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRMRK1.bmp",
+					"x": 417,
+					"y": 192,
+					"z": -34
+				},
+				"resourceSilo": {
+					"animation": "swSorceress/town-screen/buildings/TBRMSILO",
+					"border": "swSorceress/town-screen/buildings-border/TORMRK2.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRMRK2.bmp",
+					"x": 46,
+					"y": 272,
+					"z": -38
+				},
+				"blacksmith": {
+					"animation": "swSorceress/town-screen/buildings/TBRMBLAK",
+					"border": "swSorceress/town-screen/buildings-border/TORAID.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRAID.bmp",
+					"x": 302,
+					"y": 189,
+					"z": -32
+				},
+				"special1": {
+					"animation": "swSorceress/town-screen/buildings/TBRMSPEC",
+					"border": "swSorceress/town-screen/buildings-border/TORGAR1A.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRGAR1A.bmp",
+					"x": 717,
+					"y": 219,
+					"z": -10
+				},
+				"horde1": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHRD1",
+					"border": "swSorceress/town-screen/buildings-border/TORDWF1H.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRDWF1H.bmp",
+					"x": 46,
+					"y": 206,
+					"z": -30,
+					"hidden": true
+				},
+				"horde1Upgr": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHRD2",
+					"border": "swSorceress/town-screen/buildings-border/TORDWF2H.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRDWF2H.bmp",
+					"x": 46,
+					"y": 182,
+					"z": -30,
+					"hidden": true
+				},
+				"ship": {
+					"animation": "swSorceress/town-screen/buildings/Tbrmboat",
+					"border": "swSorceress/town-screen/buildings-border/Tormdknn.bmp",
+					"area": "swSorceress/town-screen/buildings-area/tzrmdknn.bmp",
+					"x": 8,
+					"y": 310,
+					"z": -21
+				},
+				"special2": {
+					"animation": "swSorceress/town-screen/buildings/TBRMEXT0",
+					"border": "swSorceress/town-screen/buildings-border/TORGAR2A.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRGAR2A.bmp",
+					"x": 153,
+					"y": 70,
+					"z": -39
+				},
+				"special3": {
+					"animation": "swSorceress/town-screen/buildings/TBRMEXT1",
+					"border": "swSorceress/town-screen/buildings-border/TORDWFT.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRDWFT.bmp",
+					"x": 240,
+					"y": 197,
+					"z": -36
+				},
+				//"special4":{  "animation": "swSorceress/town-screen/buildings/TBRMEXT1", "x": 8,   "y": 308,  "z":-23, "border": "swSorceress/town-screen/buildings-border/TORDWFT.bmp",  "area": "swSorceress/town-screen/buildings-area/TZRDWFT.bmp" },
+				"horde2": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHRD3",
+					"border": "swSorceress/town-screen/buildings-border/TORTRE1H.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRTRE1H.bmp",
+					"x": 385,
+					"y": 129,
+					"z": -16
+				},
+				"horde2Upgr": {
+					"animation": "swSorceress/town-screen/buildings/TBRMHRD4",
+					"border": "swSorceress/town-screen/buildings-border/TORTRE2H.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRTRE2H.bmp",
+					"x": 385,
+					"y": 129,
+					"z": -16
+				},
+				//"grail":{  "animation": "swSorceress/town-screen/buildings/TBRMHOLY", "x":312,   "y": 9,  "z": -40 },
+				//"extraTownHall":{  "animation": "swSorceress/town-screen/buildings/TBRMEXT3", "x": 295, "y": 235, "z":-12 },
+				//"extraCityHall":{  "animation": "swSorceress/town-screen/buildings/TBRMEXT4", "x": 295, "y": 191 , "z":-15},
+				//"extraCapitol":{  "animation": "swSorceress/town-screen/buildings/TBRMEXT5", "x": 260, "y": 171, "z":-11 },
+				"dwellingLvl1": {
+					"animation": "swSorceress/town-screen/buildings/TBRMDW_0",
+					"border": "swSorceress/town-screen/buildings-border/TORCEN1A.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRCEN1A.bmp",
+					"x": 481,
+					"y": 129,
+					"z": -14
+				},
+				"dwellingLvl2": {
+					"animation": "swSorceress/town-screen/buildings/TBRMDW_1",
+					"border": "swSorceress/town-screen/buildings-border/TORDWF1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRDWF1.bmp",
+					"x": 345,
+					"y": 206,
+					"z": -31
+				},
+				"dwellingLvl3": {
+					"animation": "swSorceress/town-screen/buildings/TBRMDW_2",
+					"border": "swSorceress/town-screen/buildings-border/TORELF1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRELF1.bmp",
+					"x": 142,
+					"y": 248,
+					"z": -28
+				},
+				"dwellingLvl4": {
+					"animation": "swSorceress/town-screen/buildings/TBRMDW_3",
+					"border": "swSorceress/town-screen/buildings-border/TORPEG1A.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRPEG1A.bmp",
+					"x": 504,
+					"y": 225,
+					"z": -22
+				},
+				"dwellingLvl5": {
+					"animation": "swSorceress/town-screen/buildings/TBRMUP_4",
+					"border": "swSorceress/town-screen/buildings-border/TORTRE1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRTRE1.bmp",
+					"x": 223,
+					"y": 277,
+					"z": -19
+				},
+				"dwellingLvl6": {
+					"animation": "swSorceress/town-screen/buildings/TBRMDW_5",
+					"border": "swSorceress/town-screen/buildings-border/TORUNI1.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRUNI1.bmp",
+					"x": 415,
+					"y": 334,
+					"z": -25
+				},
+				"dwellingLvl7": {
+					"animation": "swSorceress/town-screen/buildings/TBRMDW_6",
+					"border": "swSorceress/town-screen/buildings-border/TORDR1AA.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRDR1AA.bmp",
+					"x": 177,
+					"y": 70,
+					"z": -37
+				},
+				//"dwellingUpLvl1":{  "animation": "swSorceress/town-screen/buildings/TBRMUP_0", "x": 469,   "y": 57, "z": -13,  "border": "swSorceress/town-screen/buildings-border/TORCEN2A.bmp", "area": "swSorceress/town-screen/buildings-area/TZRCEN2A.bmp" },
+				"dwellingUpLvl2": {
+					"animation": "swSorceress/town-screen/buildings/TBRMUP_1",
+					"border": "swSorceress/town-screen/buildings-border/TORDWF2.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRDWF2.bmp",
+					"x": 345,
+					"y": 182,
+					"z": -30
+				},
+				"dwellingUpLvl3": {
+					"animation": "swSorceress/town-screen/buildings/TBRMUP_2",
+					"border": "swSorceress/town-screen/buildings-border/TORELF2.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRELF2.bmp",
+					"x": 111,
+					"y": 248,
+					"z": -27
+				},
+				//"dwellingUpLvl4":{  "animation": "swSorceress/town-screen/buildings/TBRMUP_3", "x": 0, "y": 197,  "z":-20,  "border": "swSorceress/town-screen/buildings-border/TORPEG2A.bmp", "area": "swSorceress/town-screen/buildings-area/TZRPEG2A.bmp" },
+				"dwellingUpLvl5": {
+					"animation": "swSorceress/town-screen/buildings/TBRMUP_4",
+					"border": "swSorceress/town-screen/buildings-border/TORTRE2.bmp",
+					"area": "swSorceress/town-screen/buildings-area/TZRTRE2.bmp",
+					"x": 211,
+					"y": 268,
+					"z": -18
+				}
+				//"dwellingUpLvl6":{  "animation": "swSorceress/town-screen/buildings/TBRMUP_5", "x": 477, "y": 308,   "z":-24, "border": "swSorceress/town-screen/buildings-border/TORUNI2.bmp",  "area": "swSorceress/town-screen/buildings-area/TZRUNI2.bmp" },
+				//"dwellingUpLvl7":{  "animation": "swSorceress/town-screen/buildings/TBRMUP_6", "x": 170, "y": 0,    "z":-29,  "border": "swSorceress/town-screen/buildings-border/TORDR2AA.bmp", "area": "swSorceress/town-screen/buildings-area/TZRDR2AA.bmp" }  
+			}
+		}
+	}
+}

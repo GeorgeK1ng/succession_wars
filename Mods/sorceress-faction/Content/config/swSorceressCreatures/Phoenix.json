@@ -1,0 +1,67 @@
+{
+	"swSorceressPhoenix": {
+		"name": {
+			"singular": "Phoenix",
+			"plural": "Phoenixes"
+		},
+		"faction": "swswSorceressfaction",
+		"level": 7,
+		"cost": {
+			"gold": 2600,
+			"mercury": 1
+		},
+		"speed": 15,
+		"hitPoints": 125,
+		"shots": 0,
+		"attack": 12,
+		"defense": 10,
+		"damage": {
+			"min": 25,
+			"max": 50
+		},
+		"fightValue": 2399,
+		"aiValue": 2862,
+		"advMapAmount": {
+			"min": 7,
+			"max": 12
+		},
+		"growth": 1,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"abilities": {
+			"ability1": {
+				"type": "LEVEL_SPELL_IMMUNITY",
+				"val": 1
+			},
+			"ability2": {
+				"type": "KING",
+				"val": 1,
+				"valueType": "ADDITIVE_VALUE"
+			},
+			"ability3": {
+				"type": "TWO_HEX_ATTACK_BREATH"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swSorceressCreatures/cprsmall.def:28",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:28",
+			"map": "swSorceressCreatures/map/AVWdrag0",
+			"animation": "swSorceressCreatures/battle/c026phnx",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "swSorceress/phoenix/GRDRATTK.wav",
+			"defend": "swSorceress/phoenix/GRDRDFND.wav",
+			"killed": "swSorceress/phoenix/GRDRKILL.wav",
+			"move": "swSorceress/phoenix/GRDRMOVE.wav",
+			"wince": "swSorceress/phoenix/GRDRWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

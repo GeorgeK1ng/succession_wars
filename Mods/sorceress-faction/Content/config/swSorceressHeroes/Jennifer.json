@@ -1,0 +1,60 @@
+{
+	"sw08Jennifer": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Jennifer",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Bless",
+				"description": "Bless",
+				"tooltip": "Receives Bless spell."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:5",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:5",
+			"large": "swSorceressHeroes/port/new/Sorc02L",
+			"small": "swSorceressHeroes/port/new/Sorc02S"
+		},
+		"spellbook": [
+			"bless"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "diplomacy",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"subtype": "spell.bless"
+				}
+			}
+		}
+	}
+}

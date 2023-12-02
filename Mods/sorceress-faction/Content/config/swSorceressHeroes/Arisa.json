@@ -1,0 +1,61 @@
+{
+	"sw08Arisa": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Arisa",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Maxed Cure",
+				"description": "Maxed Cure",
+				"tooltip": "Casts Cure with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:30",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:30",
+			"large": "swSorceressHeroes/port/082/HPL030DR",
+			"small": "swSorceressHeroes/port/082/HPS030DR"
+		},
+		"spellbook": [
+			"cure"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "firstAidTent",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "firstAid",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.cure"
+				}
+			}
+		}
+	}
+}

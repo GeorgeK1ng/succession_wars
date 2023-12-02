@@ -1,0 +1,62 @@
+{
+	"sw08Ariel": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Ariel",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Navigation",
+				"description": "Navigation",
+				"tooltip": "Receives a 5% per level bonus to Navigation skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:26",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:26",
+			"large": "swSorceressHeroes/port/HPL026DR",
+			"small": "swSorceressHeroes/port/HPS026DR"
+		},
+		"spellbook": [
+			"frostRing"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MOVEMENT",
+					"subtype": "heroMovementSea",
+					"valueType": "PERCENT_TO_BASE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"sw08Vatawna": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Vatawna",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Elves and Grand Elves",
+				"description": "Elves and Grand Elves",
+				"tooltip": "Increases the Attack and Defense skills of any Elves or Grand Elves for each level attained after 3rd level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:19",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:19",
+			"large": "swSorceressHeroes/port/HPL019RN",
+			"small": "swSorceressHeroes/port/HPS019RN"
+		},
+		"spellbook": [
+			"precision"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "archery",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressElf",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressElf",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

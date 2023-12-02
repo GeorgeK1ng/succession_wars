@@ -1,0 +1,73 @@
+{
+	"swSorceressGreaterDruid": {
+		"name": {
+			"singular": "Greater Druid",
+			"plural": "Greater Druids"
+		},
+		"faction": "swswSorceressfaction",
+		"level": 5,
+		"cost": {
+			"gold": 470
+		},
+		"speed": 7,
+		"hitPoints": 30,
+		"shots": 16,
+		"attack": 7,
+		"defense": 7,
+		"damage": {
+			"min": 7,
+			"max": 9
+		},
+		"fightValue": 427,
+		"aiValue": 439,
+		"advMapAmount": {
+			"min": 10,
+			"max": 20
+		},
+		"growth": 3,
+		"horde": 2,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			},
+			"ability2": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swSorceressCreatures/cprsmall.def:25",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:25",
+			"map": "swSorceressCreatures/map/AVWtrex0",
+			"animation": "swSorceressCreatures/battle/c023udru",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swSorceressCreatures/battle/CPRZEAX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 12
+			}
+		},
+		"sound": {
+			"attack": "swSorceress/greater druid/btreATTK.wav",
+			"defend": "swSorceress/greater druid/btreDFND.wav",
+			"killed": "swSorceress/greater druid/btreKILL.wav",
+			"move": "swSorceress/greater druid/btreMOVE.wav",
+			"wince": "swSorceress/greater druid/btreWNCE.wav",
+			"shoot": "swSorceress/greater druid/btreSHOT.wav"
+		}
+	}
+}

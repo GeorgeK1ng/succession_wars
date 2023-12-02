@@ -1,0 +1,59 @@
+{
+	"sw08Mirinda": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Mirinda",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Magic Mirror",
+				"description": "Magic Mirror",
+				"tooltip": "Receives a 10% Magic Mirror."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:92",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:92",
+			"large": "swSorceressHeroes/port/new/Sorc01L",
+			"small": "swSorceressHeroes/port/new/Sorc01S"
+		},
+		"spellbook": [
+			"dispel"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "diplomacy",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "MAGIC_MIRROR",
+					"val": 10
+				}
+			}
+		}
+	}
+}

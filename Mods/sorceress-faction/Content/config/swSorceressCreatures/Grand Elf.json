@@ -1,0 +1,73 @@
+{
+	"swSorceressGrandElf": {
+		"name": {
+			"singular": "Grand Elf",
+			"plural": "Grand Elves"
+		},
+		"faction": "swswSorceressfaction",
+		"level": 3,
+		"cost": {
+			"gold": 255
+		},
+		"speed": 7,
+		"hitPoints": 15,
+		"shots": 24,
+		"attack": 5,
+		"defense": 5,
+		"damage": {
+			"min": 2,
+			"max": 3
+		},
+		"fightValue": 151,
+		"aiValue": 144,
+		"advMapAmount": {
+			"min": 12,
+			"max": 28
+		},
+		"growth": 6,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			},
+			"ability2": {
+				"type": "ADDITIONAL_ATTACK"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swSorceressCreatures/cprsmall.def:21",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:21",
+			"map": "swSorceressCreatures/map/AVWelfx0",
+			"animation": "swSorceressCreatures/battle/c019uelf",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swSorceressCreatures/battle/PELFX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
+			}
+		},
+		"sound": {
+			"attack": "swSorceress/grand elf/GELFATTK.wav",
+			"defend": "swSorceress/grand elf/GELFDFND.wav",
+			"killed": "swSorceress/grand elf/GELFKILL.wav",
+			"move": "swSorceress/grand elf/GELFMOVE.wav",
+			"wince": "swSorceress/grand elf/GELFWNCE.wav",
+			"shoot": "swSorceress/grand elf/GELFSHOT.wav"
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"swSorceressUnicorn": {
+		"name": {
+			"singular": "Unicorn",
+			"plural": "Unicorns"
+		},
+		"faction": "swswSorceressfaction",
+		"level": 6,
+		"cost": {
+			"gold": 860
+		},
+		"speed": 7,
+		"hitPoints": 55,
+		"shots": 0,
+		"attack": 10,
+		"defense": 9,
+		"damage": {
+			"min": 10,
+			"max": 20
+		},
+		"fightValue": 902,
+		"aiValue": 989,
+		"advMapAmount": {
+			"min": 8,
+			"max": 15
+		},
+		"growth": 2,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": true,
+		"abilities": {
+			"ability1": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.blind",
+				"val": 20,
+				"addInfo": [
+					1,
+					0
+				]
+			}
+		},
+		"graphics": {
+			"iconSmall": "swSorceressCreatures/cprsmall.def:26",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:26",
+			"map": "swSorceressCreatures/map/AVWunic0",
+			"animation": "swSorceressCreatures/battle/c024unic",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "swSorceress/unicorn/UNICATTK.wav",
+			"defend": "swSorceress/unicorn/UNICDFND.wav",
+			"killed": "swSorceress/unicorn/UNICKILL.wav",
+			"move": "swSorceress/unicorn/UNICMOVE.wav",
+			"wince": "swSorceress/unicorn/UNICWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

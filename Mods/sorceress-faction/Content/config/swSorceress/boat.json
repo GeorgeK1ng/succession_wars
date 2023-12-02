@@ -1,0 +1,20 @@
+{
+	"core:boat": {
+		"types": {
+
+			"swSorceressBoat": {
+				"name": "Boat",
+
+			"rmg": { "mapLimit": 64 },
+				"templates": {
+					"default": {
+						"animation": "swSorceress/boat/Hmm2Boat",
+						"mask": [ "VVV", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+
+
+}

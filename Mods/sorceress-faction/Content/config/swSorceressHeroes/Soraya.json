@@ -1,0 +1,62 @@
+{
+	"sw08Soraya": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Soraya",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Sorcery",
+				"description": "Sorcery",
+				"tooltip": "Receives a 5% per level bonus to Sorcery skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:24",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:24",
+			"large": "swSorceressHeroes/port/HPL024DR",
+			"small": "swSorceressHeroes/port/HPS024DR"
+		},
+		"spellbook": [
+			"magicArrow"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "spellSchool.any",
+					"valueType": "PERCENT_TO_BASE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

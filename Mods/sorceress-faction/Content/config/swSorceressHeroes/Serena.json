@@ -1,0 +1,60 @@
+{
+	"sw08Serena": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Serena",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Diplomacy",
+				"description": "Diplomacy",
+				"tooltip": "Receives an 3% per level bonus to the surrender discount."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:31",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:31",
+			"large": "swSorceressHeroes/port/HPL031DR",
+			"small": "swSorceressHeroes/port/HPS031DR"
+		},
+		"spellbook": [
+			"shield"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "diplomacy",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SURRENDER_DISCOUNT",
+					"val": 3,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

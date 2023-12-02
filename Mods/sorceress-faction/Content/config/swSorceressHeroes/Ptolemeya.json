@@ -1,0 +1,60 @@
+{
+	"sw08Ptolemeya": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Ptolemeya",
+			"biography": "no bios",
+			"specialty": {
+				"name": "+ 350 Gold",
+				"description": "+ 350 Gold",
+				"tooltip": "Increases kingdom's income by 350 gold per day."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:29",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:29",
+			"large": "swSorceressHeroes/port/082/HPL029DR",
+			"small": "swSorceressHeroes/port/082/HPS029DR"
+		},
+		"spellbook": [
+			"visions"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.gold",
+					"val": 350
+				}
+			}
+		}
+	}
+}

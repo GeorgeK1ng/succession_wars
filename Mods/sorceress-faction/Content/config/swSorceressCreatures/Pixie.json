@@ -1,0 +1,60 @@
+{
+	"swSorceressPixie": {
+		"name": {
+			"singular": "Sprite",
+			"plural": "Sprites"
+		},
+		"faction": "swswSorceressfaction",
+		"level": 1,
+		"cost": {
+			"gold": 65
+		},
+		"speed": 8,
+		"hitPoints": 3,
+		"shots": 0,
+		"attack": 4,
+		"defense": 2,
+		"damage": {
+			"min": 1,
+			"max": 2
+		},
+		"fightValue": 45,
+		"aiValue": 36,
+		"advMapAmount": {
+			"min": 25,
+			"max": 45
+		},
+		"growth": 12,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "FLYING"
+			},
+			"ability2": {
+				"type": "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swSorceressCreatures/cprsmall.def:16",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:16",
+			"map": "swSorceressCreatures/map/AVWcent0",
+			"animation": "swSorceressCreatures/battle/c014sprt",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "swSorceress/pixie/CNTRATTK.wav",
+			"defend": "swSorceress/pixie/CNTRDFND.wav",
+			"killed": "swSorceress/pixie/CNTRKILL.wav",
+			"move": "swSorceress/pixie/CNTRMOVE.wav",
+			"wince": "swSorceress/pixie/CNTRWNCE.wav",
+			"shoot": "swSorceress/pixie/CNTRSHOT.wav"
+		}
+	}
+}

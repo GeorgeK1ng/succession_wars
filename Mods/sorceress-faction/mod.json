@@ -1,6 +1,6 @@
 {
-	"name": "SW - Sorceress town",
-	"description": "Sorceress town",
+	"name": "SW - Sorceress faction",
+	"description": "Sorceress faction",
 	"modType": "Town",
 	"author": "author",
 	"contact": "none",
@@ -12,58 +12,58 @@
 	],
 	"factions":
 	[
-		"config/sw08sorceress/buildings.json",
-		"config/sw08sorceress/faction.json",
-		"config/sw08sorceress/siege.json",
-		"config/sw08sorceress/spells.json",
-		"config/sw08sorceress/structures.json",
-		"config/sw08sorceress/puzzle.json",
-		"config/sw08sorceress/texts.json"
+		"config/swSorceress/buildings.json",
+		"config/swSorceress/faction.json",
+		"config/swSorceress/siege.json",
+		"config/swSorceress/spells.json",
+		"config/swSorceress/structures.json",
+		"config/swSorceress/puzzle.json",
+		"config/swSorceress/texts.json"
 	],
 	"heroClasses":
 	[
-		"config/sw08sorceress-heroClasses/sorceress.json"
+		"config/swSorceressHeroClasses/sorceress.json"
 	],
 	"heroes":
 	[
-		"config/sw08sorceress-heroes/Ariel.json",
-		"config/sw08sorceress-heroes/Arisa.json",
-		"config/sw08sorceress-heroes/Astra.json",
-		"config/sw08sorceress-heroes/Carlawn.json",
-		"config/sw08sorceress-heroes/Dina.json",
-		"config/sw08sorceress-heroes/Dorothy.json",
-		"config/sw08sorceress-heroes/Gem.json",
-		"config/sw08sorceress-heroes/Ildar.json",
-		"config/sw08sorceress-heroes/Jennifer.json",
-		"config/sw08sorceress-heroes/Kasmetra.json",
-		"config/sw08sorceress-heroes/Luna.json",
-		"config/sw08sorceress-heroes/Margery.json",
-		"config/sw08sorceress-heroes/Mirinda.json",
-		"config/sw08sorceress-heroes/Natasha.json",
-		"config/sw08sorceress-heroes/Ptolemeya.json",
-		"config/sw08sorceress-heroes/Rebecca.json",
-		"config/sw08sorceress-heroes/Serena.json",
-		"config/sw08sorceress-heroes/Soraya.json",
-		"config/sw08sorceress-heroes/Tinnestra.json",
-		"config/sw08sorceress-heroes/Troyan.json",
-		"config/sw08sorceress-heroes/Vatawna.json"
+		"config/swSorceressHeroes/Ariel.json",
+		"config/swSorceressHeroes/Arisa.json",
+		"config/swSorceressHeroes/Astra.json",
+		"config/swSorceressHeroes/Carlawn.json",
+		"config/swSorceressHeroes/Dina.json",
+		"config/swSorceressHeroes/Dorothy.json",
+		"config/swSorceressHeroes/Gem.json",
+		"config/swSorceressHeroes/Ildar.json",
+		"config/swSorceressHeroes/Jennifer.json",
+		"config/swSorceressHeroes/Kasmetra.json",
+		"config/swSorceressHeroes/Luna.json",
+		"config/swSorceressHeroes/Margery.json",
+		"config/swSorceressHeroes/Mirinda.json",
+		"config/swSorceressHeroes/Natasha.json",
+		"config/swSorceressHeroes/Ptolemeya.json",
+		"config/swSorceressHeroes/Rebecca.json",
+		"config/swSorceressHeroes/Serena.json",
+		"config/swSorceressHeroes/Soraya.json",
+		"config/swSorceressHeroes/Tinnestra.json",
+		"config/swSorceressHeroes/Troyan.json",
+		"config/swSorceressHeroes/Vatawna.json"
 	],
 	"creatures":
 	[
-		"config/sw08sorceress-creatures/Battle Dwarf.json",
-		"config/sw08sorceress-creatures/Druid.json",
-		"config/sw08sorceress-creatures/Dwarf.json",
-		"config/sw08sorceress-creatures/Elf.json",
-		"config/sw08sorceress-creatures/Grand Elf.json",
-		"config/sw08sorceress-creatures/Greater Druid.json",
-		"config/sw08sorceress-creatures/Phoenix.json",
-		"config/sw08sorceress-creatures/Pixie.json",
-		"config/sw08sorceress-creatures/Unicorn.json",
-		"config/sw08sorceress-creatures/Satyr.json"
+		"config/swSorceressCreatures/Battle Dwarf.json",
+		"config/swSorceressCreatures/Druid.json",
+		"config/swSorceressCreatures/Dwarf.json",
+		"config/swSorceressCreatures/Elf.json",
+		"config/swSorceressCreatures/Grand Elf.json",
+		"config/swSorceressCreatures/Greater Druid.json",
+		"config/swSorceressCreatures/Phoenix.json",
+		"config/swSorceressCreatures/Pixie.json",
+		"config/swSorceressCreatures/Unicorn.json",
+		"config/swSorceressCreatures/Satyr.json"
 	],
 	"objects":
 	[
-		"config/sw08sorceress/dwellings.json",
-		"config/sw08sorceress/banks.json"
+		"config/swSorceress/dwellings.json",
+		"config/swSorceress/banks.json"
 	]
 }

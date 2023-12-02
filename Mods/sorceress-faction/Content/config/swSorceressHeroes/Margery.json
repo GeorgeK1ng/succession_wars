@@ -1,0 +1,85 @@
+{
+	"sw08Margery": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Margery",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Satyrs",
+				"description": "Satyrs",
+				"tooltip": "Increases the Attack and Defense skills of any Satyrs for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:22",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:22",
+			"large": "swSorceressHeroes/port/HPL022RN",
+			"small": "swSorceressHeroes/port/HPS022RN"
+		},
+		"spellbook": [
+			"fortune"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressSatyr",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "eagleEye",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressSatyr",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressSatyr",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

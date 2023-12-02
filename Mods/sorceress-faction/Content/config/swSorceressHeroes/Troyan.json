@@ -1,0 +1,61 @@
+{
+	"sw08Troyan": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Troyan",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Fireball",
+				"description": "Fireball",
+				"tooltip": "Casts Fireball with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:20",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:20",
+			"large": "swSorceressHeroes/port/HPL020RN",
+			"small": "swSorceressHeroes/port/HPS020RN"
+		},
+		"spellbook": [
+			"fireball"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.fireball"
+				}
+			}
+		}
+	}
+}

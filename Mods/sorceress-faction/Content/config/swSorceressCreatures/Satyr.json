@@ -1,0 +1,68 @@
+{
+	"swSorceressSatyr": {
+		"name": {
+			"singular": "Satyr",
+			"plural": "Satyrs"
+		},
+		"faction": "swswSorceressfaction",
+		"level": 4,
+		"cost": {
+			"gold": 385
+		},
+		"speed": 6,
+		"hitPoints": 30,
+		"shots": 0,
+		"attack": 8,
+		"defense": 7,
+		"damage": {
+			"min": 6,
+			"max": 9
+		},
+		"fightValue": 422,
+		"aiValue": 433,
+		"advMapAmount": {
+			"min": 12,
+			"max": 20
+		},
+		"growth": 4,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.mirth",
+				"val": 1,
+				"addInfo": 100
+			},
+			"ability2": {
+				"type": "CREATURE_SPELL_POWER",
+				"val": 200
+			},
+			"ability3": {
+				"type": "CASTS",
+				"val": 3
+			}
+		},
+		"graphics": {
+			"iconSmall": "swSorceressCreatures/cprsmall.def:22",
+			"iconLarge": "swSorceressCreatures/TWCRPORT.def:22",
+			"map": "swSorceressCreatures/map/AVWSatyr",
+			"animation": "swSorceressCreatures/battle/c020styr",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "swSorceress/satyr/PEGAATTK.wav",
+			"defend": "swSorceress/satyr/PEGADFND.wav",
+			"killed": "swSorceress/satyr/PEGAKILL.wav",
+			"move": "swSorceress/satyr/PEGAMOVE",
+			"wince": "swSorceress/satyr/PEGAWNCE.wav"
+			//"shoot":""
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"sw08Rebecca": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Rebecca",
+			"biography": "no bios",
+			"specialty": {
+				"name": "+ 1 Crystal",
+				"description": "+ 1 Crystal",
+				"tooltip": "Increases kingdom's Crystal production by 1 per day."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:25",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:25",
+			"large": "swSorceressHeroes/port/HPL025DR",
+			"small": "swSorceressHeroes/port/HPS025DR"
+		},
+		"spellbook": [
+			"viewEarth"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressDwarf",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "swSorceressElf",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "estates",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "GENERATE_RESOURCE",
+					"subtype": "resource.crystal",
+					"val": 1
+				}
+			}
+		}
+	}
+}

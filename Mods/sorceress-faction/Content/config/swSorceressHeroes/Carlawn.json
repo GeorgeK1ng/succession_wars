@@ -1,0 +1,85 @@
+{
+	"sw08Carlawn": {
+		"class": "swSorceress",
+		"female": true,
+		"texts": {
+			"name": "Carlawn",
+			"biography": "no bios",
+			"specialty": {
+				"name": "Sprites",
+				"description": "Sprites",
+				"tooltip": "Increases the Attack and Defense skills of any Sprites for each level attained after 1st level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swSorceressHeroes/UN32.def:17",
+			"specialtyLarge": "swSorceressHeroes/UN44.def:17",
+			"large": "swSorceressHeroes/port/HPL017RN",
+			"small": "swSorceressHeroes/port/HPS017RN"
+		},
+		"spellbook": [
+			"haste"
+		],
+		"army": [
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			},
+			{
+				"creature": "swSorceressPixie",
+				"min": 8,
+				"max": 12
+			}
+		],
+		"skills": [
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			},
+			{
+				"skill": "navigation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressPixie",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 1,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swSorceressPixie",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}
