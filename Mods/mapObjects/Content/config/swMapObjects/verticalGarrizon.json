@@ -4,7 +4,7 @@
 			"swverticalGarrizon01": {
 				"name": "Garrizon",
 				"rmg": {
-					"zoneLimit": 1,
+					"zoneLimit": 0,
 					"value": 1000,
 					"rarity": 80
 				},

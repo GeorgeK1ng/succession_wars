@@ -14,7 +14,8 @@
 	},
 	"objects":
 	[
-		"config/swMapObjects/resources_.json"
+		"config/swMapObjects/resources_.json",
+		"config/swMapObjects/objectsRmgValues.json"
 	],
 	"templates":
 	[

@@ -5,7 +5,7 @@
 				"name": "Shipyard",
 				"aiValue": 1000,
 				"rmg": {
-					"zoneLimit": 1,
+					"zoneLimit": 0,
 					"value": 100,
 					"rarity": 70
 				},
