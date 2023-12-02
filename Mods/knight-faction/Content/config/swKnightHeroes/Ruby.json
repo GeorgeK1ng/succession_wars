@@ -1,0 +1,58 @@
+{
+	"sw08Ruby": {
+		"female": true,
+		"class": "swKnight",
+		"texts": {
+			"name": "Ruby",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Maxed Bless",
+				"description": "Maxed Bless",
+				"tooltip": "Casts Bless with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:5",
+			"specialtyLarge": "swKnightHeroes/UN44.def:5",
+			"large": "swKnightHeroes/port/HPL005KN",
+			"small": "swKnightHeroes/port/HPS005KN"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "firstAid",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.bless"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"sw08SirGallant": {
+		"female": false,
+		"class": "swKnight",
+		"texts": {
+			"name": "Sir Gallant",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Peasants",
+				"description": "Peasants",
+				"tooltip": "Increases the Attack and Defense skills of any Peasants for each level attained after 1st level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:7",
+			"specialtyLarge": "swKnightHeroes/UN44.def:7",
+			"large": "swKnightHeroes/port/HPL007KN",
+			"small": "swKnightHeroes/port/HPS007KN"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "estates",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightPeasant",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightPeasant",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

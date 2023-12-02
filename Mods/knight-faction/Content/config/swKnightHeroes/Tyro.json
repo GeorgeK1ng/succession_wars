@@ -1,0 +1,59 @@
+{
+	"sw08Tyro": {
+		"female": false,
+		"class": "swKnight",
+		"texts": {
+			"name": "Tyro",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Offence",
+				"description": "Offence",
+				"tooltip": "Receives a 5% per level bonus to Offense skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:3",
+			"specialtyLarge": "swKnightHeroes/UN44.def:3",
+			"large": "swKnightHeroes/port/HPL003KN",
+			"small": "swKnightHeroes/port/HPS003KN"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"subtype": "damageTypeMelee",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

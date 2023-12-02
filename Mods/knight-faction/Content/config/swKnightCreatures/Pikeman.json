@@ -1,0 +1,72 @@
+{
+	"swKnightPikeman": {
+		"name": {
+			"singular": "Pikeman",
+			"plural": "Pikemen"
+		},
+		"faction": "swKnight",
+		"level": 3,
+		"cost": {
+			"gold": 150
+		},
+		"speed": 5,
+		"hitPoints": 15,
+		"shots": 0,
+		"attack": 5,
+		"defense": 6,
+		"damage": {
+			"min": 3,
+			"max": 4
+		},
+		"fightValue": 324,
+		"aiValue": 250,
+		"advMapAmount": {
+			"min": 15,
+			"max": 25
+		},
+		"growth": 6,
+		"horde": 3,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swKnightVeteranPikeman"
+		],
+		"graphics": {
+			"iconSmall": "swKnightCreatures/cprsmall.def:6",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:6",
+			"map": "swKnightCreatures/map/avwgrif",
+			"animation": "swKnightCreatures/battle/c004pike",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swKnightCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 8
+			}
+		},
+		"sound": {
+			"attack": "swKnight/pikeman/grifATTK.wav",
+			"defend": "swKnight/pikeman/grifDFND.wav",
+			"killed": "swKnight/pikeman/grifKILL.wav",
+			"move": "swKnight/pikeman/grifMOVE.wav",
+			"wince": "swKnight/pikeman/grifWNCE"
+		},
+		"abilities": {
+			"ability1": {
+				"type": "CHARGE_IMMUNITY"
+			}
+		}
+	}
+}

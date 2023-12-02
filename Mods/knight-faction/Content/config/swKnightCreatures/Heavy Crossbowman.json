@@ -1,0 +1,70 @@
+{
+	"swKnightHeavyCrossbowman": {
+		"name": {
+			"singular": "Marksman",
+			"plural": "Marksmen"
+		},
+		"faction": "swKnight",
+		"level": 4,
+		"cost": {
+			"gold": 275
+		},
+		"speed": 6,
+		"hitPoints": 20,
+		"shots": 24,
+		"attack": 7,
+		"defense": 8,
+		"damage": {
+			"min": 3,
+			"max": 5
+		},
+		"fightValue": 467,
+		"aiValue": 588,
+		"advMapAmount": {
+			"min": 14,
+			"max": 20
+		},
+		"growth": 5,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swKnightCreatures/cprsmall.def:9",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:9",
+			"map": "swKnightCreatures/map/avwswrx0",
+			"animation": "swKnightCreatures/battle/c007uxbw",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swKnightCreatures/battle/Porcx",
+				"offset": {
+					"upperX": 48,
+					"upperY": -43,
+					"middleX": 48,
+					"middleY": -43,
+					"lowerX": 48,
+					"lowerY": -43
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
+			}
+		},
+		"sound": {
+			"attack": "swKnight/heavy crossbowman/CRUSATTK.wav",
+			"defend": "swKnight/heavy crossbowman/CRUSDFND.wav",
+			"killed": "swKnight/heavy crossbowman/CRUSKILL.wav",
+			"move": "swKnight/heavy crossbowman/CRUSMOVE.wav",
+			"wince": "swKnight/heavy crossbowman/CRUSWNCE.wav",
+			"shoot": "swKnight/heavy crossbowman/CRUSSHOT.wav"
+		}
+	}
+}

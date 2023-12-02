@@ -1,0 +1,74 @@
+{
+	"swKnightRanger": {
+		"name": {
+			"singular": "Ranger",
+			"plural": "Rangers"
+		},
+		"faction": "swKnight",
+		"level": 2,
+		"cost": {
+			"gold": 150
+		},
+		"speed": 5,
+		"hitPoints": 10,
+		"shots": 24,
+		"attack": 5,
+		"defense": 3,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"fightValue": 115,
+		"aiValue": 184,
+		"advMapAmount": {
+			"min": 18,
+			"max": 25
+		},
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			},
+			"ability2": {
+				"type": "ADDITIONAL_ATTACK",
+				"val": 1
+			}
+		},
+		"graphics": {
+			"iconSmall": "swKnightCreatures/cprsmall.def:5",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:5",
+			"map": "swKnightCreatures/map/avwhcrs",
+			"animation": "swKnightCreatures/battle/c003uarc",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swKnightCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 28,
+					"upperY": -70,
+					"middleX": 40,
+					"middleY": -55,
+					"lowerX": 33,
+					"lowerY": -30
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
+			}
+		},
+		"sound": {
+			"attack": "swKnight/ranger/HCRSATTK.wav",
+			"defend": "swKnight/ranger/HCRSDFND.wav",
+			"killed": "swKnight/ranger/HCRSKILL.wav",
+			"move": "swKnight/ranger/HCRSMOVE.wav",
+			"wince": "swKnight/ranger/HCRSWNCE.wav",
+			"shoot": "swKnight/ranger/HCRSSHOT.wav"
+		}
+	}
+}

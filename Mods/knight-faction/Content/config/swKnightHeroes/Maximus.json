@@ -1,0 +1,57 @@
+{
+	"sw08Maximus": {
+		"female": false,
+		"class": "swKnight",
+		"texts": {
+			"name": "Maximus",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Tactics",
+				"description": "Tactics",
+				"tooltip": "Receives an additional battlefield hex row per 8 levels while in the Tactics mode, up to 8 hexes. Also, receives 1 hex row at start."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:11",
+			"specialtyLarge": "swKnightHeroes/UN44.def:11",
+			"large": "swKnightHeroes/port/HPL011CL",
+			"small": "swKnightHeroes/port/HPS011CL"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "STACKS_SPEED",
+					"addInfo": 100,
+					"val": 1
+				}
+			}
+		}
+	}
+}

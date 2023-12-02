@@ -1,0 +1,80 @@
+{
+	"sw08LordAlberon": {
+		"female": false,
+		"class": "swKnight",
+		"texts": {
+			"name": "Lord Alberon",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Cavalries and Champions",
+				"description": "Cavalries and Champions",
+				"tooltip": "Increases the Attack and Defense skills of any Cavalries or Champions for each level attained after 6th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:15",
+			"specialtyLarge": "swKnightHeroes/UN44.def:15",
+			"large": "swKnightHeroes/port/HPL015CL",
+			"small": "swKnightHeroes/port/HPS015CL"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "logistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightCavalry",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightCavalry",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

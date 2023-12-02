@@ -1,0 +1,20 @@
+{
+	"core:boat": {
+		"types": {
+
+			"swKnightBoat": {
+				"name": "Boat",
+
+			"rmg": { "mapLimit": 64 },
+				"templates": {
+					"default": {
+						"animation": "swKnight/boat/Hmm2Boat",
+						"mask": [ "VVV", "VAV" ]
+					}
+				}
+			}
+		}		
+	}
+
+
+}

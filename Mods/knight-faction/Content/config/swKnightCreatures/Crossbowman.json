@@ -1,0 +1,73 @@
+{
+	"swKnightCrossbowman": {
+		"name": {
+			"singular": "Crossbowman",
+			"plural": "Crossbowmen"
+		},
+		"faction": "swKnight",
+		"level": 4,
+		"cost": {
+			"gold": 225
+		},
+		"speed": 4,
+		"hitPoints": 20,
+		"shots": 12,
+		"attack": 6,
+		"defense": 6,
+		"damage": {
+			"min": 4,
+			"max": 8
+		},
+		"fightValue": 418,
+		"aiValue": 500,
+		"advMapAmount": {
+			"min": 14,
+			"max": 22
+		},
+		"growth": 5,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swKnightHeavyCrossbowman"
+		],
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swKnightCreatures/cprsmall.def:8",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:8",
+			"map": "swKnightCreatures/map/AVWswrd0",
+			"animation": "swKnightCreatures/battle/c006xbow",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swKnightCreatures/battle/Porcx",
+				"offset": {
+					"upperX": 48,
+					"upperY": -43,
+					"middleX": 48,
+					"middleY": -43,
+					"lowerX": 48,
+					"lowerY": -43
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 9
+			}
+		},
+		"sound": {
+			"attack": "swKnight/crossbowman/SWRDATTK.wav",
+			"defend": "swKnight/crossbowman/SWRDDFND.wav",
+			"killed": "swKnight/crossbowman/SWRDKILL.wav",
+			"move": "swKnight/crossbowman/SWRDMOVE.wav",
+			"wince": "swKnight/crossbowman/SWRDWNCE.wav",
+			"shoot": "swKnight/crossbowman/SWRDSHOT.wav"
+		}
+	}
+}

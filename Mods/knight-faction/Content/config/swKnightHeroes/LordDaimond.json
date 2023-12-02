@@ -1,0 +1,81 @@
+{
+	"sw08LordDaimond": {
+		"female": false,
+		"special": true,
+		"class": "swKnight",
+		"texts": {
+			"name": "Lord Daimond",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Swordsmen or Master Swordsmen",
+				"description": "Swordsmen or Master Swordsmen",
+				"tooltip": "Increases the Attack and Defense skills of any Swordsmen or Master Swordsmen for each level attained after 4th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:0",
+			"specialtyLarge": "swKnightHeroes/UN44.def:0",
+			"large": "swKnightHeroes/port/HPL015CL",
+			"small": "swKnightHeroes/port/HPS015CL"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"val": 5,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightPaladin",
+								true
+							]
+						}
+					]
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"val": 5,
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightPaladin",
+								true
+							]
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"swKnightMasterSwordsman": {
+		"name": {
+			"singular": "Master Swordsman",
+			"plural": "Master Swordsmen"
+		},
+		"faction": "swKnight",
+		"level": 5,
+		"cost": {
+			"gold": 400
+		},
+		"speed": 7,
+		"hitPoints": 40,
+		"shots": 0,
+		"attack": 7,
+		"defense": 9,
+		"damage": {
+			"min": 6,
+			"max": 8
+		},
+		"fightValue": 588,
+		"aiValue": 588,
+		"advMapAmount": {
+			"min": 14,
+			"max": 22
+		},
+		"growth": 4,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {},
+		"graphics": {
+			"iconSmall": "swKnightCreatures/cprsmall.def:11",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:11",
+			"map": "swKnightCreatures/map/AvWMonk",
+			"animation": "swKnightCreatures/battle/c009uswd",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swKnightCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
+			}
+		},
+		"sound": {
+			"attack": "swKnight/master swordsman/ZELTATTK.wav",
+			"defend": "swKnight/master swordsman/ZELTDFND.wav",
+			"killed": "swKnight/master swordsman/ZELTKILL.wav",
+			"move": "swKnight/master swordsman/ZELTMOVE.wav",
+			"wince": "swKnight/master swordsman/ZELTWNCE.wav"
+		}
+	}
+}

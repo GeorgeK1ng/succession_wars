@@ -1,0 +1,58 @@
+{
+	"sw08Arturius": {
+		"female": false,
+		"class": "swKnight",
+		"texts": {
+			"name": "Arturius",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Destroy Undead",
+				"description": "Destroy Undead",
+				"tooltip": "Casts Holy Word with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units)."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:10",
+			"specialtyLarge": "swKnightHeroes/UN44.def:10",
+			"large": "swKnightHeroes/port/HPL010CL",
+			"small": "swKnightHeroes/port/HPS010CL"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "SPELL",
+					"val": 3,
+					"valueType": "INDEPENDENT_MAX",
+					"subtype": "spell.destroyUndead"
+				}
+			}
+		}
+	}
+}

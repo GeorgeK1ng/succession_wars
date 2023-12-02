@@ -1,0 +1,136 @@
+{
+	"core:dragonUtopia": {
+		"types": {
+			"swKnightKeep": {
+				"handler": "bank",
+				"name": "Renegade Keep",
+				"templates": {
+					"base": {
+						"animation": "swKnight/adventure-map/banks/keep/avxbnk20",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains": [
+							"grass"
+						]
+					}
+				},
+				"rmg": {
+					"value": 800,
+					"rarity": 100
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swKnightMasterSwordsman",
+								"amount": 10
+							},
+							{
+								"type": "swKnightCrossbowman",
+								"amount": 10
+							},
+							{
+								"type": "swKnightPikeman",
+								"amount": 10
+							},
+							{
+								"type": "swKnightHeavyCrossbowman",
+								"amount": 10
+							},
+							{
+								"type": "swKnightVeteranPikeman",
+								"amount": 10
+							},
+							{
+								"type": "swKnightSwordsman",
+								"amount": 10
+							}
+						],
+						"combat_value": 1400,
+						"reward": {
+							"resources": {
+								"gold": 2500
+							},
+							"value": 4000,
+							"artifacts": [
+								{
+									"class": "MINOR"
+								}
+							]
+						}
+					}
+				]
+			},
+			"swKnightBastion": {
+				"handler": "bank",
+				"name": "Forpost",
+				"templates": {
+					"base": {
+						"animation": "swKnight/adventure-map/banks/bastion/AVXbnk41",
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VV",
+							"BA"
+						],
+						"allowedTerrains": [
+							"snow"
+						]
+					}
+				},
+				"rmg": {
+					"value": 50,
+					"rarity": 120
+				},
+				"levels": [
+					{
+						"chance": 100,
+						"guards": [
+							{
+								"type": "swKnightPikeman",
+								"amount": 5
+							},
+							{
+								"type": "swKnightArcher",
+								"amount": 10
+							},
+							{
+								"type": "swKnightPikeman",
+								"amount": 5
+							},
+							{
+								"type": "swKnightArcher",
+								"amount": 10
+							},
+							{
+								"type": "swKnightPikeman",
+								"amount": 5
+							}
+						],
+						"combat_value": 500,
+						"reward": {
+							"value": 800,
+							"artifacts": [
+								{
+									"class": "TREASURE"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

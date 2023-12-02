@@ -1,0 +1,73 @@
+{
+	"swKnightArcher": {
+		"name": {
+			"singular": "Archer",
+			"plural": "Archers"
+		},
+		"faction": "swKnight",
+		"level": 2,
+		"cost": {
+			"gold": 100
+		},
+		"speed": 3,
+		"hitPoints": 10,
+		"shots": 12,
+		"attack": 5,
+		"defense": 3,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"fightValue": 115,
+		"aiValue": 126,
+		"advMapAmount": {
+			"min": 18,
+			"max": 25
+		},
+		"growth": 8,
+		"horde": 0,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"upgrades": [
+			"swKnightRanger"
+		],
+		"abilities": {
+			"ability1": {
+				"type": "SHOOTER"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swKnightCreatures/cprsmall.def:4",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:4",
+			"map": "swKnightCreatures/map/AVWLCRS",
+			"animation": "swKnightCreatures/battle/c002arch",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swKnightCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 28,
+					"upperY": -70,
+					"middleX": 40,
+					"middleY": -55,
+					"lowerX": 33,
+					"lowerY": -30
+				},
+				"frameAngles": [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+				"attackClimaxFrame": 7
+			}
+		},
+		"sound": {
+			"attack": "swKnight/archer/LCRSATTK.wav",
+			"defend": "swKnight/archer/LCRSDFND.wav",
+			"killed": "swKnight/archer/LCRSKILL.wav",
+			"move": "swKnight/archer/LCRSMOVE.wav",
+			"wince": "swKnight/archer/LCRSWNCE.wav",
+			"shoot": "swKnight/archer/LCRSSHOT.wav"
+		}
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"swKnightVeteranPikeman": {
+		"name": {
+			"singular": "Veteran Pikeman",
+			"plural": "Veteran Pikemen"
+		},
+		"faction": "swKnight",
+		"level": 3,
+		"cost": {
+			"gold": 200
+		},
+		"speed": 6,
+		"hitPoints": 20,
+		"shots": 0,
+		"attack": 6,
+		"defense": 7,
+		"damage": {
+			"min": 3,
+			"max": 4
+		},
+		"fightValue": 364,
+		"aiValue": 324,
+		"advMapAmount": {
+			"min": 14,
+			"max": 20
+		},
+		"growth": 6,
+		"horde": 3,
+		"hasDoubleWeek": true,
+		"doubleWide": false,
+		"abilities": {
+			"ability1": {
+				"type": "CHARGE_IMMUNITY"
+			}
+		},
+		"graphics": {
+			"iconSmall": "swKnightCreatures/cprsmall.def:7",
+			"iconLarge": "swKnightCreatures/TWCRPORT.def:7",
+			"map": "swKnightCreatures/map/AVWgrix0",
+			"animation": "swKnightCreatures/battle/c005upik",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"idle": 10,
+				"walk": 1,
+				"attack": 1
+			},
+			"missile": {
+				"projectile": "swKnightCreatures/battle/PLCBOWX",
+				"offset": {
+					"upperX": 41,
+					"upperY": -92,
+					"middleX": 58,
+					"middleY": -79,
+					"lowerX": 29,
+					"lowerY": -14
+				},
+				"frameAngles": [90,72,45,27,0,-27,-45,-72,-90,0,0,0],
+				"attackClimaxFrame": 8
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"sw08Ector": {
+		"female": false,
+		"class": "swKnight",
+		"texts": {
+			"name": "Ector",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Archery",
+				"description": "Archery",
+				"tooltip": "Receives a 5% per level bonus to Archery skill percentage."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:2",
+			"specialtyLarge": "swKnightHeroes/UN44.def:2",
+			"large": "swKnightHeroes/port/HPL002KN",
+			"small": "swKnightHeroes/port/HPS002KN"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"ability1": {
+					"type": "PERCENTAGE_DAMAGE_BOOST",
+					"subtype": "damageTypeRanged",
+					"valueType": "ADDITIVE_VALUE",
+					"val": 5,
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

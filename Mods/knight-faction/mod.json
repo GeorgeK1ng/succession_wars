@@ -1,6 +1,6 @@
 {
-	"name": "SW - Knight town",
-	"description": "Knight town",
+	"name": "SW - Knight faction",
+	"description": "Knight faction",
 	"modType": "Town",
 	"author": "Noname",
 	"contact": "none",
@@ -12,58 +12,58 @@
 	],
 	"factions":
 	[
-		"config/sw08knight/buildings.json",
-		"config/sw08knight/faction.json",
-		"config/sw08knight/siege.json",
-		"config/sw08knight/spells.json",
-		"config/sw08knight/structures.json",
-		"config/sw08knight/puzzle.json",
-		"config/sw08knight/texts.json"
+		"config/swKnight/buildings.json",
+		"config/swKnight/faction.json",
+		"config/swKnight/siege.json",
+		"config/swKnight/spells.json",
+		"config/swKnight/structures.json",
+		"config/swKnight/puzzle.json",
+		"config/swKnight/texts.json"
 	],
 	"heroClasses":
 	[
-		"config/sw08knight-heroClasses/Knight.json"
+		"config/swKnightHeroClasses/Knight.json"
 	],
 	"heroes":
 	[
-		"config/sw08knight-heroes/Ambrose.json",
-		"config/sw08knight-heroes/Arturius.json",
-		"config/sw08knight-heroes/Christian.json",
-		"config/sw08knight-heroes/Crytus.json",
-		"config/sw08knight-heroes/Dimitri.json",
-		"config/sw08knight-heroes/Ector.json",
-		"config/sw08knight-heroes/Gallavant.json",
-		"config/sw08knight-heroes/Gwenneth.json",
-		"config/sw08knight-heroes/LordAlberon.json",
-		"config/sw08knight-heroes/LordDaimond.json",
-		"config/sw08knight-heroes/LordHaart.json",
-		"config/sw08knight-heroes/LordKilburn.json",
-		"config/sw08knight-heroes/Maximus.json",
-		"config/sw08knight-heroes/Mugaisa.json",
-		"config/sw08knight-heroes/Roland.json",
-		"config/sw08knight-heroes/Ruby.json",
-		"config/sw08knight-heroes/SirGallant.json",
-		"config/sw08knight-heroes/Tyro.json"
+		"config/swKnightHeroes/Ambrose.json",
+		"config/swKnightHeroes/Arturius.json",
+		"config/swKnightHeroes/Christian.json",
+		"config/swKnightHeroes/Crytus.json",
+		"config/swKnightHeroes/Dimitri.json",
+		"config/swKnightHeroes/Ector.json",
+		"config/swKnightHeroes/Gallavant.json",
+		"config/swKnightHeroes/Gwenneth.json",
+		"config/swKnightHeroes/LordAlberon.json",
+		"config/swKnightHeroes/LordDaimond.json",
+		"config/swKnightHeroes/LordHaart.json",
+		"config/swKnightHeroes/LordKilburn.json",
+		"config/swKnightHeroes/Maximus.json",
+		"config/swKnightHeroes/Mugaisa.json",
+		"config/swKnightHeroes/Roland.json",
+		"config/swKnightHeroes/Ruby.json",
+		"config/swKnightHeroes/SirGallant.json",
+		"config/swKnightHeroes/Tyro.json"
 	],
 	"creatures":
 	[
-		"config/sw08knight-creatures/Archer.json",
-		"config/sw08knight-creatures/Cavalry.json",
-		"config/sw08knight-creatures/Champion.json",
-		"config/sw08knight-creatures/Crossbowman.json",
-		"config/sw08knight-creatures/Crusader.json",
-		"config/sw08knight-creatures/Heavy Crossbowman.json",
-		"config/sw08knight-creatures/Master Swordsman.json",
-		"config/sw08knight-creatures/Paladin.json",
-		"config/sw08knight-creatures/Peasant.json",
-		"config/sw08knight-creatures/Pikeman.json",
-		"config/sw08knight-creatures/Ranger.json",
-		"config/sw08knight-creatures/Swordsman.json",
-		"config/sw08knight-creatures/Veteran Pikeman.json"
+		"config/swKnightCreatures/Archer.json",
+		"config/swKnightCreatures/Cavalry.json",
+		"config/swKnightCreatures/Champion.json",
+		"config/swKnightCreatures/Crossbowman.json",
+		"config/swKnightCreatures/Crusader.json",
+		"config/swKnightCreatures/Heavy Crossbowman.json",
+		"config/swKnightCreatures/Master Swordsman.json",
+		"config/swKnightCreatures/Paladin.json",
+		"config/swKnightCreatures/Peasant.json",
+		"config/swKnightCreatures/Pikeman.json",
+		"config/swKnightCreatures/Ranger.json",
+		"config/swKnightCreatures/Swordsman.json",
+		"config/swKnightCreatures/Veteran Pikeman.json"
 	],
 	"objects":
 	[
-		"config/sw08knight/dwellings.json",
-		"config/sw08knight/banks.json"
+		"config/swKnight/dwellings.json",
+		"config/swKnight/banks.json"
 	]
 }

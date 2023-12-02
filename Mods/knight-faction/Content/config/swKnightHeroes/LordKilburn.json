@@ -1,0 +1,80 @@
+{
+	"sw08LordKilburn": {
+		"female": false,
+		"class": "swKnight",
+		"texts": {
+			"name": "Lord Kilburn",
+			"biography": "no bio",
+			"specialty": {
+				"name": "Swordsmen & Master Swordsmen",
+				"description": "Swordsmen & Master Swordsmen",
+				"tooltip": "Increases the Attack and Defense skills of any Swordsmen or Master Swordsmen for each level attained after 5th level."
+			}
+		},
+		"images": {
+			"specialtySmall": "swKnightHeroes/UN32.def:0",
+			"specialtyLarge": "swKnightHeroes/UN44.def:0",
+			"large": "swKnightHeroes/port/HPL000KN",
+			"small": "swKnightHeroes/port/HPS000KN"
+		},
+		"army": [
+			{
+				"creature": "swKnightPeasant",
+				"min": 18,
+				"max": 28
+			},
+			{
+				"creature": "swKnightArcher",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "swKnightPikeman",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"abilityAttackSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightSwordsman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				},
+				"abilityDefenseSkill": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"limiters": [
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"parameters": [
+								"swKnightSwordsman",
+								true
+							]
+						}
+					],
+					"updater": "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}
