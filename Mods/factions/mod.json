@@ -1,0 +1,13 @@
+{
+	"name": "SW - Factions",
+	"description": "All SW Factions",
+	"modType": "Town",
+	"author": "author",
+	"contact": "none",
+	"version": "0.0.1",
+	"depends":
+	[
+		"succession_wars.warMachines",
+		"succession_wars.terrains"
+	]
+}
