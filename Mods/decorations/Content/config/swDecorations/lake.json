@@ -57,7 +57,7 @@
 						]
 					},
 					"newAVLflk10": {
-						"animation": "swDecorations/lake/082/AVLflk10",
+						"animation": "swDecorations/lake/AVLflk10",
 						"visitableFrom": [
 							"---",
 							"+++",

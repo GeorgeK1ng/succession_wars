@@ -162,7 +162,7 @@
 						]
 					},
 					"newavxabnd0": {
-						"animation": "swMapObjects/abandonedMine/082/avxabnd0",
+						"animation": "swMapObjects/abandonedMine/avxabnd0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -177,7 +177,7 @@
 						]
 					},
 					"newAVXamGr": {
-						"animation": "swMapObjects/abandonedMine/082/AVXamGr",
+						"animation": "swMapObjects/abandonedMine/AVXamGr",
 						"visitableFrom": [
 							"---",
 							"+++",

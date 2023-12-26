@@ -172,7 +172,7 @@
 						]
 					},
 					"base2": {
-						"animation": "swOasis/adventure-map/banks/hallOfSecrets_082/avxbnk30",
+						"animation": "swOasis/adventure-map/banks/hallOfSecrets/avxbnk30",
 						"visitableFrom": [
 							"---",
 							"+++",

@@ -36,7 +36,7 @@
 		"graphics": {
 			"iconSmall": "swWitchCreatures/cprsmall.def:105",
 			"iconLarge": "swWitchCreatures/TWCRPORT.def:105",
-			"map": "swWitchCreatures/map/082/AVWlizx0",
+			"map": "swWitchCreatures/map/AVWlizx0",
 			"animation": "swWitchCreatures/battle/c103uliz",
 			"timeBetweenFidgets": 1,
 			"animationTime": {

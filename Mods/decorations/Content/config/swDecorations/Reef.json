@@ -140,7 +140,7 @@
 						]
 					},
 					"Zreef2": {
-						"animation": "swDecorations/reef/082/Zreef2",
+						"animation": "swDecorations/reef/Zreef2",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -154,7 +154,7 @@
 						]
 					},
 					"Zreef3": {
-						"animation": "swDecorations/reef/082/Zreef3",
+						"animation": "swDecorations/reef/Zreef3",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -168,7 +168,7 @@
 						]
 					},
 					"Zreef4": {
-						"animation": "swDecorations/reef/082/Zreef4",
+						"animation": "swDecorations/reef/Zreef4",
 						"visitableFrom": [
 							"---",
 							"+++",

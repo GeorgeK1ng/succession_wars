@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWitchHeroes/UN32.def:119",
 			"specialtyLarge": "swWitchHeroes/UN44.def:119",
-			"large": "swWitchHeroes/port/new/liz01L.bmp",
-			"small": "swWitchHeroes/port/new/liz01S.bmp"
+			"large": "swWitchHeroes/port/liz01L.bmp",
+			"small": "swWitchHeroes/port/liz01S.bmp"
 		},
 		"army": [
 			{

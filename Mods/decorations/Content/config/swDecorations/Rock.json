@@ -889,7 +889,7 @@
 						]
 					},
 					"newAVLsh3g0": {
-						"animation": "swDecorations/rock/082/AVLsh3g0",
+						"animation": "swDecorations/rock/AVLsh3g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1019,7 +1019,7 @@
 						]
 					},
 					"ZWVolc1": {
-						"animation": "swDecorations/rock/082/ZWVolc1",
+						"animation": "swDecorations/rock/ZWVolc1",
 						"visitableFrom": [
 							"---",
 							"+++",

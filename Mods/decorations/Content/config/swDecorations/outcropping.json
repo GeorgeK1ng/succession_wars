@@ -234,7 +234,7 @@
 						]
 					},
 					"newAVLoc2g0": {
-						"animation": "swDecorations/outcropping/082/AVLoc2g0",
+						"animation": "swDecorations/outcropping/AVLoc2g0",
 						"visitableFrom": [
 							"---",
 							"+++",

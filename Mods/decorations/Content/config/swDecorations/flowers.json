@@ -682,7 +682,7 @@
 						]
 					},
 					"newAVLs02s0": {
-						"animation": "swDecorations/flowers/082/AVLs02s0",
+						"animation": "swDecorations/flowers/AVLs02s0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -696,7 +696,7 @@
 						]
 					},
 					"newAVLs03s0": {
-						"animation": "swDecorations/flowers/082/AVLs03s0",
+						"animation": "swDecorations/flowers/AVLs03s0",
 						"visitableFrom": [
 							"---",
 							"+++",

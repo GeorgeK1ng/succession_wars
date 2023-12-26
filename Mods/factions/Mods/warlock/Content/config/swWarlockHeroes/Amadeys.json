@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWarlockHeroes/UN32.def:81",
 			"specialtyLarge": "swWarlockHeroes/UN44.def:81",
-			"large": "swWarlockHeroes/port/new/sw010L",
-			"small": "swWarlockHeroes/port/new/sw010S"
+			"large": "swWarlockHeroes/port/sw010L",
+			"small": "swWarlockHeroes/port/sw010S"
 		},
 		"spellbook": [
 			"magicArrow"

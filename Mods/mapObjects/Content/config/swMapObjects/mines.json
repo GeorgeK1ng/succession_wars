@@ -250,8 +250,8 @@
 							"swamp"
 						]
 					},
-					"sw08_082_AVNcrys0": {
-						"animation": "swMapObjects_mines/082/AVNcrys0",
+					"sw08_AVNcrys0": {
+						"animation": "swMapObjects_mines/AVNcrys0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -275,7 +275,7 @@
 				},
 				"templates": {
 					"sw08_AV0sulf0": {
-						"animation": "swMapObjects_mines/SWMIN01", //"swMapObjects/mines/ore/AV0sulf0", 
+						"animation": "swMapObjects_mines/SWMIN01", //"swMapObjects/mines/ore/AV0sulf0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -290,7 +290,7 @@
 						]
 					},
 					"sw08_AVLore0": {
-						"animation": "swMapObjects_mines/SWMIN48", //"swMapObjects/mines/ore/AVLore0", 
+						"animation": "swMapObjects_mines/SWMIN48", //"swMapObjects/mines/ore/AVLore0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -305,22 +305,7 @@
 						]
 					},
 					"sw08_AVMORDR0": {
-						"animation": "swMapObjects_mines/SWMIN41", //"swMapObjects/mines/ore/AVMORDR0", 
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBBB",
-							"VVBAB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"sw08_082_AVMORDR0": {
-						"animation": "swMapObjects_mines/082/AVMORDR0",
+						"animation": "swMapObjects_mines/SWMIN41", //"swMapObjects/mines/ore/AVMORDR0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -335,7 +320,7 @@
 						]
 					},
 					"sw08_AVMords0": {
-						"animation": "swMapObjects_mines/SWMIN42", //"swMapObjects/mines/ore/AVMords0", 
+						"animation": "swMapObjects_mines/SWMIN42", //"swMapObjects/mines/ore/AVMords0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -350,22 +335,7 @@
 						]
 					},
 					"sw08_AVMore0": {
-						"animation": "swMapObjects_mines/SWMIN43", //"swMapObjects/mines/ore/AVMore0", 
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBB",
-							"VBAB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"sw08_082_AVMore0": {
-						"animation": "swMapObjects_mines/082/AVMore0", //"swMapObjects/mines/ore/AVMore0", 
+						"animation": "swMapObjects_mines/SWMIN43", //"swMapObjects/mines/ore/AVMore0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -380,7 +350,7 @@
 						]
 					},
 					"sw08_AVMorlv0": {
-						"animation": "swMapObjects_mines/SWMIN44", //"swMapObjects/mines/ore/AVMorlv0", 
+						"animation": "swMapObjects_mines/SWMIN44", //"swMapObjects/mines/ore/AVMorlv0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -395,7 +365,7 @@
 						]
 					},
 					"sw08_AVMorro0": {
-						"animation": "swMapObjects_mines/SWMIN45", //"swMapObjects/mines/ore/AVMorro0", 
+						"animation": "swMapObjects_mines/SWMIN45", //"swMapObjects/mines/ore/AVMorro0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -410,7 +380,7 @@
 						]
 					},
 					"sw08_AVMorsb0": {
-						"animation": "swMapObjects_mines/SWMIN46", //"SWMIN01", //swMapObjects/mines/ore/AVMorsb0", 
+						"animation": "swMapObjects_mines/SWMIN46", //"SWMIN01", //swMapObjects/mines/ore/AVMorsb0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -425,7 +395,7 @@
 						]
 					},
 					"sw08_AVMorsn0": {
-						"animation": "swMapObjects_mines/SWMIN47", //"swMapObjects/mines/ore/AVMorsn0", 
+						"animation": "swMapObjects_mines/SWMIN47", //"swMapObjects/mines/ore/AVMorsn0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -440,7 +410,7 @@
 						]
 					},
 					"sw08_AVMorsw0": {
-						"animation": "swMapObjects_mines/SWMIN14", //"swMapObjects/mines/ore/AVMorsw0", 
+						"animation": "swMapObjects_mines/SWMIN14", //"swMapObjects/mines/ore/AVMorsw0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -541,21 +511,6 @@
 							"grass"
 						]
 					},
-					"sw08_082_AV2sulf0": {
-						"animation": "swMapObjects_mines/082/AV2sulf0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBB",
-							"VBAB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
 					"sw08_AV5sulf0": {
 						"animation": "swMapObjects_mines/SWMIN03", //"swMapObjects/mines/sulfur/AV5sulf0", 
 						"visitableFrom": [
@@ -618,21 +573,6 @@
 					},
 					"sw08_AVMsulf0": {
 						"animation": "swMapObjects_mines/SWMIN59", //"swMapObjects/mines/sulfur/AVMsulf0", 
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBBB",
-							"VVBAB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"sw08_082_AVMsulf0": {
-						"animation": "swMapObjects_mines/082/AVMsulf0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -732,21 +672,6 @@
 					},
 					"sw08_avmcrdr0": {
 						"animation": "swMapObjects_mines/SWMIN17", //"swMapObjects/mines/crystal/avmcrdr0", 
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBBB",
-							"VVBAB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
-					"sw08_082_avmcrdr0": {
-						"animation": "swMapObjects_mines/082/avmcrdr0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -880,21 +805,6 @@
 							"grass"
 						]
 					},
-					"sw08_082_AVMcrys0": {
-						"animation": "swMapObjects_mines/SWMIN25", //"swMapObjects/mines/crystal/082/AVMcrys0", 
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBB",
-							"VBAB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
 					"sw08_AVNcrys0": {
 						"animation": "swMapObjects_mines/SWMIN23", //"swMapObjects/mines/crystal/AVNcrys0", 
 						"visitableFrom": [
@@ -964,21 +874,6 @@
 							"dirt"
 						]
 					},
-					"sw08_082_avmgedr0": {
-						"animation": "swMapObjects_mines/082/avmgedr0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBBB",
-							"VVBAB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
 					"sw08_AVMgelv0": {
 						"animation": "swMapObjects_mines/SWMIN27", //"swMapObjects/mines/gems/AVMgelv0", 
 						"visitableFrom": [
@@ -996,21 +891,6 @@
 					},
 					"sw08_AVMgems0": {
 						"animation": "swMapObjects_mines/SWMIN28", //"swMapObjects/mines/gems/AVMgems0", 
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBB",
-							"VBAB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"sw08_082_AVMgems0": {
-						"animation": "swMapObjects_mines/082/AVMgems0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1138,21 +1018,6 @@
 							"dirt"
 						]
 					},
-					"sw08_082_avmgodr0": {
-						"animation": "swMapObjects_mines/082/avmgodr0",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VBBB",
-							"VBAB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
-					},
 					"sw08_AVMgods0": {
 						"animation": "swMapObjects_mines/SWMIN64", //"swMapObjects/mines/gold/AVMgods0", 
 						"visitableFrom": [
@@ -1185,21 +1050,6 @@
 					},
 					"sw08_AVMgold0": {
 						"animation": "swMapObjects_mines/SWMIN34", //"swMapObjects/mines/gold/AVMgold0", 
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVBB",
-							"VBAB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"sw08_082_AVMgold0": {
-						"animation": "swMapObjects_mines/082/AVMgold0",
 						"visitableFrom": [
 							"---",
 							"+++",

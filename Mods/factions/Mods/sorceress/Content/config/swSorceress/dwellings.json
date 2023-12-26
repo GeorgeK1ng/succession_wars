@@ -33,7 +33,7 @@
 				//				],
 				"templates": {
 					"default": {
-						"animation": "swSorceress/adventure-map/082/avgcent1",
+						"animation": "swSorceress/adventure-map/avgcent1",
 						"mask": [
 							"VV",
 							"VA"

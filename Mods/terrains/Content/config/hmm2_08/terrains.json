@@ -12,7 +12,6 @@
 		"river": "hmm2waterRiver",
 		"battleFields": [
 			"sw08_hmm2_dirt_birches",
-			"sw08_hmm2_dirt_birches082",
 			"sw08_hmm2_dirt_hills",
 			"sw08_hmm2_dirt_pines"
 		],
@@ -34,8 +33,7 @@
 		// "shortIdentifier": "ja",
 		"river": "hmm2waterRiver",
 		"battleFields": [
-			"sw08_hmm2_sand_mesas",
-			"sw08_hmm2_sand_mesas082"
+			"sw08_hmm2_sand_mesas"
 		],
 		"transitionRequired": true,
 		"terrainViewPatterns": "sand",
@@ -134,8 +132,7 @@
 		"shortIdentifier": "jd",
 		"river": "hmm2waterRiver",
 		"battleFields": [
-			"sw08_hmm2_desert",
-			"sw08_hmm2_desert082"
+			"sw08_hmm2_desert"
 		],
 		"terrainViewPatterns": "normal",
 		"rockTerrain": "rock",

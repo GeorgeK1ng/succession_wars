@@ -860,7 +860,7 @@
 						]
 					},
 					"capitolDesert": {
-						"animation": "swOasis/adventure-map/082/avchforz",
+						"animation": "swOasis/adventure-map/avchforz",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",
@@ -873,7 +873,7 @@
 						]
 					},
 					"castleDesert": {
-						"animation": "swOasis/adventure-map/082/avchforx",
+						"animation": "swOasis/adventure-map/avchforx",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",
@@ -886,7 +886,7 @@
 						]
 					},
 					"citadelDesert": {
-						"animation": "swOasis/adventure-map/082/avchforx",
+						"animation": "swOasis/adventure-map/avchforx",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",
@@ -899,7 +899,7 @@
 						]
 					},
 					"fortDesert": {
-						"animation": "swOasis/adventure-map/082/avchforx",
+						"animation": "swOasis/adventure-map/avchforx",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",
@@ -912,7 +912,7 @@
 						]
 					},
 					"townDesert": {
-						"animation": "swOasis/adventure-map/082/AVChfor0",
+						"animation": "swOasis/adventure-map/AVChfor0",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",
@@ -925,7 +925,7 @@
 						]
 					},
 					"villageDesert": {
-						"animation": "swOasis/adventure-map/082/AVChfor0",
+						"animation": "swOasis/adventure-map/AVChfor0",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",

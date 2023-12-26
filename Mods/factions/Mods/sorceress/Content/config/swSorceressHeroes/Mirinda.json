@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:92",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:92",
-			"large": "swSorceressHeroes/port/new/Sorc01L",
-			"small": "swSorceressHeroes/port/new/Sorc01S"
+			"large": "swSorceressHeroes/port/Sorc01L",
+			"small": "swSorceressHeroes/port/Sorc01S"
 		},
 		"spellbook": [
 			"dispel"

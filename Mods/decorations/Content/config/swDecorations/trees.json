@@ -69,7 +69,7 @@
 						]
 					},
 					"newAvLRG11": {
-						"animation": "swDecorations/tree/082/AvLRG11",
+						"animation": "swDecorations/tree/AvLRG11",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -484,7 +484,7 @@
 					]
 				},
 				"newAVLswt16": {
-					"animation": "swDecorations/tree/082/AVLswt16",
+					"animation": "swDecorations/tree/AVLswt16",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -875,7 +875,7 @@
 					]
 				},
 				"newAVLROUG0": {
-					"animation": "swDecorations/tree/082/AVLROUG0",
+					"animation": "swDecorations/tree/AVLROUG0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -889,7 +889,7 @@
 					]
 				},
 				"newAVLROUG1": {
-					"animation": "swDecorations/tree/082/AVLROUG1",
+					"animation": "swDecorations/tree/AVLROUG1",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -903,7 +903,7 @@
 					]
 				},
 				"newAVLROUG2": {
-					"animation": "swDecorations/tree/082/AVLROUG2",
+					"animation": "swDecorations/tree/AVLROUG2",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -917,7 +917,7 @@
 					]
 				},
 				"newAVLsh1g0": {
-					"animation": "swDecorations/tree/082/AVLsh1g0",
+					"animation": "swDecorations/tree/AVLsh1g0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -931,7 +931,7 @@
 					]
 				},
 				"newAVLsh2g0": {
-					"animation": "swDecorations/tree/082/AVLsh2g0",
+					"animation": "swDecorations/tree/AVLsh2g0",
 					"visitableFrom": [
 						"---",
 						"+++",
@@ -1965,7 +1965,7 @@
 						]
 					},
 					"newAVLxgr13": {
-						"animation": "swDecorations/trees/082/AVLxgr13",
+						"animation": "swDecorations/trees/AVLxgr13",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -1981,7 +1981,7 @@
 						]
 					},
 					"newAVLSPTR0": {
-						"animation": "swDecorations/trees/082/AVLSPTR0",
+						"animation": "swDecorations/trees/AVLSPTR0",
 						"visitableFrom": [
 							"---",
 							"+++",

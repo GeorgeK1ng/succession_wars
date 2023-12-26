@@ -5,14 +5,8 @@
 	"sw08_hmm2_sand_mesas": {
 		"graphics": "HMM2/CMBKDES.BMP"
 	},
-	"sw08_hmm2_sand_mesas082": {
-		"graphics": "HMM2/082/CMBKDES.BMP"
-	},
 	"sw08_hmm2_dirt_birches": {
 		"graphics": "HMM2/CMBKDRTR.BMP"
-	},
-	"sw08_hmm2_dirt_birches082": {
-		"graphics": "HMM2/082/CMBKDRTR.BMP"
 	},
 	"sw08_hmm2_dirt_hills": {
 		"graphics": "HMM2/CMBKDRMT.BMP"
@@ -30,7 +24,7 @@
 		"graphics": "HMM2/CMBKLAVA.BMP"
 	},
 	"sw08_hmm2_lava2": {
-		"graphics": "HMM2/new/CmBkDrMt.BMP"
+		"graphics": "HMM2/CmBkDrMt.BMP"
 	},
 	"sw08_hmm2_magic_plains": {
 		"graphics": "HMM2/CMBKMAG.BMP",
@@ -233,7 +227,7 @@
 		]
 	},
 	"sw08_hmm2_cursed_ground2": {
-		"graphics": "HMM2/new/CmBkDrDd.BMP",
+		"graphics": "HMM2/CmBkDrDd.BMP",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -273,10 +267,6 @@
 	},
 	"sw08_hmm2_desert": {
 		"graphics": "HMM2/CMBKRGH.BMP",
-		"isSpecial": true
-	},
-	"sw08_hmm2_desert082": {
-		"graphics": "HMM2/082/CMBKRGH.BMP",
 		"isSpecial": true
 	},
 	"sw08_hmm2_ship_to_ship": 

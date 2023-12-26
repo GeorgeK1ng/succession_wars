@@ -697,7 +697,7 @@
 						]
 					},
 					"capitolSubterra": {
-						"animation": "swWizard/adventure-map/082/avctowz0",
+						"animation": "swWizard/adventure-map/avctowz0",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",
@@ -710,7 +710,7 @@
 						]
 					},
 					"castleSubterra": {
-						"animation": "swWizard/adventure-map/082/avctowx0",
+						"animation": "swWizard/adventure-map/avctowx0",
 						"mask": [
 							"VVVVVVV",
 							"VVVVVVV",

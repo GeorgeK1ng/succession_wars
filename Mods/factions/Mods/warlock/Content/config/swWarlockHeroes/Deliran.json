@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWarlockHeroes/UN32.def:90",
 			"specialtyLarge": "swWarlockHeroes/UN44.def:90",
-			"large": "swWarlockHeroes/port/new/sw012L",
-			"small": "swWarlockHeroes/port/new/sw012S"
+			"large": "swWarlockHeroes/port/sw012L",
+			"small": "swWarlockHeroes/port/sw012S"
 		},
 		"spellbook": [
 			"fireball"

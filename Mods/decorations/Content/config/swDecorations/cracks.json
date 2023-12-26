@@ -599,7 +599,7 @@
 						]
 					},
 					"newAVLct1g0": {
-						"animation": "swDecorations/cracks/082/AVLct1g0",
+						"animation": "swDecorations/cracks/AVLct1g0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -614,7 +614,7 @@
 						]
 					},
 					"newAVLct1u0": {
-						"animation": "swDecorations/cracks/082/AVLct1u0",
+						"animation": "swDecorations/cracks/AVLct1u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -629,7 +629,7 @@
 						]
 					},
 					"newavlct2d0": {
-						"animation": "swDecorations/cracks/082/avlct2d0",
+						"animation": "swDecorations/cracks/avlct2d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -643,7 +643,7 @@
 						]
 					},
 					"newAVLct2u0": {
-						"animation": "swDecorations/cracks/082/AVLct2u0",
+						"animation": "swDecorations/cracks/AVLct2u0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -657,7 +657,7 @@
 						]
 					},
 					"newavlct3d0": {
-						"animation": "swDecorations/cracks/082/avlct3d0",
+						"animation": "swDecorations/cracks/avlct3d0",
 						"visitableFrom": [
 							"---",
 							"+++",
@@ -671,7 +671,7 @@
 						]
 					},
 					"newAVLct3u0": {
-						"animation": "swDecorations/cracks/082/AVLct3u0",
+						"animation": "swDecorations/cracks/AVLct3u0",
 						"visitableFrom": [
 							"---",
 							"+++",

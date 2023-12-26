@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWarlockHeroes/UN32.def:82",
 			"specialtyLarge": "swWarlockHeroes/UN44.def:82",
-			"large": "swWarlockHeroes/port/new/sw013L",
-			"small": "swWarlockHeroes/port/new/sw013S"
+			"large": "swWarlockHeroes/port/sw013L",
+			"small": "swWarlockHeroes/port/sw013S"
 		},
 		"spellbook": [
 			"lightningBolt"

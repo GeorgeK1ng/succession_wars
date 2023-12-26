@@ -97,7 +97,7 @@
 						]
 					},
 					"AVGfbrd1": {
-						"animation": "swOasis/adventure-map/082/AVGfbrd1",
+						"animation": "swOasis/adventure-map/AVGfbrd1",
 						"visitableFrom": ["---", "+++", "+++"],
 						"mask": [ "VA"],
 

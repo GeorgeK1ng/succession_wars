@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swNecromancerHeroes/UN32.def:71",
 			"specialtyLarge": "swNecromancerHeroes/UN44.def:71",
-			"large": "swNecromancerHeroes/port/new/YF7mf8k_L.bmp",
-			"small": "swNecromancerHeroes/port/new/YF7mf8k_S.bmp"
+			"large": "swNecromancerHeroes/port/YF7mf8k_L.bmp",
+			"small": "swNecromancerHeroes/port/YF7mf8k_S.bmp"
 		},
 		"spellbook": [
 			"stoneSkin"

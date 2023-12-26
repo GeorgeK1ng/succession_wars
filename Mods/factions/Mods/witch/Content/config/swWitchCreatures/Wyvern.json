@@ -53,7 +53,7 @@
 		"graphics": {
 			"iconSmall": "swWitchCreatures/cprsmall.def:112",
 			"iconLarge": "swWitchCreatures/TWCRPORT.def:112",
-			"map": "swWitchCreatures/map/082/AvWHydr",
+			"map": "swWitchCreatures/map/AvWHydr",
 			"animation": "swWitchCreatures/battle/c110wyvn",
 			"timeBetweenFidgets": 1,
 			"animationTime": {
