@@ -62,12 +62,12 @@
 			}
 		},
 		"sound": {
-			"attack": "acolyte/PSYCATTK",
-			"defend": "acolyte/PSYCDFND",
-			"killed": "acolyte/PSYCKILL",
-			"move": "acolyte/PSYCMOVE",
-			"wince": "acolyte/PSYCWNCE",
-			"shoot": "acolyte/PSYCSHOT"
+			"attack": "acolyte/PSYCATTK.wav",
+			"defend": "acolyte/PSYCDFND.wav",
+			"killed": "acolyte/PSYCKILL.wav",
+			"move": "acolyte/PSYCMOVE.wav",
+			"wince": "acolyte/PSYCWNCE.wav",
+			"shoot": "acolyte/PSYCSHOT.wav"
 		}
 	}
 }

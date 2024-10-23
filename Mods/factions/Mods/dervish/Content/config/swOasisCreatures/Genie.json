@@ -75,12 +75,12 @@
 			}
 		},
 		"sound": {
-			"attack": "genie/PHOEATTK",
-			"defend": "genie/PHOEDFND",
-			"killed": "genie/PHOEKILL",
-			"move": "genie/PHOEMOVE",
-			"wince": "genie/PHOEWNCE",
-			"shoot": "genie/PHOEATTK"
+			"attack": "genie/PHOEATTK.wav",
+			"defend": "genie/PHOEDFND.wav",
+			"killed": "genie/PHOEKILL.wav",
+			"move": "genie/PHOEMOVE.wav",
+			"wince": "genie/PHOEWNCE.wav",
+			"shoot": "genie/PHOEATTK.wav"
 		}
 	}
 }

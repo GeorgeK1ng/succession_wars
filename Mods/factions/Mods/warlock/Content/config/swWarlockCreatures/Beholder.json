@@ -65,12 +65,12 @@
 			}
 		},
 		"sound": {
-			"attack": "swWarlock/beholder/DFLYATTK",
-			"defend": "swWarlock/beholder/DFLYDFND",
-			"killed": "swWarlock/beholder/DFLYKILL",
-			"move": "swWarlock/beholder/DFLYMOVE",
-			"wince": "swWarlock/beholder/DFLYSHOT",
-			"shoot": "swWarlock/beholder/DFLYWNCE"
+			"attack": "swWarlock/beholder/DFLYATTK.wav",
+			"defend": "swWarlock/beholder/DFLYDFND.wav",
+			"killed": "swWarlock/beholder/DFLYKILL.wav",
+			"move": "swWarlock/beholder/DFLYMOVE.wav",
+			"wince": "swWarlock/beholder/DFLYSHOT.wav",
+			"shoot": "swWarlock/beholder/DFLYWNCE.wav"
 		}
 	}
 }

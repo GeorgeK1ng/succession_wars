@@ -70,7 +70,7 @@
 			"killed": "Manticore/MANTKILL.wav",
 			"move": "Manticore/MANTMOVE.wav",
 			"wince": "Manticore/MANTWNCE.wav",
-			"shoot": "Manticore/MANTSHOT"
+			"shoot": "Manticore/MANTSHOT.wav"
 		}
 	}
 }
