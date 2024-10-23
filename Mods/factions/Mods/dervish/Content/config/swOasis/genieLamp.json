@@ -4,114 +4,114 @@
 		"handler": "configurable",
 		"base": {
 			"sounds": {
-			//	"visit": ["CHEST"],
-				"removal": ["PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07"]
+				//	"visit": ["CHEST"],
+				"removal": [
+					"PICKUP01",
+					"PICKUP02",
+					"PICKUP03",
+					"PICKUP04",
+					"PICKUP05",
+					"PICKUP06",
+					"PICKUP07"
+				]
 			}
 		},
-
 		"types": {
-				"configurableObjectSuccessionWars08GenieLamp01": {
+			"configurableObjectSuccessionWars08GenieLamp01": {
 				"name": "Old Lamp",
 				"rmg": {
 					"value": 2500,
 					"rarity": 150
 				},
-				
-				
 				"rewards": [
-	 
 					{
 						"appearChance": {
 							"dice": 1,
-
 							"min": 0,
 							"max": 60
 						},
-
-					"creatures": [
-						{
-							"type": "swOasisGenie",
-							"upgradeChance": 30,
-							"amount": 2
-						}
-					],
+						"creatures": [
+							{
+								"type": "swOasisGenie",
+								"upgradeChance": 30,
+								"amount": 2
+							}
+						],
 						"message": "You have found a old lamp. You shrug it on the back and a strange figure appears before you in a cloud of smoke and calls you a master.",
 						"selectChance": 100,
 						"removeObject": true
 					},
- 				
- 					{
+					{
 						"appearChance": {
 							"dice": 1,
-
 							"min": 60,
-							"max":  90
+							"max": 90
 						},
-
-					"creatures": [
-						{
-							"type": "swOasisGenie",
-							 "upgradeChance": 30,
-							"amount": 3
-						}
-					],
-					"message":  "You have found a old lamp. You shrug it on the back and a strange figures appear before you in a cloud of smoke and call you a master.",
-						"selectChance": 100,
-						"removeObject": true
-					},
- 					{
-						"appearChance": {
-							"dice": 1,
-
-							"min": 90,
-							"max":  100
-						},
-
-					"creatures": [
-						{
-							"type": "swOasisGenie",
-							 "upgradeChance": 30,
-							"amount": 1
-						}
-					],
+						"creatures": [
+							{
+								"type": "swOasisGenie",
+								"upgradeChance": 30,
+								"amount": 3
+							}
+						],
 						"message": "You have found a old lamp. You shrug it on the back and a strange figures appear before you in a cloud of smoke and call you a master.",
 						"selectChance": 100,
 						"removeObject": true
 					},
+					{
+						"appearChance": {
+							"dice": 1,
+							"min": 90,
+							"max": 100
+						},
+						"creatures": [
+							{
+								"type": "swOasisGenie",
+								"upgradeChance": 30,
+								"amount": 1
+							}
+						],
+						"message": "You have found a old lamp. You shrug it on the back and a strange figures appear before you in a cloud of smoke and call you a master.",
+						"selectChance": 100,
+						"removeObject": true
+					}
 				],
 				"blockedVisitable": true,
-		 
 				"visitMode": "once",
 				"selectMode": "selectFirst",
- 
-				
 				"templates": {
-
 					"FALME001": {
 						"animation": "swOasis/adventure-map/objects/ZGENLAM",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": [ "VA"],
-
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
-							"hmm2desert","sand" 
+							"hmm2desert",
+							"sand"
 						]
 					},
 					"AVGfbrd1": {
 						"animation": "swOasis/adventure-map/AVGfbrd1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": [ "VA"],
-
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask": [
+							"VA"
+						],
 						"allowedTerrains": [
-							"hmm2desert","sand"
+							"hmm2desert",
+							"sand"
 						]
-					}				 
-
+					}
 				}
-
-
 			}
-			
-			 
-
-	} }
+		}
+	}
 }

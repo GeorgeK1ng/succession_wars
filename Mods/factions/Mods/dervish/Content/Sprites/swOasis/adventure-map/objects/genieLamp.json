@@ -114,7 +114,7 @@
 						"message": "You have found a dragon egg. You put it in a warm place and after a few hours dragon hatches from it, recognizing you as his parent.",
 						"selectChance": 100,
 						"removeObject": true
-					},
+					}
 				],
 				"blockedVisitable": true,
 		 

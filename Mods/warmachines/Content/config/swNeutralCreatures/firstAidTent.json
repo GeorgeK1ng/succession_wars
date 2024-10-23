@@ -39,7 +39,7 @@
 				"subtype": "spell.firstAid",
 				"val": 10,
 				"valueType": "BASE_NUMBER"
-			},
+			}
 		},
 		
 		"graphics": {
