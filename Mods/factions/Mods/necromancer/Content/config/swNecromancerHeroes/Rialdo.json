@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swNecromancerHeroes/UN32.def:69",
 			"specialtyLarge": "swNecromancerHeroes/UN44.def:69",
-			"large": "swNecromancerHeroes/port/HPL069DK.bmp",
-			"small": "swNecromancerHeroes/port/HPS069DK.bmp"
+			"large": "swNecromancerHeroes/port/HPL069DK.png",
+			"small": "swNecromancerHeroes/port/HPS069DK.png"
 		},
 		"spellbook": [
 			"weakness"

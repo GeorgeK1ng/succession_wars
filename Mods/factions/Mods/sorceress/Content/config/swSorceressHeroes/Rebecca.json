@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:25",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:25",
-			"large": "swSorceressHeroes/port/HPL025DR",
-			"small": "swSorceressHeroes/port/HPS025DR"
+			"large": "swSorceressHeroes/port/HPL025DR.png",
+			"small": "swSorceressHeroes/port/HPS025DR.png"
 		},
 		"spellbook": [
 			"viewEarth"

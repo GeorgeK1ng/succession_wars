@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:22",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:22",
-			"large": "swSorceressHeroes/port/HPL022RN",
-			"small": "swSorceressHeroes/port/HPS022RN"
+			"large": "swSorceressHeroes/port/HPL022RN.png",
+			"small": "swSorceressHeroes/port/HPS022RN.png"
 		},
 		"spellbook": [
 			"fortune"

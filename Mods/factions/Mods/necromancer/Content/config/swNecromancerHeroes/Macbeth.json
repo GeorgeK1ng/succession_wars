@@ -15,8 +15,8 @@
 		"images": {
 			"specialtySmall": "swNecromancerHeroes/UN32.def:76",
 			"specialtyLarge": "swNecromancerHeroes/UN44.def:76",
-			"large": "swNecromancerHeroes/port/HPLZ0001.bmp",
-			"small": "swNecromancerHeroes/port/HPSZ0001.bmp"
+			"large": "swNecromancerHeroes/port/HPLZ0001.png",
+			"small": "swNecromancerHeroes/port/HPSZ0001.png"
 		},
 		"spellbook": [
 			"haste"

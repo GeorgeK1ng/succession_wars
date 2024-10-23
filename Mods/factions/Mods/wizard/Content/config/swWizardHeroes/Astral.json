@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWizardHeroes/UN32.def:45",
 			"specialtyLarge": "swWizardHeroes/UN44.def:45",
-			"large": "swWizardHeroes/port/HPL045WZ",
-			"small": "swWizardHeroes/port/HPS045WZ"
+			"large": "swWizardHeroes/port/HPL045WZ.png",
+			"small": "swWizardHeroes/port/HPS045WZ.png"
 		},
 		"spellbook": [
 			"hypnotize"

@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swBarbarianHeroes/UN32.def:98",
 			"specialtyLarge": "swBarbarianHeroes/UN44.def:98",
-			"large": "swBarbarianHeroes/port/HPL098BR.bmp",
-			"small": "swBarbarianHeroes/port/HPS098BR.bmp"
+			"large": "swBarbarianHeroes/port/HPL098BR.png",
+			"small": "swBarbarianHeroes/port/HPS098BR.png"
 		},
 		"army": [
 			{

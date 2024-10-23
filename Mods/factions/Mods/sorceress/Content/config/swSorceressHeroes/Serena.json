@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:31",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:31",
-			"large": "swSorceressHeroes/port/HPL031DR",
-			"small": "swSorceressHeroes/port/HPS031DR"
+			"large": "swSorceressHeroes/port/HPL031DR.png",
+			"small": "swSorceressHeroes/port/HPS031DR.png"
 		},
 		"spellbook": [
 			"shield"

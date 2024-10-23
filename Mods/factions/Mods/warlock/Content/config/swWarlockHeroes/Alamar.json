@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWarlockHeroes/UN32.def:93",
 			"specialtyLarge": "swWarlockHeroes/UN44.def:93",
-			"large": "swWarlockHeroes/port/HPL095WL",
-			"small": "swWarlockHeroes/port/HPS095WL"
+			"large": "swWarlockHeroes/port/HPL095WL.png",
+			"small": "swWarlockHeroes/port/HPS095WL.png"
 		},
 		"spellbook": [
 			"resurrection"

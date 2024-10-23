@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swOasisHeroes/UN32.def:142",
 			"specialtyLarge": "swOasisHeroes/UN44.def:142",
-			"large": "swOasisHeroes/port/HPL006EL",
-			"small": "swOasisHeroes/port/HPS006EL"
+			"large": "swOasisHeroes/port/HPL006EL.png",
+			"small": "swOasisHeroes/port/HPS006EL.png"
 		},
 		"spellbook": [
 			"cure"

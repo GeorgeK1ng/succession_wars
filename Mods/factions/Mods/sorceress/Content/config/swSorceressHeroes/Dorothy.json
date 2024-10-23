@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:29",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:29",
-			"large": "swSorceressHeroes/port/HPL029DR",
-			"small": "swSorceressHeroes/port/HPS029DR"
+			"large": "swSorceressHeroes/port/HPL029DR.png",
+			"small": "swSorceressHeroes/port/HPS029DR.png"
 		},
 		"spellbook": [
 			"visions"

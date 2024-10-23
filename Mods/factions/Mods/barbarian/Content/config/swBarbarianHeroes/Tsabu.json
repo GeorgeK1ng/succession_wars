@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swBarbarianHeroes/UN32.def:103",
 			"specialtyLarge": "swBarbarianHeroes/UN44.def:103",
-			"large": "swBarbarianHeroes/port/HPL103BR.bmp",
-			"small": "swBarbarianHeroes/port/HPS103BR.bmp"
+			"large": "swBarbarianHeroes/port/HPL103BR.png",
+			"small": "swBarbarianHeroes/port/HPS103BR.png"
 		},
 		"spellbook": [],
 		"army": [

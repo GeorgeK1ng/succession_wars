@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:17",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:17",
-			"large": "swSorceressHeroes/port/HPL017RN",
-			"small": "swSorceressHeroes/port/HPS017RN"
+			"large": "swSorceressHeroes/port/HPL017RN.png",
+			"small": "swSorceressHeroes/port/HPS017RN.png"
 		},
 		"spellbook": [
 			"haste"

@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swNecromancerHeroes/UN32.def:73",
 			"specialtyLarge": "swNecromancerHeroes/UN44.def:73",
-			"large": "swNecromancerHeroes/port/HPL073NC.bmp",
-			"small": "swNecromancerHeroes/port/HPS073NC.bmp"
+			"large": "swNecromancerHeroes/port/HPL073NC.png",
+			"small": "swNecromancerHeroes/port/HPS073NC.png"
 		},
 		"spellbook": [
 			"deathRipple"

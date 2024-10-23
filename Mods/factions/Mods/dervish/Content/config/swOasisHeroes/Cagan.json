@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swOasisHeroes/UN32.def:135",
 			"specialtyLarge": "swOasisHeroes/UN44.def:135",
-			"large": "swOasisHeroes/port/HPL007PL",
-			"small": "swOasisHeroes/port/HPS007PL"
+			"large": "swOasisHeroes/port/HPL007PL.png",
+			"small": "swOasisHeroes/port/HPS007PL.png"
 		},
 		"spellbook": [],
 		"army": [

@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:28",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:28",
-			"large": "swSorceressHeroes/port/HPL028DR",
-			"small": "swSorceressHeroes/port/HPS028DR"
+			"large": "swSorceressHeroes/port/HPL028DR.png",
+			"small": "swSorceressHeroes/port/HPS028DR.png"
 		},
 		"spellbook": [
 			"magicArrow"

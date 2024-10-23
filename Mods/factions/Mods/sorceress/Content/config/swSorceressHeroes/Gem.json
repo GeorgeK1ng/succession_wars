@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:21",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:21",
-			"large": "swSorceressHeroes/port/HPL021RN",
-			"small": "swSorceressHeroes/port/HPS021RN"
+			"large": "swSorceressHeroes/port/HPL021RN.png",
+			"small": "swSorceressHeroes/port/HPS021RN.png"
 		},
 		"spellbook": [
 			"cure"

@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swBarbarianHeroes/UN32.def:108",
 			"specialtyLarge": "swBarbarianHeroes/UN44.def:108",
-			"large": "swBarbarianHeroes/port/HPL108BM.bmp",
-			"small": "swBarbarianHeroes/port/HPS108BM.bmp"
+			"large": "swBarbarianHeroes/port/HPL108BM.png",
+			"small": "swBarbarianHeroes/port/HPS108BM.png"
 		},
 		"spellbook": [
 			"frenzy"

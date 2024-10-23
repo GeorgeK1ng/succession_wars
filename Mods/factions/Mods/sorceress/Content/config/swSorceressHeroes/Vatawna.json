@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:19",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:19",
-			"large": "swSorceressHeroes/port/HPL019RN",
-			"small": "swSorceressHeroes/port/HPS019RN"
+			"large": "swSorceressHeroes/port/HPL019RN.png",
+			"small": "swSorceressHeroes/port/HPS019RN.png"
 		},
 		"spellbook": [
 			"precision"

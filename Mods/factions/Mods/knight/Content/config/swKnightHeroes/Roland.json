@@ -15,8 +15,8 @@
 		"images": {
 			"specialtySmall": "swKnightHeroes/UN32.def:145",
 			"specialtyLarge": "swKnightHeroes/UN44.def:145",
-			"large": "swKnightHeroes/port/HPL015CL",
-			"small": "swKnightHeroes/port/HPS015CL"
+			"large": "swKnightHeroes/port/HPL015CL.png",
+			"small": "swKnightHeroes/port/HPS015CL.png"
 		},
 		"army": [
 			{

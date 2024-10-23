@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swNecromancerHeroes/UN32.def:76",
 			"specialtyLarge": "swNecromancerHeroes/UN44.def:76",
-			"large": "swNecromancerHeroes/port/HPL076NC.bmp",
-			"small": "swNecromancerHeroes/port/HPS076NC.bmp"
+			"large": "swNecromancerHeroes/port/HPL076NC.png",
+			"small": "swNecromancerHeroes/port/HPS076NC.png"
 		},
 		"spellbook": [
 			"animateDead"

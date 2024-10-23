@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swNecromancerHeroes/UN32.def:79",
 			"specialtyLarge": "swNecromancerHeroes/UN44.def:79",
-			"large": "swNecromancerHeroes/port/HPL079NC.bmp",
-			"small": "swNecromancerHeroes/port/HPS079NC.bmp"
+			"large": "swNecromancerHeroes/port/HPL079NC.png",
+			"small": "swNecromancerHeroes/port/HPS079NC.png"
 		},
 		"spellbook": [
 			"magicArrow"

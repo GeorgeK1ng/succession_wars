@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWarlockHeroes/UN32.def:81",
 			"specialtyLarge": "swWarlockHeroes/UN44.def:81",
-			"large": "swWarlockHeroes/port/HPL081OV",
-			"small": "swWarlockHeroes/port/HPS081OV"
+			"large": "swWarlockHeroes/port/HPL081OV.png",
+			"small": "swWarlockHeroes/port/HPS081OV.png"
 		},
 		"spellbook": [
 			"curse"

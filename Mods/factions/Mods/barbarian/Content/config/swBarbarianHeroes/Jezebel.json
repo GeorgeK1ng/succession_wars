@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swBarbarianHeroes/UN32.def:99",
 			"specialtyLarge": "swBarbarianHeroes/UN44.def:99",
-			"large": "swBarbarianHeroes/port/HPL099BR.bmp",
-			"small": "swBarbarianHeroes/port/HPS099BR.bmp"
+			"large": "swBarbarianHeroes/port/HPL099BR.png",
+			"small": "swBarbarianHeroes/port/HPS099BR.png"
 		},
 		"spellbook": [
 			"bloodlust"

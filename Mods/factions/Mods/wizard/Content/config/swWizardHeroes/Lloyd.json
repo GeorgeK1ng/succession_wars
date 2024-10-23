@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWizardHeroes/UN32.def:46",
 			"specialtyLarge": "swWizardHeroes/UN44.def:46",
-			"large": "swWizardHeroes/port/HPL046WZ",
-			"small": "swWizardHeroes/port/HPS046WZ"
+			"large": "swWizardHeroes/port/HPL046WZ.png",
+			"small": "swWizardHeroes/port/HPS046WZ.png"
 		},
 		"spellbook": [
 			"stoneSkin"

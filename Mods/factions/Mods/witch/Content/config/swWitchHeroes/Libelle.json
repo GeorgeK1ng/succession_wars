@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWitchHeroes/UN32.def:124",
 			"specialtyLarge": "swWitchHeroes/UN44.def:124",
-			"large": "swWitchHeroes/port/HPL124WH.bmp",
-			"small": "swWitchHeroes/port/HPS124WH.bmp"
+			"large": "swWitchHeroes/port/HPL124WH.png",
+			"small": "swWitchHeroes/port/HPS124WH.png"
 		},
 		"army": [
 			{

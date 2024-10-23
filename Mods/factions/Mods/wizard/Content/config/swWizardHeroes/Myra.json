@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWizardHeroes/UN32.def:38",
 			"specialtyLarge": "swWizardHeroes/UN44.def:38",
-			"large": "swWizardHeroes/port/HPL038AL",
-			"small": "swWizardHeroes/port/HPS038AL"
+			"large": "swWizardHeroes/port/HPL038AL.png",
+			"small": "swWizardHeroes/port/HPS038AL.png"
 		},
 		"spellbook": [
 			"iceBolt"

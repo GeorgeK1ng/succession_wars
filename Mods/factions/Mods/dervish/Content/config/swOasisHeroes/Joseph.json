@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swOasisHeroes/UN32.def:128",
 			"specialtyLarge": "swOasisHeroes/UN44.def:128",
-			"large": "swOasisHeroes/port/HPL000PL",
-			"small": "swOasisHeroes/port/HPS000PL"
+			"large": "swOasisHeroes/port/HPL000PL.png",
+			"small": "swOasisHeroes/port/HPS000PL.png"
 		},
 		"spellbook": [
 			"fireball"

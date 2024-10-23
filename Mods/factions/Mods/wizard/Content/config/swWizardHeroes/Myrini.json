@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWizardHeroes/UN32.def:39",
 			"specialtyLarge": "swWizardHeroes/UN44.def:39",
-			"large": "swWizardHeroes/port/HPL039AL",
-			"small": "swWizardHeroes/port/HPS039AL"
+			"large": "swWizardHeroes/port/HPL039AL.png",
+			"small": "swWizardHeroes/port/HPS039AL.png"
 		},
 		"spellbook": [
 			"fireball"

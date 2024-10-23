@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWizardHeroes/UN32.def:37",
 			"specialtyLarge": "swWizardHeroes/UN44.def:37",
-			"large": "swWizardHeroes/port/HPL037AL",
-			"small": "swWizardHeroes/port/HPS037AL"
+			"large": "swWizardHeroes/port/HPL037AL.png",
+			"small": "swWizardHeroes/port/HPS037AL.png"
 		},
 		"spellbook": [
 			"slayer"

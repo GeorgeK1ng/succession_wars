@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:16",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:16",
-			"large": "swSorceressHeroes/port/HPL016RN",
-			"small": "swSorceressHeroes/port/HPS016RN"
+			"large": "swSorceressHeroes/port/HPL016RN.png",
+			"small": "swSorceressHeroes/port/HPS016RN.png"
 		},
 		"spellbook": [
 			"frostRing"
