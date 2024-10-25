@@ -69,26 +69,6 @@
 							"dirt"
 						]
 					},
-					"AVXcflv01": {
-						"animation": "swMapObjects/campFire/AVXcflv01",
-						"visitableFrom": [
-							"+++",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VA"
-						],
-						"allowedTerrains": [
-							"grass",
-							"swamp",
-							"lava",
-							"subterra",
-							"rough",
-							"sand",
-							"dirt"
-						]
-					},
 					"AVXcfsn0": {
 						"animation": "swMapObjects/campFire/AVXcfsn0",
 						"visitableFrom": [

@@ -5,8 +5,8 @@
 		"nativeTerrain": "grass",
 		"boat": "boatFortress",
 		"creatureBackground": {
-			"120px": "swNeutral/tpcasneu.bmp",
-			"130px": "swNeutral/CRBKGNEU.bmp"
+			"120px": "swNeutral/tpcasneu.png",
+			"130px": "swNeutral/CRBKGNEU.png"
 		}
 	}
 }

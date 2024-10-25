@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swSorceressHeroes/UN32.def:5",
 			"specialtyLarge": "swSorceressHeroes/UN44.def:5",
-			"large": "swSorceressHeroes/port/Sorc02L",
-			"small": "swSorceressHeroes/port/Sorc02S"
+			"large": "swSorceressHeroes/port/HPL048HR.png",
+			"small": "swSorceressHeroes/port/HPS048HR.png"
 		},
 		"spellbook": [
 			"bless"

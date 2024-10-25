@@ -10,152 +10,152 @@
 				},
 				"mageGuild1": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCMAGE",
-					"border": "swNecromancer/town-screen/buildings-border/TONMAG1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNMAG1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONMAG1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNMAG1.png",
 					"x": 700,
 					"y": 76,
 					"z": -1
 				},
 				"mageGuild2": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCMAG2",
-					"border": "swNecromancer/town-screen/buildings-border/TONMAG2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNMAG2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONMAG2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNMAG2.png",
 					"x": 702,
 					"y": 63,
 					"z": -1
 				},
 				"mageGuild3": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCMAG3",
-					"border": "swNecromancer/town-screen/buildings-border/TONMAG3.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNMAG3.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONMAG3.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNMAG3.png",
 					"x": 702,
 					"y": 43,
 					"z": -1
 				},
 				"mageGuild4": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCMAG4",
-					"border": "swNecromancer/town-screen/buildings-border/TONMAG4.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNMAG4.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONMAG4.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNMAG4.png",
 					"x": 702,
 					"y": 38,
 					"z": -1
 				},
 				"mageGuild5": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCMAG5",
-					"border": "swNecromancer/town-screen/buildings-border/TONMAG5.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNMAG5.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONMAG5.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNMAG5.png",
 					"x": 702,
 					"y": 23,
 					"z": -1
 				},
 				"tavern": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCTVRN",
-					"border": "swNecromancer/town-screen/buildings-border/TONTAV.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNTAV.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONTAV.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNTAV.png",
 					"x": 170,
 					"y": 310,
 					"z": -2
 				},
 				"shipyard": {
 					"animation": "swNecromancer/town-screen/buildings/tbncdock",
-					"border": "swNecromancer/town-screen/buildings-border/tonshpna.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/tznshpna.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/tonshpna.png",
+					"area": "swNecromancer/town-screen/buildings-area/tznshpna.png",
 					"x": 653,
 					"y": 338,
 					"z": 2
 				},
 				"fort": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCCSTL",
-					"border": "swNecromancer/town-screen/buildings-border/TONCAS1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNCAS1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONCAS1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNCAS1.png",
 					"x": 410,
 					"y": 16,
 					"z": -3
 				},
 				"citadel": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCCAS2",
-					"border": "swNecromancer/town-screen/buildings-border/TONCAS2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNCAS2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONCAS2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNCAS2.png",
 					"x": 380,
 					"y": 16,
 					"z": -3
 				},
 				"castle": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCCAS3",
-					"border": "swNecromancer/town-screen/buildings-border/TONCAS3.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNCAS3.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONCAS3.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNCAS3.png",
 					"x": 380,
 					"y": 16,
 					"z": -3
 				},
 				"villageHall": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCHALL",
-					"border": "swNecromancer/town-screen/buildings-border/TONHAL1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNHAL1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONHAL1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNHAL1.png",
 					"x": 384,
 					"y": 130,
 					"z": -1
 				},
 				"townHall": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCHAL2",
-					"border": "swNecromancer/town-screen/buildings-border/TONHAL2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNHAL2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONHAL2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNHAL2.png",
 					"x": 370,
 					"y": 130,
 					"z": -1
 				},
 				"cityHall": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCHAL3",
-					"border": "swNecromancer/town-screen/buildings-border/TONHAL3.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNHAL3.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONHAL3.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNHAL3.png",
 					"x": 305,
 					"y": 131,
 					"z": -1
 				},
 				"capitol": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCHAL4",
-					"border": "swNecromancer/town-screen/buildings-border/TONHAL4.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNHAL4.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONHAL4.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNHAL4.png",
 					"x": 309,
 					"y": 114,
 					"z": -1
 				},
 				"marketplace": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCMARK",
-					"border": "swNecromancer/town-screen/buildings-border/TONMRK1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNMRK1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONMRK1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNMRK1.png",
 					"x": 470,
 					"y": 310,
 					"z": 2
 				},
 				"resourceSilo": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCSILO",
-					"border": "swNecromancer/town-screen/buildings-border/TONMRK2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNMRK2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONMRK2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNMRK2.png",
 					"x": 407,
 					"y": 298,
 					"z": 2
 				},
 				"blacksmith": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCBLAK",
-					"border": "swNecromancer/town-screen/buildings-border/TONSMITA.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNSMITA.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONSMITA.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNSMITA.png",
 					"x": 660,
 					"y": 219,
 					"z": 4
 				},
 				"special1": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCSPEC",
-					"border": "swNecromancer/town-screen/buildings-border/TONSHRDA.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNSHRDA.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONSHRDA.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNSHRDA.png",
 					"x": 0,
 					"y": 0,
 					"z": -9
 				},
 				"horde1": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCHRD1",
-					"border": "swNecromancer/town-screen/buildings-border/TONSKE1H.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNSKE1H.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONSKE1H.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNSKE1H.png",
 					"x": 262,
 					"y": 226,
 					"z": 4,
@@ -163,8 +163,8 @@
 				},
 				"horde1Upgr": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCHRD2",
-					"border": "swNecromancer/town-screen/buildings-border/TONSKE2H.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNSKE2H.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONSKE2H.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNSKE2H.png",
 					"x": 262,
 					"y": 226,
 					"z": 4,
@@ -172,8 +172,8 @@
 				},
 				"ship": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCBOAT",
-					"border": "swNecromancer/town-screen/buildings-border/TONshpBa.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TzNshpBa.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONshpBa.png",
+					"area": "swNecromancer/town-screen/buildings-area/TzNshpBa.png",
 					"x": 653,
 					"y": 300,
 					"z": 2,
@@ -181,16 +181,16 @@
 				},
 				"special2": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCEXT0",
-					"border": "swNecromancer/town-screen/buildings-border/TONNECRA.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNNECRA.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONNECRA.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNNECRA.png",
 					"x": 121,
 					"y": 60,
 					"z": -2
 				},
 				"special3": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCEXT1",
-					"border": "swNecromancer/town-screen/buildings-border/TONSKELT.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNSKELT.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONSKELT.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNSKELT.png",
 					"x": 50,
 					"y": 320,
 					"z": 4
@@ -212,84 +212,84 @@
 				},
 				"dwellingLvl1": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCDW_0",
-					"border": "swNecromancer/town-screen/buildings-border/TONSKEL1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNSKEL1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONSKEL1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNSKEL1.png",
 					"x": 425,
 					"y": 226,
 					"z": 4
 				},
 				"dwellingLvl2": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCDW_1",
-					"border": "swNecromancer/town-screen/buildings-border/TONZOMB1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNZOMB1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONZOMB1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNZOMB1.png",
 					"x": 147,
 					"y": 146
 				},
 				"dwellingLvl3": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCDW_2",
-					"border": "swNecromancer/town-screen/buildings-border/TONWIGH1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNWIGH1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONWIGH1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNWIGH1.png",
 					"x": 150,
 					"y": 37,
 					"z": 2
 				},
 				"dwellingLvl4": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCDW_3",
-					"border": "swNecromancer/town-screen/buildings-border/TONVAM1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNVAM1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONVAM1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNVAM1.png",
 					"x": 0,
 					"y": 133,
 					"z": 2
 				},
 				"dwellingLvl5": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCDW_4",
-					"border": "swNecromancer/town-screen/buildings-border/TONLICH1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNLICH1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONLICH1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNLICH1.png",
 					"x": 539,
 					"y": 83,
 					"z": 3
 				},
 				"dwellingLvl6": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCDW_5",
-					"border": "swNecromancer/town-screen/buildings-border/TONBKN1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNBKN1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONBKN1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNBKN1.png",
 					"x": 620,
 					"y": 111
 				},
 				"dwellingLvl7": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCDW_6",
-					"border": "swNecromancer/town-screen/buildings-border/TONBON1.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNBON1.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONBON1.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNBON1.png",
 					"x": 506,
 					"y": 159
 				},
 				"dwellingUpLvl2": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCUP_1",
-					"border": "swNecromancer/town-screen/buildings-border/TONZOMB2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNZOMB2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONZOMB2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNZOMB2.png",
 					"x": 147,
 					"y": 146
 				},
 				"dwellingUpLvl3": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCUP_2",
-					"border": "swNecromancer/town-screen/buildings-border/TONWIGH2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNWIGH2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONWIGH2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNWIGH2.png",
 					"x": 150,
 					"y": 37,
 					"z": 2
 				},
 				"dwellingUpLvl5": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCUP_4",
-					"border": "swNecromancer/town-screen/buildings-border/TONLICH2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNLICH2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONLICH2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNLICH2.png",
 					"x": 539,
 					"y": 81,
 					"z": 3
 				},
 				"dwellingUpLvl6": {
 					"animation": "swNecromancer/town-screen/buildings/TBNCUP_5",
-					"border": "swNecromancer/town-screen/buildings-border/TONBKN2.bmp",
-					"area": "swNecromancer/town-screen/buildings-area/TZNBKN2.bmp",
+					"border": "swNecromancer/town-screen/buildings-border/TONBKN2.png",
+					"area": "swNecromancer/town-screen/buildings-area/TZNBKN2.png",
 					"x": 620,
 					"y": 10
 				}
@@ -297,8 +297,8 @@
 				// 	"animation": "swNecromancer/town-screen/buildings/TBNCHOLY",
 				// 	"x": 324,
 				// 	"y": 196,
-				// 	"border": "swNecromancer/town-screen/buildings-border/TONHOLYA.bmp",
-				// 	"area": "swNecromancer/town-screen/buildings-area/TZNHOLYA.bmp"
+				// 	"border": "swNecromancer/town-screen/buildings-border/TONHOLYA.png",
+				// 	"area": "swNecromancer/town-screen/buildings-area/TZNHOLYA.png"
 				// },
 			}
 		}

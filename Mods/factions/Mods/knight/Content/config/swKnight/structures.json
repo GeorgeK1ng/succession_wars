@@ -10,136 +10,136 @@
 				},
 				"mageGuild1": {
 					"animation": "swKnight/town-screen/buildings/TBCSMAGE",
-					"border": "swKnight/town-screen/buildings-border/TOCSMAG1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSMAG1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSMAG1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSMAG1.png",
 					"x": 198,
 					"y": 197,
 					"z": -10
 				},
 				"mageGuild2": {
 					"animation": "swKnight/town-screen/buildings/TBCSMAG2",
-					"border": "swKnight/town-screen/buildings-border/TOCSMAG2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSMAG2.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSMAG2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSMAG2.png",
 					"x": 198,
 					"y": 173,
 					"z": -10
 				},
 				"mageGuild3": {
 					"animation": "swKnight/town-screen/buildings/TBCSMAG3",
-					"border": "swKnight/town-screen/buildings-border/TOCSM301.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSM301.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSM301.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSM301.png",
 					"x": 198,
 					"y": 153,
 					"z": -10
 				},
 				"mageGuild4": {
 					"animation": "swKnight/town-screen/buildings/TBCSMAG4",
-					"border": "swKnight/town-screen/buildings-border/TOCSM401.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSM401.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSM401.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSM401.png",
 					"x": 198,
 					"y": 130,
 					"z": -10
 				},
 				"mageGuild5": {
 					"animation": "swKnight/town-screen/buildings/TbCSmag5",
-					"border": "swKnight/town-screen/buildings-border/TOCsM501.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCsM501.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCsM501.png",
+					"area": "swKnight/town-screen/buildings-area/TZCsM501.png",
 					"x": 198,
 					"y": 115,
 					"z": -10
 				},
 				"tavern": {
 					"animation": "swKnight/town-screen/buildings/TBCSTVRN",
-					"border": "swKnight/town-screen/buildings-border/TOCSTAV1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSTAV1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSTAV1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSTAV1.png",
 					"x": 202,
 					"y": 163,
 					"z": -12
 				},
 				"shipyard": {
 					"animation": "swKnight/town-screen/buildings/TBCSDOCK",
-					"border": "swKnight/town-screen/buildings-border/TOCSDKMS.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSDKMS.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSDKMS.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSDKMS.png",
 					"x": 631,
 					"y": 308,
 					"z": -9
 				},
 				"fort": {
 					"animation": "swKnight/town-screen/buildings/TBCSCSTL",
-					"border": "swKnight/town-screen/buildings-border/TOCSCAS1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCAS1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCAS1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCAS1.png",
 					"x": 8,
 					"y": 107,
 					"z": -19
 				},
 				"citadel": {
 					"animation": "swKnight/town-screen/buildings/TBCSCAS2",
-					"border": "swKnight/town-screen/buildings-border/TOCSCAS2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCAS2.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCAS2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCAS2.png",
 					"x": 8,
 					"y": 107,
 					"z": -18
 				},
 				"castle": {
 					"animation": "swKnight/town-screen/buildings/TBCSCAS3",
-					"border": "swKnight/town-screen/buildings-border/TOCSCAS3.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCAS3.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCAS3.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCAS3.png",
 					"x": 8,
 					"y": 91,
 					"z": -17
 				},
 				"villageHall": {
 					"animation": "swKnight/town-screen/buildings/TBCSHALL",
-					"border": "swKnight/town-screen/buildings-border/TOCSH101.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSH101.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSH101.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSH101.png",
 					"x": 198,
 					"y": 183,
 					"z": -4
 				},
 				"townHall": {
 					"animation": "swKnight/town-screen/buildings/TBCSHAL2",
-					"border": "swKnight/town-screen/buildings-border/TOCSH201.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSH201.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSH201.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSH201.png",
 					"x": 123,
 					"y": 183,
 					"z": -4
 				},
 				"cityHall": {
 					"animation": "swKnight/town-screen/buildings/TBCSHAL3",
-					"border": "swKnight/town-screen/buildings-border/TOCSH301.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSH301.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSH301.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSH301.png",
 					"x": 8,
 					"y": 114,
 					"z": -4
 				},
 				"capitol": {
 					"animation": "swKnight/town-screen/buildings/TBCSHAL4",
-					"border": "swKnight/town-screen/buildings-border/TOCSH401.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSH401.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSH401.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSH401.png",
 					"x": 8,
 					"y": 86,
 					"z": -4
 				},
 				"marketplace": {
 					"animation": "swKnight/town-screen/buildings/TBCSMARK",
-					"border": "swKnight/town-screen/buildings-border/TOCSMRK1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSMRK1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSMRK1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSMRK1.png",
 					"x": 266,
 					"y": 216,
 					"z": -13
 				},
 				"resourceSilo": {
 					"animation": "swKnight/town-screen/buildings/TBCSSILO",
-					"border": "swKnight/town-screen/buildings-border/TOCSMRK2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSMRK2.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSMRK2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSMRK2.png",
 					"x": 281,
 					"y": 176,
 					"z": -14
 				},
 				"blacksmith": {
 					"animation": "swKnight/town-screen/buildings/TBCSBLAK",
-					"border": "swKnight/town-screen/buildings-border/TOCSBLAK.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSBLAK.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSBLAK.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSBLAK.png",
 					"x": 355,
 					"y": 317,
 					"z": 4
@@ -150,13 +150,13 @@
 				//                    "x": 652,
 				//                    "y": 264,
 				//                    "z": 3,
-				//                   "border": "swKnight/town-screen/buildings-border/TOCSLT01.bmp",
-				//                   "area": "swKnight/town-screen/buildings-area/TZCSLT01.bmp"
+				//                   "border": "swKnight/town-screen/buildings-border/TOCSLT01.png",
+				//                   "area": "swKnight/town-screen/buildings-area/TZCSLT01.png"
 				//               },
 				"horde1": {
 					"animation": "swKnight/town-screen/buildings/TBCSHRD1",
-					"border": "swKnight/town-screen/buildings-border/TOCSGR1H.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSGR1H.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSGR1H.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSGR1H.png",
 					"x": 238,
 					"y": 236,
 					"z": 0,
@@ -164,8 +164,8 @@
 				},
 				"horde1Upgr": {
 					"animation": "swKnight/town-screen/buildings/TBCSHRD2",
-					"border": "swKnight/town-screen/buildings-border/TOCSGR2H.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSGR2H.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSGR2H.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSGR2H.png",
 					"x": 238,
 					"y": 236,
 					"z": 0,
@@ -173,8 +173,8 @@
 				},
 				"ship": {
 					"animation": "swKnight/town-screen/buildings/TBCSBOAT",
-					"border": "swKnight/town-screen/buildings-border/TOCSDKMN.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSDKMN.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSDKMN.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSDKMN.png",
 					"x": 631,
 					"y": 308,
 					"z": 1,
@@ -182,16 +182,16 @@
 				},
 				"special2": {
 					"animation": "swKnight/town-screen/buildings/TBCSEXT0",
-					"border": "swKnight/town-screen/buildings-border/TOCSCAVM.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCAVM.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCAVM.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCAVM.png",
 					"x": 8,
 					"y": 218,
 					"z": -6
 				},
 				"special3": {
 					"animation": "swKnight/town-screen/buildings/TBCSEXT1",
-					// "border": "swKnight/town-screen/buildings-border/TOCSTAV2.bmp",
-					// "area": "swKnight/town-screen/buildings-area/TZCSTAV2.bmp"
+					// "border": "swKnight/town-screen/buildings-border/TOCSTAV2.png",
+					// "area": "swKnight/town-screen/buildings-area/TZCSTAV2.png"
 					"x": 202,
 					"y": 163,
 					"z": -11
@@ -201,62 +201,62 @@
 				//                   "x": 456,
 				//                   "y": 109,
 				//                  "z": -20,
-				//      "border": "swKnight/town-screen/buildings-border/TOCSHOLY.bmp",
-				//       "area": "swKnight/town-screen/buildings-area/TZCSHOLY.bmp"
+				//      "border": "swKnight/town-screen/buildings-border/TOCSHOLY.png",
+				//       "area": "swKnight/town-screen/buildings-area/TZCSHOLY.png"
 				// 
 				// },
 				"dwellingLvl1": {
 					"animation": "swKnight/town-screen/buildings/TBCSDW_0",
-					"border": "swKnight/town-screen/buildings-border/TOCSPIK1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSPIK1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSPIK1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSPIK1.png",
 					"x": 239,
 					"y": 258,
 					"z": -3
 				},
 				"dwellingLvl2": {
 					"animation": "swKnight/town-screen/buildings/TBCSDW_1",
-					"border": "swKnight/town-screen/buildings-border/TOCSCRS1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCRS1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCRS1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCRS1.png",
 					"x": 182,
 					"y": 223,
 					"z": -2
 				},
 				"dwellingLvl3": {
 					"animation": "swKnight/town-screen/buildings/TBCSDW_2",
-					"border": "swKnight/town-screen/buildings-border/TOCSGR1N.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSGR1N.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSGR1N.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSGR1N.png",
 					"x": 266,
 					"y": 236,
 					"z": -1
 				},
 				"dwellingLvl4": {
 					"animation": "swKnight/town-screen/buildings/TBCSDW_3",
-					"border": "swKnight/town-screen/buildings-border/TOCSSWD1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSSWD1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSSWD1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSSWD1.png",
 					"x": 334,
 					"y": 176,
 					"z": -16
 				},
 				"dwellingLvl5": {
 					"animation": "swKnight/town-screen/buildings/TBCSDW_4",
-					"border": "swKnight/town-screen/buildings-border/TOCSMON1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSMON1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSMON1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSMON1.png",
 					"x": 307,
 					"y": 259,
 					"z": 2
 				},
 				"dwellingLvl6": {
 					"animation": "swKnight/town-screen/buildings/TBCSDW_5",
-					"border": "swKnight/town-screen/buildings-border/TOCSCAV1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCAV1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCAV1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCAV1.png",
 					"x": 8,
 					"y": 270,
 					"z": -5
 				},
 				"dwellingLvl7": {
 					"animation": "swKnight/town-screen/buildings/TBCSDW_6",
-					"border": "swKnight/town-screen/buildings-border/TOCSANG1.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSANG1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSANG1.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSANG1.png",
 					"x": 486,
 					"y": 148,
 					"z": -8
@@ -267,54 +267,54 @@
 				//                   "x": 239,
 				//                   "y": 258,
 				//                   "z": -3,
-				//                  "border": "swKnight/town-screen/buildings-border/TOCSPIK2.bmp",
-				//                   "area": "swKnight/town-screen/buildings-area/TZCSPIK2.bmp"
+				//                  "border": "swKnight/town-screen/buildings-border/TOCSPIK2.png",
+				//                   "area": "swKnight/town-screen/buildings-area/TZCSPIK2.png"
 				//
 				// },
 				"dwellingUpLvl2": {
 					"animation": "swKnight/town-screen/buildings/TBCSUP_1",
-					"border": "swKnight/town-screen/buildings-border/TOCSCRS2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCRS2.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCRS2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCRS2.png",
 					"x": 182,
 					"y": 223,
 					"z": -2
 				},
 				"dwellingUpLvl3": {
 					"animation": "swKnight/town-screen/buildings/TBCSUP_2",
-					"border": "swKnight/town-screen/buildings-border/TOCSGR2N.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSGR2N.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSGR2N.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSGR2N.png",
 					"x": 266,
 					"y": 236,
 					"z": -1
 				},
 				"dwellingUpLvl4": {
 					"animation": "swKnight/town-screen/buildings/TBCSUP_3",
-					"border": "swKnight/town-screen/buildings-border/TOCSSWD2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSSWD2.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSSWD2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSSWD2.png",
 					"x": 334,
 					"y": 150,
 					"z": -15
 				},
 				"dwellingUpLvl5": {
 					"animation": "swKnight/town-screen/buildings/TBCSUP_4",
-					"border": "swKnight/town-screen/buildings-border/TOCSMON2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSMON1.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSMON2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSMON1.png",
 					"x": 307,
 					"y": 259,
 					"z": 2
 				},
 				"dwellingUpLvl6": {
 					"animation": "swKnight/town-screen/buildings/TBCSUP_5",
-					"border": "swKnight/town-screen/buildings-border/TOCSCAV2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSCAV2.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSCAV2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSCAV2.png",
 					"x": 8,
 					"y": 270,
 					"z": -5
 				},
 				"dwellingUpLvl7": {
 					"animation": "swKnight/town-screen/buildings/TBCSUP_6",
-					"border": "swKnight/town-screen/buildings-border/TOCSANG2.bmp",
-					"area": "swKnight/town-screen/buildings-area/TZCSANG2.bmp",
+					"border": "swKnight/town-screen/buildings-border/TOCSANG2.png",
+					"area": "swKnight/town-screen/buildings-area/TZCSANG2.png",
 					"x": 487,
 					"y": 77,
 					"z": -7

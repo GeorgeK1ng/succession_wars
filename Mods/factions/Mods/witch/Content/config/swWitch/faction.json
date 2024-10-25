@@ -5,8 +5,8 @@
 		"nativeTerrain": "swamp",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swWitch/creature-bg-120px",
-			"130px": "swWitch/creature-bg-130px"
+			"120px": "swWitch/tpcasfor.png",
+			"130px": "swWitch/CRBKgfor.png"
 		},
 		"town": {
 			"primaryResource": "ore",
@@ -18,12 +18,12 @@
 
 			"mageGuild": 5,
 
-			"hallBackground": "swWitch/town-screen/Hall.png",
-			"townBackground": "swWitch/town-screen/tbfrback",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swWitch/town-screen/mage-guild",
+			"hallBackground": "swWitch/town-screen/TpThBkRm.png",
+			"townBackground": "swWitch/town-screen/tbfrback.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swWitch/town-screen/TPMAGEFR.png",
 
-			"musicTheme": "music/swWitch/FortressTown.mp3",
+			"musicTheme": "swWitch/music/FortressTown.mp3",
 			"tavernVideo": "swWitch/Tavern.bik",
 
 			"hallSlots": [
@@ -69,7 +69,7 @@
 
 			"horde": [ 0 , -1 ],
 
-			"buildingsIcons": "swWitch/town-hall",
+			"buildingsIcons": "swWitch/hallfort.def",
 
 			"icons": {
 				"village": {

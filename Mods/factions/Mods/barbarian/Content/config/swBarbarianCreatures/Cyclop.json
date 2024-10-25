@@ -74,8 +74,8 @@
 			"defend": "swBarbarian/cyclops/YBMHDFND.wav",
 			"killed": "swBarbarian/cyclops/YBMHKILL.wav",
 			"move": "swBarbarian/cyclops/YBMHMOVE.wav",
-			"wince": "swBarbarian/cyclops/YBMHWNCE.wav"
-			//"shoot":""
+			"wince": "swBarbarian/cyclops/YBMHWNCE.wav",
+			"shoot": "swWitch/frog/MGOGSHOT.wav" // placeholder
 		}
 	}
 }

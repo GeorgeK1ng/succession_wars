@@ -5,8 +5,8 @@
 		"nativeTerrain": "grass",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swSorceress/creature-bg-120px.bmp",
-			"130px": "swSorceress/creature-bg-130px.bmp"
+			"120px": "swSorceress/TPCASRAM.png",
+			"130px": "swSorceress/CRBKgram.png"
 		},
 		"town": {
 			"primaryResource": "mercury",
@@ -17,13 +17,13 @@
 
 			"mageGuild": 5,
 
-			"musicTheme": "music/swSorceress/RAMPART.MP3",
+			"musicTheme": "swSorceress/music/RAMPART.MP3",
 			"tavernVideo": "swSorceress/Tavern.bik",
 
-			"hallBackground": "swSorceress/town-screen/Hall.png",
-			"townBackground": "swSorceress/town-screen/tbrmback.bmp",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swSorceress/town-screen/TPMAGERM",
+			"hallBackground": "swSorceress/town-screen/TpThBkRm.png",
+			"townBackground": "swSorceress/town-screen/tbrmback.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swSorceress/town-screen/TPMAGERM.png",
 			
 			"hallSlots": [
 				[
@@ -67,7 +67,7 @@
 
 			"horde": [ 1 ,4 ],
 
-			"buildingsIcons": "swSorceress/town-hall",
+			"buildingsIcons": "swSorceress/HallRamp.def",
 
 			"icons": {
 				"village": {

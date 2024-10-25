@@ -5,8 +5,8 @@
 		"nativeTerrain": "hmm2desert",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swOasis/tpcasele",
-			"130px": "swOasis/CRBKgele"
+			"120px": "swOasis/tpcasele.png",
+			"130px": "swOasis/CRBKgele.png"
 		},
 		"town": {
 			"primaryResource": "gems",
@@ -17,12 +17,12 @@
 
 			"mageGuild": 5,
 
-			"townBackground": "swOasis/town-screen/background",
-			"hallBackground": "swOasis/town-screen/Hall.png",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swOasis/town-screen/mage-guild",
+			"townBackground": "swOasis/town-screen/TBELBACK.png",
+			"hallBackground": "swOasis/town-screen/TpThBkRm.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swOasis/town-screen/TPMAGEEL.png",
 
-			"musicTheme": "music/swOasis/ElemTown.mp3",
+			"musicTheme": "swOasis/music/ElemTown.mp3",
 			"tavernVideo": "swOasis/Tavern.bik",
 
 			"hallSlots": [
@@ -65,7 +65,7 @@
 	
 			"horde": [ 0, -1 ],
 
-			"buildingsIcons": "swOasis/town-hall",
+			"buildingsIcons": "swOasis/HallElem.def",
 			
 			"icons": {
 				"village": {

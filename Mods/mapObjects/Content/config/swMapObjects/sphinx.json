@@ -38,21 +38,6 @@
 							"hmm2desert"
 						]
 					},
-					"zsphnx111": {
-						"animation": "swMapObjects/sphinx/zsphnx111",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VV",
-							"AB"
-						],
-						"allowedTerrains": [
-							"hmm2desert"
-						]
-					},
 					"zsphnx12": {
 						"animation": "swMapObjects/sphinx/zsphnx12",
 						"visitableFrom": [

@@ -4,275 +4,275 @@
 			"structures": {
 				"mageGuild1": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTMAGE",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMAG1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMAG1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMAG1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMAG1.png",
 					"x": 497,
 					"y": 125,
 					"z": -1
 				},
 				"mageGuild2": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTMAG2",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMAG2.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMAG2.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMAG2.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMAG2.png",
 					"x": 500,
 					"y": 101,
 					"z": -1
 				},
 				"mageGuild3": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTMAG3",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMAG3.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMAG3.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMAG3.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMAG3.png",
 					"x": 489,
 					"y": 81,
 					"z": -1
 				},
 				"mageGuild4": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTMAG4",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMAG4.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMAG4.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMAG4.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMAG4.png",
 					"x": 489,
 					"y": 81,
 					"z": -1
 				},
 				"mageGuild5": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTMAG5",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMAG5.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMAG5.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMAG5.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMAG5.png",
 					"x": 489,
 					"y": 81,
 					"z": -1
 				},
 				"tavern": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTTVRN",
-					"border": "swBarbarian/town-screen/buildings-border/TOSTAV.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSTAV.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSTAV.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSTAV.png",
 					"x": 0,
 					"y": 268,
 					"z": 4
 				},
 				"shipyard": {
 					"animation": "swBarbarian/town-screen/buildings/tbstdock",
-					"border": "swBarbarian/town-screen/buildings-border/tosdock.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/tzsdock.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/tosdock.png",
+					"area": "swBarbarian/town-screen/buildings-area/tzsdock.png",
 					"x": 686,
 					"y": 303,
 					"z": 1
 				},
 				"ship": {
 					"animation": "swBarbarian/town-screen/buildings/tbstboat",
-					"border": "swBarbarian/town-screen/buildings-border/tosboat.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/tzsboat.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/tosboat.png",
+					"area": "swBarbarian/town-screen/buildings-area/tzsboat.png",
 					"x": 686,
 					"y": 294,
 					"z": 2
 				},
 				"fort": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTCSTL",
-					"border": "swBarbarian/town-screen/buildings-border/TOSCA1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSCA1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSCA1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSCA1.png",
 					"x": 0,
 					"y": 0,
 					"z": -2
 				},
 				"citadel": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTCAS2",
-					"border": "swBarbarian/town-screen/buildings-border/TOSCA2.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSCA2.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSCA2.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSCA2.png",
 					"x": 0,
 					"y": -2,
 					"z": -1
 				},
 				"castle": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTCAS3",
-					"border": "swBarbarian/town-screen/buildings-border/TOSCA3.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSCA3.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSCA3.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSCA3.png",
 					"x": 0,
 					"y": -2,
 					"z": -1
 				},
 				"villageHall": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTHALL",
-					"border": "swBarbarian/town-screen/buildings-border/TOSHAL1A.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSHAL1A.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSHAL1A.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSHAL1A.png",
 					"x": 630,
 					"y": 105,
 					"z": 2
 				},
 				"townHall": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTHAL2",
-					"border": "swBarbarian/town-screen/buildings-border/TOSHAL2A.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSHAL2A.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSHAL2A.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSHAL2A.png",
 					"x": 630,
 					"y": 101,
 					"z": 2
 				},
 				"cityHall": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTHAL3",
-					"border": "swBarbarian/town-screen/buildings-border/TOSHAL3A.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSHAL3A.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSHAL3A.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSHAL3A.png",
 					"x": 630,
 					"y": 88,
 					"z": 2
 				},
 				"capitol": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTHAL4",
-					"border": "swBarbarian/town-screen/buildings-border/TOSHAL4A.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSHAL4A.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSHAL4A.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSHAL4A.png",
 					"x": 630,
 					"y": 80,
 					"z": 2
 				},
 				"marketplace": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTMARK",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMRK1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMRK1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMRK1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMRK1.png",
 					"x": 160,
 					"y": 189,
 					"z": 1
 				},
 				"resourceSilo": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTSILO",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMRK2.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMRK2.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMRK2.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMRK2.png",
 					"x": 135,
 					"y": 245,
 					"z": 1
 				},
 				"blacksmith": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTBLAK",
-					"border": "swBarbarian/town-screen/buildings-border/TOSBLK1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSBLK1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSBLK1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSBLK1.png",
 					"x": 299,
 					"y": 263
 				},
 				"special1": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTSPEC",
-					"border": "swBarbarian/town-screen/buildings-border/TOSCA1EA.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSCA1EA.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSCA1EA.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSCA1EA.png",
 					"x": 187,
 					"y": 92
 				},
 				"horde1": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTHRD1",
-					"border": "swBarbarian/town-screen/buildings-border/TOSGOB1H.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSGOB1H.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSGOB1H.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSGOB1H.png",
 					"hidden": true,
 					"x": 364,
 					"y": 199
 				},
 				"special2": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTEXT0",
-					"border": "swBarbarian/town-screen/buildings-border/TOSMRK1C.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSMRK1C.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSMRK1C.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSMRK1C.png",
 					"x": 280,
 					"y": 170,
 					"z": 3
 				},
 				"special3": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTEXT1",
-					"border": "swBarbarian/town-screen/buildings-border/TOSBLK2.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSBLK2.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSBLK2.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSBLK2.png",
 					"x": 278,
 					"y": 278,
 					"z": 1
 				},
 				"special4": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTEXT2",
-					"border": "swBarbarian/town-screen/buildings-border/TOSVAH.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSVAH.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSVAH.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSVAH.png",
 					"x": 206,
 					"y": 70,
 					"z": -1
 				},
 				"extraTownHall": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTEXT3",
-					"border": "swBarbarian/town-screen/NODW.bmp",
-					"area": "swBarbarian/town-screen/NODW.bmp",
+					"border": "swBarbarian/town-screen/NODW.png",
+					"area": "swBarbarian/town-screen/NODW.png",
 					"x": 517,
 					"y": 90,
 					"z": -3
 				},
 				"dwellingLvl1": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTDW_0",
-					"border": "swBarbarian/town-screen/buildings-border/TOSGOB1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSGOB1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSGOB1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSGOB1.png",
 					"x": 422,
 					"y": 200,
 					"z": 1
 				},
 				"dwellingLvl2": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTDW_1",
-					"border": "swBarbarian/town-screen/buildings-border/TOSWOL1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSWOL1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSWOL1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSWOL1.png",
 					"x": 200,
 					"y": 290,
 					"z": 1
 				},
 				"dwellingLvl3": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTDW_2",
-					"border": "swBarbarian/town-screen/buildings-border/TOSORC1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSORC1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSORC1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSORC1.png",
 					"x": 743,
 					"y": 96,
 					"z": 2
 				},
 				"dwellingLvl4": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTDW_3",
-					"border": "swBarbarian/town-screen/buildings-border/TOSOGR1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSOGR1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSOGR1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSOGR1.png",
 					"x": 769,
 					"y": -21
 				},
 				"dwellingLvl5": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTDW_4",
-					"border": "swBarbarian/town-screen/buildings-border/TOSROC1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSROC1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSROC1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSROC1.png",
 					"x": 617,
 					"y": 218,
 					"z": 6
 				},
 				"dwellingLvl6": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTDW_5",
-					"border": "swBarbarian/town-screen/buildings-border/TOSCYC1.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSCYC1.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSCYC1.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSCYC1.png",
 					"x": 465,
 					"y": 260,
 					"z": -2
 				},
 				"dwellingLvl7": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTDW_6",
-					"border": "swBarbarian/town-screen/buildings-border/TOSBEH1A.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSBEH1A.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSBEH1A.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSBEH1A.png",
 					"x": 380,
 					"y": 16
 				},
 				"dwellingUpLvl4": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTUP_3",
-					"border": "swBarbarian/town-screen/buildings-border/TOSOGR2.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSOGR2.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSOGR2.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSOGR2.png",
 					"x": 769,
 					"y": -21
 				},
 				"dwellingUpLvl5": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTUP_4",
-					"border": "swBarbarian/town-screen/buildings-border/TOSROC2.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSROC2.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSROC2.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSROC2.png",
 					"x": 621,
 					"y": 178,
 					"z": 6
 				},
 				"dwellingUpLvl6": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTUP_5",
-					"border": "swBarbarian/town-screen/buildings-border/TOSCYC2A.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSCYC2A.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSCYC2A.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSCYC2A.png",
 					"x": 465,
 					"y": 221,
 					"z": -2
 				},
 				"dwellingUpLvl7": {
 					"animation": "swBarbarian/town-screen/buildings/TBSTUP_6",
-					"border": "swBarbarian/town-screen/buildings-border/TOSBEH2A.bmp",
-					"area": "swBarbarian/town-screen/buildings-area/TZSBEH2A.bmp",
+					"border": "swBarbarian/town-screen/buildings-border/TOSBEH2A.png",
+					"area": "swBarbarian/town-screen/buildings-area/TZSBEH2A.png",
 					"x": 380,
 					"y": 0
 				}

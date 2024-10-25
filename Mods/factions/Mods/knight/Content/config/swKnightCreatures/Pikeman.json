@@ -57,11 +57,11 @@
 			}
 		},
 		"sound": {
-			"attack": "swKnight/pikeman/grifATTK.wav",
-			"defend": "swKnight/pikeman/grifDFND.wav",
-			"killed": "swKnight/pikeman/grifKILL.wav",
-			"move": "swKnight/pikeman/grifMOVE.wav",
-			"wince": "swKnight/pikeman/grifWNCE"
+			"attack": "swKnight/pikeman/pikeATTK.wav",
+			"defend": "swKnight/pikeman/pikeDFND.wav",
+			"killed": "swKnight/pikeman/pikeKILL.wav",
+			"move": "swKnight/pikeman/pikeMOVE.wav",
+			"wince": "swKnight/pikeman/pikeWNCE"
 		},
 		"abilities": {
 			"ability1": {

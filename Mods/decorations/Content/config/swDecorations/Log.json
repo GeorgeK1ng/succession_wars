@@ -78,20 +78,6 @@
 							"swamp"
 						]
 					},
-					"AVLsh4g01": {
-						"animation": "swDecorations/log/AVLsh4g01",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
 					"avlstm1": {
 						"animation": "swDecorations/log/avlstm1",
 						"visitableFrom": [
@@ -140,20 +126,6 @@
 					},
 					"AVSwdec4": {
 						"animation": "swDecorations/log/AVSwdec4",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VB"
-						],
-						"allowedTerrains": [
-							"grass"
-						]
-					},
-					"AVSwdec5": {
-						"animation": "swDecorations/log/AVSwdec5",
 						"visitableFrom": [
 							"---",
 							"+++",

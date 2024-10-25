@@ -5,8 +5,8 @@
 		"nativeTerrain": "rough",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swBarbarian/creature-bg-120px.bmp",
-			"130px": "swBarbarian/creature-bg-130px.bmp"
+			"120px": "swBarbarian/TPCASSTR.png",
+			"130px": "swBarbarian/CRBKgSTR.png"
 		},
 		"town": {
 			"primaryResource": "ore",
@@ -15,14 +15,14 @@
 			"moatAbility": "core:spell.strongholdMoat",
 			// "moatHexes": [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
 
-			"townBackground": "swBarbarian/town-screen/background.bmp",
-			"hallBackground": "swBarbarian/town-screen/Hall.png",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swBarbarian/town-screen/mage-guild.bmp",
+			"townBackground": "swBarbarian/town-screen/TBSTback.png",
+			"hallBackground": "swBarbarian/town-screen/TpThBkRm.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swBarbarian/town-screen/TPMAGEST.png",
 
 			"mageGuild": 5,
 
-			"musicTheme": "music/swBarbarian/StrongHold.mp3",
+			"musicTheme": "swBarbarian/music/StrongHold.mp3",
 			"tavernVideo": "swBarbarian/Tavern.bik",
 
 			"creatures": [
@@ -67,7 +67,7 @@
 
 			"horde": [ 0 ,-1],
 			
-			"buildingsIcons": "swBarbarian/town-hall",
+			"buildingsIcons": "swBarbarian/HALLSTRN.def",
 	
 			"icons": {
 				"village": {

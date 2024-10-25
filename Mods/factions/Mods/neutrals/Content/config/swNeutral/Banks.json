@@ -497,22 +497,6 @@
 						"allowedTerrains": [
 							"water"
 						]
-					},
-					"avadlic2": {
-						"animation": "swNeutral/adventure-map/banks/Shipwreck/avadlic2",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVVV",
-							"BBBV",
-							"ABBV"
-						],
-						"allowedTerrains": [
-							"water"
-						]
 					}
 				},
 				"rmg": {

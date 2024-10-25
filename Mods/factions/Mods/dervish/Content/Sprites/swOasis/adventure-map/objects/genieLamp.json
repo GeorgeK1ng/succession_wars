@@ -330,66 +330,8 @@
 							"dirt", "rough", "swamp", "subterra"
 						]
 					}
-	 
-
-
-
 				}
-
-
-			},
-			
-							"eggsWyvernDragonEgg01": {
-				"name": "Wyvern Dragon Egg",
-				"rmg": {
-					"value": 700,
-					"rarity": 100
-				},
-				
-								
-			"rewards": [
-					{
- 
-
-					"creatures": [
-						{
-							"type": "wyvern",
-							"upgradeChance": 30,
-							"amount": 1
-						}
-					],
-						"message": "You have found a wyvern egg. You put it in a warm place and after a few hours wyvern hatches from it, recognizing you as her parent.",
-						"selectChance": 100,
-						"removeObject": true
-					} 
- 
-				],
-				"blockedVisitable": true,
-		 
-				"visitMode": "once",
-				"selectMode": "selectFirst",
- 				
-				
-				"templates": {
- 
-					"WyvEgg1": {
-						"animation": "newconf-objects/egg/WyvEgg1",
-						"visitableFrom": ["---", "+++", "+++"],
-						"mask": ["VA"],
-
-						"allowedTerrains": [
-							"dirt", "rough", "swamp", "subterra"
-						]
-					}
-	 
-
-
-
-				}
-
-
 			}
-
 		}
 	}
 

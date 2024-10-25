@@ -4,254 +4,254 @@
 			"structures": {
 				"ext1": {
 					"animation": "swOasis/town-screen/buildings/TBELEXT3",
-					"border": "swOasis/town-screen/buildings-border/TOELEXT3.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELEXT3.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELEXT3.png",
+					"area": "swOasis/town-screen/buildings-area/TZELEXT3.png",
 					"x": 91,
 					"y": 247,
 					"z": -20
 				},
 				"mageGuild1": {
 					"animation": "swOasis/town-screen/buildings/TBELMAGE",
-					"border": "swOasis/town-screen/buildings-border/TOELMAGE.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELMAGE.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELMAGE.png",
+					"area": "swOasis/town-screen/buildings-area/TZELMAGE.png",
 					"x": 131,
 					"y": 87,
 					"z": 4
 				},
 				"mageGuild2": {
 					"animation": "swOasis/town-screen/buildings/TBELMAG2",
-					"border": "swOasis/town-screen/buildings-border/TOELMAG2.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELMAG2.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELMAG2.png",
+					"area": "swOasis/town-screen/buildings-area/TZELMAG2.png",
 					"x": 131,
 					"y": 87,
 					"z": 4
 				},
 				"mageGuild3": {
 					"animation": "swOasis/town-screen/buildings/TBELMAG3",
-					"border": "swOasis/town-screen/buildings-border/TOELMAG3.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELMAG3.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELMAG3.png",
+					"area": "swOasis/town-screen/buildings-area/TZELMAG3.png",
 					"x": 131,
 					"y": 87,
 					"z": 4
 				},
 				"mageGuild4": {
 					"animation": "swOasis/town-screen/buildings/TBELMAG4",
-					"border": "swOasis/town-screen/buildings-border/TOELMAG4.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELMAG4.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELMAG4.png",
+					"area": "swOasis/town-screen/buildings-area/TZELMAG4.png",
 					"x": 131,
 					"y": 87,
 					"z": 4
 				},
 				"mageGuild5": {
 					"animation": "swOasis/town-screen/buildings/TBELMAG5",
-					"border": "swOasis/town-screen/buildings-border/TOELMAG5.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELMAG5.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELMAG5.png",
+					"area": "swOasis/town-screen/buildings-area/TZELMAG5.png",
 					"x": 131,
 					"y": 87,
 					"z": 4
 				},
 				"tavern": {
 					"animation": "swOasis/town-screen/buildings/TBELTVRN",
-					"border": "swOasis/town-screen/buildings-border/TOELTVRN.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELTVRN.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELTVRN.png",
+					"area": "swOasis/town-screen/buildings-area/TZELTVRN.png",
 					"x": 151,
 					"y": 212,
 					"z": 1
 				},
 				"shipyard": {
 					"animation": "swOasis/town-screen/buildings/TBELDOCK",
-					"border": "swOasis/town-screen/buildings-border/TOELDOCK.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDOCK.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDOCK.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDOCK.png",
 					"x": 8,
 					"y": 310,
 					"z": 2
 				},
 				"fort": {
 					"animation": "swOasis/town-screen/buildings/TBELCSTL",
-					"border": "swOasis/town-screen/buildings-border/TOELCSTL.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELCSTL.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELCSTL.png",
+					"area": "swOasis/town-screen/buildings-area/TZELCSTL.png",
 					"x": 158,
 					"y": 31,
 					"z": -1
 				},
 				"citadel": {
 					"animation": "swOasis/town-screen/buildings/TBELCAS2",
-					"border": "swOasis/town-screen/buildings-border/TOELCAS2.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELCAS2.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELCAS2.png",
+					"area": "swOasis/town-screen/buildings-area/TZELCAS2.png",
 					"x": 158,
 					"y": 31,
 					"z": -1
 				},
 				"castle": {
 					"animation": "swOasis/town-screen/buildings/TBELCAS3",
-					"border": "swOasis/town-screen/buildings-border/TOELCAS3.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELCAS3.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELCAS3.png",
+					"area": "swOasis/town-screen/buildings-area/TZELCAS3.png",
 					"x": 158,
 					"y": 31,
 					"z": -1
 				},
 				"villageHall": {
 					"animation": "swOasis/town-screen/buildings/TBELHALL",
-					"border": "swOasis/town-screen/buildings-border/TOELHALL.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELHALL.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELHALL.png",
+					"area": "swOasis/town-screen/buildings-area/TZELHALL.png",
 					"x": 8,
 					"y": 243,
 					"z": 5
 				},
 				"townHall": {
 					"animation": "swOasis/town-screen/buildings/TBELHAL2",
-					"border": "swOasis/town-screen/buildings-border/TOELHAL2.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELHAL2.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELHAL2.png",
+					"area": "swOasis/town-screen/buildings-area/TZELHAL2.png",
 					"x": 8,
 					"y": 200,
 					"z": 5
 				},
 				"cityHall": {
 					"animation": "swOasis/town-screen/buildings/TBELHAL3",
-					"border": "swOasis/town-screen/buildings-border/TOELHAL3.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELHAL3.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELHAL3.png",
+					"area": "swOasis/town-screen/buildings-area/TZELHAL3.png",
 					"x": 8,
 					"y": 168,
 					"z": 5
 				},
 				"capitol": {
 					"animation": "swOasis/town-screen/buildings/TBELHAL4",
-					"border": "swOasis/town-screen/buildings-border/TOELHAL4.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELHAL4.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELHAL4.png",
+					"area": "swOasis/town-screen/buildings-area/TZELHAL4.png",
 					"x": 8,
 					"y": 142,
 					"z": 5
 				},
 				"marketplace": {
 					"animation": "swOasis/town-screen/buildings/TBELMARK",
-					"border": "swOasis/town-screen/buildings-border/TOELMARK.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELMARK.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELMARK.png",
+					"area": "swOasis/town-screen/buildings-area/TZELMARK.png",
 					"x": 394,
 					"y": 241,
 					"z": 4
 				},
 				"resourceSilo": {
 					"animation": "swOasis/town-screen/buildings/TBELSILO",
-					"border": "swOasis/town-screen/buildings-border/TOELSILO.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELSILO.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELSILO.png",
+					"area": "swOasis/town-screen/buildings-area/TZELSILO.png",
 					"x": 392,
 					"y": 243,
 					"z": 2
 				},
 				"blacksmith": {
 					"animation": "swOasis/town-screen/buildings/TBELBLAK",
-					"border": "swOasis/town-screen/buildings-border/TOELBLAK.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELBLAK.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELBLAK.png",
+					"area": "swOasis/town-screen/buildings-area/TZELBLAK.png",
 					"x": 250,
 					"y": 277,
 					"z": 1
 				},
 				"special1": {
 					"animation": "swOasis/town-screen/buildings/TBELSPEC",
-					"border": "swOasis/town-screen/buildings-border/TOELSPEC.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELSPEC.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELSPEC.png",
+					"area": "swOasis/town-screen/buildings-area/TZELSPEC.png",
 					"x": 514,
 					"y": 191,
 					"z": 4
 				},
 				"horde1": {
 					"animation": "swOasis/town-screen/buildings/TBELHRD1",
-					"border": "swOasis/town-screen/buildings-border/TOELHRD1.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELHRD1.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELHRD1.png",
+					"area": "swOasis/town-screen/buildings-area/TZELHRD1.png",
 					"x": 639,
 					"y": 274,
 					"hidden": true
 				},
 				"horde1Upgr": {
 					"animation": "swOasis/town-screen/buildings/TBELHRD2",
-					"border": "swOasis/town-screen/buildings-border/TOELHRD2.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELHRD2.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELHRD2.png",
+					"area": "swOasis/town-screen/buildings-area/TZELHRD2.png",
 					"x": 629,
 					"y": 267,
 					"hidden": true
 				},
 				"ship": {
 					"animation": "swOasis/town-screen/buildings/TBELBOAT",
-					"border": "swOasis/town-screen/buildings-border/TOELBOAT.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELBOAT.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELBOAT.png",
+					"area": "swOasis/town-screen/buildings-area/TZELBOAT.png",
 					"x": 8,
 					"y": 310,
 					"z": 2,
 					"hidden": true
 				},
-				//"special2":{  "animation": "swOasis/town-screen/buildings/TBELEXT6", "x": 320, "y": 30, "z": 3,  "border": "swOasis/town-screen/buildings-border/TOELEXT6.bmp", "area": "swOasis/town-screen/buildings-area/TZELEXT6.bmp" },
+				//"special2":{  "animation": "swOasis/town-screen/buildings/TBELEXT6", "x": 320, "y": 30, "z": 3,  "border": "swOasis/town-screen/buildings-border/TOELEXT6.png", "area": "swOasis/town-screen/buildings-area/TZELEXT6.png" },
 				"grail": {
 					"animation": "swOasis/town-screen/buildings/TBELHoly",
-					"border": "swOasis/town-screen/buildings-border/TOELHoly.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELHoly.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELHoly.png",
+					"area": "swOasis/town-screen/buildings-area/TZELHoly.png",
 					"x": 307,
 					"y": -10
 				},
 				"dwellingLvl1": {
 					"animation": "swOasis/town-screen/buildings/TBELDW_0",
-					"border": "swOasis/town-screen/buildings-border/TOELDW_0.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDW_0.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDW_0.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDW_0.png",
 					"x": 639,
 					"y": 274
 				},
 				"dwellingLvl2": {
 					"animation": "swOasis/town-screen/buildings/TBELDW_1",
-					"border": "swOasis/town-screen/buildings-border/TOELDW_1.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDW_1.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDW_1.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDW_1.png",
 					"x": 152,
 					"y": 201
 				},
 				"dwellingLvl3": {
 					"animation": "swOasis/town-screen/buildings/TBELDW_2",
-					"border": "swOasis/town-screen/buildings-border/TOELDW_2.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDW_2.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDW_2.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDW_2.png",
 					"x": 608,
 					"y": 190,
 					"z": -1
 				},
 				"dwellingLvl4": {
 					"animation": "swOasis/town-screen/buildings/TBELDW_3",
-					"border": "swOasis/town-screen/buildings-border/TOELDW_3.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDW_3.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDW_3.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDW_3.png",
 					"x": 540,
 					"y": 134,
 					"z": -1
 				},
 				"dwellingLvl5": {
 					"animation": "swOasis/town-screen/buildings/TBELDW_4",
-					"border": "swOasis/town-screen/buildings-border/TOELDW_4.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDW_4.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDW_4.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDW_4.png",
 					"x": 400,
 					"y": 316,
 					"z": -1
 				},
 				"dwellingLvl6": {
 					"animation": "swOasis/town-screen/buildings/TBELDW_5",
-					"border": "swOasis/town-screen/buildings-border/TOELDW_5.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDW_5.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDW_5.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDW_5.png",
 					"x": 632,
 					"y": 66,
 					"z": 2
 				},
 				"dwellingLvl7": {
 					"animation": "swOasis/town-screen/buildings/TBELDW_6",
-					"border": "swOasis/town-screen/buildings-border/TOELDW_6.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELDW_6.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELDW_6.png",
+					"area": "swOasis/town-screen/buildings-area/TZELDW_6.png",
 					"x": 18,
 					"y": 10,
 					"z": -2
 				}, //16 9
 				"dwellingUpLvl1": {
 					"animation": "swOasis/town-screen/buildings/TBELUP_0",
-					"border": "swOasis/town-screen/buildings-border/TOELUP_0.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELUP_0.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELUP_0.png",
+					"area": "swOasis/town-screen/buildings-area/TZELUP_0.png",
 					"x": 629,
 					"y": 267
 				},
 				"dwellingUpLvl4": {
 					"animation": "swOasis/town-screen/buildings/TBELUP_3",
-					"border": "swOasis/town-screen/buildings-border/TOELUP_3.bmp",
-					"area": "swOasis/town-screen/buildings-area/TZELUP_3.bmp",
+					"border": "swOasis/town-screen/buildings-border/TOELUP_3.png",
+					"area": "swOasis/town-screen/buildings-area/TZELUP_3.png",
 					"x": 525,
 					"y": 112,
 					"z": -1

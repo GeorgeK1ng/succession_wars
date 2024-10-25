@@ -2815,21 +2815,6 @@
 						"allowedTerrains": [
 							"grass"
 						]
-					},
-					"newAVLd5sn01": {
-						"animation": "swDecorations/trees/AVLd5sn01",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"VVV",
-							"VBB"
-						],
-						"allowedTerrains": [
-							"snow"
-						]
 					}
 				}
 			}

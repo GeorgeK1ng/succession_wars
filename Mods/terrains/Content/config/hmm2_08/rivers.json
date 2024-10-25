@@ -3,7 +3,7 @@
 		//      "originalRiverId": 1,
 		"shortIdentifier": "qs", //must be 2 characters
 		"tilesFilename": "hmm2rr/clrrvr",
-		"delta": "hmm2rr/clrdelt",
+		"delta": "hmm2rr/clrdelt1",
 		"text": "River",
 		"paletteAnimation": [
 			{
@@ -16,14 +16,14 @@
 		//      "originalRiverId": 2,
 		"shortIdentifier": "qi",
 		"tilesFilename": "hmm2rr/icyrvr",
-		"delta": "hmm2rr/icedelt",
+		"delta": "hmm2rr/icedelt1",
 		"text": "Ice River"
 	},
 	"hmm2mudRiver": {
 		// "originalRiverId": 3,
 		"shortIdentifier": "qm",
 		"tilesFilename": "hmm2rr/mudrvr",
-		"delta": "hmm2rr/muddelt",
+		"delta": "hmm2rr/muddelt1",
 		"text": "Mud River",
 		"paletteAnimation": [
 			{
@@ -36,7 +36,7 @@
 		//      "originalRiverId": 4,
 		"shortIdentifier": "ql",
 		"tilesFilename": "hmm2rr/lavrvr",
-		"delta": "hmm2rr/lavdelt",
+		"delta": "hmm2rr/lavdelt1",
 		"text": "Lava River",
 		"paletteAnimation": [
 			{

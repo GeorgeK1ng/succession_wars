@@ -835,20 +835,6 @@
 						"allowedTerrains": [
 							"sand"
 						]
-					},
-					"avlctrd01": {
-						"animation": "swDecorations/crater/avlctrd01",
-						"visitableFrom": [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask": [
-							"BB"
-						],
-						"allowedTerrains": [
-							"dirt"
-						]
 					}
 				}
 			}

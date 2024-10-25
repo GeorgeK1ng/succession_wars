@@ -65,7 +65,7 @@
 			"killed": "swWitch/frog/DFLYKILL.wav",
 			"move": "swWitch/frog/DFLYMOVE.wav",
 			"wince": "swWitch/frog/DFLYWNCE.wav",
-			"shoot": "swWitch/frog/DFLYSHOT"
+			"shoot": "swWitch/frog/MGOGSHOT.wav" // placeholder
 		}
 	}
 }

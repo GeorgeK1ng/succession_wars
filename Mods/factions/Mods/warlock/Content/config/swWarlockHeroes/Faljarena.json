@@ -14,8 +14,8 @@
 		"images": {
 			"specialtySmall": "swWarlockHeroes/UN32.def:91",
 			"specialtyLarge": "swWarlockHeroes/UN44.def:91",
-			"large": "swWarlockHeroes/port/drow01L",
-			"small": "swWarlockHeroes/port/drow01S"
+			"large": "swWarlockHeroes/port/HPL048HR.png",
+			"small": "swWarlockHeroes/port/HPS048HR.png"
 		},
 		"spellbook": [
 			"slow"

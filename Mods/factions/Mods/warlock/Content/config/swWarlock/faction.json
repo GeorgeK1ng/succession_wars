@@ -5,8 +5,8 @@
 		"nativeTerrain": "swamp",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swWarlock/creature-bg-120px.bmp",
-			"130px": "swWarlock/creature-bg-130px.bmp"
+			"120px": "swWarlock/TPCASDUN.png",
+			"130px": "swWarlock/CRBKgdun.png"
 		},
 		"town": {
 			"primaryResource": "sulfur",
@@ -18,12 +18,12 @@
 
 			"mageGuild": 5,
 
-			"hallBackground": "swWarlock/town-screen/Hall.png",
-			"townBackground": "swWarlock/town-screen/background.bmp",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swWarlock/town-screen/mage-guild.bmp",
+			"hallBackground": "swWarlock/town-screen/TpThBkRm.png",
+			"townBackground": "swWarlock/town-screen/TBdnback.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swWarlock/town-screen/TPMAGEDN.png",
 			
-			"musicTheme": "music/swWarlock/dungeon",
+			"musicTheme": "swWarlock/music/dungeon.mp3",
 			"tavernVideo": "swWarlock/Tavern.bik",
 
 			"hallSlots": [
@@ -69,7 +69,7 @@
 
 			"horde": [ 0 ,-1],
 
-			"buildingsIcons": "swWarlock/town-hall",
+			"buildingsIcons": "swWarlock/Halldung.def",
 
 			"icons": {
 				"village": {

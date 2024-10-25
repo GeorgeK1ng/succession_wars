@@ -1,33 +1,33 @@
 {
 	"sw08_hmm2_sand_shore": {
-		"graphics": "HMM2/CMBKBCH.BMP"
+		"graphics": "HMM2/CMBKBCH.png"
 	},
 	"sw08_hmm2_sand_mesas": {
-		"graphics": "HMM2/CMBKDES.BMP"
+		"graphics": "HMM2/CMBKDES.png"
 	},
 	"sw08_hmm2_dirt_birches": {
-		"graphics": "HMM2/CMBKDRTR.BMP"
+		"graphics": "HMM2/CMBKDRTR.png"
 	},
 	"sw08_hmm2_dirt_hills": {
-		"graphics": "HMM2/CMBKDRMT.BMP"
+		"graphics": "HMM2/CMBKDRMT.png"
 	},
 	"sw08_hmm2_dirt_pines": {
-		"graphics": "HMM2/CMBKDRDD.BMP"
+		"graphics": "HMM2/CMBKDRDD.png"
 	},
 	"sw08_hmm2_grass_hills": {
-		"graphics": "HMM2/CMBKGRMT.BMP"
+		"graphics": "HMM2/CMBKGRMT.png"
 	},
 	"sw08_hmm2_grass_pines": {
-		"graphics": "HMM2/CMBKGRTR.BMP"
+		"graphics": "HMM2/CMBKGRTR.png"
 	},
 	"sw08_hmm2_lava": {
-		"graphics": "HMM2/CMBKLAVA.BMP"
+		"graphics": "HMM2/CMBKLAVA.png"
 	},
 	"sw08_hmm2_lava2": {
-		"graphics": "HMM2/CmBkDrMt.BMP"
+		"graphics": "HMM2/CmBkDrMt.png"
 	},
 	"sw08_hmm2_magic_plains": {
-		"graphics": "HMM2/CMBKMAG.BMP",
+		"graphics": "HMM2/CMBKMAG.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -39,20 +39,20 @@
 		]
 	},
 	"sw08_hmm2_snow_mountains": {
-		"graphics": "HMM2/CMBKSNMT.BMP"
+		"graphics": "HMM2/CMBKSNMT.png"
 	},
 	"sw08_hmm2_snow_trees": {
-		"graphics": "HMM2/CMBKSNTR.BMP"
+		"graphics": "HMM2/CMBKSNTR.png"
 	},
 	"sw08_hmm2_rough": {
-		"graphics": "HMM2/CMBKSUB.BMP",
+		"graphics": "HMM2/CMBKSUB.png",
 		"isSpecial": true
 	},
 	"sw08_hmm2_swamp_trees": {
-		"graphics": "HMM2/CMBKSWMP.BMP"
+		"graphics": "HMM2/CMBKSWMP.png"
 	},
 	"sw08_hmm2_fiery_fields": {
-		"graphics": "HMM2/CMBKFF.BMP",
+		"graphics": "HMM2/CMBKFF.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -64,7 +64,7 @@
 		]
 	},
 	"sw08_hmm2_rocklands": {
-		"graphics": "HMM2/CMBKRK.BMP",
+		"graphics": "HMM2/CMBKRK.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -76,7 +76,7 @@
 		]
 	},
 	"sw08_hmm2_magic_clouds": {
-		"graphics": "HMM2/cmbkef", //to fix: CMBKMC.BMP",
+		"graphics": "HMM2/cmbkef.png", //to fix: CMBKMC.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -88,7 +88,7 @@
 		]
 	},
 	"sw08_hmm2_lucid_pools": {
-		"graphics": "HMM2/CMBKLP.BMP",
+		"graphics": "HMM2/CMBKLP.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -100,7 +100,7 @@
 		]
 	},
 	"sw08_hmm2_holy_ground": {
-		"graphics": "HMM2/CMBKHG.BMP",
+		"graphics": "HMM2/CMBKHG.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -134,7 +134,7 @@
 		]
 	},
 	"sw08_hmm2_clover_field": {
-		"graphics": "HMM2/CMBKCF.BMP",
+		"graphics": "HMM2/CMBKCF.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -154,7 +154,7 @@
 		]
 	},
 	"sw08_hmm2_evil_fog": {
-		"graphics": "HMM2/CMBKEF.BMP",
+		"graphics": "HMM2/CMBKEF.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -188,11 +188,11 @@
 		]
 	},
 	"sw08_hmm2_favorable_winds": {
-		"graphics": "HMM2/CmBkDeck.BMP",
+		"graphics": "HMM2/CmBkDeck.png",
 		"isSpecial": true
 	},
 	"sw08_hmm2_cursed_ground": {
-		"graphics": "HMM2/CMBKCUR.BMP",
+		"graphics": "HMM2/CMBKCUR.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -227,7 +227,7 @@
 		]
 	},
 	"sw08_hmm2_cursed_ground2": {
-		"graphics": "HMM2/CmBkDrDd.BMP",
+		"graphics": "HMM2/CmBkDrDd.png",
 		"isSpecial": true,
 		"bonuses": [
 			{
@@ -262,16 +262,16 @@
 		]
 	},
 	"sw08_hmm2_subterranean": {
-		"graphics": "HMM2/CMBKSUB1.BMP",
+		"graphics": "HMM2/CMBKSUB1.png",
 		"isSpecial": true
 	},
 	"sw08_hmm2_desert": {
-		"graphics": "HMM2/CMBKRGH.BMP",
+		"graphics": "HMM2/CMBKRGH.png",
 		"isSpecial": true
 	},
 	"sw08_hmm2_ship_to_ship": 
 	{
-		"graphics": "HMM2/CMBKBOAT.BMP",
+		"graphics": "HMM2/CMBKBOAT.png",
 		"impassableHexes": [
 			6, 7, 8, 9,
 			24, 25, 26,
@@ -283,6 +283,6 @@
 			159, 160, 161, 162, 163,
 			176, 177, 178, 179, 180]
 	},
-	"sw08_hmm2_ship": { "graphics": "HMM2/CMBKDECK.BMP",
+	"sw08_hmm2_ship": { "graphics": "HMM2/CMBKDECK.png",
 		"isSpecial": true }
 }

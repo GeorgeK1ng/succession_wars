@@ -5,8 +5,8 @@
 		"nativeTerrain": "rough",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swWizard/creature-bg-120px.bmp",
-			"130px": "swWizard/creature-bg-130px.bmp"
+			"120px": "swWizard/tpcastow.png",
+			"130px": "swWizard/CRBKgtow.png"
 		},
 		"town": {
 			"primaryResource": "gems",
@@ -17,12 +17,12 @@
 
 			"mageGuild": 5,
 
-			"hallBackground": "swWizard/town-screen/Hall.png",
-			"townBackground": "swWizard/town-screen/background.bmp",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swWizard/town-screen/mage-guild.bmp",
+			"hallBackground": "swWizard/town-screen/TpThBkRm.png",
+			"townBackground": "swWizard/town-screen/tbtwback.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swWizard/town-screen/TPMAGETW.png",
 			
-			"musicTheme": "music/swWizard/TowerTown.mp3",
+			"musicTheme": "swWizard/music/TowerTown.mp3",
 			"tavernVideo": "swWizard/Tavern.bik",
 
 			"hallSlots": [
@@ -68,7 +68,7 @@
 
 			"horde": [ 0 ,-1],
 
-			"buildingsIcons": "swWizard/town-hall",
+			"buildingsIcons": "swWizard/HallTowr.def",
 
 			"icons": {
 				"village": {

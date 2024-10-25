@@ -5,8 +5,8 @@
 		"nativeTerrain": "grass",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swKnight/creature-bg-120px.bmp",
-			"130px": "swKnight/creature-bg-130px.bmp"
+			"120px": "swKnight/TPCASCAS.png",
+			"130px": "swKnight/CRBKgcas.png"
 		},
 		"town": {
 			"primaryResource": "ore",
@@ -17,12 +17,12 @@
 
 			"mageGuild": 4,
 
-			"townBackground": "swKnight/town-screen/background.bmp",
-			"hallBackground": "swKnight/town-screen/Hall.png",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swKnight/town-screen/mage-guild.bmp",
+			"townBackground": "swKnight/town-screen/TBcsback.png",
+			"hallBackground": "swKnight/town-screen/TpThBkRm.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swKnight/town-screen/TPMAGECS.png",
 
-			"musicTheme": "music/swKnight/CstleTown.mp3",
+			"musicTheme": "swKnight/music/CstleTown.mp3",
 			"tavernVideo": "swKnight/Tavern.bik",
 
 			"hallSlots": [
@@ -65,7 +65,7 @@
 
 			"horde": [ 2, -1 ],
 
-			"buildingsIcons": "swKnight/town-hall",
+			"buildingsIcons": "swKnight/HALLCSTL.def",
 
 			"icons": {
 				"village": {

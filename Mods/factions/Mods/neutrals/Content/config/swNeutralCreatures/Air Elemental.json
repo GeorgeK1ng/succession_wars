@@ -55,7 +55,7 @@
 			"killed": "swNeutral/air elemental/AELMKILL.wav",
 			"move": "swNeutral/air elemental/AELMMOVE.wav",
 			"wince": "swNeutral/air elemental/AELMWNCE.wav",
-			"shoot": "swNeutral/air elemental/AELMSHOT.wav"
+			"shoot": "swNeutral/air elemental/MGOGSHOT.wav" // placeholder
 		}
 	}
 }

@@ -5,8 +5,8 @@
 		"nativeTerrain": "dirt",
 		"boat": "heroes2Boat_sw08",
 		"creatureBackground": {
-			"120px": "swNecromancer/creature-bg-120px.bmp",
-			"130px": "swNecromancer/creature-bg-130px.bmp"
+			"120px": "swNecromancer/tpcasnec.png",
+			"130px": "swNecromancer/CRBKgnec.png"
 		},
 		"town": {
 			"primaryResource": "ore",
@@ -17,12 +17,12 @@
 
 			"mageGuild": 5,
 
-			"townBackground": "swNecromancer/town-screen/background.bmp",
-			"hallBackground": "swNecromancer/town-screen/Hall.png",
-			"guildBackground": "TPMAGE.bmp",
-			"guildWindow": "swNecromancer/town-screen/mage-guild.bmp",
+			"townBackground": "swNecromancer/town-screen/tbncback.png",
+			"hallBackground": "swNecromancer/town-screen/TpThBkRm.png",
+			"guildBackground": "TPMAGE.png",
+			"guildWindow": "swNecromancer/town-screen/TPMAGENC.png",
 
-			"musicTheme": "music/swNecromancer/necroTown.mp3",
+			"musicTheme": "swNecromancer/music/necroTown.mp3",
 			"tavernVideo": "swNecromancer/Tavern.bik",
 
 			"hallSlots": [
@@ -67,7 +67,7 @@
 
 			"horde": [ 0 ,-1],
 
-			"buildingsIcons": "swNecromancer/town-hall",
+			"buildingsIcons": "swNecromancer/HALLNECR.def",
 
 			"icons": {
 				"village": {

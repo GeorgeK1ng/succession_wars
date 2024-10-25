@@ -1013,7 +1013,7 @@
 	// "height": 254,
 	// "foreground": false,
 	// "blockedTiles":  [80, 94, 95, 96, 97, 105, 106, 107, 108, 109, 110],
-	// "animation": "hmm2obstacles/ObDtL04.bmp"
+	// "animation": "hmm2obstacles/ObDtL04.png"
 	// },
 	// "hmm2obstacle1A":{   "absolute":true,//"id": 1,
 	// "allowedTerrains": ["dirt"],
@@ -1022,7 +1022,7 @@
 	// "height": 254,
 	// "foreground": false,
 	// "blockedTiles":  [73, 91, 108, 109, 110, 111, 112, 113],
-	// "animation": "hmm2obstacles/ObDtL06.bmp"
+	// "animation": "hmm2obstacles/ObDtL06.png"
 	// },
 	// "hmm2obstacle2A":{   "absolute":true,//"id": 2,
 	// "allowedTerrains": ["dirt"],
@@ -1031,7 +1031,7 @@
 	// "height": 212,
 	// "foreground": false,
 	// "blockedTiles":  [60, 61, 62, 63, 64, 72, 73, 74, 75, 76, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149],
-	// "animation": "hmm2obstacles/ObDtL10.bmp"
+	// "animation": "hmm2obstacles/ObDtL10.png"
 	// },
 	// "hmm2obstacle3A":{   "absolute":true,//"id": 3,
 	// "allowedTerrains": ["dirt"],
@@ -1040,7 +1040,7 @@
 	// "height": 254,
 	// "foreground": false,
 	// "blockedTiles":  [88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
-	// "animation": "hmm2obstacles/ObDtL02.bmp"
+	// "animation": "hmm2obstacles/ObDtL02.png"
 	// },
 	// "hmm2obstacle4A":{   "absolute":true,//"id": 4,
 	// "allowedTerrains": ["dirt"],
@@ -1049,7 +1049,7 @@
 	// "height": 254,
 	// "foreground": false,
 	// "blockedTiles":  [76, 77, 78, 79, 80, 89, 90, 91, 92, 93],
-	// "animation": "hmm2obstacles/ObDtL03.bmp"
+	// "animation": "hmm2obstacles/ObDtL03.png"
 	// },
 	// "hmm2obstacle5A":{   "absolute":true,//"id": 5,
 	// "allowedTerrains": ["grass"],
@@ -1058,7 +1058,7 @@
 	// "height": 221,
 	// "foreground": false,
 	// "blockedTiles":  [55, 56, 57, 58, 75, 76, 77, 95, 112, 113, 131],
-	// "animation": "hmm2obstacles/ObGrL01.bmp"
+	// "animation": "hmm2obstacles/ObGrL01.png"
 	// },
 	// "hmm2obstacle6A":{   "absolute":true,//"id": 6,
 	// "allowedTerrains": ["grass"],
@@ -1067,7 +1067,7 @@
 	// "height": 264,
 	// "foreground": false,
 	// "blockedTiles":  [81, 91, 92, 93, 94, 95, 96, 97, 98, 106, 107, 123],
-	// "animation": "hmm2obstacles/ObGrL02.bmp"
+	// "animation": "hmm2obstacles/ObGrL02.png"
 	// },
 	// "hmm2obstacle7A":{   "absolute":true,//"id": 7,
 	// "allowedTerrains": ["snow"],
@@ -1076,7 +1076,7 @@
 	// "height": 255,
 	// "foreground": false,
 	// "blockedTiles":  [76, 77, 78, 79, 91, 92, 93, 97, 98, 106, 107, 108],
-	// "animation": "hmm2obstacles/ObSnL01.bmp"
+	// "animation": "hmm2obstacles/ObSnL01.png"
 	// },
 	// "hmm2obstacle8A":{   "absolute":true,//"id": 8,
 	// "allowedTerrains": ["snow"],
@@ -1085,7 +1085,7 @@
 	// "height": 172,
 	// "foreground": false,
 	// "blockedTiles":  [41, 42, 43, 58, 75, 92, 108, 126, 143],
-	// "animation": "hmm2obstacles/ObSnL14.bmp"
+	// "animation": "hmm2obstacles/ObSnL14.png"
 	// },
 	// "hmm2obstacle9A":{   "absolute":true,//"id": 9,
 	// "allowedTerrains": ["swamp"],
@@ -1094,7 +1094,7 @@
 	// "height": 170,
 	// "foreground": false,
 	// "blockedTiles":  [40, 41, 58, 59, 74, 75, 92, 93, 109, 110, 111, 127, 128, 129, 130],
-	// "animation": "hmm2obstacles/ObSwL15.bmp"
+	// "animation": "hmm2obstacles/ObSwL15.png"
 	// },
 	// "hmm2obstacle10A":{   "absolute":true,//"id": 10,
 	// "allowedTerrains": ["swamp"],
@@ -1103,7 +1103,7 @@
 	// "height": 171,
 	// "foreground": true,
 	// "blockedTiles":  [43, 60, 61, 77, 93, 94, 95, 109, 110, 126, 127],
-	// "animation": "hmm2obstacles/ObSwL14.bmp"
+	// "animation": "hmm2obstacles/ObSwL14.png"
 	// },
 	// "hmm2obstacle11A":{   "absolute":true,//"id": 11,
 	// "allowedTerrains": ["swamp"],
@@ -1112,7 +1112,7 @@
 	// "height": 254,
 	// "foreground": true,
 	// "blockedTiles":  [74, 75, 76, 77, 91, 92, 93, 94, 95, 109, 110, 111, 112],
-	// "animation": "hmm2obstacles/ObSwL22.bmp"
+	// "animation": "hmm2obstacles/ObSwL22.png"
 	// },
 	//	"hmm2obstacle12A":{   "absolute":true,
 	//		"allowedTerrains": ["lava"],
@@ -1121,7 +1121,7 @@
 	//		"height": 254,
 	//		"foreground": false,
 	//                  "blockedTiles":  [77, 78, 79, 80, 81, 91, 92, 93, 94, 105, 106, 107],
-	//		"animation": "hmm2obstacles/ObLvL01.bmp"
+	//		"animation": "hmm2obstacles/ObLvL01.png"
 	//	},
 	//	"hmm2obstacle13A":{   "absolute":true,//"id": 13,
 	//		"allowedTerrains": ["lava"],
@@ -1130,7 +1130,7 @@
 	//		"height": 128,
 	//		"foreground": false,
 	//                  "blockedTiles":  [43, 60, 61, 76, 77, 93, 109, 126, 127, 142, 143],
-	//		"animation": "hmm2obstacles/OBLvL02.bmp"
+	//		"animation": "hmm2obstacles/OBLvL02.png"
 	//	},
 	// "hmm2obstacle14A":{   "absolute":true,//"id": 14,
 	// "allowedTerrains": ["rough"],
@@ -1139,7 +1139,7 @@
 	// "height": 212,
 	// "foreground": false,
 	// "blockedTiles":  [55, 72, 90, 107, 125, 126, 127, 128, 129, 130, 131, 132],
-	// "animation": "hmm2obstacles/ObRgL01.bmp"
+	// "animation": "hmm2obstacles/ObRgL01.png"
 	// },
 	// "hmm2obstacle15A":{   "absolute":true,//"id": 15,
 	// "allowedTerrains": ["rough"],
@@ -1148,7 +1148,7 @@
 	// "height": 174,
 	// "foreground": false,
 	// "blockedTiles":  [41, 59, 76, 94, 111, 129, 143, 144, 145],
-	// "animation": "hmm2obstacles/ObRgL02.bmp"
+	// "animation": "hmm2obstacles/ObRgL02.png"
 	// },
 	// "hmm2obstacle16A":{   "absolute":true,//"id": 16,
 	// "allowedTerrains": ["rough"],
@@ -1157,7 +1157,7 @@
 	// "height": 169,
 	// "foreground": false,
 	// "blockedTiles":  [40, 41, 42, 43, 58, 75, 93, 110, 128, 145],
-	// "animation": "hmm2obstacles/ObRgL03.bmp"
+	// "animation": "hmm2obstacles/ObRgL03.png"
 	// },
 	// "hmm2obstacle17A":{   "absolute":true,//"id": 17,
 	// "allowedTerrains": ["rough"],
@@ -1166,7 +1166,7 @@
 	// "height": 257,
 	// "foreground": false,
 	// "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 89, 105],
-	// "animation": "hmm2obstacles/ObRgL04.bmp"
+	// "animation": "hmm2obstacles/ObRgL04.png"
 	// },
 	// "hmm2obstacle18A":{   "absolute":true,//"id": 18,
 	// "allowedTerrains": ["rough"],
@@ -1175,7 +1175,7 @@
 	// "height": 268,
 	// "foreground": false,
 	// "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 90, 91, 92, 93, 94, 95, 96, 97],
-	// "animation": "hmm2obstacles/ObRgL05.bmp"
+	// "animation": "hmm2obstacles/ObRgL05.png"
 	// },
 	// "hmm2obstacle19A":{   "absolute":true,//"id": 19,
 	// "allowedTerrains": ["rough"],
@@ -1184,7 +1184,7 @@
 	// "height": 254,
 	// "foreground": false,
 	// "blockedTiles":  [73, 74, 75, 76, 77, 78, 91, 92, 93, 94],
-	// "animation": "hmm2obstacles/ObRgL06.bmp"
+	// "animation": "hmm2obstacles/ObRgL06.png"
 	// },
 	// "hmm2obstacle20A":{   "absolute":true,//"id": 20,
 	// "allowedTerrains": ["rough"],
@@ -1193,7 +1193,7 @@
 	// "height": 128,
 	// "foreground": false,
 	// "blockedTiles":  [23, 40, 58, 75, 93, 110, 128, 145, 163],
-	// "animation": "hmm2obstacles/ObRgL15.bmp"
+	// "animation": "hmm2obstacles/ObRgL15.png"
 	// },
 	// "hmm2obstacle21A":{   "absolute":true,//"id": 21,
 	// "allowedTerrains": ["rough"],
@@ -1202,7 +1202,7 @@
 	// "height": 268,
 	// "foreground": false,
 	// "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 90, 91, 92, 93, 94, 95, 96, 97],
-	// "animation": "hmm2obstacles/ObRgL05.bmp"
+	// "animation": "hmm2obstacles/ObRgL05.png"
 	// },
 	// "hmm2obstacle22A":{   "absolute":true,//"id": 22,
 	// "allowedTerrains": ["rough"],
@@ -1211,7 +1211,7 @@
 	// "height": 212,
 	// "foreground": true,
 	// "blockedTiles":  [73, 74, 75, 76, 77, 78, 79, 90, 91, 92, 93, 94, 95, 96, 97, 106, 107, 108, 109, 110, 111, 112],
-	// "animation": "hmm2obstacles/ObRgL22.bmp"
+	// "animation": "hmm2obstacles/ObRgL22.png"
 	// },
 	//"hmm2obstacle23A":{   "absolute":true,//"id": 23,
 	//	"allowedTerrains": [],
@@ -1220,7 +1220,7 @@
 	//	"height": 264,
 	//	"foreground": false,
 	//              "blockedTiles":  [72, 73, 74, 75, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
-	//	"animation": "hmm2obstacles/ObBhL02.bmp"
+	//	"animation": "hmm2obstacles/ObBhL02.png"
 	//},
 	//"hmm2obstacle24A":{   "absolute":true,//"id": 24,
 	//	"allowedTerrains": [],
@@ -1229,7 +1229,7 @@
 	//	"height": 262,
 	//	"foreground": false,
 	//              "blockedTiles":  [71, 72, 73, 74, 75, 76, 77, 78, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98],
-	//	"animation": "hmm2obstacles/ObBhL03.bmp"
+	//	"animation": "hmm2obstacles/ObBhL03.png"
 	//},
 	//"hmm2obstacle25A":{   "absolute":true,//"id": 25,
 	//	"allowedTerrains": [],
@@ -1238,7 +1238,7 @@
 	//	"height": 257,
 	//	"foreground": false,
 	//              "blockedTiles":  [72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 89, 90, 105, 106],
-	//	"animation": "hmm2obstacles/ObBhL05.bmp"
+	//	"animation": "hmm2obstacles/ObBhL05.png"
 	//},
 	//"hmm2obstacle26A":{   "absolute":true,//"id": 26,
 	//	"allowedTerrains": [],
@@ -1247,7 +1247,7 @@
 	//	"height": 272,
 	//	"foreground": false,
 	//              "blockedTiles":  [73, 91, 108, 109, 110, 111, 112, 113],
-	//		"animation": "hmm2obstacles/ObBhL06.bmp"
+	//		"animation": "hmm2obstacles/ObBhL06.png"
 	//	},
 	//	"hmm2obstacle27A":{   "absolute":true,//"id": 27,
 	//		"allowedTerrains": [],
@@ -1256,7 +1256,7 @@
 	//		"height": 129,
 	//		"foreground": false,
 	//                  "blockedTiles":  [27, 28, 43, 44, 60, 61, 76, 77, 93, 94, 109, 110, 126, 127, 142, 143, 159],
-	//		"animation": "hmm2obstacles/ObBhL14.bmp"
+	//		"animation": "hmm2obstacles/ObBhL14.png"
 	//	},
 	//	"hmm2obstacle28A":{   "absolute":true,//"id": 28,
 	//		"allowedTerrains": [],
@@ -1265,7 +1265,7 @@
 	//		"height": 154,
 	//		"foreground": false,
 	//                  "blockedTiles":  [22, 38, 39, 40, 44, 45, 46, 55, 56, 57, 62, 63, 123, 124, 125, 130, 131, 140, 141, 146, 147, 148],
-	//		"animation": "hmm2obstacles/ObBhL16.bmp"
+	//		"animation": "hmm2obstacles/ObBhL16.png"
 	//	},
 	//	"hmm2obstacle29A":{   "absolute":true,//"id": 29,
 	//		"allowedTerrains": [],
@@ -1274,7 +1274,7 @@
 	//		"height": 264,
 	//		"foreground": false,
 	//                  "blockedTiles":  [76, 77, 92, 93, 94, 95, 109, 110, 111],
-	//		"animation": "hmm2obstacles/ObCFL00.bmp"
+	//		"animation": "hmm2obstacles/ObCFL00.png"
 	//	},
 	// "hmm2obstacle30A":{   "absolute":true,//"id": 30,
 	// "allowedTerrains": [],
@@ -1283,7 +1283,7 @@
 	// "height": 257,
 	// "foreground": false,
 	// "blockedTiles":  [76, 77, 78, 92, 93, 94, 107, 108, 109],
-	// "animation": "hmm2obstacles/ObLPL00.bmp"
+	// "animation": "hmm2obstacles/ObLPL00.png"
 	// },
 	// "hmm2obstacle31A":{   "absolute":true,//"id": 31,
 	// "allowedTerrains": [],
@@ -1292,7 +1292,7 @@
 	// "height": 255,
 	// "foreground": true,
 	// "blockedTiles":  [76, 77, 91, 92, 93, 94, 95, 108, 109, 110, 111],
-	// "animation": "hmm2obstacles/ObFFL00.bmp"
+	// "animation": "hmm2obstacles/ObFFL00.png"
 	// },
 	// "hmm2obstacle32A":{   "absolute":true,//"id": 32,
 	// "allowedTerrains": [],
@@ -1301,7 +1301,7 @@
 	// "height": 218,
 	// "foreground": true,
 	// "blockedTiles":  [60, 61, 75, 76, 77, 91, 92, 93, 94, 95],
-	// "animation": "hmm2obstacles/ObRLL00.bmp"
+	// "animation": "hmm2obstacles/ObRLL00.png"
 	// },
 	//	"hmm2obstacle33A":{   "absolute":true,//"id": 33,
 	//		"allowedTerrains": [],
@@ -1310,6 +1310,6 @@
 	//		"height": 214,
 	//		"foreground": false,
 	//                  "blockedTiles":  [59, 60, 74, 75, 76, 93, 94, 95, 111, 112],
-	//		"animation": "hmm2obstacles/ObMCL00.bmp"
+	//		"animation": "hmm2obstacles/ObMCL00.png"
 	//	}
 }
