@@ -13,6 +13,9 @@
 
 *.txt
 
+# Except for overridden_assets.txt
+!overridden_assets.txt
+
 *.lod
 
 *.zip
