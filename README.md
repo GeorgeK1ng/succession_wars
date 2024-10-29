@@ -44,4 +44,7 @@ To install the H3: The Succession Wars mod for the VCMI platform, follow these s
    > **Note:** Only **Jebus Cross** maps are supported at the moment. Other map types will cause the game to crash!
 
 
+## Sources for installer scripts
 
+The sources can be found here: https://github.com/krs0/PythonScripts
+   > **Note:** 100% made with Chat GPT, use at your own risk!
