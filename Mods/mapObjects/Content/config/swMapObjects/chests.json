@@ -1,7 +1,7 @@
 {
 	"core:treasureChest": {
 		"types": {
-			"swnewChest01": {
+			"treasureChest": {
 				"name": "Chest",
 				"aiValue": 1500,
 				"rmg": {
@@ -37,7 +37,7 @@
 	},
 	"core:seaChest": {
 		"types": {
-			"swSeaChest01": {
+			"seaChest": {
 				"name": "Sea Chest",
 				"aiValue": 1500,
 				"rmg": {
